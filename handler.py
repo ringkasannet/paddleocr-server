@@ -33,8 +33,9 @@ INIT_TIMEOUT   = int(os.environ.get("RUNPOD_INIT_TIMEOUT", "600"))
 os.environ.setdefault("HF_HOME", "/runpod-volume/huggingface-cache")
 os.environ["PYTHONUNBUFFERED"] = "1"
 
-_vllm_proc   = None
-_paddle_proc = None
+_vllm_proc    = None
+_paddle_proc  = None
+_paddle_route = "/ocr-doc-parser"  # updated at init from OpenAPI discovery
 
 
 def _start_vllm():
@@ -101,14 +102,21 @@ def initialize():
     _paddle_proc = _start_paddlex()
     _wait_healthy(f"http://localhost:{PADDLE_PORT}/health", _paddle_proc, "PaddleX", 120)
 
-    # Discover and print all available PaddleX routes
+    # Discover the correct POST route from OpenAPI schema
+    global _paddle_route
     try:
         schema = requests.get(f"http://localhost:{PADDLE_PORT}/openapi.json", timeout=5).json()
-        routes = [f"{m.upper()} {p}" for p, methods in schema.get("paths", {}).items()
-                  for m in methods if m in ("get", "post")]
-        print(f"[init] PaddleX routes available: {routes}")
+        all_routes = list(schema.get("paths", {}).keys())
+        print(f"[init] PaddleX all routes: {all_routes}")
+        post_routes = [p for p, methods in schema.get("paths", {}).items()
+                       if "post" in methods and p != "/"]
+        if post_routes:
+            _paddle_route = post_routes[0]
+            print(f"[init] Using PaddleX route: {_paddle_route}")
+        else:
+            print(f"[init] No POST routes found, defaulting to: {_paddle_route}")
     except Exception as e:
-        print(f"[init] Could not fetch routes: {e}")
+        print(f"[init] Could not fetch routes: {e} — using default: {_paddle_route}")
 
     print("[init] Both services healthy — ready for jobs.")
 
@@ -132,24 +140,40 @@ def handler(job):
     if not image:
         return {"error": "Missing required field: 'image'"}
 
-    payload = {"image": image}
+    payload = {"file": image}  # PaddleX expects "file", not "image"
 
-    # Pass through optional pipeline flags if provided
-    for flag in ("use_layout_detection", "use_doc_preprocessor",
-                 "use_chart_recognition", "use_doc_orientation_classify"):
-        if flag in job_input:
-            payload[flag] = job_input[flag]
+    # Optional flags — PaddleX uses camelCase
+    flag_map = {
+        "useLayoutDetection":        "useLayoutDetection",
+        "useDocOrientationClassify": "useDocOrientationClassify",
+        "useDocUnwarping":           "useDocUnwarping",
+        "useChartRecognition":       "useChartRecognition",
+        "useSealRecognition":        "useSealRecognition",
+        "visualize":                 "visualize",
+    }
+    for key in flag_map:
+        if key in job_input:
+            payload[key] = job_input[key]
 
     try:
+        print(f"[handler] Calling PaddleX at {_paddle_route}")
         resp = requests.post(
-            f"http://localhost:{PADDLE_PORT}/ocr-doc-parser",
+            f"http://localhost:{PADDLE_PORT}{_paddle_route}",
             json=payload,
             timeout=300,
         )
         resp.raise_for_status()
         return resp.json()
     except requests.exceptions.HTTPError as e:
-        return {"error": f"PaddleX HTTP error: {e}", "status_code": resp.status_code}
+        # On 404, fetch and return available routes to help diagnose
+        routes = []
+        try:
+            schema = requests.get(f"http://localhost:{PADDLE_PORT}/openapi.json", timeout=5).json()
+            routes = list(schema.get("paths", {}).keys())
+        except Exception:
+            pass
+        return {"error": f"PaddleX HTTP error: {e}", "status_code": resp.status_code,
+                "available_routes": routes, "tried_route": _paddle_route}
     except requests.exceptions.Timeout:
         return {"error": "PaddleX request timed out after 300s"}
     except Exception as e:
