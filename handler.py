@@ -101,6 +101,15 @@ def initialize():
     _paddle_proc = _start_paddlex()
     _wait_healthy(f"http://localhost:{PADDLE_PORT}/health", _paddle_proc, "PaddleX", 120)
 
+    # Discover and print all available PaddleX routes
+    try:
+        schema = requests.get(f"http://localhost:{PADDLE_PORT}/openapi.json", timeout=5).json()
+        routes = [f"{m.upper()} {p}" for p, methods in schema.get("paths", {}).items()
+                  for m in methods if m in ("get", "post")]
+        print(f"[init] PaddleX routes available: {routes}")
+    except Exception as e:
+        print(f"[init] Could not fetch routes: {e}")
+
     print("[init] Both services healthy — ready for jobs.")
 
 
