@@ -19,9 +19,14 @@ PADDLE_PIP=/paddlex/py310/bin/pip
 
 log() { echo "[setup $(date +%H:%M:%S)] $*"; }
 
-# ── 0. System packages (fast, other tasks need wget) ──────────────
+# ── 0. System packages + model volume ────────────────────────────
 log "System packages..."
-apt-get update -qq && apt-get install -y wget -qq
+apt-get update -qq && apt-get install -y wget curl -qq
+
+# Redirect PaddleX model cache to network volume
+mkdir -p /workspace/models/paddlex /workspace/models/hf_cache
+ln -sfn /workspace/models/paddlex /root/.paddlex
+export HF_HOME=/workspace/models/hf_cache
 
 # ── 1. Parallel phase ─────────────────────────────────────────────
 log "Starting parallel tasks A / B / C..."
@@ -132,12 +137,18 @@ if [ ! -f $WORKSPACE/.venv_gateway/bin/python3 ]; then
   $PADDLE_PY -m venv $WORKSPACE/.venv_gateway
 fi
 $WORKSPACE/.venv_gateway/bin/pip install --upgrade pip -q
-$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir -q \
+
+log "  Installing fastapi + uvicorn + paddlex[serving]..."
+$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir \
   fastapi==0.123.6 uvicorn==0.35.0 "paddlex[serving]>=3.4.0"
-$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir -q \
+
+log "  Installing HPS client requirements..."
+$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir \
   -r $WORKSPACE/hps/client/requirements.txt
+
+log "  Installing paddlex_hps_client wheel..."
 WHL=$(ls $WORKSPACE/hps/client/paddlex_hps_client-*.whl | head -1)
-$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir -q "$WHL"
+$WORKSPACE/.venv_gateway/bin/pip install --no-cache-dir "$WHL"
 log "Gateway venv ready"
 
 # ── 3. numpy fix — MUST BE LAST (flash-attn/vllm may upgrade it) ──

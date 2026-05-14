@@ -23,10 +23,20 @@ GATEWAY_PORT=${GATEWAY_PORT:-8080}
 UVICORN_WORKERS=${UVICORN_WORKERS:-4}
 INIT_TIMEOUT=${INIT_TIMEOUT:-600}
 
+# Kill any existing services before starting
+echo "[start] Stopping existing services..."
+pkill -f "tritonserver|uvicorn|genai_server" 2>/dev/null || true
+sleep 3
+
 export PYTHONUNBUFFERED=1
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
 export HF_HOME=${HF_HOME:-/workspace/models/hf_cache}
 export PADDLEX_HPS_PIPELINE_CONFIG_PATH=/workspace/hps/server/pipeline_config.yaml
+
+# Persist model weights and compile cache to network volume
+mkdir -p /workspace/models/paddlex /workspace/models/hf_cache /workspace/.cache/vllm
+ln -sfn /workspace/models/paddlex /root/.paddlex
+ln -sfn /workspace/.cache/vllm /root/.cache/vllm
 export PADDLEX_HPS_DEVICE_TYPE=gpu
 export LD_LIBRARY_PATH=$TRITON_LIB:${LD_LIBRARY_PATH:-}
 
@@ -34,7 +44,10 @@ wait_healthy() {
     local url=$1 label=$2 timeout=$3
     local deadline=$((SECONDS + timeout))
     while [[ $SECONDS -lt $deadline ]]; do
-        curl -sf "$url" > /dev/null 2>&1 && echo "[start] $label ready." && return 0
+        if wget -qO- "$url" > /dev/null 2>&1; then
+            echo "[start] $label ready."
+            return 0
+        fi
         echo "[start] Waiting for $label... (${SECONDS}s)"
         sleep 10
     done
@@ -44,11 +57,16 @@ wait_healthy() {
 
 # ── 1. vLLM ───────────────────────────────────────────────────
 echo "[start] Starting vLLM (port $VLLM_PORT)..."
+VLLM_CFG=/tmp/vllm_backend.yaml
+cat > "$VLLM_CFG" << 'EOF'
+gpu-memory-utilization: 0.75
+EOF
 $PADDLE_PY -m paddleocr genai_server \
     --model_name "$MODEL_NAME" \
     --backend vllm \
     --host 0.0.0.0 \
     --port "$VLLM_PORT" \
+    --backend_config "$VLLM_CFG" \
     2>&1 | sed -u 's/^/[vllm] /' &
 VLLM_PID=$!
 wait_healthy "http://localhost:$VLLM_PORT/health" "vLLM" "$INIT_TIMEOUT"
