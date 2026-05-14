@@ -6,7 +6,7 @@
 # Run once on a fresh /workspace:
 #   bash /workspace/setup.sh
 # ============================================================
-# ssh root@213.173.98.71 -p 19009 -i ~/.ssh/id_ed25519
+# ssh tuphrdgz8xccvs-64410ed2@ssh.runpod.io -i ~/.ssh/id_ed25519
 # scp -P 19009 /mnt/d/paddleocr/PaddleOCR-main/runpod/hps/setup.sh \
 #   root@213.173.98.71:/workspace/setup.sh
 
@@ -87,7 +87,8 @@ PID_A=$!
   $PADDLE_PIP install -q "matplotlib>=3.9" --upgrade
 
   # paddlex[ocr] extras required for VLM pipeline
-  PADDLEX_VER=$($PADDLE_PY -c "import paddlex; print(paddlex.__version__)")
+  # Use pip show instead of importing paddlex — numpy 2.x breaks the import at this stage
+  PADDLEX_VER=$($PADDLE_PIP show paddlex 2>/dev/null | grep ^Version | awk '{print $2}')
   log "[B] Installing paddlex[ocr]==$PADDLEX_VER..."
   $PADDLE_PIP install -q "paddlex[ocr]==$PADDLEX_VER"
 
