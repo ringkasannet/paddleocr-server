@@ -66,7 +66,6 @@ echo "[start] Starting vLLM (port $VLLM_PORT)..."
 VLLM_CFG=/tmp/vllm_backend.yaml
 cat > "$VLLM_CFG" << 'EOF'
 gpu-memory-utilization: 0.60
-max-num-batched-tokens: 32768
 EOF
 $PADDLE_PY -m paddleocr genai_server \
     --model_name "$MODEL_NAME" \
