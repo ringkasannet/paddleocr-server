@@ -1,22 +1,42 @@
 #!/usr/bin/env bash
 # ============================================================
 # HPS Startup for paddlex3.4-gpu-ready image
-# Python packages pre-installed in image; network volume holds
-# model weights, gateway venv, and HPS SDK.
+# Everything is baked into the image: Python packages, HPS SDK,
+# gateway venv, gateway app, and model weights.
+# Network volume (/workspace) is OPTIONAL — used for vLLM CUDA
+# cache persistence only (saves ~3-5 min on recompile).
 #
 # Run every pod boot:
 #   bash /workspace/paddleocr-server/runpod/hps/start_hps_v2.sh
 # ============================================================
 set -euo pipefail
 
-# ── Paths ─────────────────────────────────────────────────────
+# ── Paths — prefer /workspace overrides, fall back to image defaults ──────────
 PADDLE_PY=/paddlex/py310/bin/python3
 TRITON_BIN=/opt/tritonserver/bin/tritonserver
 TRITON_BACKENDS=/opt/tritonserver/backends
 TRITON_LIB=/opt/tritonserver/lib
-GATEWAY_BIN=/workspace/.venv_gateway/bin/uvicorn
-GATEWAY_APP=/workspace/gateway
-MODEL_REPO=/workspace/hps/server/model_repo
+
+# SDK: workspace copy allows config customisation without rebuilding image
+if [ -d /workspace/hps/server/model_repo ]; then
+    MODEL_REPO=/workspace/hps/server/model_repo
+    PIPELINE_CONFIG=/workspace/hps/server/pipeline_config.yaml
+else
+    MODEL_REPO=/opt/hps/server/model_repo
+    PIPELINE_CONFIG=/opt/hps/server/pipeline_config.yaml
+fi
+
+# Gateway: workspace copy allows hot-patching app.py without rebuilding image
+if [ -f /workspace/.venv_gateway/bin/uvicorn ]; then
+    GATEWAY_BIN=/workspace/.venv_gateway/bin/uvicorn
+else
+    GATEWAY_BIN=/opt/.venv_gateway/bin/uvicorn
+fi
+if [ -d /workspace/gateway ] && [ -f /workspace/gateway/app.py ]; then
+    GATEWAY_APP=/workspace/gateway
+else
+    GATEWAY_APP=/opt/gateway
+fi
 
 # ── Config (override via env vars) ────────────────────────────
 MODEL_NAME=${MODEL_NAME:-PaddleOCR-VL-1.5-0.9B}
@@ -40,29 +60,25 @@ echo "[start] All services stopped."
 # ── Environment ───────────────────────────────────────────────
 export PYTHONUNBUFFERED=1
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
-export HF_HOME=${HF_HOME:-/workspace/models/hf_cache}
-export PADDLEX_HPS_PIPELINE_CONFIG_PATH=/workspace/hps/server/pipeline_config.yaml
+export PADDLEX_HPS_PIPELINE_CONFIG_PATH=$PIPELINE_CONFIG
 export PADDLEX_HPS_DEVICE_TYPE=gpu
 export LD_LIBRARY_PATH=$TRITON_LIB:${LD_LIBRARY_PATH:-}
 
-# ── Persist model weights and compile cache to network volume ─
-mkdir -p /workspace/models/paddlex /workspace/models/hf_cache /workspace/.cache/vllm
-mkdir -p /root/.cache
-ln -sfn /workspace/models/paddlex /root/.paddlex
-ln -sfn /workspace/.cache/vllm /root/.cache/vllm
+# ── Model weights: image has them at /root/.paddlex/official_models/ ──────────
+# Only redirect to network volume if it already has models (legacy setup)
+if [ -d /workspace/models/paddlex ] && [ "$(ls -A /workspace/models/paddlex 2>/dev/null)" ]; then
+    echo "[start] Using model weights from network volume"
+    ln -sfn /workspace/models/paddlex /root/.paddlex
+else
+    echo "[start] Using model weights from image (/root/.paddlex)"
+fi
 
-# ── Bootstrap gateway venv if missing ────────────────────────
-if [ ! -f /workspace/.venv_gateway/bin/uvicorn ]; then
-    echo "[start] Gateway venv missing — bootstrapping..."
-    $PADDLE_PY -m venv /workspace/.venv_gateway
-    /workspace/.venv_gateway/bin/pip install --upgrade pip -q
-    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q \
-        fastapi==0.123.6 uvicorn==0.35.0 "paddlex[serving]>=3.4.0"
-    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q \
-        -r /workspace/hps/client/requirements.txt
-    WHL=$(ls /workspace/hps/client/paddlex_hps_client-*.whl | head -1)
-    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q "$WHL"
-    echo "[start] Gateway venv ready."
+# ── vLLM CUDA cache: persist to network volume if available ──────────────────
+# This avoids ~3-5 min recompile on every pod restart (optional but recommended)
+if [ -d /workspace ] || mkdir -p /workspace 2>/dev/null; then
+    mkdir -p /workspace/.cache/vllm
+    mkdir -p /root/.cache
+    ln -sfn /workspace/.cache/vllm /root/.cache/vllm
 fi
 
 wait_healthy() {
@@ -143,6 +159,8 @@ echo " HPS ready in $((SECONDS - T_TOTAL))s total"
 echo "   Gateway: http://localhost:$GATEWAY_PORT"
 echo "   Triton:  http://localhost:$TRITON_HTTP_PORT"
 echo "   vLLM:    http://localhost:$VLLM_PORT"
+echo "   SDK:     $MODEL_REPO"
+echo "   Gateway: $GATEWAY_APP ($GATEWAY_BIN)"
 echo "============================================"
 
 wait -n $VLLM_PID $TRITON_PID $GATEWAY_PID
