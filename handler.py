@@ -3,17 +3,19 @@ RunPod Serverless handler for PaddleOCR-VL.
 
 Initialization (once per worker):
   - Starts vLLM genai server on port 8118
-  - Starts PaddleX pipeline server on port 8080
-  - Waits until both are healthy before accepting jobs
+  - Waits until vLLM is healthy
+  - Initializes PaddleOCRVL Python pipeline (connects to vLLM)
 
 Handler (once per job):
   - Accepts image as base64 string or URL
-  - Calls PaddleX /ocr-doc-parser endpoint
-  - Returns structured OCR results
+  - Calls PaddleOCRVL.predict() directly (no HTTP server needed)
+  - Returns structured OCR results as JSON
 """
 
 import os
+import base64
 import subprocess
+import tempfile
 import time
 import signal
 import sys
@@ -21,27 +23,20 @@ import requests
 import runpod
 
 # ── Configuration from env vars ───────────────────────────────
-GPU_MEM_UTIL   = os.environ.get("GPU_MEMORY_UTILIZATION", "0.90")
-MODEL_NAME     = os.environ.get("MODEL_NAME", "PaddleOCR-VL-1.5-0.9B")
-VLLM_PORT      = int(os.environ.get("VLLM_PORT", "8118"))
-PADDLE_PORT    = int(os.environ.get("PADDLE_PORT", "8080"))
-PIPELINE_CFG   = os.environ.get("PIPELINE_CONFIG", "/workspace/PaddleOCR-VL.yaml")
-INIT_TIMEOUT   = int(os.environ.get("RUNPOD_INIT_TIMEOUT", "600"))
+GPU_MEM_UTIL = os.environ.get("GPU_MEMORY_UTILIZATION", "0.85")
+MODEL_NAME   = os.environ.get("MODEL_NAME", "PaddleOCR-VL-1.5-0.9B")
+VLLM_PORT    = int(os.environ.get("VLLM_PORT", "8118"))
+INIT_TIMEOUT = int(os.environ.get("RUNPOD_INIT_TIMEOUT", "600"))
 
-# HuggingFace model cache — RunPod model caching stores here
-# Set HF_HOME to /runpod-volume/huggingface-cache for RunPod model caching to work
 os.environ.setdefault("HF_HOME", "/runpod-volume/huggingface-cache")
 os.environ["PYTHONUNBUFFERED"] = "1"
 
-_vllm_proc    = None
-_paddle_proc  = None
-_paddle_route = "/ocr-doc-parser"  # updated at init from OpenAPI discovery
+_vllm_proc = None
+_pipeline  = None
 
 
 def _start_vllm():
-    """Start the vLLM genai server as a subprocess."""
-    # Write backend config to temp file
-    backend_cfg = f"/tmp/vllm_backend.yaml"
+    backend_cfg = "/tmp/vllm_backend.yaml"
     with open(backend_cfg, "w") as f:
         f.write(f"gpu-memory-utilization: {GPU_MEM_UTIL}\n")
 
@@ -57,146 +52,105 @@ def _start_vllm():
     return subprocess.Popen(cmd, stdout=sys.stdout, stderr=sys.stderr)
 
 
-def _start_paddlex():
-    """Start the PaddleX pipeline server as a subprocess."""
-    cmd = [
-        "/workspace/.paddleocr/bin/paddlex",
-        "--serve",
-        "--pipeline", PIPELINE_CFG,
-        "--host",     "0.0.0.0",
-        "--port",     str(PADDLE_PORT),
-    ]
-    print(f"[init] Starting PaddleX: {' '.join(cmd)}")
-    return subprocess.Popen(cmd, stdout=sys.stdout, stderr=sys.stderr)
-
-
-def _wait_healthy(url: str, proc: subprocess.Popen, label: str, timeout: int):
-    """Poll URL until 200 OK or timeout."""
+def _wait_healthy(url, proc, label, timeout):
     deadline = time.time() + timeout
-    interval = 10
     while time.time() < deadline:
         if proc.poll() is not None:
-            raise RuntimeError(f"[init] {label} process exited unexpectedly (code {proc.returncode})")
+            raise RuntimeError(f"[init] {label} exited unexpectedly (code {proc.returncode})")
         try:
-            r = requests.get(url, timeout=5)
-            if r.status_code == 200:
+            if requests.get(url, timeout=5).status_code == 200:
                 print(f"[init] {label} is healthy.")
                 return
         except requests.RequestException:
             pass
         elapsed = int(time.time() - (deadline - timeout))
         print(f"[init] Waiting for {label}... ({elapsed}s)")
-        time.sleep(interval)
+        time.sleep(10)
     raise TimeoutError(f"[init] {label} did not become healthy within {timeout}s")
 
 
 def initialize():
-    """Run once at worker startup before any jobs are accepted."""
-    global _vllm_proc, _paddle_proc
+    global _vllm_proc, _pipeline
 
     print(f"[init] Worker starting | model={MODEL_NAME} | gpu_mem={GPU_MEM_UTIL}")
 
+    # Start vLLM and wait for it
     _vllm_proc = _start_vllm()
     _wait_healthy(f"http://localhost:{VLLM_PORT}/health", _vllm_proc, "vLLM", INIT_TIMEOUT)
 
-    _paddle_proc = _start_paddlex()
-    _wait_healthy(f"http://localhost:{PADDLE_PORT}/health", _paddle_proc, "PaddleX", 120)
-
-    # Discover the correct POST route from OpenAPI schema
-    global _paddle_route
-    try:
-        schema = requests.get(f"http://localhost:{PADDLE_PORT}/openapi.json", timeout=5).json()
-        all_routes = list(schema.get("paths", {}).keys())
-        print(f"[init] PaddleX all routes: {all_routes}")
-        post_routes = [p for p, methods in schema.get("paths", {}).items()
-                       if "post" in methods and p != "/"]
-        if post_routes:
-            _paddle_route = post_routes[0]
-            print(f"[init] Using PaddleX route: {_paddle_route}")
-        else:
-            print(f"[init] No POST routes found, defaulting to: {_paddle_route}")
-    except Exception as e:
-        print(f"[init] Could not fetch routes: {e} — using default: {_paddle_route}")
-
-    print("[init] Both services healthy — ready for jobs.")
+    # Initialize PaddleOCRVL Python pipeline pointing at local vLLM
+    print("[init] Initializing PaddleOCRVL pipeline (loading layout models)...")
+    from paddleocr import PaddleOCRVL
+    _pipeline = PaddleOCRVL(
+        vl_rec_backend="vllm-server",
+        vl_rec_server_url=f"http://localhost:{VLLM_PORT}/v1",
+    )
+    print("[init] PaddleOCRVL pipeline ready — accepting jobs.")
 
 
 def handler(job):
     """
-    Called by RunPod for each job.
-
-    Expected input:
+    Input:
       {
-        "image": "<base64-encoded image OR public URL>",
-        "use_layout_detection": true,    # optional
-        "use_doc_preprocessor": false    # optional
+        "image": "<base64 string OR public URL>",
+        "output_format": "json" | "markdown"   (optional, default: json)
       }
 
-    Returns PaddleX OCR output as JSON.
+    Returns structured OCR result.
     """
     job_input = job.get("input", {})
-
     image = job_input.get("image")
     if not image:
         return {"error": "Missing required field: 'image'"}
 
-    payload = {"file": image}  # PaddleX expects "file", not "image"
+    output_format = job_input.get("output_format", "json")
 
-    # Optional flags — PaddleX uses camelCase
-    flag_map = {
-        "useLayoutDetection":        "useLayoutDetection",
-        "useDocOrientationClassify": "useDocOrientationClassify",
-        "useDocUnwarping":           "useDocUnwarping",
-        "useChartRecognition":       "useChartRecognition",
-        "useSealRecognition":        "useSealRecognition",
-        "visualize":                 "visualize",
-    }
-    for key in flag_map:
-        if key in job_input:
-            payload[key] = job_input[key]
+    # Resolve input: URL passes through, base64 gets written to a temp file
+    tmp_path = None
+    if image.startswith("http://") or image.startswith("https://"):
+        input_path = image
+    else:
+        try:
+            data = base64.b64decode(image)
+        except Exception as e:
+            return {"error": f"Invalid base64 input: {e}"}
+        suffix = ".pdf" if data[:4] == b"%PDF" else ".png"
+        with tempfile.NamedTemporaryFile(delete=False, suffix=suffix) as f:
+            f.write(data)
+            tmp_path = f.name
+        input_path = tmp_path
 
     try:
-        print(f"[handler] Calling PaddleX at {_paddle_route}")
-        resp = requests.post(
-            f"http://localhost:{PADDLE_PORT}{_paddle_route}",
-            json=payload,
-            timeout=300,
-        )
-        resp.raise_for_status()
-        return resp.json()
-    except requests.exceptions.HTTPError as e:
-        # On 404, fetch and return available routes to help diagnose
-        routes = []
-        try:
-            schema = requests.get(f"http://localhost:{PADDLE_PORT}/openapi.json", timeout=5).json()
-            routes = list(schema.get("paths", {}).keys())
-        except Exception:
-            pass
-        return {"error": f"PaddleX HTTP error: {e}", "status_code": resp.status_code,
-                "available_routes": routes, "tried_route": _paddle_route}
-    except requests.exceptions.Timeout:
-        return {"error": "PaddleX request timed out after 300s"}
+        results = []
+        for res in _pipeline.predict(input_path):
+            if output_format == "markdown":
+                results.append({
+                    "page_index": res.json.get("page_index"),
+                    "markdown": res.markdown.get("markdown_texts", ""),
+                })
+            else:
+                results.append(res.json)
+        return results if len(results) > 1 else results[0]
     except Exception as e:
         return {"error": str(e)}
+    finally:
+        if tmp_path:
+            os.unlink(tmp_path)
 
 
 def _cleanup(signum, frame):
-    """Gracefully stop subprocesses on container shutdown."""
-    for proc, name in [(_paddle_proc, "PaddleX"), (_vllm_proc, "vLLM")]:
-        if proc and proc.poll() is None:
-            print(f"[shutdown] Stopping {name}...")
-            proc.terminate()
-            try:
-                proc.wait(timeout=10)
-            except subprocess.TimeoutExpired:
-                proc.kill()
+    if _vllm_proc and _vllm_proc.poll() is None:
+        print("[shutdown] Stopping vLLM...")
+        _vllm_proc.terminate()
+        try:
+            _vllm_proc.wait(timeout=10)
+        except subprocess.TimeoutExpired:
+            _vllm_proc.kill()
     sys.exit(0)
 
 
 signal.signal(signal.SIGTERM, _cleanup)
 signal.signal(signal.SIGINT, _cleanup)
 
-# ── Run initialization then start the RunPod job loop ─────────
 initialize()
-
 runpod.serverless.start({"handler": handler})
