@@ -74,6 +74,11 @@ PID_A=$!
   $PADDLE_PIP install --no-cache-dir -q \
     "https://github.com/mjun0812/flash-attention-prebuild-wheels/releases/download/v0.3.14/flash_attn-2.8.2+cu128torch2.8-cp310-cp310-linux_x86_64.whl"
 
+  # flash-attn upgrades numpy to 2.x which breaks pandas/paddleocr CLI — pin it now
+  # (will be pinned again at the end in case vllm re-upgrades it)
+  log "[B] Pinning numpy after flash-attn..."
+  $PADDLE_PIP install -q "numpy==1.26.4" --force-reinstall --no-deps
+
   # Install paddleocr into /paddlex/py310/ first so we can call its CLI
   log "[B] Installing paddleocr 3.5.0..."
   $PADDLE_PIP install -q paddleocr==3.5.0
