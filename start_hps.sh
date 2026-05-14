@@ -23,10 +23,16 @@ GATEWAY_PORT=${GATEWAY_PORT:-8080}
 UVICORN_WORKERS=${UVICORN_WORKERS:-4}
 INIT_TIMEOUT=${INIT_TIMEOUT:-600}
 
-# Kill any existing services before starting
+# Kill any existing services and wait for them to fully exit
 echo "[start] Stopping existing services..."
 pkill -f "tritonserver|uvicorn|genai_server" 2>/dev/null || true
-sleep 3
+# Wait until all processes are gone (up to 35s for Triton's 30s grace period)
+for i in $(seq 1 35); do
+    pgrep -f "tritonserver|uvicorn|genai_server" > /dev/null 2>&1 || break
+    echo "[start] Waiting for processes to exit... (${i}s)"
+    sleep 1
+done
+echo "[start] All services stopped."
 
 export PYTHONUNBUFFERED=1
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
