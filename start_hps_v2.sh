@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 # ============================================================
-# HPS Startup for paddlex/hps:paddlex3.4-gpu on RunPod
-# Run every pod boot: bash /workspace/start_hps.sh
+# HPS Startup for paddlex3.4-gpu-ready image
+# Python packages pre-installed in image; network volume holds
+# model weights, gateway venv, and HPS SDK.
+#
+# Run every pod boot:
+#   bash /workspace/paddleocr-server/runpod/hps/start_hps_v2.sh
 # ============================================================
 set -euo pipefail
 
@@ -23,10 +27,9 @@ GATEWAY_PORT=${GATEWAY_PORT:-8080}
 UVICORN_WORKERS=${UVICORN_WORKERS:-4}
 INIT_TIMEOUT=${INIT_TIMEOUT:-600}
 
-# Kill any existing services and wait for them to fully exit
+# ── Stop existing services ────────────────────────────────────
 echo "[start] Stopping existing services..."
 pkill -f "tritonserver|uvicorn|genai_server" 2>/dev/null || true
-# Wait until all processes are gone (up to 35s for Triton's 30s grace period)
 for i in $(seq 1 35); do
     pgrep -f "tritonserver|uvicorn|genai_server" > /dev/null 2>&1 || break
     echo "[start] Waiting for processes to exit... (${i}s)"
@@ -34,18 +37,33 @@ for i in $(seq 1 35); do
 done
 echo "[start] All services stopped."
 
+# ── Environment ───────────────────────────────────────────────
 export PYTHONUNBUFFERED=1
 export PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
 export HF_HOME=${HF_HOME:-/workspace/models/hf_cache}
 export PADDLEX_HPS_PIPELINE_CONFIG_PATH=/workspace/hps/server/pipeline_config.yaml
+export PADDLEX_HPS_DEVICE_TYPE=gpu
+export LD_LIBRARY_PATH=$TRITON_LIB:${LD_LIBRARY_PATH:-}
 
-# Persist model weights and compile cache to network volume
+# ── Persist model weights and compile cache to network volume ─
 mkdir -p /workspace/models/paddlex /workspace/models/hf_cache /workspace/.cache/vllm
 mkdir -p /root/.cache
 ln -sfn /workspace/models/paddlex /root/.paddlex
 ln -sfn /workspace/.cache/vllm /root/.cache/vllm
-export PADDLEX_HPS_DEVICE_TYPE=gpu
-export LD_LIBRARY_PATH=$TRITON_LIB:${LD_LIBRARY_PATH:-}
+
+# ── Bootstrap gateway venv if missing ────────────────────────
+if [ ! -f /workspace/.venv_gateway/bin/uvicorn ]; then
+    echo "[start] Gateway venv missing — bootstrapping..."
+    $PADDLE_PY -m venv /workspace/.venv_gateway
+    /workspace/.venv_gateway/bin/pip install --upgrade pip -q
+    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q \
+        fastapi==0.123.6 uvicorn==0.35.0 "paddlex[serving]>=3.4.0"
+    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q \
+        -r /workspace/hps/client/requirements.txt
+    WHL=$(ls /workspace/hps/client/paddlex_hps_client-*.whl | head -1)
+    /workspace/.venv_gateway/bin/pip install --no-cache-dir -q "$WHL"
+    echo "[start] Gateway venv ready."
+fi
 
 wait_healthy() {
     local url=$1 label=$2 timeout=$3
@@ -68,8 +86,7 @@ T_TOTAL=$SECONDS
 # ── 1. vLLM ───────────────────────────────────────────────────
 echo "[start] Starting vLLM (port $VLLM_PORT)..."
 T_VLLM=$SECONDS
-VLLM_CFG=/tmp/vllm_backend.yaml
-cat > "$VLLM_CFG" << 'EOF'
+cat > /tmp/vllm_backend.yaml << 'EOF'
 gpu-memory-utilization: 0.50
 EOF
 $PADDLE_PY -m paddleocr genai_server \
@@ -77,7 +94,7 @@ $PADDLE_PY -m paddleocr genai_server \
     --backend vllm \
     --host 0.0.0.0 \
     --port "$VLLM_PORT" \
-    --backend_config "$VLLM_CFG" \
+    --backend_config /tmp/vllm_backend.yaml \
     2>&1 | sed -u 's/^/[vllm] /' &
 VLLM_PID=$!
 wait_healthy "http://localhost:$VLLM_PORT/health" "vLLM" "$INIT_TIMEOUT"
