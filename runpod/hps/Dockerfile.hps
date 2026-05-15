@@ -50,11 +50,11 @@ RUN /paddlex/py310/bin/python3 -c "import yaml; path='/opt/hps/server/pipeline_c
 
 # Fix missing config.pbtxt and tune Triton batching
 RUN cp /opt/hps/server/model_repo/layout-parsing/config_gpu.pbtxt \
-       /opt/hps/server/model_repo/layout-parsing/config.pbtxt && \
+    /opt/hps/server/model_repo/layout-parsing/config.pbtxt && \
     sed -i 's/max_batch_size: 8/max_batch_size: 16/' \
-      /opt/hps/server/model_repo/layout-parsing/config.pbtxt && \
+    /opt/hps/server/model_repo/layout-parsing/config.pbtxt && \
     sed -i 's/count: 1/count: 2/' \
-      /opt/hps/server/model_repo/layout-parsing/config.pbtxt
+    /opt/hps/server/model_repo/layout-parsing/config.pbtxt
 
 # ── 9. Gateway app + venv ────────────────────────────────────────────────────────
 RUN mkdir -p /opt/gateway && \
@@ -64,9 +64,9 @@ RUN mkdir -p /opt/gateway && \
 RUN /paddlex/py310/bin/python3 -m venv /opt/.venv_gateway && \
     /opt/.venv_gateway/bin/pip install --upgrade pip -q && \
     /opt/.venv_gateway/bin/pip install --no-cache-dir -q \
-        fastapi==0.123.6 uvicorn==0.35.0 "paddlex[serving]>=3.4.0" && \
+    fastapi==0.123.6 uvicorn==0.35.0 "paddlex[serving]>=3.4.0" && \
     /opt/.venv_gateway/bin/pip install --no-cache-dir -q \
-        -r /opt/hps/client/requirements.txt && \
+    -r /opt/hps/client/requirements.txt && \
     WHL=$(ls /opt/hps/client/paddlex_hps_client-*.whl | head -1) && \
     /opt/.venv_gateway/bin/pip install --no-cache-dir -q "$WHL"
 
@@ -85,3 +85,12 @@ RUN /paddlex/py310/bin/python3 -c "import paddleocr; print('paddleocr OK')" && \
     test -f /root/.paddlex/official_models/PaddleOCR-VL/model.safetensors && echo "model weights OK" && \
     test -f /opt/hps/server/pipeline_config.yaml && echo "HPS SDK OK" && \
     test -f /opt/.venv_gateway/bin/uvicorn && echo "gateway venv OK"
+
+# Keep container alive so you can SSH in and run the start script manually.
+# On pod boot, exec:  bash /opt/start_hps.sh
+CMD ["sleep", "infinity"]
+
+# NVIDIA Container Toolkit: mount compute + utility libraries so CUDA works at runtime
+# Placed at the bottom so edits here don't invalidate any build layers above.
+ENV NVIDIA_VISIBLE_DEVICES=all
+ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
