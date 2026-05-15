@@ -1,0 +1,6 @@
+# Only the runpod/ folder contents are needed for the build.
+# This file sits inside runpod/ so Docker's context is already scoped there.
+__pycache__/
+*.pyc
+*.pyo
+.git/

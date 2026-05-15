@@ -1,0 +1,87 @@
+# ============================================================
+# PaddleOCR HPS — Docker Hub image
+#
+# Base: nvcr.io/nvidia/tritonserver:24.09-py3
+#   → Triton 2.51.0 + Python backend + stub already included
+#   → CUDA 12.6, Ubuntu 22.04, Python 3.10
+#
+# Adds: PaddlePaddle + paddleocr + paddlex in /opt/paddle venv
+#       paddlex_hps_server (private package, COPY from local)
+#       HPS SDK model repo at /opt/hps_server/
+#       FastAPI gateway in /opt/gateway venv
+#
+# Build:
+#   # First extract paddlex_hps_server locally (already done):
+#   #   /tmp/paddlex_hps_server → runpod/hps/paddlex_hps_server/
+#   cp -r /tmp/paddlex_hps_server /mnt/d/paddleocr/PaddleOCR-main/runpod/hps/
+#
+#   docker build -f Dockerfile.hub -t <dockerhub-user>/paddleocr-hps:latest .
+#   docker push <dockerhub-user>/paddleocr-hps:latest
+#
+# Use on RunPod:
+#   Container image: <dockerhub-user>/paddleocr-hps:latest
+# ============================================================
+FROM nvcr.io/nvidia/tritonserver:24.09-py3
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV PYTHONUNBUFFERED=1
+ENV PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK=True
+ENV HF_HOME=/workspace/models/hf_cache
+
+USER root
+
+# ── System deps ───────────────────────────────────────────────
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libgl1 libglib2.0-0 libsm6 libxrender1 libxext6 curl wget \
+    && rm -rf /var/lib/apt/lists/*
+
+# ── Paddle venv (Triton backends + vLLM server) ───────────────
+RUN python3 -m venv /opt/paddle
+RUN /opt/paddle/bin/pip install --upgrade pip setuptools wheel -q
+RUN /opt/paddle/bin/pip install --no-cache-dir paddlepaddle-gpu==3.2.1 \
+    -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+RUN /opt/paddle/bin/pip install --no-cache-dir "paddleocr[doc-parser]" paddlex
+
+# ── paddlex_hps_server ────────────────────────────────────────
+# Extracted from ccr.../paddlex/hps:paddlex3.4-gpu image
+# Run locally first: cp -r /tmp/paddlex_hps_server ./paddlex_hps_server
+COPY paddlex_hps_server/ /opt/paddle/lib/python3.10/site-packages/paddlex_hps_server/
+
+# ── HPS SDK (model repo + Python backends) ───────────────────
+RUN wget -q https://paddle-model-ecology.bj.bcebos.com/paddlex/PaddleX3.0/deploy/paddlex_hps/public/sdks/v3.4/paddlex_hps_PaddleOCR-VL-1.5_sdk.tar.gz \
+        -O /tmp/sdk.tar.gz && \
+    tar -xf /tmp/sdk.tar.gz -C /tmp/ && \
+    mkdir -p /opt/hps_server && \
+    cp -r /tmp/paddlex_hps_PaddleOCR-VL-1.5_sdk/server/. /opt/hps_server/ && \
+    rm -rf /tmp/sdk.tar.gz /tmp/paddlex_hps_PaddleOCR-VL-1.5_sdk
+
+# Patch pipeline config: Docker hostname → localhost
+RUN sed -i 's|http://paddleocr-vlm-server:8080/v1|http://localhost:8118/v1|g' \
+    /opt/hps_server/pipeline_config.yaml
+
+# ── Gateway venv ──────────────────────────────────────────────
+RUN python3 -m venv /opt/gateway
+COPY ../../deploy/paddleocr_vl_docker/hps/gateway/ /opt/gateway_app/
+RUN /opt/gateway/bin/pip install --no-cache-dir \
+    -r /opt/gateway_app/requirements.txt \
+    "tritonclient[grpc]"
+
+# Install paddlex_hps_client wheel from SDK if present
+RUN WHL=$(ls /opt/hps_server/../client/paddlex_hps_client-*.whl 2>/dev/null | head -1) && \
+    [ -n "$WHL" ] && /opt/gateway/bin/pip install --no-cache-dir "$WHL" || true
+
+# ── Startup script ────────────────────────────────────────────
+COPY start_hps.sh /start_hps.sh
+RUN chmod +x /start_hps.sh
+
+# ── Service defaults ──────────────────────────────────────────
+ENV MODEL_NAME=PaddleOCR-VL-1.5-0.9B
+ENV GPU_MEMORY_UTILIZATION=0.50
+ENV VLLM_PORT=8118
+ENV TRITON_HTTP_PORT=8000
+ENV TRITON_GRPC_PORT=8001
+ENV GATEWAY_PORT=8080
+
+EXPOSE 8080
+
+CMD ["/bin/bash", "/start_hps.sh"]
