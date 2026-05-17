@@ -1,0 +1,8 @@
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+tests/results/
+*.pdf
+models/

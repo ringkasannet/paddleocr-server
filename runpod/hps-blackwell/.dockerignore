@@ -1,0 +1,5 @@
+models/
+tests/
+*.md
+build.sh
+.gitignore
