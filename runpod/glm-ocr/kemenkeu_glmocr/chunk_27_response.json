@@ -1,0 +1,4547 @@
+{
+  "created": 1779004516,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-794ab42c14d8400789a0d75fb034b",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          376,
+          71,
+          870,
+          102
+        ],
+        "content": "Penghasilan yang seharusnya dipotong atau dipungut;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            71
+          ],
+          [
+            376,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            76
+          ],
+          [
+            784,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          102,
+          870,
+          146
+        ],
+        "content": "b. pemotongan atau pemungutan Pajak Penghasilan atas penghasilan yang diterima oleh bukan subjek pajak;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            102
+          ],
+          [
+            330,
+            146
+          ],
+          [
+            870,
+            146
+          ],
+          [
+            870,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          147,
+          869,
+          177
+        ],
+        "content": "c. pemungutan Pajak Pertambahan Nilai yang lebih besar daripada pajak yang seharusnya dipungut;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            147
+          ],
+          [
+            329,
+            173
+          ],
+          [
+            351,
+            172
+          ],
+          [
+            359,
+            177
+          ],
+          [
+            419,
+            177
+          ],
+          [
+            868,
+            177
+          ],
+          [
+            868,
+            151
+          ],
+          [
+            778,
+            147
+          ],
+          [
+            439,
+            147
+          ],
+          [
+            338,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          178,
+          869,
+          222
+        ],
+        "content": "d. pemungutan Pajak Penjualan atas Barang Mewah yang lebih besar daripada pajak yang seharusnya dipungut; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            178
+          ],
+          [
+            329,
+            222
+          ],
+          [
+            534,
+            222
+          ],
+          [
+            559,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          223,
+          869,
+          252
+        ],
+        "content": "e. pemungutan Bea Meterai yang lebih besar daripada Bea Meterai yang seharusnya dipungut.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            223
+          ],
+          [
+            328,
+            247
+          ],
+          [
+            349,
+            252
+          ],
+          [
+            383,
+            252
+          ],
+          [
+            389,
+            252
+          ],
+          [
+            868,
+            252
+          ],
+          [
+            868,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          253,
+          870,
+          296
+        ],
+        "content": "(2) Kesalahan pemotongan atau pemungutan sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf d dapat berupa:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            253
+          ],
+          [
+            284,
+            296
+          ],
+          [
+            869,
+            296
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          298,
+          869,
+          343
+        ],
+        "content": "a. pemotongan atau pemungutan Pajak Penghasilan yang seharusnya tidak dipotong atau tidak dipungut;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            298
+          ],
+          [
+            328,
+            338
+          ],
+          [
+            344,
+            342
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            868,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          343,
+          868,
+          373
+        ],
+        "content": "b. pemungutan Pajak Pertambahan Nilai yang seharusnya tidak dipungut; atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            343
+          ],
+          [
+            328,
+            372
+          ],
+          [
+            868,
+            372
+          ],
+          [
+            868,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          374,
+          868,
+          403
+        ],
+        "content": "c. pemungutan Pajak Penjualan atas Barang Mewah yang seharusnya tidak dipungut, termasuk:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            374
+          ],
+          [
+            327,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          404,
+          869,
+          464
+        ],
+        "content": "1) diberikan pembebasan atau pengecualian Pajak Penjualan atas Barang Mewah atas impor atau penyerahan Barang Kena Pajak yang tergolong mewah; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            404
+          ],
+          [
+            376,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          464,
+          869,
+          510
+        ],
+        "content": "2) ekspor Barang Kena Pajak yang tergolong mewah yang Pajak Penjualan atas Barang Mewah atas perolehannya telah dibayar.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            500
+          ],
+          [
+            372,
+            510
+          ],
+          [
+            868,
+            510
+          ],
+          [
+            868,
+            464
+          ],
+          [
+            377,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          538,
+          868,
+          629
+        ],
+        "content": "(1) Dalam hal terjadi kesalahan pemotongan atau pemungutan pajak sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Penghasilan, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh pemotong atau pemungut pajak dengan mengajukan permohonan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            538
+          ],
+          [
+            286,
+            629
+          ],
+          [
+            867,
+            629
+          ],
+          [
+            867,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          630,
+          868,
+          705
+        ],
+        "content": "(2) Dalam hal terjadi kesalahan pemungutan sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            630
+          ],
+          [
+            287,
+            704
+          ],
+          [
+            867,
+            704
+          ],
+          [
+            867,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          705,
+          867,
+          779
+        ],
+        "content": "(3) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) telah dikreditkan sebagai Pajak Masukan, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            705
+          ],
+          [
+            281,
+            779
+          ],
+          [
+            867,
+            779
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          780,
+          865,
+          810
+        ],
+        "content": "(4) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) belum:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            780
+          ],
+          [
+            287,
+            810
+          ],
+          [
+            865,
+            810
+          ],
+          [
+            865,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          810,
+          731,
+          826
+        ],
+        "content": "a. dikreditkan sebagai Pajak Masukan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            810
+          ],
+          [
+            324,
+            825
+          ],
+          [
+            731,
+            825
+          ],
+          [
+            731,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          825,
+          680,
+          840
+        ],
+        "content": "b. dibebankan sebagai biaya; dan",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            825
+          ],
+          [
+            327,
+            840
+          ],
+          [
+            679,
+            840
+          ],
+          [
+            679,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          840,
+          743,
+          855
+        ],
+        "content": "c. dikapitalisasi dalam harga perolehan,",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            840
+          ],
+          [
+            327,
+            855
+          ],
+          [
+            742,
+            855
+          ],
+          [
+            742,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          855,
+          867,
+          901
+        ],
+        "content": "dan Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            855
+          ],
+          [
+            326,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          71,
+          872,
+          102
+        ],
+        "content": "dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            71
+          ],
+          [
+            335,
+            102
+          ],
+          [
+            350,
+            102
+          ],
+          [
+            365,
+            102
+          ],
+          [
+            500,
+            102
+          ],
+          [
+            521,
+            102
+          ],
+          [
+            871,
+            102
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          101,
+          872,
+          177
+        ],
+        "content": "(5) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pemungut Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            116
+          ],
+          [
+            287,
+            176
+          ],
+          [
+            872,
+            176
+          ],
+          [
+            867,
+            101
+          ],
+          [
+            793,
+            101
+          ],
+          [
+            788,
+            101
+          ],
+          [
+            709,
+            101
+          ],
+          [
+            684,
+            101
+          ],
+          [
+            292,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          176,
+          871,
+          267
+        ],
+        "content": "(6) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (5) telah diperhitungkan dengan Pajak Keluaran oleh Pemungut Pajak Pertambahan Nilai yang merupakan Pengusaha Kena Pajak, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            176
+          ],
+          [
+            286,
+            262
+          ],
+          [
+            311,
+            267
+          ],
+          [
+            326,
+            267
+          ],
+          [
+            341,
+            267
+          ],
+          [
+            371,
+            267
+          ],
+          [
+            381,
+            267
+          ],
+          [
+            406,
+            267
+          ],
+          [
+            431,
+            267
+          ],
+          [
+            446,
+            267
+          ],
+          [
+            451,
+            267
+          ],
+          [
+            471,
+            267
+          ],
+          [
+            871,
+            267
+          ],
+          [
+            871,
+            181
+          ],
+          [
+            761,
+            176
+          ],
+          [
+            741,
+            176
+          ],
+          [
+            726,
+            176
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          267,
+          871,
+          342
+        ],
+        "content": "(7) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pihak Lain, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh Pihak Lain dengan mengajukan permohonan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            267
+          ],
+          [
+            285,
+            337
+          ],
+          [
+            306,
+            342
+          ],
+          [
+            320,
+            342
+          ],
+          [
+            336,
+            342
+          ],
+          [
+            450,
+            342
+          ],
+          [
+            471,
+            342
+          ],
+          [
+            506,
+            342
+          ],
+          [
+            870,
+            342
+          ],
+          [
+            870,
+            267
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          343,
+          868,
+          407
+        ],
+        "content": "(8) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (7) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            343
+          ],
+          [
+            285,
+            406
+          ],
+          [
+            748,
+            406
+          ],
+          [
+            778,
+            401
+          ],
+          [
+            867,
+            396
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          403,
+          746,
+          418
+        ],
+        "content": "c. dikapitalisasi dalam harga perolehan,",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            403
+          ],
+          [
+            332,
+            417
+          ],
+          [
+            745,
+            417
+          ],
+          [
+            745,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          416,
+          870,
+          493
+        ],
+        "content": "dan Surat Pemberitahuan Masa Pajak Pertambahan Nilai pihak yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            416
+          ],
+          [
+            328,
+            493
+          ],
+          [
+            869,
+            493
+          ],
+          [
+            869,
+            421
+          ],
+          [
+            744,
+            416
+          ],
+          [
+            719,
+            416
+          ],
+          [
+            579,
+            416
+          ],
+          [
+            573,
+            416
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          493,
+          870,
+          583
+        ],
+        "content": "(9) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai terhadap perwakilan negara asing dan badan internasional serta pejabatnya yang dibebaskan dari Pajak Pertambahan Nilai, Pajak Pertambahan Nilai tersebut dapat diminta kembali oleh pihak yang menerima perolehan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            493
+          ],
+          [
+            284,
+            583
+          ],
+          [
+            870,
+            583
+          ],
+          [
+            870,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          583,
+          870,
+          644
+        ],
+        "content": "(10) Dalam hal terjadi kesalahan pemungutan pajak terkait dengan Pajak Penjualan atas Barang Mewah, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali melalui pengajuan permohonan oleh:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            583
+          ],
+          [
+            284,
+            643
+          ],
+          [
+            869,
+            643
+          ],
+          [
+            869,
+            583
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          644,
+          731,
+          660
+        ],
+        "content": "a. pihak yang melakukan penyerahan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            644
+          ],
+          [
+            330,
+            659
+          ],
+          [
+            730,
+            659
+          ],
+          [
+            730,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          660,
+          751,
+          676
+        ],
+        "content": "b. pihak yang menerima perolehan; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            660
+          ],
+          [
+            330,
+            675
+          ],
+          [
+            750,
+            675
+          ],
+          [
+            750,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          676,
+          865,
+          718
+        ],
+        "content": "c. pihak yang melakukan ekspor,\n\nsesuai dengan ketentuan peraturan perundang-\n\nundangan di bidang perpajakan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            676
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            865,
+            718
+          ],
+          [
+            865,
+            690
+          ],
+          [
+            795,
+            681
+          ],
+          [
+            775,
+            676
+          ],
+          [
+            765,
+            676
+          ],
+          [
+            755,
+            676
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          719,
+          869,
+          763
+        ],
+        "content": "(11) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            749
+          ],
+          [
+            287,
+            763
+          ],
+          [
+            868,
+            763
+          ],
+          [
+            868,
+            719
+          ],
+          [
+            287,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          765,
+          868,
+          794
+        ],
+        "content": "a. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            765
+          ],
+          [
+            328,
+            794
+          ],
+          [
+            867,
+            794
+          ],
+          [
+            867,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          795,
+          869,
+          824
+        ],
+        "content": "b. tidak dapat melakukan pembetulan Surat Pemberitahuan,",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            795
+          ],
+          [
+            330,
+            823
+          ],
+          [
+            868,
+            823
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          825,
+          867,
+          854
+        ],
+        "content": "permohonan diajukan oleh pihak yang dipotong atau dipungut.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            825
+          ],
+          [
+            328,
+            853
+          ],
+          [
+            867,
+            853
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          855,
+          870,
+          901
+        ],
+        "content": "(12) Surat Pemberitahuan yang tidak dapat dibetulkan sebagaimana dimaksud pada ayat (4), ayat (8), dan ayat (11) meliputi:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            855
+          ],
+          [
+            282,
+            900
+          ],
+          [
+            869,
+            900
+          ],
+          [
+            869,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          101
+        ],
+        "content": "a. Surat Pemberitahuan telah dilakukan tindakan Pemeriksaan; dan",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            101
+          ],
+          [
+            870,
+            101
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          101,
+          872,
+          178
+        ],
+        "content": "b. Surat Pemberitahuan rugi atau lebih bayar yang disampaikan melebihi jangka waktu 2 (dua) tahun sebelum daluwarsa penetapan sebagaimana diatur dalam Pasal 8 ayat (1a) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            101
+          ],
+          [
+            336,
+            177
+          ],
+          [
+            355,
+            177
+          ],
+          [
+            376,
+            177
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            871,
+            106
+          ],
+          [
+            847,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          192,
+          626,
+          206
+        ],
+        "content": "## Pasal 131",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            192
+          ],
+          [
+            528,
+            205
+          ],
+          [
+            625,
+            205
+          ],
+          [
+            625,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          206,
+          870,
+          252
+        ],
+        "content": "(1) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 diajukan secara tertulis atau secara elektronik dalam bahasa Indonesia.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            206
+          ],
+          [
+            285,
+            251
+          ],
+          [
+            870,
+            251
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            751,
+            206
+          ],
+          [
+            705,
+            206
+          ],
+          [
+            695,
+            206
+          ],
+          [
+            660,
+            206
+          ],
+          [
+            645,
+            206
+          ],
+          [
+            585,
+            206
+          ],
+          [
+            535,
+            206
+          ],
+          [
+            520,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          253,
+          870,
+          341
+        ],
+        "content": "(2) Permohonan pengembalian yang diajukan oleh pemotong atau pemungut pajak sebagaimana dimaksud dalam Pasal 130 ayat (1) dan pihak yang dipotong atau dipungut sebagaimana dimaksud dalam Pasal 130 ayat (11) harus dilampiri dengan dokumen berupa:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            253
+          ],
+          [
+            290,
+            341
+          ],
+          [
+            870,
+            341
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          343,
+          870,
+          372
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            343
+          ],
+          [
+            330,
+            372
+          ],
+          [
+            869,
+            372
+          ],
+          [
+            869,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          373,
+          870,
+          417
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            373
+          ],
+          [
+            329,
+            417
+          ],
+          [
+            869,
+            417
+          ],
+          [
+            869,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          418,
+          869,
+          463
+        ],
+        "content": "c. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            418
+          ],
+          [
+            329,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          463,
+          868,
+          508
+        ],
+        "content": "d. surat kuasa dari pihak yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            463
+          ],
+          [
+            328,
+            508
+          ],
+          [
+            868,
+            508
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          508,
+          870,
+          628
+        ],
+        "content": "e. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri, dalam hal kesalahan pemotongan pemungutan dilakukan terhadap subjek pajak luar negeri.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            508
+          ],
+          [
+            327,
+            623
+          ],
+          [
+            342,
+            627
+          ],
+          [
+            869,
+            627
+          ],
+          [
+            869,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          628,
+          869,
+          688
+        ],
+        "content": "(3) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), ayat (9), dan ayat (10) harus dilampiri dengan dokumen berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            628
+          ],
+          [
+            283,
+            688
+          ],
+          [
+            868,
+            688
+          ],
+          [
+            868,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          689,
+          868,
+          718
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            689
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          719,
+          868,
+          764
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            719
+          ],
+          [
+            328,
+            763
+          ],
+          [
+            868,
+            763
+          ],
+          [
+            868,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          765,
+          870,
+          838
+        ],
+        "content": "c. Faktur Pajak atau dokumen tertentu yang dipersamakan dengan Faktur Pajak yang merupakan bukti pemungutan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            765
+          ],
+          [
+            328,
+            838
+          ],
+          [
+            869,
+            838
+          ],
+          [
+            869,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          838,
+          868,
+          869
+        ],
+        "content": "d. dokumen ekspor dalam hal ekspor Barang Kena Pajak yang tergolong mewah; dan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            838
+          ],
+          [
+            328,
+            868
+          ],
+          [
+            867,
+            868
+          ],
+          [
+            867,
+            838
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          870,
+          870,
+          915
+        ],
+        "content": "e. dokumen lain sesuai dengan peraturan Menteri yang mengatur mengenai pembebasan Pajak Pertambahan Nilai dan/atau Pajak Penjualan atas",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            870
+          ],
+          [
+            328,
+            914
+          ],
+          [
+            869,
+            914
+          ],
+          [
+            869,
+            870
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          71,
+          869,
+          116
+        ],
+        "content": "Barang Mewah, tidak dipungut Pajak Pertambahan Nilai atau pengecualian Pajak Penjualan atas Barang Mewah.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            71
+          ],
+          [
+            375,
+            116
+          ],
+          [
+            868,
+            116
+          ],
+          [
+            868,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          116,
+          870,
+          192
+        ],
+        "content": "(4) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (2) dan ayat (3) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            116
+          ],
+          [
+            284,
+            191
+          ],
+          [
+            869,
+            191
+          ],
+          [
+            869,
+            122
+          ],
+          [
+            819,
+            116
+          ],
+          [
+            810,
+            116
+          ],
+          [
+            804,
+            116
+          ],
+          [
+            754,
+            116
+          ],
+          [
+            720,
+            116
+          ],
+          [
+            714,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          192,
+          870,
+          267
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            192
+          ],
+          [
+            284,
+            267
+          ],
+          [
+            869,
+            267
+          ],
+          [
+            869,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          282,
+          627,
+          296
+        ],
+        "content": "## Pasal 132",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            282
+          ],
+          [
+            527,
+            296
+          ],
+          [
+            627,
+            296
+          ],
+          [
+            627,
+            282
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          296,
+          867,
+          343
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 131.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            296
+          ],
+          [
+            284,
+            343
+          ],
+          [
+            866,
+            343
+          ],
+          [
+            866,
+            301
+          ],
+          [
+            811,
+            296
+          ],
+          [
+            676,
+            296
+          ],
+          [
+            575,
+            296
+          ],
+          [
+            555,
+            296
+          ],
+          [
+            514,
+            296
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          343,
+          867,
+          388
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            343
+          ],
+          [
+            284,
+            382
+          ],
+          [
+            299,
+            387
+          ],
+          [
+            867,
+            387
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          388,
+          868,
+          448
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian terkait dengan pemotongan atau pemungutan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 130 ayat (1) dan ayat (11) diberikan dalam hal memenuhi ketentuan:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            388
+          ],
+          [
+            284,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          449,
+          868,
+          478
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            449
+          ],
+          [
+            329,
+            477
+          ],
+          [
+            867,
+            477
+          ],
+          [
+            867,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          478,
+          869,
+          584
+        ],
+        "content": "b. dalam hal pajak yang telah disetor sebagaimana dimaksud dalam huruf a terkait dengan pemotongan atau pemungutan Pajak Penghasilan yang bersifat tidak final, Pajak Penghasilan tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak yang dipotong atau dipungut;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            478
+          ],
+          [
+            328,
+            583
+          ],
+          [
+            868,
+            583
+          ],
+          [
+            868,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          584,
+          868,
+          644
+        ],
+        "content": "c. pajak yang dipotong atau dipungut telah dilaporkan oleh pemotong atau pemungut pajak dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            584
+          ],
+          [
+            328,
+            643
+          ],
+          [
+            868,
+            643
+          ],
+          [
+            868,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          644,
+          869,
+          718
+        ],
+        "content": "d. pajak yang dipotong atau dipungut tidak diajukan keberatan oleh Wajib Pajak yang dipotong atau dipungut sebagaimana diatur dalam Pasal 25 ayat (1) huruf e Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            644
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          719,
+          870,
+          838
+        ],
+        "content": "e. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri dan tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri dalam hal pihak yang dipotong atau dipungut subjek pajak luar negeri.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            719
+          ],
+          [
+            325,
+            838
+          ],
+          [
+            869,
+            838
+          ],
+          [
+            869,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          839,
+          869,
+          901
+        ],
+        "content": "(4) Hasil penelitian berupa pengembalian terkait dengan pemungutan Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), dan ayat (9) diberikan dalam hal:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            839
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            839
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          376,
+          71,
+          870,
+          102
+        ],
+        "content": "Penghasilan yang seharusnya dipotong atau dipungut;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            71
+          ],
+          [
+            376,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            76
+          ],
+          [
+            784,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          102,
+          870,
+          146
+        ],
+        "content": "b. pemotongan atau pemungutan Pajak Penghasilan atas penghasilan yang diterima oleh bukan subjek pajak;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            102
+          ],
+          [
+            330,
+            146
+          ],
+          [
+            870,
+            146
+          ],
+          [
+            870,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          147,
+          869,
+          177
+        ],
+        "content": "c. pemungutan Pajak Pertambahan Nilai yang lebih besar daripada pajak yang seharusnya dipungut;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            147
+          ],
+          [
+            329,
+            173
+          ],
+          [
+            351,
+            172
+          ],
+          [
+            359,
+            177
+          ],
+          [
+            419,
+            177
+          ],
+          [
+            868,
+            177
+          ],
+          [
+            868,
+            151
+          ],
+          [
+            778,
+            147
+          ],
+          [
+            439,
+            147
+          ],
+          [
+            338,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          178,
+          869,
+          222
+        ],
+        "content": "d. pemungutan Pajak Penjualan atas Barang Mewah yang lebih besar daripada pajak yang seharusnya dipungut; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            178
+          ],
+          [
+            329,
+            222
+          ],
+          [
+            534,
+            222
+          ],
+          [
+            559,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          223,
+          869,
+          252
+        ],
+        "content": "e. pemungutan Bea Meterai yang lebih besar daripada Bea Meterai yang seharusnya dipungut.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            223
+          ],
+          [
+            328,
+            247
+          ],
+          [
+            349,
+            252
+          ],
+          [
+            383,
+            252
+          ],
+          [
+            389,
+            252
+          ],
+          [
+            868,
+            252
+          ],
+          [
+            868,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          253,
+          870,
+          296
+        ],
+        "content": "(2) Kesalahan pemotongan atau pemungutan sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf d dapat berupa:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            253
+          ],
+          [
+            284,
+            296
+          ],
+          [
+            869,
+            296
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          298,
+          869,
+          343
+        ],
+        "content": "a. pemotongan atau pemungutan Pajak Penghasilan yang seharusnya tidak dipotong atau tidak dipungut;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            298
+          ],
+          [
+            328,
+            338
+          ],
+          [
+            344,
+            342
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            868,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          343,
+          868,
+          373
+        ],
+        "content": "b. pemungutan Pajak Pertambahan Nilai yang seharusnya tidak dipungut; atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            343
+          ],
+          [
+            328,
+            372
+          ],
+          [
+            868,
+            372
+          ],
+          [
+            868,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          374,
+          868,
+          403
+        ],
+        "content": "c. pemungutan Pajak Penjualan atas Barang Mewah yang seharusnya tidak dipungut, termasuk:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            374
+          ],
+          [
+            327,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          404,
+          869,
+          464
+        ],
+        "content": "1) diberikan pembebasan atau pengecualian Pajak Penjualan atas Barang Mewah atas impor atau penyerahan Barang Kena Pajak yang tergolong mewah; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            404
+          ],
+          [
+            376,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          464,
+          869,
+          510
+        ],
+        "content": "2) ekspor Barang Kena Pajak yang tergolong mewah yang Pajak Penjualan atas Barang Mewah atas perolehannya telah dibayar.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            500
+          ],
+          [
+            372,
+            510
+          ],
+          [
+            868,
+            510
+          ],
+          [
+            868,
+            464
+          ],
+          [
+            377,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          538,
+          868,
+          629
+        ],
+        "content": "(1) Dalam hal terjadi kesalahan pemotongan atau pemungutan pajak sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Penghasilan, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh pemotong atau pemungut pajak dengan mengajukan permohonan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            538
+          ],
+          [
+            286,
+            629
+          ],
+          [
+            867,
+            629
+          ],
+          [
+            867,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          630,
+          868,
+          705
+        ],
+        "content": "(2) Dalam hal terjadi kesalahan pemungutan sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            630
+          ],
+          [
+            287,
+            704
+          ],
+          [
+            867,
+            704
+          ],
+          [
+            867,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          705,
+          867,
+          779
+        ],
+        "content": "(3) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) telah dikreditkan sebagai Pajak Masukan, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            705
+          ],
+          [
+            281,
+            779
+          ],
+          [
+            867,
+            779
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          780,
+          865,
+          810
+        ],
+        "content": "(4) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) belum:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            780
+          ],
+          [
+            287,
+            810
+          ],
+          [
+            865,
+            810
+          ],
+          [
+            865,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          810,
+          731,
+          826
+        ],
+        "content": "a. dikreditkan sebagai Pajak Masukan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            810
+          ],
+          [
+            324,
+            825
+          ],
+          [
+            731,
+            825
+          ],
+          [
+            731,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          825,
+          680,
+          840
+        ],
+        "content": "b. dibebankan sebagai biaya; dan",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            825
+          ],
+          [
+            327,
+            840
+          ],
+          [
+            679,
+            840
+          ],
+          [
+            679,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          840,
+          743,
+          855
+        ],
+        "content": "c. dikapitalisasi dalam harga perolehan,",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            840
+          ],
+          [
+            327,
+            855
+          ],
+          [
+            742,
+            855
+          ],
+          [
+            742,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          855,
+          867,
+          901
+        ],
+        "content": "dan Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            855
+          ],
+          [
+            326,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          71,
+          872,
+          102
+        ],
+        "content": "dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            71
+          ],
+          [
+            335,
+            102
+          ],
+          [
+            350,
+            102
+          ],
+          [
+            365,
+            102
+          ],
+          [
+            500,
+            102
+          ],
+          [
+            521,
+            102
+          ],
+          [
+            871,
+            102
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          101,
+          872,
+          177
+        ],
+        "content": "(5) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pemungut Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            116
+          ],
+          [
+            287,
+            176
+          ],
+          [
+            872,
+            176
+          ],
+          [
+            867,
+            101
+          ],
+          [
+            793,
+            101
+          ],
+          [
+            788,
+            101
+          ],
+          [
+            709,
+            101
+          ],
+          [
+            684,
+            101
+          ],
+          [
+            292,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          176,
+          871,
+          267
+        ],
+        "content": "(6) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (5) telah diperhitungkan dengan Pajak Keluaran oleh Pemungut Pajak Pertambahan Nilai yang merupakan Pengusaha Kena Pajak, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            176
+          ],
+          [
+            286,
+            262
+          ],
+          [
+            311,
+            267
+          ],
+          [
+            326,
+            267
+          ],
+          [
+            341,
+            267
+          ],
+          [
+            371,
+            267
+          ],
+          [
+            381,
+            267
+          ],
+          [
+            406,
+            267
+          ],
+          [
+            431,
+            267
+          ],
+          [
+            446,
+            267
+          ],
+          [
+            451,
+            267
+          ],
+          [
+            471,
+            267
+          ],
+          [
+            871,
+            267
+          ],
+          [
+            871,
+            181
+          ],
+          [
+            761,
+            176
+          ],
+          [
+            741,
+            176
+          ],
+          [
+            726,
+            176
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          267,
+          871,
+          342
+        ],
+        "content": "(7) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pihak Lain, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh Pihak Lain dengan mengajukan permohonan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            267
+          ],
+          [
+            285,
+            337
+          ],
+          [
+            306,
+            342
+          ],
+          [
+            320,
+            342
+          ],
+          [
+            336,
+            342
+          ],
+          [
+            450,
+            342
+          ],
+          [
+            471,
+            342
+          ],
+          [
+            506,
+            342
+          ],
+          [
+            870,
+            342
+          ],
+          [
+            870,
+            267
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          343,
+          868,
+          407
+        ],
+        "content": "(8) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (7) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            343
+          ],
+          [
+            285,
+            406
+          ],
+          [
+            748,
+            406
+          ],
+          [
+            778,
+            401
+          ],
+          [
+            867,
+            396
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          403,
+          746,
+          418
+        ],
+        "content": "c. dikapitalisasi dalam harga perolehan,",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            403
+          ],
+          [
+            332,
+            417
+          ],
+          [
+            745,
+            417
+          ],
+          [
+            745,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          416,
+          870,
+          493
+        ],
+        "content": "dan Surat Pemberitahuan Masa Pajak Pertambahan Nilai pihak yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            416
+          ],
+          [
+            328,
+            493
+          ],
+          [
+            869,
+            493
+          ],
+          [
+            869,
+            421
+          ],
+          [
+            744,
+            416
+          ],
+          [
+            719,
+            416
+          ],
+          [
+            579,
+            416
+          ],
+          [
+            573,
+            416
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          493,
+          870,
+          583
+        ],
+        "content": "(9) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai terhadap perwakilan negara asing dan badan internasional serta pejabatnya yang dibebaskan dari Pajak Pertambahan Nilai, Pajak Pertambahan Nilai tersebut dapat diminta kembali oleh pihak yang menerima perolehan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            493
+          ],
+          [
+            284,
+            583
+          ],
+          [
+            870,
+            583
+          ],
+          [
+            870,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          583,
+          870,
+          644
+        ],
+        "content": "(10) Dalam hal terjadi kesalahan pemungutan pajak terkait dengan Pajak Penjualan atas Barang Mewah, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali melalui pengajuan permohonan oleh:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            583
+          ],
+          [
+            284,
+            643
+          ],
+          [
+            869,
+            643
+          ],
+          [
+            869,
+            583
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          644,
+          731,
+          660
+        ],
+        "content": "a. pihak yang melakukan penyerahan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            644
+          ],
+          [
+            330,
+            659
+          ],
+          [
+            730,
+            659
+          ],
+          [
+            730,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          660,
+          751,
+          676
+        ],
+        "content": "b. pihak yang menerima perolehan; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            660
+          ],
+          [
+            330,
+            675
+          ],
+          [
+            750,
+            675
+          ],
+          [
+            750,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          676,
+          865,
+          718
+        ],
+        "content": "c. pihak yang melakukan ekspor,\n\nsesuai dengan ketentuan peraturan perundang-\n\nundangan di bidang perpajakan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            676
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            865,
+            718
+          ],
+          [
+            865,
+            690
+          ],
+          [
+            795,
+            681
+          ],
+          [
+            775,
+            676
+          ],
+          [
+            765,
+            676
+          ],
+          [
+            755,
+            676
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          719,
+          869,
+          763
+        ],
+        "content": "(11) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            749
+          ],
+          [
+            287,
+            763
+          ],
+          [
+            868,
+            763
+          ],
+          [
+            868,
+            719
+          ],
+          [
+            287,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          765,
+          868,
+          794
+        ],
+        "content": "a. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            765
+          ],
+          [
+            328,
+            794
+          ],
+          [
+            867,
+            794
+          ],
+          [
+            867,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          795,
+          869,
+          824
+        ],
+        "content": "b. tidak dapat melakukan pembetulan Surat Pemberitahuan,",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            795
+          ],
+          [
+            330,
+            823
+          ],
+          [
+            868,
+            823
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          825,
+          867,
+          854
+        ],
+        "content": "permohonan diajukan oleh pihak yang dipotong atau dipungut.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            825
+          ],
+          [
+            328,
+            853
+          ],
+          [
+            867,
+            853
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          855,
+          870,
+          901
+        ],
+        "content": "(12) Surat Pemberitahuan yang tidak dapat dibetulkan sebagaimana dimaksud pada ayat (4), ayat (8), dan ayat (11) meliputi:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            855
+          ],
+          [
+            282,
+            900
+          ],
+          [
+            869,
+            900
+          ],
+          [
+            869,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          101
+        ],
+        "content": "a. Surat Pemberitahuan telah dilakukan tindakan Pemeriksaan; dan",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            101
+          ],
+          [
+            870,
+            101
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          101,
+          872,
+          178
+        ],
+        "content": "b. Surat Pemberitahuan rugi atau lebih bayar yang disampaikan melebihi jangka waktu 2 (dua) tahun sebelum daluwarsa penetapan sebagaimana diatur dalam Pasal 8 ayat (1a) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            101
+          ],
+          [
+            336,
+            177
+          ],
+          [
+            355,
+            177
+          ],
+          [
+            376,
+            177
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            871,
+            106
+          ],
+          [
+            847,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          192,
+          626,
+          206
+        ],
+        "content": "## Pasal 131",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            192
+          ],
+          [
+            528,
+            205
+          ],
+          [
+            625,
+            205
+          ],
+          [
+            625,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          206,
+          870,
+          252
+        ],
+        "content": "(1) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 diajukan secara tertulis atau secara elektronik dalam bahasa Indonesia.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            206
+          ],
+          [
+            285,
+            251
+          ],
+          [
+            870,
+            251
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            751,
+            206
+          ],
+          [
+            705,
+            206
+          ],
+          [
+            695,
+            206
+          ],
+          [
+            660,
+            206
+          ],
+          [
+            645,
+            206
+          ],
+          [
+            585,
+            206
+          ],
+          [
+            535,
+            206
+          ],
+          [
+            520,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          253,
+          870,
+          341
+        ],
+        "content": "(2) Permohonan pengembalian yang diajukan oleh pemotong atau pemungut pajak sebagaimana dimaksud dalam Pasal 130 ayat (1) dan pihak yang dipotong atau dipungut sebagaimana dimaksud dalam Pasal 130 ayat (11) harus dilampiri dengan dokumen berupa:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            253
+          ],
+          [
+            290,
+            341
+          ],
+          [
+            870,
+            341
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          343,
+          870,
+          372
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            343
+          ],
+          [
+            330,
+            372
+          ],
+          [
+            869,
+            372
+          ],
+          [
+            869,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          373,
+          870,
+          417
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            373
+          ],
+          [
+            329,
+            417
+          ],
+          [
+            869,
+            417
+          ],
+          [
+            869,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          418,
+          869,
+          463
+        ],
+        "content": "c. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            418
+          ],
+          [
+            329,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          463,
+          868,
+          508
+        ],
+        "content": "d. surat kuasa dari pihak yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            463
+          ],
+          [
+            328,
+            508
+          ],
+          [
+            868,
+            508
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          508,
+          870,
+          628
+        ],
+        "content": "e. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri, dalam hal kesalahan pemotongan pemungutan dilakukan terhadap subjek pajak luar negeri.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            508
+          ],
+          [
+            327,
+            623
+          ],
+          [
+            342,
+            627
+          ],
+          [
+            869,
+            627
+          ],
+          [
+            869,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          628,
+          869,
+          688
+        ],
+        "content": "(3) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), ayat (9), dan ayat (10) harus dilampiri dengan dokumen berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            628
+          ],
+          [
+            283,
+            688
+          ],
+          [
+            868,
+            688
+          ],
+          [
+            868,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          689,
+          868,
+          718
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            689
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          719,
+          868,
+          764
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            719
+          ],
+          [
+            328,
+            763
+          ],
+          [
+            868,
+            763
+          ],
+          [
+            868,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          765,
+          870,
+          838
+        ],
+        "content": "c. Faktur Pajak atau dokumen tertentu yang dipersamakan dengan Faktur Pajak yang merupakan bukti pemungutan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            765
+          ],
+          [
+            328,
+            838
+          ],
+          [
+            869,
+            838
+          ],
+          [
+            869,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          838,
+          868,
+          869
+        ],
+        "content": "d. dokumen ekspor dalam hal ekspor Barang Kena Pajak yang tergolong mewah; dan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            838
+          ],
+          [
+            328,
+            868
+          ],
+          [
+            867,
+            868
+          ],
+          [
+            867,
+            838
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          870,
+          870,
+          915
+        ],
+        "content": "e. dokumen lain sesuai dengan peraturan Menteri yang mengatur mengenai pembebasan Pajak Pertambahan Nilai dan/atau Pajak Penjualan atas",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            870
+          ],
+          [
+            328,
+            914
+          ],
+          [
+            869,
+            914
+          ],
+          [
+            869,
+            870
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          71,
+          869,
+          116
+        ],
+        "content": "Barang Mewah, tidak dipungut Pajak Pertambahan Nilai atau pengecualian Pajak Penjualan atas Barang Mewah.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            71
+          ],
+          [
+            375,
+            116
+          ],
+          [
+            868,
+            116
+          ],
+          [
+            868,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          116,
+          870,
+          192
+        ],
+        "content": "(4) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (2) dan ayat (3) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            116
+          ],
+          [
+            284,
+            191
+          ],
+          [
+            869,
+            191
+          ],
+          [
+            869,
+            122
+          ],
+          [
+            819,
+            116
+          ],
+          [
+            810,
+            116
+          ],
+          [
+            804,
+            116
+          ],
+          [
+            754,
+            116
+          ],
+          [
+            720,
+            116
+          ],
+          [
+            714,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          192,
+          870,
+          267
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            192
+          ],
+          [
+            284,
+            267
+          ],
+          [
+            869,
+            267
+          ],
+          [
+            869,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          282,
+          627,
+          296
+        ],
+        "content": "## Pasal 132",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            282
+          ],
+          [
+            527,
+            296
+          ],
+          [
+            627,
+            296
+          ],
+          [
+            627,
+            282
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          296,
+          867,
+          343
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 131.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            296
+          ],
+          [
+            284,
+            343
+          ],
+          [
+            866,
+            343
+          ],
+          [
+            866,
+            301
+          ],
+          [
+            811,
+            296
+          ],
+          [
+            676,
+            296
+          ],
+          [
+            575,
+            296
+          ],
+          [
+            555,
+            296
+          ],
+          [
+            514,
+            296
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          343,
+          867,
+          388
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            343
+          ],
+          [
+            284,
+            382
+          ],
+          [
+            299,
+            387
+          ],
+          [
+            867,
+            387
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          388,
+          868,
+          448
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian terkait dengan pemotongan atau pemungutan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 130 ayat (1) dan ayat (11) diberikan dalam hal memenuhi ketentuan:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            388
+          ],
+          [
+            284,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          449,
+          868,
+          478
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            449
+          ],
+          [
+            329,
+            477
+          ],
+          [
+            867,
+            477
+          ],
+          [
+            867,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          478,
+          869,
+          584
+        ],
+        "content": "b. dalam hal pajak yang telah disetor sebagaimana dimaksud dalam huruf a terkait dengan pemotongan atau pemungutan Pajak Penghasilan yang bersifat tidak final, Pajak Penghasilan tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak yang dipotong atau dipungut;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            478
+          ],
+          [
+            328,
+            583
+          ],
+          [
+            868,
+            583
+          ],
+          [
+            868,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          584,
+          868,
+          644
+        ],
+        "content": "c. pajak yang dipotong atau dipungut telah dilaporkan oleh pemotong atau pemungut pajak dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            584
+          ],
+          [
+            328,
+            643
+          ],
+          [
+            868,
+            643
+          ],
+          [
+            868,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          644,
+          869,
+          718
+        ],
+        "content": "d. pajak yang dipotong atau dipungut tidak diajukan keberatan oleh Wajib Pajak yang dipotong atau dipungut sebagaimana diatur dalam Pasal 25 ayat (1) huruf e Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            644
+          ],
+          [
+            328,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          719,
+          870,
+          838
+        ],
+        "content": "e. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri dan tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri dalam hal pihak yang dipotong atau dipungut subjek pajak luar negeri.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            719
+          ],
+          [
+            325,
+            838
+          ],
+          [
+            869,
+            838
+          ],
+          [
+            869,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          839,
+          869,
+          901
+        ],
+        "content": "(4) Hasil penelitian berupa pengembalian terkait dengan pemungutan Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), dan ayat (9) diberikan dalam hal:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            839
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            839
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "Penghasilan yang seharusnya dipotong atau dipungut;\n\nb. pemotongan atau pemungutan Pajak Penghasilan atas penghasilan yang diterima oleh bukan subjek pajak;\n\nc. pemungutan Pajak Pertambahan Nilai yang lebih besar daripada pajak yang seharusnya dipungut;\n\nd. pemungutan Pajak Penjualan atas Barang Mewah yang lebih besar daripada pajak yang seharusnya dipungut; atau\n\ne. pemungutan Bea Meterai yang lebih besar daripada Bea Meterai yang seharusnya dipungut.\n\n(2) Kesalahan pemotongan atau pemungutan sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf d dapat berupa:\n\na. pemotongan atau pemungutan Pajak Penghasilan yang seharusnya tidak dipotong atau tidak dipungut;\n\nb. pemungutan Pajak Pertambahan Nilai yang seharusnya tidak dipungut; atau\n\nc. pemungutan Pajak Penjualan atas Barang Mewah yang seharusnya tidak dipungut, termasuk:\n\n1) diberikan pembebasan atau pengecualian Pajak Penjualan atas Barang Mewah atas impor atau penyerahan Barang Kena Pajak yang tergolong mewah; atau\n\n2) ekspor Barang Kena Pajak yang tergolong mewah yang Pajak Penjualan atas Barang Mewah atas perolehannya telah dibayar.\n\n(1) Dalam hal terjadi kesalahan pemotongan atau pemungutan pajak sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Penghasilan, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh pemotong atau pemungut pajak dengan mengajukan permohonan.\n\n(2) Dalam hal terjadi kesalahan pemungutan sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut.\n\n(3) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) telah dikreditkan sebagai Pajak Masukan, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.\n\n(4) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan\n\nc. dikapitalisasi dalam harga perolehan,\n\ndan Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah\n\ndipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(5) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pemungut Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(6) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (5) telah diperhitungkan dengan Pajak Keluaran oleh Pemungut Pajak Pertambahan Nilai yang merupakan Pengusaha Kena Pajak, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.\n\n(7) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pihak Lain, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh Pihak Lain dengan mengajukan permohonan.\n\n(8) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (7) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan\n\nc. dikapitalisasi dalam harga perolehan,\n\ndan Surat Pemberitahuan Masa Pajak Pertambahan Nilai pihak yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(9) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai terhadap perwakilan negara asing dan badan internasional serta pejabatnya yang dibebaskan dari Pajak Pertambahan Nilai, Pajak Pertambahan Nilai tersebut dapat diminta kembali oleh pihak yang menerima perolehan.\n\n(10) Dalam hal terjadi kesalahan pemungutan pajak terkait dengan Pajak Penjualan atas Barang Mewah, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali melalui pengajuan permohonan oleh:\n\na. pihak yang melakukan penyerahan;\n\nb. pihak yang menerima perolehan; atau\n\nc. pihak yang melakukan ekspor,\n\nsesuai dengan ketentuan peraturan perundang-\n\nundangan di bidang perpajakan.\n\n(11) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):\n\na. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau\n\nb. tidak dapat melakukan pembetulan Surat Pemberitahuan,\n\npermohonan diajukan oleh pihak yang dipotong atau dipungut.\n\n(12) Surat Pemberitahuan yang tidak dapat dibetulkan sebagaimana dimaksud pada ayat (4), ayat (8), dan ayat (11) meliputi:\n\na. Surat Pemberitahuan telah dilakukan tindakan Pemeriksaan; dan\n\nb. Surat Pemberitahuan rugi atau lebih bayar yang disampaikan melebihi jangka waktu 2 (dua) tahun sebelum daluwarsa penetapan sebagaimana diatur dalam Pasal 8 ayat (1a) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 131\n\n(1) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 diajukan secara tertulis atau secara elektronik dalam bahasa Indonesia.\n\n(2) Permohonan pengembalian yang diajukan oleh pemotong atau pemungut pajak sebagaimana dimaksud dalam Pasal 130 ayat (1) dan pihak yang dipotong atau dipungut sebagaimana dimaksud dalam Pasal 130 ayat (11) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;\n\nd. surat kuasa dari pihak yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak; dan\n\ne. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri, dalam hal kesalahan pemotongan pemungutan dilakukan terhadap subjek pajak luar negeri.\n\n(3) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), ayat (9), dan ayat (10) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. Faktur Pajak atau dokumen tertentu yang dipersamakan dengan Faktur Pajak yang merupakan bukti pemungutan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah;\n\nd. dokumen ekspor dalam hal ekspor Barang Kena Pajak yang tergolong mewah; dan\n\ne. dokumen lain sesuai dengan peraturan Menteri yang mengatur mengenai pembebasan Pajak Pertambahan Nilai dan/atau Pajak Penjualan atas\n\nBarang Mewah, tidak dipungut Pajak Pertambahan Nilai atau pengecualian Pajak Penjualan atas Barang Mewah.\n\n(4) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (2) dan ayat (3) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.\n\n(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 132\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 131.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian terkait dengan pemotongan atau pemungutan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 130 ayat (1) dan ayat (11) diberikan dalam hal memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;\n\nb. dalam hal pajak yang telah disetor sebagaimana dimaksud dalam huruf a terkait dengan pemotongan atau pemungutan Pajak Penghasilan yang bersifat tidak final, Pajak Penghasilan tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak yang dipotong atau dipungut;\n\nc. pajak yang dipotong atau dipungut telah dilaporkan oleh pemotong atau pemungut pajak dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;\n\nd. pajak yang dipotong atau dipungut tidak diajukan keberatan oleh Wajib Pajak yang dipotong atau dipungut sebagaimana diatur dalam Pasal 25 ayat (1) huruf e Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan; dan\n\ne. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri dan tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri dalam hal pihak yang dipotong atau dipungut subjek pajak luar negeri.\n\n(4) Hasil penelitian berupa pengembalian terkait dengan pemungutan Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), dan ayat (9) diberikan dalam hal:",
+  "md_results": "Penghasilan yang seharusnya dipotong atau dipungut;\n\nb. pemotongan atau pemungutan Pajak Penghasilan atas penghasilan yang diterima oleh bukan subjek pajak;\n\nc. pemungutan Pajak Pertambahan Nilai yang lebih besar daripada pajak yang seharusnya dipungut;\n\nd. pemungutan Pajak Penjualan atas Barang Mewah yang lebih besar daripada pajak yang seharusnya dipungut; atau\n\ne. pemungutan Bea Meterai yang lebih besar daripada Bea Meterai yang seharusnya dipungut.\n\n(2) Kesalahan pemotongan atau pemungutan sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf d dapat berupa:\n\na. pemotongan atau pemungutan Pajak Penghasilan yang seharusnya tidak dipotong atau tidak dipungut;\n\nb. pemungutan Pajak Pertambahan Nilai yang seharusnya tidak dipungut; atau\n\nc. pemungutan Pajak Penjualan atas Barang Mewah yang seharusnya tidak dipungut, termasuk:\n\n1) diberikan pembebasan atau pengecualian Pajak Penjualan atas Barang Mewah atas impor atau penyerahan Barang Kena Pajak yang tergolong mewah; atau\n\n2) ekspor Barang Kena Pajak yang tergolong mewah yang Pajak Penjualan atas Barang Mewah atas perolehannya telah dibayar.\n\n(1) Dalam hal terjadi kesalahan pemotongan atau pemungutan pajak sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Penghasilan, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh pemotong atau pemungut pajak dengan mengajukan permohonan.\n\n(2) Dalam hal terjadi kesalahan pemungutan sebagaimana dimaksud dalam Pasal 129 yang terkait dengan Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut.\n\n(3) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) telah dikreditkan sebagai Pajak Masukan, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.\n\n(4) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (2) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan\n\nc. dikapitalisasi dalam harga perolehan,\n\ndan Surat Pemberitahuan Masa Pajak Pertambahan Nilai yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah\n\ndipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(5) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pemungut Pajak Pertambahan Nilai, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(6) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (5) telah diperhitungkan dengan Pajak Keluaran oleh Pemungut Pajak Pertambahan Nilai yang merupakan Pengusaha Kena Pajak, Pajak Pertambahan Nilai tersebut dianggap telah diminta kembali oleh pihak yang terpungut.\n\n(7) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai oleh Pihak Lain, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali oleh Pihak Lain dengan mengajukan permohonan.\n\n(8) Dalam hal Pajak Pertambahan Nilai yang salah dipungut sebagaimana dimaksud pada ayat (7) belum:\n\na. dikreditkan sebagai Pajak Masukan;\n\nb. dibebankan sebagai biaya; dan\n\nc. dikapitalisasi dalam harga perolehan,\n\ndan Surat Pemberitahuan Masa Pajak Pertambahan Nilai pihak yang melakukan penyerahan sudah tidak dapat dibetulkan, Pajak Pertambahan Nilai yang salah dipungut tersebut dapat diminta kembali oleh pihak yang terpungut dengan mengajukan permohonan.\n\n(9) Dalam hal terjadi kesalahan pemungutan Pajak Pertambahan Nilai terhadap perwakilan negara asing dan badan internasional serta pejabatnya yang dibebaskan dari Pajak Pertambahan Nilai, Pajak Pertambahan Nilai tersebut dapat diminta kembali oleh pihak yang menerima perolehan.\n\n(10) Dalam hal terjadi kesalahan pemungutan pajak terkait dengan Pajak Penjualan atas Barang Mewah, pajak yang seharusnya tidak dipungut tersebut dapat diminta kembali melalui pengajuan permohonan oleh:\n\na. pihak yang melakukan penyerahan;\n\nb. pihak yang menerima perolehan; atau\n\nc. pihak yang melakukan ekspor,\n\nsesuai dengan ketentuan peraturan perundang-\n\nundangan di bidang perpajakan.\n\n(11) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):\n\na. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau\n\nb. tidak dapat melakukan pembetulan Surat Pemberitahuan,\n\npermohonan diajukan oleh pihak yang dipotong atau dipungut.\n\n(12) Surat Pemberitahuan yang tidak dapat dibetulkan sebagaimana dimaksud pada ayat (4), ayat (8), dan ayat (11) meliputi:\n\na. Surat Pemberitahuan telah dilakukan tindakan Pemeriksaan; dan\n\nb. Surat Pemberitahuan rugi atau lebih bayar yang disampaikan melebihi jangka waktu 2 (dua) tahun sebelum daluwarsa penetapan sebagaimana diatur dalam Pasal 8 ayat (1a) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 131\n\n(1) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 diajukan secara tertulis atau secara elektronik dalam bahasa Indonesia.\n\n(2) Permohonan pengembalian yang diajukan oleh pemotong atau pemungut pajak sebagaimana dimaksud dalam Pasal 130 ayat (1) dan pihak yang dipotong atau dipungut sebagaimana dimaksud dalam Pasal 130 ayat (11) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;\n\nd. surat kuasa dari pihak yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak; dan\n\ne. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri, dalam hal kesalahan pemotongan pemungutan dilakukan terhadap subjek pajak luar negeri.\n\n(3) Permohonan pengembalian sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), ayat (9), dan ayat (10) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. Faktur Pajak atau dokumen tertentu yang dipersamakan dengan Faktur Pajak yang merupakan bukti pemungutan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah;\n\nd. dokumen ekspor dalam hal ekspor Barang Kena Pajak yang tergolong mewah; dan\n\ne. dokumen lain sesuai dengan peraturan Menteri yang mengatur mengenai pembebasan Pajak Pertambahan Nilai dan/atau Pajak Penjualan atas\n\nBarang Mewah, tidak dipungut Pajak Pertambahan Nilai atau pengecualian Pajak Penjualan atas Barang Mewah.\n\n(4) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (2) dan ayat (3) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.\n\n(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 132\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 131.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian terkait dengan pemotongan atau pemungutan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 130 ayat (1) dan ayat (11) diberikan dalam hal memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;\n\nb. dalam hal pajak yang telah disetor sebagaimana dimaksud dalam huruf a terkait dengan pemotongan atau pemungutan Pajak Penghasilan yang bersifat tidak final, Pajak Penghasilan tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan Wajib Pajak yang dipotong atau dipungut;\n\nc. pajak yang dipotong atau dipungut telah dilaporkan oleh pemotong atau pemungut pajak dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;\n\nd. pajak yang dipotong atau dipungut tidak diajukan keberatan oleh Wajib Pajak yang dipotong atau dipungut sebagaimana diatur dalam Pasal 25 ayat (1) huruf e Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan; dan\n\ne. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri dan tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri dalam hal pihak yang dipotong atau dipungut subjek pajak luar negeri.\n\n(4) Hasil penelitian berupa pengembalian terkait dengan pemungutan Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 130 ayat (2), ayat (4), ayat (5), ayat (7), ayat (8), dan ayat (9) diberikan dalam hal:",
+  "model": "glm-ocr",
+  "usage": {}
+}

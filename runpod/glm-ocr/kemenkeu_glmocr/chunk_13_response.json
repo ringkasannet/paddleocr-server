@@ -1,0 +1,3739 @@
+{
+  "created": 1779015308,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-5afdd42ae95249fa93e14431156a8",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          864,
+          103
+        ],
+        "content": "(2) Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            285,
+            103
+          ],
+          [
+            864,
+            103
+          ],
+          [
+            864,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          104,
+          864,
+          149
+        ],
+        "content": "a. Wajib Pajak Badan yang memiliki kewajiban perpajakan sebagai pembayar pajak, pemotong dan/atau pemungut pajak; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            104
+          ],
+          [
+            324,
+            149
+          ],
+          [
+            864,
+            149
+          ],
+          [
+            864,
+            104
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          149,
+          864,
+          194
+        ],
+        "content": "b. Wajib Pajak Badan yang hanya memiliki kewajiban perpajakan sebagai pemotong dan/atau pemungut pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            149
+          ],
+          [
+            324,
+            193
+          ],
+          [
+            863,
+            193
+          ],
+          [
+            863,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          194,
+          864,
+          284
+        ],
+        "content": "(3) Wajib Pajak Badan sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            194
+          ],
+          [
+            279,
+            284
+          ],
+          [
+            863,
+            284
+          ],
+          [
+            863,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          285,
+          451,
+          300
+        ],
+        "content": "(4) Badan yang:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            285
+          ],
+          [
+            280,
+            300
+          ],
+          [
+            451,
+            300
+          ],
+          [
+            451,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          299,
+          863,
+          330
+        ],
+        "content": "a. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            299
+          ],
+          [
+            324,
+            329
+          ],
+          [
+            862,
+            329
+          ],
+          [
+            862,
+            299
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          330,
+          863,
+          375
+        ],
+        "content": "b. tidak termasuk subjek pajak sesuai dengan ketentuan Pasal 3 Undang-Undang Pajak Penghasilan,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            330
+          ],
+          [
+            324,
+            374
+          ],
+          [
+            862,
+            374
+          ],
+          [
+            862,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          375,
+          862,
+          420
+        ],
+        "content": "dapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            410
+          ],
+          [
+            322,
+            420
+          ],
+          [
+            862,
+            420
+          ],
+          [
+            862,
+            375
+          ],
+          [
+            327,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          420,
+          863,
+          466
+        ],
+        "content": "(5) Badan sebagaimana dimaksud pada ayat (4) diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            420
+          ],
+          [
+            278,
+            466
+          ],
+          [
+            862,
+            466
+          ],
+          [
+            862,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          480,
+          615,
+          494
+        ],
+        "content": "## Pasal 40",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            480
+          ],
+          [
+            528,
+            494
+          ],
+          [
+            614,
+            494
+          ],
+          [
+            614,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          495,
+          864,
+          557
+        ],
+        "content": "Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1), wajib mendaftarkan diri untuk memperoleh Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah saat didirikan atau bertempat kedudukan di Indonesia.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            495
+          ],
+          [
+            276,
+            556
+          ],
+          [
+            863,
+            556
+          ],
+          [
+            863,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          571,
+          612,
+          585
+        ],
+        "content": "## Pasal 41",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            571
+          ],
+          [
+            527,
+            585
+          ],
+          [
+            611,
+            585
+          ],
+          [
+            611,
+            571
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          585,
+          862,
+          676
+        ],
+        "content": "(1) Pendaftaran Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            585
+          ],
+          [
+            278,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          676,
+          862,
+          736
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagaimana dimaksud pada ayat (1) berupa dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            676
+          ],
+          [
+            277,
+            736
+          ],
+          [
+            862,
+            736
+          ],
+          [
+            862,
+            676
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          736,
+          864,
+          812
+        ],
+        "content": "(3) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            736
+          ],
+          [
+            278,
+            811
+          ],
+          [
+            863,
+            811
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            463,
+            736
+          ],
+          [
+            458,
+            736
+          ],
+          [
+            448,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          826,
+          614,
+          840
+        ],
+        "content": "## Pasal 42",
+        "index": 15,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            826
+          ],
+          [
+            527,
+            840
+          ],
+          [
+            613,
+            840
+          ],
+          [
+            613,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          840,
+          863,
+          903
+        ],
+        "content": "(1) Dalam hal Wajib Pajak Badan tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 39 ayat (1), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            840
+          ],
+          [
+            282,
+            902
+          ],
+          [
+            862,
+            902
+          ],
+          [
+            862,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          870,
+          165
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            164
+          ],
+          [
+            869,
+            164
+          ],
+          [
+            869,
+            76
+          ],
+          [
+            784,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          178,
+          622,
+          192
+        ],
+        "content": "## Pasal 43",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            178
+          ],
+          [
+            532,
+            191
+          ],
+          [
+            621,
+            191
+          ],
+          [
+            621,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          192,
+          869,
+          283
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan perubahan data Wajib Pajak Badan dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            192
+          ],
+          [
+            283,
+            277
+          ],
+          [
+            308,
+            282
+          ],
+          [
+            328,
+            282
+          ],
+          [
+            868,
+            282
+          ],
+          [
+            868,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          283,
+          869,
+          403
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Badan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            283
+          ],
+          [
+            283,
+            398
+          ],
+          [
+            304,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          404,
+          868,
+          478
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            404
+          ],
+          [
+            288,
+            478
+          ],
+          [
+            867,
+            478
+          ],
+          [
+            867,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          479,
+          867,
+          526
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            479
+          ],
+          [
+            282,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          540,
+          620,
+          553
+        ],
+        "content": "## Pasal 44",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            540
+          ],
+          [
+            531,
+            553
+          ],
+          [
+            619,
+            553
+          ],
+          [
+            619,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          554,
+          867,
+          675
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 43 ayat (1), perubahan data Wajib Pajak Badan dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            554
+          ],
+          [
+            286,
+            675
+          ],
+          [
+            867,
+            675
+          ],
+          [
+            867,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          675,
+          867,
+          750
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            675
+          ],
+          [
+            287,
+            749
+          ],
+          [
+            867,
+            749
+          ],
+          [
+            867,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          750,
+          867,
+          797
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            750
+          ],
+          [
+            281,
+            796
+          ],
+          [
+            866,
+            796
+          ],
+          [
+            866,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          810,
+          618,
+          824
+        ],
+        "content": "## Pasal 45",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            810
+          ],
+          [
+            530,
+            824
+          ],
+          [
+            618,
+            824
+          ],
+          [
+            618,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          825,
+          867,
+          886
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat menetapkan Wajib Pajak Badan sebagai Wajib Pajak Nonaktif.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            825
+          ],
+          [
+            280,
+            886
+          ],
+          [
+            867,
+            886
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          72,
+          871,
+          118
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Badan:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            83
+          ],
+          [
+            292,
+            117
+          ],
+          [
+            870,
+            117
+          ],
+          [
+            870,
+            72
+          ],
+          [
+            292,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          118,
+          871,
+          164
+        ],
+        "content": "a. tidak memenuhi persyaratan subjektif dan objektif namun masih dalam proses atau belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            118
+          ],
+          [
+            332,
+            163
+          ],
+          [
+            870,
+            163
+          ],
+          [
+            870,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          164,
+          869,
+          193
+        ],
+        "content": "b. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            174
+          ],
+          [
+            332,
+            193
+          ],
+          [
+            868,
+            193
+          ],
+          [
+            868,
+            164
+          ],
+          [
+            337,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          194,
+          871,
+          298
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Badan memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            194
+          ],
+          [
+            285,
+            293
+          ],
+          [
+            295,
+            298
+          ],
+          [
+            870,
+            298
+          ],
+          [
+            870,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          300,
+          870,
+          373
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            300
+          ],
+          [
+            284,
+            368
+          ],
+          [
+            300,
+            373
+          ],
+          [
+            869,
+            373
+          ],
+          [
+            869,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          375,
+          868,
+          419
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            375
+          ],
+          [
+            284,
+            419
+          ],
+          [
+            868,
+            419
+          ],
+          [
+            868,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          419,
+          868,
+          496
+        ],
+        "content": "(6) Dalam hal Wajib Pajak Badan tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            419
+          ],
+          [
+            283,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          510,
+          620,
+          523
+        ],
+        "content": "## Pasal 46",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            510
+          ],
+          [
+            532,
+            523
+          ],
+          [
+            619,
+            523
+          ],
+          [
+            619,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          525,
+          868,
+          630
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Badan yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            525
+          ],
+          [
+            287,
+            629
+          ],
+          [
+            867,
+            629
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          630,
+          866,
+          660
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            630
+          ],
+          [
+            287,
+            659
+          ],
+          [
+            865,
+            659
+          ],
+          [
+            865,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          661,
+          865,
+          691
+        ],
+        "content": "a. Wajib Pajak Badan dilikuidasi atau dibubarkan karena penghentian atau penggabungan usaha;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            661
+          ],
+          [
+            327,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          691,
+          866,
+          735
+        ],
+        "content": "b. Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia; atau",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            691
+          ],
+          [
+            326,
+            734
+          ],
+          [
+            865,
+            734
+          ],
+          [
+            865,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          736,
+          865,
+          767
+        ],
+        "content": "c. Wajib Pajak Badan memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            762
+          ],
+          [
+            327,
+            766
+          ],
+          [
+            865,
+            766
+          ],
+          [
+            865,
+            736
+          ],
+          [
+            332,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          781,
+          620,
+          795
+        ],
+        "content": "## Pasal 47",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            781
+          ],
+          [
+            530,
+            795
+          ],
+          [
+            619,
+            795
+          ],
+          [
+            619,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          867,
+          888
+        ],
+        "content": "(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            286,
+            887
+          ],
+          [
+            867,
+            887
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          290,
+          72,
+          874,
+          118
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            290,
+            72
+          ],
+          [
+            290,
+            118
+          ],
+          [
+            874,
+            118
+          ],
+          [
+            874,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          118,
+          874,
+          148
+        ],
+        "content": "a. dokumen yang menunjukkan bahwa Wajib Pajak Badan telah dilikuidasi atau dibubarkan; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            118
+          ],
+          [
+            332,
+            148
+          ],
+          [
+            343,
+            148
+          ],
+          [
+            873,
+            148
+          ],
+          [
+            873,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          148,
+          873,
+          193
+        ],
+        "content": "b. dokumen yang menunjukkan bahwa Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            168
+          ],
+          [
+            337,
+            193
+          ],
+          [
+            872,
+            193
+          ],
+          [
+            872,
+            148
+          ],
+          [
+            337,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          193,
+          873,
+          253
+        ],
+        "content": "(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            193
+          ],
+          [
+            288,
+            248
+          ],
+          [
+            314,
+            252
+          ],
+          [
+            328,
+            252
+          ],
+          [
+            872,
+            252
+          ],
+          [
+            872,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          254,
+          872,
+          343
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 12 (dua belas) bulan sejak tanggal permohonan Wajib Pajak Badan diterima secara lengkap.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            254
+          ],
+          [
+            287,
+            343
+          ],
+          [
+            872,
+            343
+          ],
+          [
+            872,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          344,
+          872,
+          466
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Badan dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            344
+          ],
+          [
+            288,
+            466
+          ],
+          [
+            872,
+            466
+          ],
+          [
+            872,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          480,
+          623,
+          494
+        ],
+        "content": "## Pasal 48",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            480
+          ],
+          [
+            535,
+            493
+          ],
+          [
+            622,
+            493
+          ],
+          [
+            622,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          494,
+          870,
+          570
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            494
+          ],
+          [
+            290,
+            569
+          ],
+          [
+            870,
+            569
+          ],
+          [
+            870,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          570,
+          870,
+          615
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            570
+          ],
+          [
+            285,
+            614
+          ],
+          [
+            869,
+            614
+          ],
+          [
+            869,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          615,
+          870,
+          705
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Badan yang memenuhi kriteria tertentu.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            615
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            870,
+            705
+          ],
+          [
+            870,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          706,
+          870,
+          766
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            706
+          ],
+          [
+            284,
+            766
+          ],
+          [
+            870,
+            766
+          ],
+          [
+            870,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          781,
+          621,
+          795
+        ],
+        "content": "## Pasal 49",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            781
+          ],
+          [
+            533,
+            795
+          ],
+          [
+            621,
+            795
+          ],
+          [
+            621,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          796,
+          869,
+          870
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 46 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Badan memenuhi ketentuan sebagai berikut:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            801
+          ],
+          [
+            282,
+            870
+          ],
+          [
+            868,
+            870
+          ],
+          [
+            868,
+            796
+          ],
+          [
+            287,
+            796
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          871,
+          633,
+          886
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            871
+          ],
+          [
+            284,
+            886
+          ],
+          [
+            632,
+            886
+          ],
+          [
+            632,
+            871
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          887,
+          661,
+          901
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            887
+          ],
+          [
+            284,
+            901
+          ],
+          [
+            661,
+            901
+          ],
+          [
+            661,
+            892
+          ],
+          [
+            651,
+            887
+          ],
+          [
+            647,
+            887
+          ],
+          [
+            636,
+            887
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          864,
+          103
+        ],
+        "content": "(2) Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            285,
+            103
+          ],
+          [
+            864,
+            103
+          ],
+          [
+            864,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          104,
+          864,
+          149
+        ],
+        "content": "a. Wajib Pajak Badan yang memiliki kewajiban perpajakan sebagai pembayar pajak, pemotong dan/atau pemungut pajak; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            104
+          ],
+          [
+            324,
+            149
+          ],
+          [
+            864,
+            149
+          ],
+          [
+            864,
+            104
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          149,
+          864,
+          194
+        ],
+        "content": "b. Wajib Pajak Badan yang hanya memiliki kewajiban perpajakan sebagai pemotong dan/atau pemungut pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            149
+          ],
+          [
+            324,
+            193
+          ],
+          [
+            863,
+            193
+          ],
+          [
+            863,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          194,
+          864,
+          284
+        ],
+        "content": "(3) Wajib Pajak Badan sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            194
+          ],
+          [
+            279,
+            284
+          ],
+          [
+            863,
+            284
+          ],
+          [
+            863,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          285,
+          451,
+          300
+        ],
+        "content": "(4) Badan yang:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            285
+          ],
+          [
+            280,
+            300
+          ],
+          [
+            451,
+            300
+          ],
+          [
+            451,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          299,
+          863,
+          330
+        ],
+        "content": "a. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            299
+          ],
+          [
+            324,
+            329
+          ],
+          [
+            862,
+            329
+          ],
+          [
+            862,
+            299
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          330,
+          863,
+          375
+        ],
+        "content": "b. tidak termasuk subjek pajak sesuai dengan ketentuan Pasal 3 Undang-Undang Pajak Penghasilan,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            330
+          ],
+          [
+            324,
+            374
+          ],
+          [
+            862,
+            374
+          ],
+          [
+            862,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          375,
+          862,
+          420
+        ],
+        "content": "dapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            410
+          ],
+          [
+            322,
+            420
+          ],
+          [
+            862,
+            420
+          ],
+          [
+            862,
+            375
+          ],
+          [
+            327,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          420,
+          863,
+          466
+        ],
+        "content": "(5) Badan sebagaimana dimaksud pada ayat (4) diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            420
+          ],
+          [
+            278,
+            466
+          ],
+          [
+            862,
+            466
+          ],
+          [
+            862,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          480,
+          615,
+          494
+        ],
+        "content": "## Pasal 40",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            480
+          ],
+          [
+            528,
+            494
+          ],
+          [
+            614,
+            494
+          ],
+          [
+            614,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          495,
+          864,
+          557
+        ],
+        "content": "Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1), wajib mendaftarkan diri untuk memperoleh Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah saat didirikan atau bertempat kedudukan di Indonesia.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            495
+          ],
+          [
+            276,
+            556
+          ],
+          [
+            863,
+            556
+          ],
+          [
+            863,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          571,
+          612,
+          585
+        ],
+        "content": "## Pasal 41",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            571
+          ],
+          [
+            527,
+            585
+          ],
+          [
+            611,
+            585
+          ],
+          [
+            611,
+            571
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          585,
+          862,
+          676
+        ],
+        "content": "(1) Pendaftaran Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            585
+          ],
+          [
+            278,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          676,
+          862,
+          736
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagaimana dimaksud pada ayat (1) berupa dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            676
+          ],
+          [
+            277,
+            736
+          ],
+          [
+            862,
+            736
+          ],
+          [
+            862,
+            676
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          736,
+          864,
+          812
+        ],
+        "content": "(3) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            736
+          ],
+          [
+            278,
+            811
+          ],
+          [
+            863,
+            811
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            463,
+            736
+          ],
+          [
+            458,
+            736
+          ],
+          [
+            448,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          826,
+          614,
+          840
+        ],
+        "content": "## Pasal 42",
+        "index": 15,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            826
+          ],
+          [
+            527,
+            840
+          ],
+          [
+            613,
+            840
+          ],
+          [
+            613,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          840,
+          863,
+          903
+        ],
+        "content": "(1) Dalam hal Wajib Pajak Badan tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 39 ayat (1), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            840
+          ],
+          [
+            282,
+            902
+          ],
+          [
+            862,
+            902
+          ],
+          [
+            862,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          870,
+          165
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            164
+          ],
+          [
+            869,
+            164
+          ],
+          [
+            869,
+            76
+          ],
+          [
+            784,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          178,
+          622,
+          192
+        ],
+        "content": "## Pasal 43",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            178
+          ],
+          [
+            532,
+            191
+          ],
+          [
+            621,
+            191
+          ],
+          [
+            621,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          192,
+          869,
+          283
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan perubahan data Wajib Pajak Badan dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            192
+          ],
+          [
+            283,
+            277
+          ],
+          [
+            308,
+            282
+          ],
+          [
+            328,
+            282
+          ],
+          [
+            868,
+            282
+          ],
+          [
+            868,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          283,
+          869,
+          403
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Badan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            283
+          ],
+          [
+            283,
+            398
+          ],
+          [
+            304,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          404,
+          868,
+          478
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            404
+          ],
+          [
+            288,
+            478
+          ],
+          [
+            867,
+            478
+          ],
+          [
+            867,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          479,
+          867,
+          526
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            479
+          ],
+          [
+            282,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          540,
+          620,
+          553
+        ],
+        "content": "## Pasal 44",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            540
+          ],
+          [
+            531,
+            553
+          ],
+          [
+            619,
+            553
+          ],
+          [
+            619,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          554,
+          867,
+          675
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 43 ayat (1), perubahan data Wajib Pajak Badan dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            554
+          ],
+          [
+            286,
+            675
+          ],
+          [
+            867,
+            675
+          ],
+          [
+            867,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          675,
+          867,
+          750
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            675
+          ],
+          [
+            287,
+            749
+          ],
+          [
+            867,
+            749
+          ],
+          [
+            867,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          750,
+          867,
+          797
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            750
+          ],
+          [
+            281,
+            796
+          ],
+          [
+            866,
+            796
+          ],
+          [
+            866,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          810,
+          618,
+          824
+        ],
+        "content": "## Pasal 45",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            810
+          ],
+          [
+            530,
+            824
+          ],
+          [
+            618,
+            824
+          ],
+          [
+            618,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          825,
+          867,
+          886
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat menetapkan Wajib Pajak Badan sebagai Wajib Pajak Nonaktif.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            825
+          ],
+          [
+            280,
+            886
+          ],
+          [
+            867,
+            886
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          72,
+          871,
+          118
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Badan:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            83
+          ],
+          [
+            292,
+            117
+          ],
+          [
+            870,
+            117
+          ],
+          [
+            870,
+            72
+          ],
+          [
+            292,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          118,
+          871,
+          164
+        ],
+        "content": "a. tidak memenuhi persyaratan subjektif dan objektif namun masih dalam proses atau belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            118
+          ],
+          [
+            332,
+            163
+          ],
+          [
+            870,
+            163
+          ],
+          [
+            870,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          164,
+          869,
+          193
+        ],
+        "content": "b. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            174
+          ],
+          [
+            332,
+            193
+          ],
+          [
+            868,
+            193
+          ],
+          [
+            868,
+            164
+          ],
+          [
+            337,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          194,
+          871,
+          298
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Badan memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            194
+          ],
+          [
+            285,
+            293
+          ],
+          [
+            295,
+            298
+          ],
+          [
+            870,
+            298
+          ],
+          [
+            870,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          300,
+          870,
+          373
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            300
+          ],
+          [
+            284,
+            368
+          ],
+          [
+            300,
+            373
+          ],
+          [
+            869,
+            373
+          ],
+          [
+            869,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          375,
+          868,
+          419
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            375
+          ],
+          [
+            284,
+            419
+          ],
+          [
+            868,
+            419
+          ],
+          [
+            868,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          419,
+          868,
+          496
+        ],
+        "content": "(6) Dalam hal Wajib Pajak Badan tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            419
+          ],
+          [
+            283,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          510,
+          620,
+          523
+        ],
+        "content": "## Pasal 46",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            510
+          ],
+          [
+            532,
+            523
+          ],
+          [
+            619,
+            523
+          ],
+          [
+            619,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          525,
+          868,
+          630
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Badan yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            525
+          ],
+          [
+            287,
+            629
+          ],
+          [
+            867,
+            629
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          630,
+          866,
+          660
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            630
+          ],
+          [
+            287,
+            659
+          ],
+          [
+            865,
+            659
+          ],
+          [
+            865,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          661,
+          865,
+          691
+        ],
+        "content": "a. Wajib Pajak Badan dilikuidasi atau dibubarkan karena penghentian atau penggabungan usaha;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            661
+          ],
+          [
+            327,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          691,
+          866,
+          735
+        ],
+        "content": "b. Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia; atau",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            691
+          ],
+          [
+            326,
+            734
+          ],
+          [
+            865,
+            734
+          ],
+          [
+            865,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          736,
+          865,
+          767
+        ],
+        "content": "c. Wajib Pajak Badan memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            762
+          ],
+          [
+            327,
+            766
+          ],
+          [
+            865,
+            766
+          ],
+          [
+            865,
+            736
+          ],
+          [
+            332,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          781,
+          620,
+          795
+        ],
+        "content": "## Pasal 47",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            781
+          ],
+          [
+            530,
+            795
+          ],
+          [
+            619,
+            795
+          ],
+          [
+            619,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          867,
+          888
+        ],
+        "content": "(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            286,
+            887
+          ],
+          [
+            867,
+            887
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          290,
+          72,
+          874,
+          118
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            290,
+            72
+          ],
+          [
+            290,
+            118
+          ],
+          [
+            874,
+            118
+          ],
+          [
+            874,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          118,
+          874,
+          148
+        ],
+        "content": "a. dokumen yang menunjukkan bahwa Wajib Pajak Badan telah dilikuidasi atau dibubarkan; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            118
+          ],
+          [
+            332,
+            148
+          ],
+          [
+            343,
+            148
+          ],
+          [
+            873,
+            148
+          ],
+          [
+            873,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          148,
+          873,
+          193
+        ],
+        "content": "b. dokumen yang menunjukkan bahwa Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            168
+          ],
+          [
+            337,
+            193
+          ],
+          [
+            872,
+            193
+          ],
+          [
+            872,
+            148
+          ],
+          [
+            337,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          193,
+          873,
+          253
+        ],
+        "content": "(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            193
+          ],
+          [
+            288,
+            248
+          ],
+          [
+            314,
+            252
+          ],
+          [
+            328,
+            252
+          ],
+          [
+            872,
+            252
+          ],
+          [
+            872,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          254,
+          872,
+          343
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 12 (dua belas) bulan sejak tanggal permohonan Wajib Pajak Badan diterima secara lengkap.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            254
+          ],
+          [
+            287,
+            343
+          ],
+          [
+            872,
+            343
+          ],
+          [
+            872,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          344,
+          872,
+          466
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Badan dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            344
+          ],
+          [
+            288,
+            466
+          ],
+          [
+            872,
+            466
+          ],
+          [
+            872,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          480,
+          623,
+          494
+        ],
+        "content": "## Pasal 48",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            480
+          ],
+          [
+            535,
+            493
+          ],
+          [
+            622,
+            493
+          ],
+          [
+            622,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          494,
+          870,
+          570
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            494
+          ],
+          [
+            290,
+            569
+          ],
+          [
+            870,
+            569
+          ],
+          [
+            870,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          570,
+          870,
+          615
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            570
+          ],
+          [
+            285,
+            614
+          ],
+          [
+            869,
+            614
+          ],
+          [
+            869,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          615,
+          870,
+          705
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Badan yang memenuhi kriteria tertentu.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            615
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            870,
+            705
+          ],
+          [
+            870,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          706,
+          870,
+          766
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            706
+          ],
+          [
+            284,
+            766
+          ],
+          [
+            870,
+            766
+          ],
+          [
+            870,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          781,
+          621,
+          795
+        ],
+        "content": "## Pasal 49",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            781
+          ],
+          [
+            533,
+            795
+          ],
+          [
+            621,
+            795
+          ],
+          [
+            621,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          796,
+          869,
+          870
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 46 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Badan memenuhi ketentuan sebagai berikut:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            801
+          ],
+          [
+            282,
+            870
+          ],
+          [
+            868,
+            870
+          ],
+          [
+            868,
+            796
+          ],
+          [
+            287,
+            796
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          871,
+          633,
+          886
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            871
+          ],
+          [
+            284,
+            886
+          ],
+          [
+            632,
+            886
+          ],
+          [
+            632,
+            871
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          887,
+          661,
+          901
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            887
+          ],
+          [
+            284,
+            901
+          ],
+          [
+            661,
+            901
+          ],
+          [
+            661,
+            892
+          ],
+          [
+            651,
+            887
+          ],
+          [
+            647,
+            887
+          ],
+          [
+            636,
+            887
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "(2) Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak Badan yang memiliki kewajiban perpajakan sebagai pembayar pajak, pemotong dan/atau pemungut pajak; dan\n\nb. Wajib Pajak Badan yang hanya memiliki kewajiban perpajakan sebagai pemotong dan/atau pemungut pajak.\n\n(3) Wajib Pajak Badan sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(4) Badan yang:\n\na. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau\n\nb. tidak termasuk subjek pajak sesuai dengan ketentuan Pasal 3 Undang-Undang Pajak Penghasilan,\n\ndapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.\n\n(5) Badan sebagaimana dimaksud pada ayat (4) diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.\n\n## Pasal 40\n\nWajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1), wajib mendaftarkan diri untuk memperoleh Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah saat didirikan atau bertempat kedudukan di Indonesia.\n\n## Pasal 41\n\n(1) Pendaftaran Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagaimana dimaksud pada ayat (1) berupa dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya.\n\n(3) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 42\n\n(1) Dalam hal Wajib Pajak Badan tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 39 ayat (1), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 43\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan perubahan data Wajib Pajak Badan dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Badan.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 44\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 43 ayat (1), perubahan data Wajib Pajak Badan dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 45\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat menetapkan Wajib Pajak Badan sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Badan:\n\na. tidak memenuhi persyaratan subjektif dan objektif namun masih dalam proses atau belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau\n\nb. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Badan memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak Badan tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 46\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Badan yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:\n\na. Wajib Pajak Badan dilikuidasi atau dibubarkan karena penghentian atau penggabungan usaha;\n\nb. Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia; atau\n\nc. Wajib Pajak Badan memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n## Pasal 47\n\n(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:\n\na. dokumen yang menunjukkan bahwa Wajib Pajak Badan telah dilikuidasi atau dibubarkan; atau\n\nb. dokumen yang menunjukkan bahwa Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia.\n\n(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 12 (dua belas) bulan sejak tanggal permohonan Wajib Pajak Badan diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Badan dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 48\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Badan yang memenuhi kriteria tertentu.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 49\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 46 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Badan memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:",
+  "md_results": "(2) Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak Badan yang memiliki kewajiban perpajakan sebagai pembayar pajak, pemotong dan/atau pemungut pajak; dan\n\nb. Wajib Pajak Badan yang hanya memiliki kewajiban perpajakan sebagai pemotong dan/atau pemungut pajak.\n\n(3) Wajib Pajak Badan sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(4) Badan yang:\n\na. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau\n\nb. tidak termasuk subjek pajak sesuai dengan ketentuan Pasal 3 Undang-Undang Pajak Penghasilan,\n\ndapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.\n\n(5) Badan sebagaimana dimaksud pada ayat (4) diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.\n\n## Pasal 40\n\nWajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1), wajib mendaftarkan diri untuk memperoleh Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah saat didirikan atau bertempat kedudukan di Indonesia.\n\n## Pasal 41\n\n(1) Pendaftaran Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 39 ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagaimana dimaksud pada ayat (1) berupa dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya.\n\n(3) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 42\n\n(1) Dalam hal Wajib Pajak Badan tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 39 ayat (1), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 43\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan perubahan data Wajib Pajak Badan dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Badan.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Badan sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 44\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 43 ayat (1), perubahan data Wajib Pajak Badan dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 45\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat menetapkan Wajib Pajak Badan sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Badan:\n\na. tidak memenuhi persyaratan subjektif dan objektif namun masih dalam proses atau belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau\n\nb. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Badan memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Badan.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak Badan tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 46\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Badan atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Badan yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:\n\na. Wajib Pajak Badan dilikuidasi atau dibubarkan karena penghentian atau penggabungan usaha;\n\nb. Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia; atau\n\nc. Wajib Pajak Badan memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n## Pasal 47\n\n(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:\n\na. dokumen yang menunjukkan bahwa Wajib Pajak Badan telah dilikuidasi atau dibubarkan; atau\n\nb. dokumen yang menunjukkan bahwa Wajib Pajak bentuk usaha tetap telah menghentikan kegiatan usahanya di Indonesia.\n\n(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Badan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 12 (dua belas) bulan sejak tanggal permohonan Wajib Pajak Badan diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Badan dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 48\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 46 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Badan yang memenuhi kriteria tertentu.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 49\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 46 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Badan memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:",
+  "model": "glm-ocr",
+  "usage": {}
+}

@@ -1,0 +1,933 @@
+{
+  "created": 1779015331,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-071d3b8256a344fbaeb6a11d10848",
+  "json_result": [
+    [],
+    [
+      {
+        "bbox_2d": [
+          374,
+          71,
+          867,
+          102
+        ],
+        "content": "keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            71
+          ],
+          [
+            374,
+            102
+          ],
+          [
+            866,
+            102
+          ],
+          [
+            866,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          116,
+          865,
+          147
+        ],
+        "content": "c. Wajib Pajak memberikan jaminan aset berwujud, dengan kriteria:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            116
+          ],
+          [
+            332,
+            146
+          ],
+          [
+            864,
+            146
+          ],
+          [
+            864,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          147,
+          868,
+          237
+        ],
+        "content": "1. minimal sebesar pajak yang masih harus dibayar atau kewajiban pelunasan yang diajukan permohonan pengangsuran atau penundaan pembayaran pajak yang dibuktikan dengan dokumen yang menyatakan nilai dari aset tersebut;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            152
+          ],
+          [
+            375,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            152
+          ],
+          [
+            678,
+            147
+          ],
+          [
+            664,
+            147
+          ],
+          [
+            658,
+            147
+          ],
+          [
+            620,
+            147
+          ],
+          [
+            604,
+            147
+          ],
+          [
+            435,
+            147
+          ],
+          [
+            391,
+            147
+          ],
+          [
+            381,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          238,
+          867,
+          282
+        ],
+        "content": "2. merupakan milik Penanggung Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            238
+          ],
+          [
+            373,
+            281
+          ],
+          [
+            866,
+            281
+          ],
+          [
+            866,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          282,
+          844,
+          298
+        ],
+        "content": "3. tidak sedang dijadikan jaminan atas utang.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            282
+          ],
+          [
+            374,
+            292
+          ],
+          [
+            404,
+            297
+          ],
+          [
+            423,
+            297
+          ],
+          [
+            449,
+            297
+          ],
+          [
+            843,
+            297
+          ],
+          [
+            843,
+            282
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          297,
+          867,
+          418
+        ],
+        "content": "(4) Dalam hal permohonan diajukan atas pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b terkait dengan Pajak Bumi dan Bangunan, selain memenuhi ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) juga harus dilampiri salinan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang dimohonkan pengangsuran atau penundaan pembayaran pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            297
+          ],
+          [
+            280,
+            408
+          ],
+          [
+            305,
+            418
+          ],
+          [
+            866,
+            418
+          ],
+          [
+            866,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          418,
+          865,
+          492
+        ],
+        "content": "(5) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (4) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            418
+          ],
+          [
+            280,
+            487
+          ],
+          [
+            325,
+            492
+          ],
+          [
+            864,
+            492
+          ],
+          [
+            864,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          493,
+          865,
+          552
+        ],
+        "content": "(6) Dalam hal permohonan diajukan atas Surat Ketetapan Pajak Kurang Bayar dan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud dalam Pasal 98 ayat (1) berlaku ketentuan:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            493
+          ],
+          [
+            279,
+            547
+          ],
+          [
+            294,
+            552
+          ],
+          [
+            304,
+            552
+          ],
+          [
+            324,
+            552
+          ],
+          [
+            865,
+            552
+          ],
+          [
+            865,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          553,
+          865,
+          597
+        ],
+        "content": "a. Wajib Pajak menyetujui seluruh nilai pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            553
+          ],
+          [
+            324,
+            597
+          ],
+          [
+            865,
+            597
+          ],
+          [
+            865,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          598,
+          864,
+          673
+        ],
+        "content": "b. terdapat nilai yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan dan Wajib Pajak tidak mengajukan permohonan keberatan sampai dengan jatuh tempo pengajuan keberatan; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            598
+          ],
+          [
+            329,
+            672
+          ],
+          [
+            863,
+            672
+          ],
+          [
+            863,
+            598
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          674,
+          863,
+          704
+        ],
+        "content": "c. Wajib Pajak mengajukan permohonan keberatan tetapi tidak mengajukan banding.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            674
+          ],
+          [
+            323,
+            703
+          ],
+          [
+            862,
+            703
+          ],
+          [
+            862,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          703,
+          864,
+          764
+        ],
+        "content": "(7) Jaminan aset berwujud sebagaimana dimaksud pada ayat (2) huruf c dan ayat (3) huruf c diserahkan kepada Direktur Jenderal Pajak paling lama 3 (tiga) hari kerja setelah permohonan disampaikan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            703
+          ],
+          [
+            279,
+            763
+          ],
+          [
+            863,
+            763
+          ],
+          [
+            863,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          764,
+          865,
+          901
+        ],
+        "content": "(8) Permohonan sebagaimana dimaksud pada ayat (1) dapat disampaikan oleh Wajib Pajak paling lama sebelum permohonan lelang atas barang sitaan untuk pelunasan utang pajak berupa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b diajukan secara tertulis oleh pejabat untuk penagihan pajak pusat kepada Instansi Pemerintah yang berwenang menyelenggarakan lelang.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            764
+          ],
+          [
+            279,
+            901
+          ],
+          [
+            864,
+            901
+          ],
+          [
+            864,
+            764
+          ]
+        ]
+      }
+    ],
+    [],
+    []
+  ],
+  "layout_details": [
+    [],
+    [
+      {
+        "bbox_2d": [
+          374,
+          71,
+          867,
+          102
+        ],
+        "content": "keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            71
+          ],
+          [
+            374,
+            102
+          ],
+          [
+            866,
+            102
+          ],
+          [
+            866,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          116,
+          865,
+          147
+        ],
+        "content": "c. Wajib Pajak memberikan jaminan aset berwujud, dengan kriteria:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            116
+          ],
+          [
+            332,
+            146
+          ],
+          [
+            864,
+            146
+          ],
+          [
+            864,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          147,
+          868,
+          237
+        ],
+        "content": "1. minimal sebesar pajak yang masih harus dibayar atau kewajiban pelunasan yang diajukan permohonan pengangsuran atau penundaan pembayaran pajak yang dibuktikan dengan dokumen yang menyatakan nilai dari aset tersebut;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            152
+          ],
+          [
+            375,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            152
+          ],
+          [
+            678,
+            147
+          ],
+          [
+            664,
+            147
+          ],
+          [
+            658,
+            147
+          ],
+          [
+            620,
+            147
+          ],
+          [
+            604,
+            147
+          ],
+          [
+            435,
+            147
+          ],
+          [
+            391,
+            147
+          ],
+          [
+            381,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          238,
+          867,
+          282
+        ],
+        "content": "2. merupakan milik Penanggung Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            238
+          ],
+          [
+            373,
+            281
+          ],
+          [
+            866,
+            281
+          ],
+          [
+            866,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          282,
+          844,
+          298
+        ],
+        "content": "3. tidak sedang dijadikan jaminan atas utang.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            282
+          ],
+          [
+            374,
+            292
+          ],
+          [
+            404,
+            297
+          ],
+          [
+            423,
+            297
+          ],
+          [
+            449,
+            297
+          ],
+          [
+            843,
+            297
+          ],
+          [
+            843,
+            282
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          297,
+          867,
+          418
+        ],
+        "content": "(4) Dalam hal permohonan diajukan atas pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b terkait dengan Pajak Bumi dan Bangunan, selain memenuhi ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) juga harus dilampiri salinan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang dimohonkan pengangsuran atau penundaan pembayaran pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            297
+          ],
+          [
+            280,
+            408
+          ],
+          [
+            305,
+            418
+          ],
+          [
+            866,
+            418
+          ],
+          [
+            866,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          418,
+          865,
+          492
+        ],
+        "content": "(5) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (4) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            418
+          ],
+          [
+            280,
+            487
+          ],
+          [
+            325,
+            492
+          ],
+          [
+            864,
+            492
+          ],
+          [
+            864,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          493,
+          865,
+          552
+        ],
+        "content": "(6) Dalam hal permohonan diajukan atas Surat Ketetapan Pajak Kurang Bayar dan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud dalam Pasal 98 ayat (1) berlaku ketentuan:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            493
+          ],
+          [
+            279,
+            547
+          ],
+          [
+            294,
+            552
+          ],
+          [
+            304,
+            552
+          ],
+          [
+            324,
+            552
+          ],
+          [
+            865,
+            552
+          ],
+          [
+            865,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          553,
+          865,
+          597
+        ],
+        "content": "a. Wajib Pajak menyetujui seluruh nilai pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            553
+          ],
+          [
+            324,
+            597
+          ],
+          [
+            865,
+            597
+          ],
+          [
+            865,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          598,
+          864,
+          673
+        ],
+        "content": "b. terdapat nilai yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan dan Wajib Pajak tidak mengajukan permohonan keberatan sampai dengan jatuh tempo pengajuan keberatan; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            598
+          ],
+          [
+            329,
+            672
+          ],
+          [
+            863,
+            672
+          ],
+          [
+            863,
+            598
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          674,
+          863,
+          704
+        ],
+        "content": "c. Wajib Pajak mengajukan permohonan keberatan tetapi tidak mengajukan banding.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            674
+          ],
+          [
+            323,
+            703
+          ],
+          [
+            862,
+            703
+          ],
+          [
+            862,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          703,
+          864,
+          764
+        ],
+        "content": "(7) Jaminan aset berwujud sebagaimana dimaksud pada ayat (2) huruf c dan ayat (3) huruf c diserahkan kepada Direktur Jenderal Pajak paling lama 3 (tiga) hari kerja setelah permohonan disampaikan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            703
+          ],
+          [
+            279,
+            763
+          ],
+          [
+            863,
+            763
+          ],
+          [
+            863,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          764,
+          865,
+          901
+        ],
+        "content": "(8) Permohonan sebagaimana dimaksud pada ayat (1) dapat disampaikan oleh Wajib Pajak paling lama sebelum permohonan lelang atas barang sitaan untuk pelunasan utang pajak berupa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b diajukan secara tertulis oleh pejabat untuk penagihan pajak pusat kepada Instansi Pemerintah yang berwenang menyelenggarakan lelang.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            764
+          ],
+          [
+            279,
+            901
+          ],
+          [
+            864,
+            901
+          ],
+          [
+            864,
+            764
+          ]
+        ]
+      }
+    ],
+    [],
+    []
+  ],
+  "markdown_result": "\n\nkeadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;\n\nc. Wajib Pajak memberikan jaminan aset berwujud, dengan kriteria:\n\n1. minimal sebesar pajak yang masih harus dibayar atau kewajiban pelunasan yang diajukan permohonan pengangsuran atau penundaan pembayaran pajak yang dibuktikan dengan dokumen yang menyatakan nilai dari aset tersebut;\n\n2. merupakan milik Penanggung Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan\n\n3. tidak sedang dijadikan jaminan atas utang.\n\n(4) Dalam hal permohonan diajukan atas pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b terkait dengan Pajak Bumi dan Bangunan, selain memenuhi ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) juga harus dilampiri salinan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang dimohonkan pengangsuran atau penundaan pembayaran pajak.\n\n(5) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (4) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.\n\n(6) Dalam hal permohonan diajukan atas Surat Ketetapan Pajak Kurang Bayar dan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud dalam Pasal 98 ayat (1) berlaku ketentuan:\n\na. Wajib Pajak menyetujui seluruh nilai pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan;\n\nb. terdapat nilai yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan dan Wajib Pajak tidak mengajukan permohonan keberatan sampai dengan jatuh tempo pengajuan keberatan; atau\n\nc. Wajib Pajak mengajukan permohonan keberatan tetapi tidak mengajukan banding.\n\n(7) Jaminan aset berwujud sebagaimana dimaksud pada ayat (2) huruf c dan ayat (3) huruf c diserahkan kepada Direktur Jenderal Pajak paling lama 3 (tiga) hari kerja setelah permohonan disampaikan.\n\n(8) Permohonan sebagaimana dimaksud pada ayat (1) dapat disampaikan oleh Wajib Pajak paling lama sebelum permohonan lelang atas barang sitaan untuk pelunasan utang pajak berupa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b diajukan secara tertulis oleh pejabat untuk penagihan pajak pusat kepada Instansi Pemerintah yang berwenang menyelenggarakan lelang.\n\n\n\n",
+  "md_results": "\n\nkeadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;\n\nc. Wajib Pajak memberikan jaminan aset berwujud, dengan kriteria:\n\n1. minimal sebesar pajak yang masih harus dibayar atau kewajiban pelunasan yang diajukan permohonan pengangsuran atau penundaan pembayaran pajak yang dibuktikan dengan dokumen yang menyatakan nilai dari aset tersebut;\n\n2. merupakan milik Penanggung Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan\n\n3. tidak sedang dijadikan jaminan atas utang.\n\n(4) Dalam hal permohonan diajukan atas pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b terkait dengan Pajak Bumi dan Bangunan, selain memenuhi ketentuan sebagaimana dimaksud pada ayat (2) dan ayat (3) juga harus dilampiri salinan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang dimohonkan pengangsuran atau penundaan pembayaran pajak.\n\n(5) Dalam hal dokumen yang disyaratkan sebagaimana dimaksud pada ayat (4) telah tersedia dan tervalidasi dalam sistem administrasi Direktorat Jenderal Pajak, dokumen dimaksud tidak harus dilampirkan sebagai lampiran permohonan.\n\n(6) Dalam hal permohonan diajukan atas Surat Ketetapan Pajak Kurang Bayar dan Surat Ketetapan Pajak Kurang Bayar Tambahan sebagaimana dimaksud dalam Pasal 98 ayat (1) berlaku ketentuan:\n\na. Wajib Pajak menyetujui seluruh nilai pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan;\n\nb. terdapat nilai yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan dan Wajib Pajak tidak mengajukan permohonan keberatan sampai dengan jatuh tempo pengajuan keberatan; atau\n\nc. Wajib Pajak mengajukan permohonan keberatan tetapi tidak mengajukan banding.\n\n(7) Jaminan aset berwujud sebagaimana dimaksud pada ayat (2) huruf c dan ayat (3) huruf c diserahkan kepada Direktur Jenderal Pajak paling lama 3 (tiga) hari kerja setelah permohonan disampaikan.\n\n(8) Permohonan sebagaimana dimaksud pada ayat (1) dapat disampaikan oleh Wajib Pajak paling lama sebelum permohonan lelang atas barang sitaan untuk pelunasan utang pajak berupa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b diajukan secara tertulis oleh pejabat untuk penagihan pajak pusat kepada Instansi Pemerintah yang berwenang menyelenggarakan lelang.\n\n\n\n",
+  "model": "glm-ocr",
+  "usage": {}
+}

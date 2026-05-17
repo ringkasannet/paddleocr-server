@@ -1,0 +1,4039 @@
+{
+  "created": 1779004517,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-7f04123568744c03b48671d53346d",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          528,
+          71,
+          630,
+          85
+        ],
+        "content": "## Pasal 124",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            71
+          ],
+          [
+            528,
+            85
+          ],
+          [
+            629,
+            85
+          ],
+          [
+            629,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          85,
+          870,
+          132
+        ],
+        "content": "(1) Pembayaran pajak sebagaimana dimaksud dalam Pasal 123 dapat diminta kembali oleh pihak pembayar yang bersangkutan dengan mengajukan permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            85
+          ],
+          [
+            285,
+            127
+          ],
+          [
+            375,
+            132
+          ],
+          [
+            391,
+            132
+          ],
+          [
+            425,
+            132
+          ],
+          [
+            455,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            85
+          ],
+          [
+            641,
+            85
+          ],
+          [
+            610,
+            85
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          131,
+          868,
+          164
+        ],
+        "content": "(2) Pihak pembayar sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            131
+          ],
+          [
+            285,
+            159
+          ],
+          [
+            310,
+            164
+          ],
+          [
+            868,
+            164
+          ],
+          [
+            868,
+            136
+          ],
+          [
+            793,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          340,
+          160,
+          682,
+          177
+        ],
+        "content": "a. Wajib Pajak orang pribadi; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            340,
+            160
+          ],
+          [
+            340,
+            176
+          ],
+          [
+            681,
+            176
+          ],
+          [
+            681,
+            160
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          178,
+          868,
+          193
+        ],
+        "content": "b. Wajib Pajak Badan termasuk Instansi Pemerintah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            178
+          ],
+          [
+            329,
+            188
+          ],
+          [
+            364,
+            193
+          ],
+          [
+            867,
+            193
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          191,
+          869,
+          221
+        ],
+        "content": "(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            191
+          ],
+          [
+            285,
+            221
+          ],
+          [
+            868,
+            221
+          ],
+          [
+            868,
+            191
+          ],
+          [
+            750,
+            191
+          ],
+          [
+            744,
+            191
+          ],
+          [
+            734,
+            191
+          ],
+          [
+            475,
+            191
+          ],
+          [
+            454,
+            191
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          221,
+          871,
+          281
+        ],
+        "content": "(4) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf a, huruf b, huruf c, huruf e, dan huruf f harus dilampiri dengan dokumen berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            221
+          ],
+          [
+            284,
+            281
+          ],
+          [
+            870,
+            281
+          ],
+          [
+            870,
+            221
+          ],
+          [
+            825,
+            221
+          ],
+          [
+            811,
+            221
+          ],
+          [
+            805,
+            221
+          ],
+          [
+            795,
+            221
+          ],
+          [
+            735,
+            221
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          283,
+          869,
+          312
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            283
+          ],
+          [
+            330,
+            311
+          ],
+          [
+            868,
+            311
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          312,
+          869,
+          356
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            312
+          ],
+          [
+            329,
+            356
+          ],
+          [
+            868,
+            356
+          ],
+          [
+            868,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          357,
+          868,
+          402
+        ],
+        "content": "(5) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d harus dilampiri dengan dokumen berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            357
+          ],
+          [
+            284,
+            401
+          ],
+          [
+            868,
+            401
+          ],
+          [
+            868,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          403,
+          868,
+          433
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            403
+          ],
+          [
+            328,
+            433
+          ],
+          [
+            868,
+            433
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          868,
+          483
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            435
+          ],
+          [
+            327,
+            482
+          ],
+          [
+            868,
+            482
+          ],
+          [
+            868,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          484,
+          868,
+          563
+        ],
+        "content": "c. surat keterangan dari penyidik dan surat pemberitahuan penghentian penyidikan untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 1;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            484
+          ],
+          [
+            331,
+            563
+          ],
+          [
+            868,
+            563
+          ],
+          [
+            868,
+            484
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          565,
+          868,
+          645
+        ],
+        "content": "d. surat keterangan dari penyidik dan putusan pengadilan yang berkekuatan hukum tetap untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 2 dan/atau butir 3; dan/atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            565
+          ],
+          [
+            331,
+            645
+          ],
+          [
+            867,
+            645
+          ],
+          [
+            867,
+            565
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          646,
+          867,
+          758
+        ],
+        "content": "e. surat keterangan dari penyidik yang menyatakan bahwa telah terjadi kesalahan pembayaran dan belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 4.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            651
+          ],
+          [
+            325,
+            758
+          ],
+          [
+            867,
+            758
+          ],
+          [
+            867,
+            646
+          ],
+          [
+            330,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          760,
+          867,
+          836
+        ],
+        "content": "(6) Tata cara penyampaian permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            760
+          ],
+          [
+            282,
+            836
+          ],
+          [
+            867,
+            836
+          ],
+          [
+            867,
+            760
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          523,
+          850,
+          624,
+          864
+        ],
+        "content": "## Pasal 125",
+        "index": 16,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            523,
+            850
+          ],
+          [
+            523,
+            863
+          ],
+          [
+            624,
+            863
+          ],
+          [
+            624,
+            850
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          865,
+          866,
+          911
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 124.",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            865
+          ],
+          [
+            280,
+            911
+          ],
+          [
+            865,
+            911
+          ],
+          [
+            865,
+            865
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          868,
+          117
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            117
+          ],
+          [
+            370,
+            117
+          ],
+          [
+            404,
+            117
+          ],
+          [
+            410,
+            117
+          ],
+          [
+            464,
+            117
+          ],
+          [
+            868,
+            117
+          ],
+          [
+            868,
+            71
+          ],
+          [
+            854,
+            71
+          ],
+          [
+            848,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          117,
+          868,
+          147
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam hal memenuhi ketentuan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            117
+          ],
+          [
+            284,
+            147
+          ],
+          [
+            324,
+            147
+          ],
+          [
+            330,
+            147
+          ],
+          [
+            868,
+            147
+          ],
+          [
+            868,
+            121
+          ],
+          [
+            723,
+            117
+          ],
+          [
+            699,
+            117
+          ],
+          [
+            688,
+            117
+          ],
+          [
+            624,
+            117
+          ],
+          [
+            548,
+            117
+          ],
+          [
+            538,
+            117
+          ],
+          [
+            528,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          148,
+          868,
+          177
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah dibayar ke Kas Negara; dan",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            148
+          ],
+          [
+            329,
+            177
+          ],
+          [
+            349,
+            177
+          ],
+          [
+            868,
+            177
+          ],
+          [
+            868,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          178,
+          869,
+          223
+        ],
+        "content": "b. pajak yang seharusnya tidak terutang telah dibayar sebagaimana dimaksud dalam huruf a tidak dikreditkan dalam Surat Pemberitahuan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            178
+          ],
+          [
+            328,
+            218
+          ],
+          [
+            344,
+            222
+          ],
+          [
+            363,
+            222
+          ],
+          [
+            384,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          222,
+          867,
+          252
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            222
+          ],
+          [
+            283,
+            252
+          ],
+          [
+            293,
+            252
+          ],
+          [
+            867,
+            252
+          ],
+          [
+            867,
+            226
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          253,
+          868,
+          312
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            253
+          ],
+          [
+            283,
+            307
+          ],
+          [
+            313,
+            312
+          ],
+          [
+            328,
+            312
+          ],
+          [
+            867,
+            312
+          ],
+          [
+            867,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          313,
+          869,
+          420
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            313
+          ],
+          [
+            284,
+            420
+          ],
+          [
+            868,
+            420
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          433,
+          626,
+          448
+        ],
+        "content": "## Pasal 126",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            433
+          ],
+          [
+            525,
+            448
+          ],
+          [
+            625,
+            448
+          ],
+          [
+            625,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          448,
+          867,
+          539
+        ],
+        "content": "Kelebihan pembayaran pajak yang terkait dengan Pajak Dalam Rangka Impor sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf b meliputi Pajak Penghasilan Pasal 22 impor, Pajak Pertambahan Nilai impor, dan/atau Pajak Penjualan atas Barang Mewah impor yang telah dibayar dan tercantum dalam:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            448
+          ],
+          [
+            280,
+            539
+          ],
+          [
+            867,
+            539
+          ],
+          [
+            867,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          865,
+          568
+        ],
+        "content": "a. Surat Penetapan Tarif dan/atau Nilai Pabean atau Surat Penetapan Kembali Tarif dan/atau Nilai Pabean;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            568
+          ],
+          [
+            865,
+            568
+          ],
+          [
+            865,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          569,
+          866,
+          644
+        ],
+        "content": "b. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            569
+          ],
+          [
+            280,
+            644
+          ],
+          [
+            865,
+            644
+          ],
+          [
+            865,
+            569
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          645,
+          866,
+          720
+        ],
+        "content": "c. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan dan putusan banding;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            645
+          ],
+          [
+            280,
+            719
+          ],
+          [
+            865,
+            719
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          720,
+          866,
+          810
+        ],
+        "content": "d. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan, putusan banding, dan putusan peninjauan kembali;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            720
+          ],
+          [
+            279,
+            809
+          ],
+          [
+            865,
+            809
+          ],
+          [
+            865,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          810,
+          864,
+          840
+        ],
+        "content": "e. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            810
+          ],
+          [
+            279,
+            840
+          ],
+          [
+            864,
+            840
+          ],
+          [
+            864,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          840,
+          865,
+          885
+        ],
+        "content": "f. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding dan putusan peninjauan kembali; dan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            840
+          ],
+          [
+            279,
+            885
+          ],
+          [
+            864,
+            885
+          ],
+          [
+            864,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          885,
+          865,
+          916
+        ],
+        "content": "g. dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang,",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            885
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            865,
+            916
+          ],
+          [
+            865,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          72,
+          866,
+          89
+        ],
+        "content": "yang menyebabkan terjadinya kelebihan pembayaran pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            72
+          ],
+          [
+            281,
+            89
+          ],
+          [
+            865,
+            89
+          ],
+          [
+            865,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          102,
+          627,
+          116
+        ],
+        "content": "## Pasal 127",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            102
+          ],
+          [
+            526,
+            116
+          ],
+          [
+            627,
+            116
+          ],
+          [
+            627,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          117,
+          867,
+          178
+        ],
+        "content": "(1) Kelebihan pembayaran pajak oleh Wajib Pajak sebagaimana dimaksud dalam Pasal 126 dapat diminta kembali oleh Wajib Pajak yang bersangkutan dengan mengajukan permohonan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            117
+          ],
+          [
+            283,
+            172
+          ],
+          [
+            298,
+            177
+          ],
+          [
+            867,
+            177
+          ],
+          [
+            867,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          178,
+          867,
+          223
+        ],
+        "content": "(2) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi dan Wajib Pajak Badan termasuk Instansi Pemerintah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            178
+          ],
+          [
+            283,
+            222
+          ],
+          [
+            298,
+            222
+          ],
+          [
+            867,
+            222
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          223,
+          867,
+          252
+        ],
+        "content": "(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            223
+          ],
+          [
+            282,
+            252
+          ],
+          [
+            866,
+            252
+          ],
+          [
+            866,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          253,
+          867,
+          283
+        ],
+        "content": "(4) Permohonan pengembalian harus dilampiri dengan dokumen berupa:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            253
+          ],
+          [
+            282,
+            282
+          ],
+          [
+            866,
+            282
+          ],
+          [
+            866,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          283,
+          867,
+          343
+        ],
+        "content": "a. salinan bukti pembayaran pajak berupa Surat Setoran Pabean, Cukai, dan Pajak atau sarana administrasi lain yang disamakan dengan Surat Setoran Pabean, Cukai, dan Pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            283
+          ],
+          [
+            326,
+            338
+          ],
+          [
+            351,
+            342
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          343,
+          868,
+          465
+        ],
+        "content": "b. salinan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, atau dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            343
+          ],
+          [
+            326,
+            464
+          ],
+          [
+            867,
+            464
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          464,
+          868,
+          705
+        ],
+        "content": "c. salinan keputusan keberatan, putusan banding, dan/atau putusan peninjauan kembali yang terkait dengan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, dalam hal diajukan keberatan, banding, dan/atau peninjauan kembali terhadap Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, dan/atau Surat Penetapan Pabean;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            464
+          ],
+          [
+            331,
+            704
+          ],
+          [
+            862,
+            704
+          ],
+          [
+            867,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          705,
+          865,
+          735
+        ],
+        "content": "d. penghitungan pajak yang seharusnya tidak terutang; dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            705
+          ],
+          [
+            325,
+            735
+          ],
+          [
+            864,
+            735
+          ],
+          [
+            864,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          735,
+          865,
+          780
+        ],
+        "content": "e. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            735
+          ],
+          [
+            324,
+            780
+          ],
+          [
+            865,
+            780
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          780,
+          866,
+          856
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            780
+          ],
+          [
+            280,
+            855
+          ],
+          [
+            865,
+            855
+          ],
+          [
+            865,
+            780
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          528,
+          71,
+          628,
+          86
+        ],
+        "content": "## Pasal 128",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            71
+          ],
+          [
+            528,
+            85
+          ],
+          [
+            628,
+            85
+          ],
+          [
+            628,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          86,
+          870,
+          132
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 127.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            86
+          ],
+          [
+            285,
+            132
+          ],
+          [
+            869,
+            132
+          ],
+          [
+            869,
+            86
+          ],
+          [
+            665,
+            86
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          132,
+          868,
+          177
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            132
+          ],
+          [
+            284,
+            176
+          ],
+          [
+            868,
+            176
+          ],
+          [
+            868,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          177,
+          868,
+          207
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            177
+          ],
+          [
+            285,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          208,
+          868,
+          238
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah dibayar atau disetor ke Kas Negara;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            208
+          ],
+          [
+            330,
+            233
+          ],
+          [
+            370,
+            237
+          ],
+          [
+            868,
+            237
+          ],
+          [
+            868,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          238,
+          869,
+          313
+        ],
+        "content": "b. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penghasilan Pasal 22 impor, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            238
+          ],
+          [
+            329,
+            307
+          ],
+          [
+            344,
+            312
+          ],
+          [
+            868,
+            312
+          ],
+          [
+            868,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          313,
+          869,
+          464
+        ],
+        "content": "c. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Pertambahan Nilai impor dan Surat Pemberitahuan Tahunan Tahun Pajak terjadinya pembayaran telah dilaporkan, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai, tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan, atau tidak dikapitalisasi dalam harga perolehan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            313
+          ],
+          [
+            332,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          464,
+          868,
+          568
+        ],
+        "content": "d. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penjualan atas Barang Mewah impor, pajak tersebut tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan atau tidak dikapitalisasi dalam harga perolehan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            464
+          ],
+          [
+            326,
+            563
+          ],
+          [
+            336,
+            568
+          ],
+          [
+            868,
+            568
+          ],
+          [
+            868,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          568,
+          865,
+          598
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            583
+          ],
+          [
+            287,
+            598
+          ],
+          [
+            865,
+            598
+          ],
+          [
+            865,
+            568
+          ],
+          [
+            287,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          599,
+          867,
+          659
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            599
+          ],
+          [
+            287,
+            658
+          ],
+          [
+            866,
+            658
+          ],
+          [
+            866,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          659,
+          868,
+          766
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            659
+          ],
+          [
+            287,
+            766
+          ],
+          [
+            867,
+            766
+          ],
+          [
+            867,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          524,
+          780,
+          625,
+          794
+        ],
+        "content": "## Pasal 129",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            524,
+            780
+          ],
+          [
+            524,
+            793
+          ],
+          [
+            624,
+            793
+          ],
+          [
+            624,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          867,
+          870
+        ],
+        "content": "(1) Kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf c dapat berupa:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            286,
+            870
+          ],
+          [
+            866,
+            870
+          ],
+          [
+            866,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          870,
+          868,
+          917
+        ],
+        "content": "a. pemotongan atau pemungutan Pajak Penghasilan yang mengakibatkan Pajak Penghasilan yang dipotong atau dipungut lebih besar daripada Pajak",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            870
+          ],
+          [
+            331,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          528,
+          71,
+          630,
+          85
+        ],
+        "content": "## Pasal 124",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            71
+          ],
+          [
+            528,
+            85
+          ],
+          [
+            629,
+            85
+          ],
+          [
+            629,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          85,
+          870,
+          132
+        ],
+        "content": "(1) Pembayaran pajak sebagaimana dimaksud dalam Pasal 123 dapat diminta kembali oleh pihak pembayar yang bersangkutan dengan mengajukan permohonan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            85
+          ],
+          [
+            285,
+            127
+          ],
+          [
+            375,
+            132
+          ],
+          [
+            391,
+            132
+          ],
+          [
+            425,
+            132
+          ],
+          [
+            455,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            85
+          ],
+          [
+            641,
+            85
+          ],
+          [
+            610,
+            85
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          131,
+          868,
+          164
+        ],
+        "content": "(2) Pihak pembayar sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            131
+          ],
+          [
+            285,
+            159
+          ],
+          [
+            310,
+            164
+          ],
+          [
+            868,
+            164
+          ],
+          [
+            868,
+            136
+          ],
+          [
+            793,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          340,
+          160,
+          682,
+          177
+        ],
+        "content": "a. Wajib Pajak orang pribadi; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            340,
+            160
+          ],
+          [
+            340,
+            176
+          ],
+          [
+            681,
+            176
+          ],
+          [
+            681,
+            160
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          178,
+          868,
+          193
+        ],
+        "content": "b. Wajib Pajak Badan termasuk Instansi Pemerintah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            178
+          ],
+          [
+            329,
+            188
+          ],
+          [
+            364,
+            193
+          ],
+          [
+            867,
+            193
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          191,
+          869,
+          221
+        ],
+        "content": "(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            191
+          ],
+          [
+            285,
+            221
+          ],
+          [
+            868,
+            221
+          ],
+          [
+            868,
+            191
+          ],
+          [
+            750,
+            191
+          ],
+          [
+            744,
+            191
+          ],
+          [
+            734,
+            191
+          ],
+          [
+            475,
+            191
+          ],
+          [
+            454,
+            191
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          221,
+          871,
+          281
+        ],
+        "content": "(4) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf a, huruf b, huruf c, huruf e, dan huruf f harus dilampiri dengan dokumen berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            221
+          ],
+          [
+            284,
+            281
+          ],
+          [
+            870,
+            281
+          ],
+          [
+            870,
+            221
+          ],
+          [
+            825,
+            221
+          ],
+          [
+            811,
+            221
+          ],
+          [
+            805,
+            221
+          ],
+          [
+            795,
+            221
+          ],
+          [
+            735,
+            221
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          283,
+          869,
+          312
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            283
+          ],
+          [
+            330,
+            311
+          ],
+          [
+            868,
+            311
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          312,
+          869,
+          356
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            312
+          ],
+          [
+            329,
+            356
+          ],
+          [
+            868,
+            356
+          ],
+          [
+            868,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          357,
+          868,
+          402
+        ],
+        "content": "(5) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d harus dilampiri dengan dokumen berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            357
+          ],
+          [
+            284,
+            401
+          ],
+          [
+            868,
+            401
+          ],
+          [
+            868,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          403,
+          868,
+          433
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            403
+          ],
+          [
+            328,
+            433
+          ],
+          [
+            868,
+            433
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          868,
+          483
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            435
+          ],
+          [
+            327,
+            482
+          ],
+          [
+            868,
+            482
+          ],
+          [
+            868,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          484,
+          868,
+          563
+        ],
+        "content": "c. surat keterangan dari penyidik dan surat pemberitahuan penghentian penyidikan untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 1;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            484
+          ],
+          [
+            331,
+            563
+          ],
+          [
+            868,
+            563
+          ],
+          [
+            868,
+            484
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          565,
+          868,
+          645
+        ],
+        "content": "d. surat keterangan dari penyidik dan putusan pengadilan yang berkekuatan hukum tetap untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 2 dan/atau butir 3; dan/atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            565
+          ],
+          [
+            331,
+            645
+          ],
+          [
+            867,
+            645
+          ],
+          [
+            867,
+            565
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          646,
+          867,
+          758
+        ],
+        "content": "e. surat keterangan dari penyidik yang menyatakan bahwa telah terjadi kesalahan pembayaran dan belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 4.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            651
+          ],
+          [
+            325,
+            758
+          ],
+          [
+            867,
+            758
+          ],
+          [
+            867,
+            646
+          ],
+          [
+            330,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          760,
+          867,
+          836
+        ],
+        "content": "(6) Tata cara penyampaian permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            760
+          ],
+          [
+            282,
+            836
+          ],
+          [
+            867,
+            836
+          ],
+          [
+            867,
+            760
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          523,
+          850,
+          624,
+          864
+        ],
+        "content": "## Pasal 125",
+        "index": 16,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            523,
+            850
+          ],
+          [
+            523,
+            863
+          ],
+          [
+            624,
+            863
+          ],
+          [
+            624,
+            850
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          865,
+          866,
+          911
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 124.",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            865
+          ],
+          [
+            280,
+            911
+          ],
+          [
+            865,
+            911
+          ],
+          [
+            865,
+            865
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          868,
+          117
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            117
+          ],
+          [
+            370,
+            117
+          ],
+          [
+            404,
+            117
+          ],
+          [
+            410,
+            117
+          ],
+          [
+            464,
+            117
+          ],
+          [
+            868,
+            117
+          ],
+          [
+            868,
+            71
+          ],
+          [
+            854,
+            71
+          ],
+          [
+            848,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          117,
+          868,
+          147
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam hal memenuhi ketentuan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            117
+          ],
+          [
+            284,
+            147
+          ],
+          [
+            324,
+            147
+          ],
+          [
+            330,
+            147
+          ],
+          [
+            868,
+            147
+          ],
+          [
+            868,
+            121
+          ],
+          [
+            723,
+            117
+          ],
+          [
+            699,
+            117
+          ],
+          [
+            688,
+            117
+          ],
+          [
+            624,
+            117
+          ],
+          [
+            548,
+            117
+          ],
+          [
+            538,
+            117
+          ],
+          [
+            528,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          148,
+          868,
+          177
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah dibayar ke Kas Negara; dan",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            148
+          ],
+          [
+            329,
+            177
+          ],
+          [
+            349,
+            177
+          ],
+          [
+            868,
+            177
+          ],
+          [
+            868,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          178,
+          869,
+          223
+        ],
+        "content": "b. pajak yang seharusnya tidak terutang telah dibayar sebagaimana dimaksud dalam huruf a tidak dikreditkan dalam Surat Pemberitahuan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            178
+          ],
+          [
+            328,
+            218
+          ],
+          [
+            344,
+            222
+          ],
+          [
+            363,
+            222
+          ],
+          [
+            384,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          222,
+          867,
+          252
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            222
+          ],
+          [
+            283,
+            252
+          ],
+          [
+            293,
+            252
+          ],
+          [
+            867,
+            252
+          ],
+          [
+            867,
+            226
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          253,
+          868,
+          312
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            253
+          ],
+          [
+            283,
+            307
+          ],
+          [
+            313,
+            312
+          ],
+          [
+            328,
+            312
+          ],
+          [
+            867,
+            312
+          ],
+          [
+            867,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          313,
+          869,
+          420
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            313
+          ],
+          [
+            284,
+            420
+          ],
+          [
+            868,
+            420
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          433,
+          626,
+          448
+        ],
+        "content": "## Pasal 126",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            433
+          ],
+          [
+            525,
+            448
+          ],
+          [
+            625,
+            448
+          ],
+          [
+            625,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          448,
+          867,
+          539
+        ],
+        "content": "Kelebihan pembayaran pajak yang terkait dengan Pajak Dalam Rangka Impor sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf b meliputi Pajak Penghasilan Pasal 22 impor, Pajak Pertambahan Nilai impor, dan/atau Pajak Penjualan atas Barang Mewah impor yang telah dibayar dan tercantum dalam:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            448
+          ],
+          [
+            280,
+            539
+          ],
+          [
+            867,
+            539
+          ],
+          [
+            867,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          865,
+          568
+        ],
+        "content": "a. Surat Penetapan Tarif dan/atau Nilai Pabean atau Surat Penetapan Kembali Tarif dan/atau Nilai Pabean;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            568
+          ],
+          [
+            865,
+            568
+          ],
+          [
+            865,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          569,
+          866,
+          644
+        ],
+        "content": "b. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            569
+          ],
+          [
+            280,
+            644
+          ],
+          [
+            865,
+            644
+          ],
+          [
+            865,
+            569
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          645,
+          866,
+          720
+        ],
+        "content": "c. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan dan putusan banding;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            645
+          ],
+          [
+            280,
+            719
+          ],
+          [
+            865,
+            719
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          720,
+          866,
+          810
+        ],
+        "content": "d. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan, putusan banding, dan putusan peninjauan kembali;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            720
+          ],
+          [
+            279,
+            809
+          ],
+          [
+            865,
+            809
+          ],
+          [
+            865,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          810,
+          864,
+          840
+        ],
+        "content": "e. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            810
+          ],
+          [
+            279,
+            840
+          ],
+          [
+            864,
+            840
+          ],
+          [
+            864,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          840,
+          865,
+          885
+        ],
+        "content": "f. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding dan putusan peninjauan kembali; dan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            840
+          ],
+          [
+            279,
+            885
+          ],
+          [
+            864,
+            885
+          ],
+          [
+            864,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          885,
+          865,
+          916
+        ],
+        "content": "g. dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang,",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            885
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            865,
+            916
+          ],
+          [
+            865,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          72,
+          866,
+          89
+        ],
+        "content": "yang menyebabkan terjadinya kelebihan pembayaran pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            72
+          ],
+          [
+            281,
+            89
+          ],
+          [
+            865,
+            89
+          ],
+          [
+            865,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          102,
+          627,
+          116
+        ],
+        "content": "## Pasal 127",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            102
+          ],
+          [
+            526,
+            116
+          ],
+          [
+            627,
+            116
+          ],
+          [
+            627,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          117,
+          867,
+          178
+        ],
+        "content": "(1) Kelebihan pembayaran pajak oleh Wajib Pajak sebagaimana dimaksud dalam Pasal 126 dapat diminta kembali oleh Wajib Pajak yang bersangkutan dengan mengajukan permohonan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            117
+          ],
+          [
+            283,
+            172
+          ],
+          [
+            298,
+            177
+          ],
+          [
+            867,
+            177
+          ],
+          [
+            867,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          178,
+          867,
+          223
+        ],
+        "content": "(2) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi dan Wajib Pajak Badan termasuk Instansi Pemerintah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            178
+          ],
+          [
+            283,
+            222
+          ],
+          [
+            298,
+            222
+          ],
+          [
+            867,
+            222
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          223,
+          867,
+          252
+        ],
+        "content": "(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            223
+          ],
+          [
+            282,
+            252
+          ],
+          [
+            866,
+            252
+          ],
+          [
+            866,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          253,
+          867,
+          283
+        ],
+        "content": "(4) Permohonan pengembalian harus dilampiri dengan dokumen berupa:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            253
+          ],
+          [
+            282,
+            282
+          ],
+          [
+            866,
+            282
+          ],
+          [
+            866,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          283,
+          867,
+          343
+        ],
+        "content": "a. salinan bukti pembayaran pajak berupa Surat Setoran Pabean, Cukai, dan Pajak atau sarana administrasi lain yang disamakan dengan Surat Setoran Pabean, Cukai, dan Pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            283
+          ],
+          [
+            326,
+            338
+          ],
+          [
+            351,
+            342
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          343,
+          868,
+          465
+        ],
+        "content": "b. salinan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, atau dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            343
+          ],
+          [
+            326,
+            464
+          ],
+          [
+            867,
+            464
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          464,
+          868,
+          705
+        ],
+        "content": "c. salinan keputusan keberatan, putusan banding, dan/atau putusan peninjauan kembali yang terkait dengan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, dalam hal diajukan keberatan, banding, dan/atau peninjauan kembali terhadap Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, dan/atau Surat Penetapan Pabean;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            464
+          ],
+          [
+            331,
+            704
+          ],
+          [
+            862,
+            704
+          ],
+          [
+            867,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          705,
+          865,
+          735
+        ],
+        "content": "d. penghitungan pajak yang seharusnya tidak terutang; dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            705
+          ],
+          [
+            325,
+            735
+          ],
+          [
+            864,
+            735
+          ],
+          [
+            864,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          735,
+          865,
+          780
+        ],
+        "content": "e. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            735
+          ],
+          [
+            324,
+            780
+          ],
+          [
+            865,
+            780
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          780,
+          866,
+          856
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            780
+          ],
+          [
+            280,
+            855
+          ],
+          [
+            865,
+            855
+          ],
+          [
+            865,
+            780
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          528,
+          71,
+          628,
+          86
+        ],
+        "content": "## Pasal 128",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            71
+          ],
+          [
+            528,
+            85
+          ],
+          [
+            628,
+            85
+          ],
+          [
+            628,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          86,
+          870,
+          132
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 127.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            86
+          ],
+          [
+            285,
+            132
+          ],
+          [
+            869,
+            132
+          ],
+          [
+            869,
+            86
+          ],
+          [
+            665,
+            86
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          132,
+          868,
+          177
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            132
+          ],
+          [
+            284,
+            176
+          ],
+          [
+            868,
+            176
+          ],
+          [
+            868,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          177,
+          868,
+          207
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            177
+          ],
+          [
+            285,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          208,
+          868,
+          238
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah dibayar atau disetor ke Kas Negara;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            208
+          ],
+          [
+            330,
+            233
+          ],
+          [
+            370,
+            237
+          ],
+          [
+            868,
+            237
+          ],
+          [
+            868,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          238,
+          869,
+          313
+        ],
+        "content": "b. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penghasilan Pasal 22 impor, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            238
+          ],
+          [
+            329,
+            307
+          ],
+          [
+            344,
+            312
+          ],
+          [
+            868,
+            312
+          ],
+          [
+            868,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          313,
+          869,
+          464
+        ],
+        "content": "c. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Pertambahan Nilai impor dan Surat Pemberitahuan Tahunan Tahun Pajak terjadinya pembayaran telah dilaporkan, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai, tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan, atau tidak dikapitalisasi dalam harga perolehan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            313
+          ],
+          [
+            332,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          464,
+          868,
+          568
+        ],
+        "content": "d. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penjualan atas Barang Mewah impor, pajak tersebut tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan atau tidak dikapitalisasi dalam harga perolehan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            464
+          ],
+          [
+            326,
+            563
+          ],
+          [
+            336,
+            568
+          ],
+          [
+            868,
+            568
+          ],
+          [
+            868,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          568,
+          865,
+          598
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            583
+          ],
+          [
+            287,
+            598
+          ],
+          [
+            865,
+            598
+          ],
+          [
+            865,
+            568
+          ],
+          [
+            287,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          599,
+          867,
+          659
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            599
+          ],
+          [
+            287,
+            658
+          ],
+          [
+            866,
+            658
+          ],
+          [
+            866,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          659,
+          868,
+          766
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            659
+          ],
+          [
+            287,
+            766
+          ],
+          [
+            867,
+            766
+          ],
+          [
+            867,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          524,
+          780,
+          625,
+          794
+        ],
+        "content": "## Pasal 129",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            524,
+            780
+          ],
+          [
+            524,
+            793
+          ],
+          [
+            624,
+            793
+          ],
+          [
+            624,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          867,
+          870
+        ],
+        "content": "(1) Kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf c dapat berupa:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            286,
+            870
+          ],
+          [
+            866,
+            870
+          ],
+          [
+            866,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          870,
+          868,
+          917
+        ],
+        "content": "a. pemotongan atau pemungutan Pajak Penghasilan yang mengakibatkan Pajak Penghasilan yang dipotong atau dipungut lebih besar daripada Pajak",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            870
+          ],
+          [
+            331,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "## Pasal 124\n\n(1) Pembayaran pajak sebagaimana dimaksud dalam Pasal 123 dapat diminta kembali oleh pihak pembayar yang bersangkutan dengan mengajukan permohonan.\n\n(2) Pihak pembayar sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak orang pribadi; dan\n\nb. Wajib Pajak Badan termasuk Instansi Pemerintah.\n\n(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.\n\n(4) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf a, huruf b, huruf c, huruf e, dan huruf f harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang; dan/atau\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n(5) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. surat keterangan dari penyidik dan surat pemberitahuan penghentian penyidikan untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 1;\n\nd. surat keterangan dari penyidik dan putusan pengadilan yang berkekuatan hukum tetap untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 2 dan/atau butir 3; dan/atau\n\ne. surat keterangan dari penyidik yang menyatakan bahwa telah terjadi kesalahan pembayaran dan belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 4.\n\n(6) Tata cara penyampaian permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 125\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 124.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam hal memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah dibayar ke Kas Negara; dan\n\nb. pajak yang seharusnya tidak terutang telah dibayar sebagaimana dimaksud dalam huruf a tidak dikreditkan dalam Surat Pemberitahuan.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 126\n\nKelebihan pembayaran pajak yang terkait dengan Pajak Dalam Rangka Impor sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf b meliputi Pajak Penghasilan Pasal 22 impor, Pajak Pertambahan Nilai impor, dan/atau Pajak Penjualan atas Barang Mewah impor yang telah dibayar dan tercantum dalam:\n\na. Surat Penetapan Tarif dan/atau Nilai Pabean atau Surat Penetapan Kembali Tarif dan/atau Nilai Pabean;\n\nb. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan;\n\nc. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan dan putusan banding;\n\nd. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan, putusan banding, dan putusan peninjauan kembali;\n\ne. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding;\n\nf. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding dan putusan peninjauan kembali; dan\n\ng. dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang,\n\nyang menyebabkan terjadinya kelebihan pembayaran pajak.\n\n## Pasal 127\n\n(1) Kelebihan pembayaran pajak oleh Wajib Pajak sebagaimana dimaksud dalam Pasal 126 dapat diminta kembali oleh Wajib Pajak yang bersangkutan dengan mengajukan permohonan.\n\n(2) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi dan Wajib Pajak Badan termasuk Instansi Pemerintah.\n\n(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.\n\n(4) Permohonan pengembalian harus dilampiri dengan dokumen berupa:\n\na. salinan bukti pembayaran pajak berupa Surat Setoran Pabean, Cukai, dan Pajak atau sarana administrasi lain yang disamakan dengan Surat Setoran Pabean, Cukai, dan Pajak;\n\nb. salinan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, atau dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang;\n\nc. salinan keputusan keberatan, putusan banding, dan/atau putusan peninjauan kembali yang terkait dengan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, dalam hal diajukan keberatan, banding, dan/atau peninjauan kembali terhadap Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, dan/atau Surat Penetapan Pabean;\n\nd. penghitungan pajak yang seharusnya tidak terutang; dan\n\ne. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 128\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 127.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah dibayar atau disetor ke Kas Negara;\n\nb. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penghasilan Pasal 22 impor, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan;\n\nc. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Pertambahan Nilai impor dan Surat Pemberitahuan Tahunan Tahun Pajak terjadinya pembayaran telah dilaporkan, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai, tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan, atau tidak dikapitalisasi dalam harga perolehan; dan\n\nd. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penjualan atas Barang Mewah impor, pajak tersebut tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan atau tidak dikapitalisasi dalam harga perolehan.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 129\n\n(1) Kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf c dapat berupa:\n\na. pemotongan atau pemungutan Pajak Penghasilan yang mengakibatkan Pajak Penghasilan yang dipotong atau dipungut lebih besar daripada Pajak",
+  "md_results": "## Pasal 124\n\n(1) Pembayaran pajak sebagaimana dimaksud dalam Pasal 123 dapat diminta kembali oleh pihak pembayar yang bersangkutan dengan mengajukan permohonan.\n\n(2) Pihak pembayar sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak orang pribadi; dan\n\nb. Wajib Pajak Badan termasuk Instansi Pemerintah.\n\n(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.\n\n(4) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf a, huruf b, huruf c, huruf e, dan huruf f harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang; dan/atau\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n(5) Permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. surat keterangan dari penyidik dan surat pemberitahuan penghentian penyidikan untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 1;\n\nd. surat keterangan dari penyidik dan putusan pengadilan yang berkekuatan hukum tetap untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 2 dan/atau butir 3; dan/atau\n\ne. surat keterangan dari penyidik yang menyatakan bahwa telah terjadi kesalahan pembayaran dan belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum untuk permohonan pengembalian pembayaran pajak sebagaimana dimaksud dalam Pasal 123 huruf d butir 4.\n\n(6) Tata cara penyampaian permohonan pengembalian atas pembayaran pajak sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 125\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 124.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam hal memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah dibayar ke Kas Negara; dan\n\nb. pajak yang seharusnya tidak terutang telah dibayar sebagaimana dimaksud dalam huruf a tidak dikreditkan dalam Surat Pemberitahuan.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 126\n\nKelebihan pembayaran pajak yang terkait dengan Pajak Dalam Rangka Impor sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf b meliputi Pajak Penghasilan Pasal 22 impor, Pajak Pertambahan Nilai impor, dan/atau Pajak Penjualan atas Barang Mewah impor yang telah dibayar dan tercantum dalam:\n\na. Surat Penetapan Tarif dan/atau Nilai Pabean atau Surat Penetapan Kembali Tarif dan/atau Nilai Pabean;\n\nb. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan;\n\nc. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan dan putusan banding;\n\nd. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Tarif dan/atau Nilai Pabean, atau Surat Penetapan Pabean yang telah diterbitkan keputusan keberatan, putusan banding, dan putusan peninjauan kembali;\n\ne. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding;\n\nf. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean yang telah diterbitkan putusan banding dan putusan peninjauan kembali; dan\n\ng. dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang,\n\nyang menyebabkan terjadinya kelebihan pembayaran pajak.\n\n## Pasal 127\n\n(1) Kelebihan pembayaran pajak oleh Wajib Pajak sebagaimana dimaksud dalam Pasal 126 dapat diminta kembali oleh Wajib Pajak yang bersangkutan dengan mengajukan permohonan.\n\n(2) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi dan Wajib Pajak Badan termasuk Instansi Pemerintah.\n\n(3) Permohonan pengembalian diajukan secara tertulis dalam bahasa Indonesia.\n\n(4) Permohonan pengembalian harus dilampiri dengan dokumen berupa:\n\na. salinan bukti pembayaran pajak berupa Surat Setoran Pabean, Cukai, dan Pajak atau sarana administrasi lain yang disamakan dengan Surat Setoran Pabean, Cukai, dan Pajak;\n\nb. salinan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, atau dokumen yang berisi pembatalan impor yang telah disetujui oleh pejabat yang berwenang;\n\nc. salinan keputusan keberatan, putusan banding, dan/atau putusan peninjauan kembali yang terkait dengan Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, Surat Penetapan Pabean, dalam hal diajukan keberatan, banding, dan/atau peninjauan kembali terhadap Surat Penetapan Tarif dan/atau Nilai Pabean, Surat Penetapan Kembali Tarif dan/atau Nilai Pabean, Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor, dan/atau Surat Penetapan Pabean;\n\nd. penghitungan pajak yang seharusnya tidak terutang; dan\n\ne. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n(5) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (4) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 128\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 127.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah dibayar atau disetor ke Kas Negara;\n\nb. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penghasilan Pasal 22 impor, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Tahunan Pajak Penghasilan;\n\nc. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Pertambahan Nilai impor dan Surat Pemberitahuan Tahunan Tahun Pajak terjadinya pembayaran telah dilaporkan, pajak tersebut tidak dikreditkan dalam Surat Pemberitahuan Masa Pajak Pertambahan Nilai, tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan, atau tidak dikapitalisasi dalam harga perolehan; dan\n\nd. dalam hal pajak yang telah dibayar atau disetor sebagaimana dimaksud dalam huruf a terkait dengan Pajak Penjualan atas Barang Mewah impor, pajak tersebut tidak dibebankan sebagai biaya dalam Surat Pemberitahuan Tahunan Pajak Penghasilan atau tidak dikapitalisasi dalam harga perolehan.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 129\n\n(1) Kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf c dapat berupa:\n\na. pemotongan atau pemungutan Pajak Penghasilan yang mengakibatkan Pajak Penghasilan yang dipotong atau dipungut lebih besar daripada Pajak",
+  "model": "glm-ocr",
+  "usage": {}
+}

@@ -1,0 +1,3823 @@
+{
+  "created": 1779015260,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-c08fd55cbf4c4de08410f4e4cb609",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          284,
+          72,
+          871,
+          202
+        ],
+        "content": "203. Pedagang Fisik Aset Kripto adalah pihak yang telah memperoleh persetujuan dari pejabat yang berwenang sesuai dengan ketentuan peraturan perundang- undangan yang mengatur mengenai perdagangan berjangka komoditi, untuk melakukan transaksi Aset Kripto baik atas nama diri sendiri dan/atau memfasilitasi transaksi Penjual Aset Kripto atau pembeli Aset Kripto.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            72
+          ],
+          [
+            284,
+            201
+          ],
+          [
+            871,
+            201
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          203,
+          870,
+          267
+        ],
+        "content": "204. Pembeli Aset Kripto adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Aset Kripto dan yang membayar atau seharusnya membayar harga Aset Kripto tersebut.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            203
+          ],
+          [
+            283,
+            266
+          ],
+          [
+            869,
+            266
+          ],
+          [
+            869,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          269,
+          870,
+          381
+        ],
+        "content": "205. Dokumen yang Dipersamakan dengan Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen berupa formulir kertas atau Dokumen Elektronik yang memuat data atau informasi pemotongan atau pemungutan Pajak Penghasilan tertentu dan kedudukannya dipersamakan dengan bukti pemotongan/pemungutan unifikasi berformat standar.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            269
+          ],
+          [
+            284,
+            380
+          ],
+          [
+            869,
+            380
+          ],
+          [
+            869,
+            269
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          382,
+          868,
+          494
+        ],
+        "content": "206. Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen dalam format standar atau dokumen lain yang dipersamakan, yang dibuat oleh pemotong atau pemungut Pajak Penghasilan sebagai bukti atas pemotongan/pemungutan Pajak Penghasilan dan menunjukkan besarnya Pajak Penghasilan yang telah dipotong/dipungut.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            382
+          ],
+          [
+            282,
+            494
+          ],
+          [
+            867,
+            494
+          ],
+          [
+            867,
+            382
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          496,
+          868,
+          543
+        ],
+        "content": "207. Bidang-bidang Usaha Tertentu adalah bidang usaha di sektor kegiatan ekonomi yang mendapat prioritas tinggi dalam skala nasional.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            529
+          ],
+          [
+            287,
+            542
+          ],
+          [
+            868,
+            542
+          ],
+          [
+            868,
+            496
+          ],
+          [
+            287,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          545,
+          868,
+          625
+        ],
+        "content": "208. Bidang-bidang Usaha Tertentu dan di Daerah-daerah Tertentu adalah bidang usaha di sektor kegiatan ekonomi dan daerah yang secara ekonomis mempunyai potensi yang layak dikembangkan yang mendapat prioritas tinggi dalam skala nasional.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            545
+          ],
+          [
+            287,
+            624
+          ],
+          [
+            868,
+            624
+          ],
+          [
+            868,
+            545
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          626,
+          869,
+          722
+        ],
+        "content": "209. Aktiva Tetap Berwujud adalah aktiva berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang diperoleh dalam bentuk siap pakai atau dibangun dan/atau dirakit lebih dahulu, yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            626
+          ],
+          [
+            287,
+            721
+          ],
+          [
+            868,
+            721
+          ],
+          [
+            868,
+            626
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          723,
+          868,
+          803
+        ],
+        "content": "210. Aktiva Tak Berwujud adalah aktiva tidak berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            723
+          ],
+          [
+            287,
+            802
+          ],
+          [
+            868,
+            802
+          ],
+          [
+            868,
+            723
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          804,
+          868,
+          901
+        ],
+        "content": "211. Kegiatan Usaha Utama adalah bidang usaha dan jenis produksi sebagaimana tercantum dalam izin prinsip, izin investasi, pendaftaran Penanaman Modal, atau perizinan berusaha pada saat pengajuan permohonan pengurangan Pajak Penghasilan Badan atau fasilitas Pajak Penghasilan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            804
+          ],
+          [
+            287,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            804
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          73,
+          874,
+          185
+        ],
+        "content": "212. Sistem Perizinan Berusaha Terintegrasi secara Elektronik (Online Single Submission) yang selanjutnya disebut Sistem Online Single Submission adalah sistem elektronik terintegrasi yang dikelola dan diselenggarakan oleh Lembaga Online Single Submission untuk penyelenggaraan perizinan berusaha berbasis risiko.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            73
+          ],
+          [
+            287,
+            185
+          ],
+          [
+            874,
+            185
+          ],
+          [
+            874,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          187,
+          873,
+          250
+        ],
+        "content": "213. Saat Mulai Berproduksi Komersial adalah saat pertama kali hasil produksi atau Jasa dari Kegiatan Usaha Utama dijual atau diserahkan, atau digunakan sendiri untuk proses produksi lebih lanjut.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            198
+          ],
+          [
+            287,
+            250
+          ],
+          [
+            872,
+            250
+          ],
+          [
+            872,
+            187
+          ],
+          [
+            292,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          252,
+          872,
+          299
+        ],
+        "content": "214. Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            263
+          ],
+          [
+            286,
+            299
+          ],
+          [
+            872,
+            299
+          ],
+          [
+            872,
+            252
+          ],
+          [
+            291,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          301,
+          874,
+          396
+        ],
+        "content": "215. Penelitian adalah kegiatan yang dilakukan menurut metodologi ilmiah untuk memperoleh data dan informasi yang berkaitan dengan pemahaman tentang fenomena alam dan/atau sosial, pembuktian kebenaran atau ketidakbenaran suatu asumsi dan/atau hipotesis, dan penarikan kesimpulan ilmiah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            301
+          ],
+          [
+            286,
+            396
+          ],
+          [
+            873,
+            396
+          ],
+          [
+            873,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          398,
+          872,
+          478
+        ],
+        "content": "216. Pengembangan adalah kegiatan untuk peningkatan manfaat dan daya dukung ilmu pengetahuan dan teknologi yang telah terbukti kebenaran dan keamanannya untuk meningkatkan fungsi dan manfaat ilmu pengetahuan dan teknologi.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            398
+          ],
+          [
+            290,
+            477
+          ],
+          [
+            871,
+            477
+          ],
+          [
+            871,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          480,
+          872,
+          542
+        ],
+        "content": "217. Kekayaan Intelektual adalah kekayaan yang timbul karena hasil olah pikir manusia yang menghasilkan suatu produk atau proses yang berguna bagi kehidupan manusia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            480
+          ],
+          [
+            285,
+            537
+          ],
+          [
+            295,
+            542
+          ],
+          [
+            305,
+            542
+          ],
+          [
+            450,
+            542
+          ],
+          [
+            491,
+            542
+          ],
+          [
+            545,
+            542
+          ],
+          [
+            556,
+            542
+          ],
+          [
+            581,
+            542
+          ],
+          [
+            586,
+            542
+          ],
+          [
+            871,
+            542
+          ],
+          [
+            871,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          544,
+          872,
+          656
+        ],
+        "content": "218. Hak Perlindungan Varietas Tanaman adalah hak khusus yang diberikan negara kepada pemulia dan/atau pemegang hak perlindungan varietas tanaman untuk menggunakan sendiri varietas hasil pemuliaannya atau memberi persetujuan kepada orang atau Badan hukum lain untuk menggunakannya selama waktu tertentu.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            544
+          ],
+          [
+            284,
+            655
+          ],
+          [
+            872,
+            655
+          ],
+          [
+            872,
+            544
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          658,
+          871,
+          705
+        ],
+        "content": "219. Komersialisasi adalah kegiatan produksi di Indonesia dan penjualan atas barang dan/atau jasa hasil Penelitian dan Pengembangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            658
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            870,
+            705
+          ],
+          [
+            870,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          707,
+          871,
+          770
+        ],
+        "content": "220. Pemberi Kerja adalah Badan hukum atau Badan-Badan lainnya yang mempekerjakan Warga Negara Asing dengan membayar upah atau imbalan dalam bentuk lain.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            707
+          ],
+          [
+            284,
+            769
+          ],
+          [
+            870,
+            769
+          ],
+          [
+            870,
+            707
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          771,
+          871,
+          867
+        ],
+        "content": "221. Norma Penghitungan Penghasilan Neto adalah pedoman untuk menentukan besarnya penghasilan neto yang dibuat dan disempurnakan secara terus menerus serta diterbitkan oleh Direktur Jenderal Pajak sebagaimana diatur dalam Pasal 14 Undang-Undang Pajak Penghasilan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            771
+          ],
+          [
+            284,
+            866
+          ],
+          [
+            870,
+            866
+          ],
+          [
+            870,
+            771
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          869,
+          870,
+          901
+        ],
+        "content": "222. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            869
+          ],
+          [
+            284,
+            901
+          ],
+          [
+            870,
+            901
+          ],
+          [
+            870,
+            869
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          491,
+          73,
+          667,
+          103
+        ],
+        "content": "## BAB II RUANG LINGKUP",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            491,
+            73
+          ],
+          [
+            491,
+            103
+          ],
+          [
+            666,
+            103
+          ],
+          [
+            666,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          541,
+          118,
+          616,
+          132
+        ],
+        "content": "## Pasal 2",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            541,
+            118
+          ],
+          [
+            541,
+            131
+          ],
+          [
+            615,
+            131
+          ],
+          [
+            615,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          132,
+          717,
+          148
+        ],
+        "content": "Ruang lingkup dalam Peraturan Menteri ini:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            132
+          ],
+          [
+            285,
+            147
+          ],
+          [
+            717,
+            147
+          ],
+          [
+            717,
+            136
+          ],
+          [
+            568,
+            132
+          ],
+          [
+            558,
+            132
+          ],
+          [
+            548,
+            132
+          ],
+          [
+            543,
+            132
+          ],
+          [
+            528,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          148,
+          870,
+          193
+        ],
+        "content": "a. tata cara pelaksanaan hak dan pemenuhan kewajiban perpajakan dan penerbitan, penandatangan, serta pengiriman keputusan dan Dokumen Elektronik;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            148
+          ],
+          [
+            284,
+            193
+          ],
+          [
+            295,
+            193
+          ],
+          [
+            869,
+            193
+          ],
+          [
+            869,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          193,
+          868,
+          238
+        ],
+        "content": "b. tata cara pendaftaran Wajib Pajak, pengukuhan Pengusaha Kena Pajak, dan pendaftaran Objek Pajak Pajak Bumi dan Bangunan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            193
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            300,
+            238
+          ],
+          [
+            314,
+            238
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          238,
+          868,
+          298
+        ],
+        "content": "c. tata cara pembayaran dan penyetoran pajak, pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang, imbalan bunga, serta pengembalian kelebihan pembayaran pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            238
+          ],
+          [
+            283,
+            298
+          ],
+          [
+            867,
+            298
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          298,
+          867,
+          328
+        ],
+        "content": "d. tata cara penyampaian dan pengolahan Surat Pemberitahuan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            298
+          ],
+          [
+            287,
+            328
+          ],
+          [
+            862,
+            328
+          ],
+          [
+            867,
+            323
+          ],
+          [
+            867,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          329,
+          867,
+          358
+        ],
+        "content": "e. tata cara pemberian pelayanan administrasi perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            329
+          ],
+          [
+            283,
+            357
+          ],
+          [
+            866,
+            357
+          ],
+          [
+            866,
+            329
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          358,
+          866,
+          388
+        ],
+        "content": "f. ketentuan teknis pelaksanaan sistem inti administrasi perpajakan; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            358
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            865,
+            388
+          ],
+          [
+            865,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          389,
+          865,
+          420
+        ],
+        "content": "g. contoh format dokumen dan contoh penghitungan, pemungutan, dan/atau pelaporan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            389
+          ],
+          [
+            282,
+            420
+          ],
+          [
+            864,
+            420
+          ],
+          [
+            864,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          540,
+          434,
+          612,
+          448
+        ],
+        "content": "## BAB III",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            540,
+            434
+          ],
+          [
+            540,
+            447
+          ],
+          [
+            612,
+            447
+          ],
+          [
+            612,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          296,
+          448,
+          856,
+          511
+        ],
+        "content": "## TATA CARA PELAKSANAAN HAK DAN PEMENUHAN KEWAJIBAN PERPAJAKAN DAN PENERBITAN, PENANDATANGANAN, SERTA PENGIRIMAN KEPUTUSAN DAN DOKUMEN ELEKTRONIK",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            296,
+            448
+          ],
+          [
+            296,
+            510
+          ],
+          [
+            855,
+            510
+          ],
+          [
+            855,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          524,
+          614,
+          538
+        ],
+        "content": "## Pasal 3",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            524
+          ],
+          [
+            538,
+            538
+          ],
+          [
+            613,
+            538
+          ],
+          [
+            613,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          538,
+          867,
+          601
+        ],
+        "content": "Pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            538
+          ],
+          [
+            281,
+            601
+          ],
+          [
+            867,
+            601
+          ],
+          [
+            867,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          614,
+          612,
+          629
+        ],
+        "content": "## Pasal 4",
+        "index": 14,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            614
+          ],
+          [
+            538,
+            629
+          ],
+          [
+            612,
+            629
+          ],
+          [
+            612,
+            614
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          629,
+          867,
+          674
+        ],
+        "content": "(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan oleh Wajib Pajak dilaksanakan secara elektronik.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            629
+          ],
+          [
+            282,
+            673
+          ],
+          [
+            866,
+            673
+          ],
+          [
+            866,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          867,
+          720
+        ],
+        "content": "(2) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            720
+          ],
+          [
+            867,
+            720
+          ],
+          [
+            867,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          721,
+          565,
+          735
+        ],
+        "content": "a. Portal Wajib Pajak;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            721
+          ],
+          [
+            329,
+            735
+          ],
+          [
+            565,
+            735
+          ],
+          [
+            565,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          735,
+          867,
+          780
+        ],
+        "content": "b. laman atau aplikasi lain yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            735
+          ],
+          [
+            328,
+            780
+          ],
+          [
+            866,
+            780
+          ],
+          [
+            866,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          780,
+          527,
+          795
+        ],
+        "content": "c. Contact Center.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            780
+          ],
+          [
+            329,
+            794
+          ],
+          [
+            526,
+            794
+          ],
+          [
+            526,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          795,
+          869,
+          901
+        ],
+        "content": "(3) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Contact Center sebagaimana dimaksud pada ayat (2) huruf c merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan yang persyaratannya dapat dikonfirmasi secara langsung oleh petugas Contact Center.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            795
+          ],
+          [
+            282,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          282,
+          73,
+          867,
+          149
+        ],
+        "content": "(4) Dalam hal Wajib Pajak tidak dapat melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1), Wajib Pajak dapat melaksanakan hak dan memenuhi kewajiban perpajakan:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            73
+          ],
+          [
+            282,
+            149
+          ],
+          [
+            867,
+            149
+          ],
+          [
+            867,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          150,
+          590,
+          164
+        ],
+        "content": "a. secara langsung; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            150
+          ],
+          [
+            329,
+            164
+          ],
+          [
+            590,
+            164
+          ],
+          [
+            590,
+            150
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          165,
+          866,
+          194
+        ],
+        "content": "b. melalui pos, perusahaan jasa ekspedisi, atau jasa kurir,",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            165
+          ],
+          [
+            328,
+            193
+          ],
+          [
+            865,
+            193
+          ],
+          [
+            865,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          195,
+          867,
+          240
+        ],
+        "content": "ke Kantor Pelayanan Pajak, Kantor Pelayanan,\n\nPenyuluhan, dan Konsultasi Perpajakan, atau tempat\n\nlain yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            195
+          ],
+          [
+            325,
+            239
+          ],
+          [
+            866,
+            239
+          ],
+          [
+            866,
+            195
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          240,
+          867,
+          284
+        ],
+        "content": "(5) Penyebab pelaksanaan hak dan pemenuhan kewajiban perpajakan tidak dapat dilakukan oleh Wajib Pajak sebagaimana dimaksud pada ayat (4), dapat berupa:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            255
+          ],
+          [
+            287,
+            284
+          ],
+          [
+            866,
+            284
+          ],
+          [
+            866,
+            240
+          ],
+          [
+            287,
+            240
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          285,
+          865,
+          315
+        ],
+        "content": "a. infrastruktur yang belum tersedia di daerah tempat tinggal atau tempat kedudukan Wajib Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            285
+          ],
+          [
+            327,
+            315
+          ],
+          [
+            865,
+            315
+          ],
+          [
+            865,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          315,
+          865,
+          344
+        ],
+        "content": "b. sistem atau fasilitas komunikasi yang digunakan oleh Wajib Pajak mengalami gangguan teknis; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            315
+          ],
+          [
+            325,
+            344
+          ],
+          [
+            864,
+            344
+          ],
+          [
+            864,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          346,
+          550,
+          361
+        ],
+        "content": "c. terdapat bencana.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            346
+          ],
+          [
+            327,
+            360
+          ],
+          [
+            549,
+            360
+          ],
+          [
+            549,
+            346
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          375,
+          611,
+          389
+        ],
+        "content": "## Pasal 5",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            375
+          ],
+          [
+            536,
+            389
+          ],
+          [
+            611,
+            389
+          ],
+          [
+            611,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          389,
+          866,
+          451
+        ],
+        "content": "Waktu pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud dalam Pasal 4 ayat (1) dilakukan dengan standar Waktu Indonesia Barat.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            389
+          ],
+          [
+            279,
+            450
+          ],
+          [
+            865,
+            450
+          ],
+          [
+            865,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          466,
+          611,
+          479
+        ],
+        "content": "## Pasal 6",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            466
+          ],
+          [
+            535,
+            479
+          ],
+          [
+            611,
+            479
+          ],
+          [
+            611,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          480,
+          864,
+          555
+        ],
+        "content": "(1) Untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Portal Wajib Pajak sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a, Direktur Jenderal Pajak menyediakan Akun Wajib Pajak untuk setiap Wajib Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            480
+          ],
+          [
+            280,
+            555
+          ],
+          [
+            864,
+            555
+          ],
+          [
+            864,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          556,
+          864,
+          600
+        ],
+        "content": "(2) Akun Wajib Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Wajib Pajak dengan melakukan aktivasi Akun Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            556
+          ],
+          [
+            280,
+            600
+          ],
+          [
+            864,
+            600
+          ],
+          [
+            864,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          600,
+          864,
+          631
+        ],
+        "content": "(3) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dilakukan secara:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            600
+          ],
+          [
+            280,
+            631
+          ],
+          [
+            863,
+            631
+          ],
+          [
+            863,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          631,
+          792,
+          646
+        ],
+        "content": "a. elektronik melalui Portal Wajib Pajak; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            631
+          ],
+          [
+            325,
+            646
+          ],
+          [
+            792,
+            646
+          ],
+          [
+            787,
+            631
+          ],
+          [
+            495,
+            631
+          ],
+          [
+            479,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          646,
+          864,
+          691
+        ],
+        "content": "b. langsung ke Kantor Pelayanan Pajak atau Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            646
+          ],
+          [
+            325,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          691,
+          865,
+          751
+        ],
+        "content": "(4) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dapat disetujui sepanjang alamat pos elektronik dan nomor telepon seluler Wajib Pajak telah tervalidasi.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            691
+          ],
+          [
+            279,
+            751
+          ],
+          [
+            864,
+            751
+          ],
+          [
+            864,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          766,
+          610,
+          780
+        ],
+        "content": "## Pasal 7",
+        "index": 17,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            766
+          ],
+          [
+            534,
+            780
+          ],
+          [
+            609,
+            780
+          ],
+          [
+            609,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          781,
+          865,
+          918
+        ],
+        "content": "(1) Dokumen yang digunakan dalam pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 disampaikan oleh Wajib Pajak dalam bentuk Dokumen Elektronik untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (1) atau dokumen kertas untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (4).",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            781
+          ],
+          [
+            285,
+            918
+          ],
+          [
+            865,
+            918
+          ],
+          [
+            865,
+            781
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          284,
+          72,
+          871,
+          202
+        ],
+        "content": "203. Pedagang Fisik Aset Kripto adalah pihak yang telah memperoleh persetujuan dari pejabat yang berwenang sesuai dengan ketentuan peraturan perundang- undangan yang mengatur mengenai perdagangan berjangka komoditi, untuk melakukan transaksi Aset Kripto baik atas nama diri sendiri dan/atau memfasilitasi transaksi Penjual Aset Kripto atau pembeli Aset Kripto.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            72
+          ],
+          [
+            284,
+            201
+          ],
+          [
+            871,
+            201
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          203,
+          870,
+          267
+        ],
+        "content": "204. Pembeli Aset Kripto adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Aset Kripto dan yang membayar atau seharusnya membayar harga Aset Kripto tersebut.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            203
+          ],
+          [
+            283,
+            266
+          ],
+          [
+            869,
+            266
+          ],
+          [
+            869,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          269,
+          870,
+          381
+        ],
+        "content": "205. Dokumen yang Dipersamakan dengan Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen berupa formulir kertas atau Dokumen Elektronik yang memuat data atau informasi pemotongan atau pemungutan Pajak Penghasilan tertentu dan kedudukannya dipersamakan dengan bukti pemotongan/pemungutan unifikasi berformat standar.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            269
+          ],
+          [
+            284,
+            380
+          ],
+          [
+            869,
+            380
+          ],
+          [
+            869,
+            269
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          382,
+          868,
+          494
+        ],
+        "content": "206. Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen dalam format standar atau dokumen lain yang dipersamakan, yang dibuat oleh pemotong atau pemungut Pajak Penghasilan sebagai bukti atas pemotongan/pemungutan Pajak Penghasilan dan menunjukkan besarnya Pajak Penghasilan yang telah dipotong/dipungut.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            382
+          ],
+          [
+            282,
+            494
+          ],
+          [
+            867,
+            494
+          ],
+          [
+            867,
+            382
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          496,
+          868,
+          543
+        ],
+        "content": "207. Bidang-bidang Usaha Tertentu adalah bidang usaha di sektor kegiatan ekonomi yang mendapat prioritas tinggi dalam skala nasional.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            529
+          ],
+          [
+            287,
+            542
+          ],
+          [
+            868,
+            542
+          ],
+          [
+            868,
+            496
+          ],
+          [
+            287,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          545,
+          868,
+          625
+        ],
+        "content": "208. Bidang-bidang Usaha Tertentu dan di Daerah-daerah Tertentu adalah bidang usaha di sektor kegiatan ekonomi dan daerah yang secara ekonomis mempunyai potensi yang layak dikembangkan yang mendapat prioritas tinggi dalam skala nasional.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            545
+          ],
+          [
+            287,
+            624
+          ],
+          [
+            868,
+            624
+          ],
+          [
+            868,
+            545
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          626,
+          869,
+          722
+        ],
+        "content": "209. Aktiva Tetap Berwujud adalah aktiva berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang diperoleh dalam bentuk siap pakai atau dibangun dan/atau dirakit lebih dahulu, yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            626
+          ],
+          [
+            287,
+            721
+          ],
+          [
+            868,
+            721
+          ],
+          [
+            868,
+            626
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          723,
+          868,
+          803
+        ],
+        "content": "210. Aktiva Tak Berwujud adalah aktiva tidak berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            723
+          ],
+          [
+            287,
+            802
+          ],
+          [
+            868,
+            802
+          ],
+          [
+            868,
+            723
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          804,
+          868,
+          901
+        ],
+        "content": "211. Kegiatan Usaha Utama adalah bidang usaha dan jenis produksi sebagaimana tercantum dalam izin prinsip, izin investasi, pendaftaran Penanaman Modal, atau perizinan berusaha pada saat pengajuan permohonan pengurangan Pajak Penghasilan Badan atau fasilitas Pajak Penghasilan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            804
+          ],
+          [
+            287,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            804
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          73,
+          874,
+          185
+        ],
+        "content": "212. Sistem Perizinan Berusaha Terintegrasi secara Elektronik (Online Single Submission) yang selanjutnya disebut Sistem Online Single Submission adalah sistem elektronik terintegrasi yang dikelola dan diselenggarakan oleh Lembaga Online Single Submission untuk penyelenggaraan perizinan berusaha berbasis risiko.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            73
+          ],
+          [
+            287,
+            185
+          ],
+          [
+            874,
+            185
+          ],
+          [
+            874,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          187,
+          873,
+          250
+        ],
+        "content": "213. Saat Mulai Berproduksi Komersial adalah saat pertama kali hasil produksi atau Jasa dari Kegiatan Usaha Utama dijual atau diserahkan, atau digunakan sendiri untuk proses produksi lebih lanjut.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            198
+          ],
+          [
+            287,
+            250
+          ],
+          [
+            872,
+            250
+          ],
+          [
+            872,
+            187
+          ],
+          [
+            292,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          252,
+          872,
+          299
+        ],
+        "content": "214. Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            263
+          ],
+          [
+            286,
+            299
+          ],
+          [
+            872,
+            299
+          ],
+          [
+            872,
+            252
+          ],
+          [
+            291,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          301,
+          874,
+          396
+        ],
+        "content": "215. Penelitian adalah kegiatan yang dilakukan menurut metodologi ilmiah untuk memperoleh data dan informasi yang berkaitan dengan pemahaman tentang fenomena alam dan/atau sosial, pembuktian kebenaran atau ketidakbenaran suatu asumsi dan/atau hipotesis, dan penarikan kesimpulan ilmiah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            301
+          ],
+          [
+            286,
+            396
+          ],
+          [
+            873,
+            396
+          ],
+          [
+            873,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          398,
+          872,
+          478
+        ],
+        "content": "216. Pengembangan adalah kegiatan untuk peningkatan manfaat dan daya dukung ilmu pengetahuan dan teknologi yang telah terbukti kebenaran dan keamanannya untuk meningkatkan fungsi dan manfaat ilmu pengetahuan dan teknologi.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            398
+          ],
+          [
+            290,
+            477
+          ],
+          [
+            871,
+            477
+          ],
+          [
+            871,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          480,
+          872,
+          542
+        ],
+        "content": "217. Kekayaan Intelektual adalah kekayaan yang timbul karena hasil olah pikir manusia yang menghasilkan suatu produk atau proses yang berguna bagi kehidupan manusia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            480
+          ],
+          [
+            285,
+            537
+          ],
+          [
+            295,
+            542
+          ],
+          [
+            305,
+            542
+          ],
+          [
+            450,
+            542
+          ],
+          [
+            491,
+            542
+          ],
+          [
+            545,
+            542
+          ],
+          [
+            556,
+            542
+          ],
+          [
+            581,
+            542
+          ],
+          [
+            586,
+            542
+          ],
+          [
+            871,
+            542
+          ],
+          [
+            871,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          544,
+          872,
+          656
+        ],
+        "content": "218. Hak Perlindungan Varietas Tanaman adalah hak khusus yang diberikan negara kepada pemulia dan/atau pemegang hak perlindungan varietas tanaman untuk menggunakan sendiri varietas hasil pemuliaannya atau memberi persetujuan kepada orang atau Badan hukum lain untuk menggunakannya selama waktu tertentu.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            544
+          ],
+          [
+            284,
+            655
+          ],
+          [
+            872,
+            655
+          ],
+          [
+            872,
+            544
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          658,
+          871,
+          705
+        ],
+        "content": "219. Komersialisasi adalah kegiatan produksi di Indonesia dan penjualan atas barang dan/atau jasa hasil Penelitian dan Pengembangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            658
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            870,
+            705
+          ],
+          [
+            870,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          707,
+          871,
+          770
+        ],
+        "content": "220. Pemberi Kerja adalah Badan hukum atau Badan-Badan lainnya yang mempekerjakan Warga Negara Asing dengan membayar upah atau imbalan dalam bentuk lain.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            707
+          ],
+          [
+            284,
+            769
+          ],
+          [
+            870,
+            769
+          ],
+          [
+            870,
+            707
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          771,
+          871,
+          867
+        ],
+        "content": "221. Norma Penghitungan Penghasilan Neto adalah pedoman untuk menentukan besarnya penghasilan neto yang dibuat dan disempurnakan secara terus menerus serta diterbitkan oleh Direktur Jenderal Pajak sebagaimana diatur dalam Pasal 14 Undang-Undang Pajak Penghasilan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            771
+          ],
+          [
+            284,
+            866
+          ],
+          [
+            870,
+            866
+          ],
+          [
+            870,
+            771
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          869,
+          870,
+          901
+        ],
+        "content": "222. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            869
+          ],
+          [
+            284,
+            901
+          ],
+          [
+            870,
+            901
+          ],
+          [
+            870,
+            869
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          491,
+          73,
+          667,
+          103
+        ],
+        "content": "## BAB II RUANG LINGKUP",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            491,
+            73
+          ],
+          [
+            491,
+            103
+          ],
+          [
+            666,
+            103
+          ],
+          [
+            666,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          541,
+          118,
+          616,
+          132
+        ],
+        "content": "## Pasal 2",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            541,
+            118
+          ],
+          [
+            541,
+            131
+          ],
+          [
+            615,
+            131
+          ],
+          [
+            615,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          132,
+          717,
+          148
+        ],
+        "content": "Ruang lingkup dalam Peraturan Menteri ini:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            132
+          ],
+          [
+            285,
+            147
+          ],
+          [
+            717,
+            147
+          ],
+          [
+            717,
+            136
+          ],
+          [
+            568,
+            132
+          ],
+          [
+            558,
+            132
+          ],
+          [
+            548,
+            132
+          ],
+          [
+            543,
+            132
+          ],
+          [
+            528,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          148,
+          870,
+          193
+        ],
+        "content": "a. tata cara pelaksanaan hak dan pemenuhan kewajiban perpajakan dan penerbitan, penandatangan, serta pengiriman keputusan dan Dokumen Elektronik;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            148
+          ],
+          [
+            284,
+            193
+          ],
+          [
+            295,
+            193
+          ],
+          [
+            869,
+            193
+          ],
+          [
+            869,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          193,
+          868,
+          238
+        ],
+        "content": "b. tata cara pendaftaran Wajib Pajak, pengukuhan Pengusaha Kena Pajak, dan pendaftaran Objek Pajak Pajak Bumi dan Bangunan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            193
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            300,
+            238
+          ],
+          [
+            314,
+            238
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          238,
+          868,
+          298
+        ],
+        "content": "c. tata cara pembayaran dan penyetoran pajak, pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang, imbalan bunga, serta pengembalian kelebihan pembayaran pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            238
+          ],
+          [
+            283,
+            298
+          ],
+          [
+            867,
+            298
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          298,
+          867,
+          328
+        ],
+        "content": "d. tata cara penyampaian dan pengolahan Surat Pemberitahuan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            298
+          ],
+          [
+            287,
+            328
+          ],
+          [
+            862,
+            328
+          ],
+          [
+            867,
+            323
+          ],
+          [
+            867,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          329,
+          867,
+          358
+        ],
+        "content": "e. tata cara pemberian pelayanan administrasi perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            329
+          ],
+          [
+            283,
+            357
+          ],
+          [
+            866,
+            357
+          ],
+          [
+            866,
+            329
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          358,
+          866,
+          388
+        ],
+        "content": "f. ketentuan teknis pelaksanaan sistem inti administrasi perpajakan; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            358
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            865,
+            388
+          ],
+          [
+            865,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          389,
+          865,
+          420
+        ],
+        "content": "g. contoh format dokumen dan contoh penghitungan, pemungutan, dan/atau pelaporan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            389
+          ],
+          [
+            282,
+            420
+          ],
+          [
+            864,
+            420
+          ],
+          [
+            864,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          540,
+          434,
+          612,
+          448
+        ],
+        "content": "## BAB III",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            540,
+            434
+          ],
+          [
+            540,
+            447
+          ],
+          [
+            612,
+            447
+          ],
+          [
+            612,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          296,
+          448,
+          856,
+          511
+        ],
+        "content": "## TATA CARA PELAKSANAAN HAK DAN PEMENUHAN KEWAJIBAN PERPAJAKAN DAN PENERBITAN, PENANDATANGANAN, SERTA PENGIRIMAN KEPUTUSAN DAN DOKUMEN ELEKTRONIK",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            296,
+            448
+          ],
+          [
+            296,
+            510
+          ],
+          [
+            855,
+            510
+          ],
+          [
+            855,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          524,
+          614,
+          538
+        ],
+        "content": "## Pasal 3",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            524
+          ],
+          [
+            538,
+            538
+          ],
+          [
+            613,
+            538
+          ],
+          [
+            613,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          538,
+          867,
+          601
+        ],
+        "content": "Pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            538
+          ],
+          [
+            281,
+            601
+          ],
+          [
+            867,
+            601
+          ],
+          [
+            867,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          614,
+          612,
+          629
+        ],
+        "content": "## Pasal 4",
+        "index": 14,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            614
+          ],
+          [
+            538,
+            629
+          ],
+          [
+            612,
+            629
+          ],
+          [
+            612,
+            614
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          629,
+          867,
+          674
+        ],
+        "content": "(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan oleh Wajib Pajak dilaksanakan secara elektronik.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            629
+          ],
+          [
+            282,
+            673
+          ],
+          [
+            866,
+            673
+          ],
+          [
+            866,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          867,
+          720
+        ],
+        "content": "(2) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1) dilakukan melalui:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            720
+          ],
+          [
+            867,
+            720
+          ],
+          [
+            867,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          721,
+          565,
+          735
+        ],
+        "content": "a. Portal Wajib Pajak;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            721
+          ],
+          [
+            329,
+            735
+          ],
+          [
+            565,
+            735
+          ],
+          [
+            565,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          735,
+          867,
+          780
+        ],
+        "content": "b. laman atau aplikasi lain yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            735
+          ],
+          [
+            328,
+            780
+          ],
+          [
+            866,
+            780
+          ],
+          [
+            866,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          780,
+          527,
+          795
+        ],
+        "content": "c. Contact Center.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            780
+          ],
+          [
+            329,
+            794
+          ],
+          [
+            526,
+            794
+          ],
+          [
+            526,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          795,
+          869,
+          901
+        ],
+        "content": "(3) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Contact Center sebagaimana dimaksud pada ayat (2) huruf c merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan yang persyaratannya dapat dikonfirmasi secara langsung oleh petugas Contact Center.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            795
+          ],
+          [
+            282,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          282,
+          73,
+          867,
+          149
+        ],
+        "content": "(4) Dalam hal Wajib Pajak tidak dapat melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1), Wajib Pajak dapat melaksanakan hak dan memenuhi kewajiban perpajakan:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            73
+          ],
+          [
+            282,
+            149
+          ],
+          [
+            867,
+            149
+          ],
+          [
+            867,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          150,
+          590,
+          164
+        ],
+        "content": "a. secara langsung; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            150
+          ],
+          [
+            329,
+            164
+          ],
+          [
+            590,
+            164
+          ],
+          [
+            590,
+            150
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          165,
+          866,
+          194
+        ],
+        "content": "b. melalui pos, perusahaan jasa ekspedisi, atau jasa kurir,",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            165
+          ],
+          [
+            328,
+            193
+          ],
+          [
+            865,
+            193
+          ],
+          [
+            865,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          195,
+          867,
+          240
+        ],
+        "content": "ke Kantor Pelayanan Pajak, Kantor Pelayanan,\n\nPenyuluhan, dan Konsultasi Perpajakan, atau tempat\n\nlain yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            195
+          ],
+          [
+            325,
+            239
+          ],
+          [
+            866,
+            239
+          ],
+          [
+            866,
+            195
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          240,
+          867,
+          284
+        ],
+        "content": "(5) Penyebab pelaksanaan hak dan pemenuhan kewajiban perpajakan tidak dapat dilakukan oleh Wajib Pajak sebagaimana dimaksud pada ayat (4), dapat berupa:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            255
+          ],
+          [
+            287,
+            284
+          ],
+          [
+            866,
+            284
+          ],
+          [
+            866,
+            240
+          ],
+          [
+            287,
+            240
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          285,
+          865,
+          315
+        ],
+        "content": "a. infrastruktur yang belum tersedia di daerah tempat tinggal atau tempat kedudukan Wajib Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            285
+          ],
+          [
+            327,
+            315
+          ],
+          [
+            865,
+            315
+          ],
+          [
+            865,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          315,
+          865,
+          344
+        ],
+        "content": "b. sistem atau fasilitas komunikasi yang digunakan oleh Wajib Pajak mengalami gangguan teknis; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            315
+          ],
+          [
+            325,
+            344
+          ],
+          [
+            864,
+            344
+          ],
+          [
+            864,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          346,
+          550,
+          361
+        ],
+        "content": "c. terdapat bencana.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            346
+          ],
+          [
+            327,
+            360
+          ],
+          [
+            549,
+            360
+          ],
+          [
+            549,
+            346
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          375,
+          611,
+          389
+        ],
+        "content": "## Pasal 5",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            375
+          ],
+          [
+            536,
+            389
+          ],
+          [
+            611,
+            389
+          ],
+          [
+            611,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          389,
+          866,
+          451
+        ],
+        "content": "Waktu pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud dalam Pasal 4 ayat (1) dilakukan dengan standar Waktu Indonesia Barat.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            389
+          ],
+          [
+            279,
+            450
+          ],
+          [
+            865,
+            450
+          ],
+          [
+            865,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          466,
+          611,
+          479
+        ],
+        "content": "## Pasal 6",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            466
+          ],
+          [
+            535,
+            479
+          ],
+          [
+            611,
+            479
+          ],
+          [
+            611,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          480,
+          864,
+          555
+        ],
+        "content": "(1) Untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Portal Wajib Pajak sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a, Direktur Jenderal Pajak menyediakan Akun Wajib Pajak untuk setiap Wajib Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            480
+          ],
+          [
+            280,
+            555
+          ],
+          [
+            864,
+            555
+          ],
+          [
+            864,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          556,
+          864,
+          600
+        ],
+        "content": "(2) Akun Wajib Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Wajib Pajak dengan melakukan aktivasi Akun Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            556
+          ],
+          [
+            280,
+            600
+          ],
+          [
+            864,
+            600
+          ],
+          [
+            864,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          600,
+          864,
+          631
+        ],
+        "content": "(3) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dilakukan secara:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            600
+          ],
+          [
+            280,
+            631
+          ],
+          [
+            863,
+            631
+          ],
+          [
+            863,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          631,
+          792,
+          646
+        ],
+        "content": "a. elektronik melalui Portal Wajib Pajak; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            631
+          ],
+          [
+            325,
+            646
+          ],
+          [
+            792,
+            646
+          ],
+          [
+            787,
+            631
+          ],
+          [
+            495,
+            631
+          ],
+          [
+            479,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          646,
+          864,
+          691
+        ],
+        "content": "b. langsung ke Kantor Pelayanan Pajak atau Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            646
+          ],
+          [
+            325,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          691,
+          865,
+          751
+        ],
+        "content": "(4) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dapat disetujui sepanjang alamat pos elektronik dan nomor telepon seluler Wajib Pajak telah tervalidasi.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            691
+          ],
+          [
+            279,
+            751
+          ],
+          [
+            864,
+            751
+          ],
+          [
+            864,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          766,
+          610,
+          780
+        ],
+        "content": "## Pasal 7",
+        "index": 17,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            766
+          ],
+          [
+            534,
+            780
+          ],
+          [
+            609,
+            780
+          ],
+          [
+            609,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          781,
+          865,
+          918
+        ],
+        "content": "(1) Dokumen yang digunakan dalam pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 disampaikan oleh Wajib Pajak dalam bentuk Dokumen Elektronik untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (1) atau dokumen kertas untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (4).",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            781
+          ],
+          [
+            285,
+            918
+          ],
+          [
+            865,
+            918
+          ],
+          [
+            865,
+            781
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "203. Pedagang Fisik Aset Kripto adalah pihak yang telah memperoleh persetujuan dari pejabat yang berwenang sesuai dengan ketentuan peraturan perundang- undangan yang mengatur mengenai perdagangan berjangka komoditi, untuk melakukan transaksi Aset Kripto baik atas nama diri sendiri dan/atau memfasilitasi transaksi Penjual Aset Kripto atau pembeli Aset Kripto.\n\n204. Pembeli Aset Kripto adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Aset Kripto dan yang membayar atau seharusnya membayar harga Aset Kripto tersebut.\n\n205. Dokumen yang Dipersamakan dengan Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen berupa formulir kertas atau Dokumen Elektronik yang memuat data atau informasi pemotongan atau pemungutan Pajak Penghasilan tertentu dan kedudukannya dipersamakan dengan bukti pemotongan/pemungutan unifikasi berformat standar.\n\n206. Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen dalam format standar atau dokumen lain yang dipersamakan, yang dibuat oleh pemotong atau pemungut Pajak Penghasilan sebagai bukti atas pemotongan/pemungutan Pajak Penghasilan dan menunjukkan besarnya Pajak Penghasilan yang telah dipotong/dipungut.\n\n207. Bidang-bidang Usaha Tertentu adalah bidang usaha di sektor kegiatan ekonomi yang mendapat prioritas tinggi dalam skala nasional.\n\n208. Bidang-bidang Usaha Tertentu dan di Daerah-daerah Tertentu adalah bidang usaha di sektor kegiatan ekonomi dan daerah yang secara ekonomis mempunyai potensi yang layak dikembangkan yang mendapat prioritas tinggi dalam skala nasional.\n\n209. Aktiva Tetap Berwujud adalah aktiva berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang diperoleh dalam bentuk siap pakai atau dibangun dan/atau dirakit lebih dahulu, yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.\n\n210. Aktiva Tak Berwujud adalah aktiva tidak berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.\n\n211. Kegiatan Usaha Utama adalah bidang usaha dan jenis produksi sebagaimana tercantum dalam izin prinsip, izin investasi, pendaftaran Penanaman Modal, atau perizinan berusaha pada saat pengajuan permohonan pengurangan Pajak Penghasilan Badan atau fasilitas Pajak Penghasilan.\n\n212. Sistem Perizinan Berusaha Terintegrasi secara Elektronik (Online Single Submission) yang selanjutnya disebut Sistem Online Single Submission adalah sistem elektronik terintegrasi yang dikelola dan diselenggarakan oleh Lembaga Online Single Submission untuk penyelenggaraan perizinan berusaha berbasis risiko.\n\n213. Saat Mulai Berproduksi Komersial adalah saat pertama kali hasil produksi atau Jasa dari Kegiatan Usaha Utama dijual atau diserahkan, atau digunakan sendiri untuk proses produksi lebih lanjut.\n\n214. Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya.\n\n215. Penelitian adalah kegiatan yang dilakukan menurut metodologi ilmiah untuk memperoleh data dan informasi yang berkaitan dengan pemahaman tentang fenomena alam dan/atau sosial, pembuktian kebenaran atau ketidakbenaran suatu asumsi dan/atau hipotesis, dan penarikan kesimpulan ilmiah.\n\n216. Pengembangan adalah kegiatan untuk peningkatan manfaat dan daya dukung ilmu pengetahuan dan teknologi yang telah terbukti kebenaran dan keamanannya untuk meningkatkan fungsi dan manfaat ilmu pengetahuan dan teknologi.\n\n217. Kekayaan Intelektual adalah kekayaan yang timbul karena hasil olah pikir manusia yang menghasilkan suatu produk atau proses yang berguna bagi kehidupan manusia.\n\n218. Hak Perlindungan Varietas Tanaman adalah hak khusus yang diberikan negara kepada pemulia dan/atau pemegang hak perlindungan varietas tanaman untuk menggunakan sendiri varietas hasil pemuliaannya atau memberi persetujuan kepada orang atau Badan hukum lain untuk menggunakannya selama waktu tertentu.\n\n219. Komersialisasi adalah kegiatan produksi di Indonesia dan penjualan atas barang dan/atau jasa hasil Penelitian dan Pengembangan.\n\n220. Pemberi Kerja adalah Badan hukum atau Badan-Badan lainnya yang mempekerjakan Warga Negara Asing dengan membayar upah atau imbalan dalam bentuk lain.\n\n221. Norma Penghitungan Penghasilan Neto adalah pedoman untuk menentukan besarnya penghasilan neto yang dibuat dan disempurnakan secara terus menerus serta diterbitkan oleh Direktur Jenderal Pajak sebagaimana diatur dalam Pasal 14 Undang-Undang Pajak Penghasilan.\n\n222. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.\n\n## BAB II RUANG LINGKUP\n\n## Pasal 2\n\nRuang lingkup dalam Peraturan Menteri ini:\n\na. tata cara pelaksanaan hak dan pemenuhan kewajiban perpajakan dan penerbitan, penandatangan, serta pengiriman keputusan dan Dokumen Elektronik;\n\nb. tata cara pendaftaran Wajib Pajak, pengukuhan Pengusaha Kena Pajak, dan pendaftaran Objek Pajak Pajak Bumi dan Bangunan;\n\nc. tata cara pembayaran dan penyetoran pajak, pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang, imbalan bunga, serta pengembalian kelebihan pembayaran pajak;\n\nd. tata cara penyampaian dan pengolahan Surat Pemberitahuan;\n\ne. tata cara pemberian pelayanan administrasi perpajakan;\n\nf. ketentuan teknis pelaksanaan sistem inti administrasi perpajakan; dan\n\ng. contoh format dokumen dan contoh penghitungan, pemungutan, dan/atau pelaporan.\n\n## BAB III\n\n## TATA CARA PELAKSANAAN HAK DAN PEMENUHAN KEWAJIBAN PERPAJAKAN DAN PENERBITAN, PENANDATANGANAN, SERTA PENGIRIMAN KEPUTUSAN DAN DOKUMEN ELEKTRONIK\n\n## Pasal 3\n\nPelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.\n\n## Pasal 4\n\n(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan oleh Wajib Pajak dilaksanakan secara elektronik.\n\n(2) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1) dilakukan melalui:\n\na. Portal Wajib Pajak;\n\nb. laman atau aplikasi lain yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak; dan/atau\n\nc. Contact Center.\n\n(3) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Contact Center sebagaimana dimaksud pada ayat (2) huruf c merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan yang persyaratannya dapat dikonfirmasi secara langsung oleh petugas Contact Center.\n\n(4) Dalam hal Wajib Pajak tidak dapat melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1), Wajib Pajak dapat melaksanakan hak dan memenuhi kewajiban perpajakan:\n\na. secara langsung; atau\n\nb. melalui pos, perusahaan jasa ekspedisi, atau jasa kurir,\n\nke Kantor Pelayanan Pajak, Kantor Pelayanan,\n\nPenyuluhan, dan Konsultasi Perpajakan, atau tempat\n\nlain yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(5) Penyebab pelaksanaan hak dan pemenuhan kewajiban perpajakan tidak dapat dilakukan oleh Wajib Pajak sebagaimana dimaksud pada ayat (4), dapat berupa:\n\na. infrastruktur yang belum tersedia di daerah tempat tinggal atau tempat kedudukan Wajib Pajak;\n\nb. sistem atau fasilitas komunikasi yang digunakan oleh Wajib Pajak mengalami gangguan teknis; dan\n\nc. terdapat bencana.\n\n## Pasal 5\n\nWaktu pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud dalam Pasal 4 ayat (1) dilakukan dengan standar Waktu Indonesia Barat.\n\n## Pasal 6\n\n(1) Untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Portal Wajib Pajak sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a, Direktur Jenderal Pajak menyediakan Akun Wajib Pajak untuk setiap Wajib Pajak.\n\n(2) Akun Wajib Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Wajib Pajak dengan melakukan aktivasi Akun Wajib Pajak.\n\n(3) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dilakukan secara:\n\na. elektronik melalui Portal Wajib Pajak; atau\n\nb. langsung ke Kantor Pelayanan Pajak atau Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan.\n\n(4) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dapat disetujui sepanjang alamat pos elektronik dan nomor telepon seluler Wajib Pajak telah tervalidasi.\n\n## Pasal 7\n\n(1) Dokumen yang digunakan dalam pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 disampaikan oleh Wajib Pajak dalam bentuk Dokumen Elektronik untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (1) atau dokumen kertas untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (4).",
+  "md_results": "203. Pedagang Fisik Aset Kripto adalah pihak yang telah memperoleh persetujuan dari pejabat yang berwenang sesuai dengan ketentuan peraturan perundang- undangan yang mengatur mengenai perdagangan berjangka komoditi, untuk melakukan transaksi Aset Kripto baik atas nama diri sendiri dan/atau memfasilitasi transaksi Penjual Aset Kripto atau pembeli Aset Kripto.\n\n204. Pembeli Aset Kripto adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Aset Kripto dan yang membayar atau seharusnya membayar harga Aset Kripto tersebut.\n\n205. Dokumen yang Dipersamakan dengan Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen berupa formulir kertas atau Dokumen Elektronik yang memuat data atau informasi pemotongan atau pemungutan Pajak Penghasilan tertentu dan kedudukannya dipersamakan dengan bukti pemotongan/pemungutan unifikasi berformat standar.\n\n206. Bukti Pemotongan/Pemungutan Unifikasi adalah dokumen dalam format standar atau dokumen lain yang dipersamakan, yang dibuat oleh pemotong atau pemungut Pajak Penghasilan sebagai bukti atas pemotongan/pemungutan Pajak Penghasilan dan menunjukkan besarnya Pajak Penghasilan yang telah dipotong/dipungut.\n\n207. Bidang-bidang Usaha Tertentu adalah bidang usaha di sektor kegiatan ekonomi yang mendapat prioritas tinggi dalam skala nasional.\n\n208. Bidang-bidang Usaha Tertentu dan di Daerah-daerah Tertentu adalah bidang usaha di sektor kegiatan ekonomi dan daerah yang secara ekonomis mempunyai potensi yang layak dikembangkan yang mendapat prioritas tinggi dalam skala nasional.\n\n209. Aktiva Tetap Berwujud adalah aktiva berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang diperoleh dalam bentuk siap pakai atau dibangun dan/atau dirakit lebih dahulu, yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.\n\n210. Aktiva Tak Berwujud adalah aktiva tidak berwujud yang mempunyai masa manfaat lebih dari 1 (satu) tahun yang digunakan dalam operasi perusahaan, dan tidak dimaksudkan untuk diperjualbelikan atau dipindahtangankan.\n\n211. Kegiatan Usaha Utama adalah bidang usaha dan jenis produksi sebagaimana tercantum dalam izin prinsip, izin investasi, pendaftaran Penanaman Modal, atau perizinan berusaha pada saat pengajuan permohonan pengurangan Pajak Penghasilan Badan atau fasilitas Pajak Penghasilan.\n\n212. Sistem Perizinan Berusaha Terintegrasi secara Elektronik (Online Single Submission) yang selanjutnya disebut Sistem Online Single Submission adalah sistem elektronik terintegrasi yang dikelola dan diselenggarakan oleh Lembaga Online Single Submission untuk penyelenggaraan perizinan berusaha berbasis risiko.\n\n213. Saat Mulai Berproduksi Komersial adalah saat pertama kali hasil produksi atau Jasa dari Kegiatan Usaha Utama dijual atau diserahkan, atau digunakan sendiri untuk proses produksi lebih lanjut.\n\n214. Perizinan Berusaha adalah legalitas yang diberikan kepada Pelaku Usaha untuk memulai dan menjalankan usaha dan/atau kegiatannya.\n\n215. Penelitian adalah kegiatan yang dilakukan menurut metodologi ilmiah untuk memperoleh data dan informasi yang berkaitan dengan pemahaman tentang fenomena alam dan/atau sosial, pembuktian kebenaran atau ketidakbenaran suatu asumsi dan/atau hipotesis, dan penarikan kesimpulan ilmiah.\n\n216. Pengembangan adalah kegiatan untuk peningkatan manfaat dan daya dukung ilmu pengetahuan dan teknologi yang telah terbukti kebenaran dan keamanannya untuk meningkatkan fungsi dan manfaat ilmu pengetahuan dan teknologi.\n\n217. Kekayaan Intelektual adalah kekayaan yang timbul karena hasil olah pikir manusia yang menghasilkan suatu produk atau proses yang berguna bagi kehidupan manusia.\n\n218. Hak Perlindungan Varietas Tanaman adalah hak khusus yang diberikan negara kepada pemulia dan/atau pemegang hak perlindungan varietas tanaman untuk menggunakan sendiri varietas hasil pemuliaannya atau memberi persetujuan kepada orang atau Badan hukum lain untuk menggunakannya selama waktu tertentu.\n\n219. Komersialisasi adalah kegiatan produksi di Indonesia dan penjualan atas barang dan/atau jasa hasil Penelitian dan Pengembangan.\n\n220. Pemberi Kerja adalah Badan hukum atau Badan-Badan lainnya yang mempekerjakan Warga Negara Asing dengan membayar upah atau imbalan dalam bentuk lain.\n\n221. Norma Penghitungan Penghasilan Neto adalah pedoman untuk menentukan besarnya penghasilan neto yang dibuat dan disempurnakan secara terus menerus serta diterbitkan oleh Direktur Jenderal Pajak sebagaimana diatur dalam Pasal 14 Undang-Undang Pajak Penghasilan.\n\n222. Menteri adalah menteri yang menyelenggarakan urusan pemerintahan di bidang keuangan negara.\n\n## BAB II RUANG LINGKUP\n\n## Pasal 2\n\nRuang lingkup dalam Peraturan Menteri ini:\n\na. tata cara pelaksanaan hak dan pemenuhan kewajiban perpajakan dan penerbitan, penandatangan, serta pengiriman keputusan dan Dokumen Elektronik;\n\nb. tata cara pendaftaran Wajib Pajak, pengukuhan Pengusaha Kena Pajak, dan pendaftaran Objek Pajak Pajak Bumi dan Bangunan;\n\nc. tata cara pembayaran dan penyetoran pajak, pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang, imbalan bunga, serta pengembalian kelebihan pembayaran pajak;\n\nd. tata cara penyampaian dan pengolahan Surat Pemberitahuan;\n\ne. tata cara pemberian pelayanan administrasi perpajakan;\n\nf. ketentuan teknis pelaksanaan sistem inti administrasi perpajakan; dan\n\ng. contoh format dokumen dan contoh penghitungan, pemungutan, dan/atau pelaporan.\n\n## BAB III\n\n## TATA CARA PELAKSANAAN HAK DAN PEMENUHAN KEWAJIBAN PERPAJAKAN DAN PENERBITAN, PENANDATANGANAN, SERTA PENGIRIMAN KEPUTUSAN DAN DOKUMEN ELEKTRONIK\n\n## Pasal 3\n\nPelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.\n\n## Pasal 4\n\n(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan oleh Wajib Pajak dilaksanakan secara elektronik.\n\n(2) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1) dilakukan melalui:\n\na. Portal Wajib Pajak;\n\nb. laman atau aplikasi lain yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak; dan/atau\n\nc. Contact Center.\n\n(3) Pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Contact Center sebagaimana dimaksud pada ayat (2) huruf c merupakan pelaksanaan hak dan pemenuhan kewajiban perpajakan yang persyaratannya dapat dikonfirmasi secara langsung oleh petugas Contact Center.\n\n(4) Dalam hal Wajib Pajak tidak dapat melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik sebagaimana dimaksud pada ayat (1), Wajib Pajak dapat melaksanakan hak dan memenuhi kewajiban perpajakan:\n\na. secara langsung; atau\n\nb. melalui pos, perusahaan jasa ekspedisi, atau jasa kurir,\n\nke Kantor Pelayanan Pajak, Kantor Pelayanan,\n\nPenyuluhan, dan Konsultasi Perpajakan, atau tempat\n\nlain yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(5) Penyebab pelaksanaan hak dan pemenuhan kewajiban perpajakan tidak dapat dilakukan oleh Wajib Pajak sebagaimana dimaksud pada ayat (4), dapat berupa:\n\na. infrastruktur yang belum tersedia di daerah tempat tinggal atau tempat kedudukan Wajib Pajak;\n\nb. sistem atau fasilitas komunikasi yang digunakan oleh Wajib Pajak mengalami gangguan teknis; dan\n\nc. terdapat bencana.\n\n## Pasal 5\n\nWaktu pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik sebagaimana dimaksud dalam Pasal 4 ayat (1) dilakukan dengan standar Waktu Indonesia Barat.\n\n## Pasal 6\n\n(1) Untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan secara elektronik melalui Portal Wajib Pajak sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf a, Direktur Jenderal Pajak menyediakan Akun Wajib Pajak untuk setiap Wajib Pajak.\n\n(2) Akun Wajib Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Wajib Pajak dengan melakukan aktivasi Akun Wajib Pajak.\n\n(3) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dilakukan secara:\n\na. elektronik melalui Portal Wajib Pajak; atau\n\nb. langsung ke Kantor Pelayanan Pajak atau Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan.\n\n(4) Pengajuan aktivasi Akun Wajib Pajak sebagaimana dimaksud pada ayat (2) dapat disetujui sepanjang alamat pos elektronik dan nomor telepon seluler Wajib Pajak telah tervalidasi.\n\n## Pasal 7\n\n(1) Dokumen yang digunakan dalam pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 disampaikan oleh Wajib Pajak dalam bentuk Dokumen Elektronik untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (1) atau dokumen kertas untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4 ayat (4).",
+  "model": "glm-ocr",
+  "usage": {}
+}

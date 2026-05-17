@@ -7,11 +7,11 @@
 #   Option B: paste contents into the "On-start script" field in the template
 #
 # Environment variables:
-#   INSTANCES=1          (default) – single vLLM at 75 % GPU util
+#   INSTANCES=1          (default) – single vLLM at 80 % GPU util
 #   INSTANCES=2          – two vLLM instances at 38 % each + nginx LB on :8080
 #   VLLM_PORT=8000       base port for vLLM (second instance uses VLLM_PORT+1)
 #   GLMOCR_PORT=5002     glmocr server port
-#   HF_TOKEN             Hugging Face token (required to download THUDM/GLM-OCR)
+#   HF_TOKEN             Hugging Face token (required to download zai-org/GLM-OCR)
 #
 # Ports to expose in vast.ai template:
 #   5002   → glmocr API  (/glmocr/parse)
@@ -32,7 +32,86 @@ CONFIG=/etc/glmocr_config.yaml
 # ── Install deps into the base-image venv ─────────────────────────────────────
 echo "[glmocr] Installing vllm + glmocr..."
 . /venv/main/bin/activate
-uv pip install "vllm>=0.9.0" "glmocr[selfhosted,server]"
+uv pip install "vllm>=0.19.0" "transformers>=5.3.0" "glmocr[selfhosted,server]"
+
+# ── Patch page_loader to accept data:application/pdf;base64,... URIs ──────────
+# glmocr only recognises PDFs via file paths or raw bytes; data URIs with the
+# application/pdf MIME type fall through to _load_image() and are silently
+# skipped.  This patch adds the missing branch in both _load_source() and
+# _iter_source() so the benchmark can send base64-encoded PDFs over HTTP.
+python3 - <<'PYEOF'
+import pathlib
+
+pkg = pathlib.Path("/venv/main/lib/python3.11/site-packages/glmocr/dataloader/page_loader.py")
+src = pkg.read_text()
+
+# ── _load_source ──────────────────────────────────────────────────────────────
+OLD_LOAD = '''        if source.startswith("file://"):
+            file_path = source[7:]
+        else:
+            file_path = source
+
+        # Detect PDF
+        if os.path.isfile(file_path) and file_path.lower().endswith(".pdf"):
+            return self._load_pdf(file_path)
+
+        # Otherwise load as a single image page
+        return [self._load_image(source)]'''
+
+NEW_LOAD = '''        # Handle PDF data URIs (data:application/pdf;base64,...)
+        if source.startswith("data:application/pdf"):
+            _, b64data = source.split(",", 1)
+            import base64 as _b64
+            return self._load_pdf_bytes(_b64.b64decode(b64data))
+
+        if source.startswith("file://"):
+            file_path = source[7:]
+        else:
+            file_path = source
+
+        # Detect PDF
+        if os.path.isfile(file_path) and file_path.lower().endswith(".pdf"):
+            return self._load_pdf(file_path)
+
+        # Otherwise load as a single image page
+        return [self._load_image(source)]'''
+
+# ── _iter_source ──────────────────────────────────────────────────────────────
+OLD_ITER = '''        if source.startswith("file://"):
+            file_path = source[7:]
+        else:
+            file_path = source
+
+        if os.path.isfile(file_path) and file_path.lower().endswith(".pdf"):
+            yield from self._iter_pdf(file_path)
+        else:
+            yield self._load_image(source)'''
+
+NEW_ITER = '''        # Handle PDF data URIs (data:application/pdf;base64,...)
+        if source.startswith("data:application/pdf"):
+            _, b64data = source.split(",", 1)
+            import base64 as _b64
+            yield from self._iter_pdf_bytes(_b64.b64decode(b64data))
+            return
+
+        if source.startswith("file://"):
+            file_path = source[7:]
+        else:
+            file_path = source
+
+        if os.path.isfile(file_path) and file_path.lower().endswith(".pdf"):
+            yield from self._iter_pdf(file_path)
+        else:
+            yield self._load_image(source)'''
+
+patched = src
+assert OLD_LOAD in patched, "patch target _load_source not found — glmocr version mismatch"
+assert OLD_ITER in patched, "patch target _iter_source not found — glmocr version mismatch"
+patched = patched.replace(OLD_LOAD, NEW_LOAD, 1)
+patched = patched.replace(OLD_ITER, NEW_ITER, 1)
+pkg.write_text(patched)
+print("[patch] page_loader.py: data:application/pdf URI support added")
+PYEOF
 
 if [[ "$INSTANCES" == "2" ]]; then
     apt-get install -y -q nginx
@@ -45,30 +124,15 @@ else
     OCR_PORT=$VLLM_PORT
 fi
 
-cat > "$CONFIG" <<YAML
-server:
-  host: 0.0.0.0
-  port: ${GLMOCR_PORT}
-
-maas:
-  enabled: false
-
-ocr_api:
-  api_host: 127.0.0.1
-  api_port: ${OCR_PORT}
-  model: glm-ocr
-  api_path: /v1/chat/completions
-  api_mode: openai
-  request_timeout: 120
-  max_connections: 128
-  max_workers: 32
-
-layout:
-  model_dir: PaddlePaddle/PP-DocLayoutV3_safetensors
-  batch_size: 4
-  cuda_visible_devices: "0"
-  device: "cuda:0"
-YAML
+# Start from the package defaults so all layout/formatter fields are preserved,
+# then patch only the values we need to override.
+cp /venv/main/lib/python3.11/site-packages/glmocr/config.yaml "$CONFIG"
+sed -i "s/port: 5002/port: ${GLMOCR_PORT}/"         "$CONFIG"
+sed -i 's/enabled: true/enabled: false/'             "$CONFIG"
+sed -i "s/api_port: 8080/api_port: ${OCR_PORT}/"     "$CONFIG"
+sed -i 's/# device: null/device: "cuda:0"/'            "$CONFIG"
+sed -i "s/batch_size: 1/batch_size: 2/"              "$CONFIG"
+sed -i "s/max_tokens: 8192/max_tokens: 2048/"        "$CONFIG"
 
 # ── Write supervisor wrapper scripts ──────────────────────────────────────────
 mkdir -p /opt/supervisor-scripts
@@ -81,10 +145,12 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --model "${MODEL}" \\
     --served-model-name glm-ocr \\
     --port ${VLLM_PORT} \\
-    --gpu-memory-utilization $([ "$INSTANCES" == "2" ] && echo "0.38" || echo "0.75") \\
+    --gpu-memory-utilization $([ "$INSTANCES" == "2" ] && echo "0.45" || echo "0.80") \\
     --max-model-len ${MAX_MODEL_LEN} \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
+    --max-num-seqs 32 \\
+    --disable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT
 chmod +x /opt/supervisor-scripts/vllm-0.sh
@@ -102,6 +168,8 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --max-model-len ${MAX_MODEL_LEN} \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
+    --max-num-seqs 32 \\
+    --disable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT
     chmod +x /opt/supervisor-scripts/vllm-1.sh
@@ -143,8 +211,9 @@ command=/opt/supervisor-scripts/vllm-0.sh
 autostart=true
 autorestart=true
 startsecs=10
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
+stdout_logfile=/var/log/supervisor/%(program_name)s.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=2
 redirect_stderr=true
 CONF
 
@@ -156,8 +225,9 @@ command=/opt/supervisor-scripts/vllm-1.sh
 autostart=true
 autorestart=true
 startsecs=10
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
+stdout_logfile=/var/log/supervisor/%(program_name)s.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=2
 redirect_stderr=true
 CONF
 
@@ -167,21 +237,23 @@ environment=PROC_NAME="%(program_name)s"
 command=nginx -g "daemon off;"
 autostart=true
 autorestart=true
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
+stdout_logfile=/var/log/supervisor/%(program_name)s.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=2
 redirect_stderr=true
 CONF
 fi
 
 cat > /etc/supervisor/conf.d/glmocr.conf <<CONF
 [program:glmocr]
-environment=PROC_NAME="%(program_name)s"
+environment=PROC_NAME="%(program_name)s",PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 command=/opt/supervisor-scripts/glmocr.sh
 autostart=true
 autorestart=true
 startsecs=5
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
+stdout_logfile=/var/log/supervisor/%(program_name)s.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=2
 redirect_stderr=true
 CONF
 

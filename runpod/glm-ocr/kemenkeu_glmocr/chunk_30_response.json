@@ -1,0 +1,915 @@
+{
+  "created": 1779001492,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-59f305bd065e45b18ca066e1685f6",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          326,
+          73,
+          871,
+          133
+        ],
+        "content": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            73
+          ],
+          [
+            331,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          133,
+          870,
+          253
+        ],
+        "content": "(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            133
+          ],
+          [
+            284,
+            248
+          ],
+          [
+            299,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          254,
+          870,
+          329
+        ],
+        "content": "(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            254
+          ],
+          [
+            283,
+            328
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            869,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          330,
+          868,
+          389
+        ],
+        "content": "(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            330
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            868,
+            388
+          ],
+          [
+            868,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          390,
+          868,
+          435
+        ],
+        "content": "(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            390
+          ],
+          [
+            282,
+            435
+          ],
+          [
+            868,
+            435
+          ],
+          [
+            868,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          867,
+          480
+        ],
+        "content": "a. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            460
+          ],
+          [
+            327,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            435
+          ],
+          [
+            332,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          480,
+          867,
+          510
+        ],
+        "content": "b. pejabat atau pegawai Direktorat Jenderal Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            480
+          ],
+          [
+            326,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          510,
+          868,
+          557
+        ],
+        "content": "c. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            510
+          ],
+          [
+            331,
+            557
+          ],
+          [
+            818,
+            557
+          ],
+          [
+            853,
+            557
+          ],
+          [
+            862,
+            557
+          ],
+          [
+            867,
+            552
+          ],
+          [
+            867,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          570,
+          613,
+          584
+        ],
+        "content": "## Pasal 8",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            570
+          ],
+          [
+            538,
+            584
+          ],
+          [
+            612,
+            584
+          ],
+          [
+            612,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            674
+          ],
+          [
+            867,
+            674
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          671,
+          691
+        ],
+        "content": "(2) Tanda Tangan Elektronik meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            691
+          ],
+          [
+            671,
+            691
+          ],
+          [
+            671,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          292,
+          692,
+          865,
+          765
+        ],
+        "content": "a. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            702
+          ],
+          [
+            292,
+            765
+          ],
+          [
+            865,
+            765
+          ],
+          [
+            865,
+            692
+          ],
+          [
+            333,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          766,
+          868,
+          826
+        ],
+        "content": "(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            766
+          ],
+          [
+            286,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          826,
+          869,
+          903
+        ],
+        "content": "a. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            831
+          ],
+          [
+            335,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            345,
+            826
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          326,
+          73,
+          871,
+          133
+        ],
+        "content": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            73
+          ],
+          [
+            331,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          133,
+          870,
+          253
+        ],
+        "content": "(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            133
+          ],
+          [
+            284,
+            248
+          ],
+          [
+            299,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          254,
+          870,
+          329
+        ],
+        "content": "(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            254
+          ],
+          [
+            283,
+            328
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            869,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          330,
+          868,
+          389
+        ],
+        "content": "(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            330
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            868,
+            388
+          ],
+          [
+            868,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          390,
+          868,
+          435
+        ],
+        "content": "(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            390
+          ],
+          [
+            282,
+            435
+          ],
+          [
+            868,
+            435
+          ],
+          [
+            868,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          867,
+          480
+        ],
+        "content": "a. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            460
+          ],
+          [
+            327,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            435
+          ],
+          [
+            332,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          480,
+          867,
+          510
+        ],
+        "content": "b. pejabat atau pegawai Direktorat Jenderal Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            480
+          ],
+          [
+            326,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          510,
+          868,
+          557
+        ],
+        "content": "c. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            510
+          ],
+          [
+            331,
+            557
+          ],
+          [
+            818,
+            557
+          ],
+          [
+            853,
+            557
+          ],
+          [
+            862,
+            557
+          ],
+          [
+            867,
+            552
+          ],
+          [
+            867,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          570,
+          613,
+          584
+        ],
+        "content": "## Pasal 8",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            570
+          ],
+          [
+            538,
+            584
+          ],
+          [
+            612,
+            584
+          ],
+          [
+            612,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            674
+          ],
+          [
+            867,
+            674
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          671,
+          691
+        ],
+        "content": "(2) Tanda Tangan Elektronik meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            691
+          ],
+          [
+            671,
+            691
+          ],
+          [
+            671,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          292,
+          692,
+          865,
+          765
+        ],
+        "content": "a. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            702
+          ],
+          [
+            292,
+            765
+          ],
+          [
+            865,
+            765
+          ],
+          [
+            865,
+            692
+          ],
+          [
+            333,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          766,
+          868,
+          826
+        ],
+        "content": "(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            766
+          ],
+          [
+            286,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          826,
+          869,
+          903
+        ],
+        "content": "a. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            831
+          ],
+          [
+            335,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            345,
+            826
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.\n\n(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.\n\n(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.\n\n(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.\n\n(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:\n\na. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;\n\nb. pejabat atau pegawai Direktorat Jenderal Pajak; atau\n\nc. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.\n\n## Pasal 8\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.\n\n(2) Tanda Tangan Elektronik meliputi:\n\na. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.\n\n(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:\n\na. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+  "md_results": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.\n\n(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.\n\n(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.\n\n(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.\n\n(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:\n\na. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;\n\nb. pejabat atau pegawai Direktorat Jenderal Pajak; atau\n\nc. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.\n\n## Pasal 8\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.\n\n(2) Tanda Tangan Elektronik meliputi:\n\na. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.\n\n(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:\n\na. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+  "model": "glm-ocr",
+  "usage": {}
+}

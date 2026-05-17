@@ -1,0 +1,761 @@
+{
+  "created": 1779015331,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-b4749d413b0c4a16be9ff70b2b6d7",
+  "json_result": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          869,
+          148
+        ],
+        "content": "dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan paling lama 1 (satu) hari kerja setelah jangka waktu pemberian keputusan berakhir.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          163,
+          622,
+          177
+        ],
+        "content": "## Pasal 75",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            163
+          ],
+          [
+            532,
+            176
+          ],
+          [
+            621,
+            176
+          ],
+          [
+            621,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          178,
+          868,
+          238
+        ],
+        "content": "(1) Dalam hal Wajib Pajak tidak melaksanakan kewajiban pendaftaran sebagaimana dimaksud dalam Pasal 71 ayat (1), Kepala Kantor Pelayanan Pajak melakukan Pemeriksaan atau penelitian administrasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            178
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            294,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          238,
+          868,
+          313
+        ],
+        "content": "(2) Berdasarkan hasil Pemeriksaan atau penelitian administrasi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan berdasarkan kewenangan secara jabatan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            238
+          ],
+          [
+            284,
+            308
+          ],
+          [
+            304,
+            313
+          ],
+          [
+            867,
+            313
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          314,
+          868,
+          405
+        ],
+        "content": "(3) Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dikirimkan kepada Wajib Pajak paling lama 3 (tiga) hari kerja terhitung sejak tanggal penerbitan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            314
+          ],
+          [
+            284,
+            404
+          ],
+          [
+            868,
+            404
+          ],
+          [
+            868,
+            314
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          419,
+          620,
+          433
+        ],
+        "content": "## Pasal 76",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            419
+          ],
+          [
+            531,
+            433
+          ],
+          [
+            619,
+            433
+          ],
+          [
+            619,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          434,
+          867,
+          524
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan perubahan data objek pajak Pajak Bumi dan Bangunan yang tercantum dalam Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            434
+          ],
+          [
+            283,
+            524
+          ],
+          [
+            867,
+            524
+          ],
+          [
+            867,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          525,
+          868,
+          587
+        ],
+        "content": "(2) Permohonan perubahan data sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            525
+          ],
+          [
+            283,
+            586
+          ],
+          [
+            867,
+            586
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          600,
+          620,
+          614
+        ],
+        "content": "## Pasal 77",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            600
+          ],
+          [
+            531,
+            614
+          ],
+          [
+            619,
+            614
+          ],
+          [
+            619,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          615,
+          868,
+          735
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan terhadap Objek Pajak yang sudah tidak memenuhi persyaratan subjektif sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Bumi dan Bangunan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            615
+          ],
+          [
+            287,
+            735
+          ],
+          [
+            868,
+            735
+          ],
+          [
+            868,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          736,
+          868,
+          811
+        ],
+        "content": "(2) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            736
+          ],
+          [
+            287,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          811,
+          869,
+          902
+        ],
+        "content": "(3) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dilampiri dengan dokumen sebagaimana dimaksud dalam Pasal 73 ayat (2), yang sudah berakhir dan tidak dilakukan perpanjangan masa berlakunya.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            811
+          ],
+          [
+            287,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            811
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          869,
+          148
+        ],
+        "content": "dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan paling lama 1 (satu) hari kerja setelah jangka waktu pemberian keputusan berakhir.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          163,
+          622,
+          177
+        ],
+        "content": "## Pasal 75",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            163
+          ],
+          [
+            532,
+            176
+          ],
+          [
+            621,
+            176
+          ],
+          [
+            621,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          178,
+          868,
+          238
+        ],
+        "content": "(1) Dalam hal Wajib Pajak tidak melaksanakan kewajiban pendaftaran sebagaimana dimaksud dalam Pasal 71 ayat (1), Kepala Kantor Pelayanan Pajak melakukan Pemeriksaan atau penelitian administrasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            178
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            294,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          238,
+          868,
+          313
+        ],
+        "content": "(2) Berdasarkan hasil Pemeriksaan atau penelitian administrasi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan berdasarkan kewenangan secara jabatan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            238
+          ],
+          [
+            284,
+            308
+          ],
+          [
+            304,
+            313
+          ],
+          [
+            867,
+            313
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          314,
+          868,
+          405
+        ],
+        "content": "(3) Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dikirimkan kepada Wajib Pajak paling lama 3 (tiga) hari kerja terhitung sejak tanggal penerbitan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            314
+          ],
+          [
+            284,
+            404
+          ],
+          [
+            868,
+            404
+          ],
+          [
+            868,
+            314
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          419,
+          620,
+          433
+        ],
+        "content": "## Pasal 76",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            419
+          ],
+          [
+            531,
+            433
+          ],
+          [
+            619,
+            433
+          ],
+          [
+            619,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          434,
+          867,
+          524
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan perubahan data objek pajak Pajak Bumi dan Bangunan yang tercantum dalam Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            434
+          ],
+          [
+            283,
+            524
+          ],
+          [
+            867,
+            524
+          ],
+          [
+            867,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          525,
+          868,
+          587
+        ],
+        "content": "(2) Permohonan perubahan data sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            525
+          ],
+          [
+            283,
+            586
+          ],
+          [
+            867,
+            586
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          600,
+          620,
+          614
+        ],
+        "content": "## Pasal 77",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            600
+          ],
+          [
+            531,
+            614
+          ],
+          [
+            619,
+            614
+          ],
+          [
+            619,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          615,
+          868,
+          735
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan terhadap Objek Pajak yang sudah tidak memenuhi persyaratan subjektif sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Bumi dan Bangunan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            615
+          ],
+          [
+            287,
+            735
+          ],
+          [
+            868,
+            735
+          ],
+          [
+            868,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          736,
+          868,
+          811
+        ],
+        "content": "(2) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            736
+          ],
+          [
+            287,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          811,
+          869,
+          902
+        ],
+        "content": "(3) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dilampiri dengan dokumen sebagaimana dimaksud dalam Pasal 73 ayat (2), yang sudah berakhir dan tidak dilakukan perpanjangan masa berlakunya.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            811
+          ],
+          [
+            287,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            811
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\n\n\n\n\ndianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan paling lama 1 (satu) hari kerja setelah jangka waktu pemberian keputusan berakhir.\n\n## Pasal 75\n\n(1) Dalam hal Wajib Pajak tidak melaksanakan kewajiban pendaftaran sebagaimana dimaksud dalam Pasal 71 ayat (1), Kepala Kantor Pelayanan Pajak melakukan Pemeriksaan atau penelitian administrasi.\n\n(2) Berdasarkan hasil Pemeriksaan atau penelitian administrasi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan berdasarkan kewenangan secara jabatan.\n\n(3) Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dikirimkan kepada Wajib Pajak paling lama 3 (tiga) hari kerja terhitung sejak tanggal penerbitan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.\n\n## Pasal 76\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan perubahan data objek pajak Pajak Bumi dan Bangunan yang tercantum dalam Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.\n\n(2) Permohonan perubahan data sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 77\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan terhadap Objek Pajak yang sudah tidak memenuhi persyaratan subjektif sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Bumi dan Bangunan.\n\n(2) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(3) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dilampiri dengan dokumen sebagaimana dimaksud dalam Pasal 73 ayat (2), yang sudah berakhir dan tidak dilakukan perpanjangan masa berlakunya.",
+  "md_results": "\n\n\n\n\n\ndianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan paling lama 1 (satu) hari kerja setelah jangka waktu pemberian keputusan berakhir.\n\n## Pasal 75\n\n(1) Dalam hal Wajib Pajak tidak melaksanakan kewajiban pendaftaran sebagaimana dimaksud dalam Pasal 71 ayat (1), Kepala Kantor Pelayanan Pajak melakukan Pemeriksaan atau penelitian administrasi.\n\n(2) Berdasarkan hasil Pemeriksaan atau penelitian administrasi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan berdasarkan kewenangan secara jabatan.\n\n(3) Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dikirimkan kepada Wajib Pajak paling lama 3 (tiga) hari kerja terhitung sejak tanggal penerbitan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.\n\n## Pasal 76\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan perubahan data objek pajak Pajak Bumi dan Bangunan yang tercantum dalam Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan.\n\n(2) Permohonan perubahan data sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 77\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak atau berdasarkan kewenangan secara jabatan dapat melakukan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan terhadap Objek Pajak yang sudah tidak memenuhi persyaratan subjektif sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Bumi dan Bangunan.\n\n(2) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (1) disampaikan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(3) Permohonan pencabutan Surat Keterangan Terdaftar Objek Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud pada ayat (2) dilampiri dengan dokumen sebagaimana dimaksud dalam Pasal 73 ayat (2), yang sudah berakhir dan tidak dilakukan perpanjangan masa berlakunya.",
+  "model": "glm-ocr",
+  "usage": {}
+}

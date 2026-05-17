@@ -1,0 +1,4635 @@
+{
+  "created": 1779015290,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-1468f4df45d344c6986707a650896",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          332,
+          72,
+          871,
+          103
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            72
+          ],
+          [
+            332,
+            103
+          ],
+          [
+            871,
+            103
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          103,
+          871,
+          133
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            113
+          ],
+          [
+            337,
+            133
+          ],
+          [
+            871,
+            133
+          ],
+          [
+            871,
+            103
+          ],
+          [
+            337,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          133,
+          872,
+          192
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            133
+          ],
+          [
+            333,
+            187
+          ],
+          [
+            344,
+            192
+          ],
+          [
+            871,
+            192
+          ],
+          [
+            871,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          194,
+          871,
+          223
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            204
+          ],
+          [
+            331,
+            223
+          ],
+          [
+            870,
+            223
+          ],
+          [
+            870,
+            194
+          ],
+          [
+            337,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          224,
+          870,
+          253
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            224
+          ],
+          [
+            336,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            224
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          253,
+          871,
+          284
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            253
+          ],
+          [
+            332,
+            284
+          ],
+          [
+            870,
+            284
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          284,
+          470,
+          298
+        ],
+        "content": "11. gugatan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            284
+          ],
+          [
+            333,
+            298
+          ],
+          [
+            469,
+            298
+          ],
+          [
+            469,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          298,
+          568,
+          314
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            298
+          ],
+          [
+            335,
+            313
+          ],
+          [
+            568,
+            313
+          ],
+          [
+            568,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          314,
+          581,
+          330
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            314
+          ],
+          [
+            334,
+            329
+          ],
+          [
+            581,
+            329
+          ],
+          [
+            581,
+            314
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          343,
+          622,
+          358
+        ],
+        "content": "## Pasal 32",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            343
+          ],
+          [
+            534,
+            357
+          ],
+          [
+            622,
+            357
+          ],
+          [
+            622,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          358,
+          870,
+          434
+        ],
+        "content": "(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak Warisan Belum Terbagimenggunakan Nomor Pokok Wajib Pajak dari Wajib Pajak orang pribadi yang meninggalkan warisan tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            358
+          ],
+          [
+            284,
+            433
+          ],
+          [
+            869,
+            433
+          ],
+          [
+            869,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          435,
+          870,
+          585
+        ],
+        "content": "(2) Dalam hal Wajib Pajak orang pribadi yang meninggalkan warisan sebagaimana dimaksud pada ayat (1) belum memiliki Nomor Pokok Wajib Pajak, dan dari warisan tersebut diterima atau diperoleh penghasilan, wakil dari Wajib Pajak Warisan Belum Terbagi wajib mendaftarkan Warisan Belum Terbagi pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi yang meninggalkan warisan untuk memperoleh Nomor Pokok Wajib Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            435
+          ],
+          [
+            290,
+            585
+          ],
+          [
+            870,
+            585
+          ],
+          [
+            870,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          585,
+          870,
+          675
+        ],
+        "content": "(3) Wakil dari Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usaha Warisan Belum Terbagi ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            585
+          ],
+          [
+            284,
+            675
+          ],
+          [
+            869,
+            675
+          ],
+          [
+            869,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          675,
+          870,
+          735
+        ],
+        "content": "(4) Pendaftaran diri oleh wakil sebagaimana dimaksud pada ayat (2) dilakukan paling lambat akhir bulan berikutnya setelah Wajib Pajak orang pribadi yang meninggalkan warisan tersebut meninggal dunia.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            675
+          ],
+          [
+            284,
+            735
+          ],
+          [
+            869,
+            735
+          ],
+          [
+            869,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          735,
+          816,
+          765
+        ],
+        "content": "(5) Wakil sebagaimana dimaksud pada ayat (2) yaitu:\n\na. salah seorang ahli waris;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            735
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            675,
+            765
+          ],
+          [
+            700,
+            765
+          ],
+          [
+            705,
+            760
+          ],
+          [
+            731,
+            765
+          ],
+          [
+            815,
+            765
+          ],
+          [
+            815,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          766,
+          605,
+          781
+        ],
+        "content": "b. pelaksana wasiat; atau",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            766
+          ],
+          [
+            329,
+            780
+          ],
+          [
+            604,
+            780
+          ],
+          [
+            604,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          781,
+          866,
+          824
+        ],
+        "content": "c. pihak yang mengurus harta peninggalan, dari Wajib Pajak orang pribadi yang meninggalkan warisan.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            781
+          ],
+          [
+            327,
+            824
+          ],
+          [
+            865,
+            824
+          ],
+          [
+            865,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          826,
+          868,
+          871
+        ],
+        "content": "(6) Wakil sebagaimana dimaksud pada ayat (5) melaksanakan hak dan kewajiban perpajakan atas Wajib Pajak Warisan Belum Terbagi.",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            826
+          ],
+          [
+            283,
+            871
+          ],
+          [
+            867,
+            871
+          ],
+          [
+            867,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          532,
+          71,
+          621,
+          86
+        ],
+        "content": "## Pasal 33",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            71
+          ],
+          [
+            532,
+            76
+          ],
+          [
+            532,
+            81
+          ],
+          [
+            532,
+            86
+          ],
+          [
+            620,
+            86
+          ],
+          [
+            620,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          86,
+          868,
+          162
+        ],
+        "content": "(1) Pendaftaran sebagaimana dimaksud dalam Pasal 32 ayat (2) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            86
+          ],
+          [
+            283,
+            162
+          ],
+          [
+            867,
+            162
+          ],
+          [
+            867,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          163,
+          868,
+          240
+        ],
+        "content": "(2) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            163
+          ],
+          [
+            283,
+            240
+          ],
+          [
+            868,
+            240
+          ],
+          [
+            868,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          253,
+          619,
+          267
+        ],
+        "content": "## Pasal 34",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            253
+          ],
+          [
+            531,
+            266
+          ],
+          [
+            618,
+            266
+          ],
+          [
+            618,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          267,
+          868,
+          357
+        ],
+        "content": "(1) Dalam hal wakil sebagaimana dimaksud dalam Pasal 32 ayat (2) tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 32 ayat (4), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan untuk Wajib Pajak Warisan Belum Terbagi.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            267
+          ],
+          [
+            282,
+            352
+          ],
+          [
+            298,
+            357
+          ],
+          [
+            867,
+            357
+          ],
+          [
+            867,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          358,
+          867,
+          450
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            358
+          ],
+          [
+            283,
+            450
+          ],
+          [
+            867,
+            450
+          ],
+          [
+            867,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          463,
+          619,
+          478
+        ],
+        "content": "## Pasal 35",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            463
+          ],
+          [
+            530,
+            477
+          ],
+          [
+            618,
+            477
+          ],
+          [
+            618,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          478,
+          866,
+          538
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan perubahan data Wajib Pajak Warisan Belum Terbagi, dalam hal:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            478
+          ],
+          [
+            287,
+            538
+          ],
+          [
+            865,
+            538
+          ],
+          [
+            865,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          539,
+          866,
+          584
+        ],
+        "content": "a. data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            539
+          ],
+          [
+            331,
+            584
+          ],
+          [
+            865,
+            584
+          ],
+          [
+            865,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          585,
+          865,
+          629
+        ],
+        "content": "b. perubahan data dimaksud tidak mengakibatkan pemindahan tempat Wajib Pajak Warisan Belum Terbagi terdaftar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            585
+          ],
+          [
+            326,
+            628
+          ],
+          [
+            865,
+            628
+          ],
+          [
+            865,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          629,
+          867,
+          734
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Warisan Belum Terbagi.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            629
+          ],
+          [
+            285,
+            734
+          ],
+          [
+            866,
+            734
+          ],
+          [
+            866,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          735,
+          866,
+          824
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Warisan Belum Terbagi.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            735
+          ],
+          [
+            286,
+            824
+          ],
+          [
+            865,
+            824
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          825,
+          865,
+          872
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            825
+          ],
+          [
+            280,
+            871
+          ],
+          [
+            864,
+            871
+          ],
+          [
+            864,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          535,
+          71,
+          622,
+          85
+        ],
+        "content": "## Pasal 36",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            71
+          ],
+          [
+            535,
+            85
+          ],
+          [
+            621,
+            85
+          ],
+          [
+            621,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          86,
+          871,
+          206
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Warisan Belum Terbagi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            86
+          ],
+          [
+            285,
+            206
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            870,
+            86
+          ],
+          [
+            625,
+            86
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          207,
+          868,
+          252
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal warisan sudah selesai dibagi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            207
+          ],
+          [
+            284,
+            251
+          ],
+          [
+            868,
+            251
+          ],
+          [
+            868,
+            207
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          253,
+          870,
+          357
+        ],
+        "content": "(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa warisan sudah selesai dibagi kepada seluruh ahli waris.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            253
+          ],
+          [
+            284,
+            356
+          ],
+          [
+            869,
+            356
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          358,
+          868,
+          417
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            358
+          ],
+          [
+            284,
+            412
+          ],
+          [
+            299,
+            417
+          ],
+          [
+            868,
+            417
+          ],
+          [
+            868,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          418,
+          868,
+          523
+        ],
+        "content": "(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak atas Wajib Pajak Warisan Belum Terbagi tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            418
+          ],
+          [
+            282,
+            518
+          ],
+          [
+            313,
+            523
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            868,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          523,
+          868,
+          645
+        ],
+        "content": "(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Warisan Belum Terbagi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            523
+          ],
+          [
+            282,
+            645
+          ],
+          [
+            868,
+            645
+          ],
+          [
+            868,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          659,
+          620,
+          673
+        ],
+        "content": "## Pasal 37",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            659
+          ],
+          [
+            530,
+            672
+          ],
+          [
+            620,
+            672
+          ],
+          [
+            620,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          674,
+          867,
+          749
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 36 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            674
+          ],
+          [
+            287,
+            748
+          ],
+          [
+            866,
+            748
+          ],
+          [
+            866,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          750,
+          866,
+          794
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            750
+          ],
+          [
+            287,
+            794
+          ],
+          [
+            865,
+            794
+          ],
+          [
+            865,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          868,
+          901
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Warisan Belum Terbagi yang memenuhi kriteria tertentu.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            900
+          ],
+          [
+            868,
+            900
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          73,
+          866,
+          135
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            73
+          ],
+          [
+            281,
+            134
+          ],
+          [
+            865,
+            134
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          149,
+          617,
+          164
+        ],
+        "content": "## Pasal 38",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            149
+          ],
+          [
+            529,
+            163
+          ],
+          [
+            617,
+            163
+          ],
+          [
+            617,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          164,
+          866,
+          240
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 36 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Warisan Belum Terbagi memenuhi ketentuan sebagai berikut:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            164
+          ],
+          [
+            278,
+            239
+          ],
+          [
+            865,
+            239
+          ],
+          [
+            865,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          240,
+          628,
+          255
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            240
+          ],
+          [
+            280,
+            255
+          ],
+          [
+            628,
+            255
+          ],
+          [
+            628,
+            240
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          256,
+          657,
+          270
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            256
+          ],
+          [
+            280,
+            269
+          ],
+          [
+            657,
+            269
+          ],
+          [
+            657,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          270,
+          864,
+          301
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            270
+          ],
+          [
+            324,
+            300
+          ],
+          [
+            863,
+            300
+          ],
+          [
+            863,
+            270
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          301,
+          677,
+          315
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            301
+          ],
+          [
+            325,
+            315
+          ],
+          [
+            676,
+            315
+          ],
+          [
+            676,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          315,
+          863,
+          344
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            315
+          ],
+          [
+            325,
+            343
+          ],
+          [
+            862,
+            343
+          ],
+          [
+            862,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          345,
+          849,
+          360
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            345
+          ],
+          [
+            324,
+            360
+          ],
+          [
+            848,
+            360
+          ],
+          [
+            848,
+            345
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          361,
+          862,
+          390
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            361
+          ],
+          [
+            278,
+            390
+          ],
+          [
+            861,
+            390
+          ],
+          [
+            861,
+            361
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          391,
+          862,
+          420
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            391
+          ],
+          [
+            279,
+            420
+          ],
+          [
+            861,
+            420
+          ],
+          [
+            861,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          421,
+          863,
+          450
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            421
+          ],
+          [
+            278,
+            449
+          ],
+          [
+            862,
+            449
+          ],
+          [
+            862,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          451,
+          864,
+          495
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            451
+          ],
+          [
+            325,
+            494
+          ],
+          [
+            863,
+            494
+          ],
+          [
+            863,
+            451
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          496,
+          588,
+          511
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            496
+          ],
+          [
+            324,
+            510
+          ],
+          [
+            587,
+            510
+          ],
+          [
+            587,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          511,
+          778,
+          526
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            511
+          ],
+          [
+            324,
+            525
+          ],
+          [
+            777,
+            525
+          ],
+          [
+            777,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          527,
+          862,
+          555
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            527
+          ],
+          [
+            324,
+            555
+          ],
+          [
+            861,
+            555
+          ],
+          [
+            861,
+            527
+          ],
+          [
+            787,
+            527
+          ],
+          [
+            781,
+            527
+          ],
+          [
+            541,
+            527
+          ],
+          [
+            525,
+            527
+          ],
+          [
+            495,
+            527
+          ],
+          [
+            435,
+            527
+          ],
+          [
+            404,
+            527
+          ],
+          [
+            395,
+            527
+          ],
+          [
+            349,
+            527
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          556,
+          862,
+          586
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            556
+          ],
+          [
+            324,
+            585
+          ],
+          [
+            861,
+            585
+          ],
+          [
+            861,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          586,
+          861,
+          616
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            586
+          ],
+          [
+            323,
+            615
+          ],
+          [
+            861,
+            615
+          ],
+          [
+            861,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          617,
+          862,
+          676
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            617
+          ],
+          [
+            324,
+            675
+          ],
+          [
+            862,
+            675
+          ],
+          [
+            862,
+            617
+          ],
+          [
+            633,
+            617
+          ],
+          [
+            588,
+            617
+          ],
+          [
+            554,
+            617
+          ],
+          [
+            533,
+            617
+          ],
+          [
+            474,
+            617
+          ],
+          [
+            468,
+            617
+          ],
+          [
+            454,
+            617
+          ],
+          [
+            399,
+            617
+          ],
+          [
+            353,
+            617
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          677,
+          861,
+          706
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            677
+          ],
+          [
+            323,
+            706
+          ],
+          [
+            861,
+            706
+          ],
+          [
+            861,
+            677
+          ],
+          [
+            535,
+            677
+          ],
+          [
+            524,
+            677
+          ],
+          [
+            514,
+            677
+          ],
+          [
+            368,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          706,
+          861,
+          736
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            706
+          ],
+          [
+            323,
+            735
+          ],
+          [
+            861,
+            735
+          ],
+          [
+            861,
+            706
+          ],
+          [
+            484,
+            706
+          ],
+          [
+            468,
+            706
+          ],
+          [
+            444,
+            706
+          ],
+          [
+            424,
+            706
+          ],
+          [
+            404,
+            706
+          ],
+          [
+            348,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          737,
+          862,
+          767
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            737
+          ],
+          [
+            324,
+            766
+          ],
+          [
+            862,
+            766
+          ],
+          [
+            862,
+            737
+          ],
+          [
+            668,
+            737
+          ],
+          [
+            632,
+            737
+          ],
+          [
+            524,
+            737
+          ],
+          [
+            513,
+            737
+          ],
+          [
+            488,
+            737
+          ],
+          [
+            468,
+            737
+          ],
+          [
+            444,
+            737
+          ],
+          [
+            418,
+            737
+          ],
+          [
+            389,
+            737
+          ],
+          [
+            378,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          768,
+          460,
+          781
+        ],
+        "content": "11. gugatan;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            768
+          ],
+          [
+            325,
+            781
+          ],
+          [
+            460,
+            781
+          ],
+          [
+            460,
+            768
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          782,
+          560,
+          797
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            782
+          ],
+          [
+            325,
+            796
+          ],
+          [
+            559,
+            796
+          ],
+          [
+            559,
+            782
+          ],
+          [
+            455,
+            782
+          ],
+          [
+            450,
+            782
+          ],
+          [
+            405,
+            782
+          ],
+          [
+            390,
+            782
+          ],
+          [
+            370,
+            782
+          ],
+          [
+            354,
+            782
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          799,
+          572,
+          815
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 24,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            799
+          ],
+          [
+            325,
+            815
+          ],
+          [
+            572,
+            815
+          ],
+          [
+            572,
+            799
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          831,
+          613,
+          845
+        ],
+        "content": "## Pasal 39",
+        "index": 25,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            831
+          ],
+          [
+            527,
+            845
+          ],
+          [
+            612,
+            845
+          ],
+          [
+            612,
+            831
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          845,
+          862,
+          907
+        ],
+        "content": "(1) Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf c wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+        "index": 26,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            845
+          ],
+          [
+            277,
+            906
+          ],
+          [
+            862,
+            906
+          ],
+          [
+            862,
+            845
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          332,
+          72,
+          871,
+          103
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            72
+          ],
+          [
+            332,
+            103
+          ],
+          [
+            871,
+            103
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          103,
+          871,
+          133
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            113
+          ],
+          [
+            337,
+            133
+          ],
+          [
+            871,
+            133
+          ],
+          [
+            871,
+            103
+          ],
+          [
+            337,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          133,
+          872,
+          192
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            133
+          ],
+          [
+            333,
+            187
+          ],
+          [
+            344,
+            192
+          ],
+          [
+            871,
+            192
+          ],
+          [
+            871,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          194,
+          871,
+          223
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            204
+          ],
+          [
+            331,
+            223
+          ],
+          [
+            870,
+            223
+          ],
+          [
+            870,
+            194
+          ],
+          [
+            337,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          224,
+          870,
+          253
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            224
+          ],
+          [
+            336,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            224
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          253,
+          871,
+          284
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            253
+          ],
+          [
+            332,
+            284
+          ],
+          [
+            870,
+            284
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          284,
+          470,
+          298
+        ],
+        "content": "11. gugatan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            284
+          ],
+          [
+            333,
+            298
+          ],
+          [
+            469,
+            298
+          ],
+          [
+            469,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          298,
+          568,
+          314
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            298
+          ],
+          [
+            335,
+            313
+          ],
+          [
+            568,
+            313
+          ],
+          [
+            568,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          314,
+          581,
+          330
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            314
+          ],
+          [
+            334,
+            329
+          ],
+          [
+            581,
+            329
+          ],
+          [
+            581,
+            314
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          343,
+          622,
+          358
+        ],
+        "content": "## Pasal 32",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            343
+          ],
+          [
+            534,
+            357
+          ],
+          [
+            622,
+            357
+          ],
+          [
+            622,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          358,
+          870,
+          434
+        ],
+        "content": "(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak Warisan Belum Terbagimenggunakan Nomor Pokok Wajib Pajak dari Wajib Pajak orang pribadi yang meninggalkan warisan tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            358
+          ],
+          [
+            284,
+            433
+          ],
+          [
+            869,
+            433
+          ],
+          [
+            869,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          435,
+          870,
+          585
+        ],
+        "content": "(2) Dalam hal Wajib Pajak orang pribadi yang meninggalkan warisan sebagaimana dimaksud pada ayat (1) belum memiliki Nomor Pokok Wajib Pajak, dan dari warisan tersebut diterima atau diperoleh penghasilan, wakil dari Wajib Pajak Warisan Belum Terbagi wajib mendaftarkan Warisan Belum Terbagi pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi yang meninggalkan warisan untuk memperoleh Nomor Pokok Wajib Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            435
+          ],
+          [
+            290,
+            585
+          ],
+          [
+            870,
+            585
+          ],
+          [
+            870,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          585,
+          870,
+          675
+        ],
+        "content": "(3) Wakil dari Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usaha Warisan Belum Terbagi ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            585
+          ],
+          [
+            284,
+            675
+          ],
+          [
+            869,
+            675
+          ],
+          [
+            869,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          675,
+          870,
+          735
+        ],
+        "content": "(4) Pendaftaran diri oleh wakil sebagaimana dimaksud pada ayat (2) dilakukan paling lambat akhir bulan berikutnya setelah Wajib Pajak orang pribadi yang meninggalkan warisan tersebut meninggal dunia.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            675
+          ],
+          [
+            284,
+            735
+          ],
+          [
+            869,
+            735
+          ],
+          [
+            869,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          735,
+          816,
+          765
+        ],
+        "content": "(5) Wakil sebagaimana dimaksud pada ayat (2) yaitu:\n\na. salah seorang ahli waris;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            735
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            675,
+            765
+          ],
+          [
+            700,
+            765
+          ],
+          [
+            705,
+            760
+          ],
+          [
+            731,
+            765
+          ],
+          [
+            815,
+            765
+          ],
+          [
+            815,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          766,
+          605,
+          781
+        ],
+        "content": "b. pelaksana wasiat; atau",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            766
+          ],
+          [
+            329,
+            780
+          ],
+          [
+            604,
+            780
+          ],
+          [
+            604,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          781,
+          866,
+          824
+        ],
+        "content": "c. pihak yang mengurus harta peninggalan, dari Wajib Pajak orang pribadi yang meninggalkan warisan.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            781
+          ],
+          [
+            327,
+            824
+          ],
+          [
+            865,
+            824
+          ],
+          [
+            865,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          826,
+          868,
+          871
+        ],
+        "content": "(6) Wakil sebagaimana dimaksud pada ayat (5) melaksanakan hak dan kewajiban perpajakan atas Wajib Pajak Warisan Belum Terbagi.",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            826
+          ],
+          [
+            283,
+            871
+          ],
+          [
+            867,
+            871
+          ],
+          [
+            867,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          532,
+          71,
+          621,
+          86
+        ],
+        "content": "## Pasal 33",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            71
+          ],
+          [
+            532,
+            76
+          ],
+          [
+            532,
+            81
+          ],
+          [
+            532,
+            86
+          ],
+          [
+            620,
+            86
+          ],
+          [
+            620,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          86,
+          868,
+          162
+        ],
+        "content": "(1) Pendaftaran sebagaimana dimaksud dalam Pasal 32 ayat (2) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            86
+          ],
+          [
+            283,
+            162
+          ],
+          [
+            867,
+            162
+          ],
+          [
+            867,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          163,
+          868,
+          240
+        ],
+        "content": "(2) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            163
+          ],
+          [
+            283,
+            240
+          ],
+          [
+            868,
+            240
+          ],
+          [
+            868,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          253,
+          619,
+          267
+        ],
+        "content": "## Pasal 34",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            253
+          ],
+          [
+            531,
+            266
+          ],
+          [
+            618,
+            266
+          ],
+          [
+            618,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          267,
+          868,
+          357
+        ],
+        "content": "(1) Dalam hal wakil sebagaimana dimaksud dalam Pasal 32 ayat (2) tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 32 ayat (4), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan untuk Wajib Pajak Warisan Belum Terbagi.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            267
+          ],
+          [
+            282,
+            352
+          ],
+          [
+            298,
+            357
+          ],
+          [
+            867,
+            357
+          ],
+          [
+            867,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          358,
+          867,
+          450
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            358
+          ],
+          [
+            283,
+            450
+          ],
+          [
+            867,
+            450
+          ],
+          [
+            867,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          463,
+          619,
+          478
+        ],
+        "content": "## Pasal 35",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            463
+          ],
+          [
+            530,
+            477
+          ],
+          [
+            618,
+            477
+          ],
+          [
+            618,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          478,
+          866,
+          538
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan perubahan data Wajib Pajak Warisan Belum Terbagi, dalam hal:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            478
+          ],
+          [
+            287,
+            538
+          ],
+          [
+            865,
+            538
+          ],
+          [
+            865,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          539,
+          866,
+          584
+        ],
+        "content": "a. data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            539
+          ],
+          [
+            331,
+            584
+          ],
+          [
+            865,
+            584
+          ],
+          [
+            865,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          585,
+          865,
+          629
+        ],
+        "content": "b. perubahan data dimaksud tidak mengakibatkan pemindahan tempat Wajib Pajak Warisan Belum Terbagi terdaftar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            585
+          ],
+          [
+            326,
+            628
+          ],
+          [
+            865,
+            628
+          ],
+          [
+            865,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          629,
+          867,
+          734
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Warisan Belum Terbagi.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            629
+          ],
+          [
+            285,
+            734
+          ],
+          [
+            866,
+            734
+          ],
+          [
+            866,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          735,
+          866,
+          824
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Warisan Belum Terbagi.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            735
+          ],
+          [
+            286,
+            824
+          ],
+          [
+            865,
+            824
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          825,
+          865,
+          872
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            825
+          ],
+          [
+            280,
+            871
+          ],
+          [
+            864,
+            871
+          ],
+          [
+            864,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          535,
+          71,
+          622,
+          85
+        ],
+        "content": "## Pasal 36",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            71
+          ],
+          [
+            535,
+            85
+          ],
+          [
+            621,
+            85
+          ],
+          [
+            621,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          86,
+          871,
+          206
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Warisan Belum Terbagi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            86
+          ],
+          [
+            285,
+            206
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            870,
+            86
+          ],
+          [
+            625,
+            86
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          207,
+          868,
+          252
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal warisan sudah selesai dibagi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            207
+          ],
+          [
+            284,
+            251
+          ],
+          [
+            868,
+            251
+          ],
+          [
+            868,
+            207
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          253,
+          870,
+          357
+        ],
+        "content": "(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa warisan sudah selesai dibagi kepada seluruh ahli waris.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            253
+          ],
+          [
+            284,
+            356
+          ],
+          [
+            869,
+            356
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          358,
+          868,
+          417
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            358
+          ],
+          [
+            284,
+            412
+          ],
+          [
+            299,
+            417
+          ],
+          [
+            868,
+            417
+          ],
+          [
+            868,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          418,
+          868,
+          523
+        ],
+        "content": "(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak atas Wajib Pajak Warisan Belum Terbagi tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            418
+          ],
+          [
+            282,
+            518
+          ],
+          [
+            313,
+            523
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            868,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          523,
+          868,
+          645
+        ],
+        "content": "(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Warisan Belum Terbagi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            523
+          ],
+          [
+            282,
+            645
+          ],
+          [
+            868,
+            645
+          ],
+          [
+            868,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          659,
+          620,
+          673
+        ],
+        "content": "## Pasal 37",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            659
+          ],
+          [
+            530,
+            672
+          ],
+          [
+            620,
+            672
+          ],
+          [
+            620,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          674,
+          867,
+          749
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 36 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            674
+          ],
+          [
+            287,
+            748
+          ],
+          [
+            866,
+            748
+          ],
+          [
+            866,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          750,
+          866,
+          794
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            750
+          ],
+          [
+            287,
+            794
+          ],
+          [
+            865,
+            794
+          ],
+          [
+            865,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          868,
+          901
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Warisan Belum Terbagi yang memenuhi kriteria tertentu.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            900
+          ],
+          [
+            868,
+            900
+          ],
+          [
+            868,
+            795
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          73,
+          866,
+          135
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            73
+          ],
+          [
+            281,
+            134
+          ],
+          [
+            865,
+            134
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          149,
+          617,
+          164
+        ],
+        "content": "## Pasal 38",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            149
+          ],
+          [
+            529,
+            163
+          ],
+          [
+            617,
+            163
+          ],
+          [
+            617,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          164,
+          866,
+          240
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 36 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Warisan Belum Terbagi memenuhi ketentuan sebagai berikut:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            164
+          ],
+          [
+            278,
+            239
+          ],
+          [
+            865,
+            239
+          ],
+          [
+            865,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          240,
+          628,
+          255
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            240
+          ],
+          [
+            280,
+            255
+          ],
+          [
+            628,
+            255
+          ],
+          [
+            628,
+            240
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          256,
+          657,
+          270
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            256
+          ],
+          [
+            280,
+            269
+          ],
+          [
+            657,
+            269
+          ],
+          [
+            657,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          270,
+          864,
+          301
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            270
+          ],
+          [
+            324,
+            300
+          ],
+          [
+            863,
+            300
+          ],
+          [
+            863,
+            270
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          301,
+          677,
+          315
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            301
+          ],
+          [
+            325,
+            315
+          ],
+          [
+            676,
+            315
+          ],
+          [
+            676,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          315,
+          863,
+          344
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            315
+          ],
+          [
+            325,
+            343
+          ],
+          [
+            862,
+            343
+          ],
+          [
+            862,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          345,
+          849,
+          360
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            345
+          ],
+          [
+            324,
+            360
+          ],
+          [
+            848,
+            360
+          ],
+          [
+            848,
+            345
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          361,
+          862,
+          390
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            361
+          ],
+          [
+            278,
+            390
+          ],
+          [
+            861,
+            390
+          ],
+          [
+            861,
+            361
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          391,
+          862,
+          420
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            391
+          ],
+          [
+            279,
+            420
+          ],
+          [
+            861,
+            420
+          ],
+          [
+            861,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          421,
+          863,
+          450
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            421
+          ],
+          [
+            278,
+            449
+          ],
+          [
+            862,
+            449
+          ],
+          [
+            862,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          451,
+          864,
+          495
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            451
+          ],
+          [
+            325,
+            494
+          ],
+          [
+            863,
+            494
+          ],
+          [
+            863,
+            451
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          496,
+          588,
+          511
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            496
+          ],
+          [
+            324,
+            510
+          ],
+          [
+            587,
+            510
+          ],
+          [
+            587,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          511,
+          778,
+          526
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            511
+          ],
+          [
+            324,
+            525
+          ],
+          [
+            777,
+            525
+          ],
+          [
+            777,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          527,
+          862,
+          555
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            527
+          ],
+          [
+            324,
+            555
+          ],
+          [
+            861,
+            555
+          ],
+          [
+            861,
+            527
+          ],
+          [
+            787,
+            527
+          ],
+          [
+            781,
+            527
+          ],
+          [
+            541,
+            527
+          ],
+          [
+            525,
+            527
+          ],
+          [
+            495,
+            527
+          ],
+          [
+            435,
+            527
+          ],
+          [
+            404,
+            527
+          ],
+          [
+            395,
+            527
+          ],
+          [
+            349,
+            527
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          556,
+          862,
+          586
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            556
+          ],
+          [
+            324,
+            585
+          ],
+          [
+            861,
+            585
+          ],
+          [
+            861,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          586,
+          861,
+          616
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            586
+          ],
+          [
+            323,
+            615
+          ],
+          [
+            861,
+            615
+          ],
+          [
+            861,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          617,
+          862,
+          676
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            617
+          ],
+          [
+            324,
+            675
+          ],
+          [
+            862,
+            675
+          ],
+          [
+            862,
+            617
+          ],
+          [
+            633,
+            617
+          ],
+          [
+            588,
+            617
+          ],
+          [
+            554,
+            617
+          ],
+          [
+            533,
+            617
+          ],
+          [
+            474,
+            617
+          ],
+          [
+            468,
+            617
+          ],
+          [
+            454,
+            617
+          ],
+          [
+            399,
+            617
+          ],
+          [
+            353,
+            617
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          677,
+          861,
+          706
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            677
+          ],
+          [
+            323,
+            706
+          ],
+          [
+            861,
+            706
+          ],
+          [
+            861,
+            677
+          ],
+          [
+            535,
+            677
+          ],
+          [
+            524,
+            677
+          ],
+          [
+            514,
+            677
+          ],
+          [
+            368,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          706,
+          861,
+          736
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            706
+          ],
+          [
+            323,
+            735
+          ],
+          [
+            861,
+            735
+          ],
+          [
+            861,
+            706
+          ],
+          [
+            484,
+            706
+          ],
+          [
+            468,
+            706
+          ],
+          [
+            444,
+            706
+          ],
+          [
+            424,
+            706
+          ],
+          [
+            404,
+            706
+          ],
+          [
+            348,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          737,
+          862,
+          767
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            737
+          ],
+          [
+            324,
+            766
+          ],
+          [
+            862,
+            766
+          ],
+          [
+            862,
+            737
+          ],
+          [
+            668,
+            737
+          ],
+          [
+            632,
+            737
+          ],
+          [
+            524,
+            737
+          ],
+          [
+            513,
+            737
+          ],
+          [
+            488,
+            737
+          ],
+          [
+            468,
+            737
+          ],
+          [
+            444,
+            737
+          ],
+          [
+            418,
+            737
+          ],
+          [
+            389,
+            737
+          ],
+          [
+            378,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          768,
+          460,
+          781
+        ],
+        "content": "11. gugatan;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            768
+          ],
+          [
+            325,
+            781
+          ],
+          [
+            460,
+            781
+          ],
+          [
+            460,
+            768
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          782,
+          560,
+          797
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            782
+          ],
+          [
+            325,
+            796
+          ],
+          [
+            559,
+            796
+          ],
+          [
+            559,
+            782
+          ],
+          [
+            455,
+            782
+          ],
+          [
+            450,
+            782
+          ],
+          [
+            405,
+            782
+          ],
+          [
+            390,
+            782
+          ],
+          [
+            370,
+            782
+          ],
+          [
+            354,
+            782
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          799,
+          572,
+          815
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 24,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            799
+          ],
+          [
+            325,
+            815
+          ],
+          [
+            572,
+            815
+          ],
+          [
+            572,
+            799
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          831,
+          613,
+          845
+        ],
+        "content": "## Pasal 39",
+        "index": 25,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            831
+          ],
+          [
+            527,
+            845
+          ],
+          [
+            612,
+            845
+          ],
+          [
+            612,
+            831
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          845,
+          862,
+          907
+        ],
+        "content": "(1) Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf c wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+        "index": 26,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            845
+          ],
+          [
+            277,
+            906
+          ],
+          [
+            862,
+            906
+          ],
+          [
+            862,
+            845
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 32\n\n(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak Warisan Belum Terbagimenggunakan Nomor Pokok Wajib Pajak dari Wajib Pajak orang pribadi yang meninggalkan warisan tersebut.\n\n(2) Dalam hal Wajib Pajak orang pribadi yang meninggalkan warisan sebagaimana dimaksud pada ayat (1) belum memiliki Nomor Pokok Wajib Pajak, dan dari warisan tersebut diterima atau diperoleh penghasilan, wakil dari Wajib Pajak Warisan Belum Terbagi wajib mendaftarkan Warisan Belum Terbagi pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi yang meninggalkan warisan untuk memperoleh Nomor Pokok Wajib Pajak.\n\n(3) Wakil dari Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usaha Warisan Belum Terbagi ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(4) Pendaftaran diri oleh wakil sebagaimana dimaksud pada ayat (2) dilakukan paling lambat akhir bulan berikutnya setelah Wajib Pajak orang pribadi yang meninggalkan warisan tersebut meninggal dunia.\n\n(5) Wakil sebagaimana dimaksud pada ayat (2) yaitu:\n\na. salah seorang ahli waris;\n\nb. pelaksana wasiat; atau\n\nc. pihak yang mengurus harta peninggalan, dari Wajib Pajak orang pribadi yang meninggalkan warisan.\n\n(6) Wakil sebagaimana dimaksud pada ayat (5) melaksanakan hak dan kewajiban perpajakan atas Wajib Pajak Warisan Belum Terbagi.\n\n## Pasal 33\n\n(1) Pendaftaran sebagaimana dimaksud dalam Pasal 32 ayat (2) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(2) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.\n\n## Pasal 34\n\n(1) Dalam hal wakil sebagaimana dimaksud dalam Pasal 32 ayat (2) tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 32 ayat (4), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan untuk Wajib Pajak Warisan Belum Terbagi.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 35\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan perubahan data Wajib Pajak Warisan Belum Terbagi, dalam hal:\n\na. data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya; dan\n\nb. perubahan data dimaksud tidak mengakibatkan pemindahan tempat Wajib Pajak Warisan Belum Terbagi terdaftar.\n\n(2) Permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Warisan Belum Terbagi.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Warisan Belum Terbagi.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 36\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Warisan Belum Terbagi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal warisan sudah selesai dibagi.\n\n(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa warisan sudah selesai dibagi kepada seluruh ahli waris.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak atas Wajib Pajak Warisan Belum Terbagi tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.\n\n(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Warisan Belum Terbagi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 37\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 36 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Warisan Belum Terbagi yang memenuhi kriteria tertentu.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 38\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 36 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Warisan Belum Terbagi memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;\n\n5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 39\n\n(1) Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf c wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+  "md_results": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 32\n\n(1) Pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak Warisan Belum Terbagimenggunakan Nomor Pokok Wajib Pajak dari Wajib Pajak orang pribadi yang meninggalkan warisan tersebut.\n\n(2) Dalam hal Wajib Pajak orang pribadi yang meninggalkan warisan sebagaimana dimaksud pada ayat (1) belum memiliki Nomor Pokok Wajib Pajak, dan dari warisan tersebut diterima atau diperoleh penghasilan, wakil dari Wajib Pajak Warisan Belum Terbagi wajib mendaftarkan Warisan Belum Terbagi pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi yang meninggalkan warisan untuk memperoleh Nomor Pokok Wajib Pajak.\n\n(3) Wakil dari Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (2) diharuskan untuk melaporkan tempat kegiatan usaha Warisan Belum Terbagi ke Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(4) Pendaftaran diri oleh wakil sebagaimana dimaksud pada ayat (2) dilakukan paling lambat akhir bulan berikutnya setelah Wajib Pajak orang pribadi yang meninggalkan warisan tersebut meninggal dunia.\n\n(5) Wakil sebagaimana dimaksud pada ayat (2) yaitu:\n\na. salah seorang ahli waris;\n\nb. pelaksana wasiat; atau\n\nc. pihak yang mengurus harta peninggalan, dari Wajib Pajak orang pribadi yang meninggalkan warisan.\n\n(6) Wakil sebagaimana dimaksud pada ayat (5) melaksanakan hak dan kewajiban perpajakan atas Wajib Pajak Warisan Belum Terbagi.\n\n## Pasal 33\n\n(1) Pendaftaran sebagaimana dimaksud dalam Pasal 32 ayat (2) dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(2) Berdasarkan permohonan pendaftaran sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.\n\n## Pasal 34\n\n(1) Dalam hal wakil sebagaimana dimaksud dalam Pasal 32 ayat (2) tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 32 ayat (4), Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan untuk Wajib Pajak Warisan Belum Terbagi.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 35\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan perubahan data Wajib Pajak Warisan Belum Terbagi, dalam hal:\n\na. data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya; dan\n\nb. perubahan data dimaksud tidak mengakibatkan pemindahan tempat Wajib Pajak Warisan Belum Terbagi terdaftar.\n\n(2) Permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Warisan Belum Terbagi.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Warisan Belum Terbagi.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 36\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Warisan Belum Terbagi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Warisan Belum Terbagi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal warisan sudah selesai dibagi.\n\n(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa warisan sudah selesai dibagi kepada seluruh ahli waris.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak Warisan Belum Terbagi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak atas Wajib Pajak Warisan Belum Terbagi tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Warisan Belum Terbagi diterima secara lengkap.\n\n(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Warisan Belum Terbagi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 37\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 36 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap Wajib Pajak Warisan Belum Terbagi yang memenuhi kriteria tertentu.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 38\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 36 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Warisan Belum Terbagi memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;\n\n5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 39\n\n(1) Wajib Pajak Badan sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf c wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+  "model": "glm-ocr",
+  "usage": {}
+}

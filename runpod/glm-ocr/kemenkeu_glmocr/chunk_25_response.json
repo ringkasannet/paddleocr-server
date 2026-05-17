@@ -1,0 +1,4419 @@
+{
+  "created": 1779004516,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-29fe44a6769144f297e07cd2caaf5",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          330,
+          72,
+          871,
+          238
+        ],
+        "content": "dimaksud dalam Pasal 115, diterbitkan surat ketetapan/keputusan/putusan yang mengakibatkan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga, kelebihan pembayaran pajak dan/atau pemberian imbalan bunga tersebut terlebih dahulu harus diperhitungkan dengan sisa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang belum diangsur atau ditunda pembayarannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            72
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            871,
+            238
+          ],
+          [
+            871,
+            77
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            816,
+            72
+          ],
+          [
+            797,
+            72
+          ],
+          [
+            781,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          238,
+          870,
+          328
+        ],
+        "content": "(2) Dalam hal pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b telah diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak dan terhadap pajak yang masih harus dibayar atau kewajiban pelunasan tersebut:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            238
+          ],
+          [
+            285,
+            323
+          ],
+          [
+            330,
+            327
+          ],
+          [
+            870,
+            327
+          ],
+          [
+            870,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          329,
+          870,
+          403
+        ],
+        "content": "a. diperhitungkan dengan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga sebagaimana dimaksud pada ayat (1) dan masih terdapat sisa pajak yang masih harus dibayar atau kewajiban pelunasan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            329
+          ],
+          [
+            335,
+            402
+          ],
+          [
+            350,
+            402
+          ],
+          [
+            870,
+            402
+          ],
+          [
+            870,
+            329
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          404,
+          870,
+          448
+        ],
+        "content": "b. diterbitkan keputusan atau putusan yang menyebabkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan berkurang,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            404
+          ],
+          [
+            335,
+            448
+          ],
+          [
+            870,
+            448
+          ],
+          [
+            870,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          449,
+          870,
+          494
+        ],
+        "content": "Direktur Jenderal Pajak menerbitkan surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            449
+          ],
+          [
+            334,
+            494
+          ],
+          [
+            870,
+            494
+          ],
+          [
+            870,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          494,
+          870,
+          570
+        ],
+        "content": "(3) Surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak sebagaimana dimaksud pada ayat (2) disampaikan kepada Wajib Pajak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            494
+          ],
+          [
+            284,
+            570
+          ],
+          [
+            870,
+            570
+          ],
+          [
+            870,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          584,
+          628,
+          598
+        ],
+        "content": "## Pasal 120",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            584
+          ],
+          [
+            527,
+            597
+          ],
+          [
+            627,
+            597
+          ],
+          [
+            627,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          599,
+          870,
+          689
+        ],
+        "content": "(1) Dalam hal Wajib Pajak mengajukan keberatan atas suatu Surat Ketetapan Pajak yang pelunasannya telah memperoleh persetujuan untuk diangsur atau ditunda, Wajib Pajak wajib melunasi seluruh pajak yang masih harus dibayar yang telah disetujui dalam Pembahasan Akhir Hasil Pemeriksaan, sebelum keberatan diajukan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            599
+          ],
+          [
+            283,
+            688
+          ],
+          [
+            869,
+            688
+          ],
+          [
+            869,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          690,
+          870,
+          764
+        ],
+        "content": "(2) Pengajuan keberatan sebagaimana dimaksud pada ayat (1) mengakibatkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 menjadi tidak berlaku.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            690
+          ],
+          [
+            284,
+            764
+          ],
+          [
+            869,
+            764
+          ],
+          [
+            869,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          765,
+          871,
+          902
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengajukan keberatan, pengurangan, pembetulan, banding, atau peninjauan kembali atas ketetapan atau keputusan terkait Pajak Bumi dan Bangunan yang masih harus dibayar sebagaimana dimaksud dalam Pasal 97 ayat (3) yang pelunasannya telah memperoleh persetujuan untuk mengangsur atau menunda pembayaran pajak, persetujuan untuk mengangsur atau menunda pembayaran pajak tersebut tetap berlaku dan Wajib",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            765
+          ],
+          [
+            284,
+            902
+          ],
+          [
+            751,
+            902
+          ],
+          [
+            756,
+            902
+          ],
+          [
+            766,
+            902
+          ],
+          [
+            871,
+            902
+          ],
+          [
+            871,
+            765
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          328,
+          71,
+          869,
+          102
+        ],
+        "content": "Pajak wajib melunasi sesuai dengan jadwal waktu yang telah ditetapkan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            71
+          ],
+          [
+            328,
+            101
+          ],
+          [
+            868,
+            101
+          ],
+          [
+            868,
+            76
+          ],
+          [
+            854,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          524,
+          116,
+          624,
+          131
+        ],
+        "content": "## Pasal 121",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            524,
+            116
+          ],
+          [
+            524,
+            130
+          ],
+          [
+            624,
+            130
+          ],
+          [
+            624,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          130,
+          867,
+          193
+        ],
+        "content": "(1) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            130
+          ],
+          [
+            287,
+            192
+          ],
+          [
+            321,
+            192
+          ],
+          [
+            332,
+            192
+          ],
+          [
+            867,
+            192
+          ],
+          [
+            867,
+            135
+          ],
+          [
+            812,
+            130
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          191,
+          525,
+          206
+        ],
+        "content": "a. Pasal 114; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            191
+          ],
+          [
+            328,
+            206
+          ],
+          [
+            525,
+            206
+          ],
+          [
+            525,
+            191
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          206,
+          868,
+          311
+        ],
+        "content": "b. Pasal 115 atas Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang harus dibayar bertambah,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            206
+          ],
+          [
+            327,
+            311
+          ],
+          [
+            867,
+            311
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            803,
+            206
+          ],
+          [
+            411,
+            206
+          ],
+          [
+            386,
+            206
+          ],
+          [
+            357,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          312,
+          867,
+          388
+        ],
+        "content": "Wajib Pajak dikenai sanksi administratif berupa bunga sebagaimana diatur dalam Pasal 19 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan, yang dihitung sejak jatuh tempo pembayaran sampai dengan pembayaran angsuran atau pelunasan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            317
+          ],
+          [
+            324,
+            387
+          ],
+          [
+            866,
+            387
+          ],
+          [
+            866,
+            317
+          ],
+          [
+            856,
+            312
+          ],
+          [
+            330,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          387,
+          867,
+          508
+        ],
+        "content": "(2) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 terkait Surat Tagihan Pajak Pajak Bumi dan Bangunan, Wajib Pajak dikenai denda administratif sebesar $2\\%$ (dua persen) sebulan sebagaimana diatur dalam Pasal 11 ayat (3) Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            387
+          ],
+          [
+            280,
+            503
+          ],
+          [
+            300,
+            508
+          ],
+          [
+            867,
+            508
+          ],
+          [
+            867,
+            387
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          508,
+          866,
+          583
+        ],
+        "content": "(3) Denda administratif sebagaimana dimaksud pada ayat (2) dihitung dari saat jatuh tempo Surat Tagihan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (3) sampai dengan tanggal pelunasan atas pengangsuran atau penundaan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            508
+          ],
+          [
+            280,
+            578
+          ],
+          [
+            305,
+            583
+          ],
+          [
+            865,
+            583
+          ],
+          [
+            865,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          583,
+          867,
+          688
+        ],
+        "content": "(4) Pengenaan denda administratif sebagaimana dimaksud pada ayat (2) tidak melampaui jangka waktu paling lama 24 (dua puluh empat) bulan sejak jatuh tempo Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (1) dan ayat (2).",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            583
+          ],
+          [
+            280,
+            688
+          ],
+          [
+            866,
+            688
+          ],
+          [
+            866,
+            583
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          689,
+          864,
+          735
+        ],
+        "content": "(5) Sanksi administratif sebagaimana dimaksud pada ayat (1) dan denda administratif sebagaimana dimaksud pada ayat (2) yang timbul akibat diterbitkan:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            689
+          ],
+          [
+            285,
+            734
+          ],
+          [
+            864,
+            734
+          ],
+          [
+            864,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          735,
+          865,
+          839
+        ],
+        "content": "a. surat keputusan persetujuan pengangsuran pembayaran pajak dihitung berdasarkan saldo pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang diajukan permohonan pengangsuran pada setiap periode pembayaran angsuran; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            735
+          ],
+          [
+            324,
+            839
+          ],
+          [
+            865,
+            839
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          840,
+          865,
+          901
+        ],
+        "content": "b. surat keputusan persetujuan penundaan pembayaran pajak dihitung berdasarkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            840
+          ],
+          [
+            324,
+            900
+          ],
+          [
+            865,
+            900
+          ],
+          [
+            865,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          377,
+          70,
+          868,
+          101
+        ],
+        "content": "113 huruf b yang diajukan permohonan penundaan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            70
+          ],
+          [
+            377,
+            100
+          ],
+          [
+            867,
+            100
+          ],
+          [
+            867,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          101,
+          869,
+          206
+        ],
+        "content": "(6) Pajak yang masih harus dibayar sebagaimana dimaksud pada ayat (5) untuk penghitungan denda administratif Pajak Bumi dan Bangunan merupakan jumlah Pajak Bumi dan Bangunan terutang yang masih harus dibayar dalam Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            101
+          ],
+          [
+            284,
+            205
+          ],
+          [
+            868,
+            205
+          ],
+          [
+            868,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          206,
+          868,
+          251
+        ],
+        "content": "(7) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) ditagih dengan menerbitkan Surat Tagihan Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            206
+          ],
+          [
+            283,
+            251
+          ],
+          [
+            867,
+            251
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            848,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          251,
+          868,
+          296
+        ],
+        "content": "(8) Denda administratif sebagaimana dimaksud pada ayat (2) ditagih dengan menerbitkan Surat Tagihan Pajak Pajak Bumi dan Bangunan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            251
+          ],
+          [
+            282,
+            296
+          ],
+          [
+            867,
+            296
+          ],
+          [
+            867,
+            251
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          296,
+          868,
+          342
+        ],
+        "content": "(9) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) tidak dikenakan terhadap angsuran atau penundaan atas Surat Tagihan Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            296
+          ],
+          [
+            282,
+            337
+          ],
+          [
+            303,
+            342
+          ],
+          [
+            322,
+            342
+          ],
+          [
+            333,
+            342
+          ],
+          [
+            343,
+            342
+          ],
+          [
+            372,
+            342
+          ],
+          [
+            428,
+            342
+          ],
+          [
+            458,
+            342
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            867,
+            296
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          342,
+          868,
+          418
+        ],
+        "content": "(10) Denda administratif sebagaimana dimaksud pada ayat (2) tidak dikenakan terhadap angsuran atau penundaan atas pembayaran Surat Tagihan Pajak Pajak Bumi dan Bangunan yang hanya memuat denda administratif.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            342
+          ],
+          [
+            287,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            852,
+            342
+          ],
+          [
+            842,
+            342
+          ],
+          [
+            793,
+            342
+          ],
+          [
+            778,
+            342
+          ],
+          [
+            768,
+            342
+          ],
+          [
+            501,
+            342
+          ],
+          [
+            485,
+            342
+          ],
+          [
+            371,
+            342
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          505,
+          432,
+          646,
+          447
+        ],
+        "content": "## Bagian Kedua",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            505,
+            432
+          ],
+          [
+            505,
+            447
+          ],
+          [
+            645,
+            447
+          ],
+          [
+            645,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          446,
+          862,
+          480
+        ],
+        "content": "Tata Cara Pengembalian atas Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            446
+          ],
+          [
+            285,
+            479
+          ],
+          [
+            861,
+            479
+          ],
+          [
+            861,
+            446
+          ],
+          [
+            702,
+            446
+          ],
+          [
+            666,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          494,
+          624,
+          508
+        ],
+        "content": "## Pasal 122",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            494
+          ],
+          [
+            525,
+            508
+          ],
+          [
+            624,
+            508
+          ],
+          [
+            624,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          508,
+          866,
+          553
+        ],
+        "content": "(1) Permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang dapat diajukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            508
+          ],
+          [
+            286,
+            553
+          ],
+          [
+            865,
+            553
+          ],
+          [
+            865,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          554,
+          866,
+          598
+        ],
+        "content": "a. terdapat pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            554
+          ],
+          [
+            325,
+            598
+          ],
+          [
+            865,
+            598
+          ],
+          [
+            865,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          599,
+          867,
+          644
+        ],
+        "content": "b. terdapat kelebihan pembayaran pajak oleh Wajib Pajak yang terkait dengan Pajak Dalam Rangka Impor;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            599
+          ],
+          [
+            325,
+            644
+          ],
+          [
+            866,
+            644
+          ],
+          [
+            866,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          645,
+          866,
+          705
+        ],
+        "content": "c. terdapat kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            645
+          ],
+          [
+            325,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          705,
+          865,
+          734
+        ],
+        "content": "d. terdapat kesalahan pemotongan atau pemungutan yang:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            331,
+            734
+          ],
+          [
+            365,
+            734
+          ],
+          [
+            371,
+            734
+          ],
+          [
+            864,
+            734
+          ],
+          [
+            864,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          735,
+          768,
+          751
+        ],
+        "content": "1) bukan merupakan objek pajak; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            735
+          ],
+          [
+            374,
+            750
+          ],
+          [
+            768,
+            750
+          ],
+          [
+            768,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          751,
+          866,
+          784
+        ],
+        "content": "2) objek pajak dan/atau subjek pajak yang mendapatkan fasilitas perpajakan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            751
+          ],
+          [
+            372,
+            783
+          ],
+          [
+            865,
+            783
+          ],
+          [
+            865,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          800,
+          865,
+          859
+        ],
+        "content": "e. terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            800
+          ],
+          [
+            324,
+            859
+          ],
+          [
+            865,
+            859
+          ],
+          [
+            865,
+            800
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          860,
+          867,
+          892
+        ],
+        "content": "(2) Jenis pajak yang dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            860
+          ],
+          [
+            280,
+            892
+          ],
+          [
+            495,
+            892
+          ],
+          [
+            541,
+            892
+          ],
+          [
+            866,
+            892
+          ],
+          [
+            866,
+            860
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          102
+        ],
+        "content": "seharusnya tidak terutang sebagaimana dimaksud pada ayat (1), meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          102,
+          567,
+          117
+        ],
+        "content": "a. Pajak Penghasilan;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            102
+          ],
+          [
+            331,
+            117
+          ],
+          [
+            336,
+            117
+          ],
+          [
+            395,
+            117
+          ],
+          [
+            420,
+            117
+          ],
+          [
+            445,
+            117
+          ],
+          [
+            449,
+            117
+          ],
+          [
+            474,
+            117
+          ],
+          [
+            488,
+            117
+          ],
+          [
+            548,
+            117
+          ],
+          [
+            562,
+            117
+          ],
+          [
+            567,
+            113
+          ],
+          [
+            567,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          117,
+          629,
+          132
+        ],
+        "content": "b. Pajak Pertambahan Nilai;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            117
+          ],
+          [
+            331,
+            131
+          ],
+          [
+            628,
+            131
+          ],
+          [
+            628,
+            117
+          ],
+          [
+            570,
+            117
+          ],
+          [
+            550,
+            117
+          ],
+          [
+            361,
+            117
+          ],
+          [
+            351,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          132,
+          741,
+          148
+        ],
+        "content": "c. Pajak Penjualan atas Barang Mewah;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            136
+          ],
+          [
+            331,
+            147
+          ],
+          [
+            741,
+            147
+          ],
+          [
+            741,
+            132
+          ],
+          [
+            701,
+            132
+          ],
+          [
+            686,
+            132
+          ],
+          [
+            661,
+            132
+          ],
+          [
+            611,
+            132
+          ],
+          [
+            361,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          147,
+          651,
+          162
+        ],
+        "content": "d. Pajak Bumi dan Bangunan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            147
+          ],
+          [
+            330,
+            157
+          ],
+          [
+            335,
+            162
+          ],
+          [
+            355,
+            162
+          ],
+          [
+            401,
+            162
+          ],
+          [
+            420,
+            162
+          ],
+          [
+            501,
+            162
+          ],
+          [
+            505,
+            162
+          ],
+          [
+            511,
+            162
+          ],
+          [
+            515,
+            162
+          ],
+          [
+            521,
+            162
+          ],
+          [
+            651,
+            162
+          ],
+          [
+            651,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          161,
+          504,
+          177
+        ],
+        "content": "e. Bea Meterai;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            166
+          ],
+          [
+            331,
+            176
+          ],
+          [
+            504,
+            176
+          ],
+          [
+            504,
+            161
+          ],
+          [
+            361,
+            161
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          177,
+          588,
+          192
+        ],
+        "content": "f. Pajak Penjualan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            177
+          ],
+          [
+            331,
+            191
+          ],
+          [
+            587,
+            191
+          ],
+          [
+            587,
+            182
+          ],
+          [
+            582,
+            177
+          ],
+          [
+            538,
+            177
+          ],
+          [
+            513,
+            177
+          ],
+          [
+            504,
+            177
+          ],
+          [
+            488,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          192,
+          519,
+          206
+        ],
+        "content": "g. Pajak Karbon.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            197
+          ],
+          [
+            331,
+            206
+          ],
+          [
+            518,
+            206
+          ],
+          [
+            518,
+            197
+          ],
+          [
+            509,
+            192
+          ],
+          [
+            381,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          206,
+          868,
+          285
+        ],
+        "content": "(3) Selain jenis pajak sebagaimana dimaksud pada ayat (2), pembayaran Deposit Pajak yang tidak digunakan untuk pelunasan pajak yang terutang juga dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            206
+          ],
+          [
+            284,
+            284
+          ],
+          [
+            867,
+            284
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            762,
+            206
+          ],
+          [
+            738,
+            206
+          ],
+          [
+            624,
+            206
+          ],
+          [
+            618,
+            206
+          ],
+          [
+            593,
+            206
+          ],
+          [
+            574,
+            206
+          ],
+          [
+            330,
+            206
+          ],
+          [
+            324,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          298,
+          627,
+          311
+        ],
+        "content": "## Pasal 123",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            298
+          ],
+          [
+            526,
+            311
+          ],
+          [
+            626,
+            311
+          ],
+          [
+            626,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          312,
+          867,
+          358
+        ],
+        "content": "Pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf a dapat berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            312
+          ],
+          [
+            281,
+            358
+          ],
+          [
+            867,
+            358
+          ],
+          [
+            867,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          358,
+          868,
+          388
+        ],
+        "content": "a. pembayaran pajak yang lebih besar dari pajak yang terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            358
+          ],
+          [
+            286,
+            388
+          ],
+          [
+            867,
+            388
+          ],
+          [
+            867,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          388,
+          824,
+          403
+        ],
+        "content": "b. pembayaran pajak atas transaksi yang dibatalkan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            388
+          ],
+          [
+            281,
+            403
+          ],
+          [
+            823,
+            403
+          ],
+          [
+            823,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          404,
+          823,
+          418
+        ],
+        "content": "c. pembayaran pajak yang seharusnya tidak dibayar;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            404
+          ],
+          [
+            287,
+            418
+          ],
+          [
+            822,
+            418
+          ],
+          [
+            822,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          419,
+          867,
+          463
+        ],
+        "content": "d. pembayaran pajak dalam rangka pelunasan sebagaimana diatur dalam Pasal 44B Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            419
+          ],
+          [
+            287,
+            463
+          ],
+          [
+            866,
+            463
+          ],
+          [
+            866,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          464,
+          867,
+          511
+        ],
+        "content": "1. masih terdapat kelebihan pembayaran pajak setelah terdapat keputusan penghentian penyidikan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            464
+          ],
+          [
+            329,
+            511
+          ],
+          [
+            867,
+            511
+          ],
+          [
+            867,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          512,
+          867,
+          576
+        ],
+        "content": "2. tidak diakui sebagai pertimbangan untuk dituntut tanpa disertai penjatuhan pidana penjara berdasarkan putusan pengadilan yang berkekuatan hukum tetap;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            512
+          ],
+          [
+            325,
+            576
+          ],
+          [
+            867,
+            576
+          ],
+          [
+            862,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          577,
+          867,
+          641
+        ],
+        "content": "3. tidak diakui sebagai pembayaran pidana denda yang dibebankan kepada terdakwa berdasarkan putusan pengadilan yang berkekuatan hukum tetap; dan/atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            577
+          ],
+          [
+            325,
+            641
+          ],
+          [
+            866,
+            641
+          ],
+          [
+            866,
+            577
+          ],
+          [
+            637,
+            577
+          ],
+          [
+            585,
+            577
+          ],
+          [
+            575,
+            577
+          ],
+          [
+            551,
+            577
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          642,
+          866,
+          723
+        ],
+        "content": "4. menggunakan Nomor Pokok Wajib Pajak selain Nomor Pokok Wajib Pajak tersangka setelah dilakukan penetapan tersangka sepanjang belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum.",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            642
+          ],
+          [
+            325,
+            717
+          ],
+          [
+            340,
+            722
+          ],
+          [
+            865,
+            722
+          ],
+          [
+            865,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          725,
+          865,
+          846
+        ],
+        "content": "e. pembayaran Pajak Penghasilan yang bersifat final atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu sebagaimana diatur dalam peraturan pemerintah yang mengatur mengenai Pajak Penghasilan atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu yang seharusnya tidak dikenai Pajak Penghasilan; atau",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            725
+          ],
+          [
+            278,
+            846
+          ],
+          [
+            865,
+            846
+          ],
+          [
+            865,
+            725
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          843,
+          866,
+          905
+        ],
+        "content": "f. penyetoran di muka Bea Meterai yang belum digunakan dan/atau masih tersisa sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai Bea Meterai.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            843
+          ],
+          [
+            278,
+            905
+          ],
+          [
+            865,
+            905
+          ],
+          [
+            865,
+            843
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          330,
+          72,
+          871,
+          238
+        ],
+        "content": "dimaksud dalam Pasal 115, diterbitkan surat ketetapan/keputusan/putusan yang mengakibatkan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga, kelebihan pembayaran pajak dan/atau pemberian imbalan bunga tersebut terlebih dahulu harus diperhitungkan dengan sisa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang belum diangsur atau ditunda pembayarannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            72
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            871,
+            238
+          ],
+          [
+            871,
+            77
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            816,
+            72
+          ],
+          [
+            797,
+            72
+          ],
+          [
+            781,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          238,
+          870,
+          328
+        ],
+        "content": "(2) Dalam hal pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b telah diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak dan terhadap pajak yang masih harus dibayar atau kewajiban pelunasan tersebut:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            238
+          ],
+          [
+            285,
+            323
+          ],
+          [
+            330,
+            327
+          ],
+          [
+            870,
+            327
+          ],
+          [
+            870,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          329,
+          870,
+          403
+        ],
+        "content": "a. diperhitungkan dengan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga sebagaimana dimaksud pada ayat (1) dan masih terdapat sisa pajak yang masih harus dibayar atau kewajiban pelunasan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            329
+          ],
+          [
+            335,
+            402
+          ],
+          [
+            350,
+            402
+          ],
+          [
+            870,
+            402
+          ],
+          [
+            870,
+            329
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          404,
+          870,
+          448
+        ],
+        "content": "b. diterbitkan keputusan atau putusan yang menyebabkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan berkurang,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            404
+          ],
+          [
+            335,
+            448
+          ],
+          [
+            870,
+            448
+          ],
+          [
+            870,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          449,
+          870,
+          494
+        ],
+        "content": "Direktur Jenderal Pajak menerbitkan surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            449
+          ],
+          [
+            334,
+            494
+          ],
+          [
+            870,
+            494
+          ],
+          [
+            870,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          494,
+          870,
+          570
+        ],
+        "content": "(3) Surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak sebagaimana dimaksud pada ayat (2) disampaikan kepada Wajib Pajak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            494
+          ],
+          [
+            284,
+            570
+          ],
+          [
+            870,
+            570
+          ],
+          [
+            870,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          584,
+          628,
+          598
+        ],
+        "content": "## Pasal 120",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            584
+          ],
+          [
+            527,
+            597
+          ],
+          [
+            627,
+            597
+          ],
+          [
+            627,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          599,
+          870,
+          689
+        ],
+        "content": "(1) Dalam hal Wajib Pajak mengajukan keberatan atas suatu Surat Ketetapan Pajak yang pelunasannya telah memperoleh persetujuan untuk diangsur atau ditunda, Wajib Pajak wajib melunasi seluruh pajak yang masih harus dibayar yang telah disetujui dalam Pembahasan Akhir Hasil Pemeriksaan, sebelum keberatan diajukan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            599
+          ],
+          [
+            283,
+            688
+          ],
+          [
+            869,
+            688
+          ],
+          [
+            869,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          690,
+          870,
+          764
+        ],
+        "content": "(2) Pengajuan keberatan sebagaimana dimaksud pada ayat (1) mengakibatkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 menjadi tidak berlaku.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            690
+          ],
+          [
+            284,
+            764
+          ],
+          [
+            869,
+            764
+          ],
+          [
+            869,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          765,
+          871,
+          902
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengajukan keberatan, pengurangan, pembetulan, banding, atau peninjauan kembali atas ketetapan atau keputusan terkait Pajak Bumi dan Bangunan yang masih harus dibayar sebagaimana dimaksud dalam Pasal 97 ayat (3) yang pelunasannya telah memperoleh persetujuan untuk mengangsur atau menunda pembayaran pajak, persetujuan untuk mengangsur atau menunda pembayaran pajak tersebut tetap berlaku dan Wajib",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            765
+          ],
+          [
+            284,
+            902
+          ],
+          [
+            751,
+            902
+          ],
+          [
+            756,
+            902
+          ],
+          [
+            766,
+            902
+          ],
+          [
+            871,
+            902
+          ],
+          [
+            871,
+            765
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          328,
+          71,
+          869,
+          102
+        ],
+        "content": "Pajak wajib melunasi sesuai dengan jadwal waktu yang telah ditetapkan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            71
+          ],
+          [
+            328,
+            101
+          ],
+          [
+            868,
+            101
+          ],
+          [
+            868,
+            76
+          ],
+          [
+            854,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          524,
+          116,
+          624,
+          131
+        ],
+        "content": "## Pasal 121",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            524,
+            116
+          ],
+          [
+            524,
+            130
+          ],
+          [
+            624,
+            130
+          ],
+          [
+            624,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          130,
+          867,
+          193
+        ],
+        "content": "(1) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            130
+          ],
+          [
+            287,
+            192
+          ],
+          [
+            321,
+            192
+          ],
+          [
+            332,
+            192
+          ],
+          [
+            867,
+            192
+          ],
+          [
+            867,
+            135
+          ],
+          [
+            812,
+            130
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          191,
+          525,
+          206
+        ],
+        "content": "a. Pasal 114; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            191
+          ],
+          [
+            328,
+            206
+          ],
+          [
+            525,
+            206
+          ],
+          [
+            525,
+            191
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          206,
+          868,
+          311
+        ],
+        "content": "b. Pasal 115 atas Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang harus dibayar bertambah,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            206
+          ],
+          [
+            327,
+            311
+          ],
+          [
+            867,
+            311
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            803,
+            206
+          ],
+          [
+            411,
+            206
+          ],
+          [
+            386,
+            206
+          ],
+          [
+            357,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          312,
+          867,
+          388
+        ],
+        "content": "Wajib Pajak dikenai sanksi administratif berupa bunga sebagaimana diatur dalam Pasal 19 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan, yang dihitung sejak jatuh tempo pembayaran sampai dengan pembayaran angsuran atau pelunasan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            317
+          ],
+          [
+            324,
+            387
+          ],
+          [
+            866,
+            387
+          ],
+          [
+            866,
+            317
+          ],
+          [
+            856,
+            312
+          ],
+          [
+            330,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          387,
+          867,
+          508
+        ],
+        "content": "(2) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 terkait Surat Tagihan Pajak Pajak Bumi dan Bangunan, Wajib Pajak dikenai denda administratif sebesar $2\\%$ (dua persen) sebulan sebagaimana diatur dalam Pasal 11 ayat (3) Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            387
+          ],
+          [
+            280,
+            503
+          ],
+          [
+            300,
+            508
+          ],
+          [
+            867,
+            508
+          ],
+          [
+            867,
+            387
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          508,
+          866,
+          583
+        ],
+        "content": "(3) Denda administratif sebagaimana dimaksud pada ayat (2) dihitung dari saat jatuh tempo Surat Tagihan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (3) sampai dengan tanggal pelunasan atas pengangsuran atau penundaan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            508
+          ],
+          [
+            280,
+            578
+          ],
+          [
+            305,
+            583
+          ],
+          [
+            865,
+            583
+          ],
+          [
+            865,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          583,
+          867,
+          688
+        ],
+        "content": "(4) Pengenaan denda administratif sebagaimana dimaksud pada ayat (2) tidak melampaui jangka waktu paling lama 24 (dua puluh empat) bulan sejak jatuh tempo Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (1) dan ayat (2).",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            583
+          ],
+          [
+            280,
+            688
+          ],
+          [
+            866,
+            688
+          ],
+          [
+            866,
+            583
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          689,
+          864,
+          735
+        ],
+        "content": "(5) Sanksi administratif sebagaimana dimaksud pada ayat (1) dan denda administratif sebagaimana dimaksud pada ayat (2) yang timbul akibat diterbitkan:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            689
+          ],
+          [
+            285,
+            734
+          ],
+          [
+            864,
+            734
+          ],
+          [
+            864,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          735,
+          865,
+          839
+        ],
+        "content": "a. surat keputusan persetujuan pengangsuran pembayaran pajak dihitung berdasarkan saldo pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang diajukan permohonan pengangsuran pada setiap periode pembayaran angsuran; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            735
+          ],
+          [
+            324,
+            839
+          ],
+          [
+            865,
+            839
+          ],
+          [
+            865,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          840,
+          865,
+          901
+        ],
+        "content": "b. surat keputusan persetujuan penundaan pembayaran pajak dihitung berdasarkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            840
+          ],
+          [
+            324,
+            900
+          ],
+          [
+            865,
+            900
+          ],
+          [
+            865,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          377,
+          70,
+          868,
+          101
+        ],
+        "content": "113 huruf b yang diajukan permohonan penundaan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            70
+          ],
+          [
+            377,
+            100
+          ],
+          [
+            867,
+            100
+          ],
+          [
+            867,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          101,
+          869,
+          206
+        ],
+        "content": "(6) Pajak yang masih harus dibayar sebagaimana dimaksud pada ayat (5) untuk penghitungan denda administratif Pajak Bumi dan Bangunan merupakan jumlah Pajak Bumi dan Bangunan terutang yang masih harus dibayar dalam Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            101
+          ],
+          [
+            284,
+            205
+          ],
+          [
+            868,
+            205
+          ],
+          [
+            868,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          206,
+          868,
+          251
+        ],
+        "content": "(7) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) ditagih dengan menerbitkan Surat Tagihan Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            206
+          ],
+          [
+            283,
+            251
+          ],
+          [
+            867,
+            251
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            848,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          251,
+          868,
+          296
+        ],
+        "content": "(8) Denda administratif sebagaimana dimaksud pada ayat (2) ditagih dengan menerbitkan Surat Tagihan Pajak Pajak Bumi dan Bangunan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            251
+          ],
+          [
+            282,
+            296
+          ],
+          [
+            867,
+            296
+          ],
+          [
+            867,
+            251
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          296,
+          868,
+          342
+        ],
+        "content": "(9) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) tidak dikenakan terhadap angsuran atau penundaan atas Surat Tagihan Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            296
+          ],
+          [
+            282,
+            337
+          ],
+          [
+            303,
+            342
+          ],
+          [
+            322,
+            342
+          ],
+          [
+            333,
+            342
+          ],
+          [
+            343,
+            342
+          ],
+          [
+            372,
+            342
+          ],
+          [
+            428,
+            342
+          ],
+          [
+            458,
+            342
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            867,
+            296
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          342,
+          868,
+          418
+        ],
+        "content": "(10) Denda administratif sebagaimana dimaksud pada ayat (2) tidak dikenakan terhadap angsuran atau penundaan atas pembayaran Surat Tagihan Pajak Pajak Bumi dan Bangunan yang hanya memuat denda administratif.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            342
+          ],
+          [
+            287,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            342
+          ],
+          [
+            852,
+            342
+          ],
+          [
+            842,
+            342
+          ],
+          [
+            793,
+            342
+          ],
+          [
+            778,
+            342
+          ],
+          [
+            768,
+            342
+          ],
+          [
+            501,
+            342
+          ],
+          [
+            485,
+            342
+          ],
+          [
+            371,
+            342
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          505,
+          432,
+          646,
+          447
+        ],
+        "content": "## Bagian Kedua",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            505,
+            432
+          ],
+          [
+            505,
+            447
+          ],
+          [
+            645,
+            447
+          ],
+          [
+            645,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          446,
+          862,
+          480
+        ],
+        "content": "Tata Cara Pengembalian atas Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            446
+          ],
+          [
+            285,
+            479
+          ],
+          [
+            861,
+            479
+          ],
+          [
+            861,
+            446
+          ],
+          [
+            702,
+            446
+          ],
+          [
+            666,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          494,
+          624,
+          508
+        ],
+        "content": "## Pasal 122",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            494
+          ],
+          [
+            525,
+            508
+          ],
+          [
+            624,
+            508
+          ],
+          [
+            624,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          508,
+          866,
+          553
+        ],
+        "content": "(1) Permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang dapat diajukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            508
+          ],
+          [
+            286,
+            553
+          ],
+          [
+            865,
+            553
+          ],
+          [
+            865,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          554,
+          866,
+          598
+        ],
+        "content": "a. terdapat pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            554
+          ],
+          [
+            325,
+            598
+          ],
+          [
+            865,
+            598
+          ],
+          [
+            865,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          599,
+          867,
+          644
+        ],
+        "content": "b. terdapat kelebihan pembayaran pajak oleh Wajib Pajak yang terkait dengan Pajak Dalam Rangka Impor;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            599
+          ],
+          [
+            325,
+            644
+          ],
+          [
+            866,
+            644
+          ],
+          [
+            866,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          645,
+          866,
+          705
+        ],
+        "content": "c. terdapat kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            645
+          ],
+          [
+            325,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          705,
+          865,
+          734
+        ],
+        "content": "d. terdapat kesalahan pemotongan atau pemungutan yang:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            331,
+            734
+          ],
+          [
+            365,
+            734
+          ],
+          [
+            371,
+            734
+          ],
+          [
+            864,
+            734
+          ],
+          [
+            864,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          735,
+          768,
+          751
+        ],
+        "content": "1) bukan merupakan objek pajak; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            735
+          ],
+          [
+            374,
+            750
+          ],
+          [
+            768,
+            750
+          ],
+          [
+            768,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          751,
+          866,
+          784
+        ],
+        "content": "2) objek pajak dan/atau subjek pajak yang mendapatkan fasilitas perpajakan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            751
+          ],
+          [
+            372,
+            783
+          ],
+          [
+            865,
+            783
+          ],
+          [
+            865,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          800,
+          865,
+          859
+        ],
+        "content": "e. terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri.",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            800
+          ],
+          [
+            324,
+            859
+          ],
+          [
+            865,
+            859
+          ],
+          [
+            865,
+            800
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          860,
+          867,
+          892
+        ],
+        "content": "(2) Jenis pajak yang dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            860
+          ],
+          [
+            280,
+            892
+          ],
+          [
+            495,
+            892
+          ],
+          [
+            541,
+            892
+          ],
+          [
+            866,
+            892
+          ],
+          [
+            866,
+            860
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          102
+        ],
+        "content": "seharusnya tidak terutang sebagaimana dimaksud pada ayat (1), meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          102,
+          567,
+          117
+        ],
+        "content": "a. Pajak Penghasilan;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            102
+          ],
+          [
+            331,
+            117
+          ],
+          [
+            336,
+            117
+          ],
+          [
+            395,
+            117
+          ],
+          [
+            420,
+            117
+          ],
+          [
+            445,
+            117
+          ],
+          [
+            449,
+            117
+          ],
+          [
+            474,
+            117
+          ],
+          [
+            488,
+            117
+          ],
+          [
+            548,
+            117
+          ],
+          [
+            562,
+            117
+          ],
+          [
+            567,
+            113
+          ],
+          [
+            567,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          117,
+          629,
+          132
+        ],
+        "content": "b. Pajak Pertambahan Nilai;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            117
+          ],
+          [
+            331,
+            131
+          ],
+          [
+            628,
+            131
+          ],
+          [
+            628,
+            117
+          ],
+          [
+            570,
+            117
+          ],
+          [
+            550,
+            117
+          ],
+          [
+            361,
+            117
+          ],
+          [
+            351,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          132,
+          741,
+          148
+        ],
+        "content": "c. Pajak Penjualan atas Barang Mewah;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            136
+          ],
+          [
+            331,
+            147
+          ],
+          [
+            741,
+            147
+          ],
+          [
+            741,
+            132
+          ],
+          [
+            701,
+            132
+          ],
+          [
+            686,
+            132
+          ],
+          [
+            661,
+            132
+          ],
+          [
+            611,
+            132
+          ],
+          [
+            361,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          147,
+          651,
+          162
+        ],
+        "content": "d. Pajak Bumi dan Bangunan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            147
+          ],
+          [
+            330,
+            157
+          ],
+          [
+            335,
+            162
+          ],
+          [
+            355,
+            162
+          ],
+          [
+            401,
+            162
+          ],
+          [
+            420,
+            162
+          ],
+          [
+            501,
+            162
+          ],
+          [
+            505,
+            162
+          ],
+          [
+            511,
+            162
+          ],
+          [
+            515,
+            162
+          ],
+          [
+            521,
+            162
+          ],
+          [
+            651,
+            162
+          ],
+          [
+            651,
+            147
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          161,
+          504,
+          177
+        ],
+        "content": "e. Bea Meterai;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            166
+          ],
+          [
+            331,
+            176
+          ],
+          [
+            504,
+            176
+          ],
+          [
+            504,
+            161
+          ],
+          [
+            361,
+            161
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          177,
+          588,
+          192
+        ],
+        "content": "f. Pajak Penjualan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            177
+          ],
+          [
+            331,
+            191
+          ],
+          [
+            587,
+            191
+          ],
+          [
+            587,
+            182
+          ],
+          [
+            582,
+            177
+          ],
+          [
+            538,
+            177
+          ],
+          [
+            513,
+            177
+          ],
+          [
+            504,
+            177
+          ],
+          [
+            488,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          192,
+          519,
+          206
+        ],
+        "content": "g. Pajak Karbon.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            197
+          ],
+          [
+            331,
+            206
+          ],
+          [
+            518,
+            206
+          ],
+          [
+            518,
+            197
+          ],
+          [
+            509,
+            192
+          ],
+          [
+            381,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          206,
+          868,
+          285
+        ],
+        "content": "(3) Selain jenis pajak sebagaimana dimaksud pada ayat (2), pembayaran Deposit Pajak yang tidak digunakan untuk pelunasan pajak yang terutang juga dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            206
+          ],
+          [
+            284,
+            284
+          ],
+          [
+            867,
+            284
+          ],
+          [
+            867,
+            211
+          ],
+          [
+            762,
+            206
+          ],
+          [
+            738,
+            206
+          ],
+          [
+            624,
+            206
+          ],
+          [
+            618,
+            206
+          ],
+          [
+            593,
+            206
+          ],
+          [
+            574,
+            206
+          ],
+          [
+            330,
+            206
+          ],
+          [
+            324,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          298,
+          627,
+          311
+        ],
+        "content": "## Pasal 123",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            298
+          ],
+          [
+            526,
+            311
+          ],
+          [
+            626,
+            311
+          ],
+          [
+            626,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          312,
+          867,
+          358
+        ],
+        "content": "Pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf a dapat berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            312
+          ],
+          [
+            281,
+            358
+          ],
+          [
+            867,
+            358
+          ],
+          [
+            867,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          358,
+          868,
+          388
+        ],
+        "content": "a. pembayaran pajak yang lebih besar dari pajak yang terutang;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            358
+          ],
+          [
+            286,
+            388
+          ],
+          [
+            867,
+            388
+          ],
+          [
+            867,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          388,
+          824,
+          403
+        ],
+        "content": "b. pembayaran pajak atas transaksi yang dibatalkan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            388
+          ],
+          [
+            281,
+            403
+          ],
+          [
+            823,
+            403
+          ],
+          [
+            823,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          404,
+          823,
+          418
+        ],
+        "content": "c. pembayaran pajak yang seharusnya tidak dibayar;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            404
+          ],
+          [
+            287,
+            418
+          ],
+          [
+            822,
+            418
+          ],
+          [
+            822,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          419,
+          867,
+          463
+        ],
+        "content": "d. pembayaran pajak dalam rangka pelunasan sebagaimana diatur dalam Pasal 44B Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            419
+          ],
+          [
+            287,
+            463
+          ],
+          [
+            866,
+            463
+          ],
+          [
+            866,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          464,
+          867,
+          511
+        ],
+        "content": "1. masih terdapat kelebihan pembayaran pajak setelah terdapat keputusan penghentian penyidikan;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            464
+          ],
+          [
+            329,
+            511
+          ],
+          [
+            867,
+            511
+          ],
+          [
+            867,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          512,
+          867,
+          576
+        ],
+        "content": "2. tidak diakui sebagai pertimbangan untuk dituntut tanpa disertai penjatuhan pidana penjara berdasarkan putusan pengadilan yang berkekuatan hukum tetap;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            512
+          ],
+          [
+            325,
+            576
+          ],
+          [
+            867,
+            576
+          ],
+          [
+            862,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          577,
+          867,
+          641
+        ],
+        "content": "3. tidak diakui sebagai pembayaran pidana denda yang dibebankan kepada terdakwa berdasarkan putusan pengadilan yang berkekuatan hukum tetap; dan/atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            577
+          ],
+          [
+            325,
+            641
+          ],
+          [
+            866,
+            641
+          ],
+          [
+            866,
+            577
+          ],
+          [
+            637,
+            577
+          ],
+          [
+            585,
+            577
+          ],
+          [
+            575,
+            577
+          ],
+          [
+            551,
+            577
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          642,
+          866,
+          723
+        ],
+        "content": "4. menggunakan Nomor Pokok Wajib Pajak selain Nomor Pokok Wajib Pajak tersangka setelah dilakukan penetapan tersangka sepanjang belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum.",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            642
+          ],
+          [
+            325,
+            717
+          ],
+          [
+            340,
+            722
+          ],
+          [
+            865,
+            722
+          ],
+          [
+            865,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          725,
+          865,
+          846
+        ],
+        "content": "e. pembayaran Pajak Penghasilan yang bersifat final atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu sebagaimana diatur dalam peraturan pemerintah yang mengatur mengenai Pajak Penghasilan atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu yang seharusnya tidak dikenai Pajak Penghasilan; atau",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            725
+          ],
+          [
+            278,
+            846
+          ],
+          [
+            865,
+            846
+          ],
+          [
+            865,
+            725
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          843,
+          866,
+          905
+        ],
+        "content": "f. penyetoran di muka Bea Meterai yang belum digunakan dan/atau masih tersisa sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai Bea Meterai.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            843
+          ],
+          [
+            278,
+            905
+          ],
+          [
+            865,
+            905
+          ],
+          [
+            865,
+            843
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "dimaksud dalam Pasal 115, diterbitkan surat ketetapan/keputusan/putusan yang mengakibatkan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga, kelebihan pembayaran pajak dan/atau pemberian imbalan bunga tersebut terlebih dahulu harus diperhitungkan dengan sisa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang belum diangsur atau ditunda pembayarannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Dalam hal pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b telah diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak dan terhadap pajak yang masih harus dibayar atau kewajiban pelunasan tersebut:\n\na. diperhitungkan dengan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga sebagaimana dimaksud pada ayat (1) dan masih terdapat sisa pajak yang masih harus dibayar atau kewajiban pelunasan; atau\n\nb. diterbitkan keputusan atau putusan yang menyebabkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan berkurang,\n\nDirektur Jenderal Pajak menerbitkan surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak.\n\n(3) Surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak sebagaimana dimaksud pada ayat (2) disampaikan kepada Wajib Pajak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 120\n\n(1) Dalam hal Wajib Pajak mengajukan keberatan atas suatu Surat Ketetapan Pajak yang pelunasannya telah memperoleh persetujuan untuk diangsur atau ditunda, Wajib Pajak wajib melunasi seluruh pajak yang masih harus dibayar yang telah disetujui dalam Pembahasan Akhir Hasil Pemeriksaan, sebelum keberatan diajukan.\n\n(2) Pengajuan keberatan sebagaimana dimaksud pada ayat (1) mengakibatkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 menjadi tidak berlaku.\n\n(3) Dalam hal Wajib Pajak mengajukan keberatan, pengurangan, pembetulan, banding, atau peninjauan kembali atas ketetapan atau keputusan terkait Pajak Bumi dan Bangunan yang masih harus dibayar sebagaimana dimaksud dalam Pasal 97 ayat (3) yang pelunasannya telah memperoleh persetujuan untuk mengangsur atau menunda pembayaran pajak, persetujuan untuk mengangsur atau menunda pembayaran pajak tersebut tetap berlaku dan Wajib\n\nPajak wajib melunasi sesuai dengan jadwal waktu yang telah ditetapkan.\n\n## Pasal 121\n\n(1) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam:\n\na. Pasal 114; dan\n\nb. Pasal 115 atas Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang harus dibayar bertambah,\n\nWajib Pajak dikenai sanksi administratif berupa bunga sebagaimana diatur dalam Pasal 19 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan, yang dihitung sejak jatuh tempo pembayaran sampai dengan pembayaran angsuran atau pelunasan.\n\n(2) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 terkait Surat Tagihan Pajak Pajak Bumi dan Bangunan, Wajib Pajak dikenai denda administratif sebesar $2\\%$ (dua persen) sebulan sebagaimana diatur dalam Pasal 11 ayat (3) Undang-Undang Pajak Bumi dan Bangunan.\n\n(3) Denda administratif sebagaimana dimaksud pada ayat (2) dihitung dari saat jatuh tempo Surat Tagihan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (3) sampai dengan tanggal pelunasan atas pengangsuran atau penundaan.\n\n(4) Pengenaan denda administratif sebagaimana dimaksud pada ayat (2) tidak melampaui jangka waktu paling lama 24 (dua puluh empat) bulan sejak jatuh tempo Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (1) dan ayat (2).\n\n(5) Sanksi administratif sebagaimana dimaksud pada ayat (1) dan denda administratif sebagaimana dimaksud pada ayat (2) yang timbul akibat diterbitkan:\n\na. surat keputusan persetujuan pengangsuran pembayaran pajak dihitung berdasarkan saldo pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang diajukan permohonan pengangsuran pada setiap periode pembayaran angsuran; atau\n\nb. surat keputusan persetujuan penundaan pembayaran pajak dihitung berdasarkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal\n\n113 huruf b yang diajukan permohonan penundaan.\n\n(6) Pajak yang masih harus dibayar sebagaimana dimaksud pada ayat (5) untuk penghitungan denda administratif Pajak Bumi dan Bangunan merupakan jumlah Pajak Bumi dan Bangunan terutang yang masih harus dibayar dalam Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan.\n\n(7) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) ditagih dengan menerbitkan Surat Tagihan Pajak.\n\n(8) Denda administratif sebagaimana dimaksud pada ayat (2) ditagih dengan menerbitkan Surat Tagihan Pajak Pajak Bumi dan Bangunan.\n\n(9) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) tidak dikenakan terhadap angsuran atau penundaan atas Surat Tagihan Pajak.\n\n(10) Denda administratif sebagaimana dimaksud pada ayat (2) tidak dikenakan terhadap angsuran atau penundaan atas pembayaran Surat Tagihan Pajak Pajak Bumi dan Bangunan yang hanya memuat denda administratif.\n\n## Bagian Kedua\n\nTata Cara Pengembalian atas Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang\n\n## Pasal 122\n\n(1) Permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang dapat diajukan dalam hal:\n\na. terdapat pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang;\n\nb. terdapat kelebihan pembayaran pajak oleh Wajib Pajak yang terkait dengan Pajak Dalam Rangka Impor;\n\nc. terdapat kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut;\n\nd. terdapat kesalahan pemotongan atau pemungutan yang:\n\n1) bukan merupakan objek pajak; atau\n\n2) objek pajak dan/atau subjek pajak yang mendapatkan fasilitas perpajakan;\n\ne. terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri.\n\n(2) Jenis pajak yang dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang\n\nseharusnya tidak terutang sebagaimana dimaksud pada ayat (1), meliputi:\n\na. Pajak Penghasilan;\n\nb. Pajak Pertambahan Nilai;\n\nc. Pajak Penjualan atas Barang Mewah;\n\nd. Pajak Bumi dan Bangunan;\n\ne. Bea Meterai;\n\nf. Pajak Penjualan; dan\n\ng. Pajak Karbon.\n\n(3) Selain jenis pajak sebagaimana dimaksud pada ayat (2), pembayaran Deposit Pajak yang tidak digunakan untuk pelunasan pajak yang terutang juga dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n## Pasal 123\n\nPembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf a dapat berupa:\n\na. pembayaran pajak yang lebih besar dari pajak yang terutang;\n\nb. pembayaran pajak atas transaksi yang dibatalkan;\n\nc. pembayaran pajak yang seharusnya tidak dibayar;\n\nd. pembayaran pajak dalam rangka pelunasan sebagaimana diatur dalam Pasal 44B Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang:\n\n1. masih terdapat kelebihan pembayaran pajak setelah terdapat keputusan penghentian penyidikan;\n\n2. tidak diakui sebagai pertimbangan untuk dituntut tanpa disertai penjatuhan pidana penjara berdasarkan putusan pengadilan yang berkekuatan hukum tetap;\n\n3. tidak diakui sebagai pembayaran pidana denda yang dibebankan kepada terdakwa berdasarkan putusan pengadilan yang berkekuatan hukum tetap; dan/atau\n\n4. menggunakan Nomor Pokok Wajib Pajak selain Nomor Pokok Wajib Pajak tersangka setelah dilakukan penetapan tersangka sepanjang belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum.\n\ne. pembayaran Pajak Penghasilan yang bersifat final atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu sebagaimana diatur dalam peraturan pemerintah yang mengatur mengenai Pajak Penghasilan atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu yang seharusnya tidak dikenai Pajak Penghasilan; atau\n\nf. penyetoran di muka Bea Meterai yang belum digunakan dan/atau masih tersisa sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai Bea Meterai.",
+  "md_results": "dimaksud dalam Pasal 115, diterbitkan surat ketetapan/keputusan/putusan yang mengakibatkan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga, kelebihan pembayaran pajak dan/atau pemberian imbalan bunga tersebut terlebih dahulu harus diperhitungkan dengan sisa pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang belum diangsur atau ditunda pembayarannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Dalam hal pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b telah diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak dan terhadap pajak yang masih harus dibayar atau kewajiban pelunasan tersebut:\n\na. diperhitungkan dengan kelebihan pembayaran pajak dan/atau pemberian imbalan bunga sebagaimana dimaksud pada ayat (1) dan masih terdapat sisa pajak yang masih harus dibayar atau kewajiban pelunasan; atau\n\nb. diterbitkan keputusan atau putusan yang menyebabkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan berkurang,\n\nDirektur Jenderal Pajak menerbitkan surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak.\n\n(3) Surat penetapan kembali keputusan persetujuan angsuran atau penundaan pembayaran pajak sebagaimana dimaksud pada ayat (2) disampaikan kepada Wajib Pajak sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n## Pasal 120\n\n(1) Dalam hal Wajib Pajak mengajukan keberatan atas suatu Surat Ketetapan Pajak yang pelunasannya telah memperoleh persetujuan untuk diangsur atau ditunda, Wajib Pajak wajib melunasi seluruh pajak yang masih harus dibayar yang telah disetujui dalam Pembahasan Akhir Hasil Pemeriksaan, sebelum keberatan diajukan.\n\n(2) Pengajuan keberatan sebagaimana dimaksud pada ayat (1) mengakibatkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 menjadi tidak berlaku.\n\n(3) Dalam hal Wajib Pajak mengajukan keberatan, pengurangan, pembetulan, banding, atau peninjauan kembali atas ketetapan atau keputusan terkait Pajak Bumi dan Bangunan yang masih harus dibayar sebagaimana dimaksud dalam Pasal 97 ayat (3) yang pelunasannya telah memperoleh persetujuan untuk mengangsur atau menunda pembayaran pajak, persetujuan untuk mengangsur atau menunda pembayaran pajak tersebut tetap berlaku dan Wajib\n\nPajak wajib melunasi sesuai dengan jadwal waktu yang telah ditetapkan.\n\n## Pasal 121\n\n(1) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam:\n\na. Pasal 114; dan\n\nb. Pasal 115 atas Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang harus dibayar bertambah,\n\nWajib Pajak dikenai sanksi administratif berupa bunga sebagaimana diatur dalam Pasal 19 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan, yang dihitung sejak jatuh tempo pembayaran sampai dengan pembayaran angsuran atau pelunasan.\n\n(2) Dalam hal Wajib Pajak diterbitkan surat keputusan persetujuan pengangsuran atau penundaan pembayaran pajak atas permohonan sebagaimana dimaksud dalam Pasal 115 terkait Surat Tagihan Pajak Pajak Bumi dan Bangunan, Wajib Pajak dikenai denda administratif sebesar $2\\%$ (dua persen) sebulan sebagaimana diatur dalam Pasal 11 ayat (3) Undang-Undang Pajak Bumi dan Bangunan.\n\n(3) Denda administratif sebagaimana dimaksud pada ayat (2) dihitung dari saat jatuh tempo Surat Tagihan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (3) sampai dengan tanggal pelunasan atas pengangsuran atau penundaan.\n\n(4) Pengenaan denda administratif sebagaimana dimaksud pada ayat (2) tidak melampaui jangka waktu paling lama 24 (dua puluh empat) bulan sejak jatuh tempo Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan sebagaimana dimaksud dalam Pasal 97 ayat (1) dan ayat (2).\n\n(5) Sanksi administratif sebagaimana dimaksud pada ayat (1) dan denda administratif sebagaimana dimaksud pada ayat (2) yang timbul akibat diterbitkan:\n\na. surat keputusan persetujuan pengangsuran pembayaran pajak dihitung berdasarkan saldo pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal 113 huruf b yang diajukan permohonan pengangsuran pada setiap periode pembayaran angsuran; atau\n\nb. surat keputusan persetujuan penundaan pembayaran pajak dihitung berdasarkan jumlah pajak yang masih harus dibayar atau kewajiban pelunasan sebagaimana dimaksud dalam Pasal\n\n113 huruf b yang diajukan permohonan penundaan.\n\n(6) Pajak yang masih harus dibayar sebagaimana dimaksud pada ayat (5) untuk penghitungan denda administratif Pajak Bumi dan Bangunan merupakan jumlah Pajak Bumi dan Bangunan terutang yang masih harus dibayar dalam Surat Pemberitahuan Pajak Terutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan.\n\n(7) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) ditagih dengan menerbitkan Surat Tagihan Pajak.\n\n(8) Denda administratif sebagaimana dimaksud pada ayat (2) ditagih dengan menerbitkan Surat Tagihan Pajak Pajak Bumi dan Bangunan.\n\n(9) Sanksi administratif berupa bunga sebagaimana dimaksud pada ayat (1) tidak dikenakan terhadap angsuran atau penundaan atas Surat Tagihan Pajak.\n\n(10) Denda administratif sebagaimana dimaksud pada ayat (2) tidak dikenakan terhadap angsuran atau penundaan atas pembayaran Surat Tagihan Pajak Pajak Bumi dan Bangunan yang hanya memuat denda administratif.\n\n## Bagian Kedua\n\nTata Cara Pengembalian atas Kelebihan Pembayaran Pajak yang Seharusnya Tidak Terutang\n\n## Pasal 122\n\n(1) Permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang dapat diajukan dalam hal:\n\na. terdapat pembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang;\n\nb. terdapat kelebihan pembayaran pajak oleh Wajib Pajak yang terkait dengan Pajak Dalam Rangka Impor;\n\nc. terdapat kesalahan pemotongan atau pemungutan yang mengakibatkan pajak yang dipotong atau dipungut lebih besar daripada pajak yang seharusnya dipotong atau dipungut;\n\nd. terdapat kesalahan pemotongan atau pemungutan yang:\n\n1) bukan merupakan objek pajak; atau\n\n2) objek pajak dan/atau subjek pajak yang mendapatkan fasilitas perpajakan;\n\ne. terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri.\n\n(2) Jenis pajak yang dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang\n\nseharusnya tidak terutang sebagaimana dimaksud pada ayat (1), meliputi:\n\na. Pajak Penghasilan;\n\nb. Pajak Pertambahan Nilai;\n\nc. Pajak Penjualan atas Barang Mewah;\n\nd. Pajak Bumi dan Bangunan;\n\ne. Bea Meterai;\n\nf. Pajak Penjualan; dan\n\ng. Pajak Karbon.\n\n(3) Selain jenis pajak sebagaimana dimaksud pada ayat (2), pembayaran Deposit Pajak yang tidak digunakan untuk pelunasan pajak yang terutang juga dapat diajukan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang.\n\n## Pasal 123\n\nPembayaran pajak yang bukan merupakan objek pajak yang terutang atau yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf a dapat berupa:\n\na. pembayaran pajak yang lebih besar dari pajak yang terutang;\n\nb. pembayaran pajak atas transaksi yang dibatalkan;\n\nc. pembayaran pajak yang seharusnya tidak dibayar;\n\nd. pembayaran pajak dalam rangka pelunasan sebagaimana diatur dalam Pasal 44B Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang:\n\n1. masih terdapat kelebihan pembayaran pajak setelah terdapat keputusan penghentian penyidikan;\n\n2. tidak diakui sebagai pertimbangan untuk dituntut tanpa disertai penjatuhan pidana penjara berdasarkan putusan pengadilan yang berkekuatan hukum tetap;\n\n3. tidak diakui sebagai pembayaran pidana denda yang dibebankan kepada terdakwa berdasarkan putusan pengadilan yang berkekuatan hukum tetap; dan/atau\n\n4. menggunakan Nomor Pokok Wajib Pajak selain Nomor Pokok Wajib Pajak tersangka setelah dilakukan penetapan tersangka sepanjang belum dilakukan penyerahan tanggung jawab atas tersangka dan barang bukti ke penuntut umum.\n\ne. pembayaran Pajak Penghasilan yang bersifat final atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu sebagaimana diatur dalam peraturan pemerintah yang mengatur mengenai Pajak Penghasilan atas penghasilan dari usaha yang diterima atau diperoleh Wajib Pajak yang memiliki peredaran bruto tertentu yang seharusnya tidak dikenai Pajak Penghasilan; atau\n\nf. penyetoran di muka Bea Meterai yang belum digunakan dan/atau masih tersisa sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai Bea Meterai.",
+  "model": "glm-ocr",
+  "usage": {}
+}

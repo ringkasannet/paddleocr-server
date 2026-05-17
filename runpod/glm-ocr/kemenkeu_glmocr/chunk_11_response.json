@@ -1,0 +1,4403 @@
+{
+  "created": 1779015290,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-6a2ae5d4486340628c98842cdab67",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          374,
+          72,
+          867,
+          102
+        ],
+        "content": "atau memiliki penghasilan di bawah penghasilan tidak kena pajak;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            72
+          ],
+          [
+            374,
+            102
+          ],
+          [
+            867,
+            102
+          ],
+          [
+            867,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          103,
+          868,
+          162
+        ],
+        "content": "c. Warga Negara Indonesia berstatus sebagai Penduduk yang berniat menjadi subjek pajak luar negeri namun belum memenuhi syarat sebagai subjek pajak luar negeri;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            103
+          ],
+          [
+            328,
+            157
+          ],
+          [
+            338,
+            162
+          ],
+          [
+            868,
+            162
+          ],
+          [
+            868,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          163,
+          868,
+          208
+        ],
+        "content": "d. Warga Negara Indonesia berstatus sebagai Penduduk yang tidak lagi memenuhi persyaratan subjektif dan objektif;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            163
+          ],
+          [
+            327,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          208,
+          867,
+          283
+        ],
+        "content": "e. wanita kawin yang telah memiliki Nomor Pokok Wajib Pajak yang kemudian memilih untuk melaksanakan hak dan memenuhi kewajiban perpajakannya digabungkan dengan suaminya; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            208
+          ],
+          [
+            327,
+            278
+          ],
+          [
+            337,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          283,
+          867,
+          313
+        ],
+        "content": "f. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            283
+          ],
+          [
+            327,
+            313
+          ],
+          [
+            866,
+            313
+          ],
+          [
+            866,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          313,
+          868,
+          418
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak orang pribadi memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            313
+          ],
+          [
+            282,
+            413
+          ],
+          [
+            297,
+            418
+          ],
+          [
+            868,
+            418
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          419,
+          867,
+          493
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            419
+          ],
+          [
+            287,
+            493
+          ],
+          [
+            867,
+            493
+          ],
+          [
+            867,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          495,
+          866,
+          539
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            495
+          ],
+          [
+            281,
+            539
+          ],
+          [
+            865,
+            539
+          ],
+          [
+            865,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          867,
+          631
+        ],
+        "content": "(6) Dalam hal Wajib Pajak orang pribadi tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            630
+          ],
+          [
+            867,
+            630
+          ],
+          [
+            867,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          645,
+          618,
+          659
+        ],
+        "content": "## Pasal 26",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            645
+          ],
+          [
+            530,
+            658
+          ],
+          [
+            618,
+            658
+          ],
+          [
+            618,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          660,
+          865,
+          690
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf d yang:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            660
+          ],
+          [
+            280,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          691,
+          867,
+          811
+        ],
+        "content": "a. memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri; atau",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            691
+          ],
+          [
+            323,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          810,
+          867,
+          902
+        ],
+        "content": "b. tidak memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penolakan penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti surat penolakan atas",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            810
+          ],
+          [
+            324,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            810
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          345,
+          73,
+          870,
+          104
+        ],
+        "content": "permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri,",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            345,
+            78
+          ],
+          [
+            345,
+            83
+          ],
+          [
+            375,
+            88
+          ],
+          [
+            440,
+            93
+          ],
+          [
+            460,
+            103
+          ],
+          [
+            470,
+            103
+          ],
+          [
+            475,
+            103
+          ],
+          [
+            870,
+            103
+          ],
+          [
+            870,
+            73
+          ],
+          [
+            365,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          80,
+          871,
+          195
+        ],
+        "content": "permohonan penetapan status warga Negara Indonesia sebagai subjek pajak luar negeri, sebagaimana diatur dalam Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            85
+          ],
+          [
+            331,
+            194
+          ],
+          [
+            871,
+            194
+          ],
+          [
+            871,
+            80
+          ],
+          [
+            336,
+            80
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          193,
+          872,
+          346
+        ],
+        "content": "(2) Persyaratan dan tata cara penyelesaian permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri sebagaimana dimaksud pada ayat (1) selain mengenai jangka waktu penyelesaian, dilaksanakan berdasarkan ketentuan Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            193
+          ],
+          [
+            292,
+            345
+          ],
+          [
+            321,
+            345
+          ],
+          [
+            327,
+            345
+          ],
+          [
+            872,
+            345
+          ],
+          [
+            872,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          359,
+          622,
+          373
+        ],
+        "content": "## Pasal 27",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            359
+          ],
+          [
+            534,
+            373
+          ],
+          [
+            622,
+            373
+          ],
+          [
+            622,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          373,
+          869,
+          475
+        ],
+        "content": "Dalam hal Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf c di kemudian hari tidak memenuhi persyaratan atau tidak mengajukan permohonan untuk memperoleh Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri, terhadap Wajib Pajak orang pribadi dimaksud: a penetapan sebagai Wajib Pajak Nonaktif menjadi batal:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            373
+          ],
+          [
+            287,
+            474
+          ],
+          [
+            550,
+            474
+          ],
+          [
+            590,
+            474
+          ],
+          [
+            650,
+            469
+          ],
+          [
+            868,
+            464
+          ],
+          [
+            868,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          479,
+          816,
+          495
+        ],
+        "content": "b. tetap merupakan subjek pajak dalam negeri; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            479
+          ],
+          [
+            283,
+            495
+          ],
+          [
+            815,
+            495
+          ],
+          [
+            815,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          496,
+          870,
+          541
+        ],
+        "content": "c. dikenai pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku bagi subjek pajak dalam negeri.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            496
+          ],
+          [
+            283,
+            541
+          ],
+          [
+            869,
+            541
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          555,
+          622,
+          570
+        ],
+        "content": "## Pasal 28",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            555
+          ],
+          [
+            532,
+            569
+          ],
+          [
+            621,
+            569
+          ],
+          [
+            621,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          569,
+          870,
+          675
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak orang pribadi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            569
+          ],
+          [
+            284,
+            674
+          ],
+          [
+            869,
+            674
+          ],
+          [
+            869,
+            569
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          675,
+          868,
+          705
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            675
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            868,
+            705
+          ],
+          [
+            868,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          706,
+          869,
+          737
+        ],
+        "content": "a. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            706
+          ],
+          [
+            330,
+            736
+          ],
+          [
+            868,
+            736
+          ],
+          [
+            868,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          736,
+          638,
+          750
+        ],
+        "content": "b. Wajib Pajak orang pribadi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            736
+          ],
+          [
+            330,
+            750
+          ],
+          [
+            637,
+            750
+          ],
+          [
+            637,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          750,
+          869,
+          810
+        ],
+        "content": "1. telah meninggalkan Indonesia untuk selamalamanya dan tidak lagi berstatus sebagai Penduduk, bagi orang pribadi yang semula berstatus sebagai Penduduk; atau",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            750
+          ],
+          [
+            376,
+            760
+          ],
+          [
+            376,
+            810
+          ],
+          [
+            868,
+            810
+          ],
+          [
+            868,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          811,
+          868,
+          855
+        ],
+        "content": "2. telah meninggalkan Indonesia untuk selamalamanya, bagi orang pribadi yang berstatus bukan Penduduk; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            811
+          ],
+          [
+            374,
+            854
+          ],
+          [
+            868,
+            854
+          ],
+          [
+            868,
+            811
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          855,
+          868,
+          887
+        ],
+        "content": "c. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            855
+          ],
+          [
+            328,
+            887
+          ],
+          [
+            867,
+            882
+          ],
+          [
+            867,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          530,
+          74,
+          619,
+          88
+        ],
+        "content": "## Pasal 29",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            74
+          ],
+          [
+            530,
+            88
+          ],
+          [
+            618,
+            88
+          ],
+          [
+            618,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          89,
+          867,
+          179
+        ],
+        "content": "(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            89
+          ],
+          [
+            287,
+            179
+          ],
+          [
+            867,
+            179
+          ],
+          [
+            867,
+            89
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          180,
+          867,
+          270
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) merupakan dokumen pendukung yang menunjukkan bahwa Wajib Pajak orang pribadi tidak lagi memenuhi persyaratan subjektif dan/atau objektif, berupa:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            180
+          ],
+          [
+            286,
+            269
+          ],
+          [
+            867,
+            269
+          ],
+          [
+            867,
+            180
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          270,
+          867,
+          375
+        ],
+        "content": "a. bagi Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf a, yaitu dokumen yang menunjukkan Wajib Pajak orang pribadi sudah meninggal dunia beserta surat pernyataan bahwa tidak mempunyai warisan atau surat pernyataan bahwa warisan sudah terbagi dengan menyebutkan ahli waris;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            270
+          ],
+          [
+            325,
+            374
+          ],
+          [
+            866,
+            374
+          ],
+          [
+            866,
+            270
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          375,
+          866,
+          420
+        ],
+        "content": "b. bagi Wajib Pajak orang pribadi yang semula berstatus sebagai Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 1:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            375
+          ],
+          [
+            331,
+            420
+          ],
+          [
+            865,
+            420
+          ],
+          [
+            865,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          421,
+          865,
+          465
+        ],
+        "content": "1. dokumen yang menyatakan bahwa Wajib Pajak orang pribadi telah meninggalkan Indonesia untuk selama-lamanya; dan/atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            421
+          ],
+          [
+            373,
+            465
+          ],
+          [
+            864,
+            465
+          ],
+          [
+            864,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          371,
+          466,
+          866,
+          585
+        ],
+        "content": "2. dokumen yang menunjukkan Wajib Pajak orang pribadi yang merupakan Penduduk sebagai Warga Negara Indonesia sudah tidak berstatus sebagai Penduduk karena kehilangan kewarganegaraan Indonesia sesuai dengan ketentuan peraturan perundang-undangan di bidang kependudukan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            371,
+            466
+          ],
+          [
+            371,
+            585
+          ],
+          [
+            865,
+            585
+          ],
+          [
+            865,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          586,
+          865,
+          661
+        ],
+        "content": "c. bagi Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 2, yaitu dokumen yang menyatakan bahwa Wajib Pajak telah meninggalkan Indonesia untuk selama-lamanya.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            586
+          ],
+          [
+            324,
+            660
+          ],
+          [
+            865,
+            660
+          ],
+          [
+            865,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          661,
+          865,
+          721
+        ],
+        "content": "(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            661
+          ],
+          [
+            280,
+            720
+          ],
+          [
+            864,
+            720
+          ],
+          [
+            864,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          721,
+          865,
+          811
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak orang pribadi diterima secara lengkap.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            721
+          ],
+          [
+            280,
+            811
+          ],
+          [
+            865,
+            811
+          ],
+          [
+            860,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          812,
+          867,
+          903
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak orang pribadi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            812
+          ],
+          [
+            279,
+            903
+          ],
+          [
+            866,
+            903
+          ],
+          [
+            866,
+            812
+          ],
+          [
+            767,
+            812
+          ],
+          [
+            761,
+            812
+          ],
+          [
+            686,
+            812
+          ],
+          [
+            681,
+            812
+          ],
+          [
+            505,
+            812
+          ],
+          [
+            500,
+            812
+          ],
+          [
+            470,
+            812
+          ],
+          [
+            454,
+            812
+          ],
+          [
+            430,
+            812
+          ],
+          [
+            405,
+            812
+          ],
+          [
+            389,
+            812
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          325,
+          74,
+          865,
+          106
+        ],
+        "content": "paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            74
+          ],
+          [
+            325,
+            105
+          ],
+          [
+            864,
+            105
+          ],
+          [
+            864,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          119,
+          618,
+          133
+        ],
+        "content": "## Pasal 30",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            119
+          ],
+          [
+            529,
+            133
+          ],
+          [
+            617,
+            133
+          ],
+          [
+            617,
+            119
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          134,
+          864,
+          209
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            134
+          ],
+          [
+            281,
+            209
+          ],
+          [
+            864,
+            209
+          ],
+          [
+            864,
+            134
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          210,
+          864,
+          254
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            210
+          ],
+          [
+            281,
+            254
+          ],
+          [
+            864,
+            254
+          ],
+          [
+            864,
+            210
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          255,
+          865,
+          330
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            255
+          ],
+          [
+            280,
+            329
+          ],
+          [
+            864,
+            329
+          ],
+          [
+            864,
+            255
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          330,
+          864,
+          360
+        ],
+        "content": "a. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            330
+          ],
+          [
+            324,
+            360
+          ],
+          [
+            863,
+            360
+          ],
+          [
+            863,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          360,
+          861,
+          390
+        ],
+        "content": "b. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            360
+          ],
+          [
+            325,
+            389
+          ],
+          [
+            861,
+            389
+          ],
+          [
+            861,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          391,
+          862,
+          421
+        ],
+        "content": "c. Wajib Pajak orang pribadi dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            391
+          ],
+          [
+            324,
+            420
+          ],
+          [
+            861,
+            420
+          ],
+          [
+            861,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          420,
+          864,
+          481
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            420
+          ],
+          [
+            279,
+            481
+          ],
+          [
+            864,
+            481
+          ],
+          [
+            864,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          496,
+          614,
+          510
+        ],
+        "content": "## Pasal 31",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            496
+          ],
+          [
+            528,
+            510
+          ],
+          [
+            613,
+            510
+          ],
+          [
+            613,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          510,
+          865,
+          586
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 28 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak orang pribadi memenuhi ketentuan sebagai berikut:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            510
+          ],
+          [
+            277,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            510
+          ],
+          [
+            694,
+            510
+          ],
+          [
+            689,
+            510
+          ],
+          [
+            634,
+            510
+          ],
+          [
+            628,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          586,
+          627,
+          602
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            586
+          ],
+          [
+            279,
+            601
+          ],
+          [
+            627,
+            601
+          ],
+          [
+            627,
+            586
+          ],
+          [
+            294,
+            586
+          ],
+          [
+            288,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          602,
+          655,
+          616
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            602
+          ],
+          [
+            279,
+            616
+          ],
+          [
+            655,
+            616
+          ],
+          [
+            655,
+            602
+          ],
+          [
+            304,
+            602
+          ],
+          [
+            299,
+            602
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          616,
+          862,
+          647
+        ],
+        "content": "1. Pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            621
+          ],
+          [
+            325,
+            643
+          ],
+          [
+            351,
+            647
+          ],
+          [
+            475,
+            647
+          ],
+          [
+            491,
+            647
+          ],
+          [
+            541,
+            647
+          ],
+          [
+            551,
+            647
+          ],
+          [
+            591,
+            647
+          ],
+          [
+            666,
+            647
+          ],
+          [
+            682,
+            647
+          ],
+          [
+            861,
+            647
+          ],
+          [
+            861,
+            616
+          ],
+          [
+            521,
+            616
+          ],
+          [
+            515,
+            616
+          ],
+          [
+            505,
+            616
+          ],
+          [
+            336,
+            616
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          647,
+          675,
+          661
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            647
+          ],
+          [
+            323,
+            661
+          ],
+          [
+            675,
+            661
+          ],
+          [
+            675,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          662,
+          862,
+          691
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            662
+          ],
+          [
+            323,
+            690
+          ],
+          [
+            861,
+            690
+          ],
+          [
+            861,
+            662
+          ],
+          [
+            726,
+            662
+          ],
+          [
+            715,
+            662
+          ],
+          [
+            560,
+            662
+          ],
+          [
+            554,
+            662
+          ],
+          [
+            404,
+            662
+          ],
+          [
+            343,
+            662
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          692,
+          848,
+          706
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            692
+          ],
+          [
+            323,
+            706
+          ],
+          [
+            848,
+            706
+          ],
+          [
+            848,
+            692
+          ],
+          [
+            764,
+            692
+          ],
+          [
+            753,
+            692
+          ],
+          [
+            744,
+            692
+          ],
+          [
+            728,
+            692
+          ],
+          [
+            718,
+            692
+          ],
+          [
+            708,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          706,
+          861,
+          736
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            706
+          ],
+          [
+            277,
+            736
+          ],
+          [
+            860,
+            736
+          ],
+          [
+            860,
+            711
+          ],
+          [
+            785,
+            706
+          ],
+          [
+            771,
+            706
+          ],
+          [
+            704,
+            706
+          ],
+          [
+            660,
+            706
+          ],
+          [
+            654,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          737,
+          861,
+          767
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            737
+          ],
+          [
+            276,
+            766
+          ],
+          [
+            861,
+            766
+          ],
+          [
+            861,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          768,
+          861,
+          796
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            768
+          ],
+          [
+            278,
+            796
+          ],
+          [
+            861,
+            796
+          ],
+          [
+            861,
+            768
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          797,
+          862,
+          841
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            797
+          ],
+          [
+            324,
+            841
+          ],
+          [
+            862,
+            841
+          ],
+          [
+            862,
+            797
+          ],
+          [
+            758,
+            797
+          ],
+          [
+            732,
+            797
+          ],
+          [
+            698,
+            797
+          ],
+          [
+            653,
+            797
+          ],
+          [
+            638,
+            797
+          ],
+          [
+            438,
+            797
+          ],
+          [
+            390,
+            797
+          ],
+          [
+            380,
+            797
+          ],
+          [
+            370,
+            797
+          ],
+          [
+            344,
+            797
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          842,
+          588,
+          857
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            842
+          ],
+          [
+            323,
+            857
+          ],
+          [
+            587,
+            857
+          ],
+          [
+            587,
+            842
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          858,
+          777,
+          872
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            858
+          ],
+          [
+            323,
+            872
+          ],
+          [
+            776,
+            872
+          ],
+          [
+            776,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          873,
+          863,
+          903
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            873
+          ],
+          [
+            323,
+            902
+          ],
+          [
+            862,
+            902
+          ],
+          [
+            862,
+            873
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          374,
+          72,
+          867,
+          102
+        ],
+        "content": "atau memiliki penghasilan di bawah penghasilan tidak kena pajak;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            72
+          ],
+          [
+            374,
+            102
+          ],
+          [
+            867,
+            102
+          ],
+          [
+            867,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          103,
+          868,
+          162
+        ],
+        "content": "c. Warga Negara Indonesia berstatus sebagai Penduduk yang berniat menjadi subjek pajak luar negeri namun belum memenuhi syarat sebagai subjek pajak luar negeri;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            103
+          ],
+          [
+            328,
+            157
+          ],
+          [
+            338,
+            162
+          ],
+          [
+            868,
+            162
+          ],
+          [
+            868,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          163,
+          868,
+          208
+        ],
+        "content": "d. Warga Negara Indonesia berstatus sebagai Penduduk yang tidak lagi memenuhi persyaratan subjektif dan objektif;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            163
+          ],
+          [
+            327,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          208,
+          867,
+          283
+        ],
+        "content": "e. wanita kawin yang telah memiliki Nomor Pokok Wajib Pajak yang kemudian memilih untuk melaksanakan hak dan memenuhi kewajiban perpajakannya digabungkan dengan suaminya; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            208
+          ],
+          [
+            327,
+            278
+          ],
+          [
+            337,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          283,
+          867,
+          313
+        ],
+        "content": "f. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            283
+          ],
+          [
+            327,
+            313
+          ],
+          [
+            866,
+            313
+          ],
+          [
+            866,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          313,
+          868,
+          418
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak orang pribadi memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            313
+          ],
+          [
+            282,
+            413
+          ],
+          [
+            297,
+            418
+          ],
+          [
+            868,
+            418
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          419,
+          867,
+          493
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            419
+          ],
+          [
+            287,
+            493
+          ],
+          [
+            867,
+            493
+          ],
+          [
+            867,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          495,
+          866,
+          539
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            495
+          ],
+          [
+            281,
+            539
+          ],
+          [
+            865,
+            539
+          ],
+          [
+            865,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          867,
+          631
+        ],
+        "content": "(6) Dalam hal Wajib Pajak orang pribadi tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            630
+          ],
+          [
+            867,
+            630
+          ],
+          [
+            867,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          645,
+          618,
+          659
+        ],
+        "content": "## Pasal 26",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            645
+          ],
+          [
+            530,
+            658
+          ],
+          [
+            618,
+            658
+          ],
+          [
+            618,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          660,
+          865,
+          690
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf d yang:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            660
+          ],
+          [
+            280,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          691,
+          867,
+          811
+        ],
+        "content": "a. memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri; atau",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            691
+          ],
+          [
+            323,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          810,
+          867,
+          902
+        ],
+        "content": "b. tidak memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penolakan penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti surat penolakan atas",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            810
+          ],
+          [
+            324,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            810
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          345,
+          73,
+          870,
+          104
+        ],
+        "content": "permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri,",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            345,
+            78
+          ],
+          [
+            345,
+            83
+          ],
+          [
+            375,
+            88
+          ],
+          [
+            440,
+            93
+          ],
+          [
+            460,
+            103
+          ],
+          [
+            470,
+            103
+          ],
+          [
+            475,
+            103
+          ],
+          [
+            870,
+            103
+          ],
+          [
+            870,
+            73
+          ],
+          [
+            365,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          80,
+          871,
+          195
+        ],
+        "content": "permohonan penetapan status warga Negara Indonesia sebagai subjek pajak luar negeri, sebagaimana diatur dalam Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            85
+          ],
+          [
+            331,
+            194
+          ],
+          [
+            871,
+            194
+          ],
+          [
+            871,
+            80
+          ],
+          [
+            336,
+            80
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          193,
+          872,
+          346
+        ],
+        "content": "(2) Persyaratan dan tata cara penyelesaian permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri sebagaimana dimaksud pada ayat (1) selain mengenai jangka waktu penyelesaian, dilaksanakan berdasarkan ketentuan Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            193
+          ],
+          [
+            292,
+            345
+          ],
+          [
+            321,
+            345
+          ],
+          [
+            327,
+            345
+          ],
+          [
+            872,
+            345
+          ],
+          [
+            872,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          359,
+          622,
+          373
+        ],
+        "content": "## Pasal 27",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            359
+          ],
+          [
+            534,
+            373
+          ],
+          [
+            622,
+            373
+          ],
+          [
+            622,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          373,
+          869,
+          475
+        ],
+        "content": "Dalam hal Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf c di kemudian hari tidak memenuhi persyaratan atau tidak mengajukan permohonan untuk memperoleh Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri, terhadap Wajib Pajak orang pribadi dimaksud: a penetapan sebagai Wajib Pajak Nonaktif menjadi batal:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            373
+          ],
+          [
+            287,
+            474
+          ],
+          [
+            550,
+            474
+          ],
+          [
+            590,
+            474
+          ],
+          [
+            650,
+            469
+          ],
+          [
+            868,
+            464
+          ],
+          [
+            868,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          479,
+          816,
+          495
+        ],
+        "content": "b. tetap merupakan subjek pajak dalam negeri; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            479
+          ],
+          [
+            283,
+            495
+          ],
+          [
+            815,
+            495
+          ],
+          [
+            815,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          496,
+          870,
+          541
+        ],
+        "content": "c. dikenai pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku bagi subjek pajak dalam negeri.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            496
+          ],
+          [
+            283,
+            541
+          ],
+          [
+            869,
+            541
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          555,
+          622,
+          570
+        ],
+        "content": "## Pasal 28",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            555
+          ],
+          [
+            532,
+            569
+          ],
+          [
+            621,
+            569
+          ],
+          [
+            621,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          569,
+          870,
+          675
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak orang pribadi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            569
+          ],
+          [
+            284,
+            674
+          ],
+          [
+            869,
+            674
+          ],
+          [
+            869,
+            569
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          675,
+          868,
+          705
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            675
+          ],
+          [
+            284,
+            705
+          ],
+          [
+            868,
+            705
+          ],
+          [
+            868,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          706,
+          869,
+          737
+        ],
+        "content": "a. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            706
+          ],
+          [
+            330,
+            736
+          ],
+          [
+            868,
+            736
+          ],
+          [
+            868,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          736,
+          638,
+          750
+        ],
+        "content": "b. Wajib Pajak orang pribadi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            736
+          ],
+          [
+            330,
+            750
+          ],
+          [
+            637,
+            750
+          ],
+          [
+            637,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          750,
+          869,
+          810
+        ],
+        "content": "1. telah meninggalkan Indonesia untuk selamalamanya dan tidak lagi berstatus sebagai Penduduk, bagi orang pribadi yang semula berstatus sebagai Penduduk; atau",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            750
+          ],
+          [
+            376,
+            760
+          ],
+          [
+            376,
+            810
+          ],
+          [
+            868,
+            810
+          ],
+          [
+            868,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          811,
+          868,
+          855
+        ],
+        "content": "2. telah meninggalkan Indonesia untuk selamalamanya, bagi orang pribadi yang berstatus bukan Penduduk; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            811
+          ],
+          [
+            374,
+            854
+          ],
+          [
+            868,
+            854
+          ],
+          [
+            868,
+            811
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          855,
+          868,
+          887
+        ],
+        "content": "c. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            855
+          ],
+          [
+            328,
+            887
+          ],
+          [
+            867,
+            882
+          ],
+          [
+            867,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          530,
+          74,
+          619,
+          88
+        ],
+        "content": "## Pasal 29",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            74
+          ],
+          [
+            530,
+            88
+          ],
+          [
+            618,
+            88
+          ],
+          [
+            618,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          89,
+          867,
+          179
+        ],
+        "content": "(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            89
+          ],
+          [
+            287,
+            179
+          ],
+          [
+            867,
+            179
+          ],
+          [
+            867,
+            89
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          180,
+          867,
+          270
+        ],
+        "content": "(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) merupakan dokumen pendukung yang menunjukkan bahwa Wajib Pajak orang pribadi tidak lagi memenuhi persyaratan subjektif dan/atau objektif, berupa:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            180
+          ],
+          [
+            286,
+            269
+          ],
+          [
+            867,
+            269
+          ],
+          [
+            867,
+            180
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          270,
+          867,
+          375
+        ],
+        "content": "a. bagi Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf a, yaitu dokumen yang menunjukkan Wajib Pajak orang pribadi sudah meninggal dunia beserta surat pernyataan bahwa tidak mempunyai warisan atau surat pernyataan bahwa warisan sudah terbagi dengan menyebutkan ahli waris;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            270
+          ],
+          [
+            325,
+            374
+          ],
+          [
+            866,
+            374
+          ],
+          [
+            866,
+            270
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          375,
+          866,
+          420
+        ],
+        "content": "b. bagi Wajib Pajak orang pribadi yang semula berstatus sebagai Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 1:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            375
+          ],
+          [
+            331,
+            420
+          ],
+          [
+            865,
+            420
+          ],
+          [
+            865,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          421,
+          865,
+          465
+        ],
+        "content": "1. dokumen yang menyatakan bahwa Wajib Pajak orang pribadi telah meninggalkan Indonesia untuk selama-lamanya; dan/atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            421
+          ],
+          [
+            373,
+            465
+          ],
+          [
+            864,
+            465
+          ],
+          [
+            864,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          371,
+          466,
+          866,
+          585
+        ],
+        "content": "2. dokumen yang menunjukkan Wajib Pajak orang pribadi yang merupakan Penduduk sebagai Warga Negara Indonesia sudah tidak berstatus sebagai Penduduk karena kehilangan kewarganegaraan Indonesia sesuai dengan ketentuan peraturan perundang-undangan di bidang kependudukan; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            371,
+            466
+          ],
+          [
+            371,
+            585
+          ],
+          [
+            865,
+            585
+          ],
+          [
+            865,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          586,
+          865,
+          661
+        ],
+        "content": "c. bagi Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 2, yaitu dokumen yang menyatakan bahwa Wajib Pajak telah meninggalkan Indonesia untuk selama-lamanya.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            586
+          ],
+          [
+            324,
+            660
+          ],
+          [
+            865,
+            660
+          ],
+          [
+            865,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          661,
+          865,
+          721
+        ],
+        "content": "(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            661
+          ],
+          [
+            280,
+            720
+          ],
+          [
+            864,
+            720
+          ],
+          [
+            864,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          721,
+          865,
+          811
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak orang pribadi diterima secara lengkap.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            721
+          ],
+          [
+            280,
+            811
+          ],
+          [
+            865,
+            811
+          ],
+          [
+            860,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          812,
+          867,
+          903
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak orang pribadi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            812
+          ],
+          [
+            279,
+            903
+          ],
+          [
+            866,
+            903
+          ],
+          [
+            866,
+            812
+          ],
+          [
+            767,
+            812
+          ],
+          [
+            761,
+            812
+          ],
+          [
+            686,
+            812
+          ],
+          [
+            681,
+            812
+          ],
+          [
+            505,
+            812
+          ],
+          [
+            500,
+            812
+          ],
+          [
+            470,
+            812
+          ],
+          [
+            454,
+            812
+          ],
+          [
+            430,
+            812
+          ],
+          [
+            405,
+            812
+          ],
+          [
+            389,
+            812
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          325,
+          74,
+          865,
+          106
+        ],
+        "content": "paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            74
+          ],
+          [
+            325,
+            105
+          ],
+          [
+            864,
+            105
+          ],
+          [
+            864,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          119,
+          618,
+          133
+        ],
+        "content": "## Pasal 30",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            119
+          ],
+          [
+            529,
+            133
+          ],
+          [
+            617,
+            133
+          ],
+          [
+            617,
+            119
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          134,
+          864,
+          209
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            134
+          ],
+          [
+            281,
+            209
+          ],
+          [
+            864,
+            209
+          ],
+          [
+            864,
+            134
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          210,
+          864,
+          254
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            210
+          ],
+          [
+            281,
+            254
+          ],
+          [
+            864,
+            254
+          ],
+          [
+            864,
+            210
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          255,
+          865,
+          330
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            255
+          ],
+          [
+            280,
+            329
+          ],
+          [
+            864,
+            329
+          ],
+          [
+            864,
+            255
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          330,
+          864,
+          360
+        ],
+        "content": "a. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            330
+          ],
+          [
+            324,
+            360
+          ],
+          [
+            863,
+            360
+          ],
+          [
+            863,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          360,
+          861,
+          390
+        ],
+        "content": "b. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            360
+          ],
+          [
+            325,
+            389
+          ],
+          [
+            861,
+            389
+          ],
+          [
+            861,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          391,
+          862,
+          421
+        ],
+        "content": "c. Wajib Pajak orang pribadi dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            391
+          ],
+          [
+            324,
+            420
+          ],
+          [
+            861,
+            420
+          ],
+          [
+            861,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          420,
+          864,
+          481
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            420
+          ],
+          [
+            279,
+            481
+          ],
+          [
+            864,
+            481
+          ],
+          [
+            864,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          496,
+          614,
+          510
+        ],
+        "content": "## Pasal 31",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            496
+          ],
+          [
+            528,
+            510
+          ],
+          [
+            613,
+            510
+          ],
+          [
+            613,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          510,
+          865,
+          586
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 28 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak orang pribadi memenuhi ketentuan sebagai berikut:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            510
+          ],
+          [
+            277,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            510
+          ],
+          [
+            694,
+            510
+          ],
+          [
+            689,
+            510
+          ],
+          [
+            634,
+            510
+          ],
+          [
+            628,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          586,
+          627,
+          602
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            586
+          ],
+          [
+            279,
+            601
+          ],
+          [
+            627,
+            601
+          ],
+          [
+            627,
+            586
+          ],
+          [
+            294,
+            586
+          ],
+          [
+            288,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          602,
+          655,
+          616
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            602
+          ],
+          [
+            279,
+            616
+          ],
+          [
+            655,
+            616
+          ],
+          [
+            655,
+            602
+          ],
+          [
+            304,
+            602
+          ],
+          [
+            299,
+            602
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          616,
+          862,
+          647
+        ],
+        "content": "1. Pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            621
+          ],
+          [
+            325,
+            643
+          ],
+          [
+            351,
+            647
+          ],
+          [
+            475,
+            647
+          ],
+          [
+            491,
+            647
+          ],
+          [
+            541,
+            647
+          ],
+          [
+            551,
+            647
+          ],
+          [
+            591,
+            647
+          ],
+          [
+            666,
+            647
+          ],
+          [
+            682,
+            647
+          ],
+          [
+            861,
+            647
+          ],
+          [
+            861,
+            616
+          ],
+          [
+            521,
+            616
+          ],
+          [
+            515,
+            616
+          ],
+          [
+            505,
+            616
+          ],
+          [
+            336,
+            616
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          647,
+          675,
+          661
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            647
+          ],
+          [
+            323,
+            661
+          ],
+          [
+            675,
+            661
+          ],
+          [
+            675,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          662,
+          862,
+          691
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            662
+          ],
+          [
+            323,
+            690
+          ],
+          [
+            861,
+            690
+          ],
+          [
+            861,
+            662
+          ],
+          [
+            726,
+            662
+          ],
+          [
+            715,
+            662
+          ],
+          [
+            560,
+            662
+          ],
+          [
+            554,
+            662
+          ],
+          [
+            404,
+            662
+          ],
+          [
+            343,
+            662
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          692,
+          848,
+          706
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            692
+          ],
+          [
+            323,
+            706
+          ],
+          [
+            848,
+            706
+          ],
+          [
+            848,
+            692
+          ],
+          [
+            764,
+            692
+          ],
+          [
+            753,
+            692
+          ],
+          [
+            744,
+            692
+          ],
+          [
+            728,
+            692
+          ],
+          [
+            718,
+            692
+          ],
+          [
+            708,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          706,
+          861,
+          736
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            706
+          ],
+          [
+            277,
+            736
+          ],
+          [
+            860,
+            736
+          ],
+          [
+            860,
+            711
+          ],
+          [
+            785,
+            706
+          ],
+          [
+            771,
+            706
+          ],
+          [
+            704,
+            706
+          ],
+          [
+            660,
+            706
+          ],
+          [
+            654,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          737,
+          861,
+          767
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            737
+          ],
+          [
+            276,
+            766
+          ],
+          [
+            861,
+            766
+          ],
+          [
+            861,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          768,
+          861,
+          796
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            768
+          ],
+          [
+            278,
+            796
+          ],
+          [
+            861,
+            796
+          ],
+          [
+            861,
+            768
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          797,
+          862,
+          841
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            797
+          ],
+          [
+            324,
+            841
+          ],
+          [
+            862,
+            841
+          ],
+          [
+            862,
+            797
+          ],
+          [
+            758,
+            797
+          ],
+          [
+            732,
+            797
+          ],
+          [
+            698,
+            797
+          ],
+          [
+            653,
+            797
+          ],
+          [
+            638,
+            797
+          ],
+          [
+            438,
+            797
+          ],
+          [
+            390,
+            797
+          ],
+          [
+            380,
+            797
+          ],
+          [
+            370,
+            797
+          ],
+          [
+            344,
+            797
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          842,
+          588,
+          857
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            842
+          ],
+          [
+            323,
+            857
+          ],
+          [
+            587,
+            857
+          ],
+          [
+            587,
+            842
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          858,
+          777,
+          872
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            858
+          ],
+          [
+            323,
+            872
+          ],
+          [
+            776,
+            872
+          ],
+          [
+            776,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          873,
+          863,
+          903
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            873
+          ],
+          [
+            323,
+            902
+          ],
+          [
+            862,
+            902
+          ],
+          [
+            862,
+            873
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "atau memiliki penghasilan di bawah penghasilan tidak kena pajak;\n\nc. Warga Negara Indonesia berstatus sebagai Penduduk yang berniat menjadi subjek pajak luar negeri namun belum memenuhi syarat sebagai subjek pajak luar negeri;\n\nd. Warga Negara Indonesia berstatus sebagai Penduduk yang tidak lagi memenuhi persyaratan subjektif dan objektif;\n\ne. wanita kawin yang telah memiliki Nomor Pokok Wajib Pajak yang kemudian memilih untuk melaksanakan hak dan memenuhi kewajiban perpajakannya digabungkan dengan suaminya; atau\n\nf. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak orang pribadi memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak orang pribadi tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 26\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf d yang:\n\na. memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri; atau\n\nb. tidak memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penolakan penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti surat penolakan atas\n\npermohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri,\n\npermohonan penetapan status warga Negara Indonesia sebagai subjek pajak luar negeri, sebagaimana diatur dalam Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.\n\n(2) Persyaratan dan tata cara penyelesaian permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri sebagaimana dimaksud pada ayat (1) selain mengenai jangka waktu penyelesaian, dilaksanakan berdasarkan ketentuan Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 27\n\nDalam hal Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf c di kemudian hari tidak memenuhi persyaratan atau tidak mengajukan permohonan untuk memperoleh Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri, terhadap Wajib Pajak orang pribadi dimaksud: a penetapan sebagai Wajib Pajak Nonaktif menjadi batal:\n\nb. tetap merupakan subjek pajak dalam negeri; dan\n\nc. dikenai pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku bagi subjek pajak dalam negeri.\n\n## Pasal 28\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak orang pribadi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:\n\na. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\nb. Wajib Pajak orang pribadi:\n\n1. telah meninggalkan Indonesia untuk selamalamanya dan tidak lagi berstatus sebagai Penduduk, bagi orang pribadi yang semula berstatus sebagai Penduduk; atau\n\n2. telah meninggalkan Indonesia untuk selamalamanya, bagi orang pribadi yang berstatus bukan Penduduk; atau\n\nc. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n## Pasal 29\n\n(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) merupakan dokumen pendukung yang menunjukkan bahwa Wajib Pajak orang pribadi tidak lagi memenuhi persyaratan subjektif dan/atau objektif, berupa:\n\na. bagi Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf a, yaitu dokumen yang menunjukkan Wajib Pajak orang pribadi sudah meninggal dunia beserta surat pernyataan bahwa tidak mempunyai warisan atau surat pernyataan bahwa warisan sudah terbagi dengan menyebutkan ahli waris;\n\nb. bagi Wajib Pajak orang pribadi yang semula berstatus sebagai Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 1:\n\n1. dokumen yang menyatakan bahwa Wajib Pajak orang pribadi telah meninggalkan Indonesia untuk selama-lamanya; dan/atau\n\n2. dokumen yang menunjukkan Wajib Pajak orang pribadi yang merupakan Penduduk sebagai Warga Negara Indonesia sudah tidak berstatus sebagai Penduduk karena kehilangan kewarganegaraan Indonesia sesuai dengan ketentuan peraturan perundang-undangan di bidang kependudukan; dan\n\nc. bagi Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 2, yaitu dokumen yang menyatakan bahwa Wajib Pajak telah meninggalkan Indonesia untuk selama-lamanya.\n\n(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak orang pribadi diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak orang pribadi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak\n\npaling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 30\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap:\n\na. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\nb. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak; atau\n\nc. Wajib Pajak orang pribadi dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 31\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 28 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak orang pribadi memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;",
+  "md_results": "atau memiliki penghasilan di bawah penghasilan tidak kena pajak;\n\nc. Warga Negara Indonesia berstatus sebagai Penduduk yang berniat menjadi subjek pajak luar negeri namun belum memenuhi syarat sebagai subjek pajak luar negeri;\n\nd. Warga Negara Indonesia berstatus sebagai Penduduk yang tidak lagi memenuhi persyaratan subjektif dan objektif;\n\ne. wanita kawin yang telah memiliki Nomor Pokok Wajib Pajak yang kemudian memilih untuk melaksanakan hak dan memenuhi kewajiban perpajakannya digabungkan dengan suaminya; atau\n\nf. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak orang pribadi memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (4) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak orang pribadi tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 26\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf d yang:\n\na. memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri; atau\n\nb. tidak memenuhi persyaratan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri, diterbitkan keputusan sebagaimana dimaksud dalam Pasal 25 ayat (4) atas penolakan penetapan Wajib Pajak sebagai Wajib Pajak Nonaktif sebagai pengganti surat penolakan atas\n\npermohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri,\n\npermohonan penetapan status warga Negara Indonesia sebagai subjek pajak luar negeri, sebagaimana diatur dalam Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.\n\n(2) Persyaratan dan tata cara penyelesaian permohonan penetapan status Warga Negara Indonesia sebagai subjek pajak luar negeri sebagaimana dimaksud pada ayat (1) selain mengenai jangka waktu penyelesaian, dilaksanakan berdasarkan ketentuan Peraturan Menteri Keuangan mengenai Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 27\n\nDalam hal Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 25 ayat (2) huruf c di kemudian hari tidak memenuhi persyaratan atau tidak mengajukan permohonan untuk memperoleh Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri, terhadap Wajib Pajak orang pribadi dimaksud: a penetapan sebagai Wajib Pajak Nonaktif menjadi batal:\n\nb. tetap merupakan subjek pajak dalam negeri; dan\n\nc. dikenai pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan yang berlaku bagi subjek pajak dalam negeri.\n\n## Pasal 28\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak orang pribadi yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal:\n\na. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\nb. Wajib Pajak orang pribadi:\n\n1. telah meninggalkan Indonesia untuk selamalamanya dan tidak lagi berstatus sebagai Penduduk, bagi orang pribadi yang semula berstatus sebagai Penduduk; atau\n\n2. telah meninggalkan Indonesia untuk selamalamanya, bagi orang pribadi yang berstatus bukan Penduduk; atau\n\nc. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n## Pasal 29\n\n(1) Permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Dokumen yang disyaratkan sebagai lampiran permohonan Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) merupakan dokumen pendukung yang menunjukkan bahwa Wajib Pajak orang pribadi tidak lagi memenuhi persyaratan subjektif dan/atau objektif, berupa:\n\na. bagi Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf a, yaitu dokumen yang menunjukkan Wajib Pajak orang pribadi sudah meninggal dunia beserta surat pernyataan bahwa tidak mempunyai warisan atau surat pernyataan bahwa warisan sudah terbagi dengan menyebutkan ahli waris;\n\nb. bagi Wajib Pajak orang pribadi yang semula berstatus sebagai Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 1:\n\n1. dokumen yang menyatakan bahwa Wajib Pajak orang pribadi telah meninggalkan Indonesia untuk selama-lamanya; dan/atau\n\n2. dokumen yang menunjukkan Wajib Pajak orang pribadi yang merupakan Penduduk sebagai Warga Negara Indonesia sudah tidak berstatus sebagai Penduduk karena kehilangan kewarganegaraan Indonesia sesuai dengan ketentuan peraturan perundang-undangan di bidang kependudukan; dan\n\nc. bagi Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 28 ayat (2) huruf b angka 2, yaitu dokumen yang menyatakan bahwa Wajib Pajak telah meninggalkan Indonesia untuk selama-lamanya.\n\n(3) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan Penghapusan Nomor Pokok Wajib Pajak tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak orang pribadi diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak orang pribadi dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak\n\npaling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 30\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 28 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan berdasarkan hasil penelitian administrasi terhadap:\n\na. Wajib Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\nb. Wajib Pajak orang pribadi memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak; atau\n\nc. Wajib Pajak orang pribadi dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 31\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 28 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak orang pribadi memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;",
+  "model": "glm-ocr",
+  "usage": {}
+}

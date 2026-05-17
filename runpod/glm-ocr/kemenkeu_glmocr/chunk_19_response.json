@@ -1,0 +1,2131 @@
+{
+  "created": 1779015332,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-8dd6551d00ce48df9184cfd9a41bf",
+  "json_result": [
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          375,
+          72,
+          867,
+          103
+        ],
+        "content": "sebagaimana dimaksud dalam Pasal 81 ayat (1), Pasal 82 ayat (3), atau Pasal 83 ayat (3).",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            76
+          ],
+          [
+            375,
+            98
+          ],
+          [
+            380,
+            102
+          ],
+          [
+            866,
+            102
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            817,
+            72
+          ],
+          [
+            811,
+            72
+          ],
+          [
+            380,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          102,
+          869,
+          148
+        ],
+        "content": "(2) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) terpenuhi, Direktorat Jenderal Pajak menerbitkan bukti penerimaan elektronik.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            102
+          ],
+          [
+            282,
+            143
+          ],
+          [
+            308,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          148,
+          870,
+          209
+        ],
+        "content": "(3) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) tidak terpenuhi, Surat Pemberitahuan Objek Pajak dianggap tidak disampaikan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            148
+          ],
+          [
+            284,
+            209
+          ],
+          [
+            869,
+            209
+          ],
+          [
+            869,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          223,
+          622,
+          237
+        ],
+        "content": "## Pasal 86",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            223
+          ],
+          [
+            531,
+            236
+          ],
+          [
+            621,
+            236
+          ],
+          [
+            621,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          237,
+          868,
+          328
+        ],
+        "content": "(1) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar melakukan penelitian material terhadap Surat Pemberitahuan Objek Pajak yang telah disampaikan oleh Wajib Pajak dan telah dilakukan penelitian formal sebagaimana dimaksud dalam Pasal 85 ayat (1).",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            237
+          ],
+          [
+            287,
+            327
+          ],
+          [
+            867,
+            327
+          ],
+          [
+            867,
+            242
+          ],
+          [
+            425,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          328,
+          868,
+          448
+        ],
+        "content": "(2) Dalam hal berdasarkan hasil penelitian material sebagaimana dimaksud pada ayat (1) terdapat indikasi kewajiban perpajakan dalam pengisian Surat Pemberitahuan Objek Pajak tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan, Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar dapat meminta klarifikasi kepada Wajib Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            328
+          ],
+          [
+            281,
+            443
+          ],
+          [
+            291,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          448,
+          867,
+          493
+        ],
+        "content": "(3) Klarifikasi sebagaimana dimaksud pada ayat (2) dilakukan dengan menerbitkan dan menyampaikan surat permintaan klarifikasi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            448
+          ],
+          [
+            287,
+            493
+          ],
+          [
+            866,
+            493
+          ],
+          [
+            866,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          494,
+          867,
+          538
+        ],
+        "content": "(4) Klarifikasi sebagaimana dimaksud pada ayat (2) dapat dilanjutkan dengan melakukan peninjauan Objek Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            494
+          ],
+          [
+            281,
+            533
+          ],
+          [
+            291,
+            538
+          ],
+          [
+            866,
+            538
+          ],
+          [
+            866,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          540,
+          867,
+          584
+        ],
+        "content": "(5) Berdasarkan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3), Wajib Pajak menanggapi dengan:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            540
+          ],
+          [
+            280,
+            584
+          ],
+          [
+            866,
+            584
+          ],
+          [
+            866,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          585,
+          865,
+          614
+        ],
+        "content": "a. membuat surat tanggapan atas surat permintaan klarifikasi; dan/atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            585
+          ],
+          [
+            325,
+            614
+          ],
+          [
+            864,
+            614
+          ],
+          [
+            864,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          615,
+          865,
+          645
+        ],
+        "content": "b. melakukan pembetulan Surat Pemberitahuan Objek Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            615
+          ],
+          [
+            325,
+            644
+          ],
+          [
+            864,
+            644
+          ],
+          [
+            864,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          645,
+          866,
+          705
+        ],
+        "content": "(6) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar membuat laporan pelaksanaan klarifikasi berdasarkan hasil klarifikasi sebagaimana dimaksud pada ayat (2).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            645
+          ],
+          [
+            281,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          705,
+          867,
+          750
+        ],
+        "content": "(7) Laporan pelaksanaan klarifikasi sebagaimana dimaksud pada ayat (6) dapat digunakan sebagai bahan analisis risiko untuk usulan Pemeriksaan dalam hal:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            705
+          ],
+          [
+            285,
+            750
+          ],
+          [
+            866,
+            750
+          ],
+          [
+            866,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          751,
+          866,
+          795
+        ],
+        "content": "a. Wajib Pajak tidak membuat surat tanggapan atas surat permintaan klarifikasi sebagaimana dimaksud pada ayat (5) huruf a;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            751
+          ],
+          [
+            325,
+            795
+          ],
+          [
+            865,
+            795
+          ],
+          [
+            865,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          795,
+          866,
+          840
+        ],
+        "content": "b. Wajib Pajak tidak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            795
+          ],
+          [
+            324,
+            840
+          ],
+          [
+            865,
+            840
+          ],
+          [
+            865,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          840,
+          868,
+          916
+        ],
+        "content": "c. Wajib Pajak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b tetapi tidak sesuai dengan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3).",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            840
+          ],
+          [
+            324,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            862,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          531,
+          86,
+          620,
+          100
+        ],
+        "content": "Pasal 87",
+        "index": 0,
+        "label": "text",
+        "native_label": "figure_title",
+        "polygon": [
+          [
+            531,
+            86
+          ],
+          [
+            531,
+            100
+          ],
+          [
+            620,
+            100
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          100,
+          867,
+          162
+        ],
+        "content": "(1) Wajib Pajak dapat membetulkan Surat Pemberitahuan Objek Pajak yang telah disampaikan kepada Direktorat Jenderal Pajak melalui penyampaiian Surat Pemberitahuan Objek Pajak pembetulan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            100
+          ],
+          [
+            282,
+            161
+          ],
+          [
+            867,
+            161
+          ],
+          [
+            867,
+            100
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          161,
+          868,
+          236
+        ],
+        "content": "(2) Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud pada ayat (1) disampaikan paling lama 15 (lima belas) hari setelah berakhirnya jangka waktu 30 (tiga puluh) hari sebagaimana dimaksud dalam Pasal 81 ayat (1).",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            161
+          ],
+          [
+            287,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            166
+          ],
+          [
+            842,
+            161
+          ],
+          [
+            808,
+            161
+          ],
+          [
+            759,
+            161
+          ],
+          [
+            718,
+            161
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          236,
+          867,
+          356
+        ],
+        "content": "(3) Dalam hal surat permintaan klarifikasi sebagaimana dimaksud dalam Pasal 86 ayat (3) disampaikan kepada Wajib Pajak setelah jangka waktu sebagaimana dimaksud pada ayat (2) berakhir, Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud dalam Pasal 86 ayat (5) huruf b disampaikan paling lama 7 (tujuh) hari sejak tanggal diterimanya surat permintaan klarifikasi.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            236
+          ],
+          [
+            281,
+            356
+          ],
+          [
+            867,
+            356
+          ],
+          [
+            867,
+            241
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          357,
+          867,
+          418
+        ],
+        "content": "(4) Tanggal diterimanya surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3) merupakan tanggal dikirimnya surat permintaan klarifikasi ke Akun Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            357
+          ],
+          [
+            280,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          432,
+          618,
+          446
+        ],
+        "content": "## Pasal 88",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            432
+          ],
+          [
+            529,
+            446
+          ],
+          [
+            617,
+            446
+          ],
+          [
+            617,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          446,
+          866,
+          523
+        ],
+        "content": "(1) Wajib Pajak yang melakukan pembetulan Surat Pemberitahuan Objek Pajak harus menyampaikan Surat Pemberitahuan Objek Pajak pembetulan dalam jangka waktu sebagaimana dimaksud dalam Pasal 87 ayat (2) atau ayat (3).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            446
+          ],
+          [
+            280,
+            518
+          ],
+          [
+            295,
+            522
+          ],
+          [
+            865,
+            522
+          ],
+          [
+            865,
+            446
+          ],
+          [
+            671,
+            446
+          ],
+          [
+            645,
+            446
+          ],
+          [
+            631,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          523,
+          867,
+          599
+        ],
+        "content": "(2) Dalam hal Surat Pemberitahuan Objek Pajak pembetulan disampaikan Wajib Pajak melewati jangka waktu sebagaimana dimaksud pada ayat (1), Surat Pemberitahuan Objek Pajak pembetulan dianggap tidak disampaikan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            523
+          ],
+          [
+            280,
+            599
+          ],
+          [
+            866,
+            599
+          ],
+          [
+            866,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          612,
+          617,
+          628
+        ],
+        "content": "## Pasal 89",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            612
+          ],
+          [
+            528,
+            627
+          ],
+          [
+            617,
+            627
+          ],
+          [
+            617,
+            612
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          628,
+          861,
+          658
+        ],
+        "content": "(1) Direktur Jenderal Pajak berwenang melakukan Pendataan terhadap Objek Pajak yang telah terdaftar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            628
+          ],
+          [
+            279,
+            658
+          ],
+          [
+            861,
+            658
+          ],
+          [
+            861,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          658,
+          863,
+          690
+        ],
+        "content": "(2) Jenis Pendataan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            658
+          ],
+          [
+            279,
+            689
+          ],
+          [
+            862,
+            689
+          ],
+          [
+            862,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          688,
+          655,
+          717
+        ],
+        "content": "a. Pendataan kantor; dan/atau\n\nb. Pendataan lapangan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            688
+          ],
+          [
+            321,
+            694
+          ],
+          [
+            321,
+            700
+          ],
+          [
+            321,
+            716
+          ],
+          [
+            585,
+            716
+          ],
+          [
+            595,
+            716
+          ],
+          [
+            605,
+            716
+          ],
+          [
+            654,
+            711
+          ],
+          [
+            654,
+            688
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          717,
+          862,
+          748
+        ],
+        "content": "(3) Pendataan sebagaimana dimaksud pada ayat (1) dilakukan oleh petugas Pendataan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            717
+          ],
+          [
+            279,
+            748
+          ],
+          [
+            851,
+            748
+          ],
+          [
+            861,
+            743
+          ],
+          [
+            861,
+            717
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          748,
+          863,
+          781
+        ],
+        "content": "(4) Hasil Pendataan sebagaimana dimaksud pada ayat (1) dilaporkan dalam bentuk laporan hasil Pendataan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            748
+          ],
+          [
+            280,
+            780
+          ],
+          [
+            862,
+            780
+          ],
+          [
+            862,
+            748
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          793,
+          616,
+          808
+        ],
+        "content": "## Pasal 90",
+        "index": 14,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            793
+          ],
+          [
+            528,
+            808
+          ],
+          [
+            615,
+            808
+          ],
+          [
+            615,
+            793
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          808,
+          865,
+          915
+        ],
+        "content": "(1) Pendataan kantor sebagaimana dimaksud dalam Pasal 89 ayat (2) huruf a dilakukan dengan cara mengolah data Objek Pajak yang dilaporkan oleh Wajib Pajak melalui Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1) dan/atau mengolah data dan informasi yang terdapat dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            808
+          ],
+          [
+            279,
+            915
+          ],
+          [
+            864,
+            915
+          ],
+          [
+            864,
+            808
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          375,
+          72,
+          867,
+          103
+        ],
+        "content": "sebagaimana dimaksud dalam Pasal 81 ayat (1), Pasal 82 ayat (3), atau Pasal 83 ayat (3).",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            76
+          ],
+          [
+            375,
+            98
+          ],
+          [
+            380,
+            102
+          ],
+          [
+            866,
+            102
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            817,
+            72
+          ],
+          [
+            811,
+            72
+          ],
+          [
+            380,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          102,
+          869,
+          148
+        ],
+        "content": "(2) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) terpenuhi, Direktorat Jenderal Pajak menerbitkan bukti penerimaan elektronik.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            102
+          ],
+          [
+            282,
+            143
+          ],
+          [
+            308,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          148,
+          870,
+          209
+        ],
+        "content": "(3) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) tidak terpenuhi, Surat Pemberitahuan Objek Pajak dianggap tidak disampaikan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            148
+          ],
+          [
+            284,
+            209
+          ],
+          [
+            869,
+            209
+          ],
+          [
+            869,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          223,
+          622,
+          237
+        ],
+        "content": "## Pasal 86",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            223
+          ],
+          [
+            531,
+            236
+          ],
+          [
+            621,
+            236
+          ],
+          [
+            621,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          237,
+          868,
+          328
+        ],
+        "content": "(1) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar melakukan penelitian material terhadap Surat Pemberitahuan Objek Pajak yang telah disampaikan oleh Wajib Pajak dan telah dilakukan penelitian formal sebagaimana dimaksud dalam Pasal 85 ayat (1).",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            237
+          ],
+          [
+            287,
+            327
+          ],
+          [
+            867,
+            327
+          ],
+          [
+            867,
+            242
+          ],
+          [
+            425,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          328,
+          868,
+          448
+        ],
+        "content": "(2) Dalam hal berdasarkan hasil penelitian material sebagaimana dimaksud pada ayat (1) terdapat indikasi kewajiban perpajakan dalam pengisian Surat Pemberitahuan Objek Pajak tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan, Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar dapat meminta klarifikasi kepada Wajib Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            328
+          ],
+          [
+            281,
+            443
+          ],
+          [
+            291,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          448,
+          867,
+          493
+        ],
+        "content": "(3) Klarifikasi sebagaimana dimaksud pada ayat (2) dilakukan dengan menerbitkan dan menyampaikan surat permintaan klarifikasi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            448
+          ],
+          [
+            287,
+            493
+          ],
+          [
+            866,
+            493
+          ],
+          [
+            866,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          494,
+          867,
+          538
+        ],
+        "content": "(4) Klarifikasi sebagaimana dimaksud pada ayat (2) dapat dilanjutkan dengan melakukan peninjauan Objek Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            494
+          ],
+          [
+            281,
+            533
+          ],
+          [
+            291,
+            538
+          ],
+          [
+            866,
+            538
+          ],
+          [
+            866,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          540,
+          867,
+          584
+        ],
+        "content": "(5) Berdasarkan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3), Wajib Pajak menanggapi dengan:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            540
+          ],
+          [
+            280,
+            584
+          ],
+          [
+            866,
+            584
+          ],
+          [
+            866,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          585,
+          865,
+          614
+        ],
+        "content": "a. membuat surat tanggapan atas surat permintaan klarifikasi; dan/atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            585
+          ],
+          [
+            325,
+            614
+          ],
+          [
+            864,
+            614
+          ],
+          [
+            864,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          615,
+          865,
+          645
+        ],
+        "content": "b. melakukan pembetulan Surat Pemberitahuan Objek Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            615
+          ],
+          [
+            325,
+            644
+          ],
+          [
+            864,
+            644
+          ],
+          [
+            864,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          645,
+          866,
+          705
+        ],
+        "content": "(6) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar membuat laporan pelaksanaan klarifikasi berdasarkan hasil klarifikasi sebagaimana dimaksud pada ayat (2).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            645
+          ],
+          [
+            281,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          705,
+          867,
+          750
+        ],
+        "content": "(7) Laporan pelaksanaan klarifikasi sebagaimana dimaksud pada ayat (6) dapat digunakan sebagai bahan analisis risiko untuk usulan Pemeriksaan dalam hal:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            705
+          ],
+          [
+            285,
+            750
+          ],
+          [
+            866,
+            750
+          ],
+          [
+            866,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          751,
+          866,
+          795
+        ],
+        "content": "a. Wajib Pajak tidak membuat surat tanggapan atas surat permintaan klarifikasi sebagaimana dimaksud pada ayat (5) huruf a;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            751
+          ],
+          [
+            325,
+            795
+          ],
+          [
+            865,
+            795
+          ],
+          [
+            865,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          795,
+          866,
+          840
+        ],
+        "content": "b. Wajib Pajak tidak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            795
+          ],
+          [
+            324,
+            840
+          ],
+          [
+            865,
+            840
+          ],
+          [
+            865,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          840,
+          868,
+          916
+        ],
+        "content": "c. Wajib Pajak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b tetapi tidak sesuai dengan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3).",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            840
+          ],
+          [
+            324,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            862,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          531,
+          86,
+          620,
+          100
+        ],
+        "content": "Pasal 87",
+        "index": 0,
+        "label": "text",
+        "native_label": "figure_title",
+        "polygon": [
+          [
+            531,
+            86
+          ],
+          [
+            531,
+            100
+          ],
+          [
+            620,
+            100
+          ],
+          [
+            620,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          100,
+          867,
+          162
+        ],
+        "content": "(1) Wajib Pajak dapat membetulkan Surat Pemberitahuan Objek Pajak yang telah disampaikan kepada Direktorat Jenderal Pajak melalui penyampaiian Surat Pemberitahuan Objek Pajak pembetulan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            100
+          ],
+          [
+            282,
+            161
+          ],
+          [
+            867,
+            161
+          ],
+          [
+            867,
+            100
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          161,
+          868,
+          236
+        ],
+        "content": "(2) Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud pada ayat (1) disampaikan paling lama 15 (lima belas) hari setelah berakhirnya jangka waktu 30 (tiga puluh) hari sebagaimana dimaksud dalam Pasal 81 ayat (1).",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            161
+          ],
+          [
+            287,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            166
+          ],
+          [
+            842,
+            161
+          ],
+          [
+            808,
+            161
+          ],
+          [
+            759,
+            161
+          ],
+          [
+            718,
+            161
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          236,
+          867,
+          356
+        ],
+        "content": "(3) Dalam hal surat permintaan klarifikasi sebagaimana dimaksud dalam Pasal 86 ayat (3) disampaikan kepada Wajib Pajak setelah jangka waktu sebagaimana dimaksud pada ayat (2) berakhir, Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud dalam Pasal 86 ayat (5) huruf b disampaikan paling lama 7 (tujuh) hari sejak tanggal diterimanya surat permintaan klarifikasi.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            236
+          ],
+          [
+            281,
+            356
+          ],
+          [
+            867,
+            356
+          ],
+          [
+            867,
+            241
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          357,
+          867,
+          418
+        ],
+        "content": "(4) Tanggal diterimanya surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3) merupakan tanggal dikirimnya surat permintaan klarifikasi ke Akun Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            357
+          ],
+          [
+            280,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          529,
+          432,
+          618,
+          446
+        ],
+        "content": "## Pasal 88",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            529,
+            432
+          ],
+          [
+            529,
+            446
+          ],
+          [
+            617,
+            446
+          ],
+          [
+            617,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          446,
+          866,
+          523
+        ],
+        "content": "(1) Wajib Pajak yang melakukan pembetulan Surat Pemberitahuan Objek Pajak harus menyampaikan Surat Pemberitahuan Objek Pajak pembetulan dalam jangka waktu sebagaimana dimaksud dalam Pasal 87 ayat (2) atau ayat (3).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            446
+          ],
+          [
+            280,
+            518
+          ],
+          [
+            295,
+            522
+          ],
+          [
+            865,
+            522
+          ],
+          [
+            865,
+            446
+          ],
+          [
+            671,
+            446
+          ],
+          [
+            645,
+            446
+          ],
+          [
+            631,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          523,
+          867,
+          599
+        ],
+        "content": "(2) Dalam hal Surat Pemberitahuan Objek Pajak pembetulan disampaikan Wajib Pajak melewati jangka waktu sebagaimana dimaksud pada ayat (1), Surat Pemberitahuan Objek Pajak pembetulan dianggap tidak disampaikan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            523
+          ],
+          [
+            280,
+            599
+          ],
+          [
+            866,
+            599
+          ],
+          [
+            866,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          612,
+          617,
+          628
+        ],
+        "content": "## Pasal 89",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            612
+          ],
+          [
+            528,
+            627
+          ],
+          [
+            617,
+            627
+          ],
+          [
+            617,
+            612
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          628,
+          861,
+          658
+        ],
+        "content": "(1) Direktur Jenderal Pajak berwenang melakukan Pendataan terhadap Objek Pajak yang telah terdaftar.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            628
+          ],
+          [
+            279,
+            658
+          ],
+          [
+            861,
+            658
+          ],
+          [
+            861,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          658,
+          863,
+          690
+        ],
+        "content": "(2) Jenis Pendataan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            658
+          ],
+          [
+            279,
+            689
+          ],
+          [
+            862,
+            689
+          ],
+          [
+            862,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          688,
+          655,
+          717
+        ],
+        "content": "a. Pendataan kantor; dan/atau\n\nb. Pendataan lapangan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            688
+          ],
+          [
+            321,
+            694
+          ],
+          [
+            321,
+            700
+          ],
+          [
+            321,
+            716
+          ],
+          [
+            585,
+            716
+          ],
+          [
+            595,
+            716
+          ],
+          [
+            605,
+            716
+          ],
+          [
+            654,
+            711
+          ],
+          [
+            654,
+            688
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          717,
+          862,
+          748
+        ],
+        "content": "(3) Pendataan sebagaimana dimaksud pada ayat (1) dilakukan oleh petugas Pendataan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            717
+          ],
+          [
+            279,
+            748
+          ],
+          [
+            851,
+            748
+          ],
+          [
+            861,
+            743
+          ],
+          [
+            861,
+            717
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          748,
+          863,
+          781
+        ],
+        "content": "(4) Hasil Pendataan sebagaimana dimaksud pada ayat (1) dilaporkan dalam bentuk laporan hasil Pendataan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            748
+          ],
+          [
+            280,
+            780
+          ],
+          [
+            862,
+            780
+          ],
+          [
+            862,
+            748
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          793,
+          616,
+          808
+        ],
+        "content": "## Pasal 90",
+        "index": 14,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            793
+          ],
+          [
+            528,
+            808
+          ],
+          [
+            615,
+            808
+          ],
+          [
+            615,
+            793
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          808,
+          865,
+          915
+        ],
+        "content": "(1) Pendataan kantor sebagaimana dimaksud dalam Pasal 89 ayat (2) huruf a dilakukan dengan cara mengolah data Objek Pajak yang dilaporkan oleh Wajib Pajak melalui Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1) dan/atau mengolah data dan informasi yang terdapat dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            808
+          ],
+          [
+            279,
+            915
+          ],
+          [
+            864,
+            915
+          ],
+          [
+            864,
+            808
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\n\n\nsebagaimana dimaksud dalam Pasal 81 ayat (1), Pasal 82 ayat (3), atau Pasal 83 ayat (3).\n\n(2) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) terpenuhi, Direktorat Jenderal Pajak menerbitkan bukti penerimaan elektronik.\n\n(3) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) tidak terpenuhi, Surat Pemberitahuan Objek Pajak dianggap tidak disampaikan.\n\n## Pasal 86\n\n(1) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar melakukan penelitian material terhadap Surat Pemberitahuan Objek Pajak yang telah disampaikan oleh Wajib Pajak dan telah dilakukan penelitian formal sebagaimana dimaksud dalam Pasal 85 ayat (1).\n\n(2) Dalam hal berdasarkan hasil penelitian material sebagaimana dimaksud pada ayat (1) terdapat indikasi kewajiban perpajakan dalam pengisian Surat Pemberitahuan Objek Pajak tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan, Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar dapat meminta klarifikasi kepada Wajib Pajak.\n\n(3) Klarifikasi sebagaimana dimaksud pada ayat (2) dilakukan dengan menerbitkan dan menyampaikan surat permintaan klarifikasi.\n\n(4) Klarifikasi sebagaimana dimaksud pada ayat (2) dapat dilanjutkan dengan melakukan peninjauan Objek Pajak.\n\n(5) Berdasarkan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3), Wajib Pajak menanggapi dengan:\n\na. membuat surat tanggapan atas surat permintaan klarifikasi; dan/atau\n\nb. melakukan pembetulan Surat Pemberitahuan Objek Pajak.\n\n(6) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar membuat laporan pelaksanaan klarifikasi berdasarkan hasil klarifikasi sebagaimana dimaksud pada ayat (2).\n\n(7) Laporan pelaksanaan klarifikasi sebagaimana dimaksud pada ayat (6) dapat digunakan sebagai bahan analisis risiko untuk usulan Pemeriksaan dalam hal:\n\na. Wajib Pajak tidak membuat surat tanggapan atas surat permintaan klarifikasi sebagaimana dimaksud pada ayat (5) huruf a;\n\nb. Wajib Pajak tidak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b; atau\n\nc. Wajib Pajak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b tetapi tidak sesuai dengan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3).\n\nPasal 87\n\n(1) Wajib Pajak dapat membetulkan Surat Pemberitahuan Objek Pajak yang telah disampaikan kepada Direktorat Jenderal Pajak melalui penyampaiian Surat Pemberitahuan Objek Pajak pembetulan.\n\n(2) Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud pada ayat (1) disampaikan paling lama 15 (lima belas) hari setelah berakhirnya jangka waktu 30 (tiga puluh) hari sebagaimana dimaksud dalam Pasal 81 ayat (1).\n\n(3) Dalam hal surat permintaan klarifikasi sebagaimana dimaksud dalam Pasal 86 ayat (3) disampaikan kepada Wajib Pajak setelah jangka waktu sebagaimana dimaksud pada ayat (2) berakhir, Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud dalam Pasal 86 ayat (5) huruf b disampaikan paling lama 7 (tujuh) hari sejak tanggal diterimanya surat permintaan klarifikasi.\n\n(4) Tanggal diterimanya surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3) merupakan tanggal dikirimnya surat permintaan klarifikasi ke Akun Wajib Pajak.\n\n## Pasal 88\n\n(1) Wajib Pajak yang melakukan pembetulan Surat Pemberitahuan Objek Pajak harus menyampaikan Surat Pemberitahuan Objek Pajak pembetulan dalam jangka waktu sebagaimana dimaksud dalam Pasal 87 ayat (2) atau ayat (3).\n\n(2) Dalam hal Surat Pemberitahuan Objek Pajak pembetulan disampaikan Wajib Pajak melewati jangka waktu sebagaimana dimaksud pada ayat (1), Surat Pemberitahuan Objek Pajak pembetulan dianggap tidak disampaikan.\n\n## Pasal 89\n\n(1) Direktur Jenderal Pajak berwenang melakukan Pendataan terhadap Objek Pajak yang telah terdaftar.\n\n(2) Jenis Pendataan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Pendataan kantor; dan/atau\n\nb. Pendataan lapangan.\n\n(3) Pendataan sebagaimana dimaksud pada ayat (1) dilakukan oleh petugas Pendataan.\n\n(4) Hasil Pendataan sebagaimana dimaksud pada ayat (1) dilaporkan dalam bentuk laporan hasil Pendataan.\n\n## Pasal 90\n\n(1) Pendataan kantor sebagaimana dimaksud dalam Pasal 89 ayat (2) huruf a dilakukan dengan cara mengolah data Objek Pajak yang dilaporkan oleh Wajib Pajak melalui Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1) dan/atau mengolah data dan informasi yang terdapat dalam sistem administrasi Direktorat Jenderal Pajak.",
+  "md_results": "\n\n\n\nsebagaimana dimaksud dalam Pasal 81 ayat (1), Pasal 82 ayat (3), atau Pasal 83 ayat (3).\n\n(2) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) terpenuhi, Direktorat Jenderal Pajak menerbitkan bukti penerimaan elektronik.\n\n(3) Dalam hal hasil penelitian formal sebagaimana dimaksud pada ayat (1) tidak terpenuhi, Surat Pemberitahuan Objek Pajak dianggap tidak disampaikan.\n\n## Pasal 86\n\n(1) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar melakukan penelitian material terhadap Surat Pemberitahuan Objek Pajak yang telah disampaikan oleh Wajib Pajak dan telah dilakukan penelitian formal sebagaimana dimaksud dalam Pasal 85 ayat (1).\n\n(2) Dalam hal berdasarkan hasil penelitian material sebagaimana dimaksud pada ayat (1) terdapat indikasi kewajiban perpajakan dalam pengisian Surat Pemberitahuan Objek Pajak tidak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan, Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar dapat meminta klarifikasi kepada Wajib Pajak.\n\n(3) Klarifikasi sebagaimana dimaksud pada ayat (2) dilakukan dengan menerbitkan dan menyampaikan surat permintaan klarifikasi.\n\n(4) Klarifikasi sebagaimana dimaksud pada ayat (2) dapat dilanjutkan dengan melakukan peninjauan Objek Pajak.\n\n(5) Berdasarkan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3), Wajib Pajak menanggapi dengan:\n\na. membuat surat tanggapan atas surat permintaan klarifikasi; dan/atau\n\nb. melakukan pembetulan Surat Pemberitahuan Objek Pajak.\n\n(6) Direktorat Jenderal Pajak melalui Kantor Pelayanan Pajak tempat Objek Pajak terdaftar membuat laporan pelaksanaan klarifikasi berdasarkan hasil klarifikasi sebagaimana dimaksud pada ayat (2).\n\n(7) Laporan pelaksanaan klarifikasi sebagaimana dimaksud pada ayat (6) dapat digunakan sebagai bahan analisis risiko untuk usulan Pemeriksaan dalam hal:\n\na. Wajib Pajak tidak membuat surat tanggapan atas surat permintaan klarifikasi sebagaimana dimaksud pada ayat (5) huruf a;\n\nb. Wajib Pajak tidak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b; atau\n\nc. Wajib Pajak melakukan pembetulan Surat Pemberitahuan Objek Pajak sebagaimana dimaksud pada ayat (5) huruf b tetapi tidak sesuai dengan surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3).\n\nPasal 87\n\n(1) Wajib Pajak dapat membetulkan Surat Pemberitahuan Objek Pajak yang telah disampaikan kepada Direktorat Jenderal Pajak melalui penyampaiian Surat Pemberitahuan Objek Pajak pembetulan.\n\n(2) Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud pada ayat (1) disampaikan paling lama 15 (lima belas) hari setelah berakhirnya jangka waktu 30 (tiga puluh) hari sebagaimana dimaksud dalam Pasal 81 ayat (1).\n\n(3) Dalam hal surat permintaan klarifikasi sebagaimana dimaksud dalam Pasal 86 ayat (3) disampaikan kepada Wajib Pajak setelah jangka waktu sebagaimana dimaksud pada ayat (2) berakhir, Surat Pemberitahuan Objek Pajak pembetulan sebagaimana dimaksud dalam Pasal 86 ayat (5) huruf b disampaikan paling lama 7 (tujuh) hari sejak tanggal diterimanya surat permintaan klarifikasi.\n\n(4) Tanggal diterimanya surat permintaan klarifikasi sebagaimana dimaksud pada ayat (3) merupakan tanggal dikirimnya surat permintaan klarifikasi ke Akun Wajib Pajak.\n\n## Pasal 88\n\n(1) Wajib Pajak yang melakukan pembetulan Surat Pemberitahuan Objek Pajak harus menyampaikan Surat Pemberitahuan Objek Pajak pembetulan dalam jangka waktu sebagaimana dimaksud dalam Pasal 87 ayat (2) atau ayat (3).\n\n(2) Dalam hal Surat Pemberitahuan Objek Pajak pembetulan disampaikan Wajib Pajak melewati jangka waktu sebagaimana dimaksud pada ayat (1), Surat Pemberitahuan Objek Pajak pembetulan dianggap tidak disampaikan.\n\n## Pasal 89\n\n(1) Direktur Jenderal Pajak berwenang melakukan Pendataan terhadap Objek Pajak yang telah terdaftar.\n\n(2) Jenis Pendataan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Pendataan kantor; dan/atau\n\nb. Pendataan lapangan.\n\n(3) Pendataan sebagaimana dimaksud pada ayat (1) dilakukan oleh petugas Pendataan.\n\n(4) Hasil Pendataan sebagaimana dimaksud pada ayat (1) dilaporkan dalam bentuk laporan hasil Pendataan.\n\n## Pasal 90\n\n(1) Pendataan kantor sebagaimana dimaksud dalam Pasal 89 ayat (2) huruf a dilakukan dengan cara mengolah data Objek Pajak yang dilaporkan oleh Wajib Pajak melalui Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1) dan/atau mengolah data dan informasi yang terdapat dalam sistem administrasi Direktorat Jenderal Pajak.",
+  "model": "glm-ocr",
+  "usage": {}
+}

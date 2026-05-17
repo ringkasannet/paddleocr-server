@@ -1,0 +1,1189 @@
+{
+  "created": 1779015332,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-732e6cf2ea984eef823123a023bc6",
+  "json_result": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          288,
+          70,
+          874,
+          131
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur), permohonan sebagaimana dimaksud pada ayat (1) harus memenuhi ketentuan sebagai berikut:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            70
+          ],
+          [
+            288,
+            130
+          ],
+          [
+            873,
+            130
+          ],
+          [
+            873,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          131,
+          714,
+          146
+        ],
+        "content": "a. Wajib Pajak telah menyampaikan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            131
+          ],
+          [
+            333,
+            146
+          ],
+          [
+            714,
+            146
+          ],
+          [
+            714,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          380,
+          146,
+          872,
+          196
+        ],
+        "content": "1. Surat Pemberitahuan Tahunan Pajak Penghasilan untuk 2 (dua) Tahun Pajakterakhir; dan",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            380,
+            146
+          ],
+          [
+            380,
+            195
+          ],
+          [
+            872,
+            195
+          ],
+          [
+            872,
+            146
+          ],
+          [
+            783,
+            146
+          ],
+          [
+            733,
+            146
+          ],
+          [
+            718,
+            146
+          ],
+          [
+            703,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          378,
+          198,
+          872,
+          248
+        ],
+        "content": "2. Surat Pemberitahuan Masa Pajak Pertambahan Nilai untuk 3 (tiga) Masa Pajakterakhir,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            378,
+            198
+          ],
+          [
+            378,
+            247
+          ],
+          [
+            867,
+            247
+          ],
+          [
+            872,
+            243
+          ],
+          [
+            872,
+            198
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          250,
+          871,
+          295
+        ],
+        "content": "yang sudah menjadi kewajibannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            250
+          ],
+          [
+            377,
+            295
+          ],
+          [
+            871,
+            295
+          ],
+          [
+            871,
+            250
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          295,
+          871,
+          325
+        ],
+        "content": "b. Wajib Pajak menyampaikan surat permohonan yang mencantumkan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            295
+          ],
+          [
+            331,
+            315
+          ],
+          [
+            341,
+            325
+          ],
+          [
+            371,
+            325
+          ],
+          [
+            377,
+            325
+          ],
+          [
+            870,
+            325
+          ],
+          [
+            870,
+            295
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          378,
+          326,
+          871,
+          370
+        ],
+        "content": "1. alasan pengajuan permohonan karena keadaan di luar kekuasaannya (force majeur);\n\ndan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            378,
+            326
+          ],
+          [
+            378,
+            370
+          ],
+          [
+            870,
+            370
+          ],
+          [
+            870,
+            326
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          371,
+          871,
+          461
+        ],
+        "content": "2. jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk diangsur, masa angsuran, dan besarnya angsuran atau jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk ditunda dan jangka waktu penundaan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            382,
+            371
+          ],
+          [
+            377,
+            461
+          ],
+          [
+            870,
+            461
+          ],
+          [
+            870,
+            371
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          461,
+          870,
+          538
+        ],
+        "content": "c. surat permohonan sebagaimana dimaksud dalam huruf b dilampiri dokumen berupa surat keterangan bahwa Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            461
+          ],
+          [
+            329,
+            538
+          ],
+          [
+            869,
+            538
+          ],
+          [
+            869,
+            461
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          359,
+          538,
+          422,
+          550
+        ],
+        "content": "dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            359,
+            538
+          ],
+          [
+            359,
+            550
+          ],
+          [
+            417,
+            550
+          ],
+          [
+            417,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          551,
+          868,
+          582
+        ],
+        "content": "d. Wajib Pajak memberikan jaminan berupa dokumen aset berwujud, dengan kriteria:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            551
+          ],
+          [
+            329,
+            581
+          ],
+          [
+            867,
+            581
+          ],
+          [
+            867,
+            551
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          582,
+          870,
+          626
+        ],
+        "content": "1. merupakan milik Wajib Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            587
+          ],
+          [
+            377,
+            626
+          ],
+          [
+            869,
+            626
+          ],
+          [
+            869,
+            587
+          ],
+          [
+            790,
+            582
+          ],
+          [
+            760,
+            582
+          ],
+          [
+            750,
+            582
+          ],
+          [
+            481,
+            582
+          ],
+          [
+            406,
+            582
+          ],
+          [
+            382,
+            582
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          627,
+          846,
+          642
+        ],
+        "content": "2. tidak sedang dijadikan jaminan atas utang.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            627
+          ],
+          [
+            375,
+            641
+          ],
+          [
+            845,
+            641
+          ],
+          [
+            845,
+            627
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          642,
+          868,
+          763
+        ],
+        "content": "(4) Surat permohonan pengangsuran pembayaran Pajak Penghasilan Pasal 29 atau surat permohonan penundaan pembayaran Pajak Penghasilan Pasal 29 sebagaimana dimaksud pada ayat (1) disampaikan paling lama sebelum batas waktu penyampaian Surat Pemberitahuan Tahunan Pajak Penghasilan dan sebelum Surat Pemberitahuan Tahunan Pajak Penghasilan disampaikan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            642
+          ],
+          [
+            282,
+            758
+          ],
+          [
+            308,
+            762
+          ],
+          [
+            868,
+            762
+          ],
+          [
+            863,
+            642
+          ],
+          [
+            823,
+            642
+          ],
+          [
+            774,
+            642
+          ],
+          [
+            768,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          762,
+          868,
+          853
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengangsuran dan penundaan kekurangan pembayaran pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            762
+          ],
+          [
+            282,
+            853
+          ],
+          [
+            868,
+            853
+          ],
+          [
+            868,
+            762
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          867,
+          625,
+          882
+        ],
+        "content": "## Pasal 115",
+        "index": 15,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            867
+          ],
+          [
+            525,
+            881
+          ],
+          [
+            625,
+            881
+          ],
+          [
+            625,
+            867
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          882,
+          868,
+          914
+        ],
+        "content": "(1) Permohonan pengangsuran atau penundaan pembayaran pajak yang masih harus dibayar atau",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            882
+          ],
+          [
+            282,
+            914
+          ],
+          [
+            868,
+            914
+          ],
+          [
+            868,
+            882
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          288,
+          70,
+          874,
+          131
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur), permohonan sebagaimana dimaksud pada ayat (1) harus memenuhi ketentuan sebagai berikut:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            70
+          ],
+          [
+            288,
+            130
+          ],
+          [
+            873,
+            130
+          ],
+          [
+            873,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          131,
+          714,
+          146
+        ],
+        "content": "a. Wajib Pajak telah menyampaikan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            131
+          ],
+          [
+            333,
+            146
+          ],
+          [
+            714,
+            146
+          ],
+          [
+            714,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          380,
+          146,
+          872,
+          196
+        ],
+        "content": "1. Surat Pemberitahuan Tahunan Pajak Penghasilan untuk 2 (dua) Tahun Pajakterakhir; dan",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            380,
+            146
+          ],
+          [
+            380,
+            195
+          ],
+          [
+            872,
+            195
+          ],
+          [
+            872,
+            146
+          ],
+          [
+            783,
+            146
+          ],
+          [
+            733,
+            146
+          ],
+          [
+            718,
+            146
+          ],
+          [
+            703,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          378,
+          198,
+          872,
+          248
+        ],
+        "content": "2. Surat Pemberitahuan Masa Pajak Pertambahan Nilai untuk 3 (tiga) Masa Pajakterakhir,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            378,
+            198
+          ],
+          [
+            378,
+            247
+          ],
+          [
+            867,
+            247
+          ],
+          [
+            872,
+            243
+          ],
+          [
+            872,
+            198
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          250,
+          871,
+          295
+        ],
+        "content": "yang sudah menjadi kewajibannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            250
+          ],
+          [
+            377,
+            295
+          ],
+          [
+            871,
+            295
+          ],
+          [
+            871,
+            250
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          295,
+          871,
+          325
+        ],
+        "content": "b. Wajib Pajak menyampaikan surat permohonan yang mencantumkan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            295
+          ],
+          [
+            331,
+            315
+          ],
+          [
+            341,
+            325
+          ],
+          [
+            371,
+            325
+          ],
+          [
+            377,
+            325
+          ],
+          [
+            870,
+            325
+          ],
+          [
+            870,
+            295
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          378,
+          326,
+          871,
+          370
+        ],
+        "content": "1. alasan pengajuan permohonan karena keadaan di luar kekuasaannya (force majeur);\n\ndan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            378,
+            326
+          ],
+          [
+            378,
+            370
+          ],
+          [
+            870,
+            370
+          ],
+          [
+            870,
+            326
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          371,
+          871,
+          461
+        ],
+        "content": "2. jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk diangsur, masa angsuran, dan besarnya angsuran atau jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk ditunda dan jangka waktu penundaan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            382,
+            371
+          ],
+          [
+            377,
+            461
+          ],
+          [
+            870,
+            461
+          ],
+          [
+            870,
+            371
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          461,
+          870,
+          538
+        ],
+        "content": "c. surat permohonan sebagaimana dimaksud dalam huruf b dilampiri dokumen berupa surat keterangan bahwa Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            461
+          ],
+          [
+            329,
+            538
+          ],
+          [
+            869,
+            538
+          ],
+          [
+            869,
+            461
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          359,
+          538,
+          422,
+          550
+        ],
+        "content": "dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            359,
+            538
+          ],
+          [
+            359,
+            550
+          ],
+          [
+            417,
+            550
+          ],
+          [
+            417,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          551,
+          868,
+          582
+        ],
+        "content": "d. Wajib Pajak memberikan jaminan berupa dokumen aset berwujud, dengan kriteria:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            551
+          ],
+          [
+            329,
+            581
+          ],
+          [
+            867,
+            581
+          ],
+          [
+            867,
+            551
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          377,
+          582,
+          870,
+          626
+        ],
+        "content": "1. merupakan milik Wajib Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            377,
+            587
+          ],
+          [
+            377,
+            626
+          ],
+          [
+            869,
+            626
+          ],
+          [
+            869,
+            587
+          ],
+          [
+            790,
+            582
+          ],
+          [
+            760,
+            582
+          ],
+          [
+            750,
+            582
+          ],
+          [
+            481,
+            582
+          ],
+          [
+            406,
+            582
+          ],
+          [
+            382,
+            582
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          627,
+          846,
+          642
+        ],
+        "content": "2. tidak sedang dijadikan jaminan atas utang.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            627
+          ],
+          [
+            375,
+            641
+          ],
+          [
+            845,
+            641
+          ],
+          [
+            845,
+            627
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          642,
+          868,
+          763
+        ],
+        "content": "(4) Surat permohonan pengangsuran pembayaran Pajak Penghasilan Pasal 29 atau surat permohonan penundaan pembayaran Pajak Penghasilan Pasal 29 sebagaimana dimaksud pada ayat (1) disampaikan paling lama sebelum batas waktu penyampaian Surat Pemberitahuan Tahunan Pajak Penghasilan dan sebelum Surat Pemberitahuan Tahunan Pajak Penghasilan disampaikan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            642
+          ],
+          [
+            282,
+            758
+          ],
+          [
+            308,
+            762
+          ],
+          [
+            868,
+            762
+          ],
+          [
+            863,
+            642
+          ],
+          [
+            823,
+            642
+          ],
+          [
+            774,
+            642
+          ],
+          [
+            768,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          762,
+          868,
+          853
+        ],
+        "content": "(5) Tata cara penyampaian permohonan pengangsuran dan penundaan kekurangan pembayaran pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            762
+          ],
+          [
+            282,
+            853
+          ],
+          [
+            868,
+            853
+          ],
+          [
+            868,
+            762
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          867,
+          625,
+          882
+        ],
+        "content": "## Pasal 115",
+        "index": 15,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            867
+          ],
+          [
+            525,
+            881
+          ],
+          [
+            625,
+            881
+          ],
+          [
+            625,
+            867
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          882,
+          868,
+          914
+        ],
+        "content": "(1) Permohonan pengangsuran atau penundaan pembayaran pajak yang masih harus dibayar atau",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            882
+          ],
+          [
+            282,
+            914
+          ],
+          [
+            868,
+            914
+          ],
+          [
+            868,
+            882
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\n\n\n\n\n(3) Dalam hal Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur), permohonan sebagaimana dimaksud pada ayat (1) harus memenuhi ketentuan sebagai berikut:\n\na. Wajib Pajak telah menyampaikan:\n\n1. Surat Pemberitahuan Tahunan Pajak Penghasilan untuk 2 (dua) Tahun Pajakterakhir; dan\n\n2. Surat Pemberitahuan Masa Pajak Pertambahan Nilai untuk 3 (tiga) Masa Pajakterakhir,\n\nyang sudah menjadi kewajibannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\nb. Wajib Pajak menyampaikan surat permohonan yang mencantumkan:\n\n1. alasan pengajuan permohonan karena keadaan di luar kekuasaannya (force majeur);\n\ndan\n\n2. jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk diangsur, masa angsuran, dan besarnya angsuran atau jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk ditunda dan jangka waktu penundaan;\n\nc. surat permohonan sebagaimana dimaksud dalam huruf b dilampiri dokumen berupa surat keterangan bahwa Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;\n\ndan\n\nd. Wajib Pajak memberikan jaminan berupa dokumen aset berwujud, dengan kriteria:\n\n1. merupakan milik Wajib Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan\n\n2. tidak sedang dijadikan jaminan atas utang.\n\n(4) Surat permohonan pengangsuran pembayaran Pajak Penghasilan Pasal 29 atau surat permohonan penundaan pembayaran Pajak Penghasilan Pasal 29 sebagaimana dimaksud pada ayat (1) disampaikan paling lama sebelum batas waktu penyampaian Surat Pemberitahuan Tahunan Pajak Penghasilan dan sebelum Surat Pemberitahuan Tahunan Pajak Penghasilan disampaikan.\n\n(5) Tata cara penyampaian permohonan pengangsuran dan penundaan kekurangan pembayaran pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 115\n\n(1) Permohonan pengangsuran atau penundaan pembayaran pajak yang masih harus dibayar atau",
+  "md_results": "\n\n\n\n\n\n(3) Dalam hal Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur), permohonan sebagaimana dimaksud pada ayat (1) harus memenuhi ketentuan sebagai berikut:\n\na. Wajib Pajak telah menyampaikan:\n\n1. Surat Pemberitahuan Tahunan Pajak Penghasilan untuk 2 (dua) Tahun Pajakterakhir; dan\n\n2. Surat Pemberitahuan Masa Pajak Pertambahan Nilai untuk 3 (tiga) Masa Pajakterakhir,\n\nyang sudah menjadi kewajibannya sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\nb. Wajib Pajak menyampaikan surat permohonan yang mencantumkan:\n\n1. alasan pengajuan permohonan karena keadaan di luar kekuasaannya (force majeur);\n\ndan\n\n2. jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk diangsur, masa angsuran, dan besarnya angsuran atau jumlah kekurangan pembayaran pajak yang pembayarannya dimohonkan untuk ditunda dan jangka waktu penundaan;\n\nc. surat permohonan sebagaimana dimaksud dalam huruf b dilampiri dokumen berupa surat keterangan bahwa Wajib Pajak mengalami keadaan di luar kekuasaannya (force majeur) dari pihak yang berwenang;\n\ndan\n\nd. Wajib Pajak memberikan jaminan berupa dokumen aset berwujud, dengan kriteria:\n\n1. merupakan milik Wajib Pajak pemohon yang dibuktikan dengan bukti kepemilikan atas aset berwujud tersebut; dan\n\n2. tidak sedang dijadikan jaminan atas utang.\n\n(4) Surat permohonan pengangsuran pembayaran Pajak Penghasilan Pasal 29 atau surat permohonan penundaan pembayaran Pajak Penghasilan Pasal 29 sebagaimana dimaksud pada ayat (1) disampaikan paling lama sebelum batas waktu penyampaian Surat Pemberitahuan Tahunan Pajak Penghasilan dan sebelum Surat Pemberitahuan Tahunan Pajak Penghasilan disampaikan.\n\n(5) Tata cara penyampaian permohonan pengangsuran dan penundaan kekurangan pembayaran pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 115\n\n(1) Permohonan pengangsuran atau penundaan pembayaran pajak yang masih harus dibayar atau",
+  "model": "glm-ocr",
+  "usage": {}
+}

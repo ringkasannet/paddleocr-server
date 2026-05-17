@@ -1,0 +1,3815 @@
+{
+  "created": 1779015290,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-26874eb33e214afc91ecccbd9d886",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          280,
+          72,
+          863,
+          163
+        ],
+        "content": "(5) Persyaratan objektif sebagaimana dimaksud pada ayat (1) merupakan persyaratan bagi subjek pajak yang menerima atau memperoleh penghasilan atau diwajibkan untuk melakukan pemotongan dan/atau pemungutan sesuai dengan ketentuan Undang-Undang Pajak Penghasilan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            72
+          ],
+          [
+            280,
+            162
+          ],
+          [
+            862,
+            162
+          ],
+          [
+            862,
+            77
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          163,
+          862,
+          192
+        ],
+        "content": "(6) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            163
+          ],
+          [
+            280,
+            192
+          ],
+          [
+            314,
+            192
+          ],
+          [
+            325,
+            192
+          ],
+          [
+            857,
+            192
+          ],
+          [
+            862,
+            187
+          ],
+          [
+            862,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          193,
+          634,
+          209
+        ],
+        "content": "a. Wajib Pajak orang pribadi;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            193
+          ],
+          [
+            325,
+            208
+          ],
+          [
+            633,
+            208
+          ],
+          [
+            633,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          208,
+          727,
+          223
+        ],
+        "content": "b. Wajib Pajak Warisan Belum Terbagi;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            208
+          ],
+          [
+            325,
+            223
+          ],
+          [
+            727,
+            223
+          ],
+          [
+            727,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          223,
+          610,
+          238
+        ],
+        "content": "c. Wajib Pajak Badan; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            223
+          ],
+          [
+            325,
+            238
+          ],
+          [
+            609,
+            238
+          ],
+          [
+            609,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          238,
+          862,
+          298
+        ],
+        "content": "d. Instansi Pemerintah yang ditunjuk sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            238
+          ],
+          [
+            324,
+            298
+          ],
+          [
+            861,
+            298
+          ],
+          [
+            861,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          298,
+          862,
+          360
+        ],
+        "content": "(7) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            298
+          ],
+          [
+            277,
+            359
+          ],
+          [
+            861,
+            359
+          ],
+          [
+            861,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          374,
+          614,
+          388
+        ],
+        "content": "## Pasal 16",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            374
+          ],
+          [
+            526,
+            388
+          ],
+          [
+            614,
+            388
+          ],
+          [
+            614,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          388,
+          861,
+          464
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf a wajib mendaftarkan diripada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak dan kepadanya diberikan Nomor Pokok Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            388
+          ],
+          [
+            282,
+            463
+          ],
+          [
+            861,
+            463
+          ],
+          [
+            861,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          465,
+          861,
+          494
+        ],
+        "content": "(2) Nomor Pokok Wajib Pajak yang diberikan sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            465
+          ],
+          [
+            278,
+            493
+          ],
+          [
+            861,
+            493
+          ],
+          [
+            861,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          495,
+          861,
+          555
+        ],
+        "content": "a. Nomor Induk Kependudukan yang telah diaktivasi sebagai Nomor Pokok Wajib Pajak dalam administrasi perpajakan, bagi Wajib Pajak orang pribadi yang merupakan Penduduk; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            495
+          ],
+          [
+            327,
+            555
+          ],
+          [
+            861,
+            555
+          ],
+          [
+            861,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          555,
+          861,
+          615
+        ],
+        "content": "b. nomor dengan format 16 (enam belas) digit yang dihasilkan oleh sistem administrasi Direktorat Jenderal Pajak sebagai Nomor Pokok Wajib Pajak, bagi Wajib Pajak orang pribadi bukan Penduduk.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            555
+          ],
+          [
+            321,
+            615
+          ],
+          [
+            860,
+            615
+          ],
+          [
+            860,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          615,
+          861,
+          660
+        ],
+        "content": "(3) Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi yang merupakan Penduduk dan bukan Penduduk yang:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            615
+          ],
+          [
+            282,
+            660
+          ],
+          [
+            861,
+            660
+          ],
+          [
+            861,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          661,
+          861,
+          705
+        ],
+        "content": "a. melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            661
+          ],
+          [
+            327,
+            705
+          ],
+          [
+            860,
+            705
+          ],
+          [
+            860,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          320,
+          705,
+          860,
+          751
+        ],
+        "content": "b. tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            320,
+            705
+          ],
+          [
+            320,
+            750
+          ],
+          [
+            860,
+            750
+          ],
+          [
+            860,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          751,
+          861,
+          855
+        ],
+        "content": "(4) Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud pada ayat (3) huruf a diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak orang pribadi terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            751
+          ],
+          [
+            280,
+            855
+          ],
+          [
+            860,
+            855
+          ],
+          [
+            860,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          855,
+          861,
+          901
+        ],
+        "content": "(5) Kewajiban mendaftarkan diri sebagaimana dimaksud pada ayat (1) berlaku pula terhadap wanita kawin yang dikenai pajak secara terpisah karena:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            855
+          ],
+          [
+            275,
+            901
+          ],
+          [
+            861,
+            901
+          ],
+          [
+            861,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          817,
+          88
+        ],
+        "content": "a. hidup berpisah berdasarkan putusan hakim;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            87
+          ],
+          [
+            816,
+            87
+          ],
+          [
+            816,
+            76
+          ],
+          [
+            661,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          87,
+          868,
+          118
+        ],
+        "content": "b. menghendaki secara tertulis berdasarkan perjanjian pemisahan penghasilan dan harta; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            87
+          ],
+          [
+            329,
+            117
+          ],
+          [
+            867,
+            117
+          ],
+          [
+            867,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          116,
+          867,
+          163
+        ],
+        "content": "c. memilih melaksanakan hak dan memenuhi kewajiban perpajakan terpisah dari hak dan kewajiban perpajakan suaminya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            116
+          ],
+          [
+            328,
+            158
+          ],
+          [
+            418,
+            162
+          ],
+          [
+            867,
+            162
+          ],
+          [
+            867,
+            116
+          ],
+          [
+            618,
+            116
+          ],
+          [
+            597,
+            116
+          ],
+          [
+            493,
+            116
+          ],
+          [
+            462,
+            116
+          ],
+          [
+            343,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          162,
+          528,
+          178
+        ],
+        "content": "(6) Orang pribadi yang:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            162
+          ],
+          [
+            285,
+            178
+          ],
+          [
+            528,
+            178
+          ],
+          [
+            528,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          178,
+          867,
+          208
+        ],
+        "content": "a. belum memenuhi persyaratan objektif sebagai Wajib Pajak;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            178
+          ],
+          [
+            330,
+            207
+          ],
+          [
+            340,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          208,
+          867,
+          238
+        ],
+        "content": "b. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            208
+          ],
+          [
+            329,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          238,
+          867,
+          283
+        ],
+        "content": "c. tidak termasuk subjek pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Penghasilan,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            238
+          ],
+          [
+            329,
+            278
+          ],
+          [
+            349,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          283,
+          867,
+          328
+        ],
+        "content": "dapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            283
+          ],
+          [
+            328,
+            328
+          ],
+          [
+            867,
+            328
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          328,
+          868,
+          403
+        ],
+        "content": "(7) Orang pribadi yang belum memenuhi persyaratan objektif sebagaimana dimaksud pada ayat (6) huruf a mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi tersebut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            328
+          ],
+          [
+            283,
+            403
+          ],
+          [
+            867,
+            403
+          ],
+          [
+            867,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          868,
+          495
+        ],
+        "content": "(8) Orang pribadi yang tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri dan tidak termasuk subjek pajak sebagaimana dimaksud pada ayat (6) huruf b dan huruf c diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          509,
+          620,
+          523
+        ],
+        "content": "## Pasal 17",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            509
+          ],
+          [
+            531,
+            523
+          ],
+          [
+            619,
+            523
+          ],
+          [
+            619,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          523,
+          867,
+          615
+        ],
+        "content": "(1) Wajib Pajak orang pribadi yang melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf a, wajib mendaftarkan diri paling lama 1 (satu) bulan setelah kegiatan usaha atau pekerjaan bebas mulai dilakukan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            523
+          ],
+          [
+            287,
+            614
+          ],
+          [
+            867,
+            614
+          ],
+          [
+            867,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          615,
+          868,
+          752
+        ],
+        "content": "(2) Wajib Pajak orang pribadi yang tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf b, wajib mendaftarkan diri paling lambat akhir bulan berikutnya setelah diterimanya penghasilan yang menyebabkan akumulasi penghasilan pada Tahun Pajak berjalan sama dengan atau melebihi penghasilan tidak kena pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            615
+          ],
+          [
+            281,
+            751
+          ],
+          [
+            867,
+            751
+          ],
+          [
+            867,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          765,
+          618,
+          779
+        ],
+        "content": "## Pasal 18",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            765
+          ],
+          [
+            530,
+            779
+          ],
+          [
+            618,
+            779
+          ],
+          [
+            618,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          780,
+          868,
+          903
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan Nomor Induk Kependudukan yang tervalidasi sebagai identitas perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            780
+          ],
+          [
+            280,
+            902
+          ],
+          [
+            867,
+            902
+          ],
+          [
+            867,
+            780
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          875,
+          209
+        ],
+        "content": "(2) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan bukan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan nomor identitas perpajakan dengan format 16 (enam belas) digit setelah mendaftarkan identitasnya dalam administrasi perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            209
+          ],
+          [
+            874,
+            209
+          ],
+          [
+            874,
+            71
+          ],
+          [
+            795,
+            71
+          ],
+          [
+            780,
+            71
+          ],
+          [
+            770,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          223,
+          625,
+          237
+        ],
+        "content": "## Pasal 19",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            223
+          ],
+          [
+            538,
+            236
+          ],
+          [
+            625,
+            236
+          ],
+          [
+            625,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          237,
+          874,
+          320
+        ],
+        "content": "Pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 16 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            237
+          ],
+          [
+            286,
+            320
+          ],
+          [
+            873,
+            320
+          ],
+          [
+            873,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          343,
+          624,
+          356
+        ],
+        "content": "## Pasal 20",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            343
+          ],
+          [
+            536,
+            356
+          ],
+          [
+            624,
+            356
+          ],
+          [
+            624,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          357,
+          872,
+          432
+        ],
+        "content": "(1) Untuk Wajib Pajak orang pribadi yang merupakan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            357
+          ],
+          [
+            287,
+            431
+          ],
+          [
+            871,
+            431
+          ],
+          [
+            871,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          433,
+          872,
+          508
+        ],
+        "content": "(2) Untuk Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran dan dilampiri dokumen sebagai berikut:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            433
+          ],
+          [
+            287,
+            508
+          ],
+          [
+            871,
+            508
+          ],
+          [
+            871,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          510,
+          535,
+          524
+        ],
+        "content": "a. salinan paspor;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            510
+          ],
+          [
+            333,
+            523
+          ],
+          [
+            535,
+            523
+          ],
+          [
+            535,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          523,
+          869,
+          553
+        ],
+        "content": "b. pasfoto berwarna Wajib Pajak yang bersangkutan; dan",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            538
+          ],
+          [
+            332,
+            552
+          ],
+          [
+            868,
+            552
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            337,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          554,
+          871,
+          585
+        ],
+        "content": "c. pasfoto berwarna Wajib Pajak yang bersangkutan dengan memegang paspor.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            554
+          ],
+          [
+            331,
+            585
+          ],
+          [
+            871,
+            585
+          ],
+          [
+            871,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          599,
+          621,
+          613
+        ],
+        "content": "## Pasal 21",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            599
+          ],
+          [
+            535,
+            613
+          ],
+          [
+            620,
+            613
+          ],
+          [
+            620,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          613,
+          872,
+          695
+        ],
+        "content": "Berdasarkan permohonan pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 19, Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            613
+          ],
+          [
+            284,
+            695
+          ],
+          [
+            871,
+            695
+          ],
+          [
+            871,
+            613
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          718,
+          622,
+          733
+        ],
+        "content": "## Pasal 22",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            718
+          ],
+          [
+            534,
+            732
+          ],
+          [
+            622,
+            732
+          ],
+          [
+            622,
+            718
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          733,
+          870,
+          793
+        ],
+        "content": "(1) Dalam hal Wajib Pajak orang pribadi tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            733
+          ],
+          [
+            285,
+            788
+          ],
+          [
+            295,
+            793
+          ],
+          [
+            870,
+            793
+          ],
+          [
+            870,
+            733
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          794,
+          870,
+          900
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            794
+          ],
+          [
+            285,
+            900
+          ],
+          [
+            870,
+            900
+          ],
+          [
+            870,
+            794
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          536,
+          73,
+          623,
+          87
+        ],
+        "content": "## Pasal 23",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            73
+          ],
+          [
+            536,
+            87
+          ],
+          [
+            622,
+            87
+          ],
+          [
+            622,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          87,
+          871,
+          178
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan perubahan data Wajib Pajak orang pribadi dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            87
+          ],
+          [
+            285,
+            173
+          ],
+          [
+            301,
+            178
+          ],
+          [
+            871,
+            178
+          ],
+          [
+            871,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          178,
+          870,
+          283
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak orang pribadi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            178
+          ],
+          [
+            285,
+            278
+          ],
+          [
+            295,
+            283
+          ],
+          [
+            870,
+            283
+          ],
+          [
+            870,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          284,
+          870,
+          359
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            284
+          ],
+          [
+            285,
+            354
+          ],
+          [
+            295,
+            358
+          ],
+          [
+            869,
+            358
+          ],
+          [
+            869,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          360,
+          869,
+          406
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            360
+          ],
+          [
+            284,
+            406
+          ],
+          [
+            868,
+            406
+          ],
+          [
+            868,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          420,
+          621,
+          434
+        ],
+        "content": "## Pasal 24",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            420
+          ],
+          [
+            532,
+            433
+          ],
+          [
+            620,
+            433
+          ],
+          [
+            620,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          434,
+          869,
+          555
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 23 ayat (1), perubahan data Wajib Pajak orang pribadi dilakukan dalam hal terdapat perubahan alamat tempat tinggal Wajib Pajak orang pribadi yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            434
+          ],
+          [
+            288,
+            555
+          ],
+          [
+            868,
+            555
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          556,
+          868,
+          630
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak orang pribadi terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            556
+          ],
+          [
+            284,
+            630
+          ],
+          [
+            868,
+            630
+          ],
+          [
+            868,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          631,
+          867,
+          677
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            631
+          ],
+          [
+            284,
+            676
+          ],
+          [
+            867,
+            676
+          ],
+          [
+            867,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          691,
+          620,
+          704
+        ],
+        "content": "## Pasal 25",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            691
+          ],
+          [
+            531,
+            704
+          ],
+          [
+            619,
+            704
+          ],
+          [
+            619,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          705,
+          867,
+          766
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat menetapkan Wajib Pajak orang pribadi sebagai Wajib Pajak Nonaktif.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            705
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            867,
+            765
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          766,
+          867,
+          811
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak orang pribadi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            766
+          ],
+          [
+            283,
+            811
+          ],
+          [
+            867,
+            811
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          812,
+          867,
+          870
+        ],
+        "content": "a. melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena menghentikan usahanya atau pekerjaan bebasnya;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            817
+          ],
+          [
+            332,
+            870
+          ],
+          [
+            867,
+            870
+          ],
+          [
+            867,
+            812
+          ],
+          [
+            391,
+            812
+          ],
+          [
+            381,
+            812
+          ],
+          [
+            347,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          871,
+          869,
+          917
+        ],
+        "content": "b. tidak melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena belum atau tidak memperoleh penghasilan,",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            871
+          ],
+          [
+            328,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            871
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          280,
+          72,
+          863,
+          163
+        ],
+        "content": "(5) Persyaratan objektif sebagaimana dimaksud pada ayat (1) merupakan persyaratan bagi subjek pajak yang menerima atau memperoleh penghasilan atau diwajibkan untuk melakukan pemotongan dan/atau pemungutan sesuai dengan ketentuan Undang-Undang Pajak Penghasilan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            72
+          ],
+          [
+            280,
+            162
+          ],
+          [
+            862,
+            162
+          ],
+          [
+            862,
+            77
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          163,
+          862,
+          192
+        ],
+        "content": "(6) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            163
+          ],
+          [
+            280,
+            192
+          ],
+          [
+            314,
+            192
+          ],
+          [
+            325,
+            192
+          ],
+          [
+            857,
+            192
+          ],
+          [
+            862,
+            187
+          ],
+          [
+            862,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          193,
+          634,
+          209
+        ],
+        "content": "a. Wajib Pajak orang pribadi;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            193
+          ],
+          [
+            325,
+            208
+          ],
+          [
+            633,
+            208
+          ],
+          [
+            633,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          208,
+          727,
+          223
+        ],
+        "content": "b. Wajib Pajak Warisan Belum Terbagi;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            208
+          ],
+          [
+            325,
+            223
+          ],
+          [
+            727,
+            223
+          ],
+          [
+            727,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          223,
+          610,
+          238
+        ],
+        "content": "c. Wajib Pajak Badan; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            223
+          ],
+          [
+            325,
+            238
+          ],
+          [
+            609,
+            238
+          ],
+          [
+            609,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          238,
+          862,
+          298
+        ],
+        "content": "d. Instansi Pemerintah yang ditunjuk sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            238
+          ],
+          [
+            324,
+            298
+          ],
+          [
+            861,
+            298
+          ],
+          [
+            861,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          298,
+          862,
+          360
+        ],
+        "content": "(7) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            298
+          ],
+          [
+            277,
+            359
+          ],
+          [
+            861,
+            359
+          ],
+          [
+            861,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          374,
+          614,
+          388
+        ],
+        "content": "## Pasal 16",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            374
+          ],
+          [
+            526,
+            388
+          ],
+          [
+            614,
+            388
+          ],
+          [
+            614,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          388,
+          861,
+          464
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf a wajib mendaftarkan diripada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak dan kepadanya diberikan Nomor Pokok Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            388
+          ],
+          [
+            282,
+            463
+          ],
+          [
+            861,
+            463
+          ],
+          [
+            861,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          465,
+          861,
+          494
+        ],
+        "content": "(2) Nomor Pokok Wajib Pajak yang diberikan sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            465
+          ],
+          [
+            278,
+            493
+          ],
+          [
+            861,
+            493
+          ],
+          [
+            861,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          495,
+          861,
+          555
+        ],
+        "content": "a. Nomor Induk Kependudukan yang telah diaktivasi sebagai Nomor Pokok Wajib Pajak dalam administrasi perpajakan, bagi Wajib Pajak orang pribadi yang merupakan Penduduk; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            495
+          ],
+          [
+            327,
+            555
+          ],
+          [
+            861,
+            555
+          ],
+          [
+            861,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          555,
+          861,
+          615
+        ],
+        "content": "b. nomor dengan format 16 (enam belas) digit yang dihasilkan oleh sistem administrasi Direktorat Jenderal Pajak sebagai Nomor Pokok Wajib Pajak, bagi Wajib Pajak orang pribadi bukan Penduduk.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            555
+          ],
+          [
+            321,
+            615
+          ],
+          [
+            860,
+            615
+          ],
+          [
+            860,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          615,
+          861,
+          660
+        ],
+        "content": "(3) Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi yang merupakan Penduduk dan bukan Penduduk yang:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            615
+          ],
+          [
+            282,
+            660
+          ],
+          [
+            861,
+            660
+          ],
+          [
+            861,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          661,
+          861,
+          705
+        ],
+        "content": "a. melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            321,
+            661
+          ],
+          [
+            327,
+            705
+          ],
+          [
+            860,
+            705
+          ],
+          [
+            860,
+            661
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          320,
+          705,
+          860,
+          751
+        ],
+        "content": "b. tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            320,
+            705
+          ],
+          [
+            320,
+            750
+          ],
+          [
+            860,
+            750
+          ],
+          [
+            860,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          751,
+          861,
+          855
+        ],
+        "content": "(4) Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud pada ayat (3) huruf a diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak orang pribadi terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            751
+          ],
+          [
+            280,
+            855
+          ],
+          [
+            860,
+            855
+          ],
+          [
+            860,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          855,
+          861,
+          901
+        ],
+        "content": "(5) Kewajiban mendaftarkan diri sebagaimana dimaksud pada ayat (1) berlaku pula terhadap wanita kawin yang dikenai pajak secara terpisah karena:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            855
+          ],
+          [
+            275,
+            901
+          ],
+          [
+            861,
+            901
+          ],
+          [
+            861,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          817,
+          88
+        ],
+        "content": "a. hidup berpisah berdasarkan putusan hakim;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            87
+          ],
+          [
+            816,
+            87
+          ],
+          [
+            816,
+            76
+          ],
+          [
+            661,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          87,
+          868,
+          118
+        ],
+        "content": "b. menghendaki secara tertulis berdasarkan perjanjian pemisahan penghasilan dan harta; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            87
+          ],
+          [
+            329,
+            117
+          ],
+          [
+            867,
+            117
+          ],
+          [
+            867,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          116,
+          867,
+          163
+        ],
+        "content": "c. memilih melaksanakan hak dan memenuhi kewajiban perpajakan terpisah dari hak dan kewajiban perpajakan suaminya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            116
+          ],
+          [
+            328,
+            158
+          ],
+          [
+            418,
+            162
+          ],
+          [
+            867,
+            162
+          ],
+          [
+            867,
+            116
+          ],
+          [
+            618,
+            116
+          ],
+          [
+            597,
+            116
+          ],
+          [
+            493,
+            116
+          ],
+          [
+            462,
+            116
+          ],
+          [
+            343,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          162,
+          528,
+          178
+        ],
+        "content": "(6) Orang pribadi yang:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            162
+          ],
+          [
+            285,
+            178
+          ],
+          [
+            528,
+            178
+          ],
+          [
+            528,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          178,
+          867,
+          208
+        ],
+        "content": "a. belum memenuhi persyaratan objektif sebagai Wajib Pajak;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            178
+          ],
+          [
+            330,
+            207
+          ],
+          [
+            340,
+            207
+          ],
+          [
+            867,
+            207
+          ],
+          [
+            867,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          208,
+          867,
+          238
+        ],
+        "content": "b. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            208
+          ],
+          [
+            329,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            208
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          238,
+          867,
+          283
+        ],
+        "content": "c. tidak termasuk subjek pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Penghasilan,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            238
+          ],
+          [
+            329,
+            278
+          ],
+          [
+            349,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          283,
+          867,
+          328
+        ],
+        "content": "dapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            283
+          ],
+          [
+            328,
+            328
+          ],
+          [
+            867,
+            328
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          328,
+          868,
+          403
+        ],
+        "content": "(7) Orang pribadi yang belum memenuhi persyaratan objektif sebagaimana dimaksud pada ayat (6) huruf a mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi tersebut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            328
+          ],
+          [
+            283,
+            403
+          ],
+          [
+            867,
+            403
+          ],
+          [
+            867,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          868,
+          495
+        ],
+        "content": "(8) Orang pribadi yang tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri dan tidak termasuk subjek pajak sebagaimana dimaksud pada ayat (6) huruf b dan huruf c diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          509,
+          620,
+          523
+        ],
+        "content": "## Pasal 17",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            509
+          ],
+          [
+            531,
+            523
+          ],
+          [
+            619,
+            523
+          ],
+          [
+            619,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          523,
+          867,
+          615
+        ],
+        "content": "(1) Wajib Pajak orang pribadi yang melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf a, wajib mendaftarkan diri paling lama 1 (satu) bulan setelah kegiatan usaha atau pekerjaan bebas mulai dilakukan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            523
+          ],
+          [
+            287,
+            614
+          ],
+          [
+            867,
+            614
+          ],
+          [
+            867,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          615,
+          868,
+          752
+        ],
+        "content": "(2) Wajib Pajak orang pribadi yang tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf b, wajib mendaftarkan diri paling lambat akhir bulan berikutnya setelah diterimanya penghasilan yang menyebabkan akumulasi penghasilan pada Tahun Pajak berjalan sama dengan atau melebihi penghasilan tidak kena pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            615
+          ],
+          [
+            281,
+            751
+          ],
+          [
+            867,
+            751
+          ],
+          [
+            867,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          765,
+          618,
+          779
+        ],
+        "content": "## Pasal 18",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            765
+          ],
+          [
+            530,
+            779
+          ],
+          [
+            618,
+            779
+          ],
+          [
+            618,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          780,
+          868,
+          903
+        ],
+        "content": "(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan Nomor Induk Kependudukan yang tervalidasi sebagai identitas perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            780
+          ],
+          [
+            280,
+            902
+          ],
+          [
+            867,
+            902
+          ],
+          [
+            867,
+            780
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          875,
+          209
+        ],
+        "content": "(2) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan bukan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan nomor identitas perpajakan dengan format 16 (enam belas) digit setelah mendaftarkan identitasnya dalam administrasi perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            209
+          ],
+          [
+            874,
+            209
+          ],
+          [
+            874,
+            71
+          ],
+          [
+            795,
+            71
+          ],
+          [
+            780,
+            71
+          ],
+          [
+            770,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          223,
+          625,
+          237
+        ],
+        "content": "## Pasal 19",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            223
+          ],
+          [
+            538,
+            236
+          ],
+          [
+            625,
+            236
+          ],
+          [
+            625,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          237,
+          874,
+          320
+        ],
+        "content": "Pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 16 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            237
+          ],
+          [
+            286,
+            320
+          ],
+          [
+            873,
+            320
+          ],
+          [
+            873,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          343,
+          624,
+          356
+        ],
+        "content": "## Pasal 20",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            343
+          ],
+          [
+            536,
+            356
+          ],
+          [
+            624,
+            356
+          ],
+          [
+            624,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          357,
+          872,
+          432
+        ],
+        "content": "(1) Untuk Wajib Pajak orang pribadi yang merupakan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            357
+          ],
+          [
+            287,
+            431
+          ],
+          [
+            871,
+            431
+          ],
+          [
+            871,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          433,
+          872,
+          508
+        ],
+        "content": "(2) Untuk Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran dan dilampiri dokumen sebagai berikut:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            433
+          ],
+          [
+            287,
+            508
+          ],
+          [
+            871,
+            508
+          ],
+          [
+            871,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          510,
+          535,
+          524
+        ],
+        "content": "a. salinan paspor;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            510
+          ],
+          [
+            333,
+            523
+          ],
+          [
+            535,
+            523
+          ],
+          [
+            535,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          523,
+          869,
+          553
+        ],
+        "content": "b. pasfoto berwarna Wajib Pajak yang bersangkutan; dan",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            538
+          ],
+          [
+            332,
+            552
+          ],
+          [
+            868,
+            552
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            337,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          554,
+          871,
+          585
+        ],
+        "content": "c. pasfoto berwarna Wajib Pajak yang bersangkutan dengan memegang paspor.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            554
+          ],
+          [
+            331,
+            585
+          ],
+          [
+            871,
+            585
+          ],
+          [
+            871,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          599,
+          621,
+          613
+        ],
+        "content": "## Pasal 21",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            599
+          ],
+          [
+            535,
+            613
+          ],
+          [
+            620,
+            613
+          ],
+          [
+            620,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          613,
+          872,
+          695
+        ],
+        "content": "Berdasarkan permohonan pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 19, Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            613
+          ],
+          [
+            284,
+            695
+          ],
+          [
+            871,
+            695
+          ],
+          [
+            871,
+            613
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          718,
+          622,
+          733
+        ],
+        "content": "## Pasal 22",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            718
+          ],
+          [
+            534,
+            732
+          ],
+          [
+            622,
+            732
+          ],
+          [
+            622,
+            718
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          733,
+          870,
+          793
+        ],
+        "content": "(1) Dalam hal Wajib Pajak orang pribadi tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            733
+          ],
+          [
+            285,
+            788
+          ],
+          [
+            295,
+            793
+          ],
+          [
+            870,
+            793
+          ],
+          [
+            870,
+            733
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          794,
+          870,
+          900
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            794
+          ],
+          [
+            285,
+            900
+          ],
+          [
+            870,
+            900
+          ],
+          [
+            870,
+            794
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          536,
+          73,
+          623,
+          87
+        ],
+        "content": "## Pasal 23",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            73
+          ],
+          [
+            536,
+            87
+          ],
+          [
+            622,
+            87
+          ],
+          [
+            622,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          87,
+          871,
+          178
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan perubahan data Wajib Pajak orang pribadi dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            87
+          ],
+          [
+            285,
+            173
+          ],
+          [
+            301,
+            178
+          ],
+          [
+            871,
+            178
+          ],
+          [
+            871,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          178,
+          870,
+          283
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak orang pribadi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            178
+          ],
+          [
+            285,
+            278
+          ],
+          [
+            295,
+            283
+          ],
+          [
+            870,
+            283
+          ],
+          [
+            870,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          284,
+          870,
+          359
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            284
+          ],
+          [
+            285,
+            354
+          ],
+          [
+            295,
+            358
+          ],
+          [
+            869,
+            358
+          ],
+          [
+            869,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          360,
+          869,
+          406
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            360
+          ],
+          [
+            284,
+            406
+          ],
+          [
+            868,
+            406
+          ],
+          [
+            868,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          420,
+          621,
+          434
+        ],
+        "content": "## Pasal 24",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            420
+          ],
+          [
+            532,
+            433
+          ],
+          [
+            620,
+            433
+          ],
+          [
+            620,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          434,
+          869,
+          555
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 23 ayat (1), perubahan data Wajib Pajak orang pribadi dilakukan dalam hal terdapat perubahan alamat tempat tinggal Wajib Pajak orang pribadi yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            434
+          ],
+          [
+            288,
+            555
+          ],
+          [
+            868,
+            555
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          556,
+          868,
+          630
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak orang pribadi terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            556
+          ],
+          [
+            284,
+            630
+          ],
+          [
+            868,
+            630
+          ],
+          [
+            868,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          631,
+          867,
+          677
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            631
+          ],
+          [
+            284,
+            676
+          ],
+          [
+            867,
+            676
+          ],
+          [
+            867,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          691,
+          620,
+          704
+        ],
+        "content": "## Pasal 25",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            691
+          ],
+          [
+            531,
+            704
+          ],
+          [
+            619,
+            704
+          ],
+          [
+            619,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          705,
+          867,
+          766
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat menetapkan Wajib Pajak orang pribadi sebagai Wajib Pajak Nonaktif.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            705
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            867,
+            765
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          766,
+          867,
+          811
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak orang pribadi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            766
+          ],
+          [
+            283,
+            811
+          ],
+          [
+            867,
+            811
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          812,
+          867,
+          870
+        ],
+        "content": "a. melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena menghentikan usahanya atau pekerjaan bebasnya;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            817
+          ],
+          [
+            332,
+            870
+          ],
+          [
+            867,
+            870
+          ],
+          [
+            867,
+            812
+          ],
+          [
+            391,
+            812
+          ],
+          [
+            381,
+            812
+          ],
+          [
+            347,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          871,
+          869,
+          917
+        ],
+        "content": "b. tidak melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena belum atau tidak memperoleh penghasilan,",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            871
+          ],
+          [
+            328,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            871
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "(5) Persyaratan objektif sebagaimana dimaksud pada ayat (1) merupakan persyaratan bagi subjek pajak yang menerima atau memperoleh penghasilan atau diwajibkan untuk melakukan pemotongan dan/atau pemungutan sesuai dengan ketentuan Undang-Undang Pajak Penghasilan.\n\n(6) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak orang pribadi;\n\nb. Wajib Pajak Warisan Belum Terbagi;\n\nc. Wajib Pajak Badan; dan\n\nd. Instansi Pemerintah yang ditunjuk sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.\n\n(7) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 16\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf a wajib mendaftarkan diripada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak dan kepadanya diberikan Nomor Pokok Wajib Pajak.\n\n(2) Nomor Pokok Wajib Pajak yang diberikan sebagaimana dimaksud pada ayat (1) berupa:\n\na. Nomor Induk Kependudukan yang telah diaktivasi sebagai Nomor Pokok Wajib Pajak dalam administrasi perpajakan, bagi Wajib Pajak orang pribadi yang merupakan Penduduk; dan\n\nb. nomor dengan format 16 (enam belas) digit yang dihasilkan oleh sistem administrasi Direktorat Jenderal Pajak sebagai Nomor Pokok Wajib Pajak, bagi Wajib Pajak orang pribadi bukan Penduduk.\n\n(3) Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi yang merupakan Penduduk dan bukan Penduduk yang:\n\na. melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu; dan\n\nb. tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak.\n\n(4) Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud pada ayat (3) huruf a diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak orang pribadi terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(5) Kewajiban mendaftarkan diri sebagaimana dimaksud pada ayat (1) berlaku pula terhadap wanita kawin yang dikenai pajak secara terpisah karena:\n\na. hidup berpisah berdasarkan putusan hakim;\n\nb. menghendaki secara tertulis berdasarkan perjanjian pemisahan penghasilan dan harta; atau\n\nc. memilih melaksanakan hak dan memenuhi kewajiban perpajakan terpisah dari hak dan kewajiban perpajakan suaminya.\n\n(6) Orang pribadi yang:\n\na. belum memenuhi persyaratan objektif sebagai Wajib Pajak;\n\nb. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau\n\nc. tidak termasuk subjek pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Penghasilan,\n\ndapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.\n\n(7) Orang pribadi yang belum memenuhi persyaratan objektif sebagaimana dimaksud pada ayat (6) huruf a mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi tersebut.\n\n(8) Orang pribadi yang tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri dan tidak termasuk subjek pajak sebagaimana dimaksud pada ayat (6) huruf b dan huruf c diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.\n\n## Pasal 17\n\n(1) Wajib Pajak orang pribadi yang melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf a, wajib mendaftarkan diri paling lama 1 (satu) bulan setelah kegiatan usaha atau pekerjaan bebas mulai dilakukan.\n\n(2) Wajib Pajak orang pribadi yang tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf b, wajib mendaftarkan diri paling lambat akhir bulan berikutnya setelah diterimanya penghasilan yang menyebabkan akumulasi penghasilan pada Tahun Pajak berjalan sama dengan atau melebihi penghasilan tidak kena pajak.\n\n## Pasal 18\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan Nomor Induk Kependudukan yang tervalidasi sebagai identitas perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.\n\n(2) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan bukan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan nomor identitas perpajakan dengan format 16 (enam belas) digit setelah mendaftarkan identitasnya dalam administrasi perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.\n\n## Pasal 19\n\nPendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 16 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 20\n\n(1) Untuk Wajib Pajak orang pribadi yang merupakan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran Wajib Pajak.\n\n(2) Untuk Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran dan dilampiri dokumen sebagai berikut:\n\na. salinan paspor;\n\nb. pasfoto berwarna Wajib Pajak yang bersangkutan; dan\n\nc. pasfoto berwarna Wajib Pajak yang bersangkutan dengan memegang paspor.\n\n## Pasal 21\n\nBerdasarkan permohonan pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 19, Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 22\n\n(1) Dalam hal Wajib Pajak orang pribadi tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 23\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan perubahan data Wajib Pajak orang pribadi dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak orang pribadi.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 24\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 23 ayat (1), perubahan data Wajib Pajak orang pribadi dilakukan dalam hal terdapat perubahan alamat tempat tinggal Wajib Pajak orang pribadi yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak orang pribadi terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 25\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat menetapkan Wajib Pajak orang pribadi sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak orang pribadi:\n\na. melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena menghentikan usahanya atau pekerjaan bebasnya;\n\nb. tidak melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena belum atau tidak memperoleh penghasilan,",
+  "md_results": "(5) Persyaratan objektif sebagaimana dimaksud pada ayat (1) merupakan persyaratan bagi subjek pajak yang menerima atau memperoleh penghasilan atau diwajibkan untuk melakukan pemotongan dan/atau pemungutan sesuai dengan ketentuan Undang-Undang Pajak Penghasilan.\n\n(6) Wajib Pajak sebagaimana dimaksud pada ayat (1) meliputi:\n\na. Wajib Pajak orang pribadi;\n\nb. Wajib Pajak Warisan Belum Terbagi;\n\nc. Wajib Pajak Badan; dan\n\nd. Instansi Pemerintah yang ditunjuk sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan.\n\n(7) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 16\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf a wajib mendaftarkan diripada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal Wajib Pajak dan kepadanya diberikan Nomor Pokok Wajib Pajak.\n\n(2) Nomor Pokok Wajib Pajak yang diberikan sebagaimana dimaksud pada ayat (1) berupa:\n\na. Nomor Induk Kependudukan yang telah diaktivasi sebagai Nomor Pokok Wajib Pajak dalam administrasi perpajakan, bagi Wajib Pajak orang pribadi yang merupakan Penduduk; dan\n\nb. nomor dengan format 16 (enam belas) digit yang dihasilkan oleh sistem administrasi Direktorat Jenderal Pajak sebagai Nomor Pokok Wajib Pajak, bagi Wajib Pajak orang pribadi bukan Penduduk.\n\n(3) Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) meliputi Wajib Pajak orang pribadi yang merupakan Penduduk dan bukan Penduduk yang:\n\na. melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu; dan\n\nb. tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak.\n\n(4) Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud pada ayat (3) huruf a diharuskan untuk melaporkan tempat kegiatan usahanya ke Kantor Pelayanan Pajak tempat Wajib Pajak orang pribadi terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap tempat kegiatan usaha.\n\n(5) Kewajiban mendaftarkan diri sebagaimana dimaksud pada ayat (1) berlaku pula terhadap wanita kawin yang dikenai pajak secara terpisah karena:\n\na. hidup berpisah berdasarkan putusan hakim;\n\nb. menghendaki secara tertulis berdasarkan perjanjian pemisahan penghasilan dan harta; atau\n\nc. memilih melaksanakan hak dan memenuhi kewajiban perpajakan terpisah dari hak dan kewajiban perpajakan suaminya.\n\n(6) Orang pribadi yang:\n\na. belum memenuhi persyaratan objektif sebagai Wajib Pajak;\n\nb. tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri; atau\n\nc. tidak termasuk subjek pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang Pajak Penghasilan,\n\ndapat diberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak untuk kepentingan administrasi perpajakan.\n\n(7) Orang pribadi yang belum memenuhi persyaratan objektif sebagaimana dimaksud pada ayat (6) huruf a mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat tinggal orang pribadi tersebut.\n\n(8) Orang pribadi yang tidak memenuhi persyaratan subjektif sebagai subjek pajak dalam negeri dan tidak termasuk subjek pajak sebagaimana dimaksud pada ayat (6) huruf b dan huruf c diadministrasikan pada Kantor Pelayanan Pajak yang ditetapkan Direktur Jenderal Pajak.\n\n## Pasal 17\n\n(1) Wajib Pajak orang pribadi yang melakukan kegiatan usaha atau pekerjaan bebas, termasuk Wajib Pajak Orang Pribadi Pengusaha Tertentu sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf a, wajib mendaftarkan diri paling lama 1 (satu) bulan setelah kegiatan usaha atau pekerjaan bebas mulai dilakukan.\n\n(2) Wajib Pajak orang pribadi yang tidak melakukan kegiatan usaha atau pekerjaan bebas dan menerima atau memperoleh penghasilan di atas penghasilan tidak kena pajak sebagaimana dimaksud dalam Pasal 16 ayat (3) huruf b, wajib mendaftarkan diri paling lambat akhir bulan berikutnya setelah diterimanya penghasilan yang menyebabkan akumulasi penghasilan pada Tahun Pajak berjalan sama dengan atau melebihi penghasilan tidak kena pajak.\n\n## Pasal 18\n\n(1) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan Nomor Induk Kependudukan yang tervalidasi sebagai identitas perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.\n\n(2) Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 17 ayat (2) yang merupakan bukan Penduduk dan menerima atau memperoleh penghasilan dengan akumulasi belum melebihi penghasilan tidak kena pajak, orang pribadi dimaksud menggunakan nomor identitas perpajakan dengan format 16 (enam belas) digit setelah mendaftarkan identitasnya dalam administrasi perpajakan sebagaimana dimaksud dalam Pasal 16 ayat (6) huruf a.\n\n## Pasal 19\n\nPendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 16 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 20\n\n(1) Untuk Wajib Pajak orang pribadi yang merupakan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran Wajib Pajak.\n\n(2) Untuk Wajib Pajak orang pribadi bukan Penduduk sebagaimana dimaksud dalam Pasal 16 ayat (3), permohonan pendaftaran Wajib Pajak dilakukan dengan mengisi formulir permohonan pendaftaran dan dilampiri dokumen sebagai berikut:\n\na. salinan paspor;\n\nb. pasfoto berwarna Wajib Pajak yang bersangkutan; dan\n\nc. pasfoto berwarna Wajib Pajak yang bersangkutan dengan memegang paspor.\n\n## Pasal 21\n\nBerdasarkan permohonan pendaftaran Wajib Pajak orang pribadi sebagaimana dimaksud dalam Pasal 19, Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 22\n\n(1) Dalam hal Wajib Pajak orang pribadi tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 23\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat melakukan perubahan data Wajib Pajak orang pribadi dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak orang pribadi.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak orang pribadi sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 24\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 23 ayat (1), perubahan data Wajib Pajak orang pribadi dilakukan dalam hal terdapat perubahan alamat tempat tinggal Wajib Pajak orang pribadi yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak orang pribadi terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak orang pribadi.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 25\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak orang pribadi atau secara jabatan dapat menetapkan Wajib Pajak orang pribadi sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak orang pribadi:\n\na. melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena menghentikan usahanya atau pekerjaan bebasnya;\n\nb. tidak melakukan kegiatan usaha atau pekerjaan bebas namun tidak memenuhi syarat objektif karena belum atau tidak memperoleh penghasilan,",
+  "model": "glm-ocr",
+  "usage": {}
+}

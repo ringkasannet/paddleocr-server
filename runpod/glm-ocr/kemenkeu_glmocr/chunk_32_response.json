@@ -1,0 +1,1587 @@
+{
+  "created": 1779001536,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-2fb2e74642d04fddb3a9b694e3ab2",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          324,
+          75,
+          864,
+          134
+        ],
+        "content": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            75
+          ],
+          [
+            324,
+            134
+          ],
+          [
+            863,
+            134
+          ],
+          [
+            863,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          135,
+          863,
+          164
+        ],
+        "content": "(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            135
+          ],
+          [
+            280,
+            163
+          ],
+          [
+            862,
+            163
+          ],
+          [
+            862,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          165,
+          717,
+          180
+        ],
+        "content": "a. pengurus, bagi Wajib Pajak Badan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            165
+          ],
+          [
+            325,
+            180
+          ],
+          [
+            717,
+            180
+          ],
+          [
+            717,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          181,
+          863,
+          210
+        ],
+        "content": "b. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            181
+          ],
+          [
+            324,
+            210
+          ],
+          [
+            862,
+            210
+          ],
+          [
+            862,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          211,
+          863,
+          255
+        ],
+        "content": "c. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            211
+          ],
+          [
+            324,
+            254
+          ],
+          [
+            862,
+            254
+          ],
+          [
+            862,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          256,
+          861,
+          270
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            256
+          ],
+          [
+            323,
+            270
+          ],
+          [
+            856,
+            270
+          ],
+          [
+            861,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          259,
+          863,
+          315
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            269
+          ],
+          [
+            324,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            259
+          ],
+          [
+            474,
+            259
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          316,
+          864,
+          390
+        ],
+        "content": "f. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            316
+          ],
+          [
+            323,
+            390
+          ],
+          [
+            864,
+            390
+          ],
+          [
+            864,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          391,
+          864,
+          466
+        ],
+        "content": "g. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            391
+          ],
+          [
+            323,
+            466
+          ],
+          [
+            863,
+            466
+          ],
+          [
+            863,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          467,
+          864,
+          526
+        ],
+        "content": "h. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            467
+          ],
+          [
+            323,
+            526
+          ],
+          [
+            864,
+            526
+          ],
+          [
+            864,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          526,
+          864,
+          586
+        ],
+        "content": "(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            526
+          ],
+          [
+            278,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            531
+          ],
+          [
+            839,
+            526
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          587,
+          864,
+          618
+        ],
+        "content": "(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            587
+          ],
+          [
+            279,
+            618
+          ],
+          [
+            864,
+            618
+          ],
+          [
+            864,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          647,
+          864,
+          736
+        ],
+        "content": "(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            647
+          ],
+          [
+            278,
+            736
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            863,
+            647
+          ],
+          [
+            833,
+            647
+          ],
+          [
+            714,
+            647
+          ],
+          [
+            678,
+            647
+          ],
+          [
+            664,
+            647
+          ],
+          [
+            633,
+            647
+          ],
+          [
+            604,
+            647
+          ],
+          [
+            593,
+            647
+          ],
+          [
+            569,
+            647
+          ],
+          [
+            563,
+            647
+          ],
+          [
+            524,
+            647
+          ],
+          [
+            513,
+            647
+          ],
+          [
+            494,
+            647
+          ],
+          [
+            463,
+            647
+          ],
+          [
+            453,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          737,
+          864,
+          768
+        ],
+        "content": "(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            737
+          ],
+          [
+            279,
+            767
+          ],
+          [
+            863,
+            767
+          ],
+          [
+            863,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          769,
+          583,
+          783
+        ],
+        "content": "a. Surat Tagihan Pajak;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            769
+          ],
+          [
+            324,
+            783
+          ],
+          [
+            582,
+            783
+          ],
+          [
+            582,
+            769
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          783,
+          742,
+          798
+        ],
+        "content": "b. Surat Ketetapan Pajak Kurang Bayar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            783
+          ],
+          [
+            324,
+            797
+          ],
+          [
+            741,
+            797
+          ],
+          [
+            741,
+            783
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          798,
+          849,
+          813
+        ],
+        "content": "c. Surat Ketetapan Pajak Kurang Bayar Tambahan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            798
+          ],
+          [
+            324,
+            812
+          ],
+          [
+            848,
+            812
+          ],
+          [
+            848,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          813,
+          652,
+          827
+        ],
+        "content": "d. Surat Ketetapan Pajak Nihil;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            813
+          ],
+          [
+            324,
+            827
+          ],
+          [
+            651,
+            827
+          ],
+          [
+            651,
+            813
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          828,
+          723,
+          843
+        ],
+        "content": "e. Surat Ketetapan Pajak Lebih Bayar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            828
+          ],
+          [
+            325,
+            842
+          ],
+          [
+            722,
+            842
+          ],
+          [
+            722,
+            828
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          843,
+          863,
+          858
+        ],
+        "content": "f. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            843
+          ],
+          [
+            324,
+            857
+          ],
+          [
+            862,
+            857
+          ],
+          [
+            862,
+            843
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          858,
+          848,
+          873
+        ],
+        "content": "g. Surat Tagihan Pajak Pajak Bumi dan Bangunan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            858
+          ],
+          [
+            325,
+            873
+          ],
+          [
+            847,
+            873
+          ],
+          [
+            847,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          873,
+          671,
+          887
+        ],
+        "content": "h. Surat Keputusan Pembetulan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            873
+          ],
+          [
+            324,
+            887
+          ],
+          [
+            671,
+            887
+          ],
+          [
+            671,
+            873
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          889,
+          761,
+          903
+        ],
+        "content": "i. Surat Keputusan Persetujuan Bersama;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            889
+          ],
+          [
+            325,
+            903
+          ],
+          [
+            761,
+            903
+          ],
+          [
+            761,
+            889
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          904,
+          656,
+          918
+        ],
+        "content": "j. Surat Keputusan Keberatan;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            904
+          ],
+          [
+            324,
+            918
+          ],
+          [
+            655,
+            918
+          ],
+          [
+            655,
+            904
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          324,
+          75,
+          864,
+          134
+        ],
+        "content": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            75
+          ],
+          [
+            324,
+            134
+          ],
+          [
+            863,
+            134
+          ],
+          [
+            863,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          135,
+          863,
+          164
+        ],
+        "content": "(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            135
+          ],
+          [
+            280,
+            163
+          ],
+          [
+            862,
+            163
+          ],
+          [
+            862,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          165,
+          717,
+          180
+        ],
+        "content": "a. pengurus, bagi Wajib Pajak Badan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            165
+          ],
+          [
+            325,
+            180
+          ],
+          [
+            717,
+            180
+          ],
+          [
+            717,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          181,
+          863,
+          210
+        ],
+        "content": "b. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            181
+          ],
+          [
+            324,
+            210
+          ],
+          [
+            862,
+            210
+          ],
+          [
+            862,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          211,
+          863,
+          255
+        ],
+        "content": "c. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            211
+          ],
+          [
+            324,
+            254
+          ],
+          [
+            862,
+            254
+          ],
+          [
+            862,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          256,
+          861,
+          270
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            256
+          ],
+          [
+            323,
+            270
+          ],
+          [
+            856,
+            270
+          ],
+          [
+            861,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          259,
+          863,
+          315
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            269
+          ],
+          [
+            324,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            259
+          ],
+          [
+            474,
+            259
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          316,
+          864,
+          390
+        ],
+        "content": "f. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            316
+          ],
+          [
+            323,
+            390
+          ],
+          [
+            864,
+            390
+          ],
+          [
+            864,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          391,
+          864,
+          466
+        ],
+        "content": "g. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            391
+          ],
+          [
+            323,
+            466
+          ],
+          [
+            863,
+            466
+          ],
+          [
+            863,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          467,
+          864,
+          526
+        ],
+        "content": "h. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            467
+          ],
+          [
+            323,
+            526
+          ],
+          [
+            864,
+            526
+          ],
+          [
+            864,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          526,
+          864,
+          586
+        ],
+        "content": "(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            526
+          ],
+          [
+            278,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            531
+          ],
+          [
+            839,
+            526
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          587,
+          864,
+          618
+        ],
+        "content": "(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            587
+          ],
+          [
+            279,
+            618
+          ],
+          [
+            864,
+            618
+          ],
+          [
+            864,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          647,
+          864,
+          736
+        ],
+        "content": "(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            647
+          ],
+          [
+            278,
+            736
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            863,
+            647
+          ],
+          [
+            833,
+            647
+          ],
+          [
+            714,
+            647
+          ],
+          [
+            678,
+            647
+          ],
+          [
+            664,
+            647
+          ],
+          [
+            633,
+            647
+          ],
+          [
+            604,
+            647
+          ],
+          [
+            593,
+            647
+          ],
+          [
+            569,
+            647
+          ],
+          [
+            563,
+            647
+          ],
+          [
+            524,
+            647
+          ],
+          [
+            513,
+            647
+          ],
+          [
+            494,
+            647
+          ],
+          [
+            463,
+            647
+          ],
+          [
+            453,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          737,
+          864,
+          768
+        ],
+        "content": "(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            737
+          ],
+          [
+            279,
+            767
+          ],
+          [
+            863,
+            767
+          ],
+          [
+            863,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          769,
+          583,
+          783
+        ],
+        "content": "a. Surat Tagihan Pajak;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            769
+          ],
+          [
+            324,
+            783
+          ],
+          [
+            582,
+            783
+          ],
+          [
+            582,
+            769
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          783,
+          742,
+          798
+        ],
+        "content": "b. Surat Ketetapan Pajak Kurang Bayar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            783
+          ],
+          [
+            324,
+            797
+          ],
+          [
+            741,
+            797
+          ],
+          [
+            741,
+            783
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          798,
+          849,
+          813
+        ],
+        "content": "c. Surat Ketetapan Pajak Kurang Bayar Tambahan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            798
+          ],
+          [
+            324,
+            812
+          ],
+          [
+            848,
+            812
+          ],
+          [
+            848,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          813,
+          652,
+          827
+        ],
+        "content": "d. Surat Ketetapan Pajak Nihil;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            813
+          ],
+          [
+            324,
+            827
+          ],
+          [
+            651,
+            827
+          ],
+          [
+            651,
+            813
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          828,
+          723,
+          843
+        ],
+        "content": "e. Surat Ketetapan Pajak Lebih Bayar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            828
+          ],
+          [
+            325,
+            842
+          ],
+          [
+            722,
+            842
+          ],
+          [
+            722,
+            828
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          843,
+          863,
+          858
+        ],
+        "content": "f. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            843
+          ],
+          [
+            324,
+            857
+          ],
+          [
+            862,
+            857
+          ],
+          [
+            862,
+            843
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          858,
+          848,
+          873
+        ],
+        "content": "g. Surat Tagihan Pajak Pajak Bumi dan Bangunan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            858
+          ],
+          [
+            325,
+            873
+          ],
+          [
+            847,
+            873
+          ],
+          [
+            847,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          873,
+          671,
+          887
+        ],
+        "content": "h. Surat Keputusan Pembetulan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            873
+          ],
+          [
+            324,
+            887
+          ],
+          [
+            671,
+            887
+          ],
+          [
+            671,
+            873
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          889,
+          761,
+          903
+        ],
+        "content": "i. Surat Keputusan Persetujuan Bersama;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            889
+          ],
+          [
+            325,
+            903
+          ],
+          [
+            761,
+            903
+          ],
+          [
+            761,
+            889
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          904,
+          656,
+          918
+        ],
+        "content": "j. Surat Keputusan Keberatan;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            904
+          ],
+          [
+            324,
+            918
+          ],
+          [
+            655,
+            918
+          ],
+          [
+            655,
+            904
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:\n\na. pengurus, bagi Wajib Pajak Badan;\n\nb. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;\n\nc. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;\n\nf. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\ng. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nh. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.\n\n(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.\n\n(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.\n\n(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. Surat Tagihan Pajak;\n\nb. Surat Ketetapan Pajak Kurang Bayar;\n\nc. Surat Ketetapan Pajak Kurang Bayar Tambahan;\n\nd. Surat Ketetapan Pajak Nihil;\n\ne. Surat Ketetapan Pajak Lebih Bayar;\n\nf. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;\n\ng. Surat Tagihan Pajak Pajak Bumi dan Bangunan;\n\nh. Surat Keputusan Pembetulan;\n\ni. Surat Keputusan Persetujuan Bersama;\n\nj. Surat Keputusan Keberatan;",
+  "md_results": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:\n\na. pengurus, bagi Wajib Pajak Badan;\n\nb. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;\n\nc. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;\n\nf. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\ng. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nh. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.\n\n(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.\n\n(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.\n\n(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. Surat Tagihan Pajak;\n\nb. Surat Ketetapan Pajak Kurang Bayar;\n\nc. Surat Ketetapan Pajak Kurang Bayar Tambahan;\n\nd. Surat Ketetapan Pajak Nihil;\n\ne. Surat Ketetapan Pajak Lebih Bayar;\n\nf. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;\n\ng. Surat Tagihan Pajak Pajak Bumi dan Bangunan;\n\nh. Surat Keputusan Pembetulan;\n\ni. Surat Keputusan Persetujuan Bersama;\n\nj. Surat Keputusan Keberatan;",
+  "model": "glm-ocr",
+  "usage": {}
+}

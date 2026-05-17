@@ -1,0 +1,1339 @@
+{
+  "created": 1779001536,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-176c07eeca794ef1841b3e3fd7a02",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          870,
+          118
+        ],
+        "content": "elektronik dan Dokumen Elektronik dikirim oleh Direktur Jenderal Pajak dan tanggal keputusan dan Dokumen Elektronik diterima oleh Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            118
+          ],
+          [
+            869,
+            118
+          ],
+          [
+            869,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          118,
+          870,
+          193
+        ],
+        "content": "(5) Tanggal pengiriman keputusan dan Dokumen Elektronik dalam bentuk kertas hasil cetakan sebagaimana dimaksud pada ayat (2) oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak merupakan tanggal:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            118
+          ],
+          [
+            283,
+            188
+          ],
+          [
+            328,
+            192
+          ],
+          [
+            869,
+            192
+          ],
+          [
+            869,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          194,
+          868,
+          223
+        ],
+        "content": "a. keputusan disampaikan atau diterima, dalam hal disampaikan secara langsung;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            194
+          ],
+          [
+            329,
+            223
+          ],
+          [
+            867,
+            223
+          ],
+          [
+            867,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          224,
+          868,
+          253
+        ],
+        "content": "b. bukti pengiriman faksimile, dalam hal disampaikan melalui faksimile; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            224
+          ],
+          [
+            329,
+            253
+          ],
+          [
+            867,
+            253
+          ],
+          [
+            867,
+            224
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          254,
+          867,
+          284
+        ],
+        "content": "c. bukti pengiriman surat, dalam hal dikirimkan melalui pos, jasa ekspedisi, atau jasa kurir.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            254
+          ],
+          [
+            328,
+            283
+          ],
+          [
+            867,
+            283
+          ],
+          [
+            867,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          284,
+          870,
+          358
+        ],
+        "content": "(6) Dalam hal suatu keputusan atau Dokumen Elektronik disampaikan melalui lebih dari 1 (satu) saluran penyampaian, tanggal dikirim oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak yang berlaku yaitu:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            284
+          ],
+          [
+            288,
+            358
+          ],
+          [
+            318,
+            358
+          ],
+          [
+            324,
+            358
+          ],
+          [
+            869,
+            358
+          ],
+          [
+            869,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          359,
+          868,
+          434
+        ],
+        "content": "a. dalam hal Wajib Pajak telah memberikan persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan, tanggal pengiriman ke Akun Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            359
+          ],
+          [
+            328,
+            433
+          ],
+          [
+            867,
+            433
+          ],
+          [
+            867,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          434,
+          868,
+          479
+        ],
+        "content": "b. dalam hal Wajib Pajak belum memberikan persetujuan untuk menggunakan Akun Wajib Pajak, tanggal yang lebih dahulu antara:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            449
+          ],
+          [
+            327,
+            469
+          ],
+          [
+            337,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            434
+          ],
+          [
+            332,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          480,
+          868,
+          525
+        ],
+        "content": "1. tanggal pengiriman melalui pos elektronik Wajib Pajak yang terdaftar dalam sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            480
+          ],
+          [
+            375,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          525,
+          797,
+          541
+        ],
+        "content": "2. tanggal disampaikan secara langsung;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            525
+          ],
+          [
+            374,
+            540
+          ],
+          [
+            796,
+            540
+          ],
+          [
+            791,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          540,
+          763,
+          555
+        ],
+        "content": "3. tanggal pengiriman faksimile; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            540
+          ],
+          [
+            374,
+            555
+          ],
+          [
+            762,
+            555
+          ],
+          [
+            762,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          556,
+          867,
+          585
+        ],
+        "content": "4. tanggal pengiriman yang tercantum pada bukti pengiriman surat.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            556
+          ],
+          [
+            373,
+            584
+          ],
+          [
+            866,
+            584
+          ],
+          [
+            866,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          661
+        ],
+        "content": "(7) Persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan sebagaimana dimaksud pada ayat (6) dilakukan secara elektronik pada saat aktivasi Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            660
+          ],
+          [
+            867,
+            660
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          675,
+          619,
+          690
+        ],
+        "content": "## Pasal 13",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            675
+          ],
+          [
+            530,
+            689
+          ],
+          [
+            618,
+            689
+          ],
+          [
+            618,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          690,
+          867,
+          780
+        ],
+        "content": "(1) Menteri dapat melakukan kerja sama dengan Instansi Pemerintah, lembaga, asosiasi, dan pihak lain untuk menyediakan fasilitas pelaksanaan hak dan/atau pemenuhan kewajiban perpajakan secara elektronik, melalui sistem administrasi yang terintegrasi dengan sistem di Direktorat Jenderal Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            690
+          ],
+          [
+            281,
+            780
+          ],
+          [
+            866,
+            780
+          ],
+          [
+            866,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          781,
+          867,
+          810
+        ],
+        "content": "(2) Kerja sama sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            781
+          ],
+          [
+            281,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          811,
+          744,
+          827
+        ],
+        "content": "a. pemberian Nomor Pokok Wajib Pajak;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            811
+          ],
+          [
+            327,
+            826
+          ],
+          [
+            743,
+            826
+          ],
+          [
+            743,
+            811
+          ],
+          [
+            348,
+            811
+          ],
+          [
+            332,
+            811
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          826,
+          783,
+          841
+        ],
+        "content": "b. pemberian konfirmasi status Wajib Pajak;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            826
+          ],
+          [
+            328,
+            841
+          ],
+          [
+            782,
+            841
+          ],
+          [
+            782,
+            826
+          ],
+          [
+            388,
+            826
+          ],
+          [
+            368,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          841,
+          864,
+          870
+        ],
+        "content": "c. penyelenggaraan bukti pemotongan elektronik dan Faktur Pajak elektronik; dan",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            846
+          ],
+          [
+            326,
+            870
+          ],
+          [
+            864,
+            870
+          ],
+          [
+            864,
+            841
+          ],
+          [
+            401,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          870,
+          866,
+          903
+        ],
+        "content": "d. penyelenggaraan pembayaran pajak dan/atau pelaporan Surat Pemberitahuan elektronik.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            870
+          ],
+          [
+            325,
+            902
+          ],
+          [
+            761,
+            902
+          ],
+          [
+            806,
+            902
+          ],
+          [
+            815,
+            902
+          ],
+          [
+            865,
+            898
+          ],
+          [
+            865,
+            870
+          ],
+          [
+            476,
+            870
+          ],
+          [
+            470,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          870,
+          118
+        ],
+        "content": "elektronik dan Dokumen Elektronik dikirim oleh Direktur Jenderal Pajak dan tanggal keputusan dan Dokumen Elektronik diterima oleh Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            118
+          ],
+          [
+            869,
+            118
+          ],
+          [
+            869,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          118,
+          870,
+          193
+        ],
+        "content": "(5) Tanggal pengiriman keputusan dan Dokumen Elektronik dalam bentuk kertas hasil cetakan sebagaimana dimaksud pada ayat (2) oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak merupakan tanggal:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            118
+          ],
+          [
+            283,
+            188
+          ],
+          [
+            328,
+            192
+          ],
+          [
+            869,
+            192
+          ],
+          [
+            869,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          194,
+          868,
+          223
+        ],
+        "content": "a. keputusan disampaikan atau diterima, dalam hal disampaikan secara langsung;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            194
+          ],
+          [
+            329,
+            223
+          ],
+          [
+            867,
+            223
+          ],
+          [
+            867,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          224,
+          868,
+          253
+        ],
+        "content": "b. bukti pengiriman faksimile, dalam hal disampaikan melalui faksimile; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            224
+          ],
+          [
+            329,
+            253
+          ],
+          [
+            867,
+            253
+          ],
+          [
+            867,
+            224
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          254,
+          867,
+          284
+        ],
+        "content": "c. bukti pengiriman surat, dalam hal dikirimkan melalui pos, jasa ekspedisi, atau jasa kurir.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            254
+          ],
+          [
+            328,
+            283
+          ],
+          [
+            867,
+            283
+          ],
+          [
+            867,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          284,
+          870,
+          358
+        ],
+        "content": "(6) Dalam hal suatu keputusan atau Dokumen Elektronik disampaikan melalui lebih dari 1 (satu) saluran penyampaian, tanggal dikirim oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak yang berlaku yaitu:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            284
+          ],
+          [
+            288,
+            358
+          ],
+          [
+            318,
+            358
+          ],
+          [
+            324,
+            358
+          ],
+          [
+            869,
+            358
+          ],
+          [
+            869,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          359,
+          868,
+          434
+        ],
+        "content": "a. dalam hal Wajib Pajak telah memberikan persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan, tanggal pengiriman ke Akun Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            359
+          ],
+          [
+            328,
+            433
+          ],
+          [
+            867,
+            433
+          ],
+          [
+            867,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          434,
+          868,
+          479
+        ],
+        "content": "b. dalam hal Wajib Pajak belum memberikan persetujuan untuk menggunakan Akun Wajib Pajak, tanggal yang lebih dahulu antara:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            449
+          ],
+          [
+            327,
+            469
+          ],
+          [
+            337,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            434
+          ],
+          [
+            332,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          480,
+          868,
+          525
+        ],
+        "content": "1. tanggal pengiriman melalui pos elektronik Wajib Pajak yang terdaftar dalam sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            480
+          ],
+          [
+            375,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          525,
+          797,
+          541
+        ],
+        "content": "2. tanggal disampaikan secara langsung;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            525
+          ],
+          [
+            374,
+            540
+          ],
+          [
+            796,
+            540
+          ],
+          [
+            791,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          540,
+          763,
+          555
+        ],
+        "content": "3. tanggal pengiriman faksimile; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            540
+          ],
+          [
+            374,
+            555
+          ],
+          [
+            762,
+            555
+          ],
+          [
+            762,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          373,
+          556,
+          867,
+          585
+        ],
+        "content": "4. tanggal pengiriman yang tercantum pada bukti pengiriman surat.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            373,
+            556
+          ],
+          [
+            373,
+            584
+          ],
+          [
+            866,
+            584
+          ],
+          [
+            866,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          661
+        ],
+        "content": "(7) Persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan sebagaimana dimaksud pada ayat (6) dilakukan secara elektronik pada saat aktivasi Wajib Pajak.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            660
+          ],
+          [
+            867,
+            660
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          675,
+          619,
+          690
+        ],
+        "content": "## Pasal 13",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            675
+          ],
+          [
+            530,
+            689
+          ],
+          [
+            618,
+            689
+          ],
+          [
+            618,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          690,
+          867,
+          780
+        ],
+        "content": "(1) Menteri dapat melakukan kerja sama dengan Instansi Pemerintah, lembaga, asosiasi, dan pihak lain untuk menyediakan fasilitas pelaksanaan hak dan/atau pemenuhan kewajiban perpajakan secara elektronik, melalui sistem administrasi yang terintegrasi dengan sistem di Direktorat Jenderal Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            690
+          ],
+          [
+            281,
+            780
+          ],
+          [
+            866,
+            780
+          ],
+          [
+            866,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          781,
+          867,
+          810
+        ],
+        "content": "(2) Kerja sama sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            781
+          ],
+          [
+            281,
+            810
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            867,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          811,
+          744,
+          827
+        ],
+        "content": "a. pemberian Nomor Pokok Wajib Pajak;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            811
+          ],
+          [
+            327,
+            826
+          ],
+          [
+            743,
+            826
+          ],
+          [
+            743,
+            811
+          ],
+          [
+            348,
+            811
+          ],
+          [
+            332,
+            811
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          826,
+          783,
+          841
+        ],
+        "content": "b. pemberian konfirmasi status Wajib Pajak;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            826
+          ],
+          [
+            328,
+            841
+          ],
+          [
+            782,
+            841
+          ],
+          [
+            782,
+            826
+          ],
+          [
+            388,
+            826
+          ],
+          [
+            368,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          841,
+          864,
+          870
+        ],
+        "content": "c. penyelenggaraan bukti pemotongan elektronik dan Faktur Pajak elektronik; dan",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            846
+          ],
+          [
+            326,
+            870
+          ],
+          [
+            864,
+            870
+          ],
+          [
+            864,
+            841
+          ],
+          [
+            401,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          870,
+          866,
+          903
+        ],
+        "content": "d. penyelenggaraan pembayaran pajak dan/atau pelaporan Surat Pemberitahuan elektronik.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            870
+          ],
+          [
+            325,
+            902
+          ],
+          [
+            761,
+            902
+          ],
+          [
+            806,
+            902
+          ],
+          [
+            815,
+            902
+          ],
+          [
+            865,
+            898
+          ],
+          [
+            865,
+            870
+          ],
+          [
+            476,
+            870
+          ],
+          [
+            470,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "elektronik dan Dokumen Elektronik dikirim oleh Direktur Jenderal Pajak dan tanggal keputusan dan Dokumen Elektronik diterima oleh Wajib Pajak.\n\n(5) Tanggal pengiriman keputusan dan Dokumen Elektronik dalam bentuk kertas hasil cetakan sebagaimana dimaksud pada ayat (2) oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak merupakan tanggal:\n\na. keputusan disampaikan atau diterima, dalam hal disampaikan secara langsung;\n\nb. bukti pengiriman faksimile, dalam hal disampaikan melalui faksimile; atau\n\nc. bukti pengiriman surat, dalam hal dikirimkan melalui pos, jasa ekspedisi, atau jasa kurir.\n\n(6) Dalam hal suatu keputusan atau Dokumen Elektronik disampaikan melalui lebih dari 1 (satu) saluran penyampaian, tanggal dikirim oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak yang berlaku yaitu:\n\na. dalam hal Wajib Pajak telah memberikan persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan, tanggal pengiriman ke Akun Wajib Pajak; atau\n\nb. dalam hal Wajib Pajak belum memberikan persetujuan untuk menggunakan Akun Wajib Pajak, tanggal yang lebih dahulu antara:\n\n1. tanggal pengiriman melalui pos elektronik Wajib Pajak yang terdaftar dalam sistem administrasi Direktorat Jenderal Pajak;\n\n2. tanggal disampaikan secara langsung;\n\n3. tanggal pengiriman faksimile; atau\n\n4. tanggal pengiriman yang tercantum pada bukti pengiriman surat.\n\n(7) Persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan sebagaimana dimaksud pada ayat (6) dilakukan secara elektronik pada saat aktivasi Wajib Pajak.\n\n## Pasal 13\n\n(1) Menteri dapat melakukan kerja sama dengan Instansi Pemerintah, lembaga, asosiasi, dan pihak lain untuk menyediakan fasilitas pelaksanaan hak dan/atau pemenuhan kewajiban perpajakan secara elektronik, melalui sistem administrasi yang terintegrasi dengan sistem di Direktorat Jenderal Pajak.\n\n(2) Kerja sama sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. pemberian Nomor Pokok Wajib Pajak;\n\nb. pemberian konfirmasi status Wajib Pajak;\n\nc. penyelenggaraan bukti pemotongan elektronik dan Faktur Pajak elektronik; dan\n\nd. penyelenggaraan pembayaran pajak dan/atau pelaporan Surat Pemberitahuan elektronik.",
+  "md_results": "elektronik dan Dokumen Elektronik dikirim oleh Direktur Jenderal Pajak dan tanggal keputusan dan Dokumen Elektronik diterima oleh Wajib Pajak.\n\n(5) Tanggal pengiriman keputusan dan Dokumen Elektronik dalam bentuk kertas hasil cetakan sebagaimana dimaksud pada ayat (2) oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak merupakan tanggal:\n\na. keputusan disampaikan atau diterima, dalam hal disampaikan secara langsung;\n\nb. bukti pengiriman faksimile, dalam hal disampaikan melalui faksimile; atau\n\nc. bukti pengiriman surat, dalam hal dikirimkan melalui pos, jasa ekspedisi, atau jasa kurir.\n\n(6) Dalam hal suatu keputusan atau Dokumen Elektronik disampaikan melalui lebih dari 1 (satu) saluran penyampaian, tanggal dikirim oleh Direktur Jenderal Pajak dan tanggal diterimanya oleh Wajib Pajak yang berlaku yaitu:\n\na. dalam hal Wajib Pajak telah memberikan persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan, tanggal pengiriman ke Akun Wajib Pajak; atau\n\nb. dalam hal Wajib Pajak belum memberikan persetujuan untuk menggunakan Akun Wajib Pajak, tanggal yang lebih dahulu antara:\n\n1. tanggal pengiriman melalui pos elektronik Wajib Pajak yang terdaftar dalam sistem administrasi Direktorat Jenderal Pajak;\n\n2. tanggal disampaikan secara langsung;\n\n3. tanggal pengiriman faksimile; atau\n\n4. tanggal pengiriman yang tercantum pada bukti pengiriman surat.\n\n(7) Persetujuan untuk menggunakan Akun Wajib Pajak sebagai sarana penerimaan keputusan dan dokumen perpajakan sebagaimana dimaksud pada ayat (6) dilakukan secara elektronik pada saat aktivasi Wajib Pajak.\n\n## Pasal 13\n\n(1) Menteri dapat melakukan kerja sama dengan Instansi Pemerintah, lembaga, asosiasi, dan pihak lain untuk menyediakan fasilitas pelaksanaan hak dan/atau pemenuhan kewajiban perpajakan secara elektronik, melalui sistem administrasi yang terintegrasi dengan sistem di Direktorat Jenderal Pajak.\n\n(2) Kerja sama sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. pemberian Nomor Pokok Wajib Pajak;\n\nb. pemberian konfirmasi status Wajib Pajak;\n\nc. penyelenggaraan bukti pemotongan elektronik dan Faktur Pajak elektronik; dan\n\nd. penyelenggaraan pembayaran pajak dan/atau pelaporan Surat Pemberitahuan elektronik.",
+  "model": "glm-ocr",
+  "usage": {}
+}

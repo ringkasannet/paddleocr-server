@@ -1,0 +1,3 @@
+# Placeholder — handler.py copies the package default and patches it at runtime.
+# This file is here so the COPY instruction in the Dockerfile doesn't fail.
+# Actual config is written to /tmp/glmocr_config.yaml by _write_config().

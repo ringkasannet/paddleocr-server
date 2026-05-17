@@ -1,0 +1,5323 @@
+{
+  "created": 1779015332,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-4c5cf78eb76745039dcdc3d1f93f6",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          288,
+          71,
+          872,
+          104
+        ],
+        "content": "(2) Ruang lingkup Pendataan kantor sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            71
+          ],
+          [
+            288,
+            104
+          ],
+          [
+            871,
+            104
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          103,
+          620,
+          118
+        ],
+        "content": "a. pengumpulan data; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            103
+          ],
+          [
+            335,
+            118
+          ],
+          [
+            620,
+            118
+          ],
+          [
+            620,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          117,
+          485,
+          131
+        ],
+        "content": "b. pemetaan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            117
+          ],
+          [
+            334,
+            130
+          ],
+          [
+            485,
+            130
+          ],
+          [
+            485,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          132,
+          871,
+          163
+        ],
+        "content": "(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan yang meliputi:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            132
+          ],
+          [
+            288,
+            158
+          ],
+          [
+            322,
+            158
+          ],
+          [
+            328,
+            163
+          ],
+          [
+            871,
+            163
+          ],
+          [
+            871,
+            136
+          ],
+          [
+            791,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          163,
+          872,
+          221
+        ],
+        "content": "a. pengumpulan data Objek Pajak yang dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1); dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            163
+          ],
+          [
+            331,
+            221
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            871,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          222,
+          872,
+          313
+        ],
+        "content": "b. pengolahan data Objek Pajak yang bersumber dari Instansi Pemerintah, lembaga, asosiasi, dan pihak lain sebagaimana diatur dalam peraturan perundang-undangan tentang pemberian dan penghimpunan data dan informasi yang berkaitan dengan perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            222
+          ],
+          [
+            330,
+            308
+          ],
+          [
+            351,
+            313
+          ],
+          [
+            871,
+            313
+          ],
+          [
+            871,
+            227
+          ],
+          [
+            756,
+            222
+          ],
+          [
+            732,
+            222
+          ],
+          [
+            711,
+            222
+          ],
+          [
+            671,
+            222
+          ],
+          [
+            636,
+            222
+          ],
+          [
+            516,
+            222
+          ],
+          [
+            511,
+            222
+          ],
+          [
+            471,
+            222
+          ],
+          [
+            460,
+            222
+          ],
+          [
+            375,
+            222
+          ],
+          [
+            370,
+            222
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          313,
+          871,
+          359
+        ],
+        "content": "(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengkonversian peta Objek Pajak, yang meliputi:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            313
+          ],
+          [
+            285,
+            358
+          ],
+          [
+            871,
+            358
+          ],
+          [
+            871,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          358,
+          826,
+          374
+        ],
+        "content": "a. transformasi antar sistem proyeksi; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            358
+          ],
+          [
+            330,
+            373
+          ],
+          [
+            825,
+            373
+          ],
+          [
+            825,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          374,
+          719,
+          390
+        ],
+        "content": "b. digitasi peta analog ke peta digital.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            374
+          ],
+          [
+            332,
+            390
+          ],
+          [
+            718,
+            390
+          ],
+          [
+            718,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          403,
+          620,
+          418
+        ],
+        "content": "## Pasal 91",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            403
+          ],
+          [
+            534,
+            417
+          ],
+          [
+            620,
+            417
+          ],
+          [
+            620,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          418,
+          870,
+          523
+        ],
+        "content": "(1) Pendataan lapangan sebagaimana dimaksud dalam Pasal 90 ayat (2) huruf b dilakukan dengan cara melakukan peninjauan pada lokasi fisik Objek Pajak dan/atau lokasi lain di luar lokasi fisik Objek Pajak, atas data Objek Pajak yang seharusnya dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            418
+          ],
+          [
+            284,
+            523
+          ],
+          [
+            869,
+            523
+          ],
+          [
+            869,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          524,
+          868,
+          556
+        ],
+        "content": "(2) Ruang lingkup Pendataan lapangan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            524
+          ],
+          [
+            285,
+            555
+          ],
+          [
+            868,
+            555
+          ],
+          [
+            868,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          555,
+          615,
+          570
+        ],
+        "content": "a. pengumpulan data; dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            555
+          ],
+          [
+            329,
+            570
+          ],
+          [
+            615,
+            570
+          ],
+          [
+            615,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          570,
+          484,
+          583
+        ],
+        "content": "b. pemetaan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            570
+          ],
+          [
+            331,
+            583
+          ],
+          [
+            484,
+            583
+          ],
+          [
+            484,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          584,
+          868,
+          659
+        ],
+        "content": "(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan pengumpulan data Objek Pajak yang tidak atau belum dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            584
+          ],
+          [
+            283,
+            659
+          ],
+          [
+            868,
+            659
+          ],
+          [
+            868,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          660,
+          870,
+          704
+        ],
+        "content": "(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengukuran Objek Pajak, yang meliputi:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            660
+          ],
+          [
+            283,
+            704
+          ],
+          [
+            869,
+            704
+          ],
+          [
+            869,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          705,
+          868,
+          734
+        ],
+        "content": "a. pengukuran menggunakan sistem pengukuran berbasis satelit;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            705
+          ],
+          [
+            329,
+            734
+          ],
+          [
+            867,
+            734
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          735,
+          868,
+          765
+        ],
+        "content": "b. pengukuran dengan bantuan data penginderaan jauh; dan/atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            735
+          ],
+          [
+            329,
+            764
+          ],
+          [
+            867,
+            764
+          ],
+          [
+            867,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          765,
+          758,
+          781
+        ],
+        "content": "c. pengukuran dengan alat ukur manual.",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            765
+          ],
+          [
+            329,
+            781
+          ],
+          [
+            757,
+            781
+          ],
+          [
+            757,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          795,
+          621,
+          810
+        ],
+        "content": "## Pasal 92",
+        "index": 19,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            795
+          ],
+          [
+            532,
+            809
+          ],
+          [
+            620,
+            809
+          ],
+          [
+            620,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          810,
+          868,
+          884
+        ],
+        "content": "(1) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud dalam Pasal 91 ayat (1), Wajib Pajak harus menandatangani surat pernyataan penolakan Pendataan.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            810
+          ],
+          [
+            283,
+            884
+          ],
+          [
+            867,
+            884
+          ],
+          [
+            867,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          885,
+          870,
+          917
+        ],
+        "content": "(2) Dalam hal Wajib Pajak menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            885
+          ],
+          [
+            282,
+            916
+          ],
+          [
+            869,
+            916
+          ],
+          [
+            869,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          72,
+          867,
+          117
+        ],
+        "content": "dimaksud pada ayat (1), petugas Pendataan membuat berita acara penolakan Pendataan yang ditandatangani oleh petugas Pendataan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            72
+          ],
+          [
+            332,
+            117
+          ],
+          [
+            451,
+            117
+          ],
+          [
+            457,
+            117
+          ],
+          [
+            866,
+            117
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            832,
+            72
+          ],
+          [
+            811,
+            72
+          ],
+          [
+            787,
+            72
+          ],
+          [
+            691,
+            72
+          ],
+          [
+            651,
+            72
+          ],
+          [
+            607,
+            72
+          ],
+          [
+            596,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          117,
+          867,
+          236
+        ],
+        "content": "(3) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud pada ayat (1) atau menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana dimaksud pada ayat (2), petugas Pendataan tetap melakukan Pendataan berdasarkan data dan/atau informasi yang dimiliki dan/atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            117
+          ],
+          [
+            287,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            122
+          ],
+          [
+            584,
+            117
+          ],
+          [
+            534,
+            117
+          ],
+          [
+            396,
+            117
+          ],
+          [
+            385,
+            117
+          ],
+          [
+            370,
+            117
+          ],
+          [
+            331,
+            117
+          ],
+          [
+            316,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          237,
+          865,
+          268
+        ],
+        "content": "(4) Pendataan sebagaimana dimaksud pada ayat (3) dilaporkan dalam bentuk laporan hasil Pendataan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            237
+          ],
+          [
+            281,
+            268
+          ],
+          [
+            864,
+            268
+          ],
+          [
+            864,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          283,
+          617,
+          297
+        ],
+        "content": "## Pasal 93",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            283
+          ],
+          [
+            530,
+            296
+          ],
+          [
+            617,
+            296
+          ],
+          [
+            617,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          298,
+          864,
+          343
+        ],
+        "content": "Laporan hasil Pendataan sebagaimana dimaksud dalam Pasal 89 ayat (4) dan Pasal 92 ayat (4) merupakan dokumen yang dapat digunakan sebagai:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            298
+          ],
+          [
+            279,
+            343
+          ],
+          [
+            864,
+            343
+          ],
+          [
+            864,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          343,
+          865,
+          373
+        ],
+        "content": "a. bahan penelitian material sebagaimana dimaksud dalam Pasal 86 ayat (1); atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            343
+          ],
+          [
+            280,
+            372
+          ],
+          [
+            864,
+            372
+          ],
+          [
+            864,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          373,
+          808,
+          388
+        ],
+        "content": "b. bahan analisis risiko untuk usulan Pemeriksaan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            373
+          ],
+          [
+            280,
+            388
+          ],
+          [
+            807,
+            388
+          ],
+          [
+            807,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          539,
+          403,
+          607,
+          417
+        ],
+        "content": "## BAB V",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            539,
+            403
+          ],
+          [
+            539,
+            416
+          ],
+          [
+            607,
+            416
+          ],
+          [
+            607,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          418,
+          864,
+          480
+        ],
+        "content": "## TATA CARA PEMBAYARAN DAN PENYETORAN PAJAK, PENGEMBALIAN ATAS KELEBIHAN PEMBAYARAN PAJAK YANG SEHARUSNYA TIDAK TERUTANG, IMBALAN BUNGA, SERTA PENGEMBALIAN KELEBIHAN PEMBAYARAN PAJAK",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            418
+          ],
+          [
+            280,
+            479
+          ],
+          [
+            864,
+            479
+          ],
+          [
+            864,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          354,
+          495,
+          798,
+          527
+        ],
+        "content": "## Bagian Kesatu Tata Cara Pembayaran dan Penyetoran Pajak",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            354,
+            495
+          ],
+          [
+            354,
+            526
+          ],
+          [
+            798,
+            526
+          ],
+          [
+            793,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          541,
+          617,
+          555
+        ],
+        "content": "## Pasal 94",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            541
+          ],
+          [
+            528,
+            555
+          ],
+          [
+            616,
+            555
+          ],
+          [
+            616,
+            541
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          556,
+          863,
+          586
+        ],
+        "content": "(1) Pajak yang terutang wajib dibayar dan disetor sebelum melewati tanggal jatuh tempo.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            556
+          ],
+          [
+            281,
+            586
+          ],
+          [
+            862,
+            586
+          ],
+          [
+            862,
+            556
+          ],
+          [
+            525,
+            556
+          ],
+          [
+            520,
+            556
+          ],
+          [
+            510,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          587,
+          864,
+          646
+        ],
+        "content": "(2) Pembayaran dan penyetoran sebagaimana dimaksud pada ayat (1) wajib dilakukan paling lambat tanggal 15 (lima belas) bulan berikutnya setelah Masa Pajak berakhir meliputi:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            587
+          ],
+          [
+            280,
+            646
+          ],
+          [
+            864,
+            646
+          ],
+          [
+            864,
+            587
+          ],
+          [
+            635,
+            587
+          ],
+          [
+            630,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          647,
+          713,
+          662
+        ],
+        "content": "a. Pajak Penghasilan Pasal 4 ayat (2);",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            647
+          ],
+          [
+            325,
+            662
+          ],
+          [
+            355,
+            662
+          ],
+          [
+            371,
+            662
+          ],
+          [
+            380,
+            662
+          ],
+          [
+            424,
+            662
+          ],
+          [
+            430,
+            662
+          ],
+          [
+            499,
+            662
+          ],
+          [
+            624,
+            662
+          ],
+          [
+            712,
+            662
+          ],
+          [
+            712,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          662,
+          648,
+          677
+        ],
+        "content": "b. Pajak Penghasilan Pasal 15;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            662
+          ],
+          [
+            326,
+            677
+          ],
+          [
+            370,
+            677
+          ],
+          [
+            376,
+            677
+          ],
+          [
+            415,
+            677
+          ],
+          [
+            460,
+            677
+          ],
+          [
+            484,
+            677
+          ],
+          [
+            634,
+            677
+          ],
+          [
+            648,
+            677
+          ],
+          [
+            648,
+            662
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          677,
+          649,
+          692
+        ],
+        "content": "c. Pajak Penghasilan Pasal 21;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            677
+          ],
+          [
+            326,
+            692
+          ],
+          [
+            648,
+            692
+          ],
+          [
+            648,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          692,
+          648,
+          707
+        ],
+        "content": "d. Pajak Penghasilan Pasal 22;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            692
+          ],
+          [
+            326,
+            707
+          ],
+          [
+            648,
+            707
+          ],
+          [
+            648,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          708,
+          648,
+          722
+        ],
+        "content": "e. Pajak Penghasilan Pasal 23;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            708
+          ],
+          [
+            326,
+            721
+          ],
+          [
+            648,
+            721
+          ],
+          [
+            648,
+            708
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          721,
+          648,
+          738
+        ],
+        "content": "f. Pajak Penghasilan Pasal 25;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            721
+          ],
+          [
+            327,
+            738
+          ],
+          [
+            647,
+            738
+          ],
+          [
+            647,
+            721
+          ],
+          [
+            643,
+            721
+          ],
+          [
+            632,
+            721
+          ],
+          [
+            614,
+            721
+          ],
+          [
+            608,
+            721
+          ],
+          [
+            594,
+            721
+          ],
+          [
+            568,
+            721
+          ],
+          [
+            559,
+            721
+          ],
+          [
+            534,
+            721
+          ],
+          [
+            520,
+            721
+          ],
+          [
+            494,
+            721
+          ],
+          [
+            485,
+            721
+          ],
+          [
+            450,
+            721
+          ],
+          [
+            441,
+            721
+          ],
+          [
+            420,
+            721
+          ],
+          [
+            406,
+            721
+          ],
+          [
+            385,
+            721
+          ],
+          [
+            381,
+            721
+          ],
+          [
+            336,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          737,
+          649,
+          752
+        ],
+        "content": "g. Pajak Penghasilan Pasal 26;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            737
+          ],
+          [
+            327,
+            752
+          ],
+          [
+            570,
+            752
+          ],
+          [
+            605,
+            752
+          ],
+          [
+            648,
+            752
+          ],
+          [
+            648,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          752,
+          864,
+          811
+        ],
+        "content": "h. Pajak Penghasilan minyak bumi dan/atau gas bumi dari kegiatan usaha hulu minyak bumi dan/atau gas bumi yang dibayarkan setiap Masa Pajak;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            752
+          ],
+          [
+            324,
+            811
+          ],
+          [
+            864,
+            811
+          ],
+          [
+            864,
+            752
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          812,
+          864,
+          871
+        ],
+        "content": "i. Pajak Pertambahan Nilai yang terutang atas pemanfaatan Barang Kena Pajak tidak berwujud dan/atau Jasa Kena Pajak dari luar Daerah Pabean;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            812
+          ],
+          [
+            324,
+            871
+          ],
+          [
+            863,
+            871
+          ],
+          [
+            863,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          872,
+          865,
+          903
+        ],
+        "content": "j. Pajak Pertambahan Nilai yang terutang atas kegiatan membangun sendiri;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            893
+          ],
+          [
+            327,
+            903
+          ],
+          [
+            864,
+            903
+          ],
+          [
+            864,
+            872
+          ],
+          [
+            327,
+            872
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          70,
+          867,
+          101
+        ],
+        "content": "k. Bea Meterai yang dipungut oleh pemungut Bea Meterai;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            70
+          ],
+          [
+            327,
+            100
+          ],
+          [
+            866,
+            100
+          ],
+          [
+            866,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          100,
+          588,
+          116
+        ],
+        "content": "1. Pajak Penjualan; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            100
+          ],
+          [
+            328,
+            116
+          ],
+          [
+            587,
+            116
+          ],
+          [
+            587,
+            100
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          116,
+          866,
+          145
+        ],
+        "content": "m. Pajak Karbon yang dipungut oleh pemungut Pajak Karbon.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            116
+          ],
+          [
+            327,
+            145
+          ],
+          [
+            865,
+            145
+          ],
+          [
+            865,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          146,
+          867,
+          177
+        ],
+        "content": "(3) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (2) pembayaran dan penyetoran pajak atas:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            146
+          ],
+          [
+            282,
+            176
+          ],
+          [
+            867,
+            176
+          ],
+          [
+            867,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          177,
+          868,
+          236
+        ],
+        "content": "a. Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor yang:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            177
+          ],
+          [
+            327,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            182
+          ],
+          [
+            807,
+            177
+          ],
+          [
+            778,
+            177
+          ],
+          [
+            772,
+            177
+          ],
+          [
+            743,
+            177
+          ],
+          [
+            737,
+            177
+          ],
+          [
+            342,
+            177
+          ],
+          [
+            337,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          236,
+          868,
+          372
+        ],
+        "content": "1. disetor sendiri oleh Wajib Pajak/importir wajib dilunasi bersamaan dengan saat pembayaran bea masuk, dalam hal bea masuk ditunda atau dibebaskan Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor wajib dilunasi pada saat penyelesaian dokumen pemberitahuan pabean impor; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            241
+          ],
+          [
+            374,
+            367
+          ],
+          [
+            420,
+            372
+          ],
+          [
+            434,
+            372
+          ],
+          [
+            862,
+            372
+          ],
+          [
+            867,
+            367
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            842,
+            236
+          ],
+          [
+            793,
+            236
+          ],
+          [
+            743,
+            236
+          ],
+          [
+            704,
+            236
+          ],
+          [
+            683,
+            236
+          ],
+          [
+            569,
+            236
+          ],
+          [
+            548,
+            236
+          ],
+          [
+            524,
+            236
+          ],
+          [
+            518,
+            236
+          ],
+          [
+            504,
+            236
+          ],
+          [
+            474,
+            236
+          ],
+          [
+            464,
+            236
+          ],
+          [
+            444,
+            236
+          ],
+          [
+            434,
+            236
+          ],
+          [
+            380,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          370,
+          372,
+          865,
+          432
+        ],
+        "content": "2. dipungut oleh Direktorat Jenderal Bea dan Cukai wajib disetor dalam jangka waktu 1 (satu) hari kerja setelah dilakukan pemungutan pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            370,
+            382
+          ],
+          [
+            370,
+            427
+          ],
+          [
+            410,
+            432
+          ],
+          [
+            864,
+            432
+          ],
+          [
+            864,
+            372
+          ],
+          [
+            375,
+            372
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          432,
+          866,
+          553
+        ],
+        "content": "b. Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana diatur dalam Pasal 3 ayat (3b) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang melaporkan beberapa Masa Pajak dalam satu Surat Pemberitahuan Masa wajib dibayar paling lama tanggal 15 (lima belas) bulan berikutnya setelah berakhirnya Masa Pajak terakhir;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            432
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            865,
+            553
+          ],
+          [
+            865,
+            432
+          ],
+          [
+            851,
+            432
+          ],
+          [
+            826,
+            432
+          ],
+          [
+            821,
+            432
+          ],
+          [
+            615,
+            432
+          ],
+          [
+            610,
+            432
+          ],
+          [
+            594,
+            432
+          ],
+          [
+            584,
+            432
+          ],
+          [
+            564,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          553,
+          865,
+          628
+        ],
+        "content": "c. Pembayaran masa selain Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana dimaksud dalam huruf b wajib dibayar paling lama sesuai dengan batas waktu untuk masing-masing jenis pajak;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            553
+          ],
+          [
+            324,
+            628
+          ],
+          [
+            865,
+            628
+          ],
+          [
+            865,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          628,
+          865,
+          688
+        ],
+        "content": "d. Tambahan Pajak Penghasilan atas saham pendiri yang dipungut oleh emiten, wajib disetorkan paling lama 1 (satu) bulan setelah saat terutangnya tambahan Pajak Penghasilan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            628
+          ],
+          [
+            324,
+            688
+          ],
+          [
+            864,
+            688
+          ],
+          [
+            864,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          688,
+          865,
+          779
+        ],
+        "content": "e. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang terutang dalam satu Masa Pajak wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            688
+          ],
+          [
+            322,
+            778
+          ],
+          [
+            864,
+            778
+          ],
+          [
+            864,
+            688
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          779,
+          864,
+          884
+        ],
+        "content": "f. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang dipungut oleh Pemungut Pajak Pertambahan Nilai dan Pihak Lain wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            779
+          ],
+          [
+            321,
+            878
+          ],
+          [
+            331,
+            883
+          ],
+          [
+            864,
+            883
+          ],
+          [
+            864,
+            779
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          884,
+          864,
+          915
+        ],
+        "content": "(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            884
+          ],
+          [
+            278,
+            915
+          ],
+          [
+            864,
+            915
+          ],
+          [
+            864,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          70,
+          867,
+          104
+        ],
+        "content": "(3) dikenai sanksi sebagaimana diatur dalam UndangUndang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            70
+          ],
+          [
+            329,
+            103
+          ],
+          [
+            867,
+            103
+          ],
+          [
+            862,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          116,
+          621,
+          131
+        ],
+        "content": "## Pasal 95",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            116
+          ],
+          [
+            532,
+            130
+          ],
+          [
+            621,
+            130
+          ],
+          [
+            621,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          131,
+          868,
+          223
+        ],
+        "content": "(1) Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan untuk Pajak Penghasilan dan Pajak Karbon, wajib dibayar secara lunas sebelum Surat Pemberitahuan Tahunan disampaikan tetapi tidak melebihi batas waktu penyampaian Surat Pemberitahuan Tahunan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            131
+          ],
+          [
+            283,
+            218
+          ],
+          [
+            328,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            136
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          222,
+          868,
+          283
+        ],
+        "content": "(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            222
+          ],
+          [
+            282,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            222
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          297,
+          620,
+          312
+        ],
+        "content": "## Pasal 96",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            297
+          ],
+          [
+            531,
+            311
+          ],
+          [
+            619,
+            311
+          ],
+          [
+            619,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          312,
+          867,
+          343
+        ],
+        "content": "(1) Bea Meterai wajib dibayar secara lunas pada saat terutang Bea Meterai.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            312
+          ],
+          [
+            281,
+            338
+          ],
+          [
+            292,
+            342
+          ],
+          [
+            321,
+            342
+          ],
+          [
+            342,
+            342
+          ],
+          [
+            866,
+            342
+          ],
+          [
+            866,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          343,
+          867,
+          405
+        ],
+        "content": "(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            343
+          ],
+          [
+            281,
+            405
+          ],
+          [
+            867,
+            405
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          418,
+          618,
+          432
+        ],
+        "content": "## Pasal 97",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            418
+          ],
+          [
+            530,
+            431
+          ],
+          [
+            618,
+            431
+          ],
+          [
+            618,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          432,
+          866,
+          493
+        ],
+        "content": "(1) Pajak yang masih harus dibayar berdasarkan Surat Pemberitahuan Pajak Terutang harus dilunasi paling lama 6 (enam) bulan sejak tanggal diterimanya Surat Pemberitahuan Pajak Terutang oleh Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            432
+          ],
+          [
+            281,
+            488
+          ],
+          [
+            321,
+            493
+          ],
+          [
+            865,
+            493
+          ],
+          [
+            865,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          493,
+          867,
+          568
+        ],
+        "content": "(2) Pajak yang masih harus dibayar berdasarkan Surat Ketetapan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Ketetapan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            493
+          ],
+          [
+            280,
+            563
+          ],
+          [
+            315,
+            568
+          ],
+          [
+            866,
+            568
+          ],
+          [
+            866,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          568,
+          865,
+          644
+        ],
+        "content": "(3) Pajak yang masih harus dibayar berdasarkan Surat Tagihan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Tagihan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            568
+          ],
+          [
+            280,
+            638
+          ],
+          [
+            301,
+            643
+          ],
+          [
+            865,
+            643
+          ],
+          [
+            865,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          643,
+          866,
+          705
+        ],
+        "content": "(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dikenai sanksi sebagaimana diatur dalam UndangUndang Pajak Bumi dan Bangunan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            643
+          ],
+          [
+            280,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          719,
+          616,
+          733
+        ],
+        "content": "## Pasal 98",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            719
+          ],
+          [
+            528,
+            732
+          ],
+          [
+            615,
+            732
+          ],
+          [
+            615,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          734,
+          865,
+          855
+        ],
+        "content": "(1) Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, wajib dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            734
+          ],
+          [
+            284,
+            854
+          ],
+          [
+            864,
+            854
+          ],
+          [
+            864,
+            734
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          865,
+          916
+        ],
+        "content": "(2) Dalam hal Wajib Pajak tidak mengajukan keberatan, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            915
+          ],
+          [
+            865,
+            915
+          ],
+          [
+            865,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          288,
+          71,
+          872,
+          104
+        ],
+        "content": "(2) Ruang lingkup Pendataan kantor sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            71
+          ],
+          [
+            288,
+            104
+          ],
+          [
+            871,
+            104
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          335,
+          103,
+          620,
+          118
+        ],
+        "content": "a. pengumpulan data; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            335,
+            103
+          ],
+          [
+            335,
+            118
+          ],
+          [
+            620,
+            118
+          ],
+          [
+            620,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          334,
+          117,
+          485,
+          131
+        ],
+        "content": "b. pemetaan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            334,
+            117
+          ],
+          [
+            334,
+            130
+          ],
+          [
+            485,
+            130
+          ],
+          [
+            485,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          132,
+          871,
+          163
+        ],
+        "content": "(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan yang meliputi:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            132
+          ],
+          [
+            288,
+            158
+          ],
+          [
+            322,
+            158
+          ],
+          [
+            328,
+            163
+          ],
+          [
+            871,
+            163
+          ],
+          [
+            871,
+            136
+          ],
+          [
+            791,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          163,
+          872,
+          221
+        ],
+        "content": "a. pengumpulan data Objek Pajak yang dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1); dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            163
+          ],
+          [
+            331,
+            221
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            871,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          222,
+          872,
+          313
+        ],
+        "content": "b. pengolahan data Objek Pajak yang bersumber dari Instansi Pemerintah, lembaga, asosiasi, dan pihak lain sebagaimana diatur dalam peraturan perundang-undangan tentang pemberian dan penghimpunan data dan informasi yang berkaitan dengan perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            222
+          ],
+          [
+            330,
+            308
+          ],
+          [
+            351,
+            313
+          ],
+          [
+            871,
+            313
+          ],
+          [
+            871,
+            227
+          ],
+          [
+            756,
+            222
+          ],
+          [
+            732,
+            222
+          ],
+          [
+            711,
+            222
+          ],
+          [
+            671,
+            222
+          ],
+          [
+            636,
+            222
+          ],
+          [
+            516,
+            222
+          ],
+          [
+            511,
+            222
+          ],
+          [
+            471,
+            222
+          ],
+          [
+            460,
+            222
+          ],
+          [
+            375,
+            222
+          ],
+          [
+            370,
+            222
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          313,
+          871,
+          359
+        ],
+        "content": "(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengkonversian peta Objek Pajak, yang meliputi:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            313
+          ],
+          [
+            285,
+            358
+          ],
+          [
+            871,
+            358
+          ],
+          [
+            871,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          358,
+          826,
+          374
+        ],
+        "content": "a. transformasi antar sistem proyeksi; dan/atau",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            358
+          ],
+          [
+            330,
+            373
+          ],
+          [
+            825,
+            373
+          ],
+          [
+            825,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          374,
+          719,
+          390
+        ],
+        "content": "b. digitasi peta analog ke peta digital.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            374
+          ],
+          [
+            332,
+            390
+          ],
+          [
+            718,
+            390
+          ],
+          [
+            718,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          534,
+          403,
+          620,
+          418
+        ],
+        "content": "## Pasal 91",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            534,
+            403
+          ],
+          [
+            534,
+            417
+          ],
+          [
+            620,
+            417
+          ],
+          [
+            620,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          418,
+          870,
+          523
+        ],
+        "content": "(1) Pendataan lapangan sebagaimana dimaksud dalam Pasal 90 ayat (2) huruf b dilakukan dengan cara melakukan peninjauan pada lokasi fisik Objek Pajak dan/atau lokasi lain di luar lokasi fisik Objek Pajak, atas data Objek Pajak yang seharusnya dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            418
+          ],
+          [
+            284,
+            523
+          ],
+          [
+            869,
+            523
+          ],
+          [
+            869,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          524,
+          868,
+          556
+        ],
+        "content": "(2) Ruang lingkup Pendataan lapangan sebagaimana dimaksud pada ayat (1) meliputi:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            524
+          ],
+          [
+            285,
+            555
+          ],
+          [
+            868,
+            555
+          ],
+          [
+            868,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          555,
+          615,
+          570
+        ],
+        "content": "a. pengumpulan data; dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            555
+          ],
+          [
+            329,
+            570
+          ],
+          [
+            615,
+            570
+          ],
+          [
+            615,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          570,
+          484,
+          583
+        ],
+        "content": "b. pemetaan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            570
+          ],
+          [
+            331,
+            583
+          ],
+          [
+            484,
+            583
+          ],
+          [
+            484,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          584,
+          868,
+          659
+        ],
+        "content": "(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan pengumpulan data Objek Pajak yang tidak atau belum dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            584
+          ],
+          [
+            283,
+            659
+          ],
+          [
+            868,
+            659
+          ],
+          [
+            868,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          660,
+          870,
+          704
+        ],
+        "content": "(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengukuran Objek Pajak, yang meliputi:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            660
+          ],
+          [
+            283,
+            704
+          ],
+          [
+            869,
+            704
+          ],
+          [
+            869,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          705,
+          868,
+          734
+        ],
+        "content": "a. pengukuran menggunakan sistem pengukuran berbasis satelit;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            705
+          ],
+          [
+            329,
+            734
+          ],
+          [
+            867,
+            734
+          ],
+          [
+            867,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          735,
+          868,
+          765
+        ],
+        "content": "b. pengukuran dengan bantuan data penginderaan jauh; dan/atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            735
+          ],
+          [
+            329,
+            764
+          ],
+          [
+            867,
+            764
+          ],
+          [
+            867,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          765,
+          758,
+          781
+        ],
+        "content": "c. pengukuran dengan alat ukur manual.",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            765
+          ],
+          [
+            329,
+            781
+          ],
+          [
+            757,
+            781
+          ],
+          [
+            757,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          795,
+          621,
+          810
+        ],
+        "content": "## Pasal 92",
+        "index": 19,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            795
+          ],
+          [
+            532,
+            809
+          ],
+          [
+            620,
+            809
+          ],
+          [
+            620,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          810,
+          868,
+          884
+        ],
+        "content": "(1) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud dalam Pasal 91 ayat (1), Wajib Pajak harus menandatangani surat pernyataan penolakan Pendataan.",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            810
+          ],
+          [
+            283,
+            884
+          ],
+          [
+            867,
+            884
+          ],
+          [
+            867,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          885,
+          870,
+          917
+        ],
+        "content": "(2) Dalam hal Wajib Pajak menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            885
+          ],
+          [
+            282,
+            916
+          ],
+          [
+            869,
+            916
+          ],
+          [
+            869,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          72,
+          867,
+          117
+        ],
+        "content": "dimaksud pada ayat (1), petugas Pendataan membuat berita acara penolakan Pendataan yang ditandatangani oleh petugas Pendataan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            72
+          ],
+          [
+            332,
+            117
+          ],
+          [
+            451,
+            117
+          ],
+          [
+            457,
+            117
+          ],
+          [
+            866,
+            117
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            846,
+            72
+          ],
+          [
+            832,
+            72
+          ],
+          [
+            811,
+            72
+          ],
+          [
+            787,
+            72
+          ],
+          [
+            691,
+            72
+          ],
+          [
+            651,
+            72
+          ],
+          [
+            607,
+            72
+          ],
+          [
+            596,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          117,
+          867,
+          236
+        ],
+        "content": "(3) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud pada ayat (1) atau menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana dimaksud pada ayat (2), petugas Pendataan tetap melakukan Pendataan berdasarkan data dan/atau informasi yang dimiliki dan/atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            117
+          ],
+          [
+            287,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            122
+          ],
+          [
+            584,
+            117
+          ],
+          [
+            534,
+            117
+          ],
+          [
+            396,
+            117
+          ],
+          [
+            385,
+            117
+          ],
+          [
+            370,
+            117
+          ],
+          [
+            331,
+            117
+          ],
+          [
+            316,
+            117
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          237,
+          865,
+          268
+        ],
+        "content": "(4) Pendataan sebagaimana dimaksud pada ayat (3) dilaporkan dalam bentuk laporan hasil Pendataan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            237
+          ],
+          [
+            281,
+            268
+          ],
+          [
+            864,
+            268
+          ],
+          [
+            864,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          283,
+          617,
+          297
+        ],
+        "content": "## Pasal 93",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            283
+          ],
+          [
+            530,
+            296
+          ],
+          [
+            617,
+            296
+          ],
+          [
+            617,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          298,
+          864,
+          343
+        ],
+        "content": "Laporan hasil Pendataan sebagaimana dimaksud dalam Pasal 89 ayat (4) dan Pasal 92 ayat (4) merupakan dokumen yang dapat digunakan sebagai:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            298
+          ],
+          [
+            279,
+            343
+          ],
+          [
+            864,
+            343
+          ],
+          [
+            864,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          343,
+          865,
+          373
+        ],
+        "content": "a. bahan penelitian material sebagaimana dimaksud dalam Pasal 86 ayat (1); atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            343
+          ],
+          [
+            280,
+            372
+          ],
+          [
+            864,
+            372
+          ],
+          [
+            864,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          373,
+          808,
+          388
+        ],
+        "content": "b. bahan analisis risiko untuk usulan Pemeriksaan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            373
+          ],
+          [
+            280,
+            388
+          ],
+          [
+            807,
+            388
+          ],
+          [
+            807,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          539,
+          403,
+          607,
+          417
+        ],
+        "content": "## BAB V",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            539,
+            403
+          ],
+          [
+            539,
+            416
+          ],
+          [
+            607,
+            416
+          ],
+          [
+            607,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          418,
+          864,
+          480
+        ],
+        "content": "## TATA CARA PEMBAYARAN DAN PENYETORAN PAJAK, PENGEMBALIAN ATAS KELEBIHAN PEMBAYARAN PAJAK YANG SEHARUSNYA TIDAK TERUTANG, IMBALAN BUNGA, SERTA PENGEMBALIAN KELEBIHAN PEMBAYARAN PAJAK",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            418
+          ],
+          [
+            280,
+            479
+          ],
+          [
+            864,
+            479
+          ],
+          [
+            864,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          354,
+          495,
+          798,
+          527
+        ],
+        "content": "## Bagian Kesatu Tata Cara Pembayaran dan Penyetoran Pajak",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            354,
+            495
+          ],
+          [
+            354,
+            526
+          ],
+          [
+            798,
+            526
+          ],
+          [
+            793,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          541,
+          617,
+          555
+        ],
+        "content": "## Pasal 94",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            541
+          ],
+          [
+            528,
+            555
+          ],
+          [
+            616,
+            555
+          ],
+          [
+            616,
+            541
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          556,
+          863,
+          586
+        ],
+        "content": "(1) Pajak yang terutang wajib dibayar dan disetor sebelum melewati tanggal jatuh tempo.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            556
+          ],
+          [
+            281,
+            586
+          ],
+          [
+            862,
+            586
+          ],
+          [
+            862,
+            556
+          ],
+          [
+            525,
+            556
+          ],
+          [
+            520,
+            556
+          ],
+          [
+            510,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          587,
+          864,
+          646
+        ],
+        "content": "(2) Pembayaran dan penyetoran sebagaimana dimaksud pada ayat (1) wajib dilakukan paling lambat tanggal 15 (lima belas) bulan berikutnya setelah Masa Pajak berakhir meliputi:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            587
+          ],
+          [
+            280,
+            646
+          ],
+          [
+            864,
+            646
+          ],
+          [
+            864,
+            587
+          ],
+          [
+            635,
+            587
+          ],
+          [
+            630,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          647,
+          713,
+          662
+        ],
+        "content": "a. Pajak Penghasilan Pasal 4 ayat (2);",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            647
+          ],
+          [
+            325,
+            662
+          ],
+          [
+            355,
+            662
+          ],
+          [
+            371,
+            662
+          ],
+          [
+            380,
+            662
+          ],
+          [
+            424,
+            662
+          ],
+          [
+            430,
+            662
+          ],
+          [
+            499,
+            662
+          ],
+          [
+            624,
+            662
+          ],
+          [
+            712,
+            662
+          ],
+          [
+            712,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          662,
+          648,
+          677
+        ],
+        "content": "b. Pajak Penghasilan Pasal 15;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            662
+          ],
+          [
+            326,
+            677
+          ],
+          [
+            370,
+            677
+          ],
+          [
+            376,
+            677
+          ],
+          [
+            415,
+            677
+          ],
+          [
+            460,
+            677
+          ],
+          [
+            484,
+            677
+          ],
+          [
+            634,
+            677
+          ],
+          [
+            648,
+            677
+          ],
+          [
+            648,
+            662
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          677,
+          649,
+          692
+        ],
+        "content": "c. Pajak Penghasilan Pasal 21;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            677
+          ],
+          [
+            326,
+            692
+          ],
+          [
+            648,
+            692
+          ],
+          [
+            648,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          692,
+          648,
+          707
+        ],
+        "content": "d. Pajak Penghasilan Pasal 22;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            692
+          ],
+          [
+            326,
+            707
+          ],
+          [
+            648,
+            707
+          ],
+          [
+            648,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          708,
+          648,
+          722
+        ],
+        "content": "e. Pajak Penghasilan Pasal 23;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            708
+          ],
+          [
+            326,
+            721
+          ],
+          [
+            648,
+            721
+          ],
+          [
+            648,
+            708
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          721,
+          648,
+          738
+        ],
+        "content": "f. Pajak Penghasilan Pasal 25;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            721
+          ],
+          [
+            327,
+            738
+          ],
+          [
+            647,
+            738
+          ],
+          [
+            647,
+            721
+          ],
+          [
+            643,
+            721
+          ],
+          [
+            632,
+            721
+          ],
+          [
+            614,
+            721
+          ],
+          [
+            608,
+            721
+          ],
+          [
+            594,
+            721
+          ],
+          [
+            568,
+            721
+          ],
+          [
+            559,
+            721
+          ],
+          [
+            534,
+            721
+          ],
+          [
+            520,
+            721
+          ],
+          [
+            494,
+            721
+          ],
+          [
+            485,
+            721
+          ],
+          [
+            450,
+            721
+          ],
+          [
+            441,
+            721
+          ],
+          [
+            420,
+            721
+          ],
+          [
+            406,
+            721
+          ],
+          [
+            385,
+            721
+          ],
+          [
+            381,
+            721
+          ],
+          [
+            336,
+            721
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          737,
+          649,
+          752
+        ],
+        "content": "g. Pajak Penghasilan Pasal 26;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            737
+          ],
+          [
+            327,
+            752
+          ],
+          [
+            570,
+            752
+          ],
+          [
+            605,
+            752
+          ],
+          [
+            648,
+            752
+          ],
+          [
+            648,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          752,
+          864,
+          811
+        ],
+        "content": "h. Pajak Penghasilan minyak bumi dan/atau gas bumi dari kegiatan usaha hulu minyak bumi dan/atau gas bumi yang dibayarkan setiap Masa Pajak;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            752
+          ],
+          [
+            324,
+            811
+          ],
+          [
+            864,
+            811
+          ],
+          [
+            864,
+            752
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          812,
+          864,
+          871
+        ],
+        "content": "i. Pajak Pertambahan Nilai yang terutang atas pemanfaatan Barang Kena Pajak tidak berwujud dan/atau Jasa Kena Pajak dari luar Daerah Pabean;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            812
+          ],
+          [
+            324,
+            871
+          ],
+          [
+            863,
+            871
+          ],
+          [
+            863,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          872,
+          865,
+          903
+        ],
+        "content": "j. Pajak Pertambahan Nilai yang terutang atas kegiatan membangun sendiri;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            893
+          ],
+          [
+            327,
+            903
+          ],
+          [
+            864,
+            903
+          ],
+          [
+            864,
+            872
+          ],
+          [
+            327,
+            872
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          70,
+          867,
+          101
+        ],
+        "content": "k. Bea Meterai yang dipungut oleh pemungut Bea Meterai;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            70
+          ],
+          [
+            327,
+            100
+          ],
+          [
+            866,
+            100
+          ],
+          [
+            866,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          100,
+          588,
+          116
+        ],
+        "content": "1. Pajak Penjualan; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            100
+          ],
+          [
+            328,
+            116
+          ],
+          [
+            587,
+            116
+          ],
+          [
+            587,
+            100
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          116,
+          866,
+          145
+        ],
+        "content": "m. Pajak Karbon yang dipungut oleh pemungut Pajak Karbon.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            116
+          ],
+          [
+            327,
+            145
+          ],
+          [
+            865,
+            145
+          ],
+          [
+            865,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          146,
+          867,
+          177
+        ],
+        "content": "(3) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (2) pembayaran dan penyetoran pajak atas:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            146
+          ],
+          [
+            282,
+            176
+          ],
+          [
+            867,
+            176
+          ],
+          [
+            867,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          177,
+          868,
+          236
+        ],
+        "content": "a. Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor yang:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            177
+          ],
+          [
+            327,
+            236
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            867,
+            182
+          ],
+          [
+            807,
+            177
+          ],
+          [
+            778,
+            177
+          ],
+          [
+            772,
+            177
+          ],
+          [
+            743,
+            177
+          ],
+          [
+            737,
+            177
+          ],
+          [
+            342,
+            177
+          ],
+          [
+            337,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          374,
+          236,
+          868,
+          372
+        ],
+        "content": "1. disetor sendiri oleh Wajib Pajak/importir wajib dilunasi bersamaan dengan saat pembayaran bea masuk, dalam hal bea masuk ditunda atau dibebaskan Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor wajib dilunasi pada saat penyelesaian dokumen pemberitahuan pabean impor; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            374,
+            241
+          ],
+          [
+            374,
+            367
+          ],
+          [
+            420,
+            372
+          ],
+          [
+            434,
+            372
+          ],
+          [
+            862,
+            372
+          ],
+          [
+            867,
+            367
+          ],
+          [
+            867,
+            236
+          ],
+          [
+            842,
+            236
+          ],
+          [
+            793,
+            236
+          ],
+          [
+            743,
+            236
+          ],
+          [
+            704,
+            236
+          ],
+          [
+            683,
+            236
+          ],
+          [
+            569,
+            236
+          ],
+          [
+            548,
+            236
+          ],
+          [
+            524,
+            236
+          ],
+          [
+            518,
+            236
+          ],
+          [
+            504,
+            236
+          ],
+          [
+            474,
+            236
+          ],
+          [
+            464,
+            236
+          ],
+          [
+            444,
+            236
+          ],
+          [
+            434,
+            236
+          ],
+          [
+            380,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          370,
+          372,
+          865,
+          432
+        ],
+        "content": "2. dipungut oleh Direktorat Jenderal Bea dan Cukai wajib disetor dalam jangka waktu 1 (satu) hari kerja setelah dilakukan pemungutan pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            370,
+            382
+          ],
+          [
+            370,
+            427
+          ],
+          [
+            410,
+            432
+          ],
+          [
+            864,
+            432
+          ],
+          [
+            864,
+            372
+          ],
+          [
+            375,
+            372
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          432,
+          866,
+          553
+        ],
+        "content": "b. Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana diatur dalam Pasal 3 ayat (3b) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang melaporkan beberapa Masa Pajak dalam satu Surat Pemberitahuan Masa wajib dibayar paling lama tanggal 15 (lima belas) bulan berikutnya setelah berakhirnya Masa Pajak terakhir;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            432
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            865,
+            553
+          ],
+          [
+            865,
+            432
+          ],
+          [
+            851,
+            432
+          ],
+          [
+            826,
+            432
+          ],
+          [
+            821,
+            432
+          ],
+          [
+            615,
+            432
+          ],
+          [
+            610,
+            432
+          ],
+          [
+            594,
+            432
+          ],
+          [
+            584,
+            432
+          ],
+          [
+            564,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          553,
+          865,
+          628
+        ],
+        "content": "c. Pembayaran masa selain Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana dimaksud dalam huruf b wajib dibayar paling lama sesuai dengan batas waktu untuk masing-masing jenis pajak;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            553
+          ],
+          [
+            324,
+            628
+          ],
+          [
+            865,
+            628
+          ],
+          [
+            865,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          628,
+          865,
+          688
+        ],
+        "content": "d. Tambahan Pajak Penghasilan atas saham pendiri yang dipungut oleh emiten, wajib disetorkan paling lama 1 (satu) bulan setelah saat terutangnya tambahan Pajak Penghasilan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            628
+          ],
+          [
+            324,
+            688
+          ],
+          [
+            864,
+            688
+          ],
+          [
+            864,
+            628
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          322,
+          688,
+          865,
+          779
+        ],
+        "content": "e. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang terutang dalam satu Masa Pajak wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            688
+          ],
+          [
+            322,
+            778
+          ],
+          [
+            864,
+            778
+          ],
+          [
+            864,
+            688
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          321,
+          779,
+          864,
+          884
+        ],
+        "content": "f. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang dipungut oleh Pemungut Pajak Pertambahan Nilai dan Pihak Lain wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            779
+          ],
+          [
+            321,
+            878
+          ],
+          [
+            331,
+            883
+          ],
+          [
+            864,
+            883
+          ],
+          [
+            864,
+            779
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          884,
+          864,
+          915
+        ],
+        "content": "(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            884
+          ],
+          [
+            278,
+            915
+          ],
+          [
+            864,
+            915
+          ],
+          [
+            864,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          70,
+          867,
+          104
+        ],
+        "content": "(3) dikenai sanksi sebagaimana diatur dalam UndangUndang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            70
+          ],
+          [
+            329,
+            103
+          ],
+          [
+            867,
+            103
+          ],
+          [
+            862,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          116,
+          621,
+          131
+        ],
+        "content": "## Pasal 95",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            116
+          ],
+          [
+            532,
+            130
+          ],
+          [
+            621,
+            130
+          ],
+          [
+            621,
+            116
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          131,
+          868,
+          223
+        ],
+        "content": "(1) Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan untuk Pajak Penghasilan dan Pajak Karbon, wajib dibayar secara lunas sebelum Surat Pemberitahuan Tahunan disampaikan tetapi tidak melebihi batas waktu penyampaian Surat Pemberitahuan Tahunan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            131
+          ],
+          [
+            283,
+            218
+          ],
+          [
+            328,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            136
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          222,
+          868,
+          283
+        ],
+        "content": "(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            222
+          ],
+          [
+            282,
+            282
+          ],
+          [
+            867,
+            282
+          ],
+          [
+            867,
+            222
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          297,
+          620,
+          312
+        ],
+        "content": "## Pasal 96",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            297
+          ],
+          [
+            531,
+            311
+          ],
+          [
+            619,
+            311
+          ],
+          [
+            619,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          312,
+          867,
+          343
+        ],
+        "content": "(1) Bea Meterai wajib dibayar secara lunas pada saat terutang Bea Meterai.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            312
+          ],
+          [
+            281,
+            338
+          ],
+          [
+            292,
+            342
+          ],
+          [
+            321,
+            342
+          ],
+          [
+            342,
+            342
+          ],
+          [
+            866,
+            342
+          ],
+          [
+            866,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          343,
+          867,
+          405
+        ],
+        "content": "(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            343
+          ],
+          [
+            281,
+            405
+          ],
+          [
+            867,
+            405
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          418,
+          618,
+          432
+        ],
+        "content": "## Pasal 97",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            418
+          ],
+          [
+            530,
+            431
+          ],
+          [
+            618,
+            431
+          ],
+          [
+            618,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          432,
+          866,
+          493
+        ],
+        "content": "(1) Pajak yang masih harus dibayar berdasarkan Surat Pemberitahuan Pajak Terutang harus dilunasi paling lama 6 (enam) bulan sejak tanggal diterimanya Surat Pemberitahuan Pajak Terutang oleh Wajib Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            432
+          ],
+          [
+            281,
+            488
+          ],
+          [
+            321,
+            493
+          ],
+          [
+            865,
+            493
+          ],
+          [
+            865,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          493,
+          867,
+          568
+        ],
+        "content": "(2) Pajak yang masih harus dibayar berdasarkan Surat Ketetapan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Ketetapan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            493
+          ],
+          [
+            280,
+            563
+          ],
+          [
+            315,
+            568
+          ],
+          [
+            866,
+            568
+          ],
+          [
+            866,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          568,
+          865,
+          644
+        ],
+        "content": "(3) Pajak yang masih harus dibayar berdasarkan Surat Tagihan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Tagihan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            568
+          ],
+          [
+            280,
+            638
+          ],
+          [
+            301,
+            643
+          ],
+          [
+            865,
+            643
+          ],
+          [
+            865,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          643,
+          866,
+          705
+        ],
+        "content": "(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dikenai sanksi sebagaimana diatur dalam UndangUndang Pajak Bumi dan Bangunan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            643
+          ],
+          [
+            280,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          719,
+          616,
+          733
+        ],
+        "content": "## Pasal 98",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            719
+          ],
+          [
+            528,
+            732
+          ],
+          [
+            615,
+            732
+          ],
+          [
+            615,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          734,
+          865,
+          855
+        ],
+        "content": "(1) Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, wajib dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            734
+          ],
+          [
+            284,
+            854
+          ],
+          [
+            864,
+            854
+          ],
+          [
+            864,
+            734
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          865,
+          916
+        ],
+        "content": "(2) Dalam hal Wajib Pajak tidak mengajukan keberatan, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            915
+          ],
+          [
+            865,
+            915
+          ],
+          [
+            865,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "(2) Ruang lingkup Pendataan kantor sebagaimana dimaksud pada ayat (1) meliputi:\n\na. pengumpulan data; dan\n\nb. pemetaan.\n\n(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan yang meliputi:\n\na. pengumpulan data Objek Pajak yang dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1); dan\n\nb. pengolahan data Objek Pajak yang bersumber dari Instansi Pemerintah, lembaga, asosiasi, dan pihak lain sebagaimana diatur dalam peraturan perundang-undangan tentang pemberian dan penghimpunan data dan informasi yang berkaitan dengan perpajakan.\n\n(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengkonversian peta Objek Pajak, yang meliputi:\n\na. transformasi antar sistem proyeksi; dan/atau\n\nb. digitasi peta analog ke peta digital.\n\n## Pasal 91\n\n(1) Pendataan lapangan sebagaimana dimaksud dalam Pasal 90 ayat (2) huruf b dilakukan dengan cara melakukan peninjauan pada lokasi fisik Objek Pajak dan/atau lokasi lain di luar lokasi fisik Objek Pajak, atas data Objek Pajak yang seharusnya dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).\n\n(2) Ruang lingkup Pendataan lapangan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. pengumpulan data; dan\n\nb. pemetaan.\n\n(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan pengumpulan data Objek Pajak yang tidak atau belum dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).\n\n(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengukuran Objek Pajak, yang meliputi:\n\na. pengukuran menggunakan sistem pengukuran berbasis satelit;\n\nb. pengukuran dengan bantuan data penginderaan jauh; dan/atau\n\nc. pengukuran dengan alat ukur manual.\n\n## Pasal 92\n\n(1) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud dalam Pasal 91 ayat (1), Wajib Pajak harus menandatangani surat pernyataan penolakan Pendataan.\n\n(2) Dalam hal Wajib Pajak menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana\n\ndimaksud pada ayat (1), petugas Pendataan membuat berita acara penolakan Pendataan yang ditandatangani oleh petugas Pendataan.\n\n(3) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud pada ayat (1) atau menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana dimaksud pada ayat (2), petugas Pendataan tetap melakukan Pendataan berdasarkan data dan/atau informasi yang dimiliki dan/atau diperoleh Direktorat Jenderal Pajak.\n\n(4) Pendataan sebagaimana dimaksud pada ayat (3) dilaporkan dalam bentuk laporan hasil Pendataan.\n\n## Pasal 93\n\nLaporan hasil Pendataan sebagaimana dimaksud dalam Pasal 89 ayat (4) dan Pasal 92 ayat (4) merupakan dokumen yang dapat digunakan sebagai:\n\na. bahan penelitian material sebagaimana dimaksud dalam Pasal 86 ayat (1); atau\n\nb. bahan analisis risiko untuk usulan Pemeriksaan.\n\n## BAB V\n\n## TATA CARA PEMBAYARAN DAN PENYETORAN PAJAK, PENGEMBALIAN ATAS KELEBIHAN PEMBAYARAN PAJAK YANG SEHARUSNYA TIDAK TERUTANG, IMBALAN BUNGA, SERTA PENGEMBALIAN KELEBIHAN PEMBAYARAN PAJAK\n\n## Bagian Kesatu Tata Cara Pembayaran dan Penyetoran Pajak\n\n## Pasal 94\n\n(1) Pajak yang terutang wajib dibayar dan disetor sebelum melewati tanggal jatuh tempo.\n\n(2) Pembayaran dan penyetoran sebagaimana dimaksud pada ayat (1) wajib dilakukan paling lambat tanggal 15 (lima belas) bulan berikutnya setelah Masa Pajak berakhir meliputi:\n\na. Pajak Penghasilan Pasal 4 ayat (2);\n\nb. Pajak Penghasilan Pasal 15;\n\nc. Pajak Penghasilan Pasal 21;\n\nd. Pajak Penghasilan Pasal 22;\n\ne. Pajak Penghasilan Pasal 23;\n\nf. Pajak Penghasilan Pasal 25;\n\ng. Pajak Penghasilan Pasal 26;\n\nh. Pajak Penghasilan minyak bumi dan/atau gas bumi dari kegiatan usaha hulu minyak bumi dan/atau gas bumi yang dibayarkan setiap Masa Pajak;\n\ni. Pajak Pertambahan Nilai yang terutang atas pemanfaatan Barang Kena Pajak tidak berwujud dan/atau Jasa Kena Pajak dari luar Daerah Pabean;\n\nj. Pajak Pertambahan Nilai yang terutang atas kegiatan membangun sendiri;\n\nk. Bea Meterai yang dipungut oleh pemungut Bea Meterai;\n\n1. Pajak Penjualan; dan\n\nm. Pajak Karbon yang dipungut oleh pemungut Pajak Karbon.\n\n(3) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (2) pembayaran dan penyetoran pajak atas:\n\na. Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor yang:\n\n1. disetor sendiri oleh Wajib Pajak/importir wajib dilunasi bersamaan dengan saat pembayaran bea masuk, dalam hal bea masuk ditunda atau dibebaskan Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor wajib dilunasi pada saat penyelesaian dokumen pemberitahuan pabean impor; dan\n\n2. dipungut oleh Direktorat Jenderal Bea dan Cukai wajib disetor dalam jangka waktu 1 (satu) hari kerja setelah dilakukan pemungutan pajak;\n\nb. Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana diatur dalam Pasal 3 ayat (3b) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang melaporkan beberapa Masa Pajak dalam satu Surat Pemberitahuan Masa wajib dibayar paling lama tanggal 15 (lima belas) bulan berikutnya setelah berakhirnya Masa Pajak terakhir;\n\nc. Pembayaran masa selain Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana dimaksud dalam huruf b wajib dibayar paling lama sesuai dengan batas waktu untuk masing-masing jenis pajak;\n\nd. Tambahan Pajak Penghasilan atas saham pendiri yang dipungut oleh emiten, wajib disetorkan paling lama 1 (satu) bulan setelah saat terutangnya tambahan Pajak Penghasilan;\n\ne. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang terutang dalam satu Masa Pajak wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan; dan\n\nf. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang dipungut oleh Pemungut Pajak Pertambahan Nilai dan Pihak Lain wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan.\n\n(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat\n\n(3) dikenai sanksi sebagaimana diatur dalam UndangUndang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 95\n\n(1) Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan untuk Pajak Penghasilan dan Pajak Karbon, wajib dibayar secara lunas sebelum Surat Pemberitahuan Tahunan disampaikan tetapi tidak melebihi batas waktu penyampaian Surat Pemberitahuan Tahunan.\n\n(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 96\n\n(1) Bea Meterai wajib dibayar secara lunas pada saat terutang Bea Meterai.\n\n(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 97\n\n(1) Pajak yang masih harus dibayar berdasarkan Surat Pemberitahuan Pajak Terutang harus dilunasi paling lama 6 (enam) bulan sejak tanggal diterimanya Surat Pemberitahuan Pajak Terutang oleh Wajib Pajak.\n\n(2) Pajak yang masih harus dibayar berdasarkan Surat Ketetapan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Ketetapan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.\n\n(3) Pajak yang masih harus dibayar berdasarkan Surat Tagihan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Tagihan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.\n\n(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dikenai sanksi sebagaimana diatur dalam UndangUndang Pajak Bumi dan Bangunan.\n\n## Pasal 98\n\n(1) Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, wajib dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.\n\n(2) Dalam hal Wajib Pajak tidak mengajukan keberatan, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil",
+  "md_results": "(2) Ruang lingkup Pendataan kantor sebagaimana dimaksud pada ayat (1) meliputi:\n\na. pengumpulan data; dan\n\nb. pemetaan.\n\n(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan yang meliputi:\n\na. pengumpulan data Objek Pajak yang dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1); dan\n\nb. pengolahan data Objek Pajak yang bersumber dari Instansi Pemerintah, lembaga, asosiasi, dan pihak lain sebagaimana diatur dalam peraturan perundang-undangan tentang pemberian dan penghimpunan data dan informasi yang berkaitan dengan perpajakan.\n\n(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengkonversian peta Objek Pajak, yang meliputi:\n\na. transformasi antar sistem proyeksi; dan/atau\n\nb. digitasi peta analog ke peta digital.\n\n## Pasal 91\n\n(1) Pendataan lapangan sebagaimana dimaksud dalam Pasal 90 ayat (2) huruf b dilakukan dengan cara melakukan peninjauan pada lokasi fisik Objek Pajak dan/atau lokasi lain di luar lokasi fisik Objek Pajak, atas data Objek Pajak yang seharusnya dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).\n\n(2) Ruang lingkup Pendataan lapangan sebagaimana dimaksud pada ayat (1) meliputi:\n\na. pengumpulan data; dan\n\nb. pemetaan.\n\n(3) Pengumpulan data sebagaimana dimaksud pada ayat (2) huruf a merupakan kegiatan pengumpulan data Objek Pajak yang tidak atau belum dilaporkan dalam Surat Pemberitahuan Objek Pajak sebagaimana dimaksud dalam Pasal 79 ayat (1).\n\n(4) Pemetaan sebagaimana dimaksud pada ayat (2) huruf b dilakukan melalui pengukuran Objek Pajak, yang meliputi:\n\na. pengukuran menggunakan sistem pengukuran berbasis satelit;\n\nb. pengukuran dengan bantuan data penginderaan jauh; dan/atau\n\nc. pengukuran dengan alat ukur manual.\n\n## Pasal 92\n\n(1) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud dalam Pasal 91 ayat (1), Wajib Pajak harus menandatangani surat pernyataan penolakan Pendataan.\n\n(2) Dalam hal Wajib Pajak menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana\n\ndimaksud pada ayat (1), petugas Pendataan membuat berita acara penolakan Pendataan yang ditandatangani oleh petugas Pendataan.\n\n(3) Dalam hal Wajib Pajak menyatakan menolak untuk dilakukan Pendataan lapangan sebagaimana dimaksud pada ayat (1) atau menolak menandatangani surat pernyataan penolakan Pendataan sebagaimana dimaksud pada ayat (2), petugas Pendataan tetap melakukan Pendataan berdasarkan data dan/atau informasi yang dimiliki dan/atau diperoleh Direktorat Jenderal Pajak.\n\n(4) Pendataan sebagaimana dimaksud pada ayat (3) dilaporkan dalam bentuk laporan hasil Pendataan.\n\n## Pasal 93\n\nLaporan hasil Pendataan sebagaimana dimaksud dalam Pasal 89 ayat (4) dan Pasal 92 ayat (4) merupakan dokumen yang dapat digunakan sebagai:\n\na. bahan penelitian material sebagaimana dimaksud dalam Pasal 86 ayat (1); atau\n\nb. bahan analisis risiko untuk usulan Pemeriksaan.\n\n## BAB V\n\n## TATA CARA PEMBAYARAN DAN PENYETORAN PAJAK, PENGEMBALIAN ATAS KELEBIHAN PEMBAYARAN PAJAK YANG SEHARUSNYA TIDAK TERUTANG, IMBALAN BUNGA, SERTA PENGEMBALIAN KELEBIHAN PEMBAYARAN PAJAK\n\n## Bagian Kesatu Tata Cara Pembayaran dan Penyetoran Pajak\n\n## Pasal 94\n\n(1) Pajak yang terutang wajib dibayar dan disetor sebelum melewati tanggal jatuh tempo.\n\n(2) Pembayaran dan penyetoran sebagaimana dimaksud pada ayat (1) wajib dilakukan paling lambat tanggal 15 (lima belas) bulan berikutnya setelah Masa Pajak berakhir meliputi:\n\na. Pajak Penghasilan Pasal 4 ayat (2);\n\nb. Pajak Penghasilan Pasal 15;\n\nc. Pajak Penghasilan Pasal 21;\n\nd. Pajak Penghasilan Pasal 22;\n\ne. Pajak Penghasilan Pasal 23;\n\nf. Pajak Penghasilan Pasal 25;\n\ng. Pajak Penghasilan Pasal 26;\n\nh. Pajak Penghasilan minyak bumi dan/atau gas bumi dari kegiatan usaha hulu minyak bumi dan/atau gas bumi yang dibayarkan setiap Masa Pajak;\n\ni. Pajak Pertambahan Nilai yang terutang atas pemanfaatan Barang Kena Pajak tidak berwujud dan/atau Jasa Kena Pajak dari luar Daerah Pabean;\n\nj. Pajak Pertambahan Nilai yang terutang atas kegiatan membangun sendiri;\n\nk. Bea Meterai yang dipungut oleh pemungut Bea Meterai;\n\n1. Pajak Penjualan; dan\n\nm. Pajak Karbon yang dipungut oleh pemungut Pajak Karbon.\n\n(3) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (2) pembayaran dan penyetoran pajak atas:\n\na. Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor yang:\n\n1. disetor sendiri oleh Wajib Pajak/importir wajib dilunasi bersamaan dengan saat pembayaran bea masuk, dalam hal bea masuk ditunda atau dibebaskan Pajak Penghasilan Pasal 22 dan Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah atas impor wajib dilunasi pada saat penyelesaian dokumen pemberitahuan pabean impor; dan\n\n2. dipungut oleh Direktorat Jenderal Bea dan Cukai wajib disetor dalam jangka waktu 1 (satu) hari kerja setelah dilakukan pemungutan pajak;\n\nb. Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana diatur dalam Pasal 3 ayat (3b) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan yang melaporkan beberapa Masa Pajak dalam satu Surat Pemberitahuan Masa wajib dibayar paling lama tanggal 15 (lima belas) bulan berikutnya setelah berakhirnya Masa Pajak terakhir;\n\nc. Pembayaran masa selain Pajak Penghasilan Pasal 25 bagi Wajib Pajak dengan kriteria tertentu sebagaimana dimaksud dalam huruf b wajib dibayar paling lama sesuai dengan batas waktu untuk masing-masing jenis pajak;\n\nd. Tambahan Pajak Penghasilan atas saham pendiri yang dipungut oleh emiten, wajib disetorkan paling lama 1 (satu) bulan setelah saat terutangnya tambahan Pajak Penghasilan;\n\ne. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang terutang dalam satu Masa Pajak wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan; dan\n\nf. Pajak Pertambahan Nilai atau Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah yang dipungut oleh Pemungut Pajak Pertambahan Nilai dan Pihak Lain wajib disetor paling lambat akhir bulan berikutnya setelah Masa Pajak berakhir dan sebelum Surat Pemberitahuan Masa Pajak Pertambahan Nilai disampaikan.\n\n(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat\n\n(3) dikenai sanksi sebagaimana diatur dalam UndangUndang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 95\n\n(1) Kekurangan pembayaran pajak yang terutang berdasarkan Surat Pemberitahuan Tahunan untuk Pajak Penghasilan dan Pajak Karbon, wajib dibayar secara lunas sebelum Surat Pemberitahuan Tahunan disampaikan tetapi tidak melebihi batas waktu penyampaian Surat Pemberitahuan Tahunan.\n\n(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 96\n\n(1) Bea Meterai wajib dibayar secara lunas pada saat terutang Bea Meterai.\n\n(2) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 97\n\n(1) Pajak yang masih harus dibayar berdasarkan Surat Pemberitahuan Pajak Terutang harus dilunasi paling lama 6 (enam) bulan sejak tanggal diterimanya Surat Pemberitahuan Pajak Terutang oleh Wajib Pajak.\n\n(2) Pajak yang masih harus dibayar berdasarkan Surat Ketetapan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Ketetapan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.\n\n(3) Pajak yang masih harus dibayar berdasarkan Surat Tagihan Pajak Pajak Bumi dan Bangunan harus dilunasi paling lama 1 (satu) bulan sejak tanggal diterimanya Surat Tagihan Pajak Pajak Bumi dan Bangunan oleh Wajib Pajak.\n\n(4) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) dikenai sanksi sebagaimana diatur dalam UndangUndang Pajak Bumi dan Bangunan.\n\n## Pasal 98\n\n(1) Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, serta Surat Ketetapan Pajak Kurang Bayar Tambahan, dan Surat Keputusan Keberatan, Surat Keputusan Pembetulan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali, yang menyebabkan jumlah pajak yang masih harus dibayar bertambah, wajib dilunasi dalam jangka waktu 1 (satu) bulan sejak tanggal diterbitkan.\n\n(2) Dalam hal Wajib Pajak tidak mengajukan keberatan, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil",
+  "model": "glm-ocr",
+  "usage": {}
+}

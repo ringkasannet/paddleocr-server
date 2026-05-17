@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Benchmark for GLM-OCR self-hosted server (/glmocr/parse endpoint).
-Same PDF chunking logic as test_hps.py — no pages repeated across levels.
+Each concurrency level gets its own non-overlapping slice of the PDF so
+no page is processed more than once across all test runs.
 
 Install deps first:
     pip install pypdf requests
@@ -12,6 +13,9 @@ Usage examples:
 
     # Custom concurrency ladder
     python test_glmocr.py --url http://localhost:5002/glmocr/parse --levels 1 4 8 16
+
+    # Override with fixed total chunk count instead
+    python test_glmocr.py --url http://localhost:5002/glmocr/parse --chunks 40
 
     # Skip saving JSON responses
     python test_glmocr.py --url http://localhost:5002/glmocr/parse --no-save
@@ -54,7 +58,7 @@ def parse_args():
     p.add_argument("--pages-per-chunk", type=int, default=DEFAULT_PAGES_PER_CHUNK,
                    help="Pages per chunk (default: %(default)s); ignored when --chunks is given")
     p.add_argument("--chunks", type=int, default=DEFAULT_CHUNKS,
-                   help="Total chunk count (overrides --pages-per-chunk)")
+                   help="Total chunk count split across all levels (overrides --pages-per-chunk)")
     p.add_argument("--levels", type=int, nargs="+",
                    help="Concurrency levels, e.g. --levels 1 4 8 16  (default: 1 4 8)")
     p.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT,
@@ -130,6 +134,12 @@ def split_pdf(content: bytes, n: int) -> list:
 
 
 def distribute_chunks(all_chunks: list, levels: list, even: bool = False) -> dict:
+    """Assign non-overlapping slices to each level — no page repeated across runs.
+
+    Default (even=False): level 1 gets 8 chunks, level 4 gets 8, level 8 gets 8, etc.
+    Ensures small levels still get enough chunks for a meaningful average.
+    even=True: divide total evenly (used when --chunks is specified).
+    """
     if even:
         n = len(levels)
         total = len(all_chunks)
@@ -159,17 +169,17 @@ def query(chunk_bytes: bytes, endpoint: str, timeout: int, t0: float) -> tuple:
     t_start = time.time()
     r = requests.post(
         endpoint,
-        json={"file": f"data:application/pdf;base64,{b64}"},
+        json={"images": [f"data:application/pdf;base64,{b64}"]},
         timeout=timeout,
     )
-    r.raise_for_status()
-    return r.json(), time.time() - t_start, t_start - t0
+    payload_bytes = len(r.content)
+    if not r.ok:
+        raise RuntimeError(f"HTTP {r.status_code}: {r.text[:200]}")
+    return r.json(), time.time() - t_start, t_start - t0, payload_bytes
 
 
 def count_regions(result: dict) -> int:
-    """Count detected regions from json_result."""
     jr = result.get("json_result", {})
-    # json_result may be a list of regions or a dict with pages
     if isinstance(jr, list):
         return len(jr)
     if isinstance(jr, dict):
@@ -246,13 +256,17 @@ def run_test(chunks: list, max_concurrent: int, label: str,
         for future in as_completed(futures):
             i, s, e = futures[future]
             try:
-                result, elapsed, offset = future.result()
+                result, elapsed, offset, payload_bytes = future.result()
                 results[i] = result
                 timings[i] = (s, e, elapsed, offset)
                 n_regions = count_regions(result)
-                pps = (e - s + 1) / elapsed
+                spp = elapsed / (e - s + 1)
+                kb = payload_bytes / 1024
+                size_str = f"{kb:.0f} KB" if kb < 1024 else f"{kb/1024:.1f} MB"
+                status = "OK" if n_regions > 0 else "EMPTY"
                 print(f"  chunk_{i:02d}  pages {s:2d}–{e:2d}  {elapsed:6.1f}s  "
-                      f"+{offset:5.1f}s  {pps:.2f} p/s  {n_regions} regions")
+                      f"+{offset:5.1f}s  {spp:.1f} s/p  "
+                      f"{n_regions:3d} regions  {size_str:>8}  [{status}]")
             except Exception as ex_:
                 print(f"  chunk_{i:02d} FAILED: {ex_}")
                 results[i] = {"error": str(ex_)}
@@ -300,7 +314,7 @@ def main():
                   f"pages {lc[0][1]}–{lc[-1][2]}")
     print(f"Timeout : {args.timeout}s")
 
-    last_results = {}
+    all_results = {}
     summary_rows = []
 
     for level in levels:
@@ -312,7 +326,7 @@ def main():
             level_chunks[level], level, label, args.url, args.timeout,
             sample_gpu=args.gpu,
         )
-        last_results = results
+        all_results.update(results)
         summary_rows.append((level, total_time, total_pages))
 
     print(f"\n{'='*62}")
@@ -328,11 +342,13 @@ def main():
         print(f"  {level:>12}  {t:>10.1f}s  {pps:>10.2f}  {speedup:>7.2f}×")
 
     if not args.no_save:
-        print("\nSaving responses from last run...")
+        print("\nSaving responses...")
         for i, _, _, _ in chunks:
+            if i not in all_results:
+                continue
             out = OUT_DIR / f"chunk_{i:02d}_response.json"
             out.write_text(
-                json.dumps(last_results.get(i, {}), ensure_ascii=False, indent=2),
+                json.dumps(all_results[i], ensure_ascii=False, indent=2),
                 encoding="utf-8",
             )
             print(f"  {out.name}")

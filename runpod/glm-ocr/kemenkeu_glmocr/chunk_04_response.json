@@ -1,0 +1,2699 @@
+{
+  "created": 1779015220,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-13c7bbb952fb4165b736397ecd91f",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          322,
+          73,
+          861,
+          105
+        ],
+        "content": "atau badan pengelola migas Aceh sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            73
+          ],
+          [
+            322,
+            105
+          ],
+          [
+            861,
+            105
+          ],
+          [
+            861,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          106,
+          864,
+          186
+        ],
+        "content": "84. Lembaga Pengelola dan Penyelenggara Online Single Submission yang selanjutnya disebut Lembaga Online Single Submission adalah lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang investasi/koordinasi penanaman modal.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            106
+          ],
+          [
+            278,
+            185
+          ],
+          [
+            864,
+            185
+          ],
+          [
+            864,
+            106
+          ],
+          [
+            720,
+            106
+          ],
+          [
+            709,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          187,
+          863,
+          235
+        ],
+        "content": "85. Nomor Objek Pajak adalah nomor identitas objek pajak sebagai sarana dalam administrasi perpajakan yang diterbitkan oleh Direktur Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            187
+          ],
+          [
+            279,
+            235
+          ],
+          [
+            862,
+            235
+          ],
+          [
+            862,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          236,
+          863,
+          397
+        ],
+        "content": "86. Objek Pajak Pajak Bumi dan Bangunan yang selanjutnya disebut Objek Pajak adalah bumi dan/atau bangunan yang merupakan objek pajak Pajak Bumi dan Bangunan sektor perkebunan, Pajak Bumi dan Bangunan sektor perhutanan, Pajak Bumi dan Bangunan sektor pertambangan minyak dan gas bumi, Pajak Bumi dan Bangunan sektor pertambangan untuk pengusahaan panas bumi, Pajak Bumi dan Bangunan sektor pertambangan mineral atau batubara, dan Pajak Bumi dan Bangunan sektor lainnya.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            236
+          ],
+          [
+            280,
+            392
+          ],
+          [
+            300,
+            397
+          ],
+          [
+            862,
+            397
+          ],
+          [
+            862,
+            241
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          399,
+          862,
+          510
+        ],
+        "content": "87. Surat Pemberitahuan Objek Pajak adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan data Objek Pajak menurut ketentuan Undang-Undang Pajak Bumi dan Bangunan yang dilampiri dengan lampiran surat pemberitahuan Objek Pajak yang merupakan bagian tidak terpisahkan dengan surat pemberitahuan Objek Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            409
+          ],
+          [
+            282,
+            510
+          ],
+          [
+            862,
+            510
+          ],
+          [
+            862,
+            399
+          ],
+          [
+            282,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          512,
+          861,
+          559
+        ],
+        "content": "88. Surat Pemberitahuan Objek Pajak Elektronik adalah Surat Pemberitahuan Objek Pajak dalam bentuk Dokumen Elektronik.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            523
+          ],
+          [
+            281,
+            559
+          ],
+          [
+            861,
+            559
+          ],
+          [
+            861,
+            512
+          ],
+          [
+            281,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          561,
+          862,
+          641
+        ],
+        "content": "89. Pendataan adalah kegiatan Direktorat Jenderal Pajak untuk memperoleh, melengkapi, dan menatausahakan data Objek Pajak dan/atau Wajib Pajak, termasuk informasi geografis Objek Pajak untuk keperluan administrasi perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            561
+          ],
+          [
+            276,
+            640
+          ],
+          [
+            861,
+            640
+          ],
+          [
+            861,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          642,
+          861,
+          673
+        ],
+        "content": "90. Barang Kena Pajak adalah barang yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            642
+          ],
+          [
+            275,
+            673
+          ],
+          [
+            860,
+            673
+          ],
+          [
+            860,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          675,
+          861,
+          787
+        ],
+        "content": "91. Surat Pemberitahuan Masa Pajak Pertambahan Nilai adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan penghitungan dan/atau pembayaran Pajak Pertambahan Nilai, objek Pajak Pertambahan Nilai dan/atau bukan objek Pajak Pertambahan Nilai sesuai dengan ketentuan peraturan perundang-undangan perpajakan untuk suatu Masa Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            675
+          ],
+          [
+            276,
+            786
+          ],
+          [
+            860,
+            786
+          ],
+          [
+            860,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          788,
+          860,
+          820
+        ],
+        "content": "92. Jasa Kena Pajak adalah jasa yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            788
+          ],
+          [
+            275,
+            820
+          ],
+          [
+            860,
+            820
+          ],
+          [
+            860,
+            788
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          820,
+          860,
+          851
+        ],
+        "content": "93. Surat Pemberitahuan Masa adalah Surat Pemberitahuan untuk suatu Masa Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            820
+          ],
+          [
+            276,
+            851
+          ],
+          [
+            860,
+            851
+          ],
+          [
+            860,
+            820
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          853,
+          862,
+          901
+        ],
+        "content": "94. Pemungut Pajak Pertambahan Nilai adalah bendahara pemerintah, Badan, atau Instansi Pemerintah yang ditunjuk oleh Menteri Keuangan untuk memungut,",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            853
+          ],
+          [
+            275,
+            901
+          ],
+          [
+            861,
+            901
+          ],
+          [
+            861,
+            853
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          324,
+          74,
+          864,
+          153
+        ],
+        "content": "menyetor, dan melaporkan pajak yang terutang oleh Pengusaha Kena Pajak atas penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada bendahara pemerintah, Badan, atau Instansi Pemerintah tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            74
+          ],
+          [
+            324,
+            153
+          ],
+          [
+            864,
+            153
+          ],
+          [
+            864,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          155,
+          864,
+          266
+        ],
+        "content": "95. Pihak Lain adalah pihak yang terlibat langsung atau memfasilitasi transaksi antarpihak yang bertransaksi yang ditunjuk oleh Menteri Keuangan untuk melakukan pemotongan, pemungutan, penyetoran, dan/atau pelaporan pajak sebagaimana diatur dalam Pasal 32A Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            155
+          ],
+          [
+            279,
+            266
+          ],
+          [
+            863,
+            266
+          ],
+          [
+            863,
+            155
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          268,
+          862,
+          315
+        ],
+        "content": "96. Surat Pemberitahuan Tahunan adalah Surat Pemberitahuan untuk suatu Tahun Pajak atau Bagian Tahun Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            268
+          ],
+          [
+            278,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          317,
+          862,
+          365
+        ],
+        "content": "97. Putusan Banding adalah putusan badan peradilan pajak atas banding terhadap Surat Keputusan Keberatan yang diajukan oleh Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            317
+          ],
+          [
+            282,
+            365
+          ],
+          [
+            861,
+            365
+          ],
+          [
+            861,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          366,
+          863,
+          495
+        ],
+        "content": "98. Pembahasan Akhir Hasil Pemeriksaan adalah pembahasan antara Wajib Pajak dan pemeriksa pajak atas temuan Pemeriksaan yang hasilnya dituangkan dalam berita acara pembahasan akhir hasil Pemeriksaan yang ditandatangani oleh kedua belah pihak dan berisi koreksi pokok pajak terutang baik yang disetujui maupun yang tidak disetujui dan perhitungan sanksi administratif.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            366
+          ],
+          [
+            278,
+            494
+          ],
+          [
+            862,
+            494
+          ],
+          [
+            862,
+            366
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          496,
+          862,
+          576
+        ],
+        "content": "99. Putusan Peninjauan Kembali adalah putusan Mahkamah Agung atas permohonan peninjauan kembali yang diajukan oleh Wajib Pajak atau oleh Direktur Jenderal Pajak terhadap Putusan Banding atau putusan gugatan dari badan peradilan pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            496
+          ],
+          [
+            282,
+            576
+          ],
+          [
+            862,
+            576
+          ],
+          [
+            862,
+            501
+          ],
+          [
+            847,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          578,
+          862,
+          690
+        ],
+        "content": "100. Jasa adalah setiap kegiatan pelayanan yang berdasarkan suatu perikatan atau perbuatan hukum yang menyebabkan suatu barang, fasilitas, kemudahan, atau hak tersedia untuk dipakai, termasuk jasa yang dihasilkan untuk menghasilkan barang karena pesanan atau permintaan dengan bahan dan atas petunjuk dari pemenan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            578
+          ],
+          [
+            278,
+            689
+          ],
+          [
+            861,
+            689
+          ],
+          [
+            861,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          691,
+          861,
+          771
+        ],
+        "content": "101. Kas Negara adalah tempat penyimpanan uang negara yang ditentukan oleh Menteri Keuangan selaku bendahara umum negara untuk menampung seluruh penerimaan negara dan untuk membayar seluruh pengeluaran negara.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            691
+          ],
+          [
+            278,
+            770
+          ],
+          [
+            860,
+            770
+          ],
+          [
+            855,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          772,
+          861,
+          852
+        ],
+        "content": "102. Collecting Agent adalah agen penerimaan meliputi bank persepsi, pos persepsi, bank persepsi valas, lembaga persepsi lainnya, atau lembaga persepsi lainnya valas yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            772
+          ],
+          [
+            278,
+            851
+          ],
+          [
+            860,
+            851
+          ],
+          [
+            860,
+            772
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          853,
+          862,
+          917
+        ],
+        "content": "103. Surat Setoran Pajak adalah bukti pembayaran atau penyetoran pajak yang telah dilakukan dengan menggunakan formulir atau telah dilakukan dengan cara lain ke Kas Negara melalui Collecting Agent.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            853
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            861,
+            916
+          ],
+          [
+            861,
+            853
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          728,
+          924,
+          909,
+          940
+        ],
+        "content": "jdih.kemenkeu.go.id",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            728,
+            924
+          ],
+          [
+            728,
+            939
+          ],
+          [
+            908,
+            939
+          ],
+          [
+            908,
+            924
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          288,
+          73,
+          871,
+          153
+        ],
+        "content": "104. Meterai adalah label atau carik dalam bentuk tempel, elektronik, atau bentuk lainnya yang memiliki ciri dan mengandung unsur pengaman yang dikeluarkan oleh Pemerintah Republik Indonesia, yang digunakan untuk membayar pajak atas dokumen.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            73
+          ],
+          [
+            288,
+            147
+          ],
+          [
+            299,
+            152
+          ],
+          [
+            871,
+            152
+          ],
+          [
+            871,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          154,
+          872,
+          267
+        ],
+        "content": "105. Bukti Penerimaan Negara adalah dokumen yang diterbitkan oleh Collecting Agent atas transaksi penerimaan negara yang mencantumkan nomor transaksi penerimaan negara dan nomor transaksi bank/nomor transaksi pos/nomor transaksi lembaga persepsi lainnya sebagai sarana administrasi lain yang kedudukannya disamakan dengan surat setoran.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            154
+          ],
+          [
+            288,
+            266
+          ],
+          [
+            871,
+            266
+          ],
+          [
+            871,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          268,
+          871,
+          373
+        ],
+        "content": "106. Surat Setoran Pabean, Cukai, dan Pajak adalah surat setoran atas penerimaan negara dalam rangka impor berupa bea masuk, denda administrasi, penerimaan pabean lainnya, cukai, penerimaan cukai lainnya, jasa pekerjaan, bunga dan Pajak Penghasilan Pasal 22 Impor, Pajak Pertambahan Nilai Impor, serta Pajak Penjualan atas Barang Mewah Impor.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            268
+          ],
+          [
+            286,
+            368
+          ],
+          [
+            317,
+            372
+          ],
+          [
+            871,
+            372
+          ],
+          [
+            871,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          373,
+          869,
+          421
+        ],
+        "content": "107. Bukti Pemindahbukuan adalah bukti yang menunjukkan bahwa telah dilakukan pemindahbukuan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            395
+          ],
+          [
+            287,
+            421
+          ],
+          [
+            868,
+            421
+          ],
+          [
+            868,
+            373
+          ],
+          [
+            292,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          423,
+          868,
+          470
+        ],
+        "content": "108. Pemindahbukuan adalah suatu proses memindahbukukan penerimaan pajak untuk dibukukan pada penerimaan pajak yang sesuai.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            423
+          ],
+          [
+            286,
+            470
+          ],
+          [
+            868,
+            470
+          ],
+          [
+            868,
+            423
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          471,
+          870,
+          584
+        ],
+        "content": "109. Surat Perintah Pencairan Dana adalah surat perintah yang diterbitkan oleh kantor pelayanan perbendaharaan negara selaku kuasa bendahara umum negara untuk pelaksanaan pengeluaran atas beban Anggaran Pendapatan dan Belanja Negara berdasarkan surat perintah membayar kelebihan pajak atau surat perintah membayar imbalan bunga.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            471
+          ],
+          [
+            285,
+            579
+          ],
+          [
+            295,
+            584
+          ],
+          [
+            869,
+            584
+          ],
+          [
+            869,
+            471
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          585,
+          870,
+          697
+        ],
+        "content": "110. Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi adalah satuan kerja penyelenggara pengelolaan kegiatan usaha hulu minyak dan gas bumi yang dibentuk sesuai dengan Peraturan Presiden Nomor 9 Tahun 2013 tentang Penyelenggaraan Pengelolaan Kegiatan Usaha Hulu Minyak dan Gas Bumi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            585
+          ],
+          [
+            285,
+            696
+          ],
+          [
+            869,
+            696
+          ],
+          [
+            869,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          699,
+          868,
+          793
+        ],
+        "content": "111. Badan Pengelola Migas Aceh adalah suatu badan pemerintah yang dibentuk untuk melakukan pengelolaan dan pengendalian bersama kegiatan usaha hulu di bidang minyak dan gas bumi yang berada di darat dan laut di wilayah kewenangan Aceh (0 s.d. 12 mil laut).",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            699
+          ],
+          [
+            284,
+            793
+          ],
+          [
+            867,
+            793
+          ],
+          [
+            867,
+            699
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          796,
+          867,
+          827
+        ],
+        "content": "112. Deposit Pajak adalah pembayaran pajak yang belum merujuk pada kewajiban pajak tertentu.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            796
+          ],
+          [
+            283,
+            827
+          ],
+          [
+            867,
+            827
+          ],
+          [
+            867,
+            796
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          829,
+          869,
+          909
+        ],
+        "content": "113. Pembukuan adalah suatu proses pencatatan yang dilakukan secara teratur untuk mengumpulkan data dan informasi keuangan yang meliputi harta, kewajiban, modal, penghasilan dan biaya, serta jumlah harga perolehan dan penyerahan barang atau Jasa,",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            829
+          ],
+          [
+            284,
+            908
+          ],
+          [
+            868,
+            908
+          ],
+          [
+            868,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          74,
+          870,
+          121
+        ],
+        "content": "yang ditutup dengan menyusun laporan keuangan berupa neraca, dan laporan laba rugi untuk periode Tahun Pajak tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            74
+          ],
+          [
+            330,
+            121
+          ],
+          [
+            870,
+            121
+          ],
+          [
+            870,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          123,
+          871,
+          218
+        ],
+        "content": "114. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi wilayah darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di zona ekonomi eksklusif dan landas kontinen yang di dalamnya berlaku undang-undang yang mengatur mengenai kepabeanan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            123
+          ],
+          [
+            292,
+            218
+          ],
+          [
+            870,
+            218
+          ],
+          [
+            870,
+            123
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          220,
+          870,
+          267
+        ],
+        "content": "115. Perdagangan Melalui Sistem Elektronik adalah perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            220
+          ],
+          [
+            291,
+            267
+          ],
+          [
+            870,
+            267
+          ],
+          [
+            870,
+            220
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          269,
+          870,
+          333
+        ],
+        "content": "116. Bank Persepsi Valas adalah bank devisa yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara dalam mata uang asing dari dalam negeri dan/atau luar negeri.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            269
+          ],
+          [
+            286,
+            328
+          ],
+          [
+            301,
+            332
+          ],
+          [
+            870,
+            332
+          ],
+          [
+            870,
+            269
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          334,
+          871,
+          446
+        ],
+        "content": "117. Surat Perintah Membayar Kelebihan Pajak adalah surat perintah dari Kepala Kantor Pelayanan Pajak kepada kantor pelayanan perbendaharaan negara untuk menerbitkan Surat Perintah Pencairan Dana sebagai dasar kompensasi Utang Pajak dan/atau dasar pembayaran kembali kelebihan pembayaran pajak kepada Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            334
+          ],
+          [
+            286,
+            446
+          ],
+          [
+            870,
+            446
+          ],
+          [
+            870,
+            334
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          448,
+          870,
+          576
+        ],
+        "content": "118. Penghasilan Bruto adalah semua penghasilan yang diterima dan/atau diperoleh dari kegiatan usaha dan dari luar kegiatan usaha, setelah dikurangi dengan retur dan pengurangan penjualan serta potongan tunai dalam Tahun Pajak yang bersangkutan, sebelum dikurangi biaya untuk mendapatkan, menagih, dan memelihara penghasilan, baik yang berasal dari Indonesia maupun dari luar Indonesia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            448
+          ],
+          [
+            285,
+            576
+          ],
+          [
+            870,
+            576
+          ],
+          [
+            870,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          578,
+          870,
+          658
+        ],
+        "content": "119. Persetujuan Penghindaran Pajak Berganda adalah perjanjian antara Pemerintah Indonesia dengan pemerintah negara mitra atau yurisdiksi mitra dalam rangka penghindaran pajak berganda dan pencegahan pengelakan pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            578
+          ],
+          [
+            285,
+            657
+          ],
+          [
+            869,
+            657
+          ],
+          [
+            869,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          659,
+          869,
+          755
+        ],
+        "content": "120. Surat Penetapan Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            659
+          ],
+          [
+            285,
+            755
+          ],
+          [
+            868,
+            755
+          ],
+          [
+            868,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          756,
+          869,
+          868
+        ],
+        "content": "121. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            756
+          ],
+          [
+            291,
+            867
+          ],
+          [
+            868,
+            867
+          ],
+          [
+            868,
+            756
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          870,
+          870,
+          918
+        ],
+        "content": "122. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor adalah formulir penagihan untuk",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            870
+          ],
+          [
+            285,
+            918
+          ],
+          [
+            869,
+            918
+          ],
+          [
+            869,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          322,
+          73,
+          861,
+          105
+        ],
+        "content": "atau badan pengelola migas Aceh sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            73
+          ],
+          [
+            322,
+            105
+          ],
+          [
+            861,
+            105
+          ],
+          [
+            861,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          106,
+          864,
+          186
+        ],
+        "content": "84. Lembaga Pengelola dan Penyelenggara Online Single Submission yang selanjutnya disebut Lembaga Online Single Submission adalah lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang investasi/koordinasi penanaman modal.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            106
+          ],
+          [
+            278,
+            185
+          ],
+          [
+            864,
+            185
+          ],
+          [
+            864,
+            106
+          ],
+          [
+            720,
+            106
+          ],
+          [
+            709,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          187,
+          863,
+          235
+        ],
+        "content": "85. Nomor Objek Pajak adalah nomor identitas objek pajak sebagai sarana dalam administrasi perpajakan yang diterbitkan oleh Direktur Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            187
+          ],
+          [
+            279,
+            235
+          ],
+          [
+            862,
+            235
+          ],
+          [
+            862,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          236,
+          863,
+          397
+        ],
+        "content": "86. Objek Pajak Pajak Bumi dan Bangunan yang selanjutnya disebut Objek Pajak adalah bumi dan/atau bangunan yang merupakan objek pajak Pajak Bumi dan Bangunan sektor perkebunan, Pajak Bumi dan Bangunan sektor perhutanan, Pajak Bumi dan Bangunan sektor pertambangan minyak dan gas bumi, Pajak Bumi dan Bangunan sektor pertambangan untuk pengusahaan panas bumi, Pajak Bumi dan Bangunan sektor pertambangan mineral atau batubara, dan Pajak Bumi dan Bangunan sektor lainnya.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            236
+          ],
+          [
+            280,
+            392
+          ],
+          [
+            300,
+            397
+          ],
+          [
+            862,
+            397
+          ],
+          [
+            862,
+            241
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          399,
+          862,
+          510
+        ],
+        "content": "87. Surat Pemberitahuan Objek Pajak adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan data Objek Pajak menurut ketentuan Undang-Undang Pajak Bumi dan Bangunan yang dilampiri dengan lampiran surat pemberitahuan Objek Pajak yang merupakan bagian tidak terpisahkan dengan surat pemberitahuan Objek Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            409
+          ],
+          [
+            282,
+            510
+          ],
+          [
+            862,
+            510
+          ],
+          [
+            862,
+            399
+          ],
+          [
+            282,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          512,
+          861,
+          559
+        ],
+        "content": "88. Surat Pemberitahuan Objek Pajak Elektronik adalah Surat Pemberitahuan Objek Pajak dalam bentuk Dokumen Elektronik.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            523
+          ],
+          [
+            281,
+            559
+          ],
+          [
+            861,
+            559
+          ],
+          [
+            861,
+            512
+          ],
+          [
+            281,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          561,
+          862,
+          641
+        ],
+        "content": "89. Pendataan adalah kegiatan Direktorat Jenderal Pajak untuk memperoleh, melengkapi, dan menatausahakan data Objek Pajak dan/atau Wajib Pajak, termasuk informasi geografis Objek Pajak untuk keperluan administrasi perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            561
+          ],
+          [
+            276,
+            640
+          ],
+          [
+            861,
+            640
+          ],
+          [
+            861,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          642,
+          861,
+          673
+        ],
+        "content": "90. Barang Kena Pajak adalah barang yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            642
+          ],
+          [
+            275,
+            673
+          ],
+          [
+            860,
+            673
+          ],
+          [
+            860,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          675,
+          861,
+          787
+        ],
+        "content": "91. Surat Pemberitahuan Masa Pajak Pertambahan Nilai adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan penghitungan dan/atau pembayaran Pajak Pertambahan Nilai, objek Pajak Pertambahan Nilai dan/atau bukan objek Pajak Pertambahan Nilai sesuai dengan ketentuan peraturan perundang-undangan perpajakan untuk suatu Masa Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            675
+          ],
+          [
+            276,
+            786
+          ],
+          [
+            860,
+            786
+          ],
+          [
+            860,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          788,
+          860,
+          820
+        ],
+        "content": "92. Jasa Kena Pajak adalah jasa yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            788
+          ],
+          [
+            275,
+            820
+          ],
+          [
+            860,
+            820
+          ],
+          [
+            860,
+            788
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          820,
+          860,
+          851
+        ],
+        "content": "93. Surat Pemberitahuan Masa adalah Surat Pemberitahuan untuk suatu Masa Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            820
+          ],
+          [
+            276,
+            851
+          ],
+          [
+            860,
+            851
+          ],
+          [
+            860,
+            820
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          853,
+          862,
+          901
+        ],
+        "content": "94. Pemungut Pajak Pertambahan Nilai adalah bendahara pemerintah, Badan, atau Instansi Pemerintah yang ditunjuk oleh Menteri Keuangan untuk memungut,",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            853
+          ],
+          [
+            275,
+            901
+          ],
+          [
+            861,
+            901
+          ],
+          [
+            861,
+            853
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          324,
+          74,
+          864,
+          153
+        ],
+        "content": "menyetor, dan melaporkan pajak yang terutang oleh Pengusaha Kena Pajak atas penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada bendahara pemerintah, Badan, atau Instansi Pemerintah tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            74
+          ],
+          [
+            324,
+            153
+          ],
+          [
+            864,
+            153
+          ],
+          [
+            864,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          155,
+          864,
+          266
+        ],
+        "content": "95. Pihak Lain adalah pihak yang terlibat langsung atau memfasilitasi transaksi antarpihak yang bertransaksi yang ditunjuk oleh Menteri Keuangan untuk melakukan pemotongan, pemungutan, penyetoran, dan/atau pelaporan pajak sebagaimana diatur dalam Pasal 32A Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            155
+          ],
+          [
+            279,
+            266
+          ],
+          [
+            863,
+            266
+          ],
+          [
+            863,
+            155
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          268,
+          862,
+          315
+        ],
+        "content": "96. Surat Pemberitahuan Tahunan adalah Surat Pemberitahuan untuk suatu Tahun Pajak atau Bagian Tahun Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            268
+          ],
+          [
+            278,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          317,
+          862,
+          365
+        ],
+        "content": "97. Putusan Banding adalah putusan badan peradilan pajak atas banding terhadap Surat Keputusan Keberatan yang diajukan oleh Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            317
+          ],
+          [
+            282,
+            365
+          ],
+          [
+            861,
+            365
+          ],
+          [
+            861,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          366,
+          863,
+          495
+        ],
+        "content": "98. Pembahasan Akhir Hasil Pemeriksaan adalah pembahasan antara Wajib Pajak dan pemeriksa pajak atas temuan Pemeriksaan yang hasilnya dituangkan dalam berita acara pembahasan akhir hasil Pemeriksaan yang ditandatangani oleh kedua belah pihak dan berisi koreksi pokok pajak terutang baik yang disetujui maupun yang tidak disetujui dan perhitungan sanksi administratif.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            366
+          ],
+          [
+            278,
+            494
+          ],
+          [
+            862,
+            494
+          ],
+          [
+            862,
+            366
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          496,
+          862,
+          576
+        ],
+        "content": "99. Putusan Peninjauan Kembali adalah putusan Mahkamah Agung atas permohonan peninjauan kembali yang diajukan oleh Wajib Pajak atau oleh Direktur Jenderal Pajak terhadap Putusan Banding atau putusan gugatan dari badan peradilan pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            496
+          ],
+          [
+            282,
+            576
+          ],
+          [
+            862,
+            576
+          ],
+          [
+            862,
+            501
+          ],
+          [
+            847,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          578,
+          862,
+          690
+        ],
+        "content": "100. Jasa adalah setiap kegiatan pelayanan yang berdasarkan suatu perikatan atau perbuatan hukum yang menyebabkan suatu barang, fasilitas, kemudahan, atau hak tersedia untuk dipakai, termasuk jasa yang dihasilkan untuk menghasilkan barang karena pesanan atau permintaan dengan bahan dan atas petunjuk dari pemenan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            578
+          ],
+          [
+            278,
+            689
+          ],
+          [
+            861,
+            689
+          ],
+          [
+            861,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          691,
+          861,
+          771
+        ],
+        "content": "101. Kas Negara adalah tempat penyimpanan uang negara yang ditentukan oleh Menteri Keuangan selaku bendahara umum negara untuk menampung seluruh penerimaan negara dan untuk membayar seluruh pengeluaran negara.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            691
+          ],
+          [
+            278,
+            770
+          ],
+          [
+            860,
+            770
+          ],
+          [
+            855,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          772,
+          861,
+          852
+        ],
+        "content": "102. Collecting Agent adalah agen penerimaan meliputi bank persepsi, pos persepsi, bank persepsi valas, lembaga persepsi lainnya, atau lembaga persepsi lainnya valas yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            772
+          ],
+          [
+            278,
+            851
+          ],
+          [
+            860,
+            851
+          ],
+          [
+            860,
+            772
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          853,
+          862,
+          917
+        ],
+        "content": "103. Surat Setoran Pajak adalah bukti pembayaran atau penyetoran pajak yang telah dilakukan dengan menggunakan formulir atau telah dilakukan dengan cara lain ke Kas Negara melalui Collecting Agent.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            853
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            861,
+            916
+          ],
+          [
+            861,
+            853
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          728,
+          924,
+          909,
+          940
+        ],
+        "content": "jdih.kemenkeu.go.id",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            728,
+            924
+          ],
+          [
+            728,
+            939
+          ],
+          [
+            908,
+            939
+          ],
+          [
+            908,
+            924
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          288,
+          73,
+          871,
+          153
+        ],
+        "content": "104. Meterai adalah label atau carik dalam bentuk tempel, elektronik, atau bentuk lainnya yang memiliki ciri dan mengandung unsur pengaman yang dikeluarkan oleh Pemerintah Republik Indonesia, yang digunakan untuk membayar pajak atas dokumen.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            73
+          ],
+          [
+            288,
+            147
+          ],
+          [
+            299,
+            152
+          ],
+          [
+            871,
+            152
+          ],
+          [
+            871,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          154,
+          872,
+          267
+        ],
+        "content": "105. Bukti Penerimaan Negara adalah dokumen yang diterbitkan oleh Collecting Agent atas transaksi penerimaan negara yang mencantumkan nomor transaksi penerimaan negara dan nomor transaksi bank/nomor transaksi pos/nomor transaksi lembaga persepsi lainnya sebagai sarana administrasi lain yang kedudukannya disamakan dengan surat setoran.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            154
+          ],
+          [
+            288,
+            266
+          ],
+          [
+            871,
+            266
+          ],
+          [
+            871,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          268,
+          871,
+          373
+        ],
+        "content": "106. Surat Setoran Pabean, Cukai, dan Pajak adalah surat setoran atas penerimaan negara dalam rangka impor berupa bea masuk, denda administrasi, penerimaan pabean lainnya, cukai, penerimaan cukai lainnya, jasa pekerjaan, bunga dan Pajak Penghasilan Pasal 22 Impor, Pajak Pertambahan Nilai Impor, serta Pajak Penjualan atas Barang Mewah Impor.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            268
+          ],
+          [
+            286,
+            368
+          ],
+          [
+            317,
+            372
+          ],
+          [
+            871,
+            372
+          ],
+          [
+            871,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          373,
+          869,
+          421
+        ],
+        "content": "107. Bukti Pemindahbukuan adalah bukti yang menunjukkan bahwa telah dilakukan pemindahbukuan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            395
+          ],
+          [
+            287,
+            421
+          ],
+          [
+            868,
+            421
+          ],
+          [
+            868,
+            373
+          ],
+          [
+            292,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          423,
+          868,
+          470
+        ],
+        "content": "108. Pemindahbukuan adalah suatu proses memindahbukukan penerimaan pajak untuk dibukukan pada penerimaan pajak yang sesuai.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            423
+          ],
+          [
+            286,
+            470
+          ],
+          [
+            868,
+            470
+          ],
+          [
+            868,
+            423
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          471,
+          870,
+          584
+        ],
+        "content": "109. Surat Perintah Pencairan Dana adalah surat perintah yang diterbitkan oleh kantor pelayanan perbendaharaan negara selaku kuasa bendahara umum negara untuk pelaksanaan pengeluaran atas beban Anggaran Pendapatan dan Belanja Negara berdasarkan surat perintah membayar kelebihan pajak atau surat perintah membayar imbalan bunga.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            471
+          ],
+          [
+            285,
+            579
+          ],
+          [
+            295,
+            584
+          ],
+          [
+            869,
+            584
+          ],
+          [
+            869,
+            471
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          585,
+          870,
+          697
+        ],
+        "content": "110. Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi adalah satuan kerja penyelenggara pengelolaan kegiatan usaha hulu minyak dan gas bumi yang dibentuk sesuai dengan Peraturan Presiden Nomor 9 Tahun 2013 tentang Penyelenggaraan Pengelolaan Kegiatan Usaha Hulu Minyak dan Gas Bumi.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            585
+          ],
+          [
+            285,
+            696
+          ],
+          [
+            869,
+            696
+          ],
+          [
+            869,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          699,
+          868,
+          793
+        ],
+        "content": "111. Badan Pengelola Migas Aceh adalah suatu badan pemerintah yang dibentuk untuk melakukan pengelolaan dan pengendalian bersama kegiatan usaha hulu di bidang minyak dan gas bumi yang berada di darat dan laut di wilayah kewenangan Aceh (0 s.d. 12 mil laut).",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            699
+          ],
+          [
+            284,
+            793
+          ],
+          [
+            867,
+            793
+          ],
+          [
+            867,
+            699
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          796,
+          867,
+          827
+        ],
+        "content": "112. Deposit Pajak adalah pembayaran pajak yang belum merujuk pada kewajiban pajak tertentu.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            796
+          ],
+          [
+            283,
+            827
+          ],
+          [
+            867,
+            827
+          ],
+          [
+            867,
+            796
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          829,
+          869,
+          909
+        ],
+        "content": "113. Pembukuan adalah suatu proses pencatatan yang dilakukan secara teratur untuk mengumpulkan data dan informasi keuangan yang meliputi harta, kewajiban, modal, penghasilan dan biaya, serta jumlah harga perolehan dan penyerahan barang atau Jasa,",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            829
+          ],
+          [
+            284,
+            908
+          ],
+          [
+            868,
+            908
+          ],
+          [
+            868,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          74,
+          870,
+          121
+        ],
+        "content": "yang ditutup dengan menyusun laporan keuangan berupa neraca, dan laporan laba rugi untuk periode Tahun Pajak tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            74
+          ],
+          [
+            330,
+            121
+          ],
+          [
+            870,
+            121
+          ],
+          [
+            870,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          123,
+          871,
+          218
+        ],
+        "content": "114. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi wilayah darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di zona ekonomi eksklusif dan landas kontinen yang di dalamnya berlaku undang-undang yang mengatur mengenai kepabeanan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            123
+          ],
+          [
+            292,
+            218
+          ],
+          [
+            870,
+            218
+          ],
+          [
+            870,
+            123
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          220,
+          870,
+          267
+        ],
+        "content": "115. Perdagangan Melalui Sistem Elektronik adalah perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            220
+          ],
+          [
+            291,
+            267
+          ],
+          [
+            870,
+            267
+          ],
+          [
+            870,
+            220
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          269,
+          870,
+          333
+        ],
+        "content": "116. Bank Persepsi Valas adalah bank devisa yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara dalam mata uang asing dari dalam negeri dan/atau luar negeri.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            269
+          ],
+          [
+            286,
+            328
+          ],
+          [
+            301,
+            332
+          ],
+          [
+            870,
+            332
+          ],
+          [
+            870,
+            269
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          334,
+          871,
+          446
+        ],
+        "content": "117. Surat Perintah Membayar Kelebihan Pajak adalah surat perintah dari Kepala Kantor Pelayanan Pajak kepada kantor pelayanan perbendaharaan negara untuk menerbitkan Surat Perintah Pencairan Dana sebagai dasar kompensasi Utang Pajak dan/atau dasar pembayaran kembali kelebihan pembayaran pajak kepada Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            334
+          ],
+          [
+            286,
+            446
+          ],
+          [
+            870,
+            446
+          ],
+          [
+            870,
+            334
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          448,
+          870,
+          576
+        ],
+        "content": "118. Penghasilan Bruto adalah semua penghasilan yang diterima dan/atau diperoleh dari kegiatan usaha dan dari luar kegiatan usaha, setelah dikurangi dengan retur dan pengurangan penjualan serta potongan tunai dalam Tahun Pajak yang bersangkutan, sebelum dikurangi biaya untuk mendapatkan, menagih, dan memelihara penghasilan, baik yang berasal dari Indonesia maupun dari luar Indonesia.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            448
+          ],
+          [
+            285,
+            576
+          ],
+          [
+            870,
+            576
+          ],
+          [
+            870,
+            448
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          578,
+          870,
+          658
+        ],
+        "content": "119. Persetujuan Penghindaran Pajak Berganda adalah perjanjian antara Pemerintah Indonesia dengan pemerintah negara mitra atau yurisdiksi mitra dalam rangka penghindaran pajak berganda dan pencegahan pengelakan pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            578
+          ],
+          [
+            285,
+            657
+          ],
+          [
+            869,
+            657
+          ],
+          [
+            869,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          659,
+          869,
+          755
+        ],
+        "content": "120. Surat Penetapan Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            659
+          ],
+          [
+            285,
+            755
+          ],
+          [
+            868,
+            755
+          ],
+          [
+            868,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          756,
+          869,
+          868
+        ],
+        "content": "121. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            756
+          ],
+          [
+            291,
+            867
+          ],
+          [
+            868,
+            867
+          ],
+          [
+            868,
+            756
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          870,
+          870,
+          918
+        ],
+        "content": "122. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor adalah formulir penagihan untuk",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            870
+          ],
+          [
+            285,
+            918
+          ],
+          [
+            869,
+            918
+          ],
+          [
+            869,
+            870
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "atau badan pengelola migas Aceh sesuai dengan ketentuan peraturan perundang-undangan.\n\n84. Lembaga Pengelola dan Penyelenggara Online Single Submission yang selanjutnya disebut Lembaga Online Single Submission adalah lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang investasi/koordinasi penanaman modal.\n\n85. Nomor Objek Pajak adalah nomor identitas objek pajak sebagai sarana dalam administrasi perpajakan yang diterbitkan oleh Direktur Jenderal Pajak.\n\n86. Objek Pajak Pajak Bumi dan Bangunan yang selanjutnya disebut Objek Pajak adalah bumi dan/atau bangunan yang merupakan objek pajak Pajak Bumi dan Bangunan sektor perkebunan, Pajak Bumi dan Bangunan sektor perhutanan, Pajak Bumi dan Bangunan sektor pertambangan minyak dan gas bumi, Pajak Bumi dan Bangunan sektor pertambangan untuk pengusahaan panas bumi, Pajak Bumi dan Bangunan sektor pertambangan mineral atau batubara, dan Pajak Bumi dan Bangunan sektor lainnya.\n\n87. Surat Pemberitahuan Objek Pajak adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan data Objek Pajak menurut ketentuan Undang-Undang Pajak Bumi dan Bangunan yang dilampiri dengan lampiran surat pemberitahuan Objek Pajak yang merupakan bagian tidak terpisahkan dengan surat pemberitahuan Objek Pajak.\n\n88. Surat Pemberitahuan Objek Pajak Elektronik adalah Surat Pemberitahuan Objek Pajak dalam bentuk Dokumen Elektronik.\n\n89. Pendataan adalah kegiatan Direktorat Jenderal Pajak untuk memperoleh, melengkapi, dan menatausahakan data Objek Pajak dan/atau Wajib Pajak, termasuk informasi geografis Objek Pajak untuk keperluan administrasi perpajakan.\n\n90. Barang Kena Pajak adalah barang yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n91. Surat Pemberitahuan Masa Pajak Pertambahan Nilai adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan penghitungan dan/atau pembayaran Pajak Pertambahan Nilai, objek Pajak Pertambahan Nilai dan/atau bukan objek Pajak Pertambahan Nilai sesuai dengan ketentuan peraturan perundang-undangan perpajakan untuk suatu Masa Pajak.\n\n92. Jasa Kena Pajak adalah jasa yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n93. Surat Pemberitahuan Masa adalah Surat Pemberitahuan untuk suatu Masa Pajak.\n\n94. Pemungut Pajak Pertambahan Nilai adalah bendahara pemerintah, Badan, atau Instansi Pemerintah yang ditunjuk oleh Menteri Keuangan untuk memungut,\n\nmenyetor, dan melaporkan pajak yang terutang oleh Pengusaha Kena Pajak atas penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada bendahara pemerintah, Badan, atau Instansi Pemerintah tersebut.\n\n95. Pihak Lain adalah pihak yang terlibat langsung atau memfasilitasi transaksi antarpihak yang bertransaksi yang ditunjuk oleh Menteri Keuangan untuk melakukan pemotongan, pemungutan, penyetoran, dan/atau pelaporan pajak sebagaimana diatur dalam Pasal 32A Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n96. Surat Pemberitahuan Tahunan adalah Surat Pemberitahuan untuk suatu Tahun Pajak atau Bagian Tahun Pajak.\n\n97. Putusan Banding adalah putusan badan peradilan pajak atas banding terhadap Surat Keputusan Keberatan yang diajukan oleh Wajib Pajak.\n\n98. Pembahasan Akhir Hasil Pemeriksaan adalah pembahasan antara Wajib Pajak dan pemeriksa pajak atas temuan Pemeriksaan yang hasilnya dituangkan dalam berita acara pembahasan akhir hasil Pemeriksaan yang ditandatangani oleh kedua belah pihak dan berisi koreksi pokok pajak terutang baik yang disetujui maupun yang tidak disetujui dan perhitungan sanksi administratif.\n\n99. Putusan Peninjauan Kembali adalah putusan Mahkamah Agung atas permohonan peninjauan kembali yang diajukan oleh Wajib Pajak atau oleh Direktur Jenderal Pajak terhadap Putusan Banding atau putusan gugatan dari badan peradilan pajak.\n\n100. Jasa adalah setiap kegiatan pelayanan yang berdasarkan suatu perikatan atau perbuatan hukum yang menyebabkan suatu barang, fasilitas, kemudahan, atau hak tersedia untuk dipakai, termasuk jasa yang dihasilkan untuk menghasilkan barang karena pesanan atau permintaan dengan bahan dan atas petunjuk dari pemenan.\n\n101. Kas Negara adalah tempat penyimpanan uang negara yang ditentukan oleh Menteri Keuangan selaku bendahara umum negara untuk menampung seluruh penerimaan negara dan untuk membayar seluruh pengeluaran negara.\n\n102. Collecting Agent adalah agen penerimaan meliputi bank persepsi, pos persepsi, bank persepsi valas, lembaga persepsi lainnya, atau lembaga persepsi lainnya valas yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara.\n\n103. Surat Setoran Pajak adalah bukti pembayaran atau penyetoran pajak yang telah dilakukan dengan menggunakan formulir atau telah dilakukan dengan cara lain ke Kas Negara melalui Collecting Agent.\n\njdih.kemenkeu.go.id\n\n104. Meterai adalah label atau carik dalam bentuk tempel, elektronik, atau bentuk lainnya yang memiliki ciri dan mengandung unsur pengaman yang dikeluarkan oleh Pemerintah Republik Indonesia, yang digunakan untuk membayar pajak atas dokumen.\n\n105. Bukti Penerimaan Negara adalah dokumen yang diterbitkan oleh Collecting Agent atas transaksi penerimaan negara yang mencantumkan nomor transaksi penerimaan negara dan nomor transaksi bank/nomor transaksi pos/nomor transaksi lembaga persepsi lainnya sebagai sarana administrasi lain yang kedudukannya disamakan dengan surat setoran.\n\n106. Surat Setoran Pabean, Cukai, dan Pajak adalah surat setoran atas penerimaan negara dalam rangka impor berupa bea masuk, denda administrasi, penerimaan pabean lainnya, cukai, penerimaan cukai lainnya, jasa pekerjaan, bunga dan Pajak Penghasilan Pasal 22 Impor, Pajak Pertambahan Nilai Impor, serta Pajak Penjualan atas Barang Mewah Impor.\n\n107. Bukti Pemindahbukuan adalah bukti yang menunjukkan bahwa telah dilakukan pemindahbukuan.\n\n108. Pemindahbukuan adalah suatu proses memindahbukukan penerimaan pajak untuk dibukukan pada penerimaan pajak yang sesuai.\n\n109. Surat Perintah Pencairan Dana adalah surat perintah yang diterbitkan oleh kantor pelayanan perbendaharaan negara selaku kuasa bendahara umum negara untuk pelaksanaan pengeluaran atas beban Anggaran Pendapatan dan Belanja Negara berdasarkan surat perintah membayar kelebihan pajak atau surat perintah membayar imbalan bunga.\n\n110. Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi adalah satuan kerja penyelenggara pengelolaan kegiatan usaha hulu minyak dan gas bumi yang dibentuk sesuai dengan Peraturan Presiden Nomor 9 Tahun 2013 tentang Penyelenggaraan Pengelolaan Kegiatan Usaha Hulu Minyak dan Gas Bumi.\n\n111. Badan Pengelola Migas Aceh adalah suatu badan pemerintah yang dibentuk untuk melakukan pengelolaan dan pengendalian bersama kegiatan usaha hulu di bidang minyak dan gas bumi yang berada di darat dan laut di wilayah kewenangan Aceh (0 s.d. 12 mil laut).\n\n112. Deposit Pajak adalah pembayaran pajak yang belum merujuk pada kewajiban pajak tertentu.\n\n113. Pembukuan adalah suatu proses pencatatan yang dilakukan secara teratur untuk mengumpulkan data dan informasi keuangan yang meliputi harta, kewajiban, modal, penghasilan dan biaya, serta jumlah harga perolehan dan penyerahan barang atau Jasa,\n\nyang ditutup dengan menyusun laporan keuangan berupa neraca, dan laporan laba rugi untuk periode Tahun Pajak tersebut.\n\n114. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi wilayah darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di zona ekonomi eksklusif dan landas kontinen yang di dalamnya berlaku undang-undang yang mengatur mengenai kepabeanan.\n\n115. Perdagangan Melalui Sistem Elektronik adalah perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.\n\n116. Bank Persepsi Valas adalah bank devisa yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara dalam mata uang asing dari dalam negeri dan/atau luar negeri.\n\n117. Surat Perintah Membayar Kelebihan Pajak adalah surat perintah dari Kepala Kantor Pelayanan Pajak kepada kantor pelayanan perbendaharaan negara untuk menerbitkan Surat Perintah Pencairan Dana sebagai dasar kompensasi Utang Pajak dan/atau dasar pembayaran kembali kelebihan pembayaran pajak kepada Wajib Pajak.\n\n118. Penghasilan Bruto adalah semua penghasilan yang diterima dan/atau diperoleh dari kegiatan usaha dan dari luar kegiatan usaha, setelah dikurangi dengan retur dan pengurangan penjualan serta potongan tunai dalam Tahun Pajak yang bersangkutan, sebelum dikurangi biaya untuk mendapatkan, menagih, dan memelihara penghasilan, baik yang berasal dari Indonesia maupun dari luar Indonesia.\n\n119. Persetujuan Penghindaran Pajak Berganda adalah perjanjian antara Pemerintah Indonesia dengan pemerintah negara mitra atau yurisdiksi mitra dalam rangka penghindaran pajak berganda dan pencegahan pengelakan pajak.\n\n120. Surat Penetapan Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n121. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n122. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor adalah formulir penagihan untuk",
+  "md_results": "atau badan pengelola migas Aceh sesuai dengan ketentuan peraturan perundang-undangan.\n\n84. Lembaga Pengelola dan Penyelenggara Online Single Submission yang selanjutnya disebut Lembaga Online Single Submission adalah lembaga pemerintah yang menyelenggarakan urusan pemerintahan di bidang investasi/koordinasi penanaman modal.\n\n85. Nomor Objek Pajak adalah nomor identitas objek pajak sebagai sarana dalam administrasi perpajakan yang diterbitkan oleh Direktur Jenderal Pajak.\n\n86. Objek Pajak Pajak Bumi dan Bangunan yang selanjutnya disebut Objek Pajak adalah bumi dan/atau bangunan yang merupakan objek pajak Pajak Bumi dan Bangunan sektor perkebunan, Pajak Bumi dan Bangunan sektor perhutanan, Pajak Bumi dan Bangunan sektor pertambangan minyak dan gas bumi, Pajak Bumi dan Bangunan sektor pertambangan untuk pengusahaan panas bumi, Pajak Bumi dan Bangunan sektor pertambangan mineral atau batubara, dan Pajak Bumi dan Bangunan sektor lainnya.\n\n87. Surat Pemberitahuan Objek Pajak adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan data Objek Pajak menurut ketentuan Undang-Undang Pajak Bumi dan Bangunan yang dilampiri dengan lampiran surat pemberitahuan Objek Pajak yang merupakan bagian tidak terpisahkan dengan surat pemberitahuan Objek Pajak.\n\n88. Surat Pemberitahuan Objek Pajak Elektronik adalah Surat Pemberitahuan Objek Pajak dalam bentuk Dokumen Elektronik.\n\n89. Pendataan adalah kegiatan Direktorat Jenderal Pajak untuk memperoleh, melengkapi, dan menatausahakan data Objek Pajak dan/atau Wajib Pajak, termasuk informasi geografis Objek Pajak untuk keperluan administrasi perpajakan.\n\n90. Barang Kena Pajak adalah barang yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n91. Surat Pemberitahuan Masa Pajak Pertambahan Nilai adalah surat yang digunakan oleh Wajib Pajak untuk melaporkan penghitungan dan/atau pembayaran Pajak Pertambahan Nilai, objek Pajak Pertambahan Nilai dan/atau bukan objek Pajak Pertambahan Nilai sesuai dengan ketentuan peraturan perundang-undangan perpajakan untuk suatu Masa Pajak.\n\n92. Jasa Kena Pajak adalah jasa yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n93. Surat Pemberitahuan Masa adalah Surat Pemberitahuan untuk suatu Masa Pajak.\n\n94. Pemungut Pajak Pertambahan Nilai adalah bendahara pemerintah, Badan, atau Instansi Pemerintah yang ditunjuk oleh Menteri Keuangan untuk memungut,\n\nmenyetor, dan melaporkan pajak yang terutang oleh Pengusaha Kena Pajak atas penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak kepada bendahara pemerintah, Badan, atau Instansi Pemerintah tersebut.\n\n95. Pihak Lain adalah pihak yang terlibat langsung atau memfasilitasi transaksi antarpihak yang bertransaksi yang ditunjuk oleh Menteri Keuangan untuk melakukan pemotongan, pemungutan, penyetoran, dan/atau pelaporan pajak sebagaimana diatur dalam Pasal 32A Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n96. Surat Pemberitahuan Tahunan adalah Surat Pemberitahuan untuk suatu Tahun Pajak atau Bagian Tahun Pajak.\n\n97. Putusan Banding adalah putusan badan peradilan pajak atas banding terhadap Surat Keputusan Keberatan yang diajukan oleh Wajib Pajak.\n\n98. Pembahasan Akhir Hasil Pemeriksaan adalah pembahasan antara Wajib Pajak dan pemeriksa pajak atas temuan Pemeriksaan yang hasilnya dituangkan dalam berita acara pembahasan akhir hasil Pemeriksaan yang ditandatangani oleh kedua belah pihak dan berisi koreksi pokok pajak terutang baik yang disetujui maupun yang tidak disetujui dan perhitungan sanksi administratif.\n\n99. Putusan Peninjauan Kembali adalah putusan Mahkamah Agung atas permohonan peninjauan kembali yang diajukan oleh Wajib Pajak atau oleh Direktur Jenderal Pajak terhadap Putusan Banding atau putusan gugatan dari badan peradilan pajak.\n\n100. Jasa adalah setiap kegiatan pelayanan yang berdasarkan suatu perikatan atau perbuatan hukum yang menyebabkan suatu barang, fasilitas, kemudahan, atau hak tersedia untuk dipakai, termasuk jasa yang dihasilkan untuk menghasilkan barang karena pesanan atau permintaan dengan bahan dan atas petunjuk dari pemenan.\n\n101. Kas Negara adalah tempat penyimpanan uang negara yang ditentukan oleh Menteri Keuangan selaku bendahara umum negara untuk menampung seluruh penerimaan negara dan untuk membayar seluruh pengeluaran negara.\n\n102. Collecting Agent adalah agen penerimaan meliputi bank persepsi, pos persepsi, bank persepsi valas, lembaga persepsi lainnya, atau lembaga persepsi lainnya valas yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara.\n\n103. Surat Setoran Pajak adalah bukti pembayaran atau penyetoran pajak yang telah dilakukan dengan menggunakan formulir atau telah dilakukan dengan cara lain ke Kas Negara melalui Collecting Agent.\n\njdih.kemenkeu.go.id\n\n104. Meterai adalah label atau carik dalam bentuk tempel, elektronik, atau bentuk lainnya yang memiliki ciri dan mengandung unsur pengaman yang dikeluarkan oleh Pemerintah Republik Indonesia, yang digunakan untuk membayar pajak atas dokumen.\n\n105. Bukti Penerimaan Negara adalah dokumen yang diterbitkan oleh Collecting Agent atas transaksi penerimaan negara yang mencantumkan nomor transaksi penerimaan negara dan nomor transaksi bank/nomor transaksi pos/nomor transaksi lembaga persepsi lainnya sebagai sarana administrasi lain yang kedudukannya disamakan dengan surat setoran.\n\n106. Surat Setoran Pabean, Cukai, dan Pajak adalah surat setoran atas penerimaan negara dalam rangka impor berupa bea masuk, denda administrasi, penerimaan pabean lainnya, cukai, penerimaan cukai lainnya, jasa pekerjaan, bunga dan Pajak Penghasilan Pasal 22 Impor, Pajak Pertambahan Nilai Impor, serta Pajak Penjualan atas Barang Mewah Impor.\n\n107. Bukti Pemindahbukuan adalah bukti yang menunjukkan bahwa telah dilakukan pemindahbukuan.\n\n108. Pemindahbukuan adalah suatu proses memindahbukukan penerimaan pajak untuk dibukukan pada penerimaan pajak yang sesuai.\n\n109. Surat Perintah Pencairan Dana adalah surat perintah yang diterbitkan oleh kantor pelayanan perbendaharaan negara selaku kuasa bendahara umum negara untuk pelaksanaan pengeluaran atas beban Anggaran Pendapatan dan Belanja Negara berdasarkan surat perintah membayar kelebihan pajak atau surat perintah membayar imbalan bunga.\n\n110. Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi adalah satuan kerja penyelenggara pengelolaan kegiatan usaha hulu minyak dan gas bumi yang dibentuk sesuai dengan Peraturan Presiden Nomor 9 Tahun 2013 tentang Penyelenggaraan Pengelolaan Kegiatan Usaha Hulu Minyak dan Gas Bumi.\n\n111. Badan Pengelola Migas Aceh adalah suatu badan pemerintah yang dibentuk untuk melakukan pengelolaan dan pengendalian bersama kegiatan usaha hulu di bidang minyak dan gas bumi yang berada di darat dan laut di wilayah kewenangan Aceh (0 s.d. 12 mil laut).\n\n112. Deposit Pajak adalah pembayaran pajak yang belum merujuk pada kewajiban pajak tertentu.\n\n113. Pembukuan adalah suatu proses pencatatan yang dilakukan secara teratur untuk mengumpulkan data dan informasi keuangan yang meliputi harta, kewajiban, modal, penghasilan dan biaya, serta jumlah harga perolehan dan penyerahan barang atau Jasa,\n\nyang ditutup dengan menyusun laporan keuangan berupa neraca, dan laporan laba rugi untuk periode Tahun Pajak tersebut.\n\n114. Daerah Pabean adalah wilayah Republik Indonesia yang meliputi wilayah darat, perairan, dan ruang udara di atasnya, serta tempat-tempat tertentu di zona ekonomi eksklusif dan landas kontinen yang di dalamnya berlaku undang-undang yang mengatur mengenai kepabeanan.\n\n115. Perdagangan Melalui Sistem Elektronik adalah perdagangan yang transaksinya dilakukan melalui serangkaian perangkat dan prosedur elektronik.\n\n116. Bank Persepsi Valas adalah bank devisa yang ditunjuk oleh kuasa bendahara umum negara pusat untuk menerima setoran penerimaan negara dalam mata uang asing dari dalam negeri dan/atau luar negeri.\n\n117. Surat Perintah Membayar Kelebihan Pajak adalah surat perintah dari Kepala Kantor Pelayanan Pajak kepada kantor pelayanan perbendaharaan negara untuk menerbitkan Surat Perintah Pencairan Dana sebagai dasar kompensasi Utang Pajak dan/atau dasar pembayaran kembali kelebihan pembayaran pajak kepada Wajib Pajak.\n\n118. Penghasilan Bruto adalah semua penghasilan yang diterima dan/atau diperoleh dari kegiatan usaha dan dari luar kegiatan usaha, setelah dikurangi dengan retur dan pengurangan penjualan serta potongan tunai dalam Tahun Pajak yang bersangkutan, sebelum dikurangi biaya untuk mendapatkan, menagih, dan memelihara penghasilan, baik yang berasal dari Indonesia maupun dari luar Indonesia.\n\n119. Persetujuan Penghindaran Pajak Berganda adalah perjanjian antara Pemerintah Indonesia dengan pemerintah negara mitra atau yurisdiksi mitra dalam rangka penghindaran pajak berganda dan pencegahan pengelakan pajak.\n\n120. Surat Penetapan Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n121. Surat Penetapan Kembali Tarif dan/atau Nilai Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n122. Surat Pemberitahuan Kekurangan Pembayaran Bea Masuk, Cukai, Denda Administrasi, Bunga, dan Pajak Dalam Rangka Impor adalah formulir penagihan untuk",
+  "model": "glm-ocr",
+  "usage": {}
+}

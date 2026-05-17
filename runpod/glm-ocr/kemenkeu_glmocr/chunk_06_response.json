@@ -1,0 +1,2939 @@
+{
+  "created": 1779015248,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-c500945a3cd24dac845396a87ac34",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          331,
+          73,
+          871,
+          104
+        ],
+        "content": "bertugas memproses permintaan pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            94
+          ],
+          [
+            331,
+            104
+          ],
+          [
+            870,
+            104
+          ],
+          [
+            870,
+            73
+          ],
+          [
+            337,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          105,
+          872,
+          169
+        ],
+        "content": "164. Konter Pemeriksaan Barang Bawaan yang selanjutnya disebut Konter Pemeriksaan adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas memeriksa Barang Bawaan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            105
+          ],
+          [
+            294,
+            169
+          ],
+          [
+            871,
+            169
+          ],
+          [
+            871,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          170,
+          871,
+          234
+        ],
+        "content": "165. Formulir Permintaan Pengembalian Pajak Pertambahan Nilai adalah formulir yang digunakan oleh Turis Asing untuk meminta kembali Pajak Pertambahan Nilai atas pembelian Barang Bawaan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            170
+          ],
+          [
+            288,
+            233
+          ],
+          [
+            871,
+            233
+          ],
+          [
+            871,
+            170
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          235,
+          870,
+          314
+        ],
+        "content": "166. Bendahara Pengeluaran Pembantu adalah pegawai yang ditunjuk untuk membantu bendahara pengeluaran untuk melaksanakan pembayaran kepada yang berhak guna kelancaran pelaksanaan kegiatan tertentu.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            235
+          ],
+          [
+            287,
+            313
+          ],
+          [
+            870,
+            313
+          ],
+          [
+            870,
+            235
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          317,
+          870,
+          346
+        ],
+        "content": "167. Pemegang Uang Persediaan Pengembalian Pajak adalah:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            317
+          ],
+          [
+            287,
+            346
+          ],
+          [
+            870,
+            346
+          ],
+          [
+            870,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          350,
+          670,
+          364
+        ],
+        "content": "a. bendahara pengeluaran; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            350
+          ],
+          [
+            332,
+            363
+          ],
+          [
+            669,
+            363
+          ],
+          [
+            669,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          365,
+          870,
+          425
+        ],
+        "content": "b. Bendahara Pengeluaran Pembantu pada Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang melakukan pembayaran-pengembalian Pajak Pertambahan Nilai.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            365
+          ],
+          [
+            331,
+            425
+          ],
+          [
+            870,
+            425
+          ],
+          [
+            870,
+            365
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          426,
+          870,
+          505
+        ],
+        "content": "168. Konter Pembayaran adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas mengembalikan Pajak Pertambahan Nilai yang bernilai kurang dari atau sama dengan Rp5.000.000,00 (lima juta rupiah) yang telah dibayar oleh Turis Asing.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            426
+          ],
+          [
+            292,
+            505
+          ],
+          [
+            870,
+            505
+          ],
+          [
+            870,
+            426
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          507,
+          870,
+          554
+        ],
+        "content": "169. Uang Persediaan Pengembalian Pajak adalah Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            507
+          ],
+          [
+            292,
+            553
+          ],
+          [
+            870,
+            553
+          ],
+          [
+            870,
+            512
+          ],
+          [
+            835,
+            507
+          ],
+          [
+            561,
+            507
+          ],
+          [
+            555,
+            507
+          ],
+          [
+            545,
+            507
+          ],
+          [
+            521,
+            507
+          ],
+          [
+            516,
+            507
+          ],
+          [
+            501,
+            507
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          556,
+          870,
+          635
+        ],
+        "content": "170. Pejabat Penanda Tangan Surat Perintah Membayar adalah pejabat yang diberi kewenangan oleh pengguna anggaran/kuasa pengguna anggaran untuk melakukan pengujian atas permintaan pembayaran dan menerbitkan perintah pembayaran.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            556
+          ],
+          [
+            291,
+            635
+          ],
+          [
+            869,
+            635
+          ],
+          [
+            869,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          637,
+          869,
+          700
+        ],
+        "content": "171. Surat Perintah Membayar Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan Uang Persediaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            637
+          ],
+          [
+            291,
+            700
+          ],
+          [
+            868,
+            700
+          ],
+          [
+            868,
+            637
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          702,
+          869,
+          765
+        ],
+        "content": "172. Surat Perintah Membayar Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Uang Persediaan yang diterbitkan untuk membayar Uang Persediaan Pengembalian Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            707
+          ],
+          [
+            287,
+            765
+          ],
+          [
+            868,
+            765
+          ],
+          [
+            868,
+            702
+          ],
+          [
+            740,
+            702
+          ],
+          [
+            734,
+            702
+          ],
+          [
+            714,
+            702
+          ],
+          [
+            391,
+            702
+          ],
+          [
+            371,
+            702
+          ],
+          [
+            292,
+            702
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          767,
+          870,
+          879
+        ],
+        "content": "173. Surat Perintah Membayar Penggantian Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar dengan membebani daftar isian pelaksanaan anggaran sesuai dengan ketentuan peraturan perundang-undangan, yang dananya dipergunakan untuk menggantikan Uang Persediaan yang telah dipakai.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            772
+          ],
+          [
+            291,
+            878
+          ],
+          [
+            869,
+            878
+          ],
+          [
+            869,
+            772
+          ],
+          [
+            830,
+            767
+          ],
+          [
+            715,
+            767
+          ],
+          [
+            710,
+            767
+          ],
+          [
+            700,
+            767
+          ],
+          [
+            391,
+            767
+          ],
+          [
+            365,
+            767
+          ],
+          [
+            351,
+            767
+          ],
+          [
+            296,
+            767
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          880,
+          871,
+          911
+        ],
+        "content": "174. Surat Perintah Membayar Penggantian Uang Persediaan Pengembalian Pajak adalah Surat Perintah",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            880
+          ],
+          [
+            286,
+            911
+          ],
+          [
+            870,
+            911
+          ],
+          [
+            870,
+            880
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          871,
+          121
+        ],
+        "content": "Membayar Penggantian Uang Persediaan yang diterbitkan untuk menggantikan Uang Persediaan Pengembalian Pajak yang telah digunakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            120
+          ],
+          [
+            870,
+            120
+          ],
+          [
+            870,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          121,
+          870,
+          234
+        ],
+        "content": "175. Bendahara Pengeluaran adalah pegawai yang ditunjuk untuk menerima, menyimpan, membayarkan, menatausahakan, dan mempertanggungjawabkan uang untuk keperluan belanja negara dalam pelaksanaan Anggaran Pendapatan dan Belanja Negara pada kantor/satuan kerja kementerian negara/lembaga pemerintah nonkementerian.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            121
+          ],
+          [
+            291,
+            234
+          ],
+          [
+            870,
+            234
+          ],
+          [
+            870,
+            126
+          ],
+          [
+            855,
+            121
+          ],
+          [
+            841,
+            121
+          ],
+          [
+            795,
+            121
+          ],
+          [
+            785,
+            121
+          ],
+          [
+            760,
+            121
+          ],
+          [
+            750,
+            121
+          ],
+          [
+            740,
+            121
+          ],
+          [
+            671,
+            121
+          ],
+          [
+            665,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          236,
+          870,
+          299
+        ],
+        "content": "176. Tambahan Uang Persediaan adalah uang muka kerja yang diberikan kepada Bendahara Pengeluaran untuk kebutuhan yang sangat mendesak dalam 1 (satu) bulan melebihi pagu Uang Persediaan yang telah ditetapkan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            236
+          ],
+          [
+            285,
+            299
+          ],
+          [
+            869,
+            299
+          ],
+          [
+            869,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          300,
+          870,
+          363
+        ],
+        "content": "177. Tambahan Uang Persediaan Pengembalian Pajak adalah Tambahan Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            300
+          ],
+          [
+            284,
+            363
+          ],
+          [
+            869,
+            363
+          ],
+          [
+            869,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          365,
+          869,
+          428
+        ],
+        "content": "178. Surat Perintah Membayar Tambahan Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan tambahan Uang Persediaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            365
+          ],
+          [
+            284,
+            428
+          ],
+          [
+            868,
+            428
+          ],
+          [
+            868,
+            365
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          430,
+          869,
+          510
+        ],
+        "content": "179. Surat Perintah Membayar Tambahan Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Tambahan Uang Persediaan yang diterbitkan untuk membayar Tambahan Uang Persediaan Pengembalian Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            430
+          ],
+          [
+            284,
+            509
+          ],
+          [
+            868,
+            509
+          ],
+          [
+            868,
+            430
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          511,
+          869,
+          575
+        ],
+        "content": "180. Ekspor Jasa Kena Pajak adalah setiap kegiatan penyerahan Jasa Kena Pajak yang dihasilkan di dalam Daerah Pabean untuk dimanfaatkan oleh penerima ekspor Jasa Kena Pajak di luar Daerah Pabean.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            511
+          ],
+          [
+            284,
+            575
+          ],
+          [
+            868,
+            575
+          ],
+          [
+            868,
+            511
+          ],
+          [
+            459,
+            511
+          ],
+          [
+            454,
+            511
+          ],
+          [
+            404,
+            511
+          ],
+          [
+            398,
+            511
+          ],
+          [
+            374,
+            511
+          ],
+          [
+            368,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          576,
+          870,
+          802
+        ],
+        "content": "181. Penggantian adalah nilai berupa uang, termasuk semua biaya yang diminta atau seharusnya diminta oleh Pengusaha karena penyerahan Jasa Kena Pajak, Ekspor Jasa Kena Pajak, atau ekspor Barang Kena Pajak tidak berwujud, tetapi tidak termasuk Pajak Pertambahan Nilai yang dipungut menurut Undang-Undang Pajak Pertambahan Nilai dan potongan harga yang dicantumkan dalam Faktur Pajak atau nilai berupa uang yang dibayar atau seharusnya dibayar oleh penerima jasa karena pemanfaatan Jasa Kena Pajak dan/atau oleh penerima manfaat Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            576
+          ],
+          [
+            286,
+            797
+          ],
+          [
+            869,
+            797
+          ],
+          [
+            869,
+            581
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          803,
+          869,
+          918
+        ],
+        "content": "182. Penerima Ekspor Jasa Kena Pajak adalah orang pribadi atau Badan yang melakukan perikatan dan menerima manfaat langsung atas Ekspor Jasa Kena Pajak, berada di luar Daerah Pabean, dan merupakan Wajib Pajak luar negeri yang tidak mempunyai bentuk usaha tetap di Indonesia sebagaimana diatur dalam Undang-Undang Pajak Penghasilan beserta perubahannya.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            803
+          ],
+          [
+            289,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            803
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          864,
+          137
+        ],
+        "content": "183. Penerima Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            132
+          ],
+          [
+            290,
+            137
+          ],
+          [
+            863,
+            137
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          139,
+          863,
+          186
+        ],
+        "content": "184. Pengembalian Barang Kena Pajak adalah pengembalian Barang Kena Pajak baik sebagian maupun seluruhnya oleh pembeli Barang Kena Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            139
+          ],
+          [
+            280,
+            185
+          ],
+          [
+            862,
+            185
+          ],
+          [
+            862,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          187,
+          863,
+          235
+        ],
+        "content": "185. Pembatalan Jasa Kena Pajak adalah pembatalan Jasa Kena Pajak baik sebagian maupun seluruh hak atau fasilitas atau kemudahan oleh Penerima Jasa.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            187
+          ],
+          [
+            280,
+            235
+          ],
+          [
+            862,
+            235
+          ],
+          [
+            862,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          236,
+          864,
+          348
+        ],
+        "content": "186. Agen Asuransi adalah orang yang bekerja sendiri atau bekerja pada badan usaha, yang bertindak untuk dan atas nama Perusahaan Asuransi atau Perusahaan Asuransi syariah dan memenuhi persyaratan untuk mewakili Perusahaan Asuransi atau Perusahaan Asuransi syariah memasarkan produk asuransi atau produk asuransi syariah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            236
+          ],
+          [
+            280,
+            348
+          ],
+          [
+            863,
+            348
+          ],
+          [
+            863,
+            241
+          ],
+          [
+            824,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          350,
+          863,
+          396
+        ],
+        "content": "187. Perusahaan Asuransi Syariah adalah Perusahaan Asuransi umum syariah dan Perusahaan Asuransi jiwa syariah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            350
+          ],
+          [
+            279,
+            396
+          ],
+          [
+            862,
+            396
+          ],
+          [
+            862,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          398,
+          863,
+          527
+        ],
+        "content": "188. Pelaku Usaha Perdagangan Melalui Sistem Elektronik adalah orang pribadi atau Badan yang melakukan kegiatan usaha di bidang Perdagangan Melalui Sistem Elektronik yang terdiri dari pedagang luar negeri, penyedia jasa luar negeri, penyelenggara Perdagangan Melalui Sistem Elektronik luar negeri, dan/atau penyelenggara Perdagangan Melalui Sistem Elektronik dalam negeri.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            398
+          ],
+          [
+            279,
+            526
+          ],
+          [
+            862,
+            526
+          ],
+          [
+            862,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          528,
+          862,
+          608
+        ],
+        "content": "189. Pedagang Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat barang di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            528
+          ],
+          [
+            278,
+            603
+          ],
+          [
+            293,
+            607
+          ],
+          [
+            862,
+            607
+          ],
+          [
+            862,
+            528
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          610,
+          862,
+          690
+        ],
+        "content": "190. Penyedia Jasa Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat Jasa di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            610
+          ],
+          [
+            278,
+            689
+          ],
+          [
+            862,
+            689
+          ],
+          [
+            862,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          691,
+          864,
+          804
+        ],
+        "content": "191. Pemanfaat Barang adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Barang Kena Pajak tidak berwujud dan yang membayar atau seharusnya membayar Penggantian atas Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            691
+          ],
+          [
+            278,
+            803
+          ],
+          [
+            863,
+            803
+          ],
+          [
+            863,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          805,
+          864,
+          901
+        ],
+        "content": "192. Pemanfaat Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak karena pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            805
+          ],
+          [
+            278,
+            901
+          ],
+          [
+            863,
+            901
+          ],
+          [
+            863,
+            805
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          283,
+          73,
+          866,
+          136
+        ],
+        "content": "193. Penyelenggara Perdagangan Melalui Sistem Elektronik adalah pelaku usaha penyedia sarana komunikasi elektronik yang digunakan untuk transaksi perdagangan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            73
+          ],
+          [
+            283,
+            136
+          ],
+          [
+            865,
+            136
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          139,
+          866,
+          202
+        ],
+        "content": "194. Penyelenggara Perdagangan Melalui Sistem Elektronik Dalam Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di dalam Daerah Pabean.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            139
+          ],
+          [
+            282,
+            201
+          ],
+          [
+            865,
+            201
+          ],
+          [
+            865,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          203,
+          865,
+          267
+        ],
+        "content": "195. Penyelenggara Perdagangan Melalui Sistem Elektronik Luar Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            203
+          ],
+          [
+            281,
+            266
+          ],
+          [
+            865,
+            266
+          ],
+          [
+            865,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          268,
+          865,
+          380
+        ],
+        "content": "196. Barang Digital adalah setiap barang tidak berwujud yang berbentuk Informasi Elektronik atau digital meliputi baik barang yang merupakan hasil konversi atau pengalihwujudan maupun barang yang secara originalnya berbentuk elektronik, termasuk tetapi tidak terbatas pada peranti lunak, multimedia, dan/atau data elektronik.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            268
+          ],
+          [
+            282,
+            380
+          ],
+          [
+            865,
+            380
+          ],
+          [
+            865,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          382,
+          865,
+          462
+        ],
+        "content": "197. Paten adalah hak eksklusif yang diberikan oleh negara kepada inventor atas hasil invensinya di bidang teknologi untuk jangka waktu tertentu melaksanakan sendiri invensi tersebut atau memberikan persetujuan kepada pihak lain untuk melaksanakannya.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            382
+          ],
+          [
+            282,
+            461
+          ],
+          [
+            865,
+            461
+          ],
+          [
+            865,
+            382
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          463,
+          865,
+          559
+        ],
+        "content": "198. Jasa Digital adalah jasa yang dikirim melalui internet atau jaringan elektronik, bersifat otomatis atau hanya melibatkan sedikit campur tangan manusia, dan tidak mungkin untuk memastikannya tanpa adanya teknologi informasi, termasuk tetapi tidak terbatas pada layanan jasa berbasis peranti lunak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            463
+          ],
+          [
+            286,
+            559
+          ],
+          [
+            865,
+            559
+          ],
+          [
+            865,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          561,
+          865,
+          657
+        ],
+        "content": "199. Aset Kripto adalah komoditi tidak berwujud yang berbentuk digital, menggunakan kriptografi, jaringan informasi teknologi, dan buku besar yang terdistribusi, untuk mengatur penciptaan unit baru, memverifikasi transaksi, dan mengamankan transaksi tanpa campur tangan pihak lain.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            561
+          ],
+          [
+            281,
+            656
+          ],
+          [
+            864,
+            656
+          ],
+          [
+            864,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          658,
+          865,
+          786
+        ],
+        "content": "200. Sarana Elektronik adalah sarana komunikasi melalui sistem elektronik yang digunakan dalam perdagangan Aset Kripto, diantaranya mencakup pernyataan, deklarasi, permintaan, pemberitahuan atau permohonan, konfirmasi, penawaran atau penerimaan terhadap penawaran, yang memuat kesepakatan para pihak untuk pembentukan atau pelaksanaan perjanjian.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            658
+          ],
+          [
+            280,
+            786
+          ],
+          [
+            864,
+            786
+          ],
+          [
+            864,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          788,
+          864,
+          835
+        ],
+        "content": "201. Penjual Aset Kripto adalah orang pribadi atau Badan yang melakukan penjualan dan/atau pertukaran Aset Kripto.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            788
+          ],
+          [
+            279,
+            834
+          ],
+          [
+            864,
+            834
+          ],
+          [
+            864,
+            788
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          837,
+          865,
+          917
+        ],
+        "content": "202. Penambang Aset Kripto adalah orang pribadi atau Badan yang melakukan kegiatan verifikasi transaksi Aset Kripto untuk mendapatkan imbalan berupa Aset Kripto, baik sendiri-sendiri maupun dalam kelompok penambang Aset Kripto (mining pool).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            837
+          ],
+          [
+            279,
+            917
+          ],
+          [
+            860,
+            917
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            864,
+            837
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          331,
+          73,
+          871,
+          104
+        ],
+        "content": "bertugas memproses permintaan pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            94
+          ],
+          [
+            331,
+            104
+          ],
+          [
+            870,
+            104
+          ],
+          [
+            870,
+            73
+          ],
+          [
+            337,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          105,
+          872,
+          169
+        ],
+        "content": "164. Konter Pemeriksaan Barang Bawaan yang selanjutnya disebut Konter Pemeriksaan adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas memeriksa Barang Bawaan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            105
+          ],
+          [
+            294,
+            169
+          ],
+          [
+            871,
+            169
+          ],
+          [
+            871,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          170,
+          871,
+          234
+        ],
+        "content": "165. Formulir Permintaan Pengembalian Pajak Pertambahan Nilai adalah formulir yang digunakan oleh Turis Asing untuk meminta kembali Pajak Pertambahan Nilai atas pembelian Barang Bawaan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            170
+          ],
+          [
+            288,
+            233
+          ],
+          [
+            871,
+            233
+          ],
+          [
+            871,
+            170
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          235,
+          870,
+          314
+        ],
+        "content": "166. Bendahara Pengeluaran Pembantu adalah pegawai yang ditunjuk untuk membantu bendahara pengeluaran untuk melaksanakan pembayaran kepada yang berhak guna kelancaran pelaksanaan kegiatan tertentu.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            235
+          ],
+          [
+            287,
+            313
+          ],
+          [
+            870,
+            313
+          ],
+          [
+            870,
+            235
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          317,
+          870,
+          346
+        ],
+        "content": "167. Pemegang Uang Persediaan Pengembalian Pajak adalah:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            317
+          ],
+          [
+            287,
+            346
+          ],
+          [
+            870,
+            346
+          ],
+          [
+            870,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          350,
+          670,
+          364
+        ],
+        "content": "a. bendahara pengeluaran; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            350
+          ],
+          [
+            332,
+            363
+          ],
+          [
+            669,
+            363
+          ],
+          [
+            669,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          365,
+          870,
+          425
+        ],
+        "content": "b. Bendahara Pengeluaran Pembantu pada Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang melakukan pembayaran-pengembalian Pajak Pertambahan Nilai.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            365
+          ],
+          [
+            331,
+            425
+          ],
+          [
+            870,
+            425
+          ],
+          [
+            870,
+            365
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          426,
+          870,
+          505
+        ],
+        "content": "168. Konter Pembayaran adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas mengembalikan Pajak Pertambahan Nilai yang bernilai kurang dari atau sama dengan Rp5.000.000,00 (lima juta rupiah) yang telah dibayar oleh Turis Asing.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            426
+          ],
+          [
+            292,
+            505
+          ],
+          [
+            870,
+            505
+          ],
+          [
+            870,
+            426
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          507,
+          870,
+          554
+        ],
+        "content": "169. Uang Persediaan Pengembalian Pajak adalah Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            507
+          ],
+          [
+            292,
+            553
+          ],
+          [
+            870,
+            553
+          ],
+          [
+            870,
+            512
+          ],
+          [
+            835,
+            507
+          ],
+          [
+            561,
+            507
+          ],
+          [
+            555,
+            507
+          ],
+          [
+            545,
+            507
+          ],
+          [
+            521,
+            507
+          ],
+          [
+            516,
+            507
+          ],
+          [
+            501,
+            507
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          556,
+          870,
+          635
+        ],
+        "content": "170. Pejabat Penanda Tangan Surat Perintah Membayar adalah pejabat yang diberi kewenangan oleh pengguna anggaran/kuasa pengguna anggaran untuk melakukan pengujian atas permintaan pembayaran dan menerbitkan perintah pembayaran.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            556
+          ],
+          [
+            291,
+            635
+          ],
+          [
+            869,
+            635
+          ],
+          [
+            869,
+            556
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          637,
+          869,
+          700
+        ],
+        "content": "171. Surat Perintah Membayar Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan Uang Persediaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            637
+          ],
+          [
+            291,
+            700
+          ],
+          [
+            868,
+            700
+          ],
+          [
+            868,
+            637
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          702,
+          869,
+          765
+        ],
+        "content": "172. Surat Perintah Membayar Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Uang Persediaan yang diterbitkan untuk membayar Uang Persediaan Pengembalian Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            707
+          ],
+          [
+            287,
+            765
+          ],
+          [
+            868,
+            765
+          ],
+          [
+            868,
+            702
+          ],
+          [
+            740,
+            702
+          ],
+          [
+            734,
+            702
+          ],
+          [
+            714,
+            702
+          ],
+          [
+            391,
+            702
+          ],
+          [
+            371,
+            702
+          ],
+          [
+            292,
+            702
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          767,
+          870,
+          879
+        ],
+        "content": "173. Surat Perintah Membayar Penggantian Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar dengan membebani daftar isian pelaksanaan anggaran sesuai dengan ketentuan peraturan perundang-undangan, yang dananya dipergunakan untuk menggantikan Uang Persediaan yang telah dipakai.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            772
+          ],
+          [
+            291,
+            878
+          ],
+          [
+            869,
+            878
+          ],
+          [
+            869,
+            772
+          ],
+          [
+            830,
+            767
+          ],
+          [
+            715,
+            767
+          ],
+          [
+            710,
+            767
+          ],
+          [
+            700,
+            767
+          ],
+          [
+            391,
+            767
+          ],
+          [
+            365,
+            767
+          ],
+          [
+            351,
+            767
+          ],
+          [
+            296,
+            767
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          880,
+          871,
+          911
+        ],
+        "content": "174. Surat Perintah Membayar Penggantian Uang Persediaan Pengembalian Pajak adalah Surat Perintah",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            880
+          ],
+          [
+            286,
+            911
+          ],
+          [
+            870,
+            911
+          ],
+          [
+            870,
+            880
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          72,
+          871,
+          121
+        ],
+        "content": "Membayar Penggantian Uang Persediaan yang diterbitkan untuk menggantikan Uang Persediaan Pengembalian Pajak yang telah digunakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            72
+          ],
+          [
+            329,
+            120
+          ],
+          [
+            870,
+            120
+          ],
+          [
+            870,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          121,
+          870,
+          234
+        ],
+        "content": "175. Bendahara Pengeluaran adalah pegawai yang ditunjuk untuk menerima, menyimpan, membayarkan, menatausahakan, dan mempertanggungjawabkan uang untuk keperluan belanja negara dalam pelaksanaan Anggaran Pendapatan dan Belanja Negara pada kantor/satuan kerja kementerian negara/lembaga pemerintah nonkementerian.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            121
+          ],
+          [
+            291,
+            234
+          ],
+          [
+            870,
+            234
+          ],
+          [
+            870,
+            126
+          ],
+          [
+            855,
+            121
+          ],
+          [
+            841,
+            121
+          ],
+          [
+            795,
+            121
+          ],
+          [
+            785,
+            121
+          ],
+          [
+            760,
+            121
+          ],
+          [
+            750,
+            121
+          ],
+          [
+            740,
+            121
+          ],
+          [
+            671,
+            121
+          ],
+          [
+            665,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          236,
+          870,
+          299
+        ],
+        "content": "176. Tambahan Uang Persediaan adalah uang muka kerja yang diberikan kepada Bendahara Pengeluaran untuk kebutuhan yang sangat mendesak dalam 1 (satu) bulan melebihi pagu Uang Persediaan yang telah ditetapkan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            236
+          ],
+          [
+            285,
+            299
+          ],
+          [
+            869,
+            299
+          ],
+          [
+            869,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          300,
+          870,
+          363
+        ],
+        "content": "177. Tambahan Uang Persediaan Pengembalian Pajak adalah Tambahan Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            300
+          ],
+          [
+            284,
+            363
+          ],
+          [
+            869,
+            363
+          ],
+          [
+            869,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          365,
+          869,
+          428
+        ],
+        "content": "178. Surat Perintah Membayar Tambahan Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan tambahan Uang Persediaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            365
+          ],
+          [
+            284,
+            428
+          ],
+          [
+            868,
+            428
+          ],
+          [
+            868,
+            365
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          430,
+          869,
+          510
+        ],
+        "content": "179. Surat Perintah Membayar Tambahan Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Tambahan Uang Persediaan yang diterbitkan untuk membayar Tambahan Uang Persediaan Pengembalian Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            430
+          ],
+          [
+            284,
+            509
+          ],
+          [
+            868,
+            509
+          ],
+          [
+            868,
+            430
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          511,
+          869,
+          575
+        ],
+        "content": "180. Ekspor Jasa Kena Pajak adalah setiap kegiatan penyerahan Jasa Kena Pajak yang dihasilkan di dalam Daerah Pabean untuk dimanfaatkan oleh penerima ekspor Jasa Kena Pajak di luar Daerah Pabean.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            511
+          ],
+          [
+            284,
+            575
+          ],
+          [
+            868,
+            575
+          ],
+          [
+            868,
+            511
+          ],
+          [
+            459,
+            511
+          ],
+          [
+            454,
+            511
+          ],
+          [
+            404,
+            511
+          ],
+          [
+            398,
+            511
+          ],
+          [
+            374,
+            511
+          ],
+          [
+            368,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          576,
+          870,
+          802
+        ],
+        "content": "181. Penggantian adalah nilai berupa uang, termasuk semua biaya yang diminta atau seharusnya diminta oleh Pengusaha karena penyerahan Jasa Kena Pajak, Ekspor Jasa Kena Pajak, atau ekspor Barang Kena Pajak tidak berwujud, tetapi tidak termasuk Pajak Pertambahan Nilai yang dipungut menurut Undang-Undang Pajak Pertambahan Nilai dan potongan harga yang dicantumkan dalam Faktur Pajak atau nilai berupa uang yang dibayar atau seharusnya dibayar oleh penerima jasa karena pemanfaatan Jasa Kena Pajak dan/atau oleh penerima manfaat Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            576
+          ],
+          [
+            286,
+            797
+          ],
+          [
+            869,
+            797
+          ],
+          [
+            869,
+            581
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          803,
+          869,
+          918
+        ],
+        "content": "182. Penerima Ekspor Jasa Kena Pajak adalah orang pribadi atau Badan yang melakukan perikatan dan menerima manfaat langsung atas Ekspor Jasa Kena Pajak, berada di luar Daerah Pabean, dan merupakan Wajib Pajak luar negeri yang tidak mempunyai bentuk usaha tetap di Indonesia sebagaimana diatur dalam Undang-Undang Pajak Penghasilan beserta perubahannya.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            803
+          ],
+          [
+            289,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            803
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          864,
+          137
+        ],
+        "content": "183. Penerima Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak tersebut.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            132
+          ],
+          [
+            290,
+            137
+          ],
+          [
+            863,
+            137
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          139,
+          863,
+          186
+        ],
+        "content": "184. Pengembalian Barang Kena Pajak adalah pengembalian Barang Kena Pajak baik sebagian maupun seluruhnya oleh pembeli Barang Kena Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            139
+          ],
+          [
+            280,
+            185
+          ],
+          [
+            862,
+            185
+          ],
+          [
+            862,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          187,
+          863,
+          235
+        ],
+        "content": "185. Pembatalan Jasa Kena Pajak adalah pembatalan Jasa Kena Pajak baik sebagian maupun seluruh hak atau fasilitas atau kemudahan oleh Penerima Jasa.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            187
+          ],
+          [
+            280,
+            235
+          ],
+          [
+            862,
+            235
+          ],
+          [
+            862,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          236,
+          864,
+          348
+        ],
+        "content": "186. Agen Asuransi adalah orang yang bekerja sendiri atau bekerja pada badan usaha, yang bertindak untuk dan atas nama Perusahaan Asuransi atau Perusahaan Asuransi syariah dan memenuhi persyaratan untuk mewakili Perusahaan Asuransi atau Perusahaan Asuransi syariah memasarkan produk asuransi atau produk asuransi syariah.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            236
+          ],
+          [
+            280,
+            348
+          ],
+          [
+            863,
+            348
+          ],
+          [
+            863,
+            241
+          ],
+          [
+            824,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          350,
+          863,
+          396
+        ],
+        "content": "187. Perusahaan Asuransi Syariah adalah Perusahaan Asuransi umum syariah dan Perusahaan Asuransi jiwa syariah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            350
+          ],
+          [
+            279,
+            396
+          ],
+          [
+            862,
+            396
+          ],
+          [
+            862,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          398,
+          863,
+          527
+        ],
+        "content": "188. Pelaku Usaha Perdagangan Melalui Sistem Elektronik adalah orang pribadi atau Badan yang melakukan kegiatan usaha di bidang Perdagangan Melalui Sistem Elektronik yang terdiri dari pedagang luar negeri, penyedia jasa luar negeri, penyelenggara Perdagangan Melalui Sistem Elektronik luar negeri, dan/atau penyelenggara Perdagangan Melalui Sistem Elektronik dalam negeri.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            398
+          ],
+          [
+            279,
+            526
+          ],
+          [
+            862,
+            526
+          ],
+          [
+            862,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          528,
+          862,
+          608
+        ],
+        "content": "189. Pedagang Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat barang di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            528
+          ],
+          [
+            278,
+            603
+          ],
+          [
+            293,
+            607
+          ],
+          [
+            862,
+            607
+          ],
+          [
+            862,
+            528
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          610,
+          862,
+          690
+        ],
+        "content": "190. Penyedia Jasa Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat Jasa di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            610
+          ],
+          [
+            278,
+            689
+          ],
+          [
+            862,
+            689
+          ],
+          [
+            862,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          691,
+          864,
+          804
+        ],
+        "content": "191. Pemanfaat Barang adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Barang Kena Pajak tidak berwujud dan yang membayar atau seharusnya membayar Penggantian atas Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            691
+          ],
+          [
+            278,
+            803
+          ],
+          [
+            863,
+            803
+          ],
+          [
+            863,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          805,
+          864,
+          901
+        ],
+        "content": "192. Pemanfaat Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak karena pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            805
+          ],
+          [
+            278,
+            901
+          ],
+          [
+            863,
+            901
+          ],
+          [
+            863,
+            805
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          283,
+          73,
+          866,
+          136
+        ],
+        "content": "193. Penyelenggara Perdagangan Melalui Sistem Elektronik adalah pelaku usaha penyedia sarana komunikasi elektronik yang digunakan untuk transaksi perdagangan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            73
+          ],
+          [
+            283,
+            136
+          ],
+          [
+            865,
+            136
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          139,
+          866,
+          202
+        ],
+        "content": "194. Penyelenggara Perdagangan Melalui Sistem Elektronik Dalam Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di dalam Daerah Pabean.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            139
+          ],
+          [
+            282,
+            201
+          ],
+          [
+            865,
+            201
+          ],
+          [
+            865,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          203,
+          865,
+          267
+        ],
+        "content": "195. Penyelenggara Perdagangan Melalui Sistem Elektronik Luar Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            203
+          ],
+          [
+            281,
+            266
+          ],
+          [
+            865,
+            266
+          ],
+          [
+            865,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          268,
+          865,
+          380
+        ],
+        "content": "196. Barang Digital adalah setiap barang tidak berwujud yang berbentuk Informasi Elektronik atau digital meliputi baik barang yang merupakan hasil konversi atau pengalihwujudan maupun barang yang secara originalnya berbentuk elektronik, termasuk tetapi tidak terbatas pada peranti lunak, multimedia, dan/atau data elektronik.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            268
+          ],
+          [
+            282,
+            380
+          ],
+          [
+            865,
+            380
+          ],
+          [
+            865,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          382,
+          865,
+          462
+        ],
+        "content": "197. Paten adalah hak eksklusif yang diberikan oleh negara kepada inventor atas hasil invensinya di bidang teknologi untuk jangka waktu tertentu melaksanakan sendiri invensi tersebut atau memberikan persetujuan kepada pihak lain untuk melaksanakannya.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            382
+          ],
+          [
+            282,
+            461
+          ],
+          [
+            865,
+            461
+          ],
+          [
+            865,
+            382
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          463,
+          865,
+          559
+        ],
+        "content": "198. Jasa Digital adalah jasa yang dikirim melalui internet atau jaringan elektronik, bersifat otomatis atau hanya melibatkan sedikit campur tangan manusia, dan tidak mungkin untuk memastikannya tanpa adanya teknologi informasi, termasuk tetapi tidak terbatas pada layanan jasa berbasis peranti lunak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            463
+          ],
+          [
+            286,
+            559
+          ],
+          [
+            865,
+            559
+          ],
+          [
+            865,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          561,
+          865,
+          657
+        ],
+        "content": "199. Aset Kripto adalah komoditi tidak berwujud yang berbentuk digital, menggunakan kriptografi, jaringan informasi teknologi, dan buku besar yang terdistribusi, untuk mengatur penciptaan unit baru, memverifikasi transaksi, dan mengamankan transaksi tanpa campur tangan pihak lain.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            561
+          ],
+          [
+            281,
+            656
+          ],
+          [
+            864,
+            656
+          ],
+          [
+            864,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          658,
+          865,
+          786
+        ],
+        "content": "200. Sarana Elektronik adalah sarana komunikasi melalui sistem elektronik yang digunakan dalam perdagangan Aset Kripto, diantaranya mencakup pernyataan, deklarasi, permintaan, pemberitahuan atau permohonan, konfirmasi, penawaran atau penerimaan terhadap penawaran, yang memuat kesepakatan para pihak untuk pembentukan atau pelaksanaan perjanjian.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            658
+          ],
+          [
+            280,
+            786
+          ],
+          [
+            864,
+            786
+          ],
+          [
+            864,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          788,
+          864,
+          835
+        ],
+        "content": "201. Penjual Aset Kripto adalah orang pribadi atau Badan yang melakukan penjualan dan/atau pertukaran Aset Kripto.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            788
+          ],
+          [
+            279,
+            834
+          ],
+          [
+            864,
+            834
+          ],
+          [
+            864,
+            788
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          837,
+          865,
+          917
+        ],
+        "content": "202. Penambang Aset Kripto adalah orang pribadi atau Badan yang melakukan kegiatan verifikasi transaksi Aset Kripto untuk mendapatkan imbalan berupa Aset Kripto, baik sendiri-sendiri maupun dalam kelompok penambang Aset Kripto (mining pool).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            837
+          ],
+          [
+            279,
+            917
+          ],
+          [
+            860,
+            917
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            864,
+            837
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "bertugas memproses permintaan pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n164. Konter Pemeriksaan Barang Bawaan yang selanjutnya disebut Konter Pemeriksaan adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas memeriksa Barang Bawaan.\n\n165. Formulir Permintaan Pengembalian Pajak Pertambahan Nilai adalah formulir yang digunakan oleh Turis Asing untuk meminta kembali Pajak Pertambahan Nilai atas pembelian Barang Bawaan.\n\n166. Bendahara Pengeluaran Pembantu adalah pegawai yang ditunjuk untuk membantu bendahara pengeluaran untuk melaksanakan pembayaran kepada yang berhak guna kelancaran pelaksanaan kegiatan tertentu.\n\n167. Pemegang Uang Persediaan Pengembalian Pajak adalah:\n\na. bendahara pengeluaran; atau\n\nb. Bendahara Pengeluaran Pembantu pada Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang melakukan pembayaran-pengembalian Pajak Pertambahan Nilai.\n\n168. Konter Pembayaran adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas mengembalikan Pajak Pertambahan Nilai yang bernilai kurang dari atau sama dengan Rp5.000.000,00 (lima juta rupiah) yang telah dibayar oleh Turis Asing.\n\n169. Uang Persediaan Pengembalian Pajak adalah Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n170. Pejabat Penanda Tangan Surat Perintah Membayar adalah pejabat yang diberi kewenangan oleh pengguna anggaran/kuasa pengguna anggaran untuk melakukan pengujian atas permintaan pembayaran dan menerbitkan perintah pembayaran.\n\n171. Surat Perintah Membayar Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan Uang Persediaan.\n\n172. Surat Perintah Membayar Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Uang Persediaan yang diterbitkan untuk membayar Uang Persediaan Pengembalian Pajak.\n\n173. Surat Perintah Membayar Penggantian Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar dengan membebani daftar isian pelaksanaan anggaran sesuai dengan ketentuan peraturan perundang-undangan, yang dananya dipergunakan untuk menggantikan Uang Persediaan yang telah dipakai.\n\n174. Surat Perintah Membayar Penggantian Uang Persediaan Pengembalian Pajak adalah Surat Perintah\n\nMembayar Penggantian Uang Persediaan yang diterbitkan untuk menggantikan Uang Persediaan Pengembalian Pajak yang telah digunakan.\n\n175. Bendahara Pengeluaran adalah pegawai yang ditunjuk untuk menerima, menyimpan, membayarkan, menatausahakan, dan mempertanggungjawabkan uang untuk keperluan belanja negara dalam pelaksanaan Anggaran Pendapatan dan Belanja Negara pada kantor/satuan kerja kementerian negara/lembaga pemerintah nonkementerian.\n\n176. Tambahan Uang Persediaan adalah uang muka kerja yang diberikan kepada Bendahara Pengeluaran untuk kebutuhan yang sangat mendesak dalam 1 (satu) bulan melebihi pagu Uang Persediaan yang telah ditetapkan.\n\n177. Tambahan Uang Persediaan Pengembalian Pajak adalah Tambahan Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n178. Surat Perintah Membayar Tambahan Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan tambahan Uang Persediaan.\n\n179. Surat Perintah Membayar Tambahan Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Tambahan Uang Persediaan yang diterbitkan untuk membayar Tambahan Uang Persediaan Pengembalian Pajak.\n\n180. Ekspor Jasa Kena Pajak adalah setiap kegiatan penyerahan Jasa Kena Pajak yang dihasilkan di dalam Daerah Pabean untuk dimanfaatkan oleh penerima ekspor Jasa Kena Pajak di luar Daerah Pabean.\n\n181. Penggantian adalah nilai berupa uang, termasuk semua biaya yang diminta atau seharusnya diminta oleh Pengusaha karena penyerahan Jasa Kena Pajak, Ekspor Jasa Kena Pajak, atau ekspor Barang Kena Pajak tidak berwujud, tetapi tidak termasuk Pajak Pertambahan Nilai yang dipungut menurut Undang-Undang Pajak Pertambahan Nilai dan potongan harga yang dicantumkan dalam Faktur Pajak atau nilai berupa uang yang dibayar atau seharusnya dibayar oleh penerima jasa karena pemanfaatan Jasa Kena Pajak dan/atau oleh penerima manfaat Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean.\n\n182. Penerima Ekspor Jasa Kena Pajak adalah orang pribadi atau Badan yang melakukan perikatan dan menerima manfaat langsung atas Ekspor Jasa Kena Pajak, berada di luar Daerah Pabean, dan merupakan Wajib Pajak luar negeri yang tidak mempunyai bentuk usaha tetap di Indonesia sebagaimana diatur dalam Undang-Undang Pajak Penghasilan beserta perubahannya.\n\n183. Penerima Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak tersebut.\n\n184. Pengembalian Barang Kena Pajak adalah pengembalian Barang Kena Pajak baik sebagian maupun seluruhnya oleh pembeli Barang Kena Pajak.\n\n185. Pembatalan Jasa Kena Pajak adalah pembatalan Jasa Kena Pajak baik sebagian maupun seluruh hak atau fasilitas atau kemudahan oleh Penerima Jasa.\n\n186. Agen Asuransi adalah orang yang bekerja sendiri atau bekerja pada badan usaha, yang bertindak untuk dan atas nama Perusahaan Asuransi atau Perusahaan Asuransi syariah dan memenuhi persyaratan untuk mewakili Perusahaan Asuransi atau Perusahaan Asuransi syariah memasarkan produk asuransi atau produk asuransi syariah.\n\n187. Perusahaan Asuransi Syariah adalah Perusahaan Asuransi umum syariah dan Perusahaan Asuransi jiwa syariah.\n\n188. Pelaku Usaha Perdagangan Melalui Sistem Elektronik adalah orang pribadi atau Badan yang melakukan kegiatan usaha di bidang Perdagangan Melalui Sistem Elektronik yang terdiri dari pedagang luar negeri, penyedia jasa luar negeri, penyelenggara Perdagangan Melalui Sistem Elektronik luar negeri, dan/atau penyelenggara Perdagangan Melalui Sistem Elektronik dalam negeri.\n\n189. Pedagang Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat barang di dalam Daerah Pabean melalui sistem elektronik.\n\n190. Penyedia Jasa Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat Jasa di dalam Daerah Pabean melalui sistem elektronik.\n\n191. Pemanfaat Barang adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Barang Kena Pajak tidak berwujud dan yang membayar atau seharusnya membayar Penggantian atas Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.\n\n192. Pemanfaat Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak karena pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.\n\n193. Penyelenggara Perdagangan Melalui Sistem Elektronik adalah pelaku usaha penyedia sarana komunikasi elektronik yang digunakan untuk transaksi perdagangan.\n\n194. Penyelenggara Perdagangan Melalui Sistem Elektronik Dalam Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di dalam Daerah Pabean.\n\n195. Penyelenggara Perdagangan Melalui Sistem Elektronik Luar Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean.\n\n196. Barang Digital adalah setiap barang tidak berwujud yang berbentuk Informasi Elektronik atau digital meliputi baik barang yang merupakan hasil konversi atau pengalihwujudan maupun barang yang secara originalnya berbentuk elektronik, termasuk tetapi tidak terbatas pada peranti lunak, multimedia, dan/atau data elektronik.\n\n197. Paten adalah hak eksklusif yang diberikan oleh negara kepada inventor atas hasil invensinya di bidang teknologi untuk jangka waktu tertentu melaksanakan sendiri invensi tersebut atau memberikan persetujuan kepada pihak lain untuk melaksanakannya.\n\n198. Jasa Digital adalah jasa yang dikirim melalui internet atau jaringan elektronik, bersifat otomatis atau hanya melibatkan sedikit campur tangan manusia, dan tidak mungkin untuk memastikannya tanpa adanya teknologi informasi, termasuk tetapi tidak terbatas pada layanan jasa berbasis peranti lunak.\n\n199. Aset Kripto adalah komoditi tidak berwujud yang berbentuk digital, menggunakan kriptografi, jaringan informasi teknologi, dan buku besar yang terdistribusi, untuk mengatur penciptaan unit baru, memverifikasi transaksi, dan mengamankan transaksi tanpa campur tangan pihak lain.\n\n200. Sarana Elektronik adalah sarana komunikasi melalui sistem elektronik yang digunakan dalam perdagangan Aset Kripto, diantaranya mencakup pernyataan, deklarasi, permintaan, pemberitahuan atau permohonan, konfirmasi, penawaran atau penerimaan terhadap penawaran, yang memuat kesepakatan para pihak untuk pembentukan atau pelaksanaan perjanjian.\n\n201. Penjual Aset Kripto adalah orang pribadi atau Badan yang melakukan penjualan dan/atau pertukaran Aset Kripto.\n\n202. Penambang Aset Kripto adalah orang pribadi atau Badan yang melakukan kegiatan verifikasi transaksi Aset Kripto untuk mendapatkan imbalan berupa Aset Kripto, baik sendiri-sendiri maupun dalam kelompok penambang Aset Kripto (mining pool).",
+  "md_results": "bertugas memproses permintaan pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n164. Konter Pemeriksaan Barang Bawaan yang selanjutnya disebut Konter Pemeriksaan adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas memeriksa Barang Bawaan.\n\n165. Formulir Permintaan Pengembalian Pajak Pertambahan Nilai adalah formulir yang digunakan oleh Turis Asing untuk meminta kembali Pajak Pertambahan Nilai atas pembelian Barang Bawaan.\n\n166. Bendahara Pengeluaran Pembantu adalah pegawai yang ditunjuk untuk membantu bendahara pengeluaran untuk melaksanakan pembayaran kepada yang berhak guna kelancaran pelaksanaan kegiatan tertentu.\n\n167. Pemegang Uang Persediaan Pengembalian Pajak adalah:\n\na. bendahara pengeluaran; atau\n\nb. Bendahara Pengeluaran Pembantu pada Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang melakukan pembayaran-pengembalian Pajak Pertambahan Nilai.\n\n168. Konter Pembayaran adalah bagian dari Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara yang bertugas mengembalikan Pajak Pertambahan Nilai yang bernilai kurang dari atau sama dengan Rp5.000.000,00 (lima juta rupiah) yang telah dibayar oleh Turis Asing.\n\n169. Uang Persediaan Pengembalian Pajak adalah Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n170. Pejabat Penanda Tangan Surat Perintah Membayar adalah pejabat yang diberi kewenangan oleh pengguna anggaran/kuasa pengguna anggaran untuk melakukan pengujian atas permintaan pembayaran dan menerbitkan perintah pembayaran.\n\n171. Surat Perintah Membayar Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan Uang Persediaan.\n\n172. Surat Perintah Membayar Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Uang Persediaan yang diterbitkan untuk membayar Uang Persediaan Pengembalian Pajak.\n\n173. Surat Perintah Membayar Penggantian Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar dengan membebani daftar isian pelaksanaan anggaran sesuai dengan ketentuan peraturan perundang-undangan, yang dananya dipergunakan untuk menggantikan Uang Persediaan yang telah dipakai.\n\n174. Surat Perintah Membayar Penggantian Uang Persediaan Pengembalian Pajak adalah Surat Perintah\n\nMembayar Penggantian Uang Persediaan yang diterbitkan untuk menggantikan Uang Persediaan Pengembalian Pajak yang telah digunakan.\n\n175. Bendahara Pengeluaran adalah pegawai yang ditunjuk untuk menerima, menyimpan, membayarkan, menatausahakan, dan mempertanggungjawabkan uang untuk keperluan belanja negara dalam pelaksanaan Anggaran Pendapatan dan Belanja Negara pada kantor/satuan kerja kementerian negara/lembaga pemerintah nonkementerian.\n\n176. Tambahan Uang Persediaan adalah uang muka kerja yang diberikan kepada Bendahara Pengeluaran untuk kebutuhan yang sangat mendesak dalam 1 (satu) bulan melebihi pagu Uang Persediaan yang telah ditetapkan.\n\n177. Tambahan Uang Persediaan Pengembalian Pajak adalah Tambahan Uang Persediaan untuk membayar pengembalian Pajak Pertambahan Nilai bagi Turis Asing.\n\n178. Surat Perintah Membayar Tambahan Uang Persediaan adalah dokumen yang diterbitkan oleh Pejabat Penanda Tangan Surat Perintah Membayar untuk mencairkan tambahan Uang Persediaan.\n\n179. Surat Perintah Membayar Tambahan Uang Persediaan Pengembalian Pajak adalah Surat Perintah Membayar Tambahan Uang Persediaan yang diterbitkan untuk membayar Tambahan Uang Persediaan Pengembalian Pajak.\n\n180. Ekspor Jasa Kena Pajak adalah setiap kegiatan penyerahan Jasa Kena Pajak yang dihasilkan di dalam Daerah Pabean untuk dimanfaatkan oleh penerima ekspor Jasa Kena Pajak di luar Daerah Pabean.\n\n181. Penggantian adalah nilai berupa uang, termasuk semua biaya yang diminta atau seharusnya diminta oleh Pengusaha karena penyerahan Jasa Kena Pajak, Ekspor Jasa Kena Pajak, atau ekspor Barang Kena Pajak tidak berwujud, tetapi tidak termasuk Pajak Pertambahan Nilai yang dipungut menurut Undang-Undang Pajak Pertambahan Nilai dan potongan harga yang dicantumkan dalam Faktur Pajak atau nilai berupa uang yang dibayar atau seharusnya dibayar oleh penerima jasa karena pemanfaatan Jasa Kena Pajak dan/atau oleh penerima manfaat Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean.\n\n182. Penerima Ekspor Jasa Kena Pajak adalah orang pribadi atau Badan yang melakukan perikatan dan menerima manfaat langsung atas Ekspor Jasa Kena Pajak, berada di luar Daerah Pabean, dan merupakan Wajib Pajak luar negeri yang tidak mempunyai bentuk usaha tetap di Indonesia sebagaimana diatur dalam Undang-Undang Pajak Penghasilan beserta perubahannya.\n\n183. Penerima Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak tersebut.\n\n184. Pengembalian Barang Kena Pajak adalah pengembalian Barang Kena Pajak baik sebagian maupun seluruhnya oleh pembeli Barang Kena Pajak.\n\n185. Pembatalan Jasa Kena Pajak adalah pembatalan Jasa Kena Pajak baik sebagian maupun seluruh hak atau fasilitas atau kemudahan oleh Penerima Jasa.\n\n186. Agen Asuransi adalah orang yang bekerja sendiri atau bekerja pada badan usaha, yang bertindak untuk dan atas nama Perusahaan Asuransi atau Perusahaan Asuransi syariah dan memenuhi persyaratan untuk mewakili Perusahaan Asuransi atau Perusahaan Asuransi syariah memasarkan produk asuransi atau produk asuransi syariah.\n\n187. Perusahaan Asuransi Syariah adalah Perusahaan Asuransi umum syariah dan Perusahaan Asuransi jiwa syariah.\n\n188. Pelaku Usaha Perdagangan Melalui Sistem Elektronik adalah orang pribadi atau Badan yang melakukan kegiatan usaha di bidang Perdagangan Melalui Sistem Elektronik yang terdiri dari pedagang luar negeri, penyedia jasa luar negeri, penyelenggara Perdagangan Melalui Sistem Elektronik luar negeri, dan/atau penyelenggara Perdagangan Melalui Sistem Elektronik dalam negeri.\n\n189. Pedagang Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat barang di dalam Daerah Pabean melalui sistem elektronik.\n\n190. Penyedia Jasa Luar Negeri adalah orang pribadi atau Badan yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean yang melakukan transaksi dengan pemanfaat Jasa di dalam Daerah Pabean melalui sistem elektronik.\n\n191. Pemanfaat Barang adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Barang Kena Pajak tidak berwujud dan yang membayar atau seharusnya membayar Penggantian atas Barang Kena Pajak tidak berwujud karena pemanfaatan Barang Kena Pajak tidak berwujud dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.\n\n192. Pemanfaat Jasa adalah orang pribadi atau Badan yang menerima atau seharusnya menerima penyerahan Jasa Kena Pajak dan yang membayar atau seharusnya membayar Penggantian atas Jasa Kena Pajak karena pemanfaatan Jasa Kena Pajak dari luar Daerah Pabean di dalam Daerah Pabean melalui sistem elektronik.\n\n193. Penyelenggara Perdagangan Melalui Sistem Elektronik adalah pelaku usaha penyedia sarana komunikasi elektronik yang digunakan untuk transaksi perdagangan.\n\n194. Penyelenggara Perdagangan Melalui Sistem Elektronik Dalam Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di dalam Daerah Pabean.\n\n195. Penyelenggara Perdagangan Melalui Sistem Elektronik Luar Negeri adalah Penyelenggara Perdagangan Melalui Sistem Elektronik yang bertempat tinggal atau bertempat kedudukan di luar Daerah Pabean.\n\n196. Barang Digital adalah setiap barang tidak berwujud yang berbentuk Informasi Elektronik atau digital meliputi baik barang yang merupakan hasil konversi atau pengalihwujudan maupun barang yang secara originalnya berbentuk elektronik, termasuk tetapi tidak terbatas pada peranti lunak, multimedia, dan/atau data elektronik.\n\n197. Paten adalah hak eksklusif yang diberikan oleh negara kepada inventor atas hasil invensinya di bidang teknologi untuk jangka waktu tertentu melaksanakan sendiri invensi tersebut atau memberikan persetujuan kepada pihak lain untuk melaksanakannya.\n\n198. Jasa Digital adalah jasa yang dikirim melalui internet atau jaringan elektronik, bersifat otomatis atau hanya melibatkan sedikit campur tangan manusia, dan tidak mungkin untuk memastikannya tanpa adanya teknologi informasi, termasuk tetapi tidak terbatas pada layanan jasa berbasis peranti lunak.\n\n199. Aset Kripto adalah komoditi tidak berwujud yang berbentuk digital, menggunakan kriptografi, jaringan informasi teknologi, dan buku besar yang terdistribusi, untuk mengatur penciptaan unit baru, memverifikasi transaksi, dan mengamankan transaksi tanpa campur tangan pihak lain.\n\n200. Sarana Elektronik adalah sarana komunikasi melalui sistem elektronik yang digunakan dalam perdagangan Aset Kripto, diantaranya mencakup pernyataan, deklarasi, permintaan, pemberitahuan atau permohonan, konfirmasi, penawaran atau penerimaan terhadap penawaran, yang memuat kesepakatan para pihak untuk pembentukan atau pelaksanaan perjanjian.\n\n201. Penjual Aset Kripto adalah orang pribadi atau Badan yang melakukan penjualan dan/atau pertukaran Aset Kripto.\n\n202. Penambang Aset Kripto adalah orang pribadi atau Badan yang melakukan kegiatan verifikasi transaksi Aset Kripto untuk mendapatkan imbalan berupa Aset Kripto, baik sendiri-sendiri maupun dalam kelompok penambang Aset Kripto (mining pool).",
+  "model": "glm-ocr",
+  "usage": {}
+}

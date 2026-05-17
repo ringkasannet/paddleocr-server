@@ -1,0 +1,1615 @@
+{
+  "created": 1779015331,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-1240d01f8a244be0a1e75c815d56a",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          329,
+          71,
+          870,
+          146
+        ],
+        "content": "Pemeriksaan baik sebagian atau seluruhnya wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            71
+          ],
+          [
+            329,
+            146
+          ],
+          [
+            870,
+            146
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          146,
+          871,
+          297
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengajukan keberatan dan tidak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Surat Keputusan Keberatan wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Keputusan Keberatan dengan memperhitungkan jumlah pajak berdasarkan Surat Keputusan Keberatan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            146
+          ],
+          [
+            290,
+            296
+          ],
+          [
+            870,
+            296
+          ],
+          [
+            870,
+            152
+          ],
+          [
+            605,
+            146
+          ],
+          [
+            320,
+            146
+          ],
+          [
+            315,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          297,
+          869,
+          433
+        ],
+        "content": "(4) Dalam hal Wajib Pajak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Putusan Banding wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Putusan Banding dengan memperhitungkan jumlah pajak berdasarkan Putusan Banding.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            297
+          ],
+          [
+            284,
+            427
+          ],
+          [
+            324,
+            432
+          ],
+          [
+            868,
+            432
+          ],
+          [
+            868,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          433,
+          868,
+          553
+        ],
+        "content": "(5) Dalam hal Wajib Pajak menyetujui seluruh jumlah pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan, pelunasan atas jumlah pajak yang masih harus dibayar wajib dilakukan paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak sebagaimana diatur dalam Pasal 9 ayat (3) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            433
+          ],
+          [
+            283,
+            548
+          ],
+          [
+            324,
+            552
+          ],
+          [
+            863,
+            552
+          ],
+          [
+            868,
+            548
+          ],
+          [
+            868,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          553,
+          868,
+          673
+        ],
+        "content": "(6) Jangka waktu pelunasan sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) juga berlaku atas sanksi administratif sebagaimana diatur dalam Pasal 14 ayat (4) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dalam Surat Tagihan Pajak yang terkait dengan jumlah pajak dalam Surat Ketetapan Pajak yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            553
+          ],
+          [
+            282,
+            668
+          ],
+          [
+            303,
+            673
+          ],
+          [
+            867,
+            673
+          ],
+          [
+            867,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          674,
+          867,
+          764
+        ],
+        "content": "(7) Tanggal diterbitkannya Putusan Banding dan Putusan Peninjauan Kembali sebagaimana dimaksud pada ayat (1) merupakan tanggal Putusan Banding dan Putusan Peninjauan Kembali diterima oleh kantor Direktorat Jenderal Pajak yang berwenang melaksanakan putusan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            689
+          ],
+          [
+            287,
+            763
+          ],
+          [
+            866,
+            763
+          ],
+          [
+            866,
+            674
+          ],
+          [
+            287,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          764,
+          867,
+          840
+        ],
+        "content": "(8) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            764
+          ],
+          [
+            282,
+            840
+          ],
+          [
+            867,
+            840
+          ],
+          [
+            867,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          854,
+          619,
+          868
+        ],
+        "content": "## Pasal 99",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            854
+          ],
+          [
+            530,
+            868
+          ],
+          [
+            618,
+            868
+          ],
+          [
+            618,
+            854
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          869,
+          867,
+          915
+        ],
+        "content": "(1) Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud dalam Pasal 98 ayat (1) dapat diperpanjang",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            869
+          ],
+          [
+            281,
+            915
+          ],
+          [
+            867,
+            915
+          ],
+          [
+            867,
+            869
+          ]
+        ]
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          285,
+          71,
+          871,
+          161
+        ],
+        "content": "(5) Surat Setoran Pajak dan sarana administrasi lain berupa Bukti Penerimaan Negara dan Surat Setoran Pabean, Cukai, dan Pajak sebagaimana dimaksud pada ayat (4) huruf a dan huruf b dinyatakan sah, dalam hal telah divalidasi dengan Nomor Transaksi Penerimaan Negara.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            71
+          ],
+          [
+            285,
+            161
+          ],
+          [
+            870,
+            161
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          162,
+          870,
+          282
+        ],
+        "content": "(6) Surat Setoran Pajak sebagaimana dimaksud pada ayat (5) diakui sebagai bukti pembayaran yang sah dalam hal telah divalidasi oleh pejabat yang ditunjuk pada kementerian yang menyelenggarakan urusan pemerintahan di bidang kegiatan usaha minyak dan gas bumi, Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi, atau Badan Pengelola Migas Aceh.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            162
+          ],
+          [
+            284,
+            281
+          ],
+          [
+            869,
+            281
+          ],
+          [
+            869,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          283,
+          868,
+          342
+        ],
+        "content": "(7) Bukti Pemindahbukuan sebagaimana dimaksud pada ayat (4) huruf c dinyatakan sah dalam hal telah ditandatangani oleh pejabat yang berwenang untuk menerbitkan Bukti Pemindahbukuan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            283
+          ],
+          [
+            284,
+            337
+          ],
+          [
+            330,
+            342
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          343,
+          868,
+          402
+        ],
+        "content": "(8) Surat Perintah Pencairan Dana sebagaimana dimaksud pada ayat (4) huruf d dinyatakan sah dalam hal telah divalidasi oleh sistem perbendaharaan dan anggaran negara.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            343
+          ],
+          [
+            284,
+            401
+          ],
+          [
+            867,
+            401
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          403,
+          868,
+          492
+        ],
+        "content": "(9) Bukti penerimaan pajak lainnya sebagaimana dimaksud pada ayat (4) huruf e dinyatakan sah dalam hal telah divalidasi oleh sistem atau pejabat yang berwenang mengesahkan bukti penerimaan dimaksud sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            403
+          ],
+          [
+            283,
+            487
+          ],
+          [
+            304,
+            492
+          ],
+          [
+            868,
+            492
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          493,
+          867,
+          523
+        ],
+        "content": "(10) Tanggal pembayaran dan penyetoran pajak diakui sesuai dengan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            493
+          ],
+          [
+            282,
+            523
+          ],
+          [
+            867,
+            523
+          ],
+          [
+            867,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          524,
+          867,
+          553
+        ],
+        "content": "a. tanggal bayar yang tertera pada Bukti Penerimaan Negara;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            524
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            866,
+            553
+          ],
+          [
+            866,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          554,
+          867,
+          613
+        ],
+        "content": "b. tanggal pembubuhan Meterai sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai tata cara pembayaran bea meterai;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            554
+          ],
+          [
+            327,
+            613
+          ],
+          [
+            867,
+            613
+          ],
+          [
+            867,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          615,
+          867,
+          643
+        ],
+        "content": "c. tanggal bayar yang tertera pada Bukti Pemindahbukuan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            615
+          ],
+          [
+            327,
+            643
+          ],
+          [
+            866,
+            643
+          ],
+          [
+            866,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          644,
+          866,
+          689
+        ],
+        "content": "d. tanggal terbit Surat Perintah Pencairan Dana, untuk pembayaran dalam rangka pelaksanaan Anggaran Pendapatan dan Belanja Negara;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            644
+          ],
+          [
+            327,
+            688
+          ],
+          [
+            865,
+            688
+          ],
+          [
+            865,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          690,
+          867,
+          749
+        ],
+        "content": "e. tanggal terbit Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak, untuk pelunasan Utang Pajak melalui perhitungan kelebihan pembayaran pajak; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            326,
+            749
+          ],
+          [
+            866,
+            749
+          ],
+          [
+            866,
+            690
+          ],
+          [
+            331,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          750,
+          867,
+          779
+        ],
+        "content": "f. tanggal bayar berdasarkan validasi pada sarana administrasi lain.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            750
+          ],
+          [
+            326,
+            778
+          ],
+          [
+            866,
+            778
+          ],
+          [
+            866,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          523,
+          795,
+          625,
+          809
+        ],
+        "content": "## Pasal 103",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            523,
+            795
+          ],
+          [
+            523,
+            808
+          ],
+          [
+            624,
+            808
+          ],
+          [
+            624,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          810,
+          864,
+          839
+        ],
+        "content": "(1) Wajib Pajak dapat melakukan pembayaran dan penyetoran pajak menggunakan Deposit Pajak.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            810
+          ],
+          [
+            287,
+            839
+          ],
+          [
+            863,
+            839
+          ],
+          [
+            863,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          840,
+          866,
+          885
+        ],
+        "content": "(2) Pembayaran dan penyetoran pajak menggunakan Deposit Pajak sebagaimana dimaksud pada ayat (1) dilakukan melalui Pemindahbukuan.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            840
+          ],
+          [
+            282,
+            885
+          ],
+          [
+            865,
+            885
+          ],
+          [
+            865,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          885,
+          750,
+          901
+        ],
+        "content": "(3) Pengisian Deposit Pajak dilakukan dengan:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            885
+          ],
+          [
+            287,
+            901
+          ],
+          [
+            750,
+            901
+          ],
+          [
+            750,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          329,
+          71,
+          870,
+          146
+        ],
+        "content": "Pemeriksaan baik sebagian atau seluruhnya wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            71
+          ],
+          [
+            329,
+            146
+          ],
+          [
+            870,
+            146
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          146,
+          871,
+          297
+        ],
+        "content": "(3) Dalam hal Wajib Pajak mengajukan keberatan dan tidak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Surat Keputusan Keberatan wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Keputusan Keberatan dengan memperhitungkan jumlah pajak berdasarkan Surat Keputusan Keberatan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            146
+          ],
+          [
+            290,
+            296
+          ],
+          [
+            870,
+            296
+          ],
+          [
+            870,
+            152
+          ],
+          [
+            605,
+            146
+          ],
+          [
+            320,
+            146
+          ],
+          [
+            315,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          297,
+          869,
+          433
+        ],
+        "content": "(4) Dalam hal Wajib Pajak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Putusan Banding wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Putusan Banding dengan memperhitungkan jumlah pajak berdasarkan Putusan Banding.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            297
+          ],
+          [
+            284,
+            427
+          ],
+          [
+            324,
+            432
+          ],
+          [
+            868,
+            432
+          ],
+          [
+            868,
+            297
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          433,
+          868,
+          553
+        ],
+        "content": "(5) Dalam hal Wajib Pajak menyetujui seluruh jumlah pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan, pelunasan atas jumlah pajak yang masih harus dibayar wajib dilakukan paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak sebagaimana diatur dalam Pasal 9 ayat (3) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            433
+          ],
+          [
+            283,
+            548
+          ],
+          [
+            324,
+            552
+          ],
+          [
+            863,
+            552
+          ],
+          [
+            868,
+            548
+          ],
+          [
+            868,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          553,
+          868,
+          673
+        ],
+        "content": "(6) Jangka waktu pelunasan sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) juga berlaku atas sanksi administratif sebagaimana diatur dalam Pasal 14 ayat (4) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dalam Surat Tagihan Pajak yang terkait dengan jumlah pajak dalam Surat Ketetapan Pajak yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            553
+          ],
+          [
+            282,
+            668
+          ],
+          [
+            303,
+            673
+          ],
+          [
+            867,
+            673
+          ],
+          [
+            867,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          674,
+          867,
+          764
+        ],
+        "content": "(7) Tanggal diterbitkannya Putusan Banding dan Putusan Peninjauan Kembali sebagaimana dimaksud pada ayat (1) merupakan tanggal Putusan Banding dan Putusan Peninjauan Kembali diterima oleh kantor Direktorat Jenderal Pajak yang berwenang melaksanakan putusan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            689
+          ],
+          [
+            287,
+            763
+          ],
+          [
+            866,
+            763
+          ],
+          [
+            866,
+            674
+          ],
+          [
+            287,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          764,
+          867,
+          840
+        ],
+        "content": "(8) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            764
+          ],
+          [
+            282,
+            840
+          ],
+          [
+            867,
+            840
+          ],
+          [
+            867,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          854,
+          619,
+          868
+        ],
+        "content": "## Pasal 99",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            854
+          ],
+          [
+            530,
+            868
+          ],
+          [
+            618,
+            868
+          ],
+          [
+            618,
+            854
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          869,
+          867,
+          915
+        ],
+        "content": "(1) Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud dalam Pasal 98 ayat (1) dapat diperpanjang",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            869
+          ],
+          [
+            281,
+            915
+          ],
+          [
+            867,
+            915
+          ],
+          [
+            867,
+            869
+          ]
+        ]
+      }
+    ],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          285,
+          71,
+          871,
+          161
+        ],
+        "content": "(5) Surat Setoran Pajak dan sarana administrasi lain berupa Bukti Penerimaan Negara dan Surat Setoran Pabean, Cukai, dan Pajak sebagaimana dimaksud pada ayat (4) huruf a dan huruf b dinyatakan sah, dalam hal telah divalidasi dengan Nomor Transaksi Penerimaan Negara.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            71
+          ],
+          [
+            285,
+            161
+          ],
+          [
+            870,
+            161
+          ],
+          [
+            870,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          162,
+          870,
+          282
+        ],
+        "content": "(6) Surat Setoran Pajak sebagaimana dimaksud pada ayat (5) diakui sebagai bukti pembayaran yang sah dalam hal telah divalidasi oleh pejabat yang ditunjuk pada kementerian yang menyelenggarakan urusan pemerintahan di bidang kegiatan usaha minyak dan gas bumi, Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi, atau Badan Pengelola Migas Aceh.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            162
+          ],
+          [
+            284,
+            281
+          ],
+          [
+            869,
+            281
+          ],
+          [
+            869,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          283,
+          868,
+          342
+        ],
+        "content": "(7) Bukti Pemindahbukuan sebagaimana dimaksud pada ayat (4) huruf c dinyatakan sah dalam hal telah ditandatangani oleh pejabat yang berwenang untuk menerbitkan Bukti Pemindahbukuan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            283
+          ],
+          [
+            284,
+            337
+          ],
+          [
+            330,
+            342
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            868,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          343,
+          868,
+          402
+        ],
+        "content": "(8) Surat Perintah Pencairan Dana sebagaimana dimaksud pada ayat (4) huruf d dinyatakan sah dalam hal telah divalidasi oleh sistem perbendaharaan dan anggaran negara.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            343
+          ],
+          [
+            284,
+            401
+          ],
+          [
+            867,
+            401
+          ],
+          [
+            867,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          403,
+          868,
+          492
+        ],
+        "content": "(9) Bukti penerimaan pajak lainnya sebagaimana dimaksud pada ayat (4) huruf e dinyatakan sah dalam hal telah divalidasi oleh sistem atau pejabat yang berwenang mengesahkan bukti penerimaan dimaksud sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            403
+          ],
+          [
+            283,
+            487
+          ],
+          [
+            304,
+            492
+          ],
+          [
+            868,
+            492
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          493,
+          867,
+          523
+        ],
+        "content": "(10) Tanggal pembayaran dan penyetoran pajak diakui sesuai dengan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            493
+          ],
+          [
+            282,
+            523
+          ],
+          [
+            867,
+            523
+          ],
+          [
+            867,
+            493
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          524,
+          867,
+          553
+        ],
+        "content": "a. tanggal bayar yang tertera pada Bukti Penerimaan Negara;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            524
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            866,
+            553
+          ],
+          [
+            866,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          554,
+          867,
+          613
+        ],
+        "content": "b. tanggal pembubuhan Meterai sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai tata cara pembayaran bea meterai;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            554
+          ],
+          [
+            327,
+            613
+          ],
+          [
+            867,
+            613
+          ],
+          [
+            867,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          615,
+          867,
+          643
+        ],
+        "content": "c. tanggal bayar yang tertera pada Bukti Pemindahbukuan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            615
+          ],
+          [
+            327,
+            643
+          ],
+          [
+            866,
+            643
+          ],
+          [
+            866,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          644,
+          866,
+          689
+        ],
+        "content": "d. tanggal terbit Surat Perintah Pencairan Dana, untuk pembayaran dalam rangka pelaksanaan Anggaran Pendapatan dan Belanja Negara;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            644
+          ],
+          [
+            327,
+            688
+          ],
+          [
+            865,
+            688
+          ],
+          [
+            865,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          690,
+          867,
+          749
+        ],
+        "content": "e. tanggal terbit Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak, untuk pelunasan Utang Pajak melalui perhitungan kelebihan pembayaran pajak; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            326,
+            749
+          ],
+          [
+            866,
+            749
+          ],
+          [
+            866,
+            690
+          ],
+          [
+            331,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          750,
+          867,
+          779
+        ],
+        "content": "f. tanggal bayar berdasarkan validasi pada sarana administrasi lain.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            750
+          ],
+          [
+            326,
+            778
+          ],
+          [
+            866,
+            778
+          ],
+          [
+            866,
+            750
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          523,
+          795,
+          625,
+          809
+        ],
+        "content": "## Pasal 103",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            523,
+            795
+          ],
+          [
+            523,
+            808
+          ],
+          [
+            624,
+            808
+          ],
+          [
+            624,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          810,
+          864,
+          839
+        ],
+        "content": "(1) Wajib Pajak dapat melakukan pembayaran dan penyetoran pajak menggunakan Deposit Pajak.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            810
+          ],
+          [
+            287,
+            839
+          ],
+          [
+            863,
+            839
+          ],
+          [
+            863,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          840,
+          866,
+          885
+        ],
+        "content": "(2) Pembayaran dan penyetoran pajak menggunakan Deposit Pajak sebagaimana dimaksud pada ayat (1) dilakukan melalui Pemindahbukuan.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            840
+          ],
+          [
+            282,
+            885
+          ],
+          [
+            865,
+            885
+          ],
+          [
+            865,
+            840
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          885,
+          750,
+          901
+        ],
+        "content": "(3) Pengisian Deposit Pajak dilakukan dengan:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            885
+          ],
+          [
+            287,
+            901
+          ],
+          [
+            750,
+            901
+          ],
+          [
+            750,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "Pemeriksaan baik sebagian atau seluruhnya wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan.\n\n(3) Dalam hal Wajib Pajak mengajukan keberatan dan tidak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Surat Keputusan Keberatan wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Keputusan Keberatan dengan memperhitungkan jumlah pajak berdasarkan Surat Keputusan Keberatan.\n\n(4) Dalam hal Wajib Pajak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Putusan Banding wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Putusan Banding dengan memperhitungkan jumlah pajak berdasarkan Putusan Banding.\n\n(5) Dalam hal Wajib Pajak menyetujui seluruh jumlah pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan, pelunasan atas jumlah pajak yang masih harus dibayar wajib dilakukan paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak sebagaimana diatur dalam Pasal 9 ayat (3) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n(6) Jangka waktu pelunasan sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) juga berlaku atas sanksi administratif sebagaimana diatur dalam Pasal 14 ayat (4) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dalam Surat Tagihan Pajak yang terkait dengan jumlah pajak dalam Surat Ketetapan Pajak yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan.\n\n(7) Tanggal diterbitkannya Putusan Banding dan Putusan Peninjauan Kembali sebagaimana dimaksud pada ayat (1) merupakan tanggal Putusan Banding dan Putusan Peninjauan Kembali diterima oleh kantor Direktorat Jenderal Pajak yang berwenang melaksanakan putusan.\n\n(8) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 99\n\n(1) Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud dalam Pasal 98 ayat (1) dapat diperpanjang\n\n\n\n\n\n(5) Surat Setoran Pajak dan sarana administrasi lain berupa Bukti Penerimaan Negara dan Surat Setoran Pabean, Cukai, dan Pajak sebagaimana dimaksud pada ayat (4) huruf a dan huruf b dinyatakan sah, dalam hal telah divalidasi dengan Nomor Transaksi Penerimaan Negara.\n\n(6) Surat Setoran Pajak sebagaimana dimaksud pada ayat (5) diakui sebagai bukti pembayaran yang sah dalam hal telah divalidasi oleh pejabat yang ditunjuk pada kementerian yang menyelenggarakan urusan pemerintahan di bidang kegiatan usaha minyak dan gas bumi, Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi, atau Badan Pengelola Migas Aceh.\n\n(7) Bukti Pemindahbukuan sebagaimana dimaksud pada ayat (4) huruf c dinyatakan sah dalam hal telah ditandatangani oleh pejabat yang berwenang untuk menerbitkan Bukti Pemindahbukuan.\n\n(8) Surat Perintah Pencairan Dana sebagaimana dimaksud pada ayat (4) huruf d dinyatakan sah dalam hal telah divalidasi oleh sistem perbendaharaan dan anggaran negara.\n\n(9) Bukti penerimaan pajak lainnya sebagaimana dimaksud pada ayat (4) huruf e dinyatakan sah dalam hal telah divalidasi oleh sistem atau pejabat yang berwenang mengesahkan bukti penerimaan dimaksud sesuai dengan ketentuan peraturan perundang-undangan.\n\n(10) Tanggal pembayaran dan penyetoran pajak diakui sesuai dengan:\n\na. tanggal bayar yang tertera pada Bukti Penerimaan Negara;\n\nb. tanggal pembubuhan Meterai sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai tata cara pembayaran bea meterai;\n\nc. tanggal bayar yang tertera pada Bukti Pemindahbukuan;\n\nd. tanggal terbit Surat Perintah Pencairan Dana, untuk pembayaran dalam rangka pelaksanaan Anggaran Pendapatan dan Belanja Negara;\n\ne. tanggal terbit Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak, untuk pelunasan Utang Pajak melalui perhitungan kelebihan pembayaran pajak; atau\n\nf. tanggal bayar berdasarkan validasi pada sarana administrasi lain.\n\n## Pasal 103\n\n(1) Wajib Pajak dapat melakukan pembayaran dan penyetoran pajak menggunakan Deposit Pajak.\n\n(2) Pembayaran dan penyetoran pajak menggunakan Deposit Pajak sebagaimana dimaksud pada ayat (1) dilakukan melalui Pemindahbukuan.\n\n(3) Pengisian Deposit Pajak dilakukan dengan:",
+  "md_results": "Pemeriksaan baik sebagian atau seluruhnya wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak Kurang Bayar atau Surat Ketetapan Pajak Kurang Bayar Tambahan.\n\n(3) Dalam hal Wajib Pajak mengajukan keberatan dan tidak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Surat Keputusan Keberatan wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Keputusan Keberatan dengan memperhitungkan jumlah pajak berdasarkan Surat Keputusan Keberatan.\n\n(4) Dalam hal Wajib Pajak mengajukan permohonan banding, atas jumlah pajak dalam Surat Ketetapan Pajak sebagaimana dimaksud pada ayat (1) yang tidak disetujui Wajib Pajak dalam Pembahasan Akhir Hasil Pemeriksaan dan belum dibayar sampai dengan diterbitkan Putusan Banding wajib dilunasi paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Putusan Banding dengan memperhitungkan jumlah pajak berdasarkan Putusan Banding.\n\n(5) Dalam hal Wajib Pajak menyetujui seluruh jumlah pajak yang masih harus dibayar dalam Pembahasan Akhir Hasil Pemeriksaan, pelunasan atas jumlah pajak yang masih harus dibayar wajib dilakukan paling lama 1 (satu) bulan terhitung sejak tanggal penerbitan Surat Ketetapan Pajak sebagaimana diatur dalam Pasal 9 ayat (3) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n(6) Jangka waktu pelunasan sebagaimana dimaksud pada ayat (2), ayat (3), dan ayat (4) juga berlaku atas sanksi administratif sebagaimana diatur dalam Pasal 14 ayat (4) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dalam Surat Tagihan Pajak yang terkait dengan jumlah pajak dalam Surat Ketetapan Pajak yang tidak disetujui dalam Pembahasan Akhir Hasil Pemeriksaan.\n\n(7) Tanggal diterbitkannya Putusan Banding dan Putusan Peninjauan Kembali sebagaimana dimaksud pada ayat (1) merupakan tanggal Putusan Banding dan Putusan Peninjauan Kembali diterima oleh kantor Direktorat Jenderal Pajak yang berwenang melaksanakan putusan.\n\n(8) Wajib Pajak yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) sampai dengan ayat (6) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 99\n\n(1) Bagi Wajib Pajak usaha kecil dan Wajib Pajak di daerah tertentu, jangka waktu pelunasan sebagaimana dimaksud dalam Pasal 98 ayat (1) dapat diperpanjang\n\n\n\n\n\n(5) Surat Setoran Pajak dan sarana administrasi lain berupa Bukti Penerimaan Negara dan Surat Setoran Pabean, Cukai, dan Pajak sebagaimana dimaksud pada ayat (4) huruf a dan huruf b dinyatakan sah, dalam hal telah divalidasi dengan Nomor Transaksi Penerimaan Negara.\n\n(6) Surat Setoran Pajak sebagaimana dimaksud pada ayat (5) diakui sebagai bukti pembayaran yang sah dalam hal telah divalidasi oleh pejabat yang ditunjuk pada kementerian yang menyelenggarakan urusan pemerintahan di bidang kegiatan usaha minyak dan gas bumi, Satuan Kerja Khusus Pelaksana Kegiatan Usaha Hulu Minyak dan Gas Bumi, atau Badan Pengelola Migas Aceh.\n\n(7) Bukti Pemindahbukuan sebagaimana dimaksud pada ayat (4) huruf c dinyatakan sah dalam hal telah ditandatangani oleh pejabat yang berwenang untuk menerbitkan Bukti Pemindahbukuan.\n\n(8) Surat Perintah Pencairan Dana sebagaimana dimaksud pada ayat (4) huruf d dinyatakan sah dalam hal telah divalidasi oleh sistem perbendaharaan dan anggaran negara.\n\n(9) Bukti penerimaan pajak lainnya sebagaimana dimaksud pada ayat (4) huruf e dinyatakan sah dalam hal telah divalidasi oleh sistem atau pejabat yang berwenang mengesahkan bukti penerimaan dimaksud sesuai dengan ketentuan peraturan perundang-undangan.\n\n(10) Tanggal pembayaran dan penyetoran pajak diakui sesuai dengan:\n\na. tanggal bayar yang tertera pada Bukti Penerimaan Negara;\n\nb. tanggal pembubuhan Meterai sesuai dengan ketentuan peraturan perundang-undangan yang mengatur mengenai tata cara pembayaran bea meterai;\n\nc. tanggal bayar yang tertera pada Bukti Pemindahbukuan;\n\nd. tanggal terbit Surat Perintah Pencairan Dana, untuk pembayaran dalam rangka pelaksanaan Anggaran Pendapatan dan Belanja Negara;\n\ne. tanggal terbit Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak, untuk pelunasan Utang Pajak melalui perhitungan kelebihan pembayaran pajak; atau\n\nf. tanggal bayar berdasarkan validasi pada sarana administrasi lain.\n\n## Pasal 103\n\n(1) Wajib Pajak dapat melakukan pembayaran dan penyetoran pajak menggunakan Deposit Pajak.\n\n(2) Pembayaran dan penyetoran pajak menggunakan Deposit Pajak sebagaimana dimaksud pada ayat (1) dilakukan melalui Pemindahbukuan.\n\n(3) Pengisian Deposit Pajak dilakukan dengan:",
+  "model": "glm-ocr",
+  "usage": {}
+}

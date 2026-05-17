@@ -1,0 +1,3623 @@
+{
+  "created": 1779015308,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-a1b1fcb635464483b5914462a6bd4",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          333,
+          71,
+          871,
+          101
+        ],
+        "content": "a. menerbitkan surat keterangan permohonan pengukuhan Pengusaha Kena Pajak; dan",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            71
+          ],
+          [
+            333,
+            101
+          ],
+          [
+            871,
+            101
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          101,
+          871,
+          131
+        ],
+        "content": "b. melakukan penelitian atas permohonan Pengusaha.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            101
+          ],
+          [
+            333,
+            130
+          ],
+          [
+            871,
+            130
+          ],
+          [
+            871,
+            101
+          ],
+          [
+            861,
+            101
+          ],
+          [
+            856,
+            101
+          ],
+          [
+            786,
+            101
+          ],
+          [
+            725,
+            101
+          ],
+          [
+            665,
+            101
+          ],
+          [
+            655,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          131,
+          874,
+          205
+        ],
+        "content": "(2) Surat keterangan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) huruf a diterbitkan paling lama 1 (satu) hari kerja setelah permohonan pengukuhan Pengusaha Kena Pajak diterima lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            131
+          ],
+          [
+            288,
+            205
+          ],
+          [
+            873,
+            205
+          ],
+          [
+            873,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          206,
+          872,
+          236
+        ],
+        "content": "(3) Penelitian sebagaimana dimaksud pada ayat (1) huruf b meliputi:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            206
+          ],
+          [
+            288,
+            235
+          ],
+          [
+            872,
+            235
+          ],
+          [
+            872,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          236,
+          871,
+          281
+        ],
+        "content": "a. penelitian atas kelengkapan data dan/atau dokumen yang terkait dengan identitas, pendirian, dan/atau kegiatan usaha;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            241
+          ],
+          [
+            337,
+            281
+          ],
+          [
+            871,
+            281
+          ],
+          [
+            871,
+            241
+          ],
+          [
+            856,
+            236
+          ],
+          [
+            392,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          281,
+          872,
+          356
+        ],
+        "content": "b. penelitian atas kesesuaian kegiatan usaha di tempat tinggal, tempat kedudukan, dan/atau tempat kegiatan usaha Pengusaha dengan kelengkapan data dan/atau dokumen sebagaimana dimaksud dalam huruf a; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            296
+          ],
+          [
+            331,
+            356
+          ],
+          [
+            871,
+            356
+          ],
+          [
+            871,
+            281
+          ],
+          [
+            337,
+            281
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          357,
+          872,
+          446
+        ],
+        "content": "c. penelitian atas ketentuan penggunaan Kantor Virtual sebagai tempat pelaporan usaha dan pernyataan Pengusaha mengenai kegiatan usaha serta tempat kegiatan usaha yang sebenarnya, dalam hal Pengusaha menggunakan jasa Kantor Virtual.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            362
+          ],
+          [
+            330,
+            446
+          ],
+          [
+            871,
+            446
+          ],
+          [
+            871,
+            357
+          ],
+          [
+            861,
+            357
+          ],
+          [
+            767,
+            357
+          ],
+          [
+            761,
+            357
+          ],
+          [
+            405,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          447,
+          871,
+          537
+        ],
+        "content": "(4) Penelitian terhadap data dan/atau dokumen atas identitas, pendirian, dan/atau kegiatan usaha sebagaimana dimaksud pada ayat (3) huruf a dilakukan dengan meneliti data dan/atau dokumen yang tersedia dalam sistem administrasi Direktorat Jenderal Pajak, meliputi:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            447
+          ],
+          [
+            285,
+            536
+          ],
+          [
+            871,
+            536
+          ],
+          [
+            871,
+            447
+          ],
+          [
+            836,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          538,
+          872,
+          598
+        ],
+        "content": "a. untuk Pengusaha orang pribadi dapat berupa data dan/atau dokumen identitas diri Pengusaha untuk Warga Negara Indonesia maupun Warga Negara Asing; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            538
+          ],
+          [
+            330,
+            592
+          ],
+          [
+            350,
+            597
+          ],
+          [
+            871,
+            597
+          ],
+          [
+            871,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          598,
+          765,
+          613
+        ],
+        "content": "b. untuk Pengusaha Badan dapat berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            598
+          ],
+          [
+            331,
+            612
+          ],
+          [
+            765,
+            612
+          ],
+          [
+            765,
+            598
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          379,
+          613,
+          871,
+          658
+        ],
+        "content": "1. data dan/atau dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            379,
+            613
+          ],
+          [
+            379,
+            657
+          ],
+          [
+            870,
+            657
+          ],
+          [
+            870,
+            613
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          658,
+          871,
+          703
+        ],
+        "content": "2. data dan/atau dokumen yang menunjukkan identitas diri seluruh pengurus atau penanggung jawab Pengusaha.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            668
+          ],
+          [
+            376,
+            683
+          ],
+          [
+            376,
+            698
+          ],
+          [
+            386,
+            703
+          ],
+          [
+            870,
+            703
+          ],
+          [
+            870,
+            658
+          ],
+          [
+            381,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          703,
+          871,
+          762
+        ],
+        "content": "(5) Berdasarkan hasil penelitian sebagaimana dimaksud pada ayat (1) huruf b, Kepala Kantor Pelayanan Pajak tempat Pengusaha diadministrasikan memberikan keputusan berupa:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            703
+          ],
+          [
+            291,
+            762
+          ],
+          [
+            871,
+            762
+          ],
+          [
+            871,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          764,
+          871,
+          823
+        ],
+        "content": "a. menerima permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak dalam hal permohonan memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            764
+          ],
+          [
+            330,
+            823
+          ],
+          [
+            870,
+            823
+          ],
+          [
+            870,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          824,
+          872,
+          884
+        ],
+        "content": "b. menolak permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak, dalam hal permohonan tidak memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            824
+          ],
+          [
+            330,
+            884
+          ],
+          [
+            871,
+            884
+          ],
+          [
+            871,
+            824
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          71,
+          871,
+          118
+        ],
+        "content": "(6) Keputusan sebagaimana dimaksud pada ayat (5) diberikan paling lama 10 (sepuluh) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            71
+          ],
+          [
+            292,
+            118
+          ],
+          [
+            871,
+            118
+          ],
+          [
+            871,
+            71
+          ],
+          [
+            827,
+            71
+          ],
+          [
+            816,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          131,
+          624,
+          146
+        ],
+        "content": "## Pasal 64",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            131
+          ],
+          [
+            536,
+            145
+          ],
+          [
+            623,
+            145
+          ],
+          [
+            623,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          146,
+          871,
+          221
+        ],
+        "content": "(1) Dalam hal permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak diterima sebagaimana dimaksud dalam Pasal 63 ayat (5) huruf a, Kepala Kantor Pelayanan Pajak memberikan akses pembuatan Faktur Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            146
+          ],
+          [
+            286,
+            221
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            871,
+            146
+          ],
+          [
+            831,
+            146
+          ],
+          [
+            801,
+            146
+          ],
+          [
+            791,
+            146
+          ],
+          [
+            781,
+            146
+          ],
+          [
+            727,
+            146
+          ],
+          [
+            666,
+            146
+          ],
+          [
+            651,
+            146
+          ],
+          [
+            581,
+            146
+          ],
+          [
+            557,
+            146
+          ],
+          [
+            531,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          221,
+          871,
+          300
+        ],
+        "content": "(2) Akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Pengusaha sejak tanggal dimulainya kewajiban sebagai Pengusaha Kena Pajak sebagaimana tercantum dalam keputusan pengukuhan sebagai Pengusaha Kena Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            221
+          ],
+          [
+            285,
+            299
+          ],
+          [
+            871,
+            299
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            856,
+            221
+          ],
+          [
+            837,
+            221
+          ],
+          [
+            806,
+            221
+          ],
+          [
+            776,
+            221
+          ],
+          [
+            731,
+            221
+          ],
+          [
+            721,
+            221
+          ],
+          [
+            711,
+            221
+          ],
+          [
+            681,
+            221
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          312,
+          622,
+          326
+        ],
+        "content": "## Pasal 65",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            312
+          ],
+          [
+            536,
+            326
+          ],
+          [
+            621,
+            326
+          ],
+          [
+            621,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          327,
+          870,
+          372
+        ],
+        "content": "(1) Direktur Jenderal Pajak berwenang untuk menonaktifkan akses pembuatan Faktur Pajakterhadap:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            327
+          ],
+          [
+            285,
+            371
+          ],
+          [
+            870,
+            371
+          ],
+          [
+            870,
+            327
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          373,
+          870,
+          418
+        ],
+        "content": "a. Pengusaha Kena Pajak yang terindikasi menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak; dan/atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            373
+          ],
+          [
+            330,
+            417
+          ],
+          [
+            869,
+            417
+          ],
+          [
+            869,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          418,
+          870,
+          507
+        ],
+        "content": "b. Pengusaha Kena Pajak selain sebagaimana dimaksud dalam huruf a yang tidak melaksanakan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan sesuai dengan kriteria yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            418
+          ],
+          [
+            329,
+            502
+          ],
+          [
+            340,
+            507
+          ],
+          [
+            870,
+            507
+          ],
+          [
+            870,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          508,
+          870,
+          568
+        ],
+        "content": "(2) Terhadap penonaktifan akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat menyampaikan klarifikasi kepada Direktur Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            508
+          ],
+          [
+            284,
+            563
+          ],
+          [
+            304,
+            567
+          ],
+          [
+            870,
+            567
+          ],
+          [
+            870,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          568,
+          870,
+          673
+        ],
+        "content": "(3) Dalam hal berdasarkan klarifikasi sebagaimana dimaksud pada ayat (2) atau data dan/atau informasi yang dimiliki Direktorat Jenderal Pajak diketahui bahwa Pengusaha Kena Pajak tidak memenuhi kriteria penonaktifan akses pembuatan Faktur Pajak, Direktur Jenderal Pajak mengaktifkan kembali akses pembuatan Faktur Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            568
+          ],
+          [
+            284,
+            668
+          ],
+          [
+            304,
+            673
+          ],
+          [
+            869,
+            673
+          ],
+          [
+            869,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          674,
+          869,
+          794
+        ],
+        "content": "(4) Dalam hal Pengusaha Kena Pajak tidak menyampaikan klarifikasi sesuai dengan ketentuan sebagaimana dimaksud pada ayat (2) dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan akses pembuatan Faktur Pajak atau klarifikasi Pengusaha Kena Pajak ditolak, Kepala Kantor Pelayanan Pajak melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            674
+          ],
+          [
+            289,
+            793
+          ],
+          [
+            868,
+            793
+          ],
+          [
+            868,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          794,
+          869,
+          885
+        ],
+        "content": "(5) Pengusaha yang telah dilakukan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4) dapat dikukuhkan kembali sebagai Pengusaha Kena Pajak sepanjang telah memenuhi ketentuan sebagaimana dimaksud pada ayat (3).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            794
+          ],
+          [
+            282,
+            885
+          ],
+          [
+            868,
+            885
+          ],
+          [
+            868,
+            794
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          528,
+          73,
+          618,
+          88
+        ],
+        "content": "## Pasal 66",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            73
+          ],
+          [
+            528,
+            87
+          ],
+          [
+            617,
+            87
+          ],
+          [
+            617,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          87,
+          864,
+          149
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak dapat mengukuhkan Pengusaha Kena Pajak secara jabatan dalam hal Pengusaha tidak melaksanakan kewajiban pelaporan usaha sebagaimana dimaksud dalam Pasal 60 ayat (1).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            87
+          ],
+          [
+            279,
+            148
+          ],
+          [
+            863,
+            148
+          ],
+          [
+            863,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          149,
+          864,
+          253
+        ],
+        "content": "(2) Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi, sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            149
+          ],
+          [
+            280,
+            248
+          ],
+          [
+            290,
+            253
+          ],
+          [
+            863,
+            253
+          ],
+          [
+            863,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          254,
+          865,
+          332
+        ],
+        "content": "(3) Kepala Kantor Pelayanan Pajak memberikan keputusan pengukuhan Pengusaha Kena Pajak secara jabatan dan akses pembuatan Faktur Pajak kepada Pengusaha yang dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            254
+          ],
+          [
+            279,
+            331
+          ],
+          [
+            864,
+            331
+          ],
+          [
+            864,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          344,
+          615,
+          359
+        ],
+        "content": "## Pasal 67",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            344
+          ],
+          [
+            527,
+            359
+          ],
+          [
+            615,
+            359
+          ],
+          [
+            615,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          359,
+          864,
+          422
+        ],
+        "content": "Pencabutan Pengukuhan Pengusaha Kena Pajak dapat dilakukan oleh Kepala Kantor Pelayanan Pajak berdasarkan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak atau secara jabatan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            359
+          ],
+          [
+            278,
+            421
+          ],
+          [
+            864,
+            421
+          ],
+          [
+            864,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          435,
+          616,
+          449
+        ],
+        "content": "## Pasal 68",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            435
+          ],
+          [
+            528,
+            449
+          ],
+          [
+            615,
+            449
+          ],
+          [
+            615,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          449,
+          864,
+          525
+        ],
+        "content": "(1) Pengusaha Kena Pajak menyampaikan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 67 pada Kantor Pelayanan Pajak tempat Pengusaha Kena Pajak dikukuhkan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            449
+          ],
+          [
+            278,
+            524
+          ],
+          [
+            863,
+            524
+          ],
+          [
+            863,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          525,
+          864,
+          645
+        ],
+        "content": "(2) Permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Pengusaha Kena Pajak tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60 ayat (1).",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            525
+          ],
+          [
+            278,
+            645
+          ],
+          [
+            863,
+            645
+          ],
+          [
+            863,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          645,
+          864,
+          706
+        ],
+        "content": "(3) Pencabutan Pengukuhan Pengusaha Kena Pajak berdasarkan permohonan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            645
+          ],
+          [
+            279,
+            705
+          ],
+          [
+            863,
+            705
+          ],
+          [
+            863,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          706,
+          864,
+          781
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Pengusaha Kena Pajak diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            706
+          ],
+          [
+            278,
+            780
+          ],
+          [
+            863,
+            780
+          ],
+          [
+            863,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          781,
+          864,
+          903
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) telah terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Pengusaha Kena Pajak dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan surat keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            781
+          ],
+          [
+            278,
+            903
+          ],
+          [
+            864,
+            903
+          ],
+          [
+            864,
+            781
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          530,
+          72,
+          618,
+          86
+        ],
+        "content": "## Pasal 69",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            72
+          ],
+          [
+            530,
+            86
+          ],
+          [
+            618,
+            86
+          ],
+          [
+            618,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          87,
+          866,
+          162
+        ],
+        "content": "(1) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 67, dilakukan terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            87
+          ],
+          [
+            281,
+            161
+          ],
+          [
+            865,
+            161
+          ],
+          [
+            865,
+            92
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          163,
+          866,
+          222
+        ],
+        "content": "(2) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            168
+          ],
+          [
+            281,
+            217
+          ],
+          [
+            297,
+            222
+          ],
+          [
+            865,
+            222
+          ],
+          [
+            865,
+            163
+          ],
+          [
+            287,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          223,
+          866,
+          283
+        ],
+        "content": "(3) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan melalui penelitian administrasi sebagaimana dimaksud pada ayat (2) dilakukan terhadap Pengusaha Kena Pajak yang memenuhi kriteria sebagai berikut:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            223
+          ],
+          [
+            286,
+            282
+          ],
+          [
+            865,
+            282
+          ],
+          [
+            865,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          283,
+          865,
+          313
+        ],
+        "content": "a. Pengusaha Kena Pajak dengan status Wajib Pajak Nonaktif;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            283
+          ],
+          [
+            325,
+            312
+          ],
+          [
+            864,
+            312
+          ],
+          [
+            864,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          313,
+          865,
+          373
+        ],
+        "content": "b. Pengusaha Kena Pajak telah dinonaktifkan akses pembuatan Faktur Pajak dan tidak melakukan klarifikasi dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan atau klarifikasinya ditolak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            313
+          ],
+          [
+            325,
+            373
+          ],
+          [
+            864,
+            373
+          ],
+          [
+            864,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          374,
+          865,
+          433
+        ],
+        "content": "c. Pengusaha Kena Pajak menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak yang telah mendapatkan putusan pengadilan yang berkekuatan hukum tetap;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            374
+          ],
+          [
+            324,
+            433
+          ],
+          [
+            865,
+            433
+          ],
+          [
+            865,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          434,
+          863,
+          464
+        ],
+        "content": "d. Pengusaha Kena Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            434
+          ],
+          [
+            324,
+            464
+          ],
+          [
+            862,
+            464
+          ],
+          [
+            862,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          464,
+          863,
+          508
+        ],
+        "content": "e. Pengusaha Kena Pajak bentuk usaha tetap telah menghentikan kegiatan usaha di Indonesia; dan/atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            464
+          ],
+          [
+            323,
+            508
+          ],
+          [
+            862,
+            508
+          ],
+          [
+            862,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          509,
+          863,
+          539
+        ],
+        "content": "f. Pengusaha Kena Pajak dengan keadaan tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            509
+          ],
+          [
+            323,
+            538
+          ],
+          [
+            862,
+            538
+          ],
+          [
+            862,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          864,
+          599
+        ],
+        "content": "(4) Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (2) dilakukan melalui penerbitan keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            598
+          ],
+          [
+            864,
+            598
+          ],
+          [
+            864,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          599,
+          864,
+          676
+        ],
+        "content": "(5) Berdasarkan pertimbangan kemudahan administratif, Direktur Jenderal Pajak secara jabatan dapat melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi persyaratan sebagai Pengusaha Kena Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            599
+          ],
+          [
+            278,
+            676
+          ],
+          [
+            864,
+            676
+          ],
+          [
+            864,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          690,
+          615,
+          704
+        ],
+        "content": "## Pasal 70",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            690
+          ],
+          [
+            527,
+            703
+          ],
+          [
+            615,
+            703
+          ],
+          [
+            615,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          704,
+          864,
+          855
+        ],
+        "content": "(1) Kewajiban perpajakan bagi Wajib Pajak yang diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak berdasarkan permohonan Wajib Pajak atau secara jabatan dimulai sejak saat Wajib Pajak memenuhi persyaratan subjektif dan objektif sesuai dengan ketentuan peraturan perundang-undangan perpajakan, paling lama 5 (lima) tahun sebelum diterbitkannya Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            704
+          ],
+          [
+            285,
+            854
+          ],
+          [
+            864,
+            854
+          ],
+          [
+            864,
+            704
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          864,
+          916
+        ],
+        "content": "(2) Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak dan/atau Surat Tagihan Pajak untuk Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak sebelum Wajib Pajak diberikan atau diterbitkan Nomor",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            864,
+            916
+          ],
+          [
+            864,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          333,
+          71,
+          871,
+          101
+        ],
+        "content": "a. menerbitkan surat keterangan permohonan pengukuhan Pengusaha Kena Pajak; dan",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            71
+          ],
+          [
+            333,
+            101
+          ],
+          [
+            871,
+            101
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          333,
+          101,
+          871,
+          131
+        ],
+        "content": "b. melakukan penelitian atas permohonan Pengusaha.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            333,
+            101
+          ],
+          [
+            333,
+            130
+          ],
+          [
+            871,
+            130
+          ],
+          [
+            871,
+            101
+          ],
+          [
+            861,
+            101
+          ],
+          [
+            856,
+            101
+          ],
+          [
+            786,
+            101
+          ],
+          [
+            725,
+            101
+          ],
+          [
+            665,
+            101
+          ],
+          [
+            655,
+            101
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          131,
+          874,
+          205
+        ],
+        "content": "(2) Surat keterangan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) huruf a diterbitkan paling lama 1 (satu) hari kerja setelah permohonan pengukuhan Pengusaha Kena Pajak diterima lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            131
+          ],
+          [
+            288,
+            205
+          ],
+          [
+            873,
+            205
+          ],
+          [
+            873,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          206,
+          872,
+          236
+        ],
+        "content": "(3) Penelitian sebagaimana dimaksud pada ayat (1) huruf b meliputi:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            206
+          ],
+          [
+            288,
+            235
+          ],
+          [
+            872,
+            235
+          ],
+          [
+            872,
+            206
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          332,
+          236,
+          871,
+          281
+        ],
+        "content": "a. penelitian atas kelengkapan data dan/atau dokumen yang terkait dengan identitas, pendirian, dan/atau kegiatan usaha;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            241
+          ],
+          [
+            337,
+            281
+          ],
+          [
+            871,
+            281
+          ],
+          [
+            871,
+            241
+          ],
+          [
+            856,
+            236
+          ],
+          [
+            392,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          281,
+          872,
+          356
+        ],
+        "content": "b. penelitian atas kesesuaian kegiatan usaha di tempat tinggal, tempat kedudukan, dan/atau tempat kegiatan usaha Pengusaha dengan kelengkapan data dan/atau dokumen sebagaimana dimaksud dalam huruf a; dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            296
+          ],
+          [
+            331,
+            356
+          ],
+          [
+            871,
+            356
+          ],
+          [
+            871,
+            281
+          ],
+          [
+            337,
+            281
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          357,
+          872,
+          446
+        ],
+        "content": "c. penelitian atas ketentuan penggunaan Kantor Virtual sebagai tempat pelaporan usaha dan pernyataan Pengusaha mengenai kegiatan usaha serta tempat kegiatan usaha yang sebenarnya, dalam hal Pengusaha menggunakan jasa Kantor Virtual.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            362
+          ],
+          [
+            330,
+            446
+          ],
+          [
+            871,
+            446
+          ],
+          [
+            871,
+            357
+          ],
+          [
+            861,
+            357
+          ],
+          [
+            767,
+            357
+          ],
+          [
+            761,
+            357
+          ],
+          [
+            405,
+            357
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          447,
+          871,
+          537
+        ],
+        "content": "(4) Penelitian terhadap data dan/atau dokumen atas identitas, pendirian, dan/atau kegiatan usaha sebagaimana dimaksud pada ayat (3) huruf a dilakukan dengan meneliti data dan/atau dokumen yang tersedia dalam sistem administrasi Direktorat Jenderal Pajak, meliputi:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            447
+          ],
+          [
+            285,
+            536
+          ],
+          [
+            871,
+            536
+          ],
+          [
+            871,
+            447
+          ],
+          [
+            836,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          538,
+          872,
+          598
+        ],
+        "content": "a. untuk Pengusaha orang pribadi dapat berupa data dan/atau dokumen identitas diri Pengusaha untuk Warga Negara Indonesia maupun Warga Negara Asing; dan",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            538
+          ],
+          [
+            330,
+            592
+          ],
+          [
+            350,
+            597
+          ],
+          [
+            871,
+            597
+          ],
+          [
+            871,
+            538
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          598,
+          765,
+          613
+        ],
+        "content": "b. untuk Pengusaha Badan dapat berupa:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            598
+          ],
+          [
+            331,
+            612
+          ],
+          [
+            765,
+            612
+          ],
+          [
+            765,
+            598
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          379,
+          613,
+          871,
+          658
+        ],
+        "content": "1. data dan/atau dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya; dan",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            379,
+            613
+          ],
+          [
+            379,
+            657
+          ],
+          [
+            870,
+            657
+          ],
+          [
+            870,
+            613
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          658,
+          871,
+          703
+        ],
+        "content": "2. data dan/atau dokumen yang menunjukkan identitas diri seluruh pengurus atau penanggung jawab Pengusaha.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            668
+          ],
+          [
+            376,
+            683
+          ],
+          [
+            376,
+            698
+          ],
+          [
+            386,
+            703
+          ],
+          [
+            870,
+            703
+          ],
+          [
+            870,
+            658
+          ],
+          [
+            381,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          703,
+          871,
+          762
+        ],
+        "content": "(5) Berdasarkan hasil penelitian sebagaimana dimaksud pada ayat (1) huruf b, Kepala Kantor Pelayanan Pajak tempat Pengusaha diadministrasikan memberikan keputusan berupa:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            703
+          ],
+          [
+            291,
+            762
+          ],
+          [
+            871,
+            762
+          ],
+          [
+            871,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          764,
+          871,
+          823
+        ],
+        "content": "a. menerima permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak dalam hal permohonan memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            764
+          ],
+          [
+            330,
+            823
+          ],
+          [
+            870,
+            823
+          ],
+          [
+            870,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          824,
+          872,
+          884
+        ],
+        "content": "b. menolak permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak, dalam hal permohonan tidak memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            824
+          ],
+          [
+            330,
+            884
+          ],
+          [
+            871,
+            884
+          ],
+          [
+            871,
+            824
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          71,
+          871,
+          118
+        ],
+        "content": "(6) Keputusan sebagaimana dimaksud pada ayat (5) diberikan paling lama 10 (sepuluh) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            71
+          ],
+          [
+            292,
+            118
+          ],
+          [
+            871,
+            118
+          ],
+          [
+            871,
+            71
+          ],
+          [
+            827,
+            71
+          ],
+          [
+            816,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          131,
+          624,
+          146
+        ],
+        "content": "## Pasal 64",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            131
+          ],
+          [
+            536,
+            145
+          ],
+          [
+            623,
+            145
+          ],
+          [
+            623,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          146,
+          871,
+          221
+        ],
+        "content": "(1) Dalam hal permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak diterima sebagaimana dimaksud dalam Pasal 63 ayat (5) huruf a, Kepala Kantor Pelayanan Pajak memberikan akses pembuatan Faktur Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            146
+          ],
+          [
+            286,
+            221
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            871,
+            146
+          ],
+          [
+            831,
+            146
+          ],
+          [
+            801,
+            146
+          ],
+          [
+            791,
+            146
+          ],
+          [
+            781,
+            146
+          ],
+          [
+            727,
+            146
+          ],
+          [
+            666,
+            146
+          ],
+          [
+            651,
+            146
+          ],
+          [
+            581,
+            146
+          ],
+          [
+            557,
+            146
+          ],
+          [
+            531,
+            146
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          221,
+          871,
+          300
+        ],
+        "content": "(2) Akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Pengusaha sejak tanggal dimulainya kewajiban sebagai Pengusaha Kena Pajak sebagaimana tercantum dalam keputusan pengukuhan sebagai Pengusaha Kena Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            221
+          ],
+          [
+            285,
+            299
+          ],
+          [
+            871,
+            299
+          ],
+          [
+            871,
+            221
+          ],
+          [
+            856,
+            221
+          ],
+          [
+            837,
+            221
+          ],
+          [
+            806,
+            221
+          ],
+          [
+            776,
+            221
+          ],
+          [
+            731,
+            221
+          ],
+          [
+            721,
+            221
+          ],
+          [
+            711,
+            221
+          ],
+          [
+            681,
+            221
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          312,
+          622,
+          326
+        ],
+        "content": "## Pasal 65",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            312
+          ],
+          [
+            536,
+            326
+          ],
+          [
+            621,
+            326
+          ],
+          [
+            621,
+            312
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          327,
+          870,
+          372
+        ],
+        "content": "(1) Direktur Jenderal Pajak berwenang untuk menonaktifkan akses pembuatan Faktur Pajakterhadap:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            327
+          ],
+          [
+            285,
+            371
+          ],
+          [
+            870,
+            371
+          ],
+          [
+            870,
+            327
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          373,
+          870,
+          418
+        ],
+        "content": "a. Pengusaha Kena Pajak yang terindikasi menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak; dan/atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            373
+          ],
+          [
+            330,
+            417
+          ],
+          [
+            869,
+            417
+          ],
+          [
+            869,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          418,
+          870,
+          507
+        ],
+        "content": "b. Pengusaha Kena Pajak selain sebagaimana dimaksud dalam huruf a yang tidak melaksanakan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan sesuai dengan kriteria yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            418
+          ],
+          [
+            329,
+            502
+          ],
+          [
+            340,
+            507
+          ],
+          [
+            870,
+            507
+          ],
+          [
+            870,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          508,
+          870,
+          568
+        ],
+        "content": "(2) Terhadap penonaktifan akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat menyampaikan klarifikasi kepada Direktur Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            508
+          ],
+          [
+            284,
+            563
+          ],
+          [
+            304,
+            567
+          ],
+          [
+            870,
+            567
+          ],
+          [
+            870,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          568,
+          870,
+          673
+        ],
+        "content": "(3) Dalam hal berdasarkan klarifikasi sebagaimana dimaksud pada ayat (2) atau data dan/atau informasi yang dimiliki Direktorat Jenderal Pajak diketahui bahwa Pengusaha Kena Pajak tidak memenuhi kriteria penonaktifan akses pembuatan Faktur Pajak, Direktur Jenderal Pajak mengaktifkan kembali akses pembuatan Faktur Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            568
+          ],
+          [
+            284,
+            668
+          ],
+          [
+            304,
+            673
+          ],
+          [
+            869,
+            673
+          ],
+          [
+            869,
+            568
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          674,
+          869,
+          794
+        ],
+        "content": "(4) Dalam hal Pengusaha Kena Pajak tidak menyampaikan klarifikasi sesuai dengan ketentuan sebagaimana dimaksud pada ayat (2) dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan akses pembuatan Faktur Pajak atau klarifikasi Pengusaha Kena Pajak ditolak, Kepala Kantor Pelayanan Pajak melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            674
+          ],
+          [
+            289,
+            793
+          ],
+          [
+            868,
+            793
+          ],
+          [
+            868,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          794,
+          869,
+          885
+        ],
+        "content": "(5) Pengusaha yang telah dilakukan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4) dapat dikukuhkan kembali sebagai Pengusaha Kena Pajak sepanjang telah memenuhi ketentuan sebagaimana dimaksud pada ayat (3).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            794
+          ],
+          [
+            282,
+            885
+          ],
+          [
+            868,
+            885
+          ],
+          [
+            868,
+            794
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          528,
+          73,
+          618,
+          88
+        ],
+        "content": "## Pasal 66",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            73
+          ],
+          [
+            528,
+            87
+          ],
+          [
+            617,
+            87
+          ],
+          [
+            617,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          87,
+          864,
+          149
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak dapat mengukuhkan Pengusaha Kena Pajak secara jabatan dalam hal Pengusaha tidak melaksanakan kewajiban pelaporan usaha sebagaimana dimaksud dalam Pasal 60 ayat (1).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            87
+          ],
+          [
+            279,
+            148
+          ],
+          [
+            863,
+            148
+          ],
+          [
+            863,
+            87
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          149,
+          864,
+          253
+        ],
+        "content": "(2) Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi, sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            149
+          ],
+          [
+            280,
+            248
+          ],
+          [
+            290,
+            253
+          ],
+          [
+            863,
+            253
+          ],
+          [
+            863,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          254,
+          865,
+          332
+        ],
+        "content": "(3) Kepala Kantor Pelayanan Pajak memberikan keputusan pengukuhan Pengusaha Kena Pajak secara jabatan dan akses pembuatan Faktur Pajak kepada Pengusaha yang dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            254
+          ],
+          [
+            279,
+            331
+          ],
+          [
+            864,
+            331
+          ],
+          [
+            864,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          344,
+          615,
+          359
+        ],
+        "content": "## Pasal 67",
+        "index": 4,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            344
+          ],
+          [
+            527,
+            359
+          ],
+          [
+            615,
+            359
+          ],
+          [
+            615,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          359,
+          864,
+          422
+        ],
+        "content": "Pencabutan Pengukuhan Pengusaha Kena Pajak dapat dilakukan oleh Kepala Kantor Pelayanan Pajak berdasarkan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak atau secara jabatan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            359
+          ],
+          [
+            278,
+            421
+          ],
+          [
+            864,
+            421
+          ],
+          [
+            864,
+            359
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          435,
+          616,
+          449
+        ],
+        "content": "## Pasal 68",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            435
+          ],
+          [
+            528,
+            449
+          ],
+          [
+            615,
+            449
+          ],
+          [
+            615,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          449,
+          864,
+          525
+        ],
+        "content": "(1) Pengusaha Kena Pajak menyampaikan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 67 pada Kantor Pelayanan Pajak tempat Pengusaha Kena Pajak dikukuhkan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            449
+          ],
+          [
+            278,
+            524
+          ],
+          [
+            863,
+            524
+          ],
+          [
+            863,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          525,
+          864,
+          645
+        ],
+        "content": "(2) Permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Pengusaha Kena Pajak tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60 ayat (1).",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            525
+          ],
+          [
+            278,
+            645
+          ],
+          [
+            863,
+            645
+          ],
+          [
+            863,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          645,
+          864,
+          706
+        ],
+        "content": "(3) Pencabutan Pengukuhan Pengusaha Kena Pajak berdasarkan permohonan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            645
+          ],
+          [
+            279,
+            705
+          ],
+          [
+            863,
+            705
+          ],
+          [
+            863,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          706,
+          864,
+          781
+        ],
+        "content": "(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Pengusaha Kena Pajak diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            706
+          ],
+          [
+            278,
+            780
+          ],
+          [
+            863,
+            780
+          ],
+          [
+            863,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          781,
+          864,
+          903
+        ],
+        "content": "(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) telah terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Pengusaha Kena Pajak dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan surat keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            781
+          ],
+          [
+            278,
+            903
+          ],
+          [
+            864,
+            903
+          ],
+          [
+            864,
+            781
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          530,
+          72,
+          618,
+          86
+        ],
+        "content": "## Pasal 69",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            72
+          ],
+          [
+            530,
+            86
+          ],
+          [
+            618,
+            86
+          ],
+          [
+            618,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          87,
+          866,
+          162
+        ],
+        "content": "(1) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 67, dilakukan terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            87
+          ],
+          [
+            281,
+            161
+          ],
+          [
+            865,
+            161
+          ],
+          [
+            865,
+            92
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          163,
+          866,
+          222
+        ],
+        "content": "(2) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            168
+          ],
+          [
+            281,
+            217
+          ],
+          [
+            297,
+            222
+          ],
+          [
+            865,
+            222
+          ],
+          [
+            865,
+            163
+          ],
+          [
+            287,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          223,
+          866,
+          283
+        ],
+        "content": "(3) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan melalui penelitian administrasi sebagaimana dimaksud pada ayat (2) dilakukan terhadap Pengusaha Kena Pajak yang memenuhi kriteria sebagai berikut:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            223
+          ],
+          [
+            286,
+            282
+          ],
+          [
+            865,
+            282
+          ],
+          [
+            865,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          283,
+          865,
+          313
+        ],
+        "content": "a. Pengusaha Kena Pajak dengan status Wajib Pajak Nonaktif;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            283
+          ],
+          [
+            325,
+            312
+          ],
+          [
+            864,
+            312
+          ],
+          [
+            864,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          313,
+          865,
+          373
+        ],
+        "content": "b. Pengusaha Kena Pajak telah dinonaktifkan akses pembuatan Faktur Pajak dan tidak melakukan klarifikasi dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan atau klarifikasinya ditolak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            313
+          ],
+          [
+            325,
+            373
+          ],
+          [
+            864,
+            373
+          ],
+          [
+            864,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          374,
+          865,
+          433
+        ],
+        "content": "c. Pengusaha Kena Pajak menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak yang telah mendapatkan putusan pengadilan yang berkekuatan hukum tetap;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            374
+          ],
+          [
+            324,
+            433
+          ],
+          [
+            865,
+            433
+          ],
+          [
+            865,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          434,
+          863,
+          464
+        ],
+        "content": "d. Pengusaha Kena Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            434
+          ],
+          [
+            324,
+            464
+          ],
+          [
+            862,
+            464
+          ],
+          [
+            862,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          464,
+          863,
+          508
+        ],
+        "content": "e. Pengusaha Kena Pajak bentuk usaha tetap telah menghentikan kegiatan usaha di Indonesia; dan/atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            464
+          ],
+          [
+            323,
+            508
+          ],
+          [
+            862,
+            508
+          ],
+          [
+            862,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          509,
+          863,
+          539
+        ],
+        "content": "f. Pengusaha Kena Pajak dengan keadaan tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            509
+          ],
+          [
+            323,
+            538
+          ],
+          [
+            862,
+            538
+          ],
+          [
+            862,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          539,
+          864,
+          599
+        ],
+        "content": "(4) Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (2) dilakukan melalui penerbitan keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            539
+          ],
+          [
+            280,
+            598
+          ],
+          [
+            864,
+            598
+          ],
+          [
+            864,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          599,
+          864,
+          676
+        ],
+        "content": "(5) Berdasarkan pertimbangan kemudahan administratif, Direktur Jenderal Pajak secara jabatan dapat melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi persyaratan sebagai Pengusaha Kena Pajak.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            599
+          ],
+          [
+            278,
+            676
+          ],
+          [
+            864,
+            676
+          ],
+          [
+            864,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          690,
+          615,
+          704
+        ],
+        "content": "## Pasal 70",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            690
+          ],
+          [
+            527,
+            703
+          ],
+          [
+            615,
+            703
+          ],
+          [
+            615,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          704,
+          864,
+          855
+        ],
+        "content": "(1) Kewajiban perpajakan bagi Wajib Pajak yang diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak berdasarkan permohonan Wajib Pajak atau secara jabatan dimulai sejak saat Wajib Pajak memenuhi persyaratan subjektif dan objektif sesuai dengan ketentuan peraturan perundang-undangan perpajakan, paling lama 5 (lima) tahun sebelum diterbitkannya Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            704
+          ],
+          [
+            285,
+            854
+          ],
+          [
+            864,
+            854
+          ],
+          [
+            864,
+            704
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          864,
+          916
+        ],
+        "content": "(2) Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak dan/atau Surat Tagihan Pajak untuk Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak sebelum Wajib Pajak diberikan atau diterbitkan Nomor",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            916
+          ],
+          [
+            864,
+            916
+          ],
+          [
+            864,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "a. menerbitkan surat keterangan permohonan pengukuhan Pengusaha Kena Pajak; dan\n\nb. melakukan penelitian atas permohonan Pengusaha.\n\n(2) Surat keterangan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) huruf a diterbitkan paling lama 1 (satu) hari kerja setelah permohonan pengukuhan Pengusaha Kena Pajak diterima lengkap.\n\n(3) Penelitian sebagaimana dimaksud pada ayat (1) huruf b meliputi:\n\na. penelitian atas kelengkapan data dan/atau dokumen yang terkait dengan identitas, pendirian, dan/atau kegiatan usaha;\n\nb. penelitian atas kesesuaian kegiatan usaha di tempat tinggal, tempat kedudukan, dan/atau tempat kegiatan usaha Pengusaha dengan kelengkapan data dan/atau dokumen sebagaimana dimaksud dalam huruf a; dan\n\nc. penelitian atas ketentuan penggunaan Kantor Virtual sebagai tempat pelaporan usaha dan pernyataan Pengusaha mengenai kegiatan usaha serta tempat kegiatan usaha yang sebenarnya, dalam hal Pengusaha menggunakan jasa Kantor Virtual.\n\n(4) Penelitian terhadap data dan/atau dokumen atas identitas, pendirian, dan/atau kegiatan usaha sebagaimana dimaksud pada ayat (3) huruf a dilakukan dengan meneliti data dan/atau dokumen yang tersedia dalam sistem administrasi Direktorat Jenderal Pajak, meliputi:\n\na. untuk Pengusaha orang pribadi dapat berupa data dan/atau dokumen identitas diri Pengusaha untuk Warga Negara Indonesia maupun Warga Negara Asing; dan\n\nb. untuk Pengusaha Badan dapat berupa:\n\n1. data dan/atau dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya; dan\n\n2. data dan/atau dokumen yang menunjukkan identitas diri seluruh pengurus atau penanggung jawab Pengusaha.\n\n(5) Berdasarkan hasil penelitian sebagaimana dimaksud pada ayat (1) huruf b, Kepala Kantor Pelayanan Pajak tempat Pengusaha diadministrasikan memberikan keputusan berupa:\n\na. menerima permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak dalam hal permohonan memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak; atau\n\nb. menolak permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak, dalam hal permohonan tidak memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(6) Keputusan sebagaimana dimaksud pada ayat (5) diberikan paling lama 10 (sepuluh) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 64\n\n(1) Dalam hal permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak diterima sebagaimana dimaksud dalam Pasal 63 ayat (5) huruf a, Kepala Kantor Pelayanan Pajak memberikan akses pembuatan Faktur Pajak.\n\n(2) Akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Pengusaha sejak tanggal dimulainya kewajiban sebagai Pengusaha Kena Pajak sebagaimana tercantum dalam keputusan pengukuhan sebagai Pengusaha Kena Pajak.\n\n## Pasal 65\n\n(1) Direktur Jenderal Pajak berwenang untuk menonaktifkan akses pembuatan Faktur Pajakterhadap:\n\na. Pengusaha Kena Pajak yang terindikasi menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak; dan/atau\n\nb. Pengusaha Kena Pajak selain sebagaimana dimaksud dalam huruf a yang tidak melaksanakan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan sesuai dengan kriteria yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(2) Terhadap penonaktifan akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat menyampaikan klarifikasi kepada Direktur Jenderal Pajak.\n\n(3) Dalam hal berdasarkan klarifikasi sebagaimana dimaksud pada ayat (2) atau data dan/atau informasi yang dimiliki Direktorat Jenderal Pajak diketahui bahwa Pengusaha Kena Pajak tidak memenuhi kriteria penonaktifan akses pembuatan Faktur Pajak, Direktur Jenderal Pajak mengaktifkan kembali akses pembuatan Faktur Pajak.\n\n(4) Dalam hal Pengusaha Kena Pajak tidak menyampaikan klarifikasi sesuai dengan ketentuan sebagaimana dimaksud pada ayat (2) dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan akses pembuatan Faktur Pajak atau klarifikasi Pengusaha Kena Pajak ditolak, Kepala Kantor Pelayanan Pajak melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan.\n\n(5) Pengusaha yang telah dilakukan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4) dapat dikukuhkan kembali sebagai Pengusaha Kena Pajak sepanjang telah memenuhi ketentuan sebagaimana dimaksud pada ayat (3).\n\n## Pasal 66\n\n(1) Kepala Kantor Pelayanan Pajak dapat mengukuhkan Pengusaha Kena Pajak secara jabatan dalam hal Pengusaha tidak melaksanakan kewajiban pelaporan usaha sebagaimana dimaksud dalam Pasal 60 ayat (1).\n\n(2) Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi, sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n(3) Kepala Kantor Pelayanan Pajak memberikan keputusan pengukuhan Pengusaha Kena Pajak secara jabatan dan akses pembuatan Faktur Pajak kepada Pengusaha yang dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1).\n\n## Pasal 67\n\nPencabutan Pengukuhan Pengusaha Kena Pajak dapat dilakukan oleh Kepala Kantor Pelayanan Pajak berdasarkan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak atau secara jabatan.\n\n## Pasal 68\n\n(1) Pengusaha Kena Pajak menyampaikan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 67 pada Kantor Pelayanan Pajak tempat Pengusaha Kena Pajak dikukuhkan.\n\n(2) Permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Pengusaha Kena Pajak tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60 ayat (1).\n\n(3) Pencabutan Pengukuhan Pengusaha Kena Pajak berdasarkan permohonan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Pengusaha Kena Pajak diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) telah terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Pengusaha Kena Pajak dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan surat keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 69\n\n(1) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 67, dilakukan terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60.\n\n(2) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi.\n\n(3) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan melalui penelitian administrasi sebagaimana dimaksud pada ayat (2) dilakukan terhadap Pengusaha Kena Pajak yang memenuhi kriteria sebagai berikut:\n\na. Pengusaha Kena Pajak dengan status Wajib Pajak Nonaktif;\n\nb. Pengusaha Kena Pajak telah dinonaktifkan akses pembuatan Faktur Pajak dan tidak melakukan klarifikasi dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan atau klarifikasinya ditolak;\n\nc. Pengusaha Kena Pajak menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak yang telah mendapatkan putusan pengadilan yang berkekuatan hukum tetap;\n\nd. Pengusaha Kena Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\ne. Pengusaha Kena Pajak bentuk usaha tetap telah menghentikan kegiatan usaha di Indonesia; dan/atau\n\nf. Pengusaha Kena Pajak dengan keadaan tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (2) dilakukan melalui penerbitan keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak.\n\n(5) Berdasarkan pertimbangan kemudahan administratif, Direktur Jenderal Pajak secara jabatan dapat melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi persyaratan sebagai Pengusaha Kena Pajak.\n\n## Pasal 70\n\n(1) Kewajiban perpajakan bagi Wajib Pajak yang diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak berdasarkan permohonan Wajib Pajak atau secara jabatan dimulai sejak saat Wajib Pajak memenuhi persyaratan subjektif dan objektif sesuai dengan ketentuan peraturan perundang-undangan perpajakan, paling lama 5 (lima) tahun sebelum diterbitkannya Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(2) Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak dan/atau Surat Tagihan Pajak untuk Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak sebelum Wajib Pajak diberikan atau diterbitkan Nomor",
+  "md_results": "a. menerbitkan surat keterangan permohonan pengukuhan Pengusaha Kena Pajak; dan\n\nb. melakukan penelitian atas permohonan Pengusaha.\n\n(2) Surat keterangan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) huruf a diterbitkan paling lama 1 (satu) hari kerja setelah permohonan pengukuhan Pengusaha Kena Pajak diterima lengkap.\n\n(3) Penelitian sebagaimana dimaksud pada ayat (1) huruf b meliputi:\n\na. penelitian atas kelengkapan data dan/atau dokumen yang terkait dengan identitas, pendirian, dan/atau kegiatan usaha;\n\nb. penelitian atas kesesuaian kegiatan usaha di tempat tinggal, tempat kedudukan, dan/atau tempat kegiatan usaha Pengusaha dengan kelengkapan data dan/atau dokumen sebagaimana dimaksud dalam huruf a; dan\n\nc. penelitian atas ketentuan penggunaan Kantor Virtual sebagai tempat pelaporan usaha dan pernyataan Pengusaha mengenai kegiatan usaha serta tempat kegiatan usaha yang sebenarnya, dalam hal Pengusaha menggunakan jasa Kantor Virtual.\n\n(4) Penelitian terhadap data dan/atau dokumen atas identitas, pendirian, dan/atau kegiatan usaha sebagaimana dimaksud pada ayat (3) huruf a dilakukan dengan meneliti data dan/atau dokumen yang tersedia dalam sistem administrasi Direktorat Jenderal Pajak, meliputi:\n\na. untuk Pengusaha orang pribadi dapat berupa data dan/atau dokumen identitas diri Pengusaha untuk Warga Negara Indonesia maupun Warga Negara Asing; dan\n\nb. untuk Pengusaha Badan dapat berupa:\n\n1. data dan/atau dokumen yang menunjukkan pendirian atau pembentukan Badan dan perubahannya; dan\n\n2. data dan/atau dokumen yang menunjukkan identitas diri seluruh pengurus atau penanggung jawab Pengusaha.\n\n(5) Berdasarkan hasil penelitian sebagaimana dimaksud pada ayat (1) huruf b, Kepala Kantor Pelayanan Pajak tempat Pengusaha diadministrasikan memberikan keputusan berupa:\n\na. menerima permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak dalam hal permohonan memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak; atau\n\nb. menolak permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak, dalam hal permohonan tidak memenuhi ketentuan untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(6) Keputusan sebagaimana dimaksud pada ayat (5) diberikan paling lama 10 (sepuluh) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 64\n\n(1) Dalam hal permohonan Pengusaha untuk dikukuhkan sebagai Pengusaha Kena Pajak diterima sebagaimana dimaksud dalam Pasal 63 ayat (5) huruf a, Kepala Kantor Pelayanan Pajak memberikan akses pembuatan Faktur Pajak.\n\n(2) Akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1) dapat digunakan oleh Pengusaha sejak tanggal dimulainya kewajiban sebagai Pengusaha Kena Pajak sebagaimana tercantum dalam keputusan pengukuhan sebagai Pengusaha Kena Pajak.\n\n## Pasal 65\n\n(1) Direktur Jenderal Pajak berwenang untuk menonaktifkan akses pembuatan Faktur Pajakterhadap:\n\na. Pengusaha Kena Pajak yang terindikasi menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak; dan/atau\n\nb. Pengusaha Kena Pajak selain sebagaimana dimaksud dalam huruf a yang tidak melaksanakan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan sesuai dengan kriteria yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(2) Terhadap penonaktifan akses pembuatan Faktur Pajak sebagaimana dimaksud pada ayat (1), Pengusaha Kena Pajak dapat menyampaikan klarifikasi kepada Direktur Jenderal Pajak.\n\n(3) Dalam hal berdasarkan klarifikasi sebagaimana dimaksud pada ayat (2) atau data dan/atau informasi yang dimiliki Direktorat Jenderal Pajak diketahui bahwa Pengusaha Kena Pajak tidak memenuhi kriteria penonaktifan akses pembuatan Faktur Pajak, Direktur Jenderal Pajak mengaktifkan kembali akses pembuatan Faktur Pajak.\n\n(4) Dalam hal Pengusaha Kena Pajak tidak menyampaikan klarifikasi sesuai dengan ketentuan sebagaimana dimaksud pada ayat (2) dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan akses pembuatan Faktur Pajak atau klarifikasi Pengusaha Kena Pajak ditolak, Kepala Kantor Pelayanan Pajak melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan.\n\n(5) Pengusaha yang telah dilakukan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (4) dapat dikukuhkan kembali sebagai Pengusaha Kena Pajak sepanjang telah memenuhi ketentuan sebagaimana dimaksud pada ayat (3).\n\n## Pasal 66\n\n(1) Kepala Kantor Pelayanan Pajak dapat mengukuhkan Pengusaha Kena Pajak secara jabatan dalam hal Pengusaha tidak melaksanakan kewajiban pelaporan usaha sebagaimana dimaksud dalam Pasal 60 ayat (1).\n\n(2) Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi, sesuai dengan data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n(3) Kepala Kantor Pelayanan Pajak memberikan keputusan pengukuhan Pengusaha Kena Pajak secara jabatan dan akses pembuatan Faktur Pajak kepada Pengusaha yang dikukuhkan sebagai Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1).\n\n## Pasal 67\n\nPencabutan Pengukuhan Pengusaha Kena Pajak dapat dilakukan oleh Kepala Kantor Pelayanan Pajak berdasarkan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak atau secara jabatan.\n\n## Pasal 68\n\n(1) Pengusaha Kena Pajak menyampaikan permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 67 pada Kantor Pelayanan Pajak tempat Pengusaha Kena Pajak dikukuhkan.\n\n(2) Permohonan Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Pengusaha Kena Pajak tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60 ayat (1).\n\n(3) Pencabutan Pengukuhan Pengusaha Kena Pajak berdasarkan permohonan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(4) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (3), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Pengusaha Kena Pajak diterima secara lengkap.\n\n(5) Apabila jangka waktu sebagaimana dimaksud pada ayat (4) telah terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Pengusaha Kena Pajak dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak menerbitkan surat keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (4) berakhir.\n\n## Pasal 69\n\n(1) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud dalam Pasal 67, dilakukan terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi ketentuan sebagaimana dimaksud dalam Pasal 60.\n\n(2) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan atau hasil penelitian administrasi.\n\n(3) Pencabutan Pengukuhan Pengusaha Kena Pajak secara jabatan melalui penelitian administrasi sebagaimana dimaksud pada ayat (2) dilakukan terhadap Pengusaha Kena Pajak yang memenuhi kriteria sebagai berikut:\n\na. Pengusaha Kena Pajak dengan status Wajib Pajak Nonaktif;\n\nb. Pengusaha Kena Pajak telah dinonaktifkan akses pembuatan Faktur Pajak dan tidak melakukan klarifikasi dalam jangka waktu 30 (tiga puluh) hari sejak penonaktifan atau klarifikasinya ditolak;\n\nc. Pengusaha Kena Pajak menyalahgunakan atau menggunakan tanpa hak pengukuhan Pengusaha Kena Pajak yang telah mendapatkan putusan pengadilan yang berkekuatan hukum tetap;\n\nd. Pengusaha Kena Pajak orang pribadi telah meninggal dunia dan tidak meninggalkan warisan;\n\ne. Pengusaha Kena Pajak bentuk usaha tetap telah menghentikan kegiatan usaha di Indonesia; dan/atau\n\nf. Pengusaha Kena Pajak dengan keadaan tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Pencabutan Pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (2) dilakukan melalui penerbitan keputusan Pencabutan Pengukuhan Pengusaha Kena Pajak.\n\n(5) Berdasarkan pertimbangan kemudahan administratif, Direktur Jenderal Pajak secara jabatan dapat melakukan Pencabutan Pengukuhan Pengusaha Kena Pajak terhadap Pengusaha Kena Pajak yang tidak lagi memenuhi persyaratan sebagai Pengusaha Kena Pajak.\n\n## Pasal 70\n\n(1) Kewajiban perpajakan bagi Wajib Pajak yang diterbitkan Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak berdasarkan permohonan Wajib Pajak atau secara jabatan dimulai sejak saat Wajib Pajak memenuhi persyaratan subjektif dan objektif sesuai dengan ketentuan peraturan perundang-undangan perpajakan, paling lama 5 (lima) tahun sebelum diterbitkannya Nomor Pokok Wajib Pajak dan/atau dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(2) Direktur Jenderal Pajak dapat menerbitkan Surat Ketetapan Pajak dan/atau Surat Tagihan Pajak untuk Masa Pajak, Bagian Tahun Pajak, atau Tahun Pajak sebelum Wajib Pajak diberikan atau diterbitkan Nomor",
+  "model": "glm-ocr",
+  "usage": {}
+}

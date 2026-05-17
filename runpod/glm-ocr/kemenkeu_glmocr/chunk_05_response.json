@@ -1,0 +1,2907 @@
+{
+  "created": 1779015231,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-efe810fc15394ef8afdd6ac59739d",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          872,
+          235
+        ],
+        "content": "menagih bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor yang tidak atau kurang dibayar oleh importir, pengangkut, pengusaha tempat penimbunan sementara, pengusaha tempat penimbunan berikat, atau pengusaha pengurusan jasa kepabeanan, yang diterbitkan oleh pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penagihan piutang bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            235
+          ],
+          [
+            872,
+            235
+          ],
+          [
+            872,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          236,
+          871,
+          332
+        ],
+        "content": "123. Surat Penetapan Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            236
+          ],
+          [
+            287,
+            327
+          ],
+          [
+            312,
+            332
+          ],
+          [
+            461,
+            332
+          ],
+          [
+            487,
+            332
+          ],
+          [
+            551,
+            332
+          ],
+          [
+            815,
+            332
+          ],
+          [
+            870,
+            327
+          ],
+          [
+            870,
+            241
+          ],
+          [
+            835,
+            236
+          ],
+          [
+            821,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          333,
+          870,
+          446
+        ],
+        "content": "124. Persetujuan Bersama adalah hasil yang telah disepakati dalam penerapan Persetujuan Penghindaran Pajak Berganda oleh pejabat berwenang dari pemerintah Indonesia dan pejabat berwenang dari pemerintah mitra Persetujuan Penghindaran Pajak Berganda sehubungan dengan Prosedur Persetujuan Bersama (Mutual Agreement Procedure) yang telah dilaksanakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            333
+          ],
+          [
+            287,
+            445
+          ],
+          [
+            869,
+            445
+          ],
+          [
+            869,
+            333
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          447,
+          870,
+          592
+        ],
+        "content": "125. Surat Keterangan Domisili Wajib Pajak Luar Negeri adalah surat keterangan yang diterbitkan oleh pejabat yang berwenang di bidang perpajakan (competent authority) atau pejabat yang ditunjuk berdasarkan Persetujuan Penghindaran Pajak Berganda yang berisi status domisili (resident) subjek pajak luar negeri dengan menggunakan formulir sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            447
+          ],
+          [
+            286,
+            587
+          ],
+          [
+            316,
+            592
+          ],
+          [
+            460,
+            592
+          ],
+          [
+            516,
+            592
+          ],
+          [
+            555,
+            592
+          ],
+          [
+            804,
+            592
+          ],
+          [
+            824,
+            592
+          ],
+          [
+            869,
+            592
+          ],
+          [
+            869,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          593,
+          870,
+          656
+        ],
+        "content": "126. Surat Perintah Membayar Imbalan Bunga adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Menteri untuk membayar imbalan bunga kepada Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            593
+          ],
+          [
+            285,
+            656
+          ],
+          [
+            869,
+            656
+          ],
+          [
+            869,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          658,
+          868,
+          705
+        ],
+        "content": "127. Arsip Data Komputer adalah arsip data dalam bentuk softcopy yang disimpan dalam media penyimpanan digital.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            658
+          ],
+          [
+            285,
+            704
+          ],
+          [
+            868,
+            704
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          706,
+          869,
+          786
+        ],
+        "content": "128. Kantor Pelayanan Perbendaharaan Negara adalah instansi vertical Direktorat Jenderal Perbendaharaan yang memperoleh kuasa dari bendahara umum negara untuk melaksanakan sebagian fungsi kuasa bendahara umum negara.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            706
+          ],
+          [
+            285,
+            786
+          ],
+          [
+            868,
+            786
+          ],
+          [
+            868,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          788,
+          869,
+          918
+        ],
+        "content": "129. Surat Pemberitahuan Masa Pajak Penghasilan Unifikasi adalah Surat Pemberitahuan Masa yang digunakan oleh pemotong atau pemungut Pajak Penghasilan untuk melaporkan kewajiban pemotongan dan/atau pemungutan Pajak Penghasilan, penyetoran atas pemotongan dan/atau pemungutan Pajak Penghasilan, dan/atau penyetoran sendiri atas beberapa jenis Pajak Penghasilan dalam 1 (satu) Masa Pajak, sesuai dengan",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            788
+          ],
+          [
+            293,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            788
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          73,
+          870,
+          104
+        ],
+        "content": "ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            73
+          ],
+          [
+            329,
+            104
+          ],
+          [
+            870,
+            104
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          106,
+          870,
+          153
+        ],
+        "content": "130. Lifting adalah sejumlah minyak bumi dan/atau gas bumi yang tersedia untuk dijual atau dibagi di titik penyerahan (custody transfer point).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            106
+          ],
+          [
+            286,
+            153
+          ],
+          [
+            870,
+            153
+          ],
+          [
+            870,
+            111
+          ],
+          [
+            850,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          155,
+          869,
+          185
+        ],
+        "content": "131. Real Estat adalah tanah secara fisik dan bangunan yang ada di atasnya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            155
+          ],
+          [
+            286,
+            185
+          ],
+          [
+            868,
+            185
+          ],
+          [
+            868,
+            155
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          187,
+          870,
+          235
+        ],
+        "content": "132. Kontrak Investasi Kolektif adalah kontrak investasi kolektif sesuai dengan peraturan perundang-undangan yang mengatur tentang pasar modal.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            187
+          ],
+          [
+            286,
+            234
+          ],
+          [
+            869,
+            234
+          ],
+          [
+            869,
+            187
+          ],
+          [
+            784,
+            187
+          ],
+          [
+            774,
+            187
+          ],
+          [
+            765,
+            187
+          ],
+          [
+            695,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          236,
+          869,
+          315
+        ],
+        "content": "133. Angsuran Pajak Penghasilan Pasal 25 adalah angsuran Pajak Penghasilan dalam Tahun Pajak berjalan untuk suatu bulan yang harus dibayar sendiri oleh Wajib Pajak sebagaimana diatur dalam Pasal 25 Undang-Undang Pajak Penghasilan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            236
+          ],
+          [
+            285,
+            315
+          ],
+          [
+            868,
+            315
+          ],
+          [
+            868,
+            241
+          ],
+          [
+            844,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          317,
+          868,
+          397
+        ],
+        "content": "134. Penelitian Surat Pemberitahuan adalah serangkaian kegiatan yang dilakukan untuk menilai kelengkapan pengisian Surat Pemberitahuan dan lampiran-lampirannya termasuk penilaian tentang kebenaran penulisan dan perhitungannya.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            317
+          ],
+          [
+            285,
+            396
+          ],
+          [
+            868,
+            396
+          ],
+          [
+            868,
+            322
+          ],
+          [
+            803,
+            317
+          ],
+          [
+            784,
+            317
+          ],
+          [
+            778,
+            317
+          ],
+          [
+            729,
+            317
+          ],
+          [
+            724,
+            317
+          ],
+          [
+            704,
+            317
+          ],
+          [
+            694,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          399,
+          869,
+          462
+        ],
+        "content": "135. Badan Usaha Milik Negara adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh negara melalui penyertaan secara langsung yang berasal dari kekayaan negara yang dipisahkan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            399
+          ],
+          [
+            285,
+            461
+          ],
+          [
+            868,
+            461
+          ],
+          [
+            868,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          463,
+          869,
+          575
+        ],
+        "content": "136. Special Purpose Company adalah perseroan terbatas yang sahamnya dimiliki oleh dana investasi Real Estat berbentuk Kontrak Investasi Kolektif paling kurang 99,9% (sembilan puluh sembilan koma sembilan persen) dari modal disetor yang dibentuk semata-mata untuk kepentingan dana investasi Real Estat berbentuk Kontrak Investasi Kolektif.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            463
+          ],
+          [
+            284,
+            575
+          ],
+          [
+            868,
+            575
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          577,
+          868,
+          656
+        ],
+        "content": "137. Dana Investasi Real Estat adalah wadah yang dipergunakan untuk menghimpun dana dari masyarakat pemodal untuk selanjutnya diinvestasikan pada aset Real Estat, aset yang berkaitan dengan Real Estat, dan/atau kas dan setara kas.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            577
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            868,
+            656
+          ],
+          [
+            868,
+            577
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          658,
+          868,
+          737
+        ],
+        "content": "138. Surat Keterangan Fiskal adalah informasi mengenai kepatuhan Wajib Pajak selama periode tertentu untuk memenuhi persyaratan memperoleh pelayanan atau dalam rangka pelaksanaan kegiatan tertentu yang diberikan oleh Direktorat Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            658
+          ],
+          [
+            284,
+            732
+          ],
+          [
+            300,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          740,
+          868,
+          819
+        ],
+        "content": "139. Kontraktor Kontrak Kerja Sama Minyak dan Gas Bumi adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan badan pelaksana.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            740
+          ],
+          [
+            284,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          821,
+          869,
+          917
+        ],
+        "content": "140. Uplift adalah imbalan yang diterima oleh Kontraktor sehubungan dengan penyediaan dana talangan untuk pembiayaan operasi kontrak bagi hasil yang seharusnya merupakan kewajiban partisipasi Kontraktor lain, yang ada dalam satu Kontrak Kerja Sama, dalam pembiyaan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            821
+          ],
+          [
+            284,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            821
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          285,
+          73,
+          870,
+          121
+        ],
+        "content": "141. Partisipasi Interes adalah hak, kepentingan, dan kewajiban kontraktor berdasarkan Kontrak Kerja Sama di bidang minyak dan gas bumi.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            73
+          ],
+          [
+            285,
+            120
+          ],
+          [
+            870,
+            120
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          122,
+          871,
+          235
+        ],
+        "content": "142. Eksploitasi adalah rangkaian kegiatan yang bertujuan untuk menghasilkan minyak dan gas bumi dari wilayah kerja yang ditentukan, yang terdiri atas pengeboran dan penyelesaian sumur, pembangunan sarana pengangkutan, penyimpanan, dan pengolahan untuk pemisahan dan pemurnian minyak dan gas bumi di lapangan, serta kegiatan lain yang mendukungnya.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            122
+          ],
+          [
+            291,
+            235
+          ],
+          [
+            870,
+            235
+          ],
+          [
+            870,
+            127
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          236,
+          869,
+          300
+        ],
+        "content": "143. Eksplorasi adalah kegiatan yang bertujuan memperoleh informasi mengenai kondisi geologi untuk menemukan dan memperoleh perkiraan cadangan minyak dan gas bumi di wilayah kerja yang ditentukan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            251
+          ],
+          [
+            286,
+            300
+          ],
+          [
+            868,
+            300
+          ],
+          [
+            868,
+            236
+          ],
+          [
+            291,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          301,
+          870,
+          397
+        ],
+        "content": "144. Uang Persediaan adalah uang muka kerja dalam jumlah tertentu yang diberikan kepada bendahara pengeluaran untuk membiayai kegiatan operasional sehari-hari satuan kerja atau membiayai pengeluaran yang menurut sifat dan tujuannya tidak mungkin dilakukan melalui mekanisme pembayaran langsung.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            301
+          ],
+          [
+            285,
+            392
+          ],
+          [
+            305,
+            397
+          ],
+          [
+            869,
+            397
+          ],
+          [
+            869,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          398,
+          869,
+          478
+        ],
+        "content": "145. Wajib Pajak Baru adalah Wajib Pajak orang pribadi dan Badan yang baru terdaftar pada suatu Tahun Pajak, termasuk Wajib Pajak dalam rangka penggabungan, peleburan, pemekaran, pengambilalihan usaha dan/atau perubahan bentuk badan usaha.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            398
+          ],
+          [
+            285,
+            478
+          ],
+          [
+            868,
+            478
+          ],
+          [
+            868,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          608
+        ],
+        "content": "146. Wajib Pajak lainnya yang berdasarkan ketentuan diharuskan membuat laporan keuangan berkala yang selanjutnya disebut Wajib Pajak Lainnya adalah Wajib Pajak yang melaksanakan kegiatan di sektor perasuransian, dana pensiun, lembaga pembaiyaan dan lembaga jasa keuangan lainnya sebagaimana diatur dalam ketentuan peraturan perundang- undangan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            289,
+            608
+          ],
+          [
+            870,
+            608
+          ],
+          [
+            870,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          610,
+          868,
+          689
+        ],
+        "content": "147. Penanaman Modal adalah segala bentuk kegiatan menanam modal, baik oleh penanam modal dalam negeri maupun penanam modal asing untuk melakukan usaha di wilayah negara Republik Indonesia.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            610
+          ],
+          [
+            284,
+            689
+          ],
+          [
+            867,
+            689
+          ],
+          [
+            867,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          691,
+          867,
+          738
+        ],
+        "content": "148. Pelaku Usaha adalah orang perseorangan atau badan usaha yang melakukan usaha dan/atau kegiatan pada bidang tertentu.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            691
+          ],
+          [
+            284,
+            738
+          ],
+          [
+            867,
+            738
+          ],
+          [
+            867,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          740,
+          869,
+          868
+        ],
+        "content": "149. Perseroan adalah perseroan terbatas dalam negeri yang sahamnya diperjualbelikan oleh pemegang saham Wajib Pajak luar negeri dan tidak berstatus sebagai emiten atau perusahaan publik sebagaimana diatur dalam Undang-Undang Nomor 8 Tahun 1995 tentang Pasar Modal sebagaimana telah diubah dengan Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            740
+          ],
+          [
+            284,
+            867
+          ],
+          [
+            868,
+            867
+          ],
+          [
+            868,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          869,
+          868,
+          901
+        ],
+        "content": "150. Perusahaan Asuransi adalah perusahaan asuransiumum dan perusahaan asuransi jiwa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            869
+          ],
+          [
+            284,
+            900
+          ],
+          [
+            868,
+            900
+          ],
+          [
+            868,
+            869
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          861,
+          104
+        ],
+        "content": "151. Dividen adalah bagian laba yang diterima atau diperoleh pemegang saham.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            104
+          ],
+          [
+            861,
+            104
+          ],
+          [
+            861,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          105,
+          863,
+          153
+        ],
+        "content": "152. Wilayah Kerja adalah daerah tertentu di dalam wilayah hukum pertambangan Indonesia untuk pelaksanaan eksplorasi dan eksploitasi.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            105
+          ],
+          [
+            280,
+            152
+          ],
+          [
+            858,
+            152
+          ],
+          [
+            862,
+            148
+          ],
+          [
+            862,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          154,
+          864,
+          266
+        ],
+        "content": "153. Harga Minyak Mentah Indonesia (Indonesian Crude Price) adalah harga minyak mentah yang ditetapkan oleh pemerintah dengan suatu formula dalam rangka pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi serta penjualan minyak mentah bagian pemerintah yang berasal dari pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            154
+          ],
+          [
+            280,
+            266
+          ],
+          [
+            863,
+            266
+          ],
+          [
+            863,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          268,
+          863,
+          331
+        ],
+        "content": "154. Overlifting Kontraktor adalah kelebihan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            268
+          ],
+          [
+            280,
+            331
+          ],
+          [
+            862,
+            331
+          ],
+          [
+            862,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          333,
+          863,
+          396
+        ],
+        "content": "155. Underlifting Kontraktor adalah kekurangan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            333
+          ],
+          [
+            280,
+            396
+          ],
+          [
+            862,
+            396
+          ],
+          [
+            862,
+            333
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          398,
+          863,
+          461
+        ],
+        "content": "156. Nomor Transaksi Penerimaan Negara adalah nomor unik tanda bukti pembayaran/penyetoran ke Kas Negara yang diterbitkan sistem settlement terdiri dari kombinasi huruf dan angka.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            398
+          ],
+          [
+            279,
+            461
+          ],
+          [
+            862,
+            461
+          ],
+          [
+            862,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          463,
+          863,
+          510
+        ],
+        "content": "157. Nomor Transaksi Bank adalah nomor bukti transaksi penyetoran penerimaan negara yang diterbitkan bank persepsi atau Bank Persepsi Valas.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            463
+          ],
+          [
+            280,
+            510
+          ],
+          [
+            862,
+            510
+          ],
+          [
+            862,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          512,
+          862,
+          591
+        ],
+        "content": "158. Operator adalah Kontraktor atau dalam hal Kontraktor terdiri atas beberapa pemegang Partisipasi Interes, salah satu pemegang Partisipasi Interes yang ditunjuk sebagai wakil oleh pemegang Partisipasi Interes lainnya sesuai dengan Kontrak Kerja Sama.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            512
+          ],
+          [
+            279,
+            591
+          ],
+          [
+            862,
+            591
+          ],
+          [
+            862,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          593,
+          862,
+          640
+        ],
+        "content": "159. Partner adalah Kontraktor yang memiliki Partisipasi Interes dalam suatu Wilayah Kerja dan tidak bertindak sebagai Operator.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            593
+          ],
+          [
+            280,
+            640
+          ],
+          [
+            861,
+            640
+          ],
+          [
+            861,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          642,
+          862,
+          753
+        ],
+        "content": "160. Barang Bawaan adalah Barang Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan yang dibeli oleh turis asing dari Pengusaha Kena Pajak toko retail dan dibawa keluar Daerah Pabean sesuai dengan ketentuan peraturan perundang-undangan oleh yang bersangkutan dengan menggunakan moda transportasi pesawat udara.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            642
+          ],
+          [
+            285,
+            753
+          ],
+          [
+            862,
+            753
+          ],
+          [
+            862,
+            642
+          ],
+          [
+            703,
+            642
+          ],
+          [
+            698,
+            642
+          ],
+          [
+            499,
+            642
+          ],
+          [
+            494,
+            642
+          ],
+          [
+            464,
+            642
+          ],
+          [
+            458,
+            642
+          ],
+          [
+            404,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          755,
+          861,
+          804
+        ],
+        "content": "161. Orang Pribadi Pemegang Paspor Luar Negeri yang selanjutnya disebut Turis Asing adalah orang pribadi yang memiliki paspor yang diterbitkan oleh negara lain.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            755
+          ],
+          [
+            279,
+            803
+          ],
+          [
+            861,
+            803
+          ],
+          [
+            861,
+            755
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          804,
+          861,
+          851
+        ],
+        "content": "162. Pengusaha Kena Pajak Toko Retail adalah Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak melalui toko retail.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            804
+          ],
+          [
+            280,
+            851
+          ],
+          [
+            861,
+            851
+          ],
+          [
+            861,
+            804
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          853,
+          864,
+          916
+        ],
+        "content": "163. Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara adalah unit khusus dari Kantor Pelayanan Pajak, yang lokasi kerjanya meliputi suatu tempat sebelum check in counter di bandar udara dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            853
+          ],
+          [
+            279,
+            916
+          ],
+          [
+            863,
+            916
+          ],
+          [
+            863,
+            853
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          872,
+          235
+        ],
+        "content": "menagih bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor yang tidak atau kurang dibayar oleh importir, pengangkut, pengusaha tempat penimbunan sementara, pengusaha tempat penimbunan berikat, atau pengusaha pengurusan jasa kepabeanan, yang diterbitkan oleh pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penagihan piutang bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            235
+          ],
+          [
+            872,
+            235
+          ],
+          [
+            872,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          236,
+          871,
+          332
+        ],
+        "content": "123. Surat Penetapan Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            236
+          ],
+          [
+            287,
+            327
+          ],
+          [
+            312,
+            332
+          ],
+          [
+            461,
+            332
+          ],
+          [
+            487,
+            332
+          ],
+          [
+            551,
+            332
+          ],
+          [
+            815,
+            332
+          ],
+          [
+            870,
+            327
+          ],
+          [
+            870,
+            241
+          ],
+          [
+            835,
+            236
+          ],
+          [
+            821,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          333,
+          870,
+          446
+        ],
+        "content": "124. Persetujuan Bersama adalah hasil yang telah disepakati dalam penerapan Persetujuan Penghindaran Pajak Berganda oleh pejabat berwenang dari pemerintah Indonesia dan pejabat berwenang dari pemerintah mitra Persetujuan Penghindaran Pajak Berganda sehubungan dengan Prosedur Persetujuan Bersama (Mutual Agreement Procedure) yang telah dilaksanakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            333
+          ],
+          [
+            287,
+            445
+          ],
+          [
+            869,
+            445
+          ],
+          [
+            869,
+            333
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          447,
+          870,
+          592
+        ],
+        "content": "125. Surat Keterangan Domisili Wajib Pajak Luar Negeri adalah surat keterangan yang diterbitkan oleh pejabat yang berwenang di bidang perpajakan (competent authority) atau pejabat yang ditunjuk berdasarkan Persetujuan Penghindaran Pajak Berganda yang berisi status domisili (resident) subjek pajak luar negeri dengan menggunakan formulir sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            447
+          ],
+          [
+            286,
+            587
+          ],
+          [
+            316,
+            592
+          ],
+          [
+            460,
+            592
+          ],
+          [
+            516,
+            592
+          ],
+          [
+            555,
+            592
+          ],
+          [
+            804,
+            592
+          ],
+          [
+            824,
+            592
+          ],
+          [
+            869,
+            592
+          ],
+          [
+            869,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          593,
+          870,
+          656
+        ],
+        "content": "126. Surat Perintah Membayar Imbalan Bunga adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Menteri untuk membayar imbalan bunga kepada Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            593
+          ],
+          [
+            285,
+            656
+          ],
+          [
+            869,
+            656
+          ],
+          [
+            869,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          658,
+          868,
+          705
+        ],
+        "content": "127. Arsip Data Komputer adalah arsip data dalam bentuk softcopy yang disimpan dalam media penyimpanan digital.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            658
+          ],
+          [
+            285,
+            704
+          ],
+          [
+            868,
+            704
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          706,
+          869,
+          786
+        ],
+        "content": "128. Kantor Pelayanan Perbendaharaan Negara adalah instansi vertical Direktorat Jenderal Perbendaharaan yang memperoleh kuasa dari bendahara umum negara untuk melaksanakan sebagian fungsi kuasa bendahara umum negara.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            706
+          ],
+          [
+            285,
+            786
+          ],
+          [
+            868,
+            786
+          ],
+          [
+            868,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          788,
+          869,
+          918
+        ],
+        "content": "129. Surat Pemberitahuan Masa Pajak Penghasilan Unifikasi adalah Surat Pemberitahuan Masa yang digunakan oleh pemotong atau pemungut Pajak Penghasilan untuk melaporkan kewajiban pemotongan dan/atau pemungutan Pajak Penghasilan, penyetoran atas pemotongan dan/atau pemungutan Pajak Penghasilan, dan/atau penyetoran sendiri atas beberapa jenis Pajak Penghasilan dalam 1 (satu) Masa Pajak, sesuai dengan",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            788
+          ],
+          [
+            293,
+            917
+          ],
+          [
+            868,
+            917
+          ],
+          [
+            868,
+            788
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          329,
+          73,
+          870,
+          104
+        ],
+        "content": "ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            73
+          ],
+          [
+            329,
+            104
+          ],
+          [
+            870,
+            104
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          106,
+          870,
+          153
+        ],
+        "content": "130. Lifting adalah sejumlah minyak bumi dan/atau gas bumi yang tersedia untuk dijual atau dibagi di titik penyerahan (custody transfer point).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            106
+          ],
+          [
+            286,
+            153
+          ],
+          [
+            870,
+            153
+          ],
+          [
+            870,
+            111
+          ],
+          [
+            850,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          155,
+          869,
+          185
+        ],
+        "content": "131. Real Estat adalah tanah secara fisik dan bangunan yang ada di atasnya.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            155
+          ],
+          [
+            286,
+            185
+          ],
+          [
+            868,
+            185
+          ],
+          [
+            868,
+            155
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          187,
+          870,
+          235
+        ],
+        "content": "132. Kontrak Investasi Kolektif adalah kontrak investasi kolektif sesuai dengan peraturan perundang-undangan yang mengatur tentang pasar modal.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            187
+          ],
+          [
+            286,
+            234
+          ],
+          [
+            869,
+            234
+          ],
+          [
+            869,
+            187
+          ],
+          [
+            784,
+            187
+          ],
+          [
+            774,
+            187
+          ],
+          [
+            765,
+            187
+          ],
+          [
+            695,
+            187
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          236,
+          869,
+          315
+        ],
+        "content": "133. Angsuran Pajak Penghasilan Pasal 25 adalah angsuran Pajak Penghasilan dalam Tahun Pajak berjalan untuk suatu bulan yang harus dibayar sendiri oleh Wajib Pajak sebagaimana diatur dalam Pasal 25 Undang-Undang Pajak Penghasilan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            236
+          ],
+          [
+            285,
+            315
+          ],
+          [
+            868,
+            315
+          ],
+          [
+            868,
+            241
+          ],
+          [
+            844,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          317,
+          868,
+          397
+        ],
+        "content": "134. Penelitian Surat Pemberitahuan adalah serangkaian kegiatan yang dilakukan untuk menilai kelengkapan pengisian Surat Pemberitahuan dan lampiran-lampirannya termasuk penilaian tentang kebenaran penulisan dan perhitungannya.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            317
+          ],
+          [
+            285,
+            396
+          ],
+          [
+            868,
+            396
+          ],
+          [
+            868,
+            322
+          ],
+          [
+            803,
+            317
+          ],
+          [
+            784,
+            317
+          ],
+          [
+            778,
+            317
+          ],
+          [
+            729,
+            317
+          ],
+          [
+            724,
+            317
+          ],
+          [
+            704,
+            317
+          ],
+          [
+            694,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          399,
+          869,
+          462
+        ],
+        "content": "135. Badan Usaha Milik Negara adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh negara melalui penyertaan secara langsung yang berasal dari kekayaan negara yang dipisahkan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            399
+          ],
+          [
+            285,
+            461
+          ],
+          [
+            868,
+            461
+          ],
+          [
+            868,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          463,
+          869,
+          575
+        ],
+        "content": "136. Special Purpose Company adalah perseroan terbatas yang sahamnya dimiliki oleh dana investasi Real Estat berbentuk Kontrak Investasi Kolektif paling kurang 99,9% (sembilan puluh sembilan koma sembilan persen) dari modal disetor yang dibentuk semata-mata untuk kepentingan dana investasi Real Estat berbentuk Kontrak Investasi Kolektif.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            463
+          ],
+          [
+            284,
+            575
+          ],
+          [
+            868,
+            575
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          577,
+          868,
+          656
+        ],
+        "content": "137. Dana Investasi Real Estat adalah wadah yang dipergunakan untuk menghimpun dana dari masyarakat pemodal untuk selanjutnya diinvestasikan pada aset Real Estat, aset yang berkaitan dengan Real Estat, dan/atau kas dan setara kas.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            577
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            868,
+            656
+          ],
+          [
+            868,
+            577
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          658,
+          868,
+          737
+        ],
+        "content": "138. Surat Keterangan Fiskal adalah informasi mengenai kepatuhan Wajib Pajak selama periode tertentu untuk memenuhi persyaratan memperoleh pelayanan atau dalam rangka pelaksanaan kegiatan tertentu yang diberikan oleh Direktorat Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            658
+          ],
+          [
+            284,
+            732
+          ],
+          [
+            300,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          740,
+          868,
+          819
+        ],
+        "content": "139. Kontraktor Kontrak Kerja Sama Minyak dan Gas Bumi adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan badan pelaksana.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            740
+          ],
+          [
+            284,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          821,
+          869,
+          917
+        ],
+        "content": "140. Uplift adalah imbalan yang diterima oleh Kontraktor sehubungan dengan penyediaan dana talangan untuk pembiayaan operasi kontrak bagi hasil yang seharusnya merupakan kewajiban partisipasi Kontraktor lain, yang ada dalam satu Kontrak Kerja Sama, dalam pembiyaan.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            821
+          ],
+          [
+            284,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            821
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          285,
+          73,
+          870,
+          121
+        ],
+        "content": "141. Partisipasi Interes adalah hak, kepentingan, dan kewajiban kontraktor berdasarkan Kontrak Kerja Sama di bidang minyak dan gas bumi.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            73
+          ],
+          [
+            285,
+            120
+          ],
+          [
+            870,
+            120
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          122,
+          871,
+          235
+        ],
+        "content": "142. Eksploitasi adalah rangkaian kegiatan yang bertujuan untuk menghasilkan minyak dan gas bumi dari wilayah kerja yang ditentukan, yang terdiri atas pengeboran dan penyelesaian sumur, pembangunan sarana pengangkutan, penyimpanan, dan pengolahan untuk pemisahan dan pemurnian minyak dan gas bumi di lapangan, serta kegiatan lain yang mendukungnya.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            122
+          ],
+          [
+            291,
+            235
+          ],
+          [
+            870,
+            235
+          ],
+          [
+            870,
+            127
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          236,
+          869,
+          300
+        ],
+        "content": "143. Eksplorasi adalah kegiatan yang bertujuan memperoleh informasi mengenai kondisi geologi untuk menemukan dan memperoleh perkiraan cadangan minyak dan gas bumi di wilayah kerja yang ditentukan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            251
+          ],
+          [
+            286,
+            300
+          ],
+          [
+            868,
+            300
+          ],
+          [
+            868,
+            236
+          ],
+          [
+            291,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          301,
+          870,
+          397
+        ],
+        "content": "144. Uang Persediaan adalah uang muka kerja dalam jumlah tertentu yang diberikan kepada bendahara pengeluaran untuk membiayai kegiatan operasional sehari-hari satuan kerja atau membiayai pengeluaran yang menurut sifat dan tujuannya tidak mungkin dilakukan melalui mekanisme pembayaran langsung.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            301
+          ],
+          [
+            285,
+            392
+          ],
+          [
+            305,
+            397
+          ],
+          [
+            869,
+            397
+          ],
+          [
+            869,
+            301
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          398,
+          869,
+          478
+        ],
+        "content": "145. Wajib Pajak Baru adalah Wajib Pajak orang pribadi dan Badan yang baru terdaftar pada suatu Tahun Pajak, termasuk Wajib Pajak dalam rangka penggabungan, peleburan, pemekaran, pengambilalihan usaha dan/atau perubahan bentuk badan usaha.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            398
+          ],
+          [
+            285,
+            478
+          ],
+          [
+            868,
+            478
+          ],
+          [
+            868,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          608
+        ],
+        "content": "146. Wajib Pajak lainnya yang berdasarkan ketentuan diharuskan membuat laporan keuangan berkala yang selanjutnya disebut Wajib Pajak Lainnya adalah Wajib Pajak yang melaksanakan kegiatan di sektor perasuransian, dana pensiun, lembaga pembaiyaan dan lembaga jasa keuangan lainnya sebagaimana diatur dalam ketentuan peraturan perundang- undangan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            289,
+            608
+          ],
+          [
+            870,
+            608
+          ],
+          [
+            870,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          610,
+          868,
+          689
+        ],
+        "content": "147. Penanaman Modal adalah segala bentuk kegiatan menanam modal, baik oleh penanam modal dalam negeri maupun penanam modal asing untuk melakukan usaha di wilayah negara Republik Indonesia.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            610
+          ],
+          [
+            284,
+            689
+          ],
+          [
+            867,
+            689
+          ],
+          [
+            867,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          691,
+          867,
+          738
+        ],
+        "content": "148. Pelaku Usaha adalah orang perseorangan atau badan usaha yang melakukan usaha dan/atau kegiatan pada bidang tertentu.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            691
+          ],
+          [
+            284,
+            738
+          ],
+          [
+            867,
+            738
+          ],
+          [
+            867,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          740,
+          869,
+          868
+        ],
+        "content": "149. Perseroan adalah perseroan terbatas dalam negeri yang sahamnya diperjualbelikan oleh pemegang saham Wajib Pajak luar negeri dan tidak berstatus sebagai emiten atau perusahaan publik sebagaimana diatur dalam Undang-Undang Nomor 8 Tahun 1995 tentang Pasar Modal sebagaimana telah diubah dengan Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            740
+          ],
+          [
+            284,
+            867
+          ],
+          [
+            868,
+            867
+          ],
+          [
+            868,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          869,
+          868,
+          901
+        ],
+        "content": "150. Perusahaan Asuransi adalah perusahaan asuransiumum dan perusahaan asuransi jiwa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            869
+          ],
+          [
+            284,
+            900
+          ],
+          [
+            868,
+            900
+          ],
+          [
+            868,
+            869
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          861,
+          104
+        ],
+        "content": "151. Dividen adalah bagian laba yang diterima atau diperoleh pemegang saham.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            104
+          ],
+          [
+            861,
+            104
+          ],
+          [
+            861,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          105,
+          863,
+          153
+        ],
+        "content": "152. Wilayah Kerja adalah daerah tertentu di dalam wilayah hukum pertambangan Indonesia untuk pelaksanaan eksplorasi dan eksploitasi.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            105
+          ],
+          [
+            280,
+            152
+          ],
+          [
+            858,
+            152
+          ],
+          [
+            862,
+            148
+          ],
+          [
+            862,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          154,
+          864,
+          266
+        ],
+        "content": "153. Harga Minyak Mentah Indonesia (Indonesian Crude Price) adalah harga minyak mentah yang ditetapkan oleh pemerintah dengan suatu formula dalam rangka pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi serta penjualan minyak mentah bagian pemerintah yang berasal dari pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            154
+          ],
+          [
+            280,
+            266
+          ],
+          [
+            863,
+            266
+          ],
+          [
+            863,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          268,
+          863,
+          331
+        ],
+        "content": "154. Overlifting Kontraktor adalah kelebihan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            268
+          ],
+          [
+            280,
+            331
+          ],
+          [
+            862,
+            331
+          ],
+          [
+            862,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          333,
+          863,
+          396
+        ],
+        "content": "155. Underlifting Kontraktor adalah kekurangan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            333
+          ],
+          [
+            280,
+            396
+          ],
+          [
+            862,
+            396
+          ],
+          [
+            862,
+            333
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          398,
+          863,
+          461
+        ],
+        "content": "156. Nomor Transaksi Penerimaan Negara adalah nomor unik tanda bukti pembayaran/penyetoran ke Kas Negara yang diterbitkan sistem settlement terdiri dari kombinasi huruf dan angka.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            398
+          ],
+          [
+            279,
+            461
+          ],
+          [
+            862,
+            461
+          ],
+          [
+            862,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          463,
+          863,
+          510
+        ],
+        "content": "157. Nomor Transaksi Bank adalah nomor bukti transaksi penyetoran penerimaan negara yang diterbitkan bank persepsi atau Bank Persepsi Valas.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            463
+          ],
+          [
+            280,
+            510
+          ],
+          [
+            862,
+            510
+          ],
+          [
+            862,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          512,
+          862,
+          591
+        ],
+        "content": "158. Operator adalah Kontraktor atau dalam hal Kontraktor terdiri atas beberapa pemegang Partisipasi Interes, salah satu pemegang Partisipasi Interes yang ditunjuk sebagai wakil oleh pemegang Partisipasi Interes lainnya sesuai dengan Kontrak Kerja Sama.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            512
+          ],
+          [
+            279,
+            591
+          ],
+          [
+            862,
+            591
+          ],
+          [
+            862,
+            512
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          593,
+          862,
+          640
+        ],
+        "content": "159. Partner adalah Kontraktor yang memiliki Partisipasi Interes dalam suatu Wilayah Kerja dan tidak bertindak sebagai Operator.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            593
+          ],
+          [
+            280,
+            640
+          ],
+          [
+            861,
+            640
+          ],
+          [
+            861,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          642,
+          862,
+          753
+        ],
+        "content": "160. Barang Bawaan adalah Barang Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan yang dibeli oleh turis asing dari Pengusaha Kena Pajak toko retail dan dibawa keluar Daerah Pabean sesuai dengan ketentuan peraturan perundang-undangan oleh yang bersangkutan dengan menggunakan moda transportasi pesawat udara.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            642
+          ],
+          [
+            285,
+            753
+          ],
+          [
+            862,
+            753
+          ],
+          [
+            862,
+            642
+          ],
+          [
+            703,
+            642
+          ],
+          [
+            698,
+            642
+          ],
+          [
+            499,
+            642
+          ],
+          [
+            494,
+            642
+          ],
+          [
+            464,
+            642
+          ],
+          [
+            458,
+            642
+          ],
+          [
+            404,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          755,
+          861,
+          804
+        ],
+        "content": "161. Orang Pribadi Pemegang Paspor Luar Negeri yang selanjutnya disebut Turis Asing adalah orang pribadi yang memiliki paspor yang diterbitkan oleh negara lain.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            755
+          ],
+          [
+            279,
+            803
+          ],
+          [
+            861,
+            803
+          ],
+          [
+            861,
+            755
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          804,
+          861,
+          851
+        ],
+        "content": "162. Pengusaha Kena Pajak Toko Retail adalah Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak melalui toko retail.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            804
+          ],
+          [
+            280,
+            851
+          ],
+          [
+            861,
+            851
+          ],
+          [
+            861,
+            804
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          853,
+          864,
+          916
+        ],
+        "content": "163. Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara adalah unit khusus dari Kantor Pelayanan Pajak, yang lokasi kerjanya meliputi suatu tempat sebelum check in counter di bandar udara dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            853
+          ],
+          [
+            279,
+            916
+          ],
+          [
+            863,
+            916
+          ],
+          [
+            863,
+            853
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "menagih bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor yang tidak atau kurang dibayar oleh importir, pengangkut, pengusaha tempat penimbunan sementara, pengusaha tempat penimbunan berikat, atau pengusaha pengurusan jasa kepabeanan, yang diterbitkan oleh pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penagihan piutang bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor.\n\n123. Surat Penetapan Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n124. Persetujuan Bersama adalah hasil yang telah disepakati dalam penerapan Persetujuan Penghindaran Pajak Berganda oleh pejabat berwenang dari pemerintah Indonesia dan pejabat berwenang dari pemerintah mitra Persetujuan Penghindaran Pajak Berganda sehubungan dengan Prosedur Persetujuan Bersama (Mutual Agreement Procedure) yang telah dilaksanakan.\n\n125. Surat Keterangan Domisili Wajib Pajak Luar Negeri adalah surat keterangan yang diterbitkan oleh pejabat yang berwenang di bidang perpajakan (competent authority) atau pejabat yang ditunjuk berdasarkan Persetujuan Penghindaran Pajak Berganda yang berisi status domisili (resident) subjek pajak luar negeri dengan menggunakan formulir sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n126. Surat Perintah Membayar Imbalan Bunga adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Menteri untuk membayar imbalan bunga kepada Wajib Pajak.\n\n127. Arsip Data Komputer adalah arsip data dalam bentuk softcopy yang disimpan dalam media penyimpanan digital.\n\n128. Kantor Pelayanan Perbendaharaan Negara adalah instansi vertical Direktorat Jenderal Perbendaharaan yang memperoleh kuasa dari bendahara umum negara untuk melaksanakan sebagian fungsi kuasa bendahara umum negara.\n\n129. Surat Pemberitahuan Masa Pajak Penghasilan Unifikasi adalah Surat Pemberitahuan Masa yang digunakan oleh pemotong atau pemungut Pajak Penghasilan untuk melaporkan kewajiban pemotongan dan/atau pemungutan Pajak Penghasilan, penyetoran atas pemotongan dan/atau pemungutan Pajak Penghasilan, dan/atau penyetoran sendiri atas beberapa jenis Pajak Penghasilan dalam 1 (satu) Masa Pajak, sesuai dengan\n\nketentuan peraturan perundang-undangan di bidang perpajakan.\n\n130. Lifting adalah sejumlah minyak bumi dan/atau gas bumi yang tersedia untuk dijual atau dibagi di titik penyerahan (custody transfer point).\n\n131. Real Estat adalah tanah secara fisik dan bangunan yang ada di atasnya.\n\n132. Kontrak Investasi Kolektif adalah kontrak investasi kolektif sesuai dengan peraturan perundang-undangan yang mengatur tentang pasar modal.\n\n133. Angsuran Pajak Penghasilan Pasal 25 adalah angsuran Pajak Penghasilan dalam Tahun Pajak berjalan untuk suatu bulan yang harus dibayar sendiri oleh Wajib Pajak sebagaimana diatur dalam Pasal 25 Undang-Undang Pajak Penghasilan.\n\n134. Penelitian Surat Pemberitahuan adalah serangkaian kegiatan yang dilakukan untuk menilai kelengkapan pengisian Surat Pemberitahuan dan lampiran-lampirannya termasuk penilaian tentang kebenaran penulisan dan perhitungannya.\n\n135. Badan Usaha Milik Negara adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh negara melalui penyertaan secara langsung yang berasal dari kekayaan negara yang dipisahkan.\n\n136. Special Purpose Company adalah perseroan terbatas yang sahamnya dimiliki oleh dana investasi Real Estat berbentuk Kontrak Investasi Kolektif paling kurang 99,9% (sembilan puluh sembilan koma sembilan persen) dari modal disetor yang dibentuk semata-mata untuk kepentingan dana investasi Real Estat berbentuk Kontrak Investasi Kolektif.\n\n137. Dana Investasi Real Estat adalah wadah yang dipergunakan untuk menghimpun dana dari masyarakat pemodal untuk selanjutnya diinvestasikan pada aset Real Estat, aset yang berkaitan dengan Real Estat, dan/atau kas dan setara kas.\n\n138. Surat Keterangan Fiskal adalah informasi mengenai kepatuhan Wajib Pajak selama periode tertentu untuk memenuhi persyaratan memperoleh pelayanan atau dalam rangka pelaksanaan kegiatan tertentu yang diberikan oleh Direktorat Jenderal Pajak.\n\n139. Kontraktor Kontrak Kerja Sama Minyak dan Gas Bumi adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan badan pelaksana.\n\n140. Uplift adalah imbalan yang diterima oleh Kontraktor sehubungan dengan penyediaan dana talangan untuk pembiayaan operasi kontrak bagi hasil yang seharusnya merupakan kewajiban partisipasi Kontraktor lain, yang ada dalam satu Kontrak Kerja Sama, dalam pembiyaan.\n\n141. Partisipasi Interes adalah hak, kepentingan, dan kewajiban kontraktor berdasarkan Kontrak Kerja Sama di bidang minyak dan gas bumi.\n\n142. Eksploitasi adalah rangkaian kegiatan yang bertujuan untuk menghasilkan minyak dan gas bumi dari wilayah kerja yang ditentukan, yang terdiri atas pengeboran dan penyelesaian sumur, pembangunan sarana pengangkutan, penyimpanan, dan pengolahan untuk pemisahan dan pemurnian minyak dan gas bumi di lapangan, serta kegiatan lain yang mendukungnya.\n\n143. Eksplorasi adalah kegiatan yang bertujuan memperoleh informasi mengenai kondisi geologi untuk menemukan dan memperoleh perkiraan cadangan minyak dan gas bumi di wilayah kerja yang ditentukan.\n\n144. Uang Persediaan adalah uang muka kerja dalam jumlah tertentu yang diberikan kepada bendahara pengeluaran untuk membiayai kegiatan operasional sehari-hari satuan kerja atau membiayai pengeluaran yang menurut sifat dan tujuannya tidak mungkin dilakukan melalui mekanisme pembayaran langsung.\n\n145. Wajib Pajak Baru adalah Wajib Pajak orang pribadi dan Badan yang baru terdaftar pada suatu Tahun Pajak, termasuk Wajib Pajak dalam rangka penggabungan, peleburan, pemekaran, pengambilalihan usaha dan/atau perubahan bentuk badan usaha.\n\n146. Wajib Pajak lainnya yang berdasarkan ketentuan diharuskan membuat laporan keuangan berkala yang selanjutnya disebut Wajib Pajak Lainnya adalah Wajib Pajak yang melaksanakan kegiatan di sektor perasuransian, dana pensiun, lembaga pembaiyaan dan lembaga jasa keuangan lainnya sebagaimana diatur dalam ketentuan peraturan perundang- undangan.\n\n147. Penanaman Modal adalah segala bentuk kegiatan menanam modal, baik oleh penanam modal dalam negeri maupun penanam modal asing untuk melakukan usaha di wilayah negara Republik Indonesia.\n\n148. Pelaku Usaha adalah orang perseorangan atau badan usaha yang melakukan usaha dan/atau kegiatan pada bidang tertentu.\n\n149. Perseroan adalah perseroan terbatas dalam negeri yang sahamnya diperjualbelikan oleh pemegang saham Wajib Pajak luar negeri dan tidak berstatus sebagai emiten atau perusahaan publik sebagaimana diatur dalam Undang-Undang Nomor 8 Tahun 1995 tentang Pasar Modal sebagaimana telah diubah dengan Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan.\n\n150. Perusahaan Asuransi adalah perusahaan asuransiumum dan perusahaan asuransi jiwa.\n\n151. Dividen adalah bagian laba yang diterima atau diperoleh pemegang saham.\n\n152. Wilayah Kerja adalah daerah tertentu di dalam wilayah hukum pertambangan Indonesia untuk pelaksanaan eksplorasi dan eksploitasi.\n\n153. Harga Minyak Mentah Indonesia (Indonesian Crude Price) adalah harga minyak mentah yang ditetapkan oleh pemerintah dengan suatu formula dalam rangka pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi serta penjualan minyak mentah bagian pemerintah yang berasal dari pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi.\n\n154. Overlifting Kontraktor adalah kelebihan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.\n\n155. Underlifting Kontraktor adalah kekurangan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.\n\n156. Nomor Transaksi Penerimaan Negara adalah nomor unik tanda bukti pembayaran/penyetoran ke Kas Negara yang diterbitkan sistem settlement terdiri dari kombinasi huruf dan angka.\n\n157. Nomor Transaksi Bank adalah nomor bukti transaksi penyetoran penerimaan negara yang diterbitkan bank persepsi atau Bank Persepsi Valas.\n\n158. Operator adalah Kontraktor atau dalam hal Kontraktor terdiri atas beberapa pemegang Partisipasi Interes, salah satu pemegang Partisipasi Interes yang ditunjuk sebagai wakil oleh pemegang Partisipasi Interes lainnya sesuai dengan Kontrak Kerja Sama.\n\n159. Partner adalah Kontraktor yang memiliki Partisipasi Interes dalam suatu Wilayah Kerja dan tidak bertindak sebagai Operator.\n\n160. Barang Bawaan adalah Barang Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan yang dibeli oleh turis asing dari Pengusaha Kena Pajak toko retail dan dibawa keluar Daerah Pabean sesuai dengan ketentuan peraturan perundang-undangan oleh yang bersangkutan dengan menggunakan moda transportasi pesawat udara.\n\n161. Orang Pribadi Pemegang Paspor Luar Negeri yang selanjutnya disebut Turis Asing adalah orang pribadi yang memiliki paspor yang diterbitkan oleh negara lain.\n\n162. Pengusaha Kena Pajak Toko Retail adalah Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak melalui toko retail.\n\n163. Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara adalah unit khusus dari Kantor Pelayanan Pajak, yang lokasi kerjanya meliputi suatu tempat sebelum check in counter di bandar udara dan",
+  "md_results": "menagih bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor yang tidak atau kurang dibayar oleh importir, pengangkut, pengusaha tempat penimbunan sementara, pengusaha tempat penimbunan berikat, atau pengusaha pengurusan jasa kepabeanan, yang diterbitkan oleh pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penagihan piutang bea masuk, cukai, denda administrasi, bunga, dan Pajak Dalam Rangka Impor.\n\n123. Surat Penetapan Pabean adalah surat penetapan pejabat bea dan cukai sebagaimana diatur dalam Peraturan Menteri yang mengatur mengenai tata cara penetapan tarif, nilai pabean, dan sanksi administratif, serta penetapan Direktur Jenderal Bea dan Cukai atau pejabat bea dan cukai.\n\n124. Persetujuan Bersama adalah hasil yang telah disepakati dalam penerapan Persetujuan Penghindaran Pajak Berganda oleh pejabat berwenang dari pemerintah Indonesia dan pejabat berwenang dari pemerintah mitra Persetujuan Penghindaran Pajak Berganda sehubungan dengan Prosedur Persetujuan Bersama (Mutual Agreement Procedure) yang telah dilaksanakan.\n\n125. Surat Keterangan Domisili Wajib Pajak Luar Negeri adalah surat keterangan yang diterbitkan oleh pejabat yang berwenang di bidang perpajakan (competent authority) atau pejabat yang ditunjuk berdasarkan Persetujuan Penghindaran Pajak Berganda yang berisi status domisili (resident) subjek pajak luar negeri dengan menggunakan formulir sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n126. Surat Perintah Membayar Imbalan Bunga adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Menteri untuk membayar imbalan bunga kepada Wajib Pajak.\n\n127. Arsip Data Komputer adalah arsip data dalam bentuk softcopy yang disimpan dalam media penyimpanan digital.\n\n128. Kantor Pelayanan Perbendaharaan Negara adalah instansi vertical Direktorat Jenderal Perbendaharaan yang memperoleh kuasa dari bendahara umum negara untuk melaksanakan sebagian fungsi kuasa bendahara umum negara.\n\n129. Surat Pemberitahuan Masa Pajak Penghasilan Unifikasi adalah Surat Pemberitahuan Masa yang digunakan oleh pemotong atau pemungut Pajak Penghasilan untuk melaporkan kewajiban pemotongan dan/atau pemungutan Pajak Penghasilan, penyetoran atas pemotongan dan/atau pemungutan Pajak Penghasilan, dan/atau penyetoran sendiri atas beberapa jenis Pajak Penghasilan dalam 1 (satu) Masa Pajak, sesuai dengan\n\nketentuan peraturan perundang-undangan di bidang perpajakan.\n\n130. Lifting adalah sejumlah minyak bumi dan/atau gas bumi yang tersedia untuk dijual atau dibagi di titik penyerahan (custody transfer point).\n\n131. Real Estat adalah tanah secara fisik dan bangunan yang ada di atasnya.\n\n132. Kontrak Investasi Kolektif adalah kontrak investasi kolektif sesuai dengan peraturan perundang-undangan yang mengatur tentang pasar modal.\n\n133. Angsuran Pajak Penghasilan Pasal 25 adalah angsuran Pajak Penghasilan dalam Tahun Pajak berjalan untuk suatu bulan yang harus dibayar sendiri oleh Wajib Pajak sebagaimana diatur dalam Pasal 25 Undang-Undang Pajak Penghasilan.\n\n134. Penelitian Surat Pemberitahuan adalah serangkaian kegiatan yang dilakukan untuk menilai kelengkapan pengisian Surat Pemberitahuan dan lampiran-lampirannya termasuk penilaian tentang kebenaran penulisan dan perhitungannya.\n\n135. Badan Usaha Milik Negara adalah badan usaha yang seluruh atau sebagian besar modalnya dimiliki oleh negara melalui penyertaan secara langsung yang berasal dari kekayaan negara yang dipisahkan.\n\n136. Special Purpose Company adalah perseroan terbatas yang sahamnya dimiliki oleh dana investasi Real Estat berbentuk Kontrak Investasi Kolektif paling kurang 99,9% (sembilan puluh sembilan koma sembilan persen) dari modal disetor yang dibentuk semata-mata untuk kepentingan dana investasi Real Estat berbentuk Kontrak Investasi Kolektif.\n\n137. Dana Investasi Real Estat adalah wadah yang dipergunakan untuk menghimpun dana dari masyarakat pemodal untuk selanjutnya diinvestasikan pada aset Real Estat, aset yang berkaitan dengan Real Estat, dan/atau kas dan setara kas.\n\n138. Surat Keterangan Fiskal adalah informasi mengenai kepatuhan Wajib Pajak selama periode tertentu untuk memenuhi persyaratan memperoleh pelayanan atau dalam rangka pelaksanaan kegiatan tertentu yang diberikan oleh Direktorat Jenderal Pajak.\n\n139. Kontraktor Kontrak Kerja Sama Minyak dan Gas Bumi adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan badan pelaksana.\n\n140. Uplift adalah imbalan yang diterima oleh Kontraktor sehubungan dengan penyediaan dana talangan untuk pembiayaan operasi kontrak bagi hasil yang seharusnya merupakan kewajiban partisipasi Kontraktor lain, yang ada dalam satu Kontrak Kerja Sama, dalam pembiyaan.\n\n141. Partisipasi Interes adalah hak, kepentingan, dan kewajiban kontraktor berdasarkan Kontrak Kerja Sama di bidang minyak dan gas bumi.\n\n142. Eksploitasi adalah rangkaian kegiatan yang bertujuan untuk menghasilkan minyak dan gas bumi dari wilayah kerja yang ditentukan, yang terdiri atas pengeboran dan penyelesaian sumur, pembangunan sarana pengangkutan, penyimpanan, dan pengolahan untuk pemisahan dan pemurnian minyak dan gas bumi di lapangan, serta kegiatan lain yang mendukungnya.\n\n143. Eksplorasi adalah kegiatan yang bertujuan memperoleh informasi mengenai kondisi geologi untuk menemukan dan memperoleh perkiraan cadangan minyak dan gas bumi di wilayah kerja yang ditentukan.\n\n144. Uang Persediaan adalah uang muka kerja dalam jumlah tertentu yang diberikan kepada bendahara pengeluaran untuk membiayai kegiatan operasional sehari-hari satuan kerja atau membiayai pengeluaran yang menurut sifat dan tujuannya tidak mungkin dilakukan melalui mekanisme pembayaran langsung.\n\n145. Wajib Pajak Baru adalah Wajib Pajak orang pribadi dan Badan yang baru terdaftar pada suatu Tahun Pajak, termasuk Wajib Pajak dalam rangka penggabungan, peleburan, pemekaran, pengambilalihan usaha dan/atau perubahan bentuk badan usaha.\n\n146. Wajib Pajak lainnya yang berdasarkan ketentuan diharuskan membuat laporan keuangan berkala yang selanjutnya disebut Wajib Pajak Lainnya adalah Wajib Pajak yang melaksanakan kegiatan di sektor perasuransian, dana pensiun, lembaga pembaiyaan dan lembaga jasa keuangan lainnya sebagaimana diatur dalam ketentuan peraturan perundang- undangan.\n\n147. Penanaman Modal adalah segala bentuk kegiatan menanam modal, baik oleh penanam modal dalam negeri maupun penanam modal asing untuk melakukan usaha di wilayah negara Republik Indonesia.\n\n148. Pelaku Usaha adalah orang perseorangan atau badan usaha yang melakukan usaha dan/atau kegiatan pada bidang tertentu.\n\n149. Perseroan adalah perseroan terbatas dalam negeri yang sahamnya diperjualbelikan oleh pemegang saham Wajib Pajak luar negeri dan tidak berstatus sebagai emiten atau perusahaan publik sebagaimana diatur dalam Undang-Undang Nomor 8 Tahun 1995 tentang Pasar Modal sebagaimana telah diubah dengan Undang-Undang Nomor 4 Tahun 2023 tentang Pengembangan dan Penguatan Sektor Keuangan.\n\n150. Perusahaan Asuransi adalah perusahaan asuransiumum dan perusahaan asuransi jiwa.\n\n151. Dividen adalah bagian laba yang diterima atau diperoleh pemegang saham.\n\n152. Wilayah Kerja adalah daerah tertentu di dalam wilayah hukum pertambangan Indonesia untuk pelaksanaan eksplorasi dan eksploitasi.\n\n153. Harga Minyak Mentah Indonesia (Indonesian Crude Price) adalah harga minyak mentah yang ditetapkan oleh pemerintah dengan suatu formula dalam rangka pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi serta penjualan minyak mentah bagian pemerintah yang berasal dari pelaksanaan Kontrak Kerja Sama minyak bumi dan/atau gas bumi.\n\n154. Overlifting Kontraktor adalah kelebihan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.\n\n155. Underlifting Kontraktor adalah kekurangan pengambilan minyak dan/atau gas bumi oleh Kontraktor dibandingkan dengan haknya yang diatur dalam Kontrak Kerja Sama pada periode tertentu.\n\n156. Nomor Transaksi Penerimaan Negara adalah nomor unik tanda bukti pembayaran/penyetoran ke Kas Negara yang diterbitkan sistem settlement terdiri dari kombinasi huruf dan angka.\n\n157. Nomor Transaksi Bank adalah nomor bukti transaksi penyetoran penerimaan negara yang diterbitkan bank persepsi atau Bank Persepsi Valas.\n\n158. Operator adalah Kontraktor atau dalam hal Kontraktor terdiri atas beberapa pemegang Partisipasi Interes, salah satu pemegang Partisipasi Interes yang ditunjuk sebagai wakil oleh pemegang Partisipasi Interes lainnya sesuai dengan Kontrak Kerja Sama.\n\n159. Partner adalah Kontraktor yang memiliki Partisipasi Interes dalam suatu Wilayah Kerja dan tidak bertindak sebagai Operator.\n\n160. Barang Bawaan adalah Barang Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan yang dibeli oleh turis asing dari Pengusaha Kena Pajak toko retail dan dibawa keluar Daerah Pabean sesuai dengan ketentuan peraturan perundang-undangan oleh yang bersangkutan dengan menggunakan moda transportasi pesawat udara.\n\n161. Orang Pribadi Pemegang Paspor Luar Negeri yang selanjutnya disebut Turis Asing adalah orang pribadi yang memiliki paspor yang diterbitkan oleh negara lain.\n\n162. Pengusaha Kena Pajak Toko Retail adalah Pengusaha Kena Pajak yang melakukan penyerahan Barang Kena Pajak melalui toko retail.\n\n163. Unit Pelaksana Restitusi Pajak Pertambahan Nilai Bandar Udara adalah unit khusus dari Kantor Pelayanan Pajak, yang lokasi kerjanya meliputi suatu tempat sebelum check in counter di bandar udara dan",
+  "model": "glm-ocr",
+  "usage": {}
+}

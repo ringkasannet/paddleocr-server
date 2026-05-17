@@ -1,0 +1,4435 @@
+{
+  "created": 1779015308,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-711efb74d4274a41a703f89837dcf",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          331,
+          72,
+          872,
+          148
+        ],
+        "content": "secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Instansi Pemerintah yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            72
+          ],
+          [
+            331,
+            148
+          ],
+          [
+            871,
+            148
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          148,
+          871,
+          193
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            183
+          ],
+          [
+            302,
+            192
+          ],
+          [
+            321,
+            192
+          ],
+          [
+            332,
+            192
+          ],
+          [
+            871,
+            192
+          ],
+          [
+            871,
+            148
+          ],
+          [
+            292,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          194,
+          871,
+          253
+        ],
+        "content": "a. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            194
+          ],
+          [
+            331,
+            248
+          ],
+          [
+            351,
+            252
+          ],
+          [
+            870,
+            252
+          ],
+          [
+            870,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          253,
+          870,
+          283
+        ],
+        "content": "b. memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            253
+          ],
+          [
+            331,
+            282
+          ],
+          [
+            869,
+            282
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          283,
+          871,
+          434
+        ],
+        "content": "(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak oleh Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pmenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menyatakan bahwa Wajib Pajak Instansi Pemerintah tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            283
+          ],
+          [
+            284,
+            428
+          ],
+          [
+            300,
+            433
+          ],
+          [
+            870,
+            433
+          ],
+          [
+            870,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          435,
+          870,
+          479
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            435
+          ],
+          [
+            284,
+            478
+          ],
+          [
+            869,
+            478
+          ],
+          [
+            869,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          568
+        ],
+        "content": "(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Instansi Pemerintah diterima secara lengkap.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            284,
+            568
+          ],
+          [
+            869,
+            568
+          ],
+          [
+            869,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          570,
+          869,
+          691
+        ],
+        "content": "(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Instansi Pemerintah dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (5) berakhir.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            570
+          ],
+          [
+            283,
+            691
+          ],
+          [
+            868,
+            691
+          ],
+          [
+            868,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          705,
+          620,
+          719
+        ],
+        "content": "## Pasal 57",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            705
+          ],
+          [
+            532,
+            718
+          ],
+          [
+            620,
+            718
+          ],
+          [
+            620,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          720,
+          867,
+          795
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 56 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            720
+          ],
+          [
+            282,
+            794
+          ],
+          [
+            867,
+            794
+          ],
+          [
+            867,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          795,
+          868,
+          840
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            795
+          ],
+          [
+            282,
+            839
+          ],
+          [
+            867,
+            839
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          840,
+          869,
+          916
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (1), Direktur Jenderal Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan melalui penelitian administrasi terhadap Wajib Pajak Instansi",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            856
+          ],
+          [
+            281,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            840
+          ],
+          [
+            287,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          71,
+          870,
+          102
+        ],
+        "content": "Pemerintah dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            71
+          ],
+          [
+            330,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            71
+          ],
+          [
+            730,
+            71
+          ],
+          [
+            670,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          102,
+          871,
+          163
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            102
+          ],
+          [
+            290,
+            163
+          ],
+          [
+            871,
+            163
+          ],
+          [
+            871,
+            107
+          ],
+          [
+            816,
+            102
+          ],
+          [
+            791,
+            102
+          ],
+          [
+            761,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          178,
+          624,
+          192
+        ],
+        "content": "## Pasal 58",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            178
+          ],
+          [
+            535,
+            191
+          ],
+          [
+            623,
+            191
+          ],
+          [
+            623,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          192,
+          871,
+          268
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 56 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Instansi Pemerintah memenuhi ketentuan sebagai berikut:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            192
+          ],
+          [
+            283,
+            268
+          ],
+          [
+            870,
+            268
+          ],
+          [
+            870,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          268,
+          634,
+          283
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            268
+          ],
+          [
+            284,
+            283
+          ],
+          [
+            633,
+            283
+          ],
+          [
+            633,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          283,
+          662,
+          298
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            283
+          ],
+          [
+            285,
+            297
+          ],
+          [
+            661,
+            297
+          ],
+          [
+            661,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          298,
+          868,
+          329
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            298
+          ],
+          [
+            330,
+            329
+          ],
+          [
+            868,
+            329
+          ],
+          [
+            868,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          328,
+          682,
+          343
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            328
+          ],
+          [
+            330,
+            343
+          ],
+          [
+            682,
+            343
+          ],
+          [
+            682,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          344,
+          867,
+          373
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            344
+          ],
+          [
+            330,
+            372
+          ],
+          [
+            867,
+            372
+          ],
+          [
+            867,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          374,
+          868,
+          403
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan; dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            374
+          ],
+          [
+            328,
+            402
+          ],
+          [
+            867,
+            402
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          867,
+          433
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            433
+          ],
+          [
+            867,
+            433
+          ],
+          [
+            867,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          434,
+          869,
+          478
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            434
+          ],
+          [
+            330,
+            478
+          ],
+          [
+            868,
+            478
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          479,
+          593,
+          494
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            479
+          ],
+          [
+            330,
+            493
+          ],
+          [
+            592,
+            493
+          ],
+          [
+            592,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          495,
+          868,
+          524
+        ],
+        "content": "3. pengurangan atau penghapusan sanksi administratif;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            495
+          ],
+          [
+            329,
+            523
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            868,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          525,
+          867,
+          553
+        ],
+        "content": "4. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            525
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            866,
+            553
+          ],
+          [
+            866,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          555,
+          867,
+          584
+        ],
+        "content": "5. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            555
+          ],
+          [
+            328,
+            584
+          ],
+          [
+            867,
+            584
+          ],
+          [
+            867,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          585,
+          869,
+          615
+        ],
+        "content": "6. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            585
+          ],
+          [
+            332,
+            614
+          ],
+          [
+            868,
+            614
+          ],
+          [
+            868,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          615,
+          467,
+          630
+        ],
+        "content": "7. gugatan;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            615
+          ],
+          [
+            329,
+            629
+          ],
+          [
+            466,
+            629
+          ],
+          [
+            466,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          630,
+          565,
+          645
+        ],
+        "content": "8. banding; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            630
+          ],
+          [
+            329,
+            644
+          ],
+          [
+            564,
+            644
+          ],
+          [
+            564,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          646,
+          580,
+          661
+        ],
+        "content": "9. peninjauan kembali.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            646
+          ],
+          [
+            328,
+            660
+          ],
+          [
+            579,
+            660
+          ],
+          [
+            579,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          675,
+          620,
+          689
+        ],
+        "content": "## Pasal 59",
+        "index": 20,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            675
+          ],
+          [
+            531,
+            689
+          ],
+          [
+            620,
+            689
+          ],
+          [
+            620,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          690,
+          732,
+          705
+        ],
+        "content": "Direktur Jenderal Pajak secara jabatan dapat:",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            690
+          ],
+          [
+            282,
+            705
+          ],
+          [
+            732,
+            705
+          ],
+          [
+            732,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          705,
+          868,
+          779
+        ],
+        "content": "a. menerbitkan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17 ayat (1), Pasal 17 ayat (2), Pasal 32 ayat (4), Pasal 40, dan Pasal 50 ayat (2);",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            710
+          ],
+          [
+            287,
+            778
+          ],
+          [
+            867,
+            778
+          ],
+          [
+            867,
+            705
+          ],
+          [
+            287,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          780,
+          867,
+          825
+        ],
+        "content": "b. memberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 39 ayat (4); dan",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            780
+          ],
+          [
+            287,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          826,
+          868,
+          902
+        ],
+        "content": "c. melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak lagi memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan,",
+        "index": 24,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            826
+          ],
+          [
+            281,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          867,
+          105
+        ],
+        "content": "untuk memberikan kemudahan dalam administrasi perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            105
+          ],
+          [
+            867,
+            105
+          ],
+          [
+            867,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          505,
+          119,
+          647,
+          134
+        ],
+        "content": "## Bagian Kedua",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            505,
+            119
+          ],
+          [
+            505,
+            133
+          ],
+          [
+            647,
+            133
+          ],
+          [
+            647,
+            119
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          347,
+          134,
+          803,
+          150
+        ],
+        "content": "## Tata Cara Pengukuhan Pengusaha Kena Pajak",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            347,
+            134
+          ],
+          [
+            347,
+            150
+          ],
+          [
+            802,
+            150
+          ],
+          [
+            802,
+            134
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          164,
+          620,
+          178
+        ],
+        "content": "## Pasal 60",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            164
+          ],
+          [
+            531,
+            178
+          ],
+          [
+            619,
+            178
+          ],
+          [
+            619,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          179,
+          868,
+          238
+        ],
+        "content": "(1) Pengusaha yang melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai, wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            179
+          ],
+          [
+            286,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          239,
+          867,
+          284
+        ],
+        "content": "(2) Ketentuan kewajiban sebagaimana dimaksud pada ayat (1) tidak berlaku bagi pengusaha kecil yang batasannya ditetapkan oleh Menteri.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            254
+          ],
+          [
+            287,
+            284
+          ],
+          [
+            867,
+            284
+          ],
+          [
+            867,
+            239
+          ],
+          [
+            287,
+            239
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          285,
+          867,
+          375
+        ],
+        "content": "(3) Pengusaha kecil sebagaimana dimaksud pada ayat (2) dapat memilih untuk melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak kecuali yang diwajibkan untuk dikukuhkan sebagai Pengusaha Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            285
+          ],
+          [
+            287,
+            375
+          ],
+          [
+            867,
+            375
+          ],
+          [
+            867,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          375,
+          868,
+          450
+        ],
+        "content": "(4) Pengusaha yang sejak semula bermaksud melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai dapat melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            375
+          ],
+          [
+            281,
+            449
+          ],
+          [
+            867,
+            449
+          ],
+          [
+            867,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          450,
+          867,
+          540
+        ],
+        "content": "(5) Kewajiban melaporkan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu sesuai dengan ketentuan sebagaimana diatur dalam Peraturan Menteri mengenai kewajiban pelaporan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            450
+          ],
+          [
+            280,
+            540
+          ],
+          [
+            866,
+            540
+          ],
+          [
+            866,
+            450
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          541,
+          866,
+          601
+        ],
+        "content": "(6) Pengusaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            541
+          ],
+          [
+            281,
+            601
+          ],
+          [
+            865,
+            601
+          ],
+          [
+            865,
+            541
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          615,
+          615,
+          630
+        ],
+        "content": "## Pasal 61",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            615
+          ],
+          [
+            528,
+            630
+          ],
+          [
+            615,
+            630
+          ],
+          [
+            615,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          630,
+          865,
+          706
+        ],
+        "content": "(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya pada Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar sebagaimana dimaksud dalam Pasal 15 ayat (1).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            630
+          ],
+          [
+            280,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          706,
+          864,
+          736
+        ],
+        "content": "(2) Dalam hal Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) memiliki:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            706
+          ],
+          [
+            280,
+            736
+          ],
+          [
+            864,
+            736
+          ],
+          [
+            864,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          737,
+          865,
+          781
+        ],
+        "content": "a. tempat tinggal atau tempat kedudukan yang berada di kawasan perdagangan bebas dan pelabuhan bebas; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            742
+          ],
+          [
+            325,
+            780
+          ],
+          [
+            865,
+            780
+          ],
+          [
+            865,
+            737
+          ],
+          [
+            550,
+            737
+          ],
+          [
+            545,
+            737
+          ],
+          [
+            500,
+            737
+          ],
+          [
+            480,
+            737
+          ],
+          [
+            435,
+            737
+          ],
+          [
+            425,
+            737
+          ],
+          [
+            345,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          781,
+          864,
+          812
+        ],
+        "content": "b. tempat kegiatan usaha di luar kawasan perdagangan bebas dan pelabuhan bebas,",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            781
+          ],
+          [
+            326,
+            811
+          ],
+          [
+            863,
+            811
+          ],
+          [
+            863,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          812,
+          865,
+          856
+        ],
+        "content": "Pengusaha dimaksud harus menentukan tempat kegiatan usaha sebagaimana dimaksud dalam huruf b sebagai tempat pelaporan usaha.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            812
+          ],
+          [
+            323,
+            856
+          ],
+          [
+            864,
+            856
+          ],
+          [
+            864,
+            812
+          ],
+          [
+            785,
+            812
+          ],
+          [
+            764,
+            812
+          ],
+          [
+            444,
+            812
+          ],
+          [
+            428,
+            812
+          ],
+          [
+            394,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          856,
+          867,
+          903
+        ],
+        "content": "(3) Dalam hal Pengusaha memiliki lebih dari 1 (satu) tempat kegiatan usaha sebagaimana dimaksud pada ayat (2) huruf b, Pengusaha harus menentukan salah",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            856
+          ],
+          [
+            279,
+            902
+          ],
+          [
+            866,
+            902
+          ],
+          [
+            866,
+            856
+          ],
+          [
+            525,
+            856
+          ],
+          [
+            520,
+            856
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          332,
+          73,
+          871,
+          103
+        ],
+        "content": "satu tempat kegiatan usaha sebagai tempat pelaporan usaha.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            73
+          ],
+          [
+            332,
+            102
+          ],
+          [
+            871,
+            102
+          ],
+          [
+            871,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          103,
+          872,
+          178
+        ],
+        "content": "(4) Dalam hal tempat kedudukan Pengusaha Badan menggunakan Kantor Virtual, Kantor Virtual tersebut dapat digunakan sebagai tempat Pengusaha Kena Pajak dikukuhkan sepanjang Pengusaha yang menyediakan jasa Kantor Virtual memenuhi ketentuan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            103
+          ],
+          [
+            293,
+            177
+          ],
+          [
+            322,
+            177
+          ],
+          [
+            328,
+            177
+          ],
+          [
+            872,
+            177
+          ],
+          [
+            872,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          179,
+          869,
+          194
+        ],
+        "content": "a. telah dikukuhkan sebagai Pengusaha Kena Pajak;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            179
+          ],
+          [
+            337,
+            193
+          ],
+          [
+            868,
+            193
+          ],
+          [
+            868,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          183,
+          872,
+          253
+        ],
+        "content": "a. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\nb. menyediakan ruangan fisik untuk tempat melakukan kegiatan usaha bagi Pengusaha yang akan dikukuhkan sebagai Pengusaha Kena Pajak; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            213
+          ],
+          [
+            336,
+            252
+          ],
+          [
+            871,
+            252
+          ],
+          [
+            871,
+            183
+          ],
+          [
+            581,
+            183
+          ],
+          [
+            336,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          254,
+          870,
+          284
+        ],
+        "content": "c. secara nyata melakukan kegiatan layanan pendukung cantor.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            254
+          ],
+          [
+            331,
+            283
+          ],
+          [
+            870,
+            283
+          ],
+          [
+            870,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          284,
+          871,
+          329
+        ],
+        "content": "(5) Selain harus memenuhi ketentuan sebagaimana dimaksud pada ayat (4), Pengusaha yang menyediakan jasa Kantor Virtual harus memiliki:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            299
+          ],
+          [
+            292,
+            328
+          ],
+          [
+            870,
+            328
+          ],
+          [
+            870,
+            284
+          ],
+          [
+            292,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          330,
+          872,
+          388
+        ],
+        "content": "a. dokumen yang menunjukkan adanya kontrak, perjanjian, atau dokumen sejenis yang masih berlaku antara Pengusaha yang menyediakan jasa Kantor Virtual dan Pengusaha; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            330
+          ],
+          [
+            330,
+            388
+          ],
+          [
+            871,
+            388
+          ],
+          [
+            871,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          389,
+          871,
+          464
+        ],
+        "content": "b. dokumen yang menunjukkan adanya pemberian izin, keterangan usaha, atau keterangan kegiatan dari pejabat atau instansi yang berwenang, yaitu nomor induk berusaha atau dokumen lain yang sejenis.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            389
+          ],
+          [
+            330,
+            463
+          ],
+          [
+            870,
+            463
+          ],
+          [
+            870,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          464,
+          871,
+          586
+        ],
+        "content": "(6) Dalam hal tempat kedudukan Pengusaha Badan berada di kawasan perdagangan bebas dan pelabuhan bebas dan memilih untuk menggunakan tempat kegiatan usaha berupa Kantor Virtual di luar kawasan perdagangan bebas dan pelabuhan bebas sebagai tempat pelaporan usaha, ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) berlaku juga bagi Kantor Virtual tersebut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            464
+          ],
+          [
+            284,
+            586
+          ],
+          [
+            870,
+            586
+          ],
+          [
+            870,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          601,
+          621,
+          614
+        ],
+        "content": "## Pasal 62",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            601
+          ],
+          [
+            533,
+            614
+          ],
+          [
+            621,
+            614
+          ],
+          [
+            621,
+            601
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          615,
+          870,
+          690
+        ],
+        "content": "(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak dengan menyampaikan permohonan pengukuhan Pengusaha Kena Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            615
+          ],
+          [
+            284,
+            689
+          ],
+          [
+            869,
+            689
+          ],
+          [
+            869,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          690,
+          869,
+          751
+        ],
+        "content": "(2) Dalam hal Pengusaha menggunakan Kantor Virtual sebagai tempat pelaporan usaha, Pengusaha harus memberikan pernyataan tentang kegiatan usaha dan tempat kegiatan usaha yang sebenarnya.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            690
+          ],
+          [
+            283,
+            750
+          ],
+          [
+            868,
+            750
+          ],
+          [
+            868,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          751,
+          869,
+          826
+        ],
+        "content": "(3) Permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            751
+          ],
+          [
+            283,
+            826
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            868,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          841,
+          619,
+          855
+        ],
+        "content": "## Pasal 63",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            841
+          ],
+          [
+            531,
+            855
+          ],
+          [
+            618,
+            855
+          ],
+          [
+            618,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          855,
+          869,
+          916
+        ],
+        "content": "(1) Berdasarkan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 62 ayat (1), Kepala Kantor Pelayanan Pajak tempat Pengusaha terdaftar:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            855
+          ],
+          [
+            282,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          331,
+          72,
+          872,
+          148
+        ],
+        "content": "secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Instansi Pemerintah yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            72
+          ],
+          [
+            331,
+            148
+          ],
+          [
+            871,
+            148
+          ],
+          [
+            871,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          148,
+          871,
+          193
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            183
+          ],
+          [
+            302,
+            192
+          ],
+          [
+            321,
+            192
+          ],
+          [
+            332,
+            192
+          ],
+          [
+            871,
+            192
+          ],
+          [
+            871,
+            148
+          ],
+          [
+            292,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          194,
+          871,
+          253
+        ],
+        "content": "a. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            194
+          ],
+          [
+            331,
+            248
+          ],
+          [
+            351,
+            252
+          ],
+          [
+            870,
+            252
+          ],
+          [
+            870,
+            194
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          253,
+          870,
+          283
+        ],
+        "content": "b. memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            253
+          ],
+          [
+            331,
+            282
+          ],
+          [
+            869,
+            282
+          ],
+          [
+            869,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          283,
+          871,
+          434
+        ],
+        "content": "(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak oleh Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pmenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menyatakan bahwa Wajib Pajak Instansi Pemerintah tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            283
+          ],
+          [
+            284,
+            428
+          ],
+          [
+            300,
+            433
+          ],
+          [
+            870,
+            433
+          ],
+          [
+            870,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          435,
+          870,
+          479
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            435
+          ],
+          [
+            284,
+            478
+          ],
+          [
+            869,
+            478
+          ],
+          [
+            869,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          568
+        ],
+        "content": "(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Instansi Pemerintah diterima secara lengkap.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            284,
+            568
+          ],
+          [
+            869,
+            568
+          ],
+          [
+            869,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          570,
+          869,
+          691
+        ],
+        "content": "(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Instansi Pemerintah dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (5) berakhir.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            570
+          ],
+          [
+            283,
+            691
+          ],
+          [
+            868,
+            691
+          ],
+          [
+            868,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          705,
+          620,
+          719
+        ],
+        "content": "## Pasal 57",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            705
+          ],
+          [
+            532,
+            718
+          ],
+          [
+            620,
+            718
+          ],
+          [
+            620,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          720,
+          867,
+          795
+        ],
+        "content": "(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 56 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            720
+          ],
+          [
+            282,
+            794
+          ],
+          [
+            867,
+            794
+          ],
+          [
+            867,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          795,
+          868,
+          840
+        ],
+        "content": "(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            795
+          ],
+          [
+            282,
+            839
+          ],
+          [
+            867,
+            839
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          840,
+          869,
+          916
+        ],
+        "content": "(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (1), Direktur Jenderal Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan melalui penelitian administrasi terhadap Wajib Pajak Instansi",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            856
+          ],
+          [
+            281,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            840
+          ],
+          [
+            287,
+            840
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          71,
+          870,
+          102
+        ],
+        "content": "Pemerintah dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            71
+          ],
+          [
+            330,
+            101
+          ],
+          [
+            869,
+            101
+          ],
+          [
+            869,
+            71
+          ],
+          [
+            730,
+            71
+          ],
+          [
+            670,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          102,
+          871,
+          163
+        ],
+        "content": "(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            102
+          ],
+          [
+            290,
+            163
+          ],
+          [
+            871,
+            163
+          ],
+          [
+            871,
+            107
+          ],
+          [
+            816,
+            102
+          ],
+          [
+            791,
+            102
+          ],
+          [
+            761,
+            102
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          178,
+          624,
+          192
+        ],
+        "content": "## Pasal 58",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            178
+          ],
+          [
+            535,
+            191
+          ],
+          [
+            623,
+            191
+          ],
+          [
+            623,
+            178
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          192,
+          871,
+          268
+        ],
+        "content": "Selain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 56 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Instansi Pemerintah memenuhi ketentuan sebagai berikut:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            192
+          ],
+          [
+            283,
+            268
+          ],
+          [
+            870,
+            268
+          ],
+          [
+            870,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          268,
+          634,
+          283
+        ],
+        "content": "a. tidak mempunyai utang pajak;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            268
+          ],
+          [
+            284,
+            283
+          ],
+          [
+            633,
+            283
+          ],
+          [
+            633,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          283,
+          662,
+          298
+        ],
+        "content": "b. tidak sedang dilakukan tindakan:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            283
+          ],
+          [
+            285,
+            297
+          ],
+          [
+            661,
+            297
+          ],
+          [
+            661,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          298,
+          868,
+          329
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            298
+          ],
+          [
+            330,
+            329
+          ],
+          [
+            868,
+            329
+          ],
+          [
+            868,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          328,
+          682,
+          343
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            328
+          ],
+          [
+            330,
+            343
+          ],
+          [
+            682,
+            343
+          ],
+          [
+            682,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          344,
+          867,
+          373
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            344
+          ],
+          [
+            330,
+            372
+          ],
+          [
+            867,
+            372
+          ],
+          [
+            867,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          374,
+          868,
+          403
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan; dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            374
+          ],
+          [
+            328,
+            402
+          ],
+          [
+            867,
+            402
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          867,
+          433
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            433
+          ],
+          [
+            867,
+            433
+          ],
+          [
+            867,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          434,
+          869,
+          478
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            434
+          ],
+          [
+            330,
+            478
+          ],
+          [
+            868,
+            478
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          479,
+          593,
+          494
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            479
+          ],
+          [
+            330,
+            493
+          ],
+          [
+            592,
+            493
+          ],
+          [
+            592,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          495,
+          868,
+          524
+        ],
+        "content": "3. pengurangan atau penghapusan sanksi administratif;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            495
+          ],
+          [
+            329,
+            523
+          ],
+          [
+            868,
+            523
+          ],
+          [
+            868,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          525,
+          867,
+          553
+        ],
+        "content": "4. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            525
+          ],
+          [
+            328,
+            553
+          ],
+          [
+            866,
+            553
+          ],
+          [
+            866,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          555,
+          867,
+          584
+        ],
+        "content": "5. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            555
+          ],
+          [
+            328,
+            584
+          ],
+          [
+            867,
+            584
+          ],
+          [
+            867,
+            555
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          585,
+          869,
+          615
+        ],
+        "content": "6. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            585
+          ],
+          [
+            332,
+            614
+          ],
+          [
+            868,
+            614
+          ],
+          [
+            868,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          615,
+          467,
+          630
+        ],
+        "content": "7. gugatan;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            615
+          ],
+          [
+            329,
+            629
+          ],
+          [
+            466,
+            629
+          ],
+          [
+            466,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          630,
+          565,
+          645
+        ],
+        "content": "8. banding; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            630
+          ],
+          [
+            329,
+            644
+          ],
+          [
+            564,
+            644
+          ],
+          [
+            564,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          646,
+          580,
+          661
+        ],
+        "content": "9. peninjauan kembali.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            646
+          ],
+          [
+            328,
+            660
+          ],
+          [
+            579,
+            660
+          ],
+          [
+            579,
+            646
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          675,
+          620,
+          689
+        ],
+        "content": "## Pasal 59",
+        "index": 20,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            675
+          ],
+          [
+            531,
+            689
+          ],
+          [
+            620,
+            689
+          ],
+          [
+            620,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          690,
+          732,
+          705
+        ],
+        "content": "Direktur Jenderal Pajak secara jabatan dapat:",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            690
+          ],
+          [
+            282,
+            705
+          ],
+          [
+            732,
+            705
+          ],
+          [
+            732,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          705,
+          868,
+          779
+        ],
+        "content": "a. menerbitkan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17 ayat (1), Pasal 17 ayat (2), Pasal 32 ayat (4), Pasal 40, dan Pasal 50 ayat (2);",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            710
+          ],
+          [
+            287,
+            778
+          ],
+          [
+            867,
+            778
+          ],
+          [
+            867,
+            705
+          ],
+          [
+            287,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          780,
+          867,
+          825
+        ],
+        "content": "b. memberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 39 ayat (4); dan",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            780
+          ],
+          [
+            287,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          826,
+          868,
+          902
+        ],
+        "content": "c. melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak lagi memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan,",
+        "index": 24,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            826
+          ],
+          [
+            281,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          73,
+          867,
+          105
+        ],
+        "content": "untuk memberikan kemudahan dalam administrasi perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            73
+          ],
+          [
+            280,
+            105
+          ],
+          [
+            867,
+            105
+          ],
+          [
+            867,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          505,
+          119,
+          647,
+          134
+        ],
+        "content": "## Bagian Kedua",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            505,
+            119
+          ],
+          [
+            505,
+            133
+          ],
+          [
+            647,
+            133
+          ],
+          [
+            647,
+            119
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          347,
+          134,
+          803,
+          150
+        ],
+        "content": "## Tata Cara Pengukuhan Pengusaha Kena Pajak",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            347,
+            134
+          ],
+          [
+            347,
+            150
+          ],
+          [
+            802,
+            150
+          ],
+          [
+            802,
+            134
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          164,
+          620,
+          178
+        ],
+        "content": "## Pasal 60",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            164
+          ],
+          [
+            531,
+            178
+          ],
+          [
+            619,
+            178
+          ],
+          [
+            619,
+            164
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          179,
+          868,
+          238
+        ],
+        "content": "(1) Pengusaha yang melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai, wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            179
+          ],
+          [
+            286,
+            238
+          ],
+          [
+            867,
+            238
+          ],
+          [
+            867,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          239,
+          867,
+          284
+        ],
+        "content": "(2) Ketentuan kewajiban sebagaimana dimaksud pada ayat (1) tidak berlaku bagi pengusaha kecil yang batasannya ditetapkan oleh Menteri.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            254
+          ],
+          [
+            287,
+            284
+          ],
+          [
+            867,
+            284
+          ],
+          [
+            867,
+            239
+          ],
+          [
+            287,
+            239
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          285,
+          867,
+          375
+        ],
+        "content": "(3) Pengusaha kecil sebagaimana dimaksud pada ayat (2) dapat memilih untuk melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak kecuali yang diwajibkan untuk dikukuhkan sebagai Pengusaha Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            285
+          ],
+          [
+            287,
+            375
+          ],
+          [
+            867,
+            375
+          ],
+          [
+            867,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          375,
+          868,
+          450
+        ],
+        "content": "(4) Pengusaha yang sejak semula bermaksud melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai dapat melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            375
+          ],
+          [
+            281,
+            449
+          ],
+          [
+            867,
+            449
+          ],
+          [
+            867,
+            375
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          450,
+          867,
+          540
+        ],
+        "content": "(5) Kewajiban melaporkan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu sesuai dengan ketentuan sebagaimana diatur dalam Peraturan Menteri mengenai kewajiban pelaporan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            450
+          ],
+          [
+            280,
+            540
+          ],
+          [
+            866,
+            540
+          ],
+          [
+            866,
+            450
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          541,
+          866,
+          601
+        ],
+        "content": "(6) Pengusaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            541
+          ],
+          [
+            281,
+            601
+          ],
+          [
+            865,
+            601
+          ],
+          [
+            865,
+            541
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          615,
+          615,
+          630
+        ],
+        "content": "## Pasal 61",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            615
+          ],
+          [
+            528,
+            630
+          ],
+          [
+            615,
+            630
+          ],
+          [
+            615,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          630,
+          865,
+          706
+        ],
+        "content": "(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya pada Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar sebagaimana dimaksud dalam Pasal 15 ayat (1).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            630
+          ],
+          [
+            280,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            630
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          706,
+          864,
+          736
+        ],
+        "content": "(2) Dalam hal Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) memiliki:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            706
+          ],
+          [
+            280,
+            736
+          ],
+          [
+            864,
+            736
+          ],
+          [
+            864,
+            706
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          737,
+          865,
+          781
+        ],
+        "content": "a. tempat tinggal atau tempat kedudukan yang berada di kawasan perdagangan bebas dan pelabuhan bebas; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            742
+          ],
+          [
+            325,
+            780
+          ],
+          [
+            865,
+            780
+          ],
+          [
+            865,
+            737
+          ],
+          [
+            550,
+            737
+          ],
+          [
+            545,
+            737
+          ],
+          [
+            500,
+            737
+          ],
+          [
+            480,
+            737
+          ],
+          [
+            435,
+            737
+          ],
+          [
+            425,
+            737
+          ],
+          [
+            345,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          781,
+          864,
+          812
+        ],
+        "content": "b. tempat kegiatan usaha di luar kawasan perdagangan bebas dan pelabuhan bebas,",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            781
+          ],
+          [
+            326,
+            811
+          ],
+          [
+            863,
+            811
+          ],
+          [
+            863,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          812,
+          865,
+          856
+        ],
+        "content": "Pengusaha dimaksud harus menentukan tempat kegiatan usaha sebagaimana dimaksud dalam huruf b sebagai tempat pelaporan usaha.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            812
+          ],
+          [
+            323,
+            856
+          ],
+          [
+            864,
+            856
+          ],
+          [
+            864,
+            812
+          ],
+          [
+            785,
+            812
+          ],
+          [
+            764,
+            812
+          ],
+          [
+            444,
+            812
+          ],
+          [
+            428,
+            812
+          ],
+          [
+            394,
+            812
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          856,
+          867,
+          903
+        ],
+        "content": "(3) Dalam hal Pengusaha memiliki lebih dari 1 (satu) tempat kegiatan usaha sebagaimana dimaksud pada ayat (2) huruf b, Pengusaha harus menentukan salah",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            856
+          ],
+          [
+            279,
+            902
+          ],
+          [
+            866,
+            902
+          ],
+          [
+            866,
+            856
+          ],
+          [
+            525,
+            856
+          ],
+          [
+            520,
+            856
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          332,
+          73,
+          871,
+          103
+        ],
+        "content": "satu tempat kegiatan usaha sebagai tempat pelaporan usaha.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            73
+          ],
+          [
+            332,
+            102
+          ],
+          [
+            871,
+            102
+          ],
+          [
+            871,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          288,
+          103,
+          872,
+          178
+        ],
+        "content": "(4) Dalam hal tempat kedudukan Pengusaha Badan menggunakan Kantor Virtual, Kantor Virtual tersebut dapat digunakan sebagai tempat Pengusaha Kena Pajak dikukuhkan sepanjang Pengusaha yang menyediakan jasa Kantor Virtual memenuhi ketentuan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            288,
+            103
+          ],
+          [
+            293,
+            177
+          ],
+          [
+            322,
+            177
+          ],
+          [
+            328,
+            177
+          ],
+          [
+            872,
+            177
+          ],
+          [
+            872,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          179,
+          869,
+          194
+        ],
+        "content": "a. telah dikukuhkan sebagai Pengusaha Kena Pajak;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            179
+          ],
+          [
+            337,
+            193
+          ],
+          [
+            868,
+            193
+          ],
+          [
+            868,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          183,
+          872,
+          253
+        ],
+        "content": "a. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\nb. menyediakan ruangan fisik untuk tempat melakukan kegiatan usaha bagi Pengusaha yang akan dikukuhkan sebagai Pengusaha Kena Pajak; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            213
+          ],
+          [
+            336,
+            252
+          ],
+          [
+            871,
+            252
+          ],
+          [
+            871,
+            183
+          ],
+          [
+            581,
+            183
+          ],
+          [
+            336,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          331,
+          254,
+          870,
+          284
+        ],
+        "content": "c. secara nyata melakukan kegiatan layanan pendukung cantor.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            254
+          ],
+          [
+            331,
+            283
+          ],
+          [
+            870,
+            283
+          ],
+          [
+            870,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          287,
+          284,
+          871,
+          329
+        ],
+        "content": "(5) Selain harus memenuhi ketentuan sebagaimana dimaksud pada ayat (4), Pengusaha yang menyediakan jasa Kantor Virtual harus memiliki:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            299
+          ],
+          [
+            292,
+            328
+          ],
+          [
+            870,
+            328
+          ],
+          [
+            870,
+            284
+          ],
+          [
+            292,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          330,
+          872,
+          388
+        ],
+        "content": "a. dokumen yang menunjukkan adanya kontrak, perjanjian, atau dokumen sejenis yang masih berlaku antara Pengusaha yang menyediakan jasa Kantor Virtual dan Pengusaha; dan",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            330
+          ],
+          [
+            330,
+            388
+          ],
+          [
+            871,
+            388
+          ],
+          [
+            871,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          389,
+          871,
+          464
+        ],
+        "content": "b. dokumen yang menunjukkan adanya pemberian izin, keterangan usaha, atau keterangan kegiatan dari pejabat atau instansi yang berwenang, yaitu nomor induk berusaha atau dokumen lain yang sejenis.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            389
+          ],
+          [
+            330,
+            463
+          ],
+          [
+            870,
+            463
+          ],
+          [
+            870,
+            389
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          464,
+          871,
+          586
+        ],
+        "content": "(6) Dalam hal tempat kedudukan Pengusaha Badan berada di kawasan perdagangan bebas dan pelabuhan bebas dan memilih untuk menggunakan tempat kegiatan usaha berupa Kantor Virtual di luar kawasan perdagangan bebas dan pelabuhan bebas sebagai tempat pelaporan usaha, ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) berlaku juga bagi Kantor Virtual tersebut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            464
+          ],
+          [
+            284,
+            586
+          ],
+          [
+            870,
+            586
+          ],
+          [
+            870,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          601,
+          621,
+          614
+        ],
+        "content": "## Pasal 62",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            601
+          ],
+          [
+            533,
+            614
+          ],
+          [
+            621,
+            614
+          ],
+          [
+            621,
+            601
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          615,
+          870,
+          690
+        ],
+        "content": "(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak dengan menyampaikan permohonan pengukuhan Pengusaha Kena Pajak.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            615
+          ],
+          [
+            284,
+            689
+          ],
+          [
+            869,
+            689
+          ],
+          [
+            869,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          690,
+          869,
+          751
+        ],
+        "content": "(2) Dalam hal Pengusaha menggunakan Kantor Virtual sebagai tempat pelaporan usaha, Pengusaha harus memberikan pernyataan tentang kegiatan usaha dan tempat kegiatan usaha yang sebenarnya.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            690
+          ],
+          [
+            283,
+            750
+          ],
+          [
+            868,
+            750
+          ],
+          [
+            868,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          751,
+          869,
+          826
+        ],
+        "content": "(3) Permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            751
+          ],
+          [
+            283,
+            826
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            868,
+            751
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          841,
+          619,
+          855
+        ],
+        "content": "## Pasal 63",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            841
+          ],
+          [
+            531,
+            855
+          ],
+          [
+            618,
+            855
+          ],
+          [
+            618,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          855,
+          869,
+          916
+        ],
+        "content": "(1) Berdasarkan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 62 ayat (1), Kepala Kantor Pelayanan Pajak tempat Pengusaha terdaftar:",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            855
+          ],
+          [
+            282,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            855
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Instansi Pemerintah yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:\n\na. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan; atau\n\nb. memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak oleh Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pmenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menyatakan bahwa Wajib Pajak Instansi Pemerintah tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Instansi Pemerintah diterima secara lengkap.\n\n(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Instansi Pemerintah dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (5) berakhir.\n\n## Pasal 57\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 56 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (1), Direktur Jenderal Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan melalui penelitian administrasi terhadap Wajib Pajak Instansi\n\nPemerintah dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 58\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 56 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Instansi Pemerintah memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan; dan\n\nc. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan atau penghapusan sanksi administratif;\n\n4. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n5. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n6. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n7. gugatan;\n\n8. banding; dan/atau\n\n9. peninjauan kembali.\n\n## Pasal 59\n\nDirektur Jenderal Pajak secara jabatan dapat:\n\na. menerbitkan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17 ayat (1), Pasal 17 ayat (2), Pasal 32 ayat (4), Pasal 40, dan Pasal 50 ayat (2);\n\nb. memberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 39 ayat (4); dan\n\nc. melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak lagi memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan,\n\nuntuk memberikan kemudahan dalam administrasi perpajakan.\n\n## Bagian Kedua\n\n## Tata Cara Pengukuhan Pengusaha Kena Pajak\n\n## Pasal 60\n\n(1) Pengusaha yang melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai, wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(2) Ketentuan kewajiban sebagaimana dimaksud pada ayat (1) tidak berlaku bagi pengusaha kecil yang batasannya ditetapkan oleh Menteri.\n\n(3) Pengusaha kecil sebagaimana dimaksud pada ayat (2) dapat memilih untuk melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak kecuali yang diwajibkan untuk dikukuhkan sebagai Pengusaha Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(4) Pengusaha yang sejak semula bermaksud melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai dapat melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(5) Kewajiban melaporkan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu sesuai dengan ketentuan sebagaimana diatur dalam Peraturan Menteri mengenai kewajiban pelaporan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(6) Pengusaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 61\n\n(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya pada Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar sebagaimana dimaksud dalam Pasal 15 ayat (1).\n\n(2) Dalam hal Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) memiliki:\n\na. tempat tinggal atau tempat kedudukan yang berada di kawasan perdagangan bebas dan pelabuhan bebas; dan\n\nb. tempat kegiatan usaha di luar kawasan perdagangan bebas dan pelabuhan bebas,\n\nPengusaha dimaksud harus menentukan tempat kegiatan usaha sebagaimana dimaksud dalam huruf b sebagai tempat pelaporan usaha.\n\n(3) Dalam hal Pengusaha memiliki lebih dari 1 (satu) tempat kegiatan usaha sebagaimana dimaksud pada ayat (2) huruf b, Pengusaha harus menentukan salah\n\nsatu tempat kegiatan usaha sebagai tempat pelaporan usaha.\n\n(4) Dalam hal tempat kedudukan Pengusaha Badan menggunakan Kantor Virtual, Kantor Virtual tersebut dapat digunakan sebagai tempat Pengusaha Kena Pajak dikukuhkan sepanjang Pengusaha yang menyediakan jasa Kantor Virtual memenuhi ketentuan:\n\na. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\na. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\nb. menyediakan ruangan fisik untuk tempat melakukan kegiatan usaha bagi Pengusaha yang akan dikukuhkan sebagai Pengusaha Kena Pajak; dan\n\nc. secara nyata melakukan kegiatan layanan pendukung cantor.\n\n(5) Selain harus memenuhi ketentuan sebagaimana dimaksud pada ayat (4), Pengusaha yang menyediakan jasa Kantor Virtual harus memiliki:\n\na. dokumen yang menunjukkan adanya kontrak, perjanjian, atau dokumen sejenis yang masih berlaku antara Pengusaha yang menyediakan jasa Kantor Virtual dan Pengusaha; dan\n\nb. dokumen yang menunjukkan adanya pemberian izin, keterangan usaha, atau keterangan kegiatan dari pejabat atau instansi yang berwenang, yaitu nomor induk berusaha atau dokumen lain yang sejenis.\n\n(6) Dalam hal tempat kedudukan Pengusaha Badan berada di kawasan perdagangan bebas dan pelabuhan bebas dan memilih untuk menggunakan tempat kegiatan usaha berupa Kantor Virtual di luar kawasan perdagangan bebas dan pelabuhan bebas sebagai tempat pelaporan usaha, ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) berlaku juga bagi Kantor Virtual tersebut.\n\n## Pasal 62\n\n(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak dengan menyampaikan permohonan pengukuhan Pengusaha Kena Pajak.\n\n(2) Dalam hal Pengusaha menggunakan Kantor Virtual sebagai tempat pelaporan usaha, Pengusaha harus memberikan pernyataan tentang kegiatan usaha dan tempat kegiatan usaha yang sebenarnya.\n\n(3) Permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 63\n\n(1) Berdasarkan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 62 ayat (1), Kepala Kantor Pelayanan Pajak tempat Pengusaha terdaftar:",
+  "md_results": "secara jabatan dapat melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak Instansi Pemerintah yang sudah tidak memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:\n\na. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan; atau\n\nb. memiliki lebih dari 1 (satu) Nomor Pokok Wajib Pajak.\n\n(3) Permohonan Penghapusan Nomor Pokok Wajib Pajak oleh Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pmenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menyatakan bahwa Wajib Pajak Instansi Pemerintah tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak atas permohonan Wajib Pajak sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(5) Berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (4), Kepala Kantor Pelayanan Pajak menerbitkan keputusan atas permohonan tersebut paling lama 6 (enam) bulan sejak tanggal permohonan Wajib Pajak Instansi Pemerintah diterima secara lengkap.\n\n(6) Apabila jangka waktu sebagaimana dimaksud pada ayat (5) terlampaui dan Kepala Kantor Pelayanan Pajak tidak menerbitkan keputusan, permohonan Wajib Pajak Instansi Pemerintah dianggap dikabulkan dan Kepala Kantor Pelayanan Pajak harus menerbitkan surat keputusan Penghapusan Nomor Pokok Wajib Pajak paling lama 1 (satu) bulan setelah jangka waktu sebagaimana dimaksud pada ayat (5) berakhir.\n\n## Pasal 57\n\n(1) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud dalam Pasal 56 ayat (1) dilakukan Kepala Kantor Pelayanan Pajak berdasarkan data dan/atau informasi perpajakan yang dimiliki atau diperoleh Direktorat Jenderal Pajak.\n\n(2) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil Pemeriksaan.\n\n(3) Selain dilakukan berdasarkan hasil Pemeriksaan sebagaimana dimaksud pada ayat (1), Direktur Jenderal Pajak juga dapat melakukan Penghapusan Nomor Pokok Wajib Pajak secara jabatan melalui penelitian administrasi terhadap Wajib Pajak Instansi\n\nPemerintah dengan kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(4) Penghapusan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan melalui penerbitan keputusan Penghapusan Nomor Pokok Wajib Pajak.\n\n## Pasal 58\n\nSelain memperhatikan pemenuhan persyaratan subjektif dan/atau objektif sebagaimana dimaksud dalam Pasal 56 ayat (1), Penghapusan Nomor Pokok Wajib Pajak dilakukan sepanjang Wajib Pajak Instansi Pemerintah memenuhi ketentuan sebagai berikut:\n\na. tidak mempunyai utang pajak;\n\nb. tidak sedang dilakukan tindakan:\n\n1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan; dan\n\nc. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan atau penghapusan sanksi administratif;\n\n4. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n5. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n6. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n7. gugatan;\n\n8. banding; dan/atau\n\n9. peninjauan kembali.\n\n## Pasal 59\n\nDirektur Jenderal Pajak secara jabatan dapat:\n\na. menerbitkan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 17 ayat (1), Pasal 17 ayat (2), Pasal 32 ayat (4), Pasal 40, dan Pasal 50 ayat (2);\n\nb. memberikan nomor identitas perpajakan dalam bentuk Nomor Pokok Wajib Pajak sebagaimana dimaksud dalam Pasal 16 ayat (6) dan Pasal 39 ayat (4); dan\n\nc. melakukan Penghapusan Nomor Pokok Wajib Pajak terhadap Wajib Pajak yang tidak lagi memenuhi persyaratan subjektif dan/atau objektif sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan,\n\nuntuk memberikan kemudahan dalam administrasi perpajakan.\n\n## Bagian Kedua\n\n## Tata Cara Pengukuhan Pengusaha Kena Pajak\n\n## Pasal 60\n\n(1) Pengusaha yang melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai, wajib melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(2) Ketentuan kewajiban sebagaimana dimaksud pada ayat (1) tidak berlaku bagi pengusaha kecil yang batasannya ditetapkan oleh Menteri.\n\n(3) Pengusaha kecil sebagaimana dimaksud pada ayat (2) dapat memilih untuk melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak kecuali yang diwajibkan untuk dikukuhkan sebagai Pengusaha Kena Pajak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n(4) Pengusaha yang sejak semula bermaksud melakukan penyerahan dan/atau ekspor sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai dapat melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(5) Kewajiban melaporkan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu sesuai dengan ketentuan sebagaimana diatur dalam Peraturan Menteri mengenai kewajiban pelaporan usaha untuk dikukuhkan sebagai Pengusaha Kena Pajak.\n\n(6) Pengusaha yang tidak memenuhi ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi sebagaimana diatur dalam Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan.\n\n## Pasal 61\n\n(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya pada Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar sebagaimana dimaksud dalam Pasal 15 ayat (1).\n\n(2) Dalam hal Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) memiliki:\n\na. tempat tinggal atau tempat kedudukan yang berada di kawasan perdagangan bebas dan pelabuhan bebas; dan\n\nb. tempat kegiatan usaha di luar kawasan perdagangan bebas dan pelabuhan bebas,\n\nPengusaha dimaksud harus menentukan tempat kegiatan usaha sebagaimana dimaksud dalam huruf b sebagai tempat pelaporan usaha.\n\n(3) Dalam hal Pengusaha memiliki lebih dari 1 (satu) tempat kegiatan usaha sebagaimana dimaksud pada ayat (2) huruf b, Pengusaha harus menentukan salah\n\nsatu tempat kegiatan usaha sebagai tempat pelaporan usaha.\n\n(4) Dalam hal tempat kedudukan Pengusaha Badan menggunakan Kantor Virtual, Kantor Virtual tersebut dapat digunakan sebagai tempat Pengusaha Kena Pajak dikukuhkan sepanjang Pengusaha yang menyediakan jasa Kantor Virtual memenuhi ketentuan:\n\na. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\na. telah dikukuhkan sebagai Pengusaha Kena Pajak;\n\nb. menyediakan ruangan fisik untuk tempat melakukan kegiatan usaha bagi Pengusaha yang akan dikukuhkan sebagai Pengusaha Kena Pajak; dan\n\nc. secara nyata melakukan kegiatan layanan pendukung cantor.\n\n(5) Selain harus memenuhi ketentuan sebagaimana dimaksud pada ayat (4), Pengusaha yang menyediakan jasa Kantor Virtual harus memiliki:\n\na. dokumen yang menunjukkan adanya kontrak, perjanjian, atau dokumen sejenis yang masih berlaku antara Pengusaha yang menyediakan jasa Kantor Virtual dan Pengusaha; dan\n\nb. dokumen yang menunjukkan adanya pemberian izin, keterangan usaha, atau keterangan kegiatan dari pejabat atau instansi yang berwenang, yaitu nomor induk berusaha atau dokumen lain yang sejenis.\n\n(6) Dalam hal tempat kedudukan Pengusaha Badan berada di kawasan perdagangan bebas dan pelabuhan bebas dan memilih untuk menggunakan tempat kegiatan usaha berupa Kantor Virtual di luar kawasan perdagangan bebas dan pelabuhan bebas sebagai tempat pelaporan usaha, ketentuan sebagaimana dimaksud pada ayat (4) dan ayat (5) berlaku juga bagi Kantor Virtual tersebut.\n\n## Pasal 62\n\n(1) Pengusaha sebagaimana dimaksud dalam Pasal 60 ayat (1), ayat (3), dan ayat (4) melaporkan usahanya untuk dikukuhkan sebagai Pengusaha Kena Pajak dengan menyampaikan permohonan pengukuhan Pengusaha Kena Pajak.\n\n(2) Dalam hal Pengusaha menggunakan Kantor Virtual sebagai tempat pelaporan usaha, Pengusaha harus memberikan pernyataan tentang kegiatan usaha dan tempat kegiatan usaha yang sebenarnya.\n\n(3) Permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 63\n\n(1) Berdasarkan permohonan pengukuhan Pengusaha Kena Pajak sebagaimana dimaksud dalam Pasal 62 ayat (1), Kepala Kantor Pelayanan Pajak tempat Pengusaha terdaftar:",
+  "model": "glm-ocr",
+  "usage": {}
+}

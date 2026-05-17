@@ -1,0 +1,3931 @@
+{
+  "created": 1779015308,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-a4e6851c9639487b9b1fa97e07d9d",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          327,
+          73,
+          864,
+          104
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            73
+          ],
+          [
+            327,
+            104
+          ],
+          [
+            864,
+            104
+          ],
+          [
+            864,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          105,
+          678,
+          118
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            105
+          ],
+          [
+            325,
+            118
+          ],
+          [
+            678,
+            118
+          ],
+          [
+            678,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          118,
+          864,
+          148
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            118
+          ],
+          [
+            325,
+            147
+          ],
+          [
+            863,
+            147
+          ],
+          [
+            863,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          149,
+          850,
+          164
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            149
+          ],
+          [
+            325,
+            163
+          ],
+          [
+            850,
+            163
+          ],
+          [
+            850,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          163,
+          862,
+          194
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            163
+          ],
+          [
+            279,
+            194
+          ],
+          [
+            862,
+            194
+          ],
+          [
+            862,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          195,
+          862,
+          224
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            195
+          ],
+          [
+            279,
+            224
+          ],
+          [
+            862,
+            224
+          ],
+          [
+            862,
+            195
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          225,
+          863,
+          253
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            225
+          ],
+          [
+            280,
+            253
+          ],
+          [
+            862,
+            253
+          ],
+          [
+            862,
+            225
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          255,
+          865,
+          298
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            255
+          ],
+          [
+            326,
+            298
+          ],
+          [
+            864,
+            298
+          ],
+          [
+            864,
+            255
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          300,
+          589,
+          315
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            300
+          ],
+          [
+            325,
+            314
+          ],
+          [
+            588,
+            314
+          ],
+          [
+            588,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          315,
+          779,
+          330
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            315
+          ],
+          [
+            324,
+            330
+          ],
+          [
+            778,
+            330
+          ],
+          [
+            778,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          331,
+          863,
+          359
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            331
+          ],
+          [
+            324,
+            358
+          ],
+          [
+            862,
+            358
+          ],
+          [
+            862,
+            331
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          360,
+          862,
+          389
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            360
+          ],
+          [
+            324,
+            389
+          ],
+          [
+            862,
+            389
+          ],
+          [
+            862,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          390,
+          862,
+          419
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            390
+          ],
+          [
+            324,
+            419
+          ],
+          [
+            862,
+            419
+          ],
+          [
+            862,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          420,
+          864,
+          479
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terhutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            420
+          ],
+          [
+            325,
+            479
+          ],
+          [
+            863,
+            479
+          ],
+          [
+            863,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          480,
+          863,
+          510
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            480
+          ],
+          [
+            324,
+            509
+          ],
+          [
+            862,
+            509
+          ],
+          [
+            862,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          510,
+          862,
+          540
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            510
+          ],
+          [
+            324,
+            539
+          ],
+          [
+            862,
+            539
+          ],
+          [
+            862,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          540,
+          864,
+          571
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            540
+          ],
+          [
+            325,
+            570
+          ],
+          [
+            863,
+            570
+          ],
+          [
+            863,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          571,
+          463,
+          586
+        ],
+        "content": "11. gugatan;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            571
+          ],
+          [
+            327,
+            585
+          ],
+          [
+            462,
+            585
+          ],
+          [
+            462,
+            571
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          586,
+          561,
+          601
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            586
+          ],
+          [
+            327,
+            601
+          ],
+          [
+            560,
+            601
+          ],
+          [
+            560,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          603,
+          575,
+          619
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            603
+          ],
+          [
+            327,
+            619
+          ],
+          [
+            574,
+            619
+          ],
+          [
+            574,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          635,
+          616,
+          649
+        ],
+        "content": "## Pasal 50",
+        "index": 20,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            635
+          ],
+          [
+            527,
+            648
+          ],
+          [
+            615,
+            648
+          ],
+          [
+            615,
+            635
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          650,
+          864,
+          724
+        ],
+        "content": "(1) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf d wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            650
+          ],
+          [
+            278,
+            724
+          ],
+          [
+            864,
+            724
+          ],
+          [
+            864,
+            650
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          725,
+          864,
+          785
+        ],
+        "content": "(2) Pendaftaran diri Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan paling lambat sebelum melakukan pemotongan dan/atau pemungutan pajak.",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            725
+          ],
+          [
+            278,
+            785
+          ],
+          [
+            863,
+            785
+          ],
+          [
+            863,
+            725
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          785,
+          864,
+          877
+        ],
+        "content": "(3) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) diharuskan untuk melaporkan subunit organisasinya ke Kantor Pelayanan Pajak tempat Wajib Pajak Instansi Pemerintah terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap subunit organisasinya.",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            785
+          ],
+          [
+            284,
+            877
+          ],
+          [
+            864,
+            877
+          ],
+          [
+            864,
+            785
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          534,
+          71,
+          619,
+          86
+        ],
+        "content": "Pasal 51",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            534,
+            71
+          ],
+          [
+            534,
+            85
+          ],
+          [
+            618,
+            85
+          ],
+          [
+            618,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          86,
+          868,
+          192
+        ],
+        "content": "(1) Pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 50 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            86
+          ],
+          [
+            284,
+            191
+          ],
+          [
+            868,
+            191
+          ],
+          [
+            868,
+            86
+          ],
+          [
+            833,
+            86
+          ],
+          [
+            769,
+            86
+          ],
+          [
+            763,
+            86
+          ],
+          [
+            684,
+            86
+          ],
+          [
+            678,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          192,
+          868,
+          222
+        ],
+        "content": "(2) Pendaftaran sebagaimana dimaksud pada ayat (1) dilakukan oleh:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            192
+          ],
+          [
+            284,
+            221
+          ],
+          [
+            867,
+            221
+          ],
+          [
+            867,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          223,
+          868,
+          297
+        ],
+        "content": "a. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            223
+          ],
+          [
+            327,
+            292
+          ],
+          [
+            347,
+            297
+          ],
+          [
+            868,
+            297
+          ],
+          [
+            868,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          298,
+          868,
+          373
+        ],
+        "content": "b. kepala Instansi Pemerintah Daerah, pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            308
+          ],
+          [
+            332,
+            373
+          ],
+          [
+            867,
+            373
+          ],
+          [
+            867,
+            298
+          ],
+          [
+            332,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          374,
+          868,
+          433
+        ],
+        "content": "c. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            374
+          ],
+          [
+            331,
+            432
+          ],
+          [
+            867,
+            432
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          433,
+          867,
+          479
+        ],
+        "content": "(3) Dokumen yang disyaratkan sebagai lampiran permohonan pendaftaran Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            433
+          ],
+          [
+            282,
+            479
+          ],
+          [
+            866,
+            479
+          ],
+          [
+            866,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          479,
+          868,
+          645
+        ],
+        "content": "a. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Negara yang memiliki tugas dan wewenang untuk menyusun daftar isian pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            479
+          ],
+          [
+            325,
+            639
+          ],
+          [
+            335,
+            644
+          ],
+          [
+            867,
+            644
+          ],
+          [
+            867,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          645,
+          867,
+          825
+        ],
+        "content": "b. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja perangkat daerah provinsi dan kabupaten/kota yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Daerah yang memiliki tugas dan wewenang untuk menyusun dokumen pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Daerah;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            645
+          ],
+          [
+            326,
+            824
+          ],
+          [
+            866,
+            824
+          ],
+          [
+            866,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          825,
+          868,
+          901
+        ],
+        "content": "c. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum, untuk Instansi Pemerintah Pusat berbentuk badan layanan umum;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            825
+          ],
+          [
+            324,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          872,
+          161
+        ],
+        "content": "d. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum daerah, untuk Instansi Pemerintah Daerah berbentuk badan layanan umum daerah; atau",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            161
+          ],
+          [
+            872,
+            161
+          ],
+          [
+            872,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          162,
+          871,
+          237
+        ],
+        "content": "e. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit organisasi penyelenggara pemerintahan desa yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Desa, untuk Instansi Pemerintah Desa.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            167
+          ],
+          [
+            330,
+            232
+          ],
+          [
+            350,
+            237
+          ],
+          [
+            374,
+            237
+          ],
+          [
+            385,
+            237
+          ],
+          [
+            871,
+            237
+          ],
+          [
+            871,
+            162
+          ],
+          [
+            861,
+            162
+          ],
+          [
+            827,
+            162
+          ],
+          [
+            811,
+            162
+          ],
+          [
+            791,
+            162
+          ],
+          [
+            786,
+            162
+          ],
+          [
+            771,
+            162
+          ],
+          [
+            721,
+            162
+          ],
+          [
+            531,
+            162
+          ],
+          [
+            380,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          238,
+          871,
+          314
+        ],
+        "content": "(4) Berdasarkan permohonan pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            238
+          ],
+          [
+            284,
+            313
+          ],
+          [
+            870,
+            313
+          ],
+          [
+            870,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          328,
+          622,
+          341
+        ],
+        "content": "## Pasal 52",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            328
+          ],
+          [
+            533,
+            341
+          ],
+          [
+            621,
+            341
+          ],
+          [
+            621,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          342,
+          868,
+          402
+        ],
+        "content": "(1) Dalam hal Wajib Pajak Instansi Pemerintah tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 50, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            342
+          ],
+          [
+            284,
+            397
+          ],
+          [
+            304,
+            402
+          ],
+          [
+            868,
+            402
+          ],
+          [
+            868,
+            347
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          403,
+          869,
+          495
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            403
+          ],
+          [
+            284,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          508,
+          620,
+          522
+        ],
+        "content": "## Pasal 53",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            508
+          ],
+          [
+            532,
+            522
+          ],
+          [
+            620,
+            522
+          ],
+          [
+            620,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          523,
+          868,
+          614
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat melakukan perubahan data Wajib Pajak Instansi Pemerintah dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            523
+          ],
+          [
+            282,
+            608
+          ],
+          [
+            298,
+            613
+          ],
+          [
+            868,
+            613
+          ],
+          [
+            868,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          614,
+          868,
+          719
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Instansi Pemerintah.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            614
+          ],
+          [
+            282,
+            709
+          ],
+          [
+            297,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            614
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          719,
+          868,
+          809
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            719
+          ],
+          [
+            287,
+            808
+          ],
+          [
+            868,
+            808
+          ],
+          [
+            868,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          809,
+          868,
+          856
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            856
+          ],
+          [
+            867,
+            856
+          ],
+          [
+            867,
+            809
+          ],
+          [
+            287,
+            809
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          869,
+          619,
+          884
+        ],
+        "content": "## Pasal 54",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            869
+          ],
+          [
+            530,
+            883
+          ],
+          [
+            618,
+            883
+          ],
+          [
+            618,
+            869
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          884,
+          868,
+          916
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            884
+          ],
+          [
+            287,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            867,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          72,
+          872,
+          178
+        ],
+        "content": "keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 53 ayat (1), perubahan data Wajib Pajak Instansi Pemerintah dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak Instansi Pemerintah yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            72
+          ],
+          [
+            335,
+            177
+          ],
+          [
+            415,
+            177
+          ],
+          [
+            421,
+            177
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            871,
+            77
+          ],
+          [
+            636,
+            72
+          ],
+          [
+            440,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          177,
+          871,
+          267
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak Instansi Pemerintah terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            192
+          ],
+          [
+            285,
+            262
+          ],
+          [
+            306,
+            267
+          ],
+          [
+            871,
+            267
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            291,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          268,
+          870,
+          315
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            268
+          ],
+          [
+            285,
+            314
+          ],
+          [
+            870,
+            314
+          ],
+          [
+            870,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          328,
+          622,
+          342
+        ],
+        "content": "## Pasal 55",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            328
+          ],
+          [
+            533,
+            341
+          ],
+          [
+            622,
+            341
+          ],
+          [
+            622,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          343,
+          869,
+          403
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat menetapkan Wajib Pajak Instansi Pemerintah sebagai Wajib Pajak Nonaktif.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            343
+          ],
+          [
+            285,
+            398
+          ],
+          [
+            300,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          404,
+          869,
+          449
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            404
+          ],
+          [
+            285,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          450,
+          870,
+          508
+        ],
+        "content": "a. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak namun belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            450
+          ],
+          [
+            329,
+            508
+          ],
+          [
+            869,
+            508
+          ],
+          [
+            869,
+            450
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          509,
+          868,
+          538
+        ],
+        "content": "b. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            509
+          ],
+          [
+            330,
+            538
+          ],
+          [
+            867,
+            538
+          ],
+          [
+            867,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          539,
+          870,
+          645
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            539
+          ],
+          [
+            284,
+            644
+          ],
+          [
+            869,
+            644
+          ],
+          [
+            869,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          645,
+          869,
+          720
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            645
+          ],
+          [
+            284,
+            719
+          ],
+          [
+            868,
+            719
+          ],
+          [
+            868,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          720,
+          868,
+          765
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            720
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            867,
+            765
+          ],
+          [
+            867,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          765,
+          869,
+          855
+        ],
+        "content": "(6) Dalam hal Wajib Pajak Instansi Pemerintah tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            765
+          ],
+          [
+            282,
+            855
+          ],
+          [
+            868,
+            855
+          ],
+          [
+            868,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          870,
+          620,
+          884
+        ],
+        "content": "## Pasal 56",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            870
+          ],
+          [
+            531,
+            884
+          ],
+          [
+            620,
+            884
+          ],
+          [
+            620,
+            870
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          885,
+          868,
+          916
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            885
+          ],
+          [
+            283,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          327,
+          73,
+          864,
+          104
+        ],
+        "content": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            73
+          ],
+          [
+            327,
+            104
+          ],
+          [
+            864,
+            104
+          ],
+          [
+            864,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          105,
+          678,
+          118
+        ],
+        "content": "2. pemeriksaan bukti permulaan;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            105
+          ],
+          [
+            325,
+            118
+          ],
+          [
+            678,
+            118
+          ],
+          [
+            678,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          118,
+          864,
+          148
+        ],
+        "content": "3. penyidikan tindak pidana di bidang perpajakan; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            118
+          ],
+          [
+            325,
+            147
+          ],
+          [
+            863,
+            147
+          ],
+          [
+            863,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          149,
+          850,
+          164
+        ],
+        "content": "4. penuntutan tindak pidana di bidang perpajakan;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            149
+          ],
+          [
+            325,
+            163
+          ],
+          [
+            850,
+            163
+          ],
+          [
+            850,
+            149
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          163,
+          862,
+          194
+        ],
+        "content": "c. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            163
+          ],
+          [
+            279,
+            194
+          ],
+          [
+            862,
+            194
+          ],
+          [
+            862,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          195,
+          862,
+          224
+        ],
+        "content": "d. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            195
+          ],
+          [
+            279,
+            224
+          ],
+          [
+            862,
+            224
+          ],
+          [
+            862,
+            195
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          225,
+          863,
+          253
+        ],
+        "content": "e. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            225
+          ],
+          [
+            280,
+            253
+          ],
+          [
+            862,
+            253
+          ],
+          [
+            862,
+            225
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          255,
+          865,
+          298
+        ],
+        "content": "1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            255
+          ],
+          [
+            326,
+            298
+          ],
+          [
+            864,
+            298
+          ],
+          [
+            864,
+            255
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          300,
+          589,
+          315
+        ],
+        "content": "2. pengajuan keberatan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            300
+          ],
+          [
+            325,
+            314
+          ],
+          [
+            588,
+            314
+          ],
+          [
+            588,
+            300
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          315,
+          779,
+          330
+        ],
+        "content": "3. pengurangan Pajak Bumi dan Bangunan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            315
+          ],
+          [
+            324,
+            330
+          ],
+          [
+            778,
+            330
+          ],
+          [
+            778,
+            315
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          331,
+          863,
+          359
+        ],
+        "content": "4. pengurangan atau penghapusan sanksi administratif;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            331
+          ],
+          [
+            324,
+            358
+          ],
+          [
+            862,
+            358
+          ],
+          [
+            862,
+            331
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          360,
+          862,
+          389
+        ],
+        "content": "5. pengurangan denda administratif Pajak Bumi dan Bangunan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            360
+          ],
+          [
+            324,
+            389
+          ],
+          [
+            862,
+            389
+          ],
+          [
+            862,
+            360
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          390,
+          862,
+          419
+        ],
+        "content": "6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            390
+          ],
+          [
+            324,
+            419
+          ],
+          [
+            862,
+            419
+          ],
+          [
+            862,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          420,
+          864,
+          479
+        ],
+        "content": "7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terhutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            420
+          ],
+          [
+            325,
+            479
+          ],
+          [
+            863,
+            479
+          ],
+          [
+            863,
+            420
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          480,
+          863,
+          510
+        ],
+        "content": "8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            480
+          ],
+          [
+            324,
+            509
+          ],
+          [
+            862,
+            509
+          ],
+          [
+            862,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          510,
+          862,
+          540
+        ],
+        "content": "9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            510
+          ],
+          [
+            324,
+            539
+          ],
+          [
+            862,
+            539
+          ],
+          [
+            862,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          540,
+          864,
+          571
+        ],
+        "content": "10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            540
+          ],
+          [
+            325,
+            570
+          ],
+          [
+            863,
+            570
+          ],
+          [
+            863,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          571,
+          463,
+          586
+        ],
+        "content": "11. gugatan;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            571
+          ],
+          [
+            327,
+            585
+          ],
+          [
+            462,
+            585
+          ],
+          [
+            462,
+            571
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          586,
+          561,
+          601
+        ],
+        "content": "12. banding; dan/atau",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            586
+          ],
+          [
+            327,
+            601
+          ],
+          [
+            560,
+            601
+          ],
+          [
+            560,
+            586
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          603,
+          575,
+          619
+        ],
+        "content": "13. peninjauan kembali.",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            603
+          ],
+          [
+            327,
+            619
+          ],
+          [
+            574,
+            619
+          ],
+          [
+            574,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          635,
+          616,
+          649
+        ],
+        "content": "## Pasal 50",
+        "index": 20,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            635
+          ],
+          [
+            527,
+            648
+          ],
+          [
+            615,
+            648
+          ],
+          [
+            615,
+            635
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          650,
+          864,
+          724
+        ],
+        "content": "(1) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf d wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            650
+          ],
+          [
+            278,
+            724
+          ],
+          [
+            864,
+            724
+          ],
+          [
+            864,
+            650
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          725,
+          864,
+          785
+        ],
+        "content": "(2) Pendaftaran diri Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan paling lambat sebelum melakukan pemotongan dan/atau pemungutan pajak.",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            725
+          ],
+          [
+            278,
+            785
+          ],
+          [
+            863,
+            785
+          ],
+          [
+            863,
+            725
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          785,
+          864,
+          877
+        ],
+        "content": "(3) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) diharuskan untuk melaporkan subunit organisasinya ke Kantor Pelayanan Pajak tempat Wajib Pajak Instansi Pemerintah terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap subunit organisasinya.",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            785
+          ],
+          [
+            284,
+            877
+          ],
+          [
+            864,
+            877
+          ],
+          [
+            864,
+            785
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          534,
+          71,
+          619,
+          86
+        ],
+        "content": "Pasal 51",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            534,
+            71
+          ],
+          [
+            534,
+            85
+          ],
+          [
+            618,
+            85
+          ],
+          [
+            618,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          86,
+          868,
+          192
+        ],
+        "content": "(1) Pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 50 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            86
+          ],
+          [
+            284,
+            191
+          ],
+          [
+            868,
+            191
+          ],
+          [
+            868,
+            86
+          ],
+          [
+            833,
+            86
+          ],
+          [
+            769,
+            86
+          ],
+          [
+            763,
+            86
+          ],
+          [
+            684,
+            86
+          ],
+          [
+            678,
+            86
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          192,
+          868,
+          222
+        ],
+        "content": "(2) Pendaftaran sebagaimana dimaksud pada ayat (1) dilakukan oleh:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            192
+          ],
+          [
+            284,
+            221
+          ],
+          [
+            867,
+            221
+          ],
+          [
+            867,
+            192
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          223,
+          868,
+          297
+        ],
+        "content": "a. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            223
+          ],
+          [
+            327,
+            292
+          ],
+          [
+            347,
+            297
+          ],
+          [
+            868,
+            297
+          ],
+          [
+            868,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          298,
+          868,
+          373
+        ],
+        "content": "b. kepala Instansi Pemerintah Daerah, pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            308
+          ],
+          [
+            332,
+            373
+          ],
+          [
+            867,
+            373
+          ],
+          [
+            867,
+            298
+          ],
+          [
+            332,
+            298
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          374,
+          868,
+          433
+        ],
+        "content": "c. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            374
+          ],
+          [
+            331,
+            432
+          ],
+          [
+            867,
+            432
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          433,
+          867,
+          479
+        ],
+        "content": "(3) Dokumen yang disyaratkan sebagai lampiran permohonan pendaftaran Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            433
+          ],
+          [
+            282,
+            479
+          ],
+          [
+            866,
+            479
+          ],
+          [
+            866,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          479,
+          868,
+          645
+        ],
+        "content": "a. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Negara yang memiliki tugas dan wewenang untuk menyusun daftar isian pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            479
+          ],
+          [
+            325,
+            639
+          ],
+          [
+            335,
+            644
+          ],
+          [
+            867,
+            644
+          ],
+          [
+            867,
+            479
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          645,
+          867,
+          825
+        ],
+        "content": "b. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja perangkat daerah provinsi dan kabupaten/kota yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Daerah yang memiliki tugas dan wewenang untuk menyusun dokumen pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Daerah;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            645
+          ],
+          [
+            326,
+            824
+          ],
+          [
+            866,
+            824
+          ],
+          [
+            866,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          825,
+          868,
+          901
+        ],
+        "content": "c. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum, untuk Instansi Pemerintah Pusat berbentuk badan layanan umum;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            825
+          ],
+          [
+            324,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          872,
+          161
+        ],
+        "content": "d. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum daerah, untuk Instansi Pemerintah Daerah berbentuk badan layanan umum daerah; atau",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            331,
+            161
+          ],
+          [
+            872,
+            161
+          ],
+          [
+            872,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          162,
+          871,
+          237
+        ],
+        "content": "e. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit organisasi penyelenggara pemerintahan desa yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Desa, untuk Instansi Pemerintah Desa.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            167
+          ],
+          [
+            330,
+            232
+          ],
+          [
+            350,
+            237
+          ],
+          [
+            374,
+            237
+          ],
+          [
+            385,
+            237
+          ],
+          [
+            871,
+            237
+          ],
+          [
+            871,
+            162
+          ],
+          [
+            861,
+            162
+          ],
+          [
+            827,
+            162
+          ],
+          [
+            811,
+            162
+          ],
+          [
+            791,
+            162
+          ],
+          [
+            786,
+            162
+          ],
+          [
+            771,
+            162
+          ],
+          [
+            721,
+            162
+          ],
+          [
+            531,
+            162
+          ],
+          [
+            380,
+            162
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          238,
+          871,
+          314
+        ],
+        "content": "(4) Berdasarkan permohonan pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            238
+          ],
+          [
+            284,
+            313
+          ],
+          [
+            870,
+            313
+          ],
+          [
+            870,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          328,
+          622,
+          341
+        ],
+        "content": "## Pasal 52",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            328
+          ],
+          [
+            533,
+            341
+          ],
+          [
+            621,
+            341
+          ],
+          [
+            621,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          342,
+          868,
+          402
+        ],
+        "content": "(1) Dalam hal Wajib Pajak Instansi Pemerintah tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 50, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            342
+          ],
+          [
+            284,
+            397
+          ],
+          [
+            304,
+            402
+          ],
+          [
+            868,
+            402
+          ],
+          [
+            868,
+            347
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          403,
+          869,
+          495
+        ],
+        "content": "(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            403
+          ],
+          [
+            284,
+            495
+          ],
+          [
+            868,
+            495
+          ],
+          [
+            868,
+            403
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          532,
+          508,
+          620,
+          522
+        ],
+        "content": "## Pasal 53",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            532,
+            508
+          ],
+          [
+            532,
+            522
+          ],
+          [
+            620,
+            522
+          ],
+          [
+            620,
+            508
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          523,
+          868,
+          614
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat melakukan perubahan data Wajib Pajak Instansi Pemerintah dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            523
+          ],
+          [
+            282,
+            608
+          ],
+          [
+            298,
+            613
+          ],
+          [
+            868,
+            613
+          ],
+          [
+            868,
+            523
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          614,
+          868,
+          719
+        ],
+        "content": "(2) Permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Instansi Pemerintah.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            614
+          ],
+          [
+            282,
+            709
+          ],
+          [
+            297,
+            718
+          ],
+          [
+            868,
+            718
+          ],
+          [
+            868,
+            614
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          719,
+          868,
+          809
+        ],
+        "content": "(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            719
+          ],
+          [
+            287,
+            808
+          ],
+          [
+            868,
+            808
+          ],
+          [
+            868,
+            719
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          809,
+          868,
+          856
+        ],
+        "content": "(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            856
+          ],
+          [
+            867,
+            856
+          ],
+          [
+            867,
+            809
+          ],
+          [
+            287,
+            809
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          530,
+          869,
+          619,
+          884
+        ],
+        "content": "## Pasal 54",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            530,
+            869
+          ],
+          [
+            530,
+            883
+          ],
+          [
+            618,
+            883
+          ],
+          [
+            618,
+            869
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          884,
+          868,
+          916
+        ],
+        "content": "(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            884
+          ],
+          [
+            287,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            867,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          72,
+          872,
+          178
+        ],
+        "content": "keadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 53 ayat (1), perubahan data Wajib Pajak Instansi Pemerintah dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak Instansi Pemerintah yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            72
+          ],
+          [
+            335,
+            177
+          ],
+          [
+            415,
+            177
+          ],
+          [
+            421,
+            177
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            871,
+            77
+          ],
+          [
+            636,
+            72
+          ],
+          [
+            440,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          177,
+          871,
+          267
+        ],
+        "content": "(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak Instansi Pemerintah terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            192
+          ],
+          [
+            285,
+            262
+          ],
+          [
+            306,
+            267
+          ],
+          [
+            871,
+            267
+          ],
+          [
+            871,
+            177
+          ],
+          [
+            291,
+            177
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          268,
+          870,
+          315
+        ],
+        "content": "(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            268
+          ],
+          [
+            285,
+            314
+          ],
+          [
+            870,
+            314
+          ],
+          [
+            870,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          533,
+          328,
+          622,
+          342
+        ],
+        "content": "## Pasal 55",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            533,
+            328
+          ],
+          [
+            533,
+            341
+          ],
+          [
+            622,
+            341
+          ],
+          [
+            622,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          343,
+          869,
+          403
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat menetapkan Wajib Pajak Instansi Pemerintah sebagai Wajib Pajak Nonaktif.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            343
+          ],
+          [
+            285,
+            398
+          ],
+          [
+            300,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            343
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          404,
+          869,
+          449
+        ],
+        "content": "(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            404
+          ],
+          [
+            285,
+            448
+          ],
+          [
+            868,
+            448
+          ],
+          [
+            868,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          450,
+          870,
+          508
+        ],
+        "content": "a. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak namun belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            450
+          ],
+          [
+            329,
+            508
+          ],
+          [
+            869,
+            508
+          ],
+          [
+            869,
+            450
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          509,
+          868,
+          538
+        ],
+        "content": "b. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            509
+          ],
+          [
+            330,
+            538
+          ],
+          [
+            867,
+            538
+          ],
+          [
+            867,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          539,
+          870,
+          645
+        ],
+        "content": "(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah memenuhi kriteria Wajib Pajak Nonaktif.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            539
+          ],
+          [
+            284,
+            644
+          ],
+          [
+            869,
+            644
+          ],
+          [
+            869,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          645,
+          869,
+          720
+        ],
+        "content": "(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            645
+          ],
+          [
+            284,
+            719
+          ],
+          [
+            868,
+            719
+          ],
+          [
+            868,
+            645
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          720,
+          868,
+          765
+        ],
+        "content": "(5) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            720
+          ],
+          [
+            283,
+            765
+          ],
+          [
+            867,
+            765
+          ],
+          [
+            867,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          765,
+          869,
+          855
+        ],
+        "content": "(6) Dalam hal Wajib Pajak Instansi Pemerintah tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            765
+          ],
+          [
+            282,
+            855
+          ],
+          [
+            868,
+            855
+          ],
+          [
+            868,
+            765
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          870,
+          620,
+          884
+        ],
+        "content": "## Pasal 56",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            870
+          ],
+          [
+            531,
+            884
+          ],
+          [
+            620,
+            884
+          ],
+          [
+            620,
+            870
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          885,
+          868,
+          916
+        ],
+        "content": "(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            885
+          ],
+          [
+            283,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;\n\n5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terhutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 50\n\n(1) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf d wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.\n\n(2) Pendaftaran diri Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan paling lambat sebelum melakukan pemotongan dan/atau pemungutan pajak.\n\n(3) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) diharuskan untuk melaporkan subunit organisasinya ke Kantor Pelayanan Pajak tempat Wajib Pajak Instansi Pemerintah terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap subunit organisasinya.\n\nPasal 51\n\n(1) Pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 50 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Pendaftaran sebagaimana dimaksud pada ayat (1) dilakukan oleh:\n\na. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\nb. kepala Instansi Pemerintah Daerah, pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nc. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(3) Dokumen yang disyaratkan sebagai lampiran permohonan pendaftaran Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:\n\na. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Negara yang memiliki tugas dan wewenang untuk menyusun daftar isian pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Pusat;\n\nb. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja perangkat daerah provinsi dan kabupaten/kota yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Daerah yang memiliki tugas dan wewenang untuk menyusun dokumen pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Daerah;\n\nc. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum, untuk Instansi Pemerintah Pusat berbentuk badan layanan umum;\n\nd. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum daerah, untuk Instansi Pemerintah Daerah berbentuk badan layanan umum daerah; atau\n\ne. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit organisasi penyelenggara pemerintahan desa yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Desa, untuk Instansi Pemerintah Desa.\n\n(4) Berdasarkan permohonan pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 52\n\n(1) Dalam hal Wajib Pajak Instansi Pemerintah tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 50, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 53\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat melakukan perubahan data Wajib Pajak Instansi Pemerintah dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Instansi Pemerintah.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 54\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan\n\nkeadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 53 ayat (1), perubahan data Wajib Pajak Instansi Pemerintah dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak Instansi Pemerintah yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak Instansi Pemerintah terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 55\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat menetapkan Wajib Pajak Instansi Pemerintah sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:\n\na. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak namun belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau\n\nb. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak Instansi Pemerintah tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 56\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau",
+  "md_results": "1. Pemeriksaan dengan tujuan untuk menguji kepatuhan pemenuhan kewajiban perpajakan;\n\n2. pemeriksaan bukti permulaan;\n\n3. penyidikan tindak pidana di bidang perpajakan; atau\n\n4. penuntutan tindak pidana di bidang perpajakan;\n\nc. tidak sedang dalam proses penyelesaian Prosedur Persetujuan Bersama (Mutual Agreement Procedure);\n\nd. tidak sedang dalam proses penyelesaian kesepakatan harga transfer (advance pricing agreement); dan\n\ne. tidak sedang dalam proses penyelesaian upaya administratif dan upaya hukum, berupa:\n\n1. pembetulan sebagaimana diatur dalam Pasal 16 Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\n2. pengajuan keberatan;\n\n3. pengurangan Pajak Bumi dan Bangunan;\n\n4. pengurangan atau penghapusan sanksi administratif;\n\n5. pengurangan denda administratif Pajak Bumi dan Bangunan;\n\n6. pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar;\n\n7. pengurangan atau pembatalan Surat Pemberitahuan Pajak Terhutang atau Surat Ketetapan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n8. pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar;\n\n9. pembatalan Surat Tagihan Pajak Pajak Bumi dan Bangunan yang tidak benar;\n\n10. pembatalan hasil pemeriksaan pajak atau surat ketetapan pajak dari hasil pemeriksaan;\n\n11. gugatan;\n\n12. banding; dan/atau\n\n13. peninjauan kembali.\n\n## Pasal 50\n\n(1) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 15 ayat (6) huruf d wajib mendaftarkan diri pada Kantor Pelayanan Pajak yang wilayah kerjanya meliputi tempat kedudukan Wajib Pajak.\n\n(2) Pendaftaran diri Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) dilakukan paling lambat sebelum melakukan pemotongan dan/atau pemungutan pajak.\n\n(3) Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1) diharuskan untuk melaporkan subunit organisasinya ke Kantor Pelayanan Pajak tempat Wajib Pajak Instansi Pemerintah terdaftar untuk memperoleh Nomor Identitas Tempat Kegiatan Usaha bagi setiap subunit organisasinya.\n\nPasal 51\n\n(1) Pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud dalam Pasal 50 dilakukan dengan mengajukan permohonan yang dilaksanakan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang disyaratkan.\n\n(2) Pendaftaran sebagaimana dimaksud pada ayat (1) dilakukan oleh:\n\na. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\nb. kepala Instansi Pemerintah Daerah, pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nc. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(3) Dokumen yang disyaratkan sebagai lampiran permohonan pendaftaran Nomor Pokok Wajib Pajak sebagaimana dimaksud pada ayat (1) berupa:\n\na. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Negara yang memiliki tugas dan wewenang untuk menyusun daftar isian pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Pusat;\n\nb. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan satuan kerja perangkat daerah provinsi dan kabupaten/kota yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Daerah yang memiliki tugas dan wewenang untuk menyusun dokumen pelaksanaan anggaran serta wajib menyelenggarakan akuntansi dan menyusun laporan keuangan dengan standar akuntansi pemerintahan sesuai dengan ketentuan peraturan perundang-undangan di bidang keuangan negara, untuk Instansi Pemerintah Daerah;\n\nc. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum, untuk Instansi Pemerintah Pusat berbentuk badan layanan umum;\n\nd. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit kerja yang menerapkan pola pengelolaan keuangan badan layanan umum daerah, untuk Instansi Pemerintah Daerah berbentuk badan layanan umum daerah; atau\n\ne. dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah merupakan unit organisasi penyelenggara pemerintahan desa yang bertindak selaku pengguna Anggaran Pendapatan dan Belanja Desa, untuk Instansi Pemerintah Desa.\n\n(4) Berdasarkan permohonan pendaftaran Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan Nomor Pokok Wajib Pajak paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 52\n\n(1) Dalam hal Wajib Pajak Instansi Pemerintah tidak melaksanakan kewajiban sebagaimana dimaksud dalam Pasal 50, Kepala Kantor Pelayanan Pajak dapat menerbitkan Nomor Pokok Wajib Pajak secara jabatan.\n\n(2) Penerbitan Nomor Pokok Wajib Pajak secara jabatan sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan hasil penelitian administrasi sesuai data dan/atau informasi yang dimiliki atau diperoleh Direktorat Jenderal Pajak, termasuk data dan/atau informasi yang diperoleh dari kegiatan ekstensifikasi.\n\n## Pasal 53\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat melakukan perubahan data Wajib Pajak Instansi Pemerintah dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan keadaan yang sebenarnya.\n\n(2) Permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan adanya perubahan data Wajib Pajak Instansi Pemerintah.\n\n(3) Setelah melakukan penelitian atas permohonan perubahan data Wajib Pajak Instansi Pemerintah sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(4) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 1 (satu) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 54\n\n(1) Selain dalam hal data dan/atau informasi yang terdapat dalam administrasi perpajakan berbeda dengan\n\nkeadaan yang sebenarnya sebagaimana dimaksud dalam Pasal 53 ayat (1), perubahan data Wajib Pajak Instansi Pemerintah dilakukan dalam hal terdapat perubahan alamat tempat kedudukan Wajib Pajak Instansi Pemerintah yang menyebabkan pemindahan wilayah kerja Kantor Pelayanan Pajak tempat Wajib Pajak terdaftar.\n\n(2) Setelah melakukan penelitian atas permohonan pemindahan tempat Wajib Pajak Instansi Pemerintah terdaftar sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(3) Keputusan sebagaimana dimaksud pada ayat (2) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n## Pasal 55\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat menetapkan Wajib Pajak Instansi Pemerintah sebagai Wajib Pajak Nonaktif.\n\n(2) Penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan dalam hal Wajib Pajak Instansi Pemerintah:\n\na. tidak memenuhi persyaratan sebagai pemotong dan/atau pemungut pajak namun belum dilakukan Penghapusan Nomor Pokok Wajib Pajak; atau\n\nb. memenuhi kriteria tertentu yang ditetapkan oleh Direktur Jenderal Pajak.\n\n(3) Permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4, serta dilampiri dengan dokumen yang menunjukkan bahwa Wajib Pajak Instansi Pemerintah memenuhi kriteria Wajib Pajak Nonaktif.\n\n(4) Setelah melakukan penelitian atas permohonan penetapan Wajib Pajak Nonaktif sebagaimana dimaksud pada ayat (1), Kepala Kantor Pelayanan Pajak menerbitkan keputusan dan memberitahukannya kepada Wajib Pajak Instansi Pemerintah.\n\n(5) Keputusan sebagaimana dimaksud pada ayat (3) diterbitkan paling lama 5 (lima) hari kerja setelah permohonan diterima secara lengkap.\n\n(6) Dalam hal Wajib Pajak Instansi Pemerintah tidak lagi memenuhi kriteria sebagaimana dimaksud pada ayat (2), Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau secara jabatan dapat mengaktifkan kembali Wajib Pajak Nonaktif.\n\n## Pasal 56\n\n(1) Kepala Kantor Pelayanan Pajak berdasarkan permohonan Wajib Pajak Instansi Pemerintah atau",
+  "model": "glm-ocr",
+  "usage": {}
+}

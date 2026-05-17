@@ -1,0 +1,929 @@
+{
+  "created": 1779015332,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-8ee1c49cb87e4ae4985a430d70131",
+  "json_result": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          281,
+          70,
+          867,
+          131
+        ],
+        "content": "(2) Pemindahbukuan dapat dilakukan untuk pembayaran Pajak Penghasilan, Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, Bea Meterai, Pajak Bumi dan Bangunan, Pajak Penjualan, dan Pajak Karbon.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            96
+          ],
+          [
+            287,
+            131
+          ],
+          [
+            866,
+            131
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            791,
+            70
+          ],
+          [
+            767,
+            70
+          ],
+          [
+            746,
+            70
+          ],
+          [
+            287,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          131,
+          866,
+          192
+        ],
+        "content": "(3) Pemindahbukuan atas jumlah pembayaran yang lebih besar daripada pajak yang terutang sebagaimana dimaksud pada ayat (1) huruf d tidak dapat diajukan dalam hal pembayaran dimaksud merupakan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            131
+          ],
+          [
+            281,
+            191
+          ],
+          [
+            865,
+            191
+          ],
+          [
+            865,
+            137
+          ],
+          [
+            855,
+            131
+          ],
+          [
+            811,
+            131
+          ],
+          [
+            685,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          193,
+          867,
+          266
+        ],
+        "content": "a. pembayaran melalui Surat Setoran Pajak yang kedudukannya dipersamakan dengan Faktur Pajak, yang tidak dapat dikreditkan berdasarkan ketentuan Pasal 9 ayat (8) Undang-Undang Pajak Pertambahan Nilai;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            193
+          ],
+          [
+            325,
+            266
+          ],
+          [
+            866,
+            266
+          ],
+          [
+            866,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          268,
+          864,
+          311
+        ],
+        "content": "b. pembayaran atas penyetoran Bea Meterai atau pembayaran untuk penyetoran Bea Meterai dalam rangka:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            268
+          ],
+          [
+            325,
+            311
+          ],
+          [
+            864,
+            311
+          ],
+          [
+            864,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          313,
+          865,
+          387
+        ],
+        "content": "1. pendistribusian Meterai elektronik kepada badan usaha yang bekerja sama dengan Perusahaan Umum (Perum) Percetakan Uang Republik Indonesia untuk melaksanakan pendistribusian Meterai elektronik; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            313
+          ],
+          [
+            372,
+            387
+          ],
+          [
+            865,
+            387
+          ],
+          [
+            865,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          370,
+          388,
+          862,
+          417
+        ],
+        "content": "2. penjualan Meterai tempel yang dilakukan oleh PT Pos Indonesia (Persero);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            370,
+            388
+          ],
+          [
+            370,
+            417
+          ],
+          [
+            862,
+            417
+          ],
+          [
+            862,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          418,
+          864,
+          463
+        ],
+        "content": "c. pembayaran pajak yang kode billing-nya diterbitkan oleh sistem billing selain yang diadministrasikan Direktorat Jenderal Pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            418
+          ],
+          [
+            324,
+            463
+          ],
+          [
+            863,
+            463
+          ],
+          [
+            863,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          464,
+          863,
+          493
+        ],
+        "content": "d. pembayaran pajak yang dianggap sebagai penyampaian Surat Pemberitahuan Masa;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            464
+          ],
+          [
+            324,
+            493
+          ],
+          [
+            862,
+            493
+          ],
+          [
+            862,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          495,
+          862,
+          524
+        ],
+        "content": "e. pembayaran pajak sebagai satu kesatuan dengan penyampaian Surat Pemberitahuan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            495
+          ],
+          [
+            324,
+            523
+          ],
+          [
+            862,
+            523
+          ],
+          [
+            862,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          320,
+          524,
+          863,
+          705
+        ],
+        "content": "f. pembayaran pajak yang sudah diperhitungkan dengan pajak terutang dalam Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, Surat Pemberitahuan Pajak Terutang, dan Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang masih harus dibayar bertambah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            524
+          ],
+          [
+            320,
+            704
+          ],
+          [
+            862,
+            704
+          ],
+          [
+            862,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          705,
+          862,
+          734
+        ],
+        "content": "(4) Pemindahbukuan hanya dapat dilakukan antarpembayaran pajak dalam mata uang yang sama.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            705
+          ],
+          [
+            278,
+            733
+          ],
+          [
+            861,
+            733
+          ],
+          [
+            861,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          734,
+          863,
+          779
+        ],
+        "content": "(5) Permohonan Pemindahbukuan diajukan oleh Wajib Pajak yang identitasnya tertera dalam bukti pembayaran.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            734
+          ],
+          [
+            278,
+            778
+          ],
+          [
+            862,
+            778
+          ],
+          [
+            862,
+            734
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          780,
+          862,
+          853
+        ],
+        "content": "(6) Tata cara penyampaian permohonan Pemindahbukuan sebagaimana dimaksud pada ayat (5) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            780
+          ],
+          [
+            277,
+            848
+          ],
+          [
+            287,
+            853
+          ],
+          [
+            861,
+            853
+          ],
+          [
+            861,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          854,
+          863,
+          915
+        ],
+        "content": "(7) Dalam hal Wajib Pajak melakukan penggabungan usaha, permohonan Pemindahbukuan atas pembayaran dan penyetoran pajak yang mencantumkan Nomor Pokok Wajib Pajak dari Wajib",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            854
+          ],
+          [
+            276,
+            914
+          ],
+          [
+            862,
+            914
+          ],
+          [
+            862,
+            854
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          281,
+          70,
+          867,
+          131
+        ],
+        "content": "(2) Pemindahbukuan dapat dilakukan untuk pembayaran Pajak Penghasilan, Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, Bea Meterai, Pajak Bumi dan Bangunan, Pajak Penjualan, dan Pajak Karbon.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            96
+          ],
+          [
+            287,
+            131
+          ],
+          [
+            866,
+            131
+          ],
+          [
+            866,
+            76
+          ],
+          [
+            791,
+            70
+          ],
+          [
+            767,
+            70
+          ],
+          [
+            746,
+            70
+          ],
+          [
+            287,
+            70
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          131,
+          866,
+          192
+        ],
+        "content": "(3) Pemindahbukuan atas jumlah pembayaran yang lebih besar daripada pajak yang terutang sebagaimana dimaksud pada ayat (1) huruf d tidak dapat diajukan dalam hal pembayaran dimaksud merupakan:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            131
+          ],
+          [
+            281,
+            191
+          ],
+          [
+            865,
+            191
+          ],
+          [
+            865,
+            137
+          ],
+          [
+            855,
+            131
+          ],
+          [
+            811,
+            131
+          ],
+          [
+            685,
+            131
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          193,
+          867,
+          266
+        ],
+        "content": "a. pembayaran melalui Surat Setoran Pajak yang kedudukannya dipersamakan dengan Faktur Pajak, yang tidak dapat dikreditkan berdasarkan ketentuan Pasal 9 ayat (8) Undang-Undang Pajak Pertambahan Nilai;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            193
+          ],
+          [
+            325,
+            266
+          ],
+          [
+            866,
+            266
+          ],
+          [
+            866,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          268,
+          864,
+          311
+        ],
+        "content": "b. pembayaran atas penyetoran Bea Meterai atau pembayaran untuk penyetoran Bea Meterai dalam rangka:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            268
+          ],
+          [
+            325,
+            311
+          ],
+          [
+            864,
+            311
+          ],
+          [
+            864,
+            268
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          372,
+          313,
+          865,
+          387
+        ],
+        "content": "1. pendistribusian Meterai elektronik kepada badan usaha yang bekerja sama dengan Perusahaan Umum (Perum) Percetakan Uang Republik Indonesia untuk melaksanakan pendistribusian Meterai elektronik; dan",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            372,
+            313
+          ],
+          [
+            372,
+            387
+          ],
+          [
+            865,
+            387
+          ],
+          [
+            865,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          370,
+          388,
+          862,
+          417
+        ],
+        "content": "2. penjualan Meterai tempel yang dilakukan oleh PT Pos Indonesia (Persero);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            370,
+            388
+          ],
+          [
+            370,
+            417
+          ],
+          [
+            862,
+            417
+          ],
+          [
+            862,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          418,
+          864,
+          463
+        ],
+        "content": "c. pembayaran pajak yang kode billing-nya diterbitkan oleh sistem billing selain yang diadministrasikan Direktorat Jenderal Pajak;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            418
+          ],
+          [
+            324,
+            463
+          ],
+          [
+            863,
+            463
+          ],
+          [
+            863,
+            418
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          464,
+          863,
+          493
+        ],
+        "content": "d. pembayaran pajak yang dianggap sebagai penyampaian Surat Pemberitahuan Masa;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            464
+          ],
+          [
+            324,
+            493
+          ],
+          [
+            862,
+            493
+          ],
+          [
+            862,
+            464
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          495,
+          862,
+          524
+        ],
+        "content": "e. pembayaran pajak sebagai satu kesatuan dengan penyampaian Surat Pemberitahuan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            495
+          ],
+          [
+            324,
+            523
+          ],
+          [
+            862,
+            523
+          ],
+          [
+            862,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          320,
+          524,
+          863,
+          705
+        ],
+        "content": "f. pembayaran pajak yang sudah diperhitungkan dengan pajak terutang dalam Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, Surat Pemberitahuan Pajak Terutang, dan Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang masih harus dibayar bertambah.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            524
+          ],
+          [
+            320,
+            704
+          ],
+          [
+            862,
+            704
+          ],
+          [
+            862,
+            524
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          705,
+          862,
+          734
+        ],
+        "content": "(4) Pemindahbukuan hanya dapat dilakukan antarpembayaran pajak dalam mata uang yang sama.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            705
+          ],
+          [
+            278,
+            733
+          ],
+          [
+            861,
+            733
+          ],
+          [
+            861,
+            705
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          734,
+          863,
+          779
+        ],
+        "content": "(5) Permohonan Pemindahbukuan diajukan oleh Wajib Pajak yang identitasnya tertera dalam bukti pembayaran.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            734
+          ],
+          [
+            278,
+            778
+          ],
+          [
+            862,
+            778
+          ],
+          [
+            862,
+            734
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          780,
+          862,
+          853
+        ],
+        "content": "(6) Tata cara penyampaian permohonan Pemindahbukuan sebagaimana dimaksud pada ayat (5) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            780
+          ],
+          [
+            277,
+            848
+          ],
+          [
+            287,
+            853
+          ],
+          [
+            861,
+            853
+          ],
+          [
+            861,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          854,
+          863,
+          915
+        ],
+        "content": "(7) Dalam hal Wajib Pajak melakukan penggabungan usaha, permohonan Pemindahbukuan atas pembayaran dan penyetoran pajak yang mencantumkan Nomor Pokok Wajib Pajak dari Wajib",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            854
+          ],
+          [
+            276,
+            914
+          ],
+          [
+            862,
+            914
+          ],
+          [
+            862,
+            854
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\n\n\n\n\n(2) Pemindahbukuan dapat dilakukan untuk pembayaran Pajak Penghasilan, Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, Bea Meterai, Pajak Bumi dan Bangunan, Pajak Penjualan, dan Pajak Karbon.\n\n(3) Pemindahbukuan atas jumlah pembayaran yang lebih besar daripada pajak yang terutang sebagaimana dimaksud pada ayat (1) huruf d tidak dapat diajukan dalam hal pembayaran dimaksud merupakan:\n\na. pembayaran melalui Surat Setoran Pajak yang kedudukannya dipersamakan dengan Faktur Pajak, yang tidak dapat dikreditkan berdasarkan ketentuan Pasal 9 ayat (8) Undang-Undang Pajak Pertambahan Nilai;\n\nb. pembayaran atas penyetoran Bea Meterai atau pembayaran untuk penyetoran Bea Meterai dalam rangka:\n\n1. pendistribusian Meterai elektronik kepada badan usaha yang bekerja sama dengan Perusahaan Umum (Perum) Percetakan Uang Republik Indonesia untuk melaksanakan pendistribusian Meterai elektronik; dan\n\n2. penjualan Meterai tempel yang dilakukan oleh PT Pos Indonesia (Persero);\n\nc. pembayaran pajak yang kode billing-nya diterbitkan oleh sistem billing selain yang diadministrasikan Direktorat Jenderal Pajak;\n\nd. pembayaran pajak yang dianggap sebagai penyampaian Surat Pemberitahuan Masa;\n\ne. pembayaran pajak sebagai satu kesatuan dengan penyampaian Surat Pemberitahuan; atau\n\nf. pembayaran pajak yang sudah diperhitungkan dengan pajak terutang dalam Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, Surat Pemberitahuan Pajak Terutang, dan Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang masih harus dibayar bertambah.\n\n(4) Pemindahbukuan hanya dapat dilakukan antarpembayaran pajak dalam mata uang yang sama.\n\n(5) Permohonan Pemindahbukuan diajukan oleh Wajib Pajak yang identitasnya tertera dalam bukti pembayaran.\n\n(6) Tata cara penyampaian permohonan Pemindahbukuan sebagaimana dimaksud pada ayat (5) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(7) Dalam hal Wajib Pajak melakukan penggabungan usaha, permohonan Pemindahbukuan atas pembayaran dan penyetoran pajak yang mencantumkan Nomor Pokok Wajib Pajak dari Wajib",
+  "md_results": "\n\n\n\n\n\n(2) Pemindahbukuan dapat dilakukan untuk pembayaran Pajak Penghasilan, Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, Bea Meterai, Pajak Bumi dan Bangunan, Pajak Penjualan, dan Pajak Karbon.\n\n(3) Pemindahbukuan atas jumlah pembayaran yang lebih besar daripada pajak yang terutang sebagaimana dimaksud pada ayat (1) huruf d tidak dapat diajukan dalam hal pembayaran dimaksud merupakan:\n\na. pembayaran melalui Surat Setoran Pajak yang kedudukannya dipersamakan dengan Faktur Pajak, yang tidak dapat dikreditkan berdasarkan ketentuan Pasal 9 ayat (8) Undang-Undang Pajak Pertambahan Nilai;\n\nb. pembayaran atas penyetoran Bea Meterai atau pembayaran untuk penyetoran Bea Meterai dalam rangka:\n\n1. pendistribusian Meterai elektronik kepada badan usaha yang bekerja sama dengan Perusahaan Umum (Perum) Percetakan Uang Republik Indonesia untuk melaksanakan pendistribusian Meterai elektronik; dan\n\n2. penjualan Meterai tempel yang dilakukan oleh PT Pos Indonesia (Persero);\n\nc. pembayaran pajak yang kode billing-nya diterbitkan oleh sistem billing selain yang diadministrasikan Direktorat Jenderal Pajak;\n\nd. pembayaran pajak yang dianggap sebagai penyampaian Surat Pemberitahuan Masa;\n\ne. pembayaran pajak sebagai satu kesatuan dengan penyampaian Surat Pemberitahuan; atau\n\nf. pembayaran pajak yang sudah diperhitungkan dengan pajak terutang dalam Surat Tagihan Pajak, Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, Surat Pemberitahuan Pajak Terutang, dan Surat Keputusan Pembetulan, Surat Keputusan Keberatan, Surat Keputusan Persetujuan Bersama, Putusan Banding, serta Putusan Peninjauan Kembali yang menyebabkan jumlah pajak yang masih harus dibayar bertambah.\n\n(4) Pemindahbukuan hanya dapat dilakukan antarpembayaran pajak dalam mata uang yang sama.\n\n(5) Permohonan Pemindahbukuan diajukan oleh Wajib Pajak yang identitasnya tertera dalam bukti pembayaran.\n\n(6) Tata cara penyampaian permohonan Pemindahbukuan sebagaimana dimaksud pada ayat (5) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n(7) Dalam hal Wajib Pajak melakukan penggabungan usaha, permohonan Pemindahbukuan atas pembayaran dan penyetoran pajak yang mencantumkan Nomor Pokok Wajib Pajak dari Wajib",
+  "model": "glm-ocr",
+  "usage": {}
+}

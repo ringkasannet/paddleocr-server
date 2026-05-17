@@ -1,0 +1,2375 @@
+{
+  "created": 1779015197,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-82ec5996b21a48a0b010518e7d848",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          287,
+          74,
+          870,
+          235
+        ],
+        "content": "14. Pajak Penjualan adalah pajak yang dipungut atas penyerahan barang dan/atau jasa yang dilakukan oleh pengusaha di dalam daerah pabean dalam lingkungan perusahaan atau pekerjaannya sebagaimana diatur dalam Undang-Undang Darurat Nomor 19 Tahun 1951 tentang Pemungutan Pajak Penjualan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 2 Tahun 1968 tentang Perobahan/Tambahan Undang-Undang Pajak Penjualan 1951.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            74
+          ],
+          [
+            287,
+            235
+          ],
+          [
+            869,
+            235
+          ],
+          [
+            869,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          236,
+          867,
+          284
+        ],
+        "content": "15. Pajak Dalam Rangka Impor adalah Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, dan/atau Pajak Penghasilan Pasal 22.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            236
+          ],
+          [
+            284,
+            284
+          ],
+          [
+            866,
+            284
+          ],
+          [
+            866,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          285,
+          868,
+          381
+        ],
+        "content": "16. Pajak Keluaran adalah Pajak Pertambahan Nilai terutang yang wajib dipungut oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak, penyerahan jasa kena pajak, ekspor barang kena pajak berwujud, ekspor barang kena pajak tidak berwujud, dan/atau ekspor jasa kena pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            285
+          ],
+          [
+            284,
+            381
+          ],
+          [
+            867,
+            381
+          ],
+          [
+            867,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          383,
+          868,
+          495
+        ],
+        "content": "17. Pajak Masukan adalah Pajak Pertambahan Nilai yang seharusnya sudah dibayar oleh pengusaha kena pajak karena perolehan barang kena pajak dan/atau perolehan jasa kena pajak dan/atau pemanfaatan barang kena pajak tidak berwujud dari luar daerah pabean dan/atau pemanfaatan jasa kena pajak dari luar daerah pabean dan/atau impor barang kena pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            383
+          ],
+          [
+            284,
+            495
+          ],
+          [
+            867,
+            495
+          ],
+          [
+            867,
+            383
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          497,
+          868,
+          576
+        ],
+        "content": "18. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, pemotong pajak, dan pemungut pajak, yang mempunyai hak dan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            497
+          ],
+          [
+            284,
+            576
+          ],
+          [
+            867,
+            576
+          ],
+          [
+            867,
+            497
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          578,
+          867,
+          641
+        ],
+        "content": "19. Pengusaha Kena Pajak adalah pengusaha yang melakukan penyerahan barang kena pajak dan/atau penyerahan jasa kena pajak yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            578
+          ],
+          [
+            284,
+            641
+          ],
+          [
+            867,
+            641
+          ],
+          [
+            867,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          643,
+          867,
+          738
+        ],
+        "content": "20. Surat Pemberitahuan adalah surat yang oleh Wajib Pajak digunakan untuk melaporkan penghitungan dan/atau pembayaran pajak, objek pajak dan/atau bukan objek pajak, dan/atau harta dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            643
+          ],
+          [
+            287,
+            738
+          ],
+          [
+            867,
+            738
+          ],
+          [
+            867,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          740,
+          867,
+          803
+        ],
+        "content": "21. Portal Wajib Pajak adalah sarana Wajib Pajak untuk melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik pada laman Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            740
+          ],
+          [
+            287,
+            803
+          ],
+          [
+            867,
+            803
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          805,
+          867,
+          884
+        ],
+        "content": "22. Contact Center adalah saluran interaksi antara Wajib Pajak dan Direktorat Jenderal Pajak secara elektronik yang dikelola unit tertentu di Direktorat Jenderal Pajak dengan memanfaatkan teknologi informasi dan komunikasi.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            820
+          ],
+          [
+            287,
+            884
+          ],
+          [
+            867,
+            884
+          ],
+          [
+            867,
+            805
+          ],
+          [
+            287,
+            805
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          886,
+          868,
+          918
+        ],
+        "content": "23. Kantor Pelayanan Pajak adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            904
+          ],
+          [
+            287,
+            917
+          ],
+          [
+            862,
+            917
+          ],
+          [
+            867,
+            886
+          ],
+          [
+            287,
+            886
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          869,
+          104
+        ],
+        "content": "bertanggung jawab langsung kepada Kepala Kantor Wilayah Direktorat Jenderal Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            103
+          ],
+          [
+            868,
+            103
+          ],
+          [
+            868,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          105,
+          869,
+          169
+        ],
+        "content": "24. Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan bertanggung jawab langsung kepada Kepala Kantor Pelayanan Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            105
+          ],
+          [
+            284,
+            168
+          ],
+          [
+            868,
+            168
+          ],
+          [
+            868,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          171,
+          869,
+          233
+        ],
+        "content": "25. Waktu Indonesia Barat adalah waktu Indonesia barat sebagaimana diatur dalam Keputusan Presiden tentang pembagian wilayah Republik Indonesia menjadi 3 (tiga) wilayah waktu.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            171
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            868,
+            233
+          ],
+          [
+            868,
+            171
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          236,
+          868,
+          348
+        ],
+        "content": "26. Akun Wajib Pajak adalah tempat pencatatan, penyimpanan, dan penyampaian dokumen, data, dan/atau informasi terkait pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak maupun dari pelaksanaan tugas dan fungsi Direktorat Jenderal Pajak, yang diidentifikasi menggunakan nomor pokok wajib pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            236
+          ],
+          [
+            284,
+            347
+          ],
+          [
+            868,
+            347
+          ],
+          [
+            868,
+            236
+          ],
+          [
+            848,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          350,
+          868,
+          478
+        ],
+        "content": "27. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange, surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            350
+          ],
+          [
+            288,
+            477
+          ],
+          [
+            868,
+            477
+          ],
+          [
+            868,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          478,
+          868,
+          656
+        ],
+        "content": "28. Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui komputer atau sistem elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, kode akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            478
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            868,
+            656
+          ],
+          [
+            868,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          658,
+          868,
+          737
+        ],
+        "content": "29. Surat Ketetapan Pajak adalah surat ketetapan yang meliputi surat ketetapan pajak kurang bayar, surat ketetapan pajak kurang bayar tambahan, surat ketetapan pajak nihil, atau surat ketetapan pajak lebih bayar.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            658
+          ],
+          [
+            282,
+            732
+          ],
+          [
+            298,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          739,
+          868,
+          818
+        ],
+        "content": "30. Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            739
+          ],
+          [
+            282,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            739
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          820,
+          868,
+          901
+        ],
+        "content": "31. Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            820
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            820
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          285,
+          72,
+          870,
+          136
+        ],
+        "content": "32. Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            72
+          ],
+          [
+            285,
+            135
+          ],
+          [
+            870,
+            135
+          ],
+          [
+            870,
+            77
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          138,
+          870,
+          217
+        ],
+        "content": "33. Instansi Pemerintah adalah instansi pemerintah pusat, instansi pemerintah daerah, dan instansi pemerintah desa, yang melaksanakan kegiatan pemerintahan serta memiliki kewenangan dan tanggung jawab penggunaan anggaran.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            138
+          ],
+          [
+            285,
+            216
+          ],
+          [
+            869,
+            216
+          ],
+          [
+            869,
+            138
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          219,
+          870,
+          283
+        ],
+        "content": "34. Kode Otorisasi adalah alat verifikasi dan autentikasi yang digunakan oleh Wajib Pajak untuk melakukan Tanda Tangan Elektronik tidak tersertifikasi yang dikeluarkan oleh Direktorat Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            219
+          ],
+          [
+            285,
+            278
+          ],
+          [
+            330,
+            282
+          ],
+          [
+            870,
+            282
+          ],
+          [
+            870,
+            219
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          284,
+          870,
+          478
+        ],
+        "content": "35. Badan adalah sekumpulan orang dan/atau modal yang merupakan kesatuan baik yang melakukan usaha maupun yang tidak melakukan usaha yang meliputi perseroan terbatas, perseroan komanditer, perseroan lainnya, badan usaha milik negara atau badan usaha milik daerah dengan nama dan dalam bentuk apa pun, firma, kongsi, koperasi, dana pensiun, persekutuan, perkumpulan, yayasan, organisasi massa, organisasi sosial politik, atau organisasi lainnya, lembaga dan bentuk badan lainnya, termasuk kontrak investasi kolektif, bentuk usaha tetap, serta kantor perwakilan perusahaan asing dan kontrak investasi bersama.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            284
+          ],
+          [
+            286,
+            473
+          ],
+          [
+            296,
+            478
+          ],
+          [
+            870,
+            478
+          ],
+          [
+            870,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          591
+        ],
+        "content": "36. Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak yang selanjutnya disebut Wajib Pajak Warisan Belum Terbagi adalah Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            284,
+            591
+          ],
+          [
+            869,
+            591
+          ],
+          [
+            869,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          593,
+          868,
+          721
+        ],
+        "content": "37. Instansi Pemerintah Pusat adalah satuan kerja pada kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, dan kesekretariatan lembaga nonstruktural, termasuk badan layanan umum, selaku pengguna anggaran pendapatan dan belanja negara yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            593
+          ],
+          [
+            284,
+            721
+          ],
+          [
+            868,
+            721
+          ],
+          [
+            868,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          723,
+          868,
+          834
+        ],
+        "content": "38. Instansi Pemerintah Daerah adalah satuan kerja perangkat daerah provinsi dan satuan kerja perangkat daerah kabupaten/kota, termasuk badan layanan umum daerah, selaku pengguna anggaran pendapatan dan belanja daerah yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            723
+          ],
+          [
+            284,
+            833
+          ],
+          [
+            867,
+            833
+          ],
+          [
+            867,
+            723
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          836,
+          869,
+          916
+        ],
+        "content": "39. Instansi Pemerintah Desa adalah unit organisasi penyelenggara pemerintahan desa selaku pengguna anggaran pendapatan dan belanja desa yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            836
+          ],
+          [
+            284,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            836
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          72,
+          869,
+          119
+        ],
+        "content": "40. Surat Tagihan Pajak adalah surat untuk melakukan tagihan pajak dan/atau sanksi administratif berupa bunga dan/atau denda.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            72
+          ],
+          [
+            284,
+            119
+          ],
+          [
+            868,
+            119
+          ],
+          [
+            868,
+            77
+          ],
+          [
+            848,
+            72
+          ],
+          [
+            838,
+            72
+          ],
+          [
+            829,
+            72
+          ],
+          [
+            824,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          121,
+          870,
+          216
+        ],
+        "content": "41. Surat Ketetapan Pajak Kurang Bayar adalah Surat Ketetapan Pajak yang menentukan besarnya jumlah pokok pajak, jumlah kredit pajak, jumlah kekurangan pembayaran pokok pajak, besarnya sanksi administratif, dan jumlah pajak yang masih harus dibayar.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            121
+          ],
+          [
+            284,
+            216
+          ],
+          [
+            869,
+            216
+          ],
+          [
+            869,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          218,
+          868,
+          266
+        ],
+        "content": "42. Surat Ketetapan Pajak Kurang Bayar Tambahan adalah Surat Ketetapan Pajak yang menentukan tambahan atas jumlah pajak yang telah ditetapkan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            218
+          ],
+          [
+            283,
+            266
+          ],
+          [
+            867,
+            266
+          ],
+          [
+            867,
+            218
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          267,
+          868,
+          331
+        ],
+        "content": "43. Surat Ketetapan Pajak Nihil adalah Surat Ketetapan Pajak yang menentukan jumlah pokok pajak sama besarnya dengan jumlah kredit pajak atau pajak tidak terutang dan tidak ada kredit pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            267
+          ],
+          [
+            283,
+            330
+          ],
+          [
+            868,
+            330
+          ],
+          [
+            868,
+            267
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          332,
+          868,
+          411
+        ],
+        "content": "44. Surat Ketetapan Pajak Lebih Bayar adalah Surat Ketetapan Pajak yang menentukan jumlah kelebihan pembayaran pajak karena jumlah kredit pajak lebih besar daripada pajak yang terutang atau seharusnya tidak terutang.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            332
+          ],
+          [
+            283,
+            411
+          ],
+          [
+            868,
+            411
+          ],
+          [
+            868,
+            337
+          ],
+          [
+            848,
+            332
+          ],
+          [
+            834,
+            332
+          ],
+          [
+            803,
+            332
+          ],
+          [
+            748,
+            332
+          ],
+          [
+            674,
+            332
+          ],
+          [
+            668,
+            332
+          ],
+          [
+            654,
+            332
+          ],
+          [
+            638,
+            332
+          ],
+          [
+            438,
+            332
+          ],
+          [
+            433,
+            332
+          ],
+          [
+            418,
+            332
+          ],
+          [
+            308,
+            332
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          414,
+          868,
+          509
+        ],
+        "content": "45. Surat Ketetapan Pajak Pajak Bumi dan Bangunan adalah surat ketetapan yang menentukan besarnya pokok Pajak Bumi dan Bangunan atau selisih pokok Pajak Bumi dan Bangunan, besarnya denda administratif, dan jumlah Pajak Bumi dan Bangunan yang masih harus dibayar.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            414
+          ],
+          [
+            287,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            414
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          511,
+          867,
+          558
+        ],
+        "content": "46. Surat Tagihan Pajak Pajak Bumi dan Bangunan adalah Surat Tagihan Pajak sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            549
+          ],
+          [
+            297,
+            558
+          ],
+          [
+            867,
+            558
+          ],
+          [
+            867,
+            511
+          ],
+          [
+            287,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          560,
+          868,
+          867
+        ],
+        "content": "47. Surat Keputusan Pembetulan adalah surat keputusan yang membetulkan kesalahan tulis, kesalahan hitung, dan/atau kekeliruan penerapan ketentuan tertentu dalam peraturan perundang-undangan perpajakan yang terdapat dalam Surat Ketetapan Pajak, Surat Tagihan Pajak, surat keputusan pembetulan, surat keputusan keberatan, surat keputusan pengurangan sanksi administratif, surat keputusan penghapusan sanksi administratif, surat keputusan pengurangan ketetapan pajak, surat keputusan pembatalan ketetapan pajak, surat keputusan pengembalian pendahuluan kelebihan pajak, surat keputusan pemberian imbalan bunga, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, surat keputusan pemberian pengurangan Pajak Bumi dan Bangunan, surat keputusan pengurangan denda administrasi Pajak Bumi dan Bangunan, atau surat keputusan persetujuan bersama.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            560
+          ],
+          [
+            282,
+            866
+          ],
+          [
+            868,
+            866
+          ],
+          [
+            868,
+            560
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          868,
+          867,
+          916
+        ],
+        "content": "48. Surat Keputusan Persetujuan Bersama adalah surat keputusan yang diterbitkan untuk menindaklanjuti kesepakatan dalam persetujuan bersama.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            868
+          ],
+          [
+            281,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            867,
+            868
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          287,
+          74,
+          870,
+          235
+        ],
+        "content": "14. Pajak Penjualan adalah pajak yang dipungut atas penyerahan barang dan/atau jasa yang dilakukan oleh pengusaha di dalam daerah pabean dalam lingkungan perusahaan atau pekerjaannya sebagaimana diatur dalam Undang-Undang Darurat Nomor 19 Tahun 1951 tentang Pemungutan Pajak Penjualan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 2 Tahun 1968 tentang Perobahan/Tambahan Undang-Undang Pajak Penjualan 1951.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            74
+          ],
+          [
+            287,
+            235
+          ],
+          [
+            869,
+            235
+          ],
+          [
+            869,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          236,
+          867,
+          284
+        ],
+        "content": "15. Pajak Dalam Rangka Impor adalah Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, dan/atau Pajak Penghasilan Pasal 22.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            236
+          ],
+          [
+            284,
+            284
+          ],
+          [
+            866,
+            284
+          ],
+          [
+            866,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          285,
+          868,
+          381
+        ],
+        "content": "16. Pajak Keluaran adalah Pajak Pertambahan Nilai terutang yang wajib dipungut oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak, penyerahan jasa kena pajak, ekspor barang kena pajak berwujud, ekspor barang kena pajak tidak berwujud, dan/atau ekspor jasa kena pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            285
+          ],
+          [
+            284,
+            381
+          ],
+          [
+            867,
+            381
+          ],
+          [
+            867,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          383,
+          868,
+          495
+        ],
+        "content": "17. Pajak Masukan adalah Pajak Pertambahan Nilai yang seharusnya sudah dibayar oleh pengusaha kena pajak karena perolehan barang kena pajak dan/atau perolehan jasa kena pajak dan/atau pemanfaatan barang kena pajak tidak berwujud dari luar daerah pabean dan/atau pemanfaatan jasa kena pajak dari luar daerah pabean dan/atau impor barang kena pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            383
+          ],
+          [
+            284,
+            495
+          ],
+          [
+            867,
+            495
+          ],
+          [
+            867,
+            383
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          497,
+          868,
+          576
+        ],
+        "content": "18. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, pemotong pajak, dan pemungut pajak, yang mempunyai hak dan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            497
+          ],
+          [
+            284,
+            576
+          ],
+          [
+            867,
+            576
+          ],
+          [
+            867,
+            497
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          578,
+          867,
+          641
+        ],
+        "content": "19. Pengusaha Kena Pajak adalah pengusaha yang melakukan penyerahan barang kena pajak dan/atau penyerahan jasa kena pajak yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            578
+          ],
+          [
+            284,
+            641
+          ],
+          [
+            867,
+            641
+          ],
+          [
+            867,
+            578
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          643,
+          867,
+          738
+        ],
+        "content": "20. Surat Pemberitahuan adalah surat yang oleh Wajib Pajak digunakan untuk melaporkan penghitungan dan/atau pembayaran pajak, objek pajak dan/atau bukan objek pajak, dan/atau harta dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            643
+          ],
+          [
+            287,
+            738
+          ],
+          [
+            867,
+            738
+          ],
+          [
+            867,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          740,
+          867,
+          803
+        ],
+        "content": "21. Portal Wajib Pajak adalah sarana Wajib Pajak untuk melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik pada laman Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            740
+          ],
+          [
+            287,
+            803
+          ],
+          [
+            867,
+            803
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          805,
+          867,
+          884
+        ],
+        "content": "22. Contact Center adalah saluran interaksi antara Wajib Pajak dan Direktorat Jenderal Pajak secara elektronik yang dikelola unit tertentu di Direktorat Jenderal Pajak dengan memanfaatkan teknologi informasi dan komunikasi.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            820
+          ],
+          [
+            287,
+            884
+          ],
+          [
+            867,
+            884
+          ],
+          [
+            867,
+            805
+          ],
+          [
+            287,
+            805
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          886,
+          868,
+          918
+        ],
+        "content": "23. Kantor Pelayanan Pajak adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            904
+          ],
+          [
+            287,
+            917
+          ],
+          [
+            862,
+            917
+          ],
+          [
+            867,
+            886
+          ],
+          [
+            287,
+            886
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          869,
+          104
+        ],
+        "content": "bertanggung jawab langsung kepada Kepala Kantor Wilayah Direktorat Jenderal Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            103
+          ],
+          [
+            868,
+            103
+          ],
+          [
+            868,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          105,
+          869,
+          169
+        ],
+        "content": "24. Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan bertanggung jawab langsung kepada Kepala Kantor Pelayanan Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            105
+          ],
+          [
+            284,
+            168
+          ],
+          [
+            868,
+            168
+          ],
+          [
+            868,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          171,
+          869,
+          233
+        ],
+        "content": "25. Waktu Indonesia Barat adalah waktu Indonesia barat sebagaimana diatur dalam Keputusan Presiden tentang pembagian wilayah Republik Indonesia menjadi 3 (tiga) wilayah waktu.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            171
+          ],
+          [
+            284,
+            233
+          ],
+          [
+            868,
+            233
+          ],
+          [
+            868,
+            171
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          236,
+          868,
+          348
+        ],
+        "content": "26. Akun Wajib Pajak adalah tempat pencatatan, penyimpanan, dan penyampaian dokumen, data, dan/atau informasi terkait pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak maupun dari pelaksanaan tugas dan fungsi Direktorat Jenderal Pajak, yang diidentifikasi menggunakan nomor pokok wajib pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            236
+          ],
+          [
+            284,
+            347
+          ],
+          [
+            868,
+            347
+          ],
+          [
+            868,
+            236
+          ],
+          [
+            848,
+            236
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          350,
+          868,
+          478
+        ],
+        "content": "27. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange, surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            350
+          ],
+          [
+            288,
+            477
+          ],
+          [
+            868,
+            477
+          ],
+          [
+            868,
+            350
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          478,
+          868,
+          656
+        ],
+        "content": "28. Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui komputer atau sistem elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, kode akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            478
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            868,
+            656
+          ],
+          [
+            868,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          658,
+          868,
+          737
+        ],
+        "content": "29. Surat Ketetapan Pajak adalah surat ketetapan yang meliputi surat ketetapan pajak kurang bayar, surat ketetapan pajak kurang bayar tambahan, surat ketetapan pajak nihil, atau surat ketetapan pajak lebih bayar.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            658
+          ],
+          [
+            282,
+            732
+          ],
+          [
+            298,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          739,
+          868,
+          818
+        ],
+        "content": "30. Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            739
+          ],
+          [
+            282,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            739
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          820,
+          868,
+          901
+        ],
+        "content": "31. Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            820
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            868,
+            901
+          ],
+          [
+            868,
+            820
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          285,
+          72,
+          870,
+          136
+        ],
+        "content": "32. Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            72
+          ],
+          [
+            285,
+            135
+          ],
+          [
+            870,
+            135
+          ],
+          [
+            870,
+            77
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          138,
+          870,
+          217
+        ],
+        "content": "33. Instansi Pemerintah adalah instansi pemerintah pusat, instansi pemerintah daerah, dan instansi pemerintah desa, yang melaksanakan kegiatan pemerintahan serta memiliki kewenangan dan tanggung jawab penggunaan anggaran.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            138
+          ],
+          [
+            285,
+            216
+          ],
+          [
+            869,
+            216
+          ],
+          [
+            869,
+            138
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          219,
+          870,
+          283
+        ],
+        "content": "34. Kode Otorisasi adalah alat verifikasi dan autentikasi yang digunakan oleh Wajib Pajak untuk melakukan Tanda Tangan Elektronik tidak tersertifikasi yang dikeluarkan oleh Direktorat Jenderal Pajak.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            219
+          ],
+          [
+            285,
+            278
+          ],
+          [
+            330,
+            282
+          ],
+          [
+            870,
+            282
+          ],
+          [
+            870,
+            219
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          284,
+          870,
+          478
+        ],
+        "content": "35. Badan adalah sekumpulan orang dan/atau modal yang merupakan kesatuan baik yang melakukan usaha maupun yang tidak melakukan usaha yang meliputi perseroan terbatas, perseroan komanditer, perseroan lainnya, badan usaha milik negara atau badan usaha milik daerah dengan nama dan dalam bentuk apa pun, firma, kongsi, koperasi, dana pensiun, persekutuan, perkumpulan, yayasan, organisasi massa, organisasi sosial politik, atau organisasi lainnya, lembaga dan bentuk badan lainnya, termasuk kontrak investasi kolektif, bentuk usaha tetap, serta kantor perwakilan perusahaan asing dan kontrak investasi bersama.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            284
+          ],
+          [
+            286,
+            473
+          ],
+          [
+            296,
+            478
+          ],
+          [
+            870,
+            478
+          ],
+          [
+            870,
+            284
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          480,
+          870,
+          591
+        ],
+        "content": "36. Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak yang selanjutnya disebut Wajib Pajak Warisan Belum Terbagi adalah Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            480
+          ],
+          [
+            284,
+            591
+          ],
+          [
+            869,
+            591
+          ],
+          [
+            869,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          593,
+          868,
+          721
+        ],
+        "content": "37. Instansi Pemerintah Pusat adalah satuan kerja pada kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, dan kesekretariatan lembaga nonstruktural, termasuk badan layanan umum, selaku pengguna anggaran pendapatan dan belanja negara yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            593
+          ],
+          [
+            284,
+            721
+          ],
+          [
+            868,
+            721
+          ],
+          [
+            868,
+            593
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          723,
+          868,
+          834
+        ],
+        "content": "38. Instansi Pemerintah Daerah adalah satuan kerja perangkat daerah provinsi dan satuan kerja perangkat daerah kabupaten/kota, termasuk badan layanan umum daerah, selaku pengguna anggaran pendapatan dan belanja daerah yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            723
+          ],
+          [
+            284,
+            833
+          ],
+          [
+            867,
+            833
+          ],
+          [
+            867,
+            723
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          836,
+          869,
+          916
+        ],
+        "content": "39. Instansi Pemerintah Desa adalah unit organisasi penyelenggara pemerintahan desa selaku pengguna anggaran pendapatan dan belanja desa yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            836
+          ],
+          [
+            284,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            836
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          284,
+          72,
+          869,
+          119
+        ],
+        "content": "40. Surat Tagihan Pajak adalah surat untuk melakukan tagihan pajak dan/atau sanksi administratif berupa bunga dan/atau denda.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            72
+          ],
+          [
+            284,
+            119
+          ],
+          [
+            868,
+            119
+          ],
+          [
+            868,
+            77
+          ],
+          [
+            848,
+            72
+          ],
+          [
+            838,
+            72
+          ],
+          [
+            829,
+            72
+          ],
+          [
+            824,
+            72
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          121,
+          870,
+          216
+        ],
+        "content": "41. Surat Ketetapan Pajak Kurang Bayar adalah Surat Ketetapan Pajak yang menentukan besarnya jumlah pokok pajak, jumlah kredit pajak, jumlah kekurangan pembayaran pokok pajak, besarnya sanksi administratif, dan jumlah pajak yang masih harus dibayar.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            121
+          ],
+          [
+            284,
+            216
+          ],
+          [
+            869,
+            216
+          ],
+          [
+            869,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          218,
+          868,
+          266
+        ],
+        "content": "42. Surat Ketetapan Pajak Kurang Bayar Tambahan adalah Surat Ketetapan Pajak yang menentukan tambahan atas jumlah pajak yang telah ditetapkan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            218
+          ],
+          [
+            283,
+            266
+          ],
+          [
+            867,
+            266
+          ],
+          [
+            867,
+            218
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          267,
+          868,
+          331
+        ],
+        "content": "43. Surat Ketetapan Pajak Nihil adalah Surat Ketetapan Pajak yang menentukan jumlah pokok pajak sama besarnya dengan jumlah kredit pajak atau pajak tidak terutang dan tidak ada kredit pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            267
+          ],
+          [
+            283,
+            330
+          ],
+          [
+            868,
+            330
+          ],
+          [
+            868,
+            267
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          332,
+          868,
+          411
+        ],
+        "content": "44. Surat Ketetapan Pajak Lebih Bayar adalah Surat Ketetapan Pajak yang menentukan jumlah kelebihan pembayaran pajak karena jumlah kredit pajak lebih besar daripada pajak yang terutang atau seharusnya tidak terutang.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            332
+          ],
+          [
+            283,
+            411
+          ],
+          [
+            868,
+            411
+          ],
+          [
+            868,
+            337
+          ],
+          [
+            848,
+            332
+          ],
+          [
+            834,
+            332
+          ],
+          [
+            803,
+            332
+          ],
+          [
+            748,
+            332
+          ],
+          [
+            674,
+            332
+          ],
+          [
+            668,
+            332
+          ],
+          [
+            654,
+            332
+          ],
+          [
+            638,
+            332
+          ],
+          [
+            438,
+            332
+          ],
+          [
+            433,
+            332
+          ],
+          [
+            418,
+            332
+          ],
+          [
+            308,
+            332
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          414,
+          868,
+          509
+        ],
+        "content": "45. Surat Ketetapan Pajak Pajak Bumi dan Bangunan adalah surat ketetapan yang menentukan besarnya pokok Pajak Bumi dan Bangunan atau selisih pokok Pajak Bumi dan Bangunan, besarnya denda administratif, dan jumlah Pajak Bumi dan Bangunan yang masih harus dibayar.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            414
+          ],
+          [
+            287,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            414
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          511,
+          867,
+          558
+        ],
+        "content": "46. Surat Tagihan Pajak Pajak Bumi dan Bangunan adalah Surat Tagihan Pajak sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            549
+          ],
+          [
+            297,
+            558
+          ],
+          [
+            867,
+            558
+          ],
+          [
+            867,
+            511
+          ],
+          [
+            287,
+            511
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          560,
+          868,
+          867
+        ],
+        "content": "47. Surat Keputusan Pembetulan adalah surat keputusan yang membetulkan kesalahan tulis, kesalahan hitung, dan/atau kekeliruan penerapan ketentuan tertentu dalam peraturan perundang-undangan perpajakan yang terdapat dalam Surat Ketetapan Pajak, Surat Tagihan Pajak, surat keputusan pembetulan, surat keputusan keberatan, surat keputusan pengurangan sanksi administratif, surat keputusan penghapusan sanksi administratif, surat keputusan pengurangan ketetapan pajak, surat keputusan pembatalan ketetapan pajak, surat keputusan pengembalian pendahuluan kelebihan pajak, surat keputusan pemberian imbalan bunga, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, surat keputusan pemberian pengurangan Pajak Bumi dan Bangunan, surat keputusan pengurangan denda administrasi Pajak Bumi dan Bangunan, atau surat keputusan persetujuan bersama.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            560
+          ],
+          [
+            282,
+            866
+          ],
+          [
+            868,
+            866
+          ],
+          [
+            868,
+            560
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          868,
+          867,
+          916
+        ],
+        "content": "48. Surat Keputusan Persetujuan Bersama adalah surat keputusan yang diterbitkan untuk menindaklanjuti kesepakatan dalam persetujuan bersama.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            868
+          ],
+          [
+            281,
+            916
+          ],
+          [
+            867,
+            916
+          ],
+          [
+            867,
+            868
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "14. Pajak Penjualan adalah pajak yang dipungut atas penyerahan barang dan/atau jasa yang dilakukan oleh pengusaha di dalam daerah pabean dalam lingkungan perusahaan atau pekerjaannya sebagaimana diatur dalam Undang-Undang Darurat Nomor 19 Tahun 1951 tentang Pemungutan Pajak Penjualan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 2 Tahun 1968 tentang Perobahan/Tambahan Undang-Undang Pajak Penjualan 1951.\n\n15. Pajak Dalam Rangka Impor adalah Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, dan/atau Pajak Penghasilan Pasal 22.\n\n16. Pajak Keluaran adalah Pajak Pertambahan Nilai terutang yang wajib dipungut oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak, penyerahan jasa kena pajak, ekspor barang kena pajak berwujud, ekspor barang kena pajak tidak berwujud, dan/atau ekspor jasa kena pajak.\n\n17. Pajak Masukan adalah Pajak Pertambahan Nilai yang seharusnya sudah dibayar oleh pengusaha kena pajak karena perolehan barang kena pajak dan/atau perolehan jasa kena pajak dan/atau pemanfaatan barang kena pajak tidak berwujud dari luar daerah pabean dan/atau pemanfaatan jasa kena pajak dari luar daerah pabean dan/atau impor barang kena pajak.\n\n18. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, pemotong pajak, dan pemungut pajak, yang mempunyai hak dan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan perpajakan.\n\n19. Pengusaha Kena Pajak adalah pengusaha yang melakukan penyerahan barang kena pajak dan/atau penyerahan jasa kena pajak yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n20. Surat Pemberitahuan adalah surat yang oleh Wajib Pajak digunakan untuk melaporkan penghitungan dan/atau pembayaran pajak, objek pajak dan/atau bukan objek pajak, dan/atau harta dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n21. Portal Wajib Pajak adalah sarana Wajib Pajak untuk melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik pada laman Direktorat Jenderal Pajak.\n\n22. Contact Center adalah saluran interaksi antara Wajib Pajak dan Direktorat Jenderal Pajak secara elektronik yang dikelola unit tertentu di Direktorat Jenderal Pajak dengan memanfaatkan teknologi informasi dan komunikasi.\n\n23. Kantor Pelayanan Pajak adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan\n\nbertanggung jawab langsung kepada Kepala Kantor Wilayah Direktorat Jenderal Pajak.\n\n24. Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan bertanggung jawab langsung kepada Kepala Kantor Pelayanan Pajak.\n\n25. Waktu Indonesia Barat adalah waktu Indonesia barat sebagaimana diatur dalam Keputusan Presiden tentang pembagian wilayah Republik Indonesia menjadi 3 (tiga) wilayah waktu.\n\n26. Akun Wajib Pajak adalah tempat pencatatan, penyimpanan, dan penyampaian dokumen, data, dan/atau informasi terkait pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak maupun dari pelaksanaan tugas dan fungsi Direktorat Jenderal Pajak, yang diidentifikasi menggunakan nomor pokok wajib pajak.\n\n27. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange, surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.\n\n28. Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui komputer atau sistem elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, kode akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.\n\n29. Surat Ketetapan Pajak adalah surat ketetapan yang meliputi surat ketetapan pajak kurang bayar, surat ketetapan pajak kurang bayar tambahan, surat ketetapan pajak nihil, atau surat ketetapan pajak lebih bayar.\n\n30. Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.\n\n31. Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik.\n\n32. Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.\n\n33. Instansi Pemerintah adalah instansi pemerintah pusat, instansi pemerintah daerah, dan instansi pemerintah desa, yang melaksanakan kegiatan pemerintahan serta memiliki kewenangan dan tanggung jawab penggunaan anggaran.\n\n34. Kode Otorisasi adalah alat verifikasi dan autentikasi yang digunakan oleh Wajib Pajak untuk melakukan Tanda Tangan Elektronik tidak tersertifikasi yang dikeluarkan oleh Direktorat Jenderal Pajak.\n\n35. Badan adalah sekumpulan orang dan/atau modal yang merupakan kesatuan baik yang melakukan usaha maupun yang tidak melakukan usaha yang meliputi perseroan terbatas, perseroan komanditer, perseroan lainnya, badan usaha milik negara atau badan usaha milik daerah dengan nama dan dalam bentuk apa pun, firma, kongsi, koperasi, dana pensiun, persekutuan, perkumpulan, yayasan, organisasi massa, organisasi sosial politik, atau organisasi lainnya, lembaga dan bentuk badan lainnya, termasuk kontrak investasi kolektif, bentuk usaha tetap, serta kantor perwakilan perusahaan asing dan kontrak investasi bersama.\n\n36. Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak yang selanjutnya disebut Wajib Pajak Warisan Belum Terbagi adalah Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n37. Instansi Pemerintah Pusat adalah satuan kerja pada kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, dan kesekretariatan lembaga nonstruktural, termasuk badan layanan umum, selaku pengguna anggaran pendapatan dan belanja negara yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n38. Instansi Pemerintah Daerah adalah satuan kerja perangkat daerah provinsi dan satuan kerja perangkat daerah kabupaten/kota, termasuk badan layanan umum daerah, selaku pengguna anggaran pendapatan dan belanja daerah yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n39. Instansi Pemerintah Desa adalah unit organisasi penyelenggara pemerintahan desa selaku pengguna anggaran pendapatan dan belanja desa yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n40. Surat Tagihan Pajak adalah surat untuk melakukan tagihan pajak dan/atau sanksi administratif berupa bunga dan/atau denda.\n\n41. Surat Ketetapan Pajak Kurang Bayar adalah Surat Ketetapan Pajak yang menentukan besarnya jumlah pokok pajak, jumlah kredit pajak, jumlah kekurangan pembayaran pokok pajak, besarnya sanksi administratif, dan jumlah pajak yang masih harus dibayar.\n\n42. Surat Ketetapan Pajak Kurang Bayar Tambahan adalah Surat Ketetapan Pajak yang menentukan tambahan atas jumlah pajak yang telah ditetapkan.\n\n43. Surat Ketetapan Pajak Nihil adalah Surat Ketetapan Pajak yang menentukan jumlah pokok pajak sama besarnya dengan jumlah kredit pajak atau pajak tidak terutang dan tidak ada kredit pajak.\n\n44. Surat Ketetapan Pajak Lebih Bayar adalah Surat Ketetapan Pajak yang menentukan jumlah kelebihan pembayaran pajak karena jumlah kredit pajak lebih besar daripada pajak yang terutang atau seharusnya tidak terutang.\n\n45. Surat Ketetapan Pajak Pajak Bumi dan Bangunan adalah surat ketetapan yang menentukan besarnya pokok Pajak Bumi dan Bangunan atau selisih pokok Pajak Bumi dan Bangunan, besarnya denda administratif, dan jumlah Pajak Bumi dan Bangunan yang masih harus dibayar.\n\n46. Surat Tagihan Pajak Pajak Bumi dan Bangunan adalah Surat Tagihan Pajak sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan.\n\n47. Surat Keputusan Pembetulan adalah surat keputusan yang membetulkan kesalahan tulis, kesalahan hitung, dan/atau kekeliruan penerapan ketentuan tertentu dalam peraturan perundang-undangan perpajakan yang terdapat dalam Surat Ketetapan Pajak, Surat Tagihan Pajak, surat keputusan pembetulan, surat keputusan keberatan, surat keputusan pengurangan sanksi administratif, surat keputusan penghapusan sanksi administratif, surat keputusan pengurangan ketetapan pajak, surat keputusan pembatalan ketetapan pajak, surat keputusan pengembalian pendahuluan kelebihan pajak, surat keputusan pemberian imbalan bunga, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, surat keputusan pemberian pengurangan Pajak Bumi dan Bangunan, surat keputusan pengurangan denda administrasi Pajak Bumi dan Bangunan, atau surat keputusan persetujuan bersama.\n\n48. Surat Keputusan Persetujuan Bersama adalah surat keputusan yang diterbitkan untuk menindaklanjuti kesepakatan dalam persetujuan bersama.",
+  "md_results": "14. Pajak Penjualan adalah pajak yang dipungut atas penyerahan barang dan/atau jasa yang dilakukan oleh pengusaha di dalam daerah pabean dalam lingkungan perusahaan atau pekerjaannya sebagaimana diatur dalam Undang-Undang Darurat Nomor 19 Tahun 1951 tentang Pemungutan Pajak Penjualan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 2 Tahun 1968 tentang Perobahan/Tambahan Undang-Undang Pajak Penjualan 1951.\n\n15. Pajak Dalam Rangka Impor adalah Pajak Pertambahan Nilai, Pajak Penjualan atas Barang Mewah, dan/atau Pajak Penghasilan Pasal 22.\n\n16. Pajak Keluaran adalah Pajak Pertambahan Nilai terutang yang wajib dipungut oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak, penyerahan jasa kena pajak, ekspor barang kena pajak berwujud, ekspor barang kena pajak tidak berwujud, dan/atau ekspor jasa kena pajak.\n\n17. Pajak Masukan adalah Pajak Pertambahan Nilai yang seharusnya sudah dibayar oleh pengusaha kena pajak karena perolehan barang kena pajak dan/atau perolehan jasa kena pajak dan/atau pemanfaatan barang kena pajak tidak berwujud dari luar daerah pabean dan/atau pemanfaatan jasa kena pajak dari luar daerah pabean dan/atau impor barang kena pajak.\n\n18. Wajib Pajak adalah orang pribadi atau badan, meliputi pembayar pajak, pemotong pajak, dan pemungut pajak, yang mempunyai hak dan kewajiban perpajakan sesuai dengan ketentuan peraturan perundang-undangan perpajakan.\n\n19. Pengusaha Kena Pajak adalah pengusaha yang melakukan penyerahan barang kena pajak dan/atau penyerahan jasa kena pajak yang dikenai pajak berdasarkan Undang-Undang Pajak Pertambahan Nilai.\n\n20. Surat Pemberitahuan adalah surat yang oleh Wajib Pajak digunakan untuk melaporkan penghitungan dan/atau pembayaran pajak, objek pajak dan/atau bukan objek pajak, dan/atau harta dan kewajiban sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n21. Portal Wajib Pajak adalah sarana Wajib Pajak untuk melaksanakan hak dan memenuhi kewajiban perpajakan secara elektronik pada laman Direktorat Jenderal Pajak.\n\n22. Contact Center adalah saluran interaksi antara Wajib Pajak dan Direktorat Jenderal Pajak secara elektronik yang dikelola unit tertentu di Direktorat Jenderal Pajak dengan memanfaatkan teknologi informasi dan komunikasi.\n\n23. Kantor Pelayanan Pajak adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan\n\nbertanggung jawab langsung kepada Kepala Kantor Wilayah Direktorat Jenderal Pajak.\n\n24. Kantor Pelayanan, Penyuluhan, dan Konsultasi Perpajakan adalah instansi vertical Direktorat Jenderal Pajak yang berada di bawah dan bertanggung jawab langsung kepada Kepala Kantor Pelayanan Pajak.\n\n25. Waktu Indonesia Barat adalah waktu Indonesia barat sebagaimana diatur dalam Keputusan Presiden tentang pembagian wilayah Republik Indonesia menjadi 3 (tiga) wilayah waktu.\n\n26. Akun Wajib Pajak adalah tempat pencatatan, penyimpanan, dan penyampaian dokumen, data, dan/atau informasi terkait pelaksanaan hak dan pemenuhan kewajiban perpajakan Wajib Pajak maupun dari pelaksanaan tugas dan fungsi Direktorat Jenderal Pajak, yang diidentifikasi menggunakan nomor pokok wajib pajak.\n\n27. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange, surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, kode akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.\n\n28. Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui komputer atau sistem elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, kode akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.\n\n29. Surat Ketetapan Pajak adalah surat ketetapan yang meliputi surat ketetapan pajak kurang bayar, surat ketetapan pajak kurang bayar tambahan, surat ketetapan pajak nihil, atau surat ketetapan pajak lebih bayar.\n\n30. Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.\n\n31. Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik.\n\n32. Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.\n\n33. Instansi Pemerintah adalah instansi pemerintah pusat, instansi pemerintah daerah, dan instansi pemerintah desa, yang melaksanakan kegiatan pemerintahan serta memiliki kewenangan dan tanggung jawab penggunaan anggaran.\n\n34. Kode Otorisasi adalah alat verifikasi dan autentikasi yang digunakan oleh Wajib Pajak untuk melakukan Tanda Tangan Elektronik tidak tersertifikasi yang dikeluarkan oleh Direktorat Jenderal Pajak.\n\n35. Badan adalah sekumpulan orang dan/atau modal yang merupakan kesatuan baik yang melakukan usaha maupun yang tidak melakukan usaha yang meliputi perseroan terbatas, perseroan komanditer, perseroan lainnya, badan usaha milik negara atau badan usaha milik daerah dengan nama dan dalam bentuk apa pun, firma, kongsi, koperasi, dana pensiun, persekutuan, perkumpulan, yayasan, organisasi massa, organisasi sosial politik, atau organisasi lainnya, lembaga dan bentuk badan lainnya, termasuk kontrak investasi kolektif, bentuk usaha tetap, serta kantor perwakilan perusahaan asing dan kontrak investasi bersama.\n\n36. Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak yang selanjutnya disebut Wajib Pajak Warisan Belum Terbagi adalah Wajib Pajak warisan yang belum terbagi sebagai satu kesatuan menggantikan yang berhak sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n37. Instansi Pemerintah Pusat adalah satuan kerja pada kementerian, lembaga pemerintah nonkementerian, kesekretariatan lembaga negara, dan kesekretariatan lembaga nonstruktural, termasuk badan layanan umum, selaku pengguna anggaran pendapatan dan belanja negara yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n38. Instansi Pemerintah Daerah adalah satuan kerja perangkat daerah provinsi dan satuan kerja perangkat daerah kabupaten/kota, termasuk badan layanan umum daerah, selaku pengguna anggaran pendapatan dan belanja daerah yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n39. Instansi Pemerintah Desa adalah unit organisasi penyelenggara pemerintahan desa selaku pengguna anggaran pendapatan dan belanja desa yang wajib menyelenggarakan akuntansi dan menyusun laporan keuangan sesuai standar akuntansi pemerintahan.\n\n40. Surat Tagihan Pajak adalah surat untuk melakukan tagihan pajak dan/atau sanksi administratif berupa bunga dan/atau denda.\n\n41. Surat Ketetapan Pajak Kurang Bayar adalah Surat Ketetapan Pajak yang menentukan besarnya jumlah pokok pajak, jumlah kredit pajak, jumlah kekurangan pembayaran pokok pajak, besarnya sanksi administratif, dan jumlah pajak yang masih harus dibayar.\n\n42. Surat Ketetapan Pajak Kurang Bayar Tambahan adalah Surat Ketetapan Pajak yang menentukan tambahan atas jumlah pajak yang telah ditetapkan.\n\n43. Surat Ketetapan Pajak Nihil adalah Surat Ketetapan Pajak yang menentukan jumlah pokok pajak sama besarnya dengan jumlah kredit pajak atau pajak tidak terutang dan tidak ada kredit pajak.\n\n44. Surat Ketetapan Pajak Lebih Bayar adalah Surat Ketetapan Pajak yang menentukan jumlah kelebihan pembayaran pajak karena jumlah kredit pajak lebih besar daripada pajak yang terutang atau seharusnya tidak terutang.\n\n45. Surat Ketetapan Pajak Pajak Bumi dan Bangunan adalah surat ketetapan yang menentukan besarnya pokok Pajak Bumi dan Bangunan atau selisih pokok Pajak Bumi dan Bangunan, besarnya denda administratif, dan jumlah Pajak Bumi dan Bangunan yang masih harus dibayar.\n\n46. Surat Tagihan Pajak Pajak Bumi dan Bangunan adalah Surat Tagihan Pajak sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan.\n\n47. Surat Keputusan Pembetulan adalah surat keputusan yang membetulkan kesalahan tulis, kesalahan hitung, dan/atau kekeliruan penerapan ketentuan tertentu dalam peraturan perundang-undangan perpajakan yang terdapat dalam Surat Ketetapan Pajak, Surat Tagihan Pajak, surat keputusan pembetulan, surat keputusan keberatan, surat keputusan pengurangan sanksi administratif, surat keputusan penghapusan sanksi administratif, surat keputusan pengurangan ketetapan pajak, surat keputusan pembatalan ketetapan pajak, surat keputusan pengembalian pendahuluan kelebihan pajak, surat keputusan pemberian imbalan bunga, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, Surat Tagihan Pajak Pajak Bumi dan Bangunan, surat keputusan pemberian pengurangan Pajak Bumi dan Bangunan, surat keputusan pengurangan denda administrasi Pajak Bumi dan Bangunan, atau surat keputusan persetujuan bersama.\n\n48. Surat Keputusan Persetujuan Bersama adalah surat keputusan yang diterbitkan untuk menindaklanjuti kesepakatan dalam persetujuan bersama.",
+  "model": "glm-ocr",
+  "usage": {}
+}

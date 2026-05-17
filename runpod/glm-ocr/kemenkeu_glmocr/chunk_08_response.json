@@ -1,0 +1,4491 @@
+{
+  "created": 1779015270,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-ced95af0a0ca4c0fab4bd6b3a6087",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          869,
+          163
+        ],
+        "content": "(2) Dalam hal pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 dilakukan oleh kuasa Wajib Pajak, dokumen sebagaimana dimaksud pada ayat (1) harus dilampiri surat kuasa khusus sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            163
+          ],
+          [
+            868,
+            163
+          ],
+          [
+            868,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          163,
+          869,
+          222
+        ],
+        "content": "(3) Atas penyampaian dokumen sebagaimana dimaksud pada ayat (1) diterbitkan bukti penerimaan dalam hal dokumen telah diterima secara lengkap oleh Direktur Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            163
+          ],
+          [
+            284,
+            222
+          ],
+          [
+            300,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          223,
+          867,
+          253
+        ],
+        "content": "(4) Tanggal yang tercantum dalam bukti penerimaan merupakan tanggal diterimanya dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            223
+          ],
+          [
+            283,
+            252
+          ],
+          [
+            866,
+            252
+          ],
+          [
+            866,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          254,
+          869,
+          374
+        ],
+        "content": "(5) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4), tanda bukti dan tanggal pengiriman surat merupakan tanda bukti dan tanggal penerimaan atas penyampaian dokumen kertas melalui pos, jasa ekspedisi, atau jasa kurir sebagaimana dimaksud dalam Pasal 4 ayat (4) huruf b terkait dengan pelaksanaan hak dan pemenuhan kewajiban perpajakan berupa:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            254
+          ],
+          [
+            289,
+            373
+          ],
+          [
+            868,
+            373
+          ],
+          [
+            868,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          374,
+          868,
+          418
+        ],
+        "content": "a. penyampaian Surat Pemberitahuan sebagaimana diatur dalam Pasal 6 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            374
+          ],
+          [
+            327,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          419,
+          867,
+          464
+        ],
+        "content": "b. permohonan pembetulan sebagaimana diatur dalam Pasal 16 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            434
+          ],
+          [
+            331,
+            463
+          ],
+          [
+            867,
+            463
+          ],
+          [
+            867,
+            419
+          ],
+          [
+            331,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          465,
+          867,
+          524
+        ],
+        "content": "c. pengajuan keberatan sebagaimana diatur dalam Pasal 25 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dan Pasal 15 Undang-Undang Pajak Bumi dan Bangunan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            480
+          ],
+          [
+            332,
+            523
+          ],
+          [
+            867,
+            523
+          ],
+          [
+            867,
+            465
+          ],
+          [
+            332,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          525,
+          868,
+          584
+        ],
+        "content": "d. permohonan pengurangan atau penghapusan sanksi administratif sebagaimana diatur dalam Pasal 36 ayat (1) huruf a Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            540
+          ],
+          [
+            331,
+            584
+          ],
+          [
+            867,
+            584
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            331,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          585,
+          868,
+          660
+        ],
+        "content": "e. permohonan pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf b Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            600
+          ],
+          [
+            331,
+            659
+          ],
+          [
+            868,
+            659
+          ],
+          [
+            868,
+            585
+          ],
+          [
+            331,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          660,
+          868,
+          734
+        ],
+        "content": "f. permohonan pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf c Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            670
+          ],
+          [
+            331,
+            734
+          ],
+          [
+            867,
+            734
+          ],
+          [
+            867,
+            660
+          ],
+          [
+            331,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          735,
+          868,
+          795
+        ],
+        "content": "g. permohonan pembatalan Surat Ketetapan Pajak hasil Pemeriksaan sebagaimana diatur dalam Pasal 36 ayat (1) huruf d Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            735
+          ],
+          [
+            332,
+            794
+          ],
+          [
+            868,
+            794
+          ],
+          [
+            868,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          795,
+          867,
+          840
+        ],
+        "content": "h. penyampaian Surat Pemberitahuan Objek Pajak sebagaimana diatur dalam Pasal 9 ayat (2) Undang-Undang Pajak Bumi dan Bangunan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            810
+          ],
+          [
+            327,
+            840
+          ],
+          [
+            866,
+            840
+          ],
+          [
+            866,
+            795
+          ],
+          [
+            332,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          841,
+          868,
+          901
+        ],
+        "content": "i. permohonan pengurangan Pajak Bumi dan Bangunan sebagaimana diatur dalam Pasal 19 ayat (1) Undang-Undang Pajak Bumi dan Bangunan; dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            841
+          ],
+          [
+            325,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            841
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          326,
+          73,
+          871,
+          133
+        ],
+        "content": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            73
+          ],
+          [
+            331,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          133,
+          870,
+          253
+        ],
+        "content": "(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            133
+          ],
+          [
+            284,
+            248
+          ],
+          [
+            299,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          254,
+          870,
+          329
+        ],
+        "content": "(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            254
+          ],
+          [
+            283,
+            328
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            869,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          330,
+          868,
+          389
+        ],
+        "content": "(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            330
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            868,
+            388
+          ],
+          [
+            868,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          390,
+          868,
+          435
+        ],
+        "content": "(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            390
+          ],
+          [
+            282,
+            435
+          ],
+          [
+            868,
+            435
+          ],
+          [
+            868,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          867,
+          480
+        ],
+        "content": "a. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            460
+          ],
+          [
+            327,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            435
+          ],
+          [
+            332,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          480,
+          867,
+          510
+        ],
+        "content": "b. pejabat atau pegawai Direktorat Jenderal Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            480
+          ],
+          [
+            326,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          510,
+          868,
+          557
+        ],
+        "content": "c. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            510
+          ],
+          [
+            331,
+            557
+          ],
+          [
+            818,
+            557
+          ],
+          [
+            853,
+            557
+          ],
+          [
+            862,
+            557
+          ],
+          [
+            867,
+            552
+          ],
+          [
+            867,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          570,
+          613,
+          584
+        ],
+        "content": "## Pasal 8",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            570
+          ],
+          [
+            538,
+            584
+          ],
+          [
+            612,
+            584
+          ],
+          [
+            612,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            674
+          ],
+          [
+            867,
+            674
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          671,
+          691
+        ],
+        "content": "(2) Tanda Tangan Elektronik meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            691
+          ],
+          [
+            671,
+            691
+          ],
+          [
+            671,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          292,
+          692,
+          865,
+          765
+        ],
+        "content": "a. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            702
+          ],
+          [
+            292,
+            765
+          ],
+          [
+            865,
+            765
+          ],
+          [
+            865,
+            692
+          ],
+          [
+            333,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          766,
+          868,
+          826
+        ],
+        "content": "(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            766
+          ],
+          [
+            286,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          826,
+          869,
+          903
+        ],
+        "content": "a. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            831
+          ],
+          [
+            335,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            345,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          73,
+          869,
+          102
+        ],
+        "content": "memenuhi kewajiban perpajakan secara elektronik; atau",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            73
+          ],
+          [
+            375,
+            102
+          ],
+          [
+            868,
+            102
+          ],
+          [
+            868,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          103,
+          869,
+          148
+        ],
+        "content": "b. Penyelenggara Sertifikasi Elektronik noninstansi dalam hal Wajib Pajak merupakan Wajib Pajak selain sebagaimana dimaksud dalam huruf a.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            103
+          ],
+          [
+            329,
+            143
+          ],
+          [
+            339,
+            148
+          ],
+          [
+            364,
+            148
+          ],
+          [
+            379,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          148,
+          868,
+          178
+        ],
+        "content": "(4) Penyelenggara Sertifikasi Elektronik merupakan Penyelenggara Sertifikasi Elektronik yang:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            148
+          ],
+          [
+            283,
+            178
+          ],
+          [
+            318,
+            178
+          ],
+          [
+            328,
+            178
+          ],
+          [
+            867,
+            178
+          ],
+          [
+            867,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          179,
+          869,
+          225
+        ],
+        "content": "a. sudah diakui oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            179
+          ],
+          [
+            328,
+            225
+          ],
+          [
+            868,
+            225
+          ],
+          [
+            868,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          223,
+          597,
+          238
+        ],
+        "content": "b. ditunjuk oleh Menteri.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            223
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            597,
+            238
+          ],
+          [
+            597,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          238,
+          868,
+          283
+        ],
+        "content": "(5) Tanda Tangan Elektronik tidak tersertifikasi merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Kode Otorisasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            238
+          ],
+          [
+            283,
+            283
+          ],
+          [
+            293,
+            283
+          ],
+          [
+            867,
+            283
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          283,
+          868,
+          328
+        ],
+        "content": "(6) Direktur Jenderal Pajak menerbitkan Kode Otorisasi bersamaan dengan persetujuan dan aktivasi Akun Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            283
+          ],
+          [
+            282,
+            328
+          ],
+          [
+            867,
+            328
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          328,
+          870,
+          420
+        ],
+        "content": "(7) Dokumen Elektronik yang disampaikan melalui Contact Center sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c, dianggap telah ditandatangani setelah Wajib Pajak menjawab pertanyaan validasi identitas dan menyampaikan afirmasi kepada petugas Contact Center.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            344
+          ],
+          [
+            281,
+            419
+          ],
+          [
+            869,
+            419
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            287,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          434,
+          613,
+          448
+        ],
+        "content": "## Pasal 9",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            434
+          ],
+          [
+            538,
+            448
+          ],
+          [
+            612,
+            448
+          ],
+          [
+            612,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          449,
+          867,
+          525
+        ],
+        "content": "(1) Untuk memperoleh Sertifikat Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (3), Wajib Pajak harus mengajukan permohonan penerbitan Sertifikat Elektronik kepada Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (4).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            449
+          ],
+          [
+            286,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          525,
+          868,
+          572
+        ],
+        "content": "(2) Tata cara pengajuan permohonan penerbitan dan masa berlaku Sertifikat Elektronik sesuai dengan ketentuan yang diatur oleh Penyelenggara Sertifikasi Elektronik.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            525
+          ],
+          [
+            281,
+            571
+          ],
+          [
+            867,
+            571
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          585,
+          619,
+          599
+        ],
+        "content": "## Pasal 10",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            585
+          ],
+          [
+            531,
+            599
+          ],
+          [
+            618,
+            599
+          ],
+          [
+            618,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          600,
+          867,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak orang pribadi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            600
+          ],
+          [
+            286,
+            673
+          ],
+          [
+            867,
+            673
+          ],
+          [
+            867,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          675,
+          828,
+          691
+        ],
+        "content": "a. Wajib Pajak orang pribadi yang bersangkutan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            675
+          ],
+          [
+            332,
+            690
+          ],
+          [
+            827,
+            690
+          ],
+          [
+            827,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          691,
+          867,
+          736
+        ],
+        "content": "b. wali atau pengampu, bagi anak yang belum dewasa atau orang yang berada dalam pengampuan; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            691
+          ],
+          [
+            327,
+            735
+          ],
+          [
+            866,
+            735
+          ],
+          [
+            866,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          736,
+          868,
+          795
+        ],
+        "content": "c. orang pribadi yang ditunjuk oleh Wajib Pajak orang pribadi sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            775
+          ],
+          [
+            326,
+            795
+          ],
+          [
+            867,
+            795
+          ],
+          [
+            867,
+            736
+          ],
+          [
+            346,
+            736
+          ],
+          [
+            331,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          868,
+          885
+        ],
+        "content": "(2) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak Badan, Wajib Pajak Instansi Pemerintah, dan Wajib Pajak Warisan Belum Terbagi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            885
+          ],
+          [
+            867,
+            885
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          885,
+          867,
+          915
+        ],
+        "content": "a. orang pribadi yang merupakan wakil Wajib Pajak; atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            885
+          ],
+          [
+            327,
+            915
+          ],
+          [
+            866,
+            915
+          ],
+          [
+            866,
+            885
+          ],
+          [
+            342,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          324,
+          75,
+          864,
+          134
+        ],
+        "content": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            75
+          ],
+          [
+            324,
+            134
+          ],
+          [
+            863,
+            134
+          ],
+          [
+            863,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          135,
+          863,
+          164
+        ],
+        "content": "(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            135
+          ],
+          [
+            280,
+            163
+          ],
+          [
+            862,
+            163
+          ],
+          [
+            862,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          165,
+          717,
+          180
+        ],
+        "content": "a. pengurus, bagi Wajib Pajak Badan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            165
+          ],
+          [
+            325,
+            180
+          ],
+          [
+            717,
+            180
+          ],
+          [
+            717,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          181,
+          863,
+          210
+        ],
+        "content": "b. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            181
+          ],
+          [
+            324,
+            210
+          ],
+          [
+            862,
+            210
+          ],
+          [
+            862,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          211,
+          863,
+          255
+        ],
+        "content": "c. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            211
+          ],
+          [
+            324,
+            254
+          ],
+          [
+            862,
+            254
+          ],
+          [
+            862,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          256,
+          861,
+          270
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            256
+          ],
+          [
+            323,
+            270
+          ],
+          [
+            856,
+            270
+          ],
+          [
+            861,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          259,
+          863,
+          315
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            269
+          ],
+          [
+            324,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            259
+          ],
+          [
+            474,
+            259
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          316,
+          864,
+          390
+        ],
+        "content": "f. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            316
+          ],
+          [
+            323,
+            390
+          ],
+          [
+            864,
+            390
+          ],
+          [
+            864,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          391,
+          864,
+          466
+        ],
+        "content": "g. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            391
+          ],
+          [
+            323,
+            466
+          ],
+          [
+            863,
+            466
+          ],
+          [
+            863,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          467,
+          864,
+          526
+        ],
+        "content": "h. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            467
+          ],
+          [
+            323,
+            526
+          ],
+          [
+            864,
+            526
+          ],
+          [
+            864,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          526,
+          864,
+          586
+        ],
+        "content": "(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            526
+          ],
+          [
+            278,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            531
+          ],
+          [
+            839,
+            526
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          587,
+          864,
+          618
+        ],
+        "content": "(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            587
+          ],
+          [
+            279,
+            618
+          ],
+          [
+            864,
+            618
+          ],
+          [
+            864,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          647,
+          864,
+          736
+        ],
+        "content": "(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            647
+          ],
+          [
+            278,
+            736
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            863,
+            647
+          ],
+          [
+            833,
+            647
+          ],
+          [
+            714,
+            647
+          ],
+          [
+            678,
+            647
+          ],
+          [
+            664,
+            647
+          ],
+          [
+            633,
+            647
+          ],
+          [
+            604,
+            647
+          ],
+          [
+            593,
+            647
+          ],
+          [
+            569,
+            647
+          ],
+          [
+            563,
+            647
+          ],
+          [
+            524,
+            647
+          ],
+          [
+            513,
+            647
+          ],
+          [
+            494,
+            647
+          ],
+          [
+            463,
+            647
+          ],
+          [
+            453,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          737,
+          864,
+          768
+        ],
+        "content": "(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            737
+          ],
+          [
+            279,
+            767
+          ],
+          [
+            863,
+            767
+          ],
+          [
+            863,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          769,
+          583,
+          783
+        ],
+        "content": "a. Surat Tagihan Pajak;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            769
+          ],
+          [
+            324,
+            783
+          ],
+          [
+            582,
+            783
+          ],
+          [
+            582,
+            769
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          783,
+          742,
+          798
+        ],
+        "content": "b. Surat Ketetapan Pajak Kurang Bayar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            783
+          ],
+          [
+            324,
+            797
+          ],
+          [
+            741,
+            797
+          ],
+          [
+            741,
+            783
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          798,
+          849,
+          813
+        ],
+        "content": "c. Surat Ketetapan Pajak Kurang Bayar Tambahan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            798
+          ],
+          [
+            324,
+            812
+          ],
+          [
+            848,
+            812
+          ],
+          [
+            848,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          813,
+          652,
+          827
+        ],
+        "content": "d. Surat Ketetapan Pajak Nihil;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            813
+          ],
+          [
+            324,
+            827
+          ],
+          [
+            651,
+            827
+          ],
+          [
+            651,
+            813
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          828,
+          723,
+          843
+        ],
+        "content": "e. Surat Ketetapan Pajak Lebih Bayar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            828
+          ],
+          [
+            325,
+            842
+          ],
+          [
+            722,
+            842
+          ],
+          [
+            722,
+            828
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          843,
+          863,
+          858
+        ],
+        "content": "f. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            843
+          ],
+          [
+            324,
+            857
+          ],
+          [
+            862,
+            857
+          ],
+          [
+            862,
+            843
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          858,
+          848,
+          873
+        ],
+        "content": "g. Surat Tagihan Pajak Pajak Bumi dan Bangunan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            858
+          ],
+          [
+            325,
+            873
+          ],
+          [
+            847,
+            873
+          ],
+          [
+            847,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          873,
+          671,
+          887
+        ],
+        "content": "h. Surat Keputusan Pembetulan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            873
+          ],
+          [
+            324,
+            887
+          ],
+          [
+            671,
+            887
+          ],
+          [
+            671,
+            873
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          889,
+          761,
+          903
+        ],
+        "content": "i. Surat Keputusan Persetujuan Bersama;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            889
+          ],
+          [
+            325,
+            903
+          ],
+          [
+            761,
+            903
+          ],
+          [
+            761,
+            889
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          904,
+          656,
+          918
+        ],
+        "content": "j. Surat Keputusan Keberatan;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            904
+          ],
+          [
+            324,
+            918
+          ],
+          [
+            655,
+            918
+          ],
+          [
+            655,
+            904
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          284,
+          71,
+          869,
+          163
+        ],
+        "content": "(2) Dalam hal pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 dilakukan oleh kuasa Wajib Pajak, dokumen sebagaimana dimaksud pada ayat (1) harus dilampiri surat kuasa khusus sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            71
+          ],
+          [
+            284,
+            163
+          ],
+          [
+            868,
+            163
+          ],
+          [
+            868,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          163,
+          869,
+          222
+        ],
+        "content": "(3) Atas penyampaian dokumen sebagaimana dimaksud pada ayat (1) diterbitkan bukti penerimaan dalam hal dokumen telah diterima secara lengkap oleh Direktur Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            163
+          ],
+          [
+            284,
+            222
+          ],
+          [
+            300,
+            222
+          ],
+          [
+            868,
+            222
+          ],
+          [
+            868,
+            163
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          223,
+          867,
+          253
+        ],
+        "content": "(4) Tanggal yang tercantum dalam bukti penerimaan merupakan tanggal diterimanya dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            223
+          ],
+          [
+            283,
+            252
+          ],
+          [
+            866,
+            252
+          ],
+          [
+            866,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          254,
+          869,
+          374
+        ],
+        "content": "(5) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4), tanda bukti dan tanggal pengiriman surat merupakan tanda bukti dan tanggal penerimaan atas penyampaian dokumen kertas melalui pos, jasa ekspedisi, atau jasa kurir sebagaimana dimaksud dalam Pasal 4 ayat (4) huruf b terkait dengan pelaksanaan hak dan pemenuhan kewajiban perpajakan berupa:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            254
+          ],
+          [
+            289,
+            373
+          ],
+          [
+            868,
+            373
+          ],
+          [
+            868,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          374,
+          868,
+          418
+        ],
+        "content": "a. penyampaian Surat Pemberitahuan sebagaimana diatur dalam Pasal 6 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            374
+          ],
+          [
+            327,
+            418
+          ],
+          [
+            867,
+            418
+          ],
+          [
+            867,
+            374
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          419,
+          867,
+          464
+        ],
+        "content": "b. permohonan pembetulan sebagaimana diatur dalam Pasal 16 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            434
+          ],
+          [
+            331,
+            463
+          ],
+          [
+            867,
+            463
+          ],
+          [
+            867,
+            419
+          ],
+          [
+            331,
+            419
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          465,
+          867,
+          524
+        ],
+        "content": "c. pengajuan keberatan sebagaimana diatur dalam Pasal 25 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dan Pasal 15 Undang-Undang Pajak Bumi dan Bangunan;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            480
+          ],
+          [
+            332,
+            523
+          ],
+          [
+            867,
+            523
+          ],
+          [
+            867,
+            465
+          ],
+          [
+            332,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          525,
+          868,
+          584
+        ],
+        "content": "d. permohonan pengurangan atau penghapusan sanksi administratif sebagaimana diatur dalam Pasal 36 ayat (1) huruf a Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            540
+          ],
+          [
+            331,
+            584
+          ],
+          [
+            867,
+            584
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            331,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          585,
+          868,
+          660
+        ],
+        "content": "e. permohonan pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf b Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            600
+          ],
+          [
+            331,
+            659
+          ],
+          [
+            868,
+            659
+          ],
+          [
+            868,
+            585
+          ],
+          [
+            331,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          660,
+          868,
+          734
+        ],
+        "content": "f. permohonan pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf c Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            670
+          ],
+          [
+            331,
+            734
+          ],
+          [
+            867,
+            734
+          ],
+          [
+            867,
+            660
+          ],
+          [
+            331,
+            660
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          735,
+          868,
+          795
+        ],
+        "content": "g. permohonan pembatalan Surat Ketetapan Pajak hasil Pemeriksaan sebagaimana diatur dalam Pasal 36 ayat (1) huruf d Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            735
+          ],
+          [
+            332,
+            794
+          ],
+          [
+            868,
+            794
+          ],
+          [
+            868,
+            735
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          795,
+          867,
+          840
+        ],
+        "content": "h. penyampaian Surat Pemberitahuan Objek Pajak sebagaimana diatur dalam Pasal 9 ayat (2) Undang-Undang Pajak Bumi dan Bangunan;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            810
+          ],
+          [
+            327,
+            840
+          ],
+          [
+            866,
+            840
+          ],
+          [
+            866,
+            795
+          ],
+          [
+            332,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          841,
+          868,
+          901
+        ],
+        "content": "i. permohonan pengurangan Pajak Bumi dan Bangunan sebagaimana diatur dalam Pasal 19 ayat (1) Undang-Undang Pajak Bumi dan Bangunan; dan",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            841
+          ],
+          [
+            325,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            867,
+            841
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          326,
+          73,
+          871,
+          133
+        ],
+        "content": "j. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            73
+          ],
+          [
+            331,
+            132
+          ],
+          [
+            870,
+            132
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          133,
+          870,
+          253
+        ],
+        "content": "(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            133
+          ],
+          [
+            284,
+            248
+          ],
+          [
+            299,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            133
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          254,
+          870,
+          329
+        ],
+        "content": "(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            254
+          ],
+          [
+            283,
+            328
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            869,
+            254
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          330,
+          868,
+          389
+        ],
+        "content": "(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            330
+          ],
+          [
+            282,
+            388
+          ],
+          [
+            868,
+            388
+          ],
+          [
+            868,
+            330
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          390,
+          868,
+          435
+        ],
+        "content": "(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            390
+          ],
+          [
+            282,
+            435
+          ],
+          [
+            868,
+            435
+          ],
+          [
+            868,
+            390
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          435,
+          867,
+          480
+        ],
+        "content": "a. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            460
+          ],
+          [
+            327,
+            479
+          ],
+          [
+            867,
+            479
+          ],
+          [
+            867,
+            435
+          ],
+          [
+            332,
+            435
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          480,
+          867,
+          510
+        ],
+        "content": "b. pejabat atau pegawai Direktorat Jenderal Pajak; atau",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            480
+          ],
+          [
+            326,
+            509
+          ],
+          [
+            867,
+            509
+          ],
+          [
+            867,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          510,
+          868,
+          557
+        ],
+        "content": "c. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            510
+          ],
+          [
+            331,
+            557
+          ],
+          [
+            818,
+            557
+          ],
+          [
+            853,
+            557
+          ],
+          [
+            862,
+            557
+          ],
+          [
+            867,
+            552
+          ],
+          [
+            867,
+            510
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          570,
+          613,
+          584
+        ],
+        "content": "## Pasal 8",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            570
+          ],
+          [
+            538,
+            584
+          ],
+          [
+            612,
+            584
+          ],
+          [
+            612,
+            570
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          585,
+          868,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            585
+          ],
+          [
+            281,
+            674
+          ],
+          [
+            867,
+            674
+          ],
+          [
+            867,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          675,
+          671,
+          691
+        ],
+        "content": "(2) Tanda Tangan Elektronik meliputi:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            675
+          ],
+          [
+            282,
+            691
+          ],
+          [
+            671,
+            691
+          ],
+          [
+            671,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          292,
+          692,
+          865,
+          765
+        ],
+        "content": "a. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            292,
+            702
+          ],
+          [
+            292,
+            765
+          ],
+          [
+            865,
+            765
+          ],
+          [
+            865,
+            692
+          ],
+          [
+            333,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          766,
+          868,
+          826
+        ],
+        "content": "(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            766
+          ],
+          [
+            286,
+            825
+          ],
+          [
+            867,
+            825
+          ],
+          [
+            867,
+            766
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          826,
+          869,
+          903
+        ],
+        "content": "a. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            831
+          ],
+          [
+            335,
+            902
+          ],
+          [
+            868,
+            902
+          ],
+          [
+            868,
+            826
+          ],
+          [
+            345,
+            826
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          73,
+          869,
+          102
+        ],
+        "content": "memenuhi kewajiban perpajakan secara elektronik; atau",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            73
+          ],
+          [
+            375,
+            102
+          ],
+          [
+            868,
+            102
+          ],
+          [
+            868,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          103,
+          869,
+          148
+        ],
+        "content": "b. Penyelenggara Sertifikasi Elektronik noninstansi dalam hal Wajib Pajak merupakan Wajib Pajak selain sebagaimana dimaksud dalam huruf a.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            103
+          ],
+          [
+            329,
+            143
+          ],
+          [
+            339,
+            148
+          ],
+          [
+            364,
+            148
+          ],
+          [
+            379,
+            148
+          ],
+          [
+            868,
+            148
+          ],
+          [
+            868,
+            103
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          148,
+          868,
+          178
+        ],
+        "content": "(4) Penyelenggara Sertifikasi Elektronik merupakan Penyelenggara Sertifikasi Elektronik yang:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            148
+          ],
+          [
+            283,
+            178
+          ],
+          [
+            318,
+            178
+          ],
+          [
+            328,
+            178
+          ],
+          [
+            867,
+            178
+          ],
+          [
+            867,
+            148
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          179,
+          869,
+          225
+        ],
+        "content": "a. sudah diakui oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            179
+          ],
+          [
+            328,
+            225
+          ],
+          [
+            868,
+            225
+          ],
+          [
+            868,
+            179
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          223,
+          597,
+          238
+        ],
+        "content": "b. ditunjuk oleh Menteri.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            223
+          ],
+          [
+            330,
+            238
+          ],
+          [
+            597,
+            238
+          ],
+          [
+            597,
+            223
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          238,
+          868,
+          283
+        ],
+        "content": "(5) Tanda Tangan Elektronik tidak tersertifikasi merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Kode Otorisasi.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            238
+          ],
+          [
+            283,
+            283
+          ],
+          [
+            293,
+            283
+          ],
+          [
+            867,
+            283
+          ],
+          [
+            867,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          283,
+          868,
+          328
+        ],
+        "content": "(6) Direktur Jenderal Pajak menerbitkan Kode Otorisasi bersamaan dengan persetujuan dan aktivasi Akun Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            283
+          ],
+          [
+            282,
+            328
+          ],
+          [
+            867,
+            328
+          ],
+          [
+            867,
+            283
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          328,
+          870,
+          420
+        ],
+        "content": "(7) Dokumen Elektronik yang disampaikan melalui Contact Center sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c, dianggap telah ditandatangani setelah Wajib Pajak menjawab pertanyaan validasi identitas dan menyampaikan afirmasi kepada petugas Contact Center.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            344
+          ],
+          [
+            281,
+            419
+          ],
+          [
+            869,
+            419
+          ],
+          [
+            869,
+            328
+          ],
+          [
+            287,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          538,
+          434,
+          613,
+          448
+        ],
+        "content": "## Pasal 9",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            538,
+            434
+          ],
+          [
+            538,
+            448
+          ],
+          [
+            612,
+            448
+          ],
+          [
+            612,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          449,
+          867,
+          525
+        ],
+        "content": "(1) Untuk memperoleh Sertifikat Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (3), Wajib Pajak harus mengajukan permohonan penerbitan Sertifikat Elektronik kepada Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (4).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            449
+          ],
+          [
+            286,
+            525
+          ],
+          [
+            867,
+            525
+          ],
+          [
+            867,
+            449
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          525,
+          868,
+          572
+        ],
+        "content": "(2) Tata cara pengajuan permohonan penerbitan dan masa berlaku Sertifikat Elektronik sesuai dengan ketentuan yang diatur oleh Penyelenggara Sertifikasi Elektronik.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            525
+          ],
+          [
+            281,
+            571
+          ],
+          [
+            867,
+            571
+          ],
+          [
+            867,
+            525
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          585,
+          619,
+          599
+        ],
+        "content": "## Pasal 10",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            585
+          ],
+          [
+            531,
+            599
+          ],
+          [
+            618,
+            599
+          ],
+          [
+            618,
+            585
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          600,
+          867,
+          674
+        ],
+        "content": "(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak orang pribadi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            600
+          ],
+          [
+            286,
+            673
+          ],
+          [
+            867,
+            673
+          ],
+          [
+            867,
+            600
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          675,
+          828,
+          691
+        ],
+        "content": "a. Wajib Pajak orang pribadi yang bersangkutan;",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            675
+          ],
+          [
+            332,
+            690
+          ],
+          [
+            827,
+            690
+          ],
+          [
+            827,
+            675
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          691,
+          867,
+          736
+        ],
+        "content": "b. wali atau pengampu, bagi anak yang belum dewasa atau orang yang berada dalam pengampuan; atau",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            691
+          ],
+          [
+            327,
+            735
+          ],
+          [
+            866,
+            735
+          ],
+          [
+            866,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          736,
+          868,
+          795
+        ],
+        "content": "c. orang pribadi yang ditunjuk oleh Wajib Pajak orang pribadi sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            775
+          ],
+          [
+            326,
+            795
+          ],
+          [
+            867,
+            795
+          ],
+          [
+            867,
+            736
+          ],
+          [
+            346,
+            736
+          ],
+          [
+            331,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          795,
+          868,
+          885
+        ],
+        "content": "(2) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak Badan, Wajib Pajak Instansi Pemerintah, dan Wajib Pajak Warisan Belum Terbagi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            795
+          ],
+          [
+            281,
+            885
+          ],
+          [
+            867,
+            885
+          ],
+          [
+            867,
+            795
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          885,
+          867,
+          915
+        ],
+        "content": "a. orang pribadi yang merupakan wakil Wajib Pajak; atau",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            885
+          ],
+          [
+            327,
+            915
+          ],
+          [
+            866,
+            915
+          ],
+          [
+            866,
+            885
+          ],
+          [
+            342,
+            885
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          324,
+          75,
+          864,
+          134
+        ],
+        "content": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            75
+          ],
+          [
+            324,
+            134
+          ],
+          [
+            863,
+            134
+          ],
+          [
+            863,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          135,
+          863,
+          164
+        ],
+        "content": "(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            135
+          ],
+          [
+            280,
+            163
+          ],
+          [
+            862,
+            163
+          ],
+          [
+            862,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          165,
+          717,
+          180
+        ],
+        "content": "a. pengurus, bagi Wajib Pajak Badan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            165
+          ],
+          [
+            325,
+            180
+          ],
+          [
+            717,
+            180
+          ],
+          [
+            717,
+            165
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          181,
+          863,
+          210
+        ],
+        "content": "b. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            181
+          ],
+          [
+            324,
+            210
+          ],
+          [
+            862,
+            210
+          ],
+          [
+            862,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          211,
+          863,
+          255
+        ],
+        "content": "c. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            211
+          ],
+          [
+            324,
+            254
+          ],
+          [
+            862,
+            254
+          ],
+          [
+            862,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          256,
+          861,
+          270
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            256
+          ],
+          [
+            323,
+            270
+          ],
+          [
+            856,
+            270
+          ],
+          [
+            861,
+            256
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          259,
+          863,
+          315
+        ],
+        "content": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            269
+          ],
+          [
+            324,
+            315
+          ],
+          [
+            862,
+            315
+          ],
+          [
+            862,
+            259
+          ],
+          [
+            474,
+            259
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          316,
+          864,
+          390
+        ],
+        "content": "f. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            316
+          ],
+          [
+            323,
+            390
+          ],
+          [
+            864,
+            390
+          ],
+          [
+            864,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          391,
+          864,
+          466
+        ],
+        "content": "g. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            391
+          ],
+          [
+            323,
+            466
+          ],
+          [
+            863,
+            466
+          ],
+          [
+            863,
+            391
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          323,
+          467,
+          864,
+          526
+        ],
+        "content": "h. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            323,
+            467
+          ],
+          [
+            323,
+            526
+          ],
+          [
+            864,
+            526
+          ],
+          [
+            864,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          526,
+          864,
+          586
+        ],
+        "content": "(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            526
+          ],
+          [
+            278,
+            586
+          ],
+          [
+            864,
+            586
+          ],
+          [
+            864,
+            531
+          ],
+          [
+            839,
+            526
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          587,
+          864,
+          618
+        ],
+        "content": "(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            587
+          ],
+          [
+            279,
+            618
+          ],
+          [
+            864,
+            618
+          ],
+          [
+            864,
+            587
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          647,
+          864,
+          736
+        ],
+        "content": "(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            647
+          ],
+          [
+            278,
+            736
+          ],
+          [
+            863,
+            736
+          ],
+          [
+            863,
+            647
+          ],
+          [
+            833,
+            647
+          ],
+          [
+            714,
+            647
+          ],
+          [
+            678,
+            647
+          ],
+          [
+            664,
+            647
+          ],
+          [
+            633,
+            647
+          ],
+          [
+            604,
+            647
+          ],
+          [
+            593,
+            647
+          ],
+          [
+            569,
+            647
+          ],
+          [
+            563,
+            647
+          ],
+          [
+            524,
+            647
+          ],
+          [
+            513,
+            647
+          ],
+          [
+            494,
+            647
+          ],
+          [
+            463,
+            647
+          ],
+          [
+            453,
+            647
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          737,
+          864,
+          768
+        ],
+        "content": "(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            737
+          ],
+          [
+            279,
+            767
+          ],
+          [
+            863,
+            767
+          ],
+          [
+            863,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          769,
+          583,
+          783
+        ],
+        "content": "a. Surat Tagihan Pajak;",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            769
+          ],
+          [
+            324,
+            783
+          ],
+          [
+            582,
+            783
+          ],
+          [
+            582,
+            769
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          783,
+          742,
+          798
+        ],
+        "content": "b. Surat Ketetapan Pajak Kurang Bayar;",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            783
+          ],
+          [
+            324,
+            797
+          ],
+          [
+            741,
+            797
+          ],
+          [
+            741,
+            783
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          798,
+          849,
+          813
+        ],
+        "content": "c. Surat Ketetapan Pajak Kurang Bayar Tambahan;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            798
+          ],
+          [
+            324,
+            812
+          ],
+          [
+            848,
+            812
+          ],
+          [
+            848,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          813,
+          652,
+          827
+        ],
+        "content": "d. Surat Ketetapan Pajak Nihil;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            813
+          ],
+          [
+            324,
+            827
+          ],
+          [
+            651,
+            827
+          ],
+          [
+            651,
+            813
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          828,
+          723,
+          843
+        ],
+        "content": "e. Surat Ketetapan Pajak Lebih Bayar;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            828
+          ],
+          [
+            325,
+            842
+          ],
+          [
+            722,
+            842
+          ],
+          [
+            722,
+            828
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          843,
+          863,
+          858
+        ],
+        "content": "f. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;",
+        "index": 19,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            843
+          ],
+          [
+            324,
+            857
+          ],
+          [
+            862,
+            857
+          ],
+          [
+            862,
+            843
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          858,
+          848,
+          873
+        ],
+        "content": "g. Surat Tagihan Pajak Pajak Bumi dan Bangunan;",
+        "index": 20,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            858
+          ],
+          [
+            325,
+            873
+          ],
+          [
+            847,
+            873
+          ],
+          [
+            847,
+            858
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          873,
+          671,
+          887
+        ],
+        "content": "h. Surat Keputusan Pembetulan;",
+        "index": 21,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            873
+          ],
+          [
+            324,
+            887
+          ],
+          [
+            671,
+            887
+          ],
+          [
+            671,
+            873
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          889,
+          761,
+          903
+        ],
+        "content": "i. Surat Keputusan Persetujuan Bersama;",
+        "index": 22,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            889
+          ],
+          [
+            325,
+            903
+          ],
+          [
+            761,
+            903
+          ],
+          [
+            761,
+            889
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          904,
+          656,
+          918
+        ],
+        "content": "j. Surat Keputusan Keberatan;",
+        "index": 23,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            904
+          ],
+          [
+            324,
+            918
+          ],
+          [
+            655,
+            918
+          ],
+          [
+            655,
+            904
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "(2) Dalam hal pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 dilakukan oleh kuasa Wajib Pajak, dokumen sebagaimana dimaksud pada ayat (1) harus dilampiri surat kuasa khusus sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.\n\n(3) Atas penyampaian dokumen sebagaimana dimaksud pada ayat (1) diterbitkan bukti penerimaan dalam hal dokumen telah diterima secara lengkap oleh Direktur Jenderal Pajak.\n\n(4) Tanggal yang tercantum dalam bukti penerimaan merupakan tanggal diterimanya dokumen.\n\n(5) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4), tanda bukti dan tanggal pengiriman surat merupakan tanda bukti dan tanggal penerimaan atas penyampaian dokumen kertas melalui pos, jasa ekspedisi, atau jasa kurir sebagaimana dimaksud dalam Pasal 4 ayat (4) huruf b terkait dengan pelaksanaan hak dan pemenuhan kewajiban perpajakan berupa:\n\na. penyampaian Surat Pemberitahuan sebagaimana diatur dalam Pasal 6 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nb. permohonan pembetulan sebagaimana diatur dalam Pasal 16 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nc. pengajuan keberatan sebagaimana diatur dalam Pasal 25 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dan Pasal 15 Undang-Undang Pajak Bumi dan Bangunan;\n\nd. permohonan pengurangan atau penghapusan sanksi administratif sebagaimana diatur dalam Pasal 36 ayat (1) huruf a Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\ne. permohonan pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf b Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nf. permohonan pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf c Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\ng. permohonan pembatalan Surat Ketetapan Pajak hasil Pemeriksaan sebagaimana diatur dalam Pasal 36 ayat (1) huruf d Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nh. penyampaian Surat Pemberitahuan Objek Pajak sebagaimana diatur dalam Pasal 9 ayat (2) Undang-Undang Pajak Bumi dan Bangunan;\n\ni. permohonan pengurangan Pajak Bumi dan Bangunan sebagaimana diatur dalam Pasal 19 ayat (1) Undang-Undang Pajak Bumi dan Bangunan; dan\n\nj. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.\n\n(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.\n\n(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.\n\n(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.\n\n(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:\n\na. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;\n\nb. pejabat atau pegawai Direktorat Jenderal Pajak; atau\n\nc. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.\n\n## Pasal 8\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.\n\n(2) Tanda Tangan Elektronik meliputi:\n\na. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.\n\n(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:\n\na. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan\n\nmemenuhi kewajiban perpajakan secara elektronik; atau\n\nb. Penyelenggara Sertifikasi Elektronik noninstansi dalam hal Wajib Pajak merupakan Wajib Pajak selain sebagaimana dimaksud dalam huruf a.\n\n(4) Penyelenggara Sertifikasi Elektronik merupakan Penyelenggara Sertifikasi Elektronik yang:\n\na. sudah diakui oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika; dan\n\nb. ditunjuk oleh Menteri.\n\n(5) Tanda Tangan Elektronik tidak tersertifikasi merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Kode Otorisasi.\n\n(6) Direktur Jenderal Pajak menerbitkan Kode Otorisasi bersamaan dengan persetujuan dan aktivasi Akun Wajib Pajak.\n\n(7) Dokumen Elektronik yang disampaikan melalui Contact Center sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c, dianggap telah ditandatangani setelah Wajib Pajak menjawab pertanyaan validasi identitas dan menyampaikan afirmasi kepada petugas Contact Center.\n\n## Pasal 9\n\n(1) Untuk memperoleh Sertifikat Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (3), Wajib Pajak harus mengajukan permohonan penerbitan Sertifikat Elektronik kepada Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (4).\n\n(2) Tata cara pengajuan permohonan penerbitan dan masa berlaku Sertifikat Elektronik sesuai dengan ketentuan yang diatur oleh Penyelenggara Sertifikasi Elektronik.\n\n## Pasal 10\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak orang pribadi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:\n\na. Wajib Pajak orang pribadi yang bersangkutan;\n\nb. wali atau pengampu, bagi anak yang belum dewasa atau orang yang berada dalam pengampuan; atau\n\nc. orang pribadi yang ditunjuk oleh Wajib Pajak orang pribadi sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(2) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak Badan, Wajib Pajak Instansi Pemerintah, dan Wajib Pajak Warisan Belum Terbagi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:\n\na. orang pribadi yang merupakan wakil Wajib Pajak; atau\n\nb. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:\n\na. pengurus, bagi Wajib Pajak Badan;\n\nb. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;\n\nc. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;\n\nf. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\ng. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nh. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.\n\n(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.\n\n(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.\n\n(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. Surat Tagihan Pajak;\n\nb. Surat Ketetapan Pajak Kurang Bayar;\n\nc. Surat Ketetapan Pajak Kurang Bayar Tambahan;\n\nd. Surat Ketetapan Pajak Nihil;\n\ne. Surat Ketetapan Pajak Lebih Bayar;\n\nf. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;\n\ng. Surat Tagihan Pajak Pajak Bumi dan Bangunan;\n\nh. Surat Keputusan Pembetulan;\n\ni. Surat Keputusan Persetujuan Bersama;\n\nj. Surat Keputusan Keberatan;",
+  "md_results": "(2) Dalam hal pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 3 dilakukan oleh kuasa Wajib Pajak, dokumen sebagaimana dimaksud pada ayat (1) harus dilampiri surat kuasa khusus sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.\n\n(3) Atas penyampaian dokumen sebagaimana dimaksud pada ayat (1) diterbitkan bukti penerimaan dalam hal dokumen telah diterima secara lengkap oleh Direktur Jenderal Pajak.\n\n(4) Tanggal yang tercantum dalam bukti penerimaan merupakan tanggal diterimanya dokumen.\n\n(5) Dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (3) dan ayat (4), tanda bukti dan tanggal pengiriman surat merupakan tanda bukti dan tanggal penerimaan atas penyampaian dokumen kertas melalui pos, jasa ekspedisi, atau jasa kurir sebagaimana dimaksud dalam Pasal 4 ayat (4) huruf b terkait dengan pelaksanaan hak dan pemenuhan kewajiban perpajakan berupa:\n\na. penyampaian Surat Pemberitahuan sebagaimana diatur dalam Pasal 6 ayat (2) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nb. permohonan pembetulan sebagaimana diatur dalam Pasal 16 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nc. pengajuan keberatan sebagaimana diatur dalam Pasal 25 ayat (1) Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan dan Pasal 15 Undang-Undang Pajak Bumi dan Bangunan;\n\nd. permohonan pengurangan atau penghapusan sanksi administratif sebagaimana diatur dalam Pasal 36 ayat (1) huruf a Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\ne. permohonan pengurangan atau pembatalan Surat Ketetapan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf b Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nf. permohonan pengurangan atau pembatalan Surat Tagihan Pajak yang tidak benar sebagaimana diatur dalam Pasal 36 ayat (1) huruf c Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\ng. permohonan pembatalan Surat Ketetapan Pajak hasil Pemeriksaan sebagaimana diatur dalam Pasal 36 ayat (1) huruf d Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan;\n\nh. penyampaian Surat Pemberitahuan Objek Pajak sebagaimana diatur dalam Pasal 9 ayat (2) Undang-Undang Pajak Bumi dan Bangunan;\n\ni. permohonan pengurangan Pajak Bumi dan Bangunan sebagaimana diatur dalam Pasal 19 ayat (1) Undang-Undang Pajak Bumi dan Bangunan; dan\n\nj. permintaan pengurangan denda administratif pajak bumi dan bangunan sebagaimana diatur dalam Pasal 20 Undang-Undang Pajak Bumi dan Bangunan.\n\n(6) Dalam hal Wajib Pajak menyampaikan Dokumen Elektronik dan/atau dokumen kertas yang sama untuk pelaksanaan hak dan pemenuhan kewajiban perpajakan yang sama, dokumen yang diakui sebagai pelaksanaan hak dan pemenuhan kewajiban perpajakan merupakan dokumen yang pertama kali terekam dalam sistem administrasi Direktorat Jenderal Pajak.\n\n(7) Bukti penerimaan atau bukti pengiriman surat atas dokumen yang pertama kali terekam ke dalam sistem administrasi Direktorat Jenderal Pajak sebagaimana dimaksud pada ayat (6) menjadi tanda bukti penerimaan dokumen.\n\n(8) Tanggal yang tercantum dalam tanda bukti penerimaan dokumen sebagaimana dimaksud pada ayat (7) merupakan tanggal dokumen diterima oleh Direktorat Jenderal Pajak.\n\n(9) Dokumen yang telah diterbitkan bukti penerimaan sebagaimana dimaksud pada ayat (3), ayat (5), dan ayat (7) ditindaklanjuti oleh:\n\na. sistem administrasi Direktorat Jenderal Pajak atau sistem yang terintegrasi dengan sistem administrasi Direktorat Jenderal Pajak;\n\nb. pejabat atau pegawai Direktorat Jenderal Pajak; atau\n\nc. pejabat atau pegawai di kementerian atau lembaga yang berwenang sesuai dengan ketentuan peraturan perundang-undangan.\n\n## Pasal 8\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 7 ayat (1) yang harus ditandatangani oleh Wajib Pajak berdasarkan peraturan perundang-undangan di bidang perpajakan, dilaksanakan dengan menggunakan Tanda Tangan Elektronik.\n\n(2) Tanda Tangan Elektronik meliputi:\n\na. Tanda Tangan Elektronik tersertifikasi; dan\n\nb. Tanda Tangan Elektronik tidak tersertifikasi,\n\nsebagaimana diatur dalam Peraturan Pemerintah\n\nmengenai penyelenggaraan sistem dan transaksi\n\nelektronik.\n\n(3) Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (2) huruf a merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Sertifikat Elektronik yang diterbitkan oleh:\n\na. Penyelenggara Sertifikasi Elektronik instansi untuk Wajib Pajak Instansi Pemerintah yang diwakili oleh aparatur sipil negara, Tentara Nasional Indonesia, dan Kepolisian Negara Republik Indonesia dalam melaksanakan hak dan\n\nmemenuhi kewajiban perpajakan secara elektronik; atau\n\nb. Penyelenggara Sertifikasi Elektronik noninstansi dalam hal Wajib Pajak merupakan Wajib Pajak selain sebagaimana dimaksud dalam huruf a.\n\n(4) Penyelenggara Sertifikasi Elektronik merupakan Penyelenggara Sertifikasi Elektronik yang:\n\na. sudah diakui oleh kementerian yang menyelenggarakan urusan pemerintahan di bidang komunikasi dan informatika; dan\n\nb. ditunjuk oleh Menteri.\n\n(5) Tanda Tangan Elektronik tidak tersertifikasi merupakan Tanda Tangan Elektronik yang dibuat dengan menggunakan Kode Otorisasi.\n\n(6) Direktur Jenderal Pajak menerbitkan Kode Otorisasi bersamaan dengan persetujuan dan aktivasi Akun Wajib Pajak.\n\n(7) Dokumen Elektronik yang disampaikan melalui Contact Center sebagaimana dimaksud dalam Pasal 4 ayat (2) huruf c, dianggap telah ditandatangani setelah Wajib Pajak menjawab pertanyaan validasi identitas dan menyampaikan afirmasi kepada petugas Contact Center.\n\n## Pasal 9\n\n(1) Untuk memperoleh Sertifikat Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (3), Wajib Pajak harus mengajukan permohonan penerbitan Sertifikat Elektronik kepada Penyelenggara Sertifikasi Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (4).\n\n(2) Tata cara pengajuan permohonan penerbitan dan masa berlaku Sertifikat Elektronik sesuai dengan ketentuan yang diatur oleh Penyelenggara Sertifikasi Elektronik.\n\n## Pasal 10\n\n(1) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak orang pribadi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:\n\na. Wajib Pajak orang pribadi yang bersangkutan;\n\nb. wali atau pengampu, bagi anak yang belum dewasa atau orang yang berada dalam pengampuan; atau\n\nc. orang pribadi yang ditunjuk oleh Wajib Pajak orang pribadi sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(2) Penandatangan Dokumen Elektronik sebagaimana dimaksud dalam Pasal 8 ayat (1) untuk Wajib Pajak Badan, Wajib Pajak Instansi Pemerintah, dan Wajib Pajak Warisan Belum Terbagi dilakukan dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh:\n\na. orang pribadi yang merupakan wakil Wajib Pajak; atau\n\nb. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:\n\na. pengurus, bagi Wajib Pajak Badan;\n\nb. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;\n\nc. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;\n\nf. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\ng. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nh. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.\n\n(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.\n\n(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.\n\n(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. Surat Tagihan Pajak;\n\nb. Surat Ketetapan Pajak Kurang Bayar;\n\nc. Surat Ketetapan Pajak Kurang Bayar Tambahan;\n\nd. Surat Ketetapan Pajak Nihil;\n\ne. Surat Ketetapan Pajak Lebih Bayar;\n\nf. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;\n\ng. Surat Tagihan Pajak Pajak Bumi dan Bangunan;\n\nh. Surat Keputusan Pembetulan;\n\ni. Surat Keputusan Persetujuan Bersama;\n\nj. Surat Keputusan Keberatan;",
+  "model": "glm-ocr",
+  "usage": {}
+}

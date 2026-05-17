@@ -1,0 +1,3165 @@
+{
+  "created": 1779004516,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-975cbc163a804d4abb04c755acabb",
+  "json_result": [
+    [],
+    [
+      {
+        "bbox_2d": [
+          328,
+          71,
+          870,
+          117
+        ],
+        "content": "kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            71
+          ],
+          [
+            328,
+            116
+          ],
+          [
+            869,
+            116
+          ],
+          [
+            869,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          117,
+          870,
+          225
+        ],
+        "content": "(9) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar terhadap subjek pajak luar negeri, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            117
+          ],
+          [
+            284,
+            224
+          ],
+          [
+            869,
+            224
+          ],
+          [
+            869,
+            122
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          237,
+          628,
+          251
+        ],
+        "content": "## Pasal 133",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            237
+          ],
+          [
+            527,
+            251
+          ],
+          [
+            627,
+            251
+          ],
+          [
+            627,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          252,
+          868,
+          312
+        ],
+        "content": "Kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf e disebabkan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            271
+          ],
+          [
+            287,
+            312
+          ],
+          [
+            868,
+            312
+          ],
+          [
+            868,
+            252
+          ],
+          [
+            710,
+            252
+          ],
+          [
+            287,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          313,
+          868,
+          342
+        ],
+        "content": "a. kesalahan penerapan Persetujuan Penghindaran Pajak Berganda;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            313
+          ],
+          [
+            283,
+            341
+          ],
+          [
+            868,
+            341
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          342,
+          869,
+          403
+        ],
+        "content": "b. keterlambatan pemenuhan persyaratan administratif untuk menerapkan Persetujuan Penghindaran Pajak Berganda setelah terjadi pemotongan atau pemungutan; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            368
+          ],
+          [
+            287,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            287,
+            342
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          548,
+          418
+        ],
+        "content": "c. Persetujuan Bersama.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            418
+          ],
+          [
+            548,
+            418
+          ],
+          [
+            548,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          433,
+          627,
+          447
+        ],
+        "content": "## Pasal 134",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            433
+          ],
+          [
+            527,
+            446
+          ],
+          [
+            627,
+            446
+          ],
+          [
+            627,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          447,
+          868,
+          553
+        ],
+        "content": "(1) Dalam hal terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terhadap subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 133, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh Wajib Pajak pemotong atau pemungut pajak dengan mengajukan permohonan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            447
+          ],
+          [
+            283,
+            548
+          ],
+          [
+            294,
+            553
+          ],
+          [
+            868,
+            553
+          ],
+          [
+            868,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          554,
+          868,
+          598
+        ],
+        "content": "(2) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            554
+          ],
+          [
+            283,
+            598
+          ],
+          [
+            868,
+            598
+          ],
+          [
+            868,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          599,
+          867,
+          629
+        ],
+        "content": "a. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            599
+          ],
+          [
+            328,
+            628
+          ],
+          [
+            867,
+            628
+          ],
+          [
+            867,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          629,
+          868,
+          659
+        ],
+        "content": "b. tidak dapat melakukan pembetulan Surat Pemberitahuan,",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            629
+          ],
+          [
+            328,
+            658
+          ],
+          [
+            867,
+            658
+          ],
+          [
+            867,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          659,
+          840,
+          676
+        ],
+        "content": "permohonan diajukan oleh subjek pajak luar negeri.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            659
+          ],
+          [
+            328,
+            676
+          ],
+          [
+            839,
+            676
+          ],
+          [
+            839,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          689,
+          625,
+          703
+        ],
+        "content": "## Pasal 135",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            689
+          ],
+          [
+            527,
+            703
+          ],
+          [
+            625,
+            703
+          ],
+          [
+            625,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          703,
+          867,
+          749
+        ],
+        "content": "(1) Permohonan sebagaimana dimaksud dalam Pasal 134 ayat (1) dan ayat (2) diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            703
+          ],
+          [
+            283,
+            748
+          ],
+          [
+            867,
+            748
+          ],
+          [
+            867,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          749,
+          868,
+          779
+        ],
+        "content": "(2) Permohonan sebagaimana dimaksud pada ayat (1) harus dilampiri dengan dokumen berupa:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            749
+          ],
+          [
+            283,
+            778
+          ],
+          [
+            867,
+            778
+          ],
+          [
+            867,
+            749
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          780,
+          868,
+          809
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            780
+          ],
+          [
+            329,
+            808
+          ],
+          [
+            867,
+            808
+          ],
+          [
+            867,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          809,
+          868,
+          854
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            809
+          ],
+          [
+            328,
+            854
+          ],
+          [
+            868,
+            854
+          ],
+          [
+            868,
+            809
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          855,
+          870,
+          901
+        ],
+        "content": "c. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            855
+          ],
+          [
+            332,
+            901
+          ],
+          [
+            870,
+            901
+          ],
+          [
+            870,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          118
+        ],
+        "content": "d. surat kuasa dari subjek pajak luar negeri yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            336,
+            118
+          ],
+          [
+            355,
+            118
+          ],
+          [
+            361,
+            118
+          ],
+          [
+            870,
+            118
+          ],
+          [
+            865,
+            71
+          ],
+          [
+            855,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          118,
+          870,
+          206
+        ],
+        "content": "e. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            118
+          ],
+          [
+            330,
+            206
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            870,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          207,
+          870,
+          253
+        ],
+        "content": "f. Surat Keterangan Domisili Wajib Pajak Luar Negeri sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            207
+          ],
+          [
+            330,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            207
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          253,
+          869,
+          327
+        ],
+        "content": "g. salinan Surat Keputusan Persetujuan Bersama, dalam hal kelebihan pemotongan atau pemungutan disebabkan adanya Persetujuan Bersama sebagaimana dimaksud dalam Pasal 133 huruf c; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            253
+          ],
+          [
+            330,
+            322
+          ],
+          [
+            350,
+            327
+          ],
+          [
+            868,
+            327
+          ],
+          [
+            868,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          328,
+          869,
+          387
+        ],
+        "content": "h. dokumen pendukung bagi subjek pajak luar negeri yang menerima atau memperoleh penghasilan terkait dengan Persetujuan Penghindaran Pajak Berganda.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            328
+          ],
+          [
+            328,
+            387
+          ],
+          [
+            868,
+            387
+          ],
+          [
+            868,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          388,
+          869,
+          463
+        ],
+        "content": "(3) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            388
+          ],
+          [
+            284,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          478,
+          627,
+          492
+        ],
+        "content": "## Pasal 136",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            478
+          ],
+          [
+            526,
+            492
+          ],
+          [
+            627,
+            492
+          ],
+          [
+            627,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          492,
+          867,
+          538
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 135.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            492
+          ],
+          [
+            283,
+            538
+          ],
+          [
+            866,
+            538
+          ],
+          [
+            866,
+            492
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          539,
+          867,
+          583
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            539
+          ],
+          [
+            282,
+            583
+          ],
+          [
+            866,
+            583
+          ],
+          [
+            866,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          584,
+          867,
+          613
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            584
+          ],
+          [
+            283,
+            613
+          ],
+          [
+            866,
+            613
+          ],
+          [
+            866,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          615,
+          867,
+          644
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            615
+          ],
+          [
+            328,
+            643
+          ],
+          [
+            866,
+            643
+          ],
+          [
+            866,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          644,
+          867,
+          689
+        ],
+        "content": "b. pajak yang dipotong atau dipungut telah dilaporkan dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            644
+          ],
+          [
+            328,
+            689
+          ],
+          [
+            866,
+            689
+          ],
+          [
+            866,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          690,
+          868,
+          748
+        ],
+        "content": "c. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            331,
+            748
+          ],
+          [
+            867,
+            748
+          ],
+          [
+            867,
+            690
+          ],
+          [
+            331,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          749,
+          868,
+          810
+        ],
+        "content": "d. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            749
+          ],
+          [
+            327,
+            809
+          ],
+          [
+            867,
+            809
+          ],
+          [
+            867,
+            749
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          810,
+          867,
+          884
+        ],
+        "content": "e. tidak ditemukan adanya penyalahgunaan Persetujuan Penghindaran Pajak Berganda oleh subjek pajak luar negeri, dalam hal permohonan sebagaimana dimaksud dalam Pasal 133 huruf a dan huruf b.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            825
+          ],
+          [
+            326,
+            883
+          ],
+          [
+            867,
+            883
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            331,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          884,
+          867,
+          915
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            884
+          ],
+          [
+            282,
+            915
+          ],
+          [
+            866,
+            915
+          ],
+          [
+            866,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          286,
+          71,
+          871,
+          131
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            71
+          ],
+          [
+            286,
+            131
+          ],
+          [
+            871,
+            131
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          132,
+          872,
+          236
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            132
+          ],
+          [
+            285,
+            236
+          ],
+          [
+            871,
+            236
+          ],
+          [
+            871,
+            132
+          ],
+          [
+            857,
+            132
+          ],
+          [
+            561,
+            132
+          ],
+          [
+            555,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          237,
+          870,
+          344
+        ],
+        "content": "(7) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            237
+          ],
+          [
+            285,
+            344
+          ],
+          [
+            870,
+            344
+          ],
+          [
+            870,
+            242
+          ],
+          [
+            770,
+            237
+          ],
+          [
+            740,
+            237
+          ],
+          [
+            720,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          358,
+          627,
+          371
+        ],
+        "content": "## Pasal 137",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            358
+          ],
+          [
+            528,
+            371
+          ],
+          [
+            627,
+            371
+          ],
+          [
+            627,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          373,
+          702,
+          388
+        ],
+        "content": "(1) Direktur Jenderal Pajak menerbitkan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            373
+          ],
+          [
+            285,
+            387
+          ],
+          [
+            701,
+            387
+          ],
+          [
+            701,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          388,
+          868,
+          432
+        ],
+        "content": "a. Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 125 ayat (5), Pasal 128 ayat (5), Pasal 132 ayat (7), dan Pasal 136 ayat (5); atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            388
+          ],
+          [
+            330,
+            432
+          ],
+          [
+            868,
+            432
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          434,
+          869,
+          508
+        ],
+        "content": "b. surat pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 125 ayat (6), Pasal 128 ayat (6), Pasal 132 ayat (8), dan Pasal 136 ayat (6),",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            434
+          ],
+          [
+            329,
+            508
+          ],
+          [
+            868,
+            508
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          509,
+          868,
+          553
+        ],
+        "content": "paling lama 3 (tiga) bulan sejak permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang diterima.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            509
+          ],
+          [
+            329,
+            553
+          ],
+          [
+            868,
+            553
+          ],
+          [
+            868,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          553,
+          869,
+          674
+        ],
+        "content": "(2) Dalam hal sampai dengan berakhirnya batas waktu sebagaimana dimaksud pada ayat (1) Direktur Jenderal Pajak tidak menerbitkan Surat Ketetapan Pajak Lebih Bayar atau pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang, permohonan Wajib Pajak dianggap dikabulkan dan Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            553
+          ],
+          [
+            282,
+            669
+          ],
+          [
+            318,
+            674
+          ],
+          [
+            868,
+            674
+          ],
+          [
+            868,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          674,
+          868,
+          750
+        ],
+        "content": "(3) Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (2) diterbitkan Direktur Jenderal Pajak paling lama 5 (lima) hari kerja sejak berakhirnya batas waktu penerbitan Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (1).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            674
+          ],
+          [
+            284,
+            750
+          ],
+          [
+            868,
+            750
+          ],
+          [
+            868,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          506,
+          764,
+          646,
+          779
+        ],
+        "content": "## Bagian Ketiga",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            506,
+            764
+          ],
+          [
+            506,
+            779
+          ],
+          [
+            645,
+            779
+          ],
+          [
+            645,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          394,
+          780,
+          757,
+          795
+        ],
+        "content": "## Tata Cara Pemberian Imbalan Bunga",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            394,
+            780
+          ],
+          [
+            394,
+            795
+          ],
+          [
+            756,
+            795
+          ],
+          [
+            756,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          810,
+          626,
+          825
+        ],
+        "content": "## Pasal 138",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            810
+          ],
+          [
+            525,
+            824
+          ],
+          [
+            625,
+            824
+          ],
+          [
+            625,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          825,
+          867,
+          884
+        ],
+        "content": "(1) Imbalan bunga yang terkait dengan Pajak Penghasilan, Pajak Pertambahan Nilai, dan Pajak Penjualan atas Barang Mewah diberikan kepada Wajib Pajak dalam hal terdapat:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            825
+          ],
+          [
+            287,
+            883
+          ],
+          [
+            867,
+            883
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          885,
+          868,
+          918
+        ],
+        "content": "a. keterlambatan pengembalian kelebihan pembayaran pajak sebagaimana diatur dalam",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            885
+          ],
+          [
+            328,
+            918
+          ],
+          [
+            868,
+            918
+          ],
+          [
+            868,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [
+      {
+        "bbox_2d": [
+          328,
+          71,
+          870,
+          117
+        ],
+        "content": "kelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            71
+          ],
+          [
+            328,
+            116
+          ],
+          [
+            869,
+            116
+          ],
+          [
+            869,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          117,
+          870,
+          225
+        ],
+        "content": "(9) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar terhadap subjek pajak luar negeri, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            117
+          ],
+          [
+            284,
+            224
+          ],
+          [
+            869,
+            224
+          ],
+          [
+            869,
+            122
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          237,
+          628,
+          251
+        ],
+        "content": "## Pasal 133",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            237
+          ],
+          [
+            527,
+            251
+          ],
+          [
+            627,
+            251
+          ],
+          [
+            627,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          252,
+          868,
+          312
+        ],
+        "content": "Kelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf e disebabkan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            271
+          ],
+          [
+            287,
+            312
+          ],
+          [
+            868,
+            312
+          ],
+          [
+            868,
+            252
+          ],
+          [
+            710,
+            252
+          ],
+          [
+            287,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          313,
+          868,
+          342
+        ],
+        "content": "a. kesalahan penerapan Persetujuan Penghindaran Pajak Berganda;",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            313
+          ],
+          [
+            283,
+            341
+          ],
+          [
+            868,
+            341
+          ],
+          [
+            868,
+            313
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          342,
+          869,
+          403
+        ],
+        "content": "b. keterlambatan pemenuhan persyaratan administratif untuk menerapkan Persetujuan Penghindaran Pajak Berganda setelah terjadi pemotongan atau pemungutan; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            368
+          ],
+          [
+            287,
+            403
+          ],
+          [
+            868,
+            403
+          ],
+          [
+            868,
+            342
+          ],
+          [
+            287,
+            342
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          404,
+          548,
+          418
+        ],
+        "content": "c. Persetujuan Bersama.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            404
+          ],
+          [
+            282,
+            418
+          ],
+          [
+            548,
+            418
+          ],
+          [
+            548,
+            404
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          433,
+          627,
+          447
+        ],
+        "content": "## Pasal 134",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            433
+          ],
+          [
+            527,
+            446
+          ],
+          [
+            627,
+            446
+          ],
+          [
+            627,
+            433
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          447,
+          868,
+          553
+        ],
+        "content": "(1) Dalam hal terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terhadap subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 133, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh Wajib Pajak pemotong atau pemungut pajak dengan mengajukan permohonan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            447
+          ],
+          [
+            283,
+            548
+          ],
+          [
+            294,
+            553
+          ],
+          [
+            868,
+            553
+          ],
+          [
+            868,
+            447
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          554,
+          868,
+          598
+        ],
+        "content": "(2) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            554
+          ],
+          [
+            283,
+            598
+          ],
+          [
+            868,
+            598
+          ],
+          [
+            868,
+            554
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          599,
+          867,
+          629
+        ],
+        "content": "a. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            599
+          ],
+          [
+            328,
+            628
+          ],
+          [
+            867,
+            628
+          ],
+          [
+            867,
+            599
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          629,
+          868,
+          659
+        ],
+        "content": "b. tidak dapat melakukan pembetulan Surat Pemberitahuan,",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            629
+          ],
+          [
+            328,
+            658
+          ],
+          [
+            867,
+            658
+          ],
+          [
+            867,
+            629
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          659,
+          840,
+          676
+        ],
+        "content": "permohonan diajukan oleh subjek pajak luar negeri.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            659
+          ],
+          [
+            328,
+            676
+          ],
+          [
+            839,
+            676
+          ],
+          [
+            839,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          527,
+          689,
+          625,
+          703
+        ],
+        "content": "## Pasal 135",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            527,
+            689
+          ],
+          [
+            527,
+            703
+          ],
+          [
+            625,
+            703
+          ],
+          [
+            625,
+            689
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          703,
+          867,
+          749
+        ],
+        "content": "(1) Permohonan sebagaimana dimaksud dalam Pasal 134 ayat (1) dan ayat (2) diajukan secara tertulis dalam bahasa Indonesia.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            703
+          ],
+          [
+            283,
+            748
+          ],
+          [
+            867,
+            748
+          ],
+          [
+            867,
+            703
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          749,
+          868,
+          779
+        ],
+        "content": "(2) Permohonan sebagaimana dimaksud pada ayat (1) harus dilampiri dengan dokumen berupa:",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            749
+          ],
+          [
+            283,
+            778
+          ],
+          [
+            867,
+            778
+          ],
+          [
+            867,
+            749
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          780,
+          868,
+          809
+        ],
+        "content": "a. penghitungan pajak yang seharusnya tidak terutang;",
+        "index": 16,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            780
+          ],
+          [
+            329,
+            808
+          ],
+          [
+            867,
+            808
+          ],
+          [
+            867,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          809,
+          868,
+          854
+        ],
+        "content": "b. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;",
+        "index": 17,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            809
+          ],
+          [
+            328,
+            854
+          ],
+          [
+            868,
+            854
+          ],
+          [
+            868,
+            809
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          855,
+          870,
+          901
+        ],
+        "content": "c. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;",
+        "index": 18,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            855
+          ],
+          [
+            332,
+            901
+          ],
+          [
+            870,
+            901
+          ],
+          [
+            870,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          331,
+          71,
+          870,
+          118
+        ],
+        "content": "d. surat kuasa dari subjek pajak luar negeri yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            331,
+            71
+          ],
+          [
+            336,
+            118
+          ],
+          [
+            355,
+            118
+          ],
+          [
+            361,
+            118
+          ],
+          [
+            870,
+            118
+          ],
+          [
+            865,
+            71
+          ],
+          [
+            855,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          118,
+          870,
+          206
+        ],
+        "content": "e. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri;",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            118
+          ],
+          [
+            330,
+            206
+          ],
+          [
+            870,
+            206
+          ],
+          [
+            870,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          207,
+          870,
+          253
+        ],
+        "content": "f. Surat Keterangan Domisili Wajib Pajak Luar Negeri sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan;",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            207
+          ],
+          [
+            330,
+            253
+          ],
+          [
+            869,
+            253
+          ],
+          [
+            869,
+            207
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          253,
+          869,
+          327
+        ],
+        "content": "g. salinan Surat Keputusan Persetujuan Bersama, dalam hal kelebihan pemotongan atau pemungutan disebabkan adanya Persetujuan Bersama sebagaimana dimaksud dalam Pasal 133 huruf c; dan",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            253
+          ],
+          [
+            330,
+            322
+          ],
+          [
+            350,
+            327
+          ],
+          [
+            868,
+            327
+          ],
+          [
+            868,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          328,
+          869,
+          387
+        ],
+        "content": "h. dokumen pendukung bagi subjek pajak luar negeri yang menerima atau memperoleh penghasilan terkait dengan Persetujuan Penghindaran Pajak Berganda.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            328
+          ],
+          [
+            328,
+            387
+          ],
+          [
+            868,
+            387
+          ],
+          [
+            868,
+            328
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          388,
+          869,
+          463
+        ],
+        "content": "(3) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            388
+          ],
+          [
+            284,
+            463
+          ],
+          [
+            868,
+            463
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          526,
+          478,
+          627,
+          492
+        ],
+        "content": "## Pasal 136",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            526,
+            478
+          ],
+          [
+            526,
+            492
+          ],
+          [
+            627,
+            492
+          ],
+          [
+            627,
+            478
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          492,
+          867,
+          538
+        ],
+        "content": "(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 135.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            492
+          ],
+          [
+            283,
+            538
+          ],
+          [
+            866,
+            538
+          ],
+          [
+            866,
+            492
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          539,
+          867,
+          583
+        ],
+        "content": "(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            539
+          ],
+          [
+            282,
+            583
+          ],
+          [
+            866,
+            583
+          ],
+          [
+            866,
+            539
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          584,
+          867,
+          613
+        ],
+        "content": "(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            584
+          ],
+          [
+            283,
+            613
+          ],
+          [
+            866,
+            613
+          ],
+          [
+            866,
+            584
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          615,
+          867,
+          644
+        ],
+        "content": "a. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            615
+          ],
+          [
+            328,
+            643
+          ],
+          [
+            866,
+            643
+          ],
+          [
+            866,
+            615
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          644,
+          867,
+          689
+        ],
+        "content": "b. pajak yang dipotong atau dipungut telah dilaporkan dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            644
+          ],
+          [
+            328,
+            689
+          ],
+          [
+            866,
+            689
+          ],
+          [
+            866,
+            644
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          690,
+          868,
+          748
+        ],
+        "content": "c. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            705
+          ],
+          [
+            331,
+            748
+          ],
+          [
+            867,
+            748
+          ],
+          [
+            867,
+            690
+          ],
+          [
+            331,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          749,
+          868,
+          810
+        ],
+        "content": "d. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri; dan",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            749
+          ],
+          [
+            327,
+            809
+          ],
+          [
+            867,
+            809
+          ],
+          [
+            867,
+            749
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          326,
+          810,
+          867,
+          884
+        ],
+        "content": "e. tidak ditemukan adanya penyalahgunaan Persetujuan Penghindaran Pajak Berganda oleh subjek pajak luar negeri, dalam hal permohonan sebagaimana dimaksud dalam Pasal 133 huruf a dan huruf b.",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            326,
+            825
+          ],
+          [
+            326,
+            883
+          ],
+          [
+            867,
+            883
+          ],
+          [
+            867,
+            810
+          ],
+          [
+            331,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          884,
+          867,
+          915
+        ],
+        "content": "(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.",
+        "index": 15,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            884
+          ],
+          [
+            282,
+            915
+          ],
+          [
+            866,
+            915
+          ],
+          [
+            866,
+            884
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          286,
+          71,
+          871,
+          131
+        ],
+        "content": "(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            71
+          ],
+          [
+            286,
+            131
+          ],
+          [
+            871,
+            131
+          ],
+          [
+            871,
+            71
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          132,
+          872,
+          236
+        ],
+        "content": "(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            132
+          ],
+          [
+            285,
+            236
+          ],
+          [
+            871,
+            236
+          ],
+          [
+            871,
+            132
+          ],
+          [
+            857,
+            132
+          ],
+          [
+            561,
+            132
+          ],
+          [
+            555,
+            132
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          237,
+          870,
+          344
+        ],
+        "content": "(7) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            237
+          ],
+          [
+            285,
+            344
+          ],
+          [
+            870,
+            344
+          ],
+          [
+            870,
+            242
+          ],
+          [
+            770,
+            237
+          ],
+          [
+            740,
+            237
+          ],
+          [
+            720,
+            237
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          528,
+          358,
+          627,
+          371
+        ],
+        "content": "## Pasal 137",
+        "index": 3,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            528,
+            358
+          ],
+          [
+            528,
+            371
+          ],
+          [
+            627,
+            371
+          ],
+          [
+            627,
+            358
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          373,
+          702,
+          388
+        ],
+        "content": "(1) Direktur Jenderal Pajak menerbitkan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            373
+          ],
+          [
+            285,
+            387
+          ],
+          [
+            701,
+            387
+          ],
+          [
+            701,
+            373
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          324,
+          388,
+          868,
+          432
+        ],
+        "content": "a. Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 125 ayat (5), Pasal 128 ayat (5), Pasal 132 ayat (7), dan Pasal 136 ayat (5); atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            324,
+            388
+          ],
+          [
+            330,
+            432
+          ],
+          [
+            868,
+            432
+          ],
+          [
+            868,
+            388
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          434,
+          869,
+          508
+        ],
+        "content": "b. surat pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 125 ayat (6), Pasal 128 ayat (6), Pasal 132 ayat (8), dan Pasal 136 ayat (6),",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            434
+          ],
+          [
+            329,
+            508
+          ],
+          [
+            868,
+            508
+          ],
+          [
+            868,
+            434
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          509,
+          868,
+          553
+        ],
+        "content": "paling lama 3 (tiga) bulan sejak permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang diterima.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            509
+          ],
+          [
+            329,
+            553
+          ],
+          [
+            868,
+            553
+          ],
+          [
+            868,
+            509
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          553,
+          869,
+          674
+        ],
+        "content": "(2) Dalam hal sampai dengan berakhirnya batas waktu sebagaimana dimaksud pada ayat (1) Direktur Jenderal Pajak tidak menerbitkan Surat Ketetapan Pajak Lebih Bayar atau pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang, permohonan Wajib Pajak dianggap dikabulkan dan Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            553
+          ],
+          [
+            282,
+            669
+          ],
+          [
+            318,
+            674
+          ],
+          [
+            868,
+            674
+          ],
+          [
+            868,
+            553
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          674,
+          868,
+          750
+        ],
+        "content": "(3) Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (2) diterbitkan Direktur Jenderal Pajak paling lama 5 (lima) hari kerja sejak berakhirnya batas waktu penerbitan Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (1).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            674
+          ],
+          [
+            284,
+            750
+          ],
+          [
+            868,
+            750
+          ],
+          [
+            868,
+            674
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          506,
+          764,
+          646,
+          779
+        ],
+        "content": "## Bagian Ketiga",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            506,
+            764
+          ],
+          [
+            506,
+            779
+          ],
+          [
+            645,
+            779
+          ],
+          [
+            645,
+            764
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          394,
+          780,
+          757,
+          795
+        ],
+        "content": "## Tata Cara Pemberian Imbalan Bunga",
+        "index": 11,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            394,
+            780
+          ],
+          [
+            394,
+            795
+          ],
+          [
+            756,
+            795
+          ],
+          [
+            756,
+            780
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          525,
+          810,
+          626,
+          825
+        ],
+        "content": "## Pasal 138",
+        "index": 12,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            525,
+            810
+          ],
+          [
+            525,
+            824
+          ],
+          [
+            625,
+            824
+          ],
+          [
+            625,
+            810
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          825,
+          867,
+          884
+        ],
+        "content": "(1) Imbalan bunga yang terkait dengan Pajak Penghasilan, Pajak Pertambahan Nilai, dan Pajak Penjualan atas Barang Mewah diberikan kepada Wajib Pajak dalam hal terdapat:",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            825
+          ],
+          [
+            287,
+            883
+          ],
+          [
+            867,
+            883
+          ],
+          [
+            867,
+            825
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          885,
+          868,
+          918
+        ],
+        "content": "a. keterlambatan pengembalian kelebihan pembayaran pajak sebagaimana diatur dalam",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            885
+          ],
+          [
+            328,
+            918
+          ],
+          [
+            868,
+            918
+          ],
+          [
+            868,
+            885
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\nkelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n(9) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar terhadap subjek pajak luar negeri, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 133\n\nKelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf e disebabkan:\n\na. kesalahan penerapan Persetujuan Penghindaran Pajak Berganda;\n\nb. keterlambatan pemenuhan persyaratan administratif untuk menerapkan Persetujuan Penghindaran Pajak Berganda setelah terjadi pemotongan atau pemungutan; atau\n\nc. Persetujuan Bersama.\n\n## Pasal 134\n\n(1) Dalam hal terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terhadap subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 133, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh Wajib Pajak pemotong atau pemungut pajak dengan mengajukan permohonan.\n\n(2) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):\n\na. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau\n\nb. tidak dapat melakukan pembetulan Surat Pemberitahuan,\n\npermohonan diajukan oleh subjek pajak luar negeri.\n\n## Pasal 135\n\n(1) Permohonan sebagaimana dimaksud dalam Pasal 134 ayat (1) dan ayat (2) diajukan secara tertulis dalam bahasa Indonesia.\n\n(2) Permohonan sebagaimana dimaksud pada ayat (1) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;\n\nd. surat kuasa dari subjek pajak luar negeri yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak;\n\ne. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri;\n\nf. Surat Keterangan Domisili Wajib Pajak Luar Negeri sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan;\n\ng. salinan Surat Keputusan Persetujuan Bersama, dalam hal kelebihan pemotongan atau pemungutan disebabkan adanya Persetujuan Bersama sebagaimana dimaksud dalam Pasal 133 huruf c; dan\n\nh. dokumen pendukung bagi subjek pajak luar negeri yang menerima atau memperoleh penghasilan terkait dengan Persetujuan Penghindaran Pajak Berganda.\n\n(3) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 136\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 135.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;\n\nb. pajak yang dipotong atau dipungut telah dilaporkan dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;\n\nc. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri;\n\nd. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri; dan\n\ne. tidak ditemukan adanya penyalahgunaan Persetujuan Penghindaran Pajak Berganda oleh subjek pajak luar negeri, dalam hal permohonan sebagaimana dimaksud dalam Pasal 133 huruf a dan huruf b.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n(7) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 137\n\n(1) Direktur Jenderal Pajak menerbitkan:\n\na. Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 125 ayat (5), Pasal 128 ayat (5), Pasal 132 ayat (7), dan Pasal 136 ayat (5); atau\n\nb. surat pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 125 ayat (6), Pasal 128 ayat (6), Pasal 132 ayat (8), dan Pasal 136 ayat (6),\n\npaling lama 3 (tiga) bulan sejak permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang diterima.\n\n(2) Dalam hal sampai dengan berakhirnya batas waktu sebagaimana dimaksud pada ayat (1) Direktur Jenderal Pajak tidak menerbitkan Surat Ketetapan Pajak Lebih Bayar atau pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang, permohonan Wajib Pajak dianggap dikabulkan dan Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(3) Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (2) diterbitkan Direktur Jenderal Pajak paling lama 5 (lima) hari kerja sejak berakhirnya batas waktu penerbitan Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (1).\n\n## Bagian Ketiga\n\n## Tata Cara Pemberian Imbalan Bunga\n\n## Pasal 138\n\n(1) Imbalan bunga yang terkait dengan Pajak Penghasilan, Pajak Pertambahan Nilai, dan Pajak Penjualan atas Barang Mewah diberikan kepada Wajib Pajak dalam hal terdapat:\n\na. keterlambatan pengembalian kelebihan pembayaran pajak sebagaimana diatur dalam",
+  "md_results": "\n\nkelebihan pembayaran pajak yang seharusnya tidak terutang kepada pemohon sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n(9) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar terhadap subjek pajak luar negeri, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 133\n\nKelebihan pemotongan atau pemungutan Pajak Penghasilan terkait penerapan Persetujuan Penghindaran Pajak Berganda bagi subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 122 ayat (1) huruf e disebabkan:\n\na. kesalahan penerapan Persetujuan Penghindaran Pajak Berganda;\n\nb. keterlambatan pemenuhan persyaratan administratif untuk menerapkan Persetujuan Penghindaran Pajak Berganda setelah terjadi pemotongan atau pemungutan; atau\n\nc. Persetujuan Bersama.\n\n## Pasal 134\n\n(1) Dalam hal terdapat kelebihan pemotongan atau pemungutan Pajak Penghasilan terhadap subjek pajak luar negeri sebagaimana dimaksud dalam Pasal 133, pajak yang seharusnya tidak dipotong atau tidak dipungut tersebut dapat diminta kembali oleh Wajib Pajak pemotong atau pemungut pajak dengan mengajukan permohonan.\n\n(2) Dalam hal Wajib Pajak yang melakukan pemotongan atau pemungutan sebagaimana dimaksud pada ayat (1):\n\na. tidak dapat ditemukan yang dapat berupa pembubaran usaha; atau\n\nb. tidak dapat melakukan pembetulan Surat Pemberitahuan,\n\npermohonan diajukan oleh subjek pajak luar negeri.\n\n## Pasal 135\n\n(1) Permohonan sebagaimana dimaksud dalam Pasal 134 ayat (1) dan ayat (2) diajukan secara tertulis dalam bahasa Indonesia.\n\n(2) Permohonan sebagaimana dimaksud pada ayat (1) harus dilampiri dengan dokumen berupa:\n\na. penghitungan pajak yang seharusnya tidak terutang;\n\nb. alasan permohonan pengembalian atas kelebihan pembayaran pajak yang seharusnya tidak terutang;\n\nc. bukti pemotongan atau pemungutan pajak atau dokumen lain yang dipersamakan dengan bukti pemotongan atau pemungutan;\n\nd. surat kuasa dari subjek pajak luar negeri yang dipotong atau dipungut dalam hal permohonan diajukan oleh pemotong atau pemungut pajak;\n\ne. surat pernyataan subjek pajak luar negeri bahwa pajak yang dimintakan pengembalian belum diperhitungkan dengan pajak yang terutang di luar negeri dan/atau belum dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak di luar negeri;\n\nf. Surat Keterangan Domisili Wajib Pajak Luar Negeri sesuai dengan ketentuan peraturan perundang- undangan di bidang perpajakan;\n\ng. salinan Surat Keputusan Persetujuan Bersama, dalam hal kelebihan pemotongan atau pemungutan disebabkan adanya Persetujuan Bersama sebagaimana dimaksud dalam Pasal 133 huruf c; dan\n\nh. dokumen pendukung bagi subjek pajak luar negeri yang menerima atau memperoleh penghasilan terkait dengan Persetujuan Penghindaran Pajak Berganda.\n\n(3) Tata cara penyampaian permohonan pengembalian sebagaimana dimaksud pada ayat (1) dilakukan sesuai dengan ketentuan pelaksanaan hak dan pemenuhan kewajiban perpajakan sebagaimana dimaksud dalam Pasal 4.\n\n## Pasal 136\n\n(1) Direktur Jenderal Pajak meneliti kebenaran pembayaran pajak berdasarkan permohonan pengembalian sebagaimana dimaksud dalam Pasal 135.\n\n(2) Dalam rangka meneliti kebenaran pembayaran pajak, Direktur Jenderal Pajak dapat meminta dokumen dan/atau keterangan kepada pemohon.\n\n(3) Hasil penelitian berupa pengembalian diberikan dalam memenuhi ketentuan:\n\na. pajak yang seharusnya tidak terutang telah disetor ke Kas Negara;\n\nb. pajak yang dipotong atau dipungut telah dilaporkan dalam Surat Pemberitahuan Masa Wajib Pajak pemotong atau pemungut pajak;\n\nc. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak diperhitungkan dengan pajak subjek pajak luar negeri yang terutang di luar negeri;\n\nd. pajak yang telah disetor sebagaimana dimaksud dalam huruf a tidak dibebankan sebagai biaya dalam penghitungan penghasilan kena pajak subjek pajak luar negeri di luar negeri; dan\n\ne. tidak ditemukan adanya penyalahgunaan Persetujuan Penghindaran Pajak Berganda oleh subjek pajak luar negeri, dalam hal permohonan sebagaimana dimaksud dalam Pasal 133 huruf a dan huruf b.\n\n(4) Penelitian sebagaimana dimaksud pada ayat (1) dituangkan dalam laporan hasil penelitian.\n\n(5) Dalam hal berdasarkan laporan hasil penelitian terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(6) Dalam hal berdasarkan laporan hasil penelitian tidak terdapat kelebihan pembayaran pajak yang seharusnya tidak terutang, Direktur Jenderal Pajak menyampaikan pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sesuai dengan ketentuan sebagaimana dimaksud dalam Pasal 12.\n\n(7) Dalam hal atas permohonan kelebihan pembayaran pajak yang seharusnya tidak terutang telah diterbitkan Surat Ketetapan Pajak Lebih Bayar, Direktur Jenderal Pajak mengirimkan informasi kepada otoritas perpajakan negara domisili subjek pajak luar negeri sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n## Pasal 137\n\n(1) Direktur Jenderal Pajak menerbitkan:\n\na. Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud dalam Pasal 125 ayat (5), Pasal 128 ayat (5), Pasal 132 ayat (7), dan Pasal 136 ayat (5); atau\n\nb. surat pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang sebagaimana dimaksud dalam Pasal 125 ayat (6), Pasal 128 ayat (6), Pasal 132 ayat (8), dan Pasal 136 ayat (6),\n\npaling lama 3 (tiga) bulan sejak permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang diterima.\n\n(2) Dalam hal sampai dengan berakhirnya batas waktu sebagaimana dimaksud pada ayat (1) Direktur Jenderal Pajak tidak menerbitkan Surat Ketetapan Pajak Lebih Bayar atau pemberitahuan penolakan permohonan pengembalian kelebihan pembayaran pajak yang seharusnya tidak terutang, permohonan Wajib Pajak dianggap dikabulkan dan Direktur Jenderal Pajak menerbitkan Surat Ketetapan Pajak Lebih Bayar.\n\n(3) Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (2) diterbitkan Direktur Jenderal Pajak paling lama 5 (lima) hari kerja sejak berakhirnya batas waktu penerbitan Surat Ketetapan Pajak Lebih Bayar sebagaimana dimaksud pada ayat (1).\n\n## Bagian Ketiga\n\n## Tata Cara Pemberian Imbalan Bunga\n\n## Pasal 138\n\n(1) Imbalan bunga yang terkait dengan Pajak Penghasilan, Pajak Pertambahan Nilai, dan Pajak Penjualan atas Barang Mewah diberikan kepada Wajib Pajak dalam hal terdapat:\n\na. keterlambatan pengembalian kelebihan pembayaran pajak sebagaimana diatur dalam",
+  "model": "glm-ocr",
+  "usage": {}
+}

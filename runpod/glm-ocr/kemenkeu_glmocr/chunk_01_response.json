@@ -1,0 +1,3019 @@
+{
+  "created": 1779015185,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-01b66f34dcc74cdfbb5c90af10fc7",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          400,
+          154,
+          580,
+          181
+        ],
+        "content": "MENTERI KEUANGAN\n\nREPUBLIK INDONESIA",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            400,
+            154
+          ],
+          [
+            400,
+            180
+          ],
+          [
+            579,
+            180
+          ],
+          [
+            579,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          445,
+          212,
+          538,
+          225
+        ],
+        "content": "SALINAN",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            445,
+            212
+          ],
+          [
+            445,
+            225
+          ],
+          [
+            538,
+            225
+          ],
+          [
+            538,
+            212
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          195,
+          235,
+          788,
+          311
+        ],
+        "content": "# PERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 81 TAHUN 2024\n\nTENTANG\n\nKETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN\n\nSISTEM INTI ADMINISTRASI PERPAJAKAN",
+        "index": 2,
+        "label": "text",
+        "native_label": "doc_title",
+        "polygon": [
+          [
+            201,
+            235
+          ],
+          [
+            195,
+            311
+          ],
+          [
+            787,
+            311
+          ],
+          [
+            782,
+            235
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          270,
+          325,
+          713,
+          340
+        ],
+        "content": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            270,
+            325
+          ],
+          [
+            270,
+            340
+          ],
+          [
+            712,
+            340
+          ],
+          [
+            712,
+            325
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          262,
+          355,
+          719,
+          370
+        ],
+        "content": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            262,
+            355
+          ],
+          [
+            262,
+            370
+          ],
+          [
+            718,
+            370
+          ],
+          [
+            718,
+            355
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          118,
+          400,
+          237,
+          416
+        ],
+        "content": "## Menimbang",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            118,
+            400
+          ],
+          [
+            118,
+            416
+          ],
+          [
+            237,
+            416
+          ],
+          [
+            237,
+            400
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          264,
+          401,
+          866,
+          506
+        ],
+        "content": "a. bahwa untuk melaksanakan pembaruan sistem administrasi perpajakan yang lebih transparan, efektif, efisien, akuntabel, dan fleksibel, perlu dilakukan penataan peraturan perundang-undangan di bidang perpajakan yang berkeadilan dan berkepastian hukum guna meningkatkan penerimaan pajak dan mendukung perekonomian nasional;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            264,
+            401
+          ],
+          [
+            264,
+            500
+          ],
+          [
+            275,
+            505
+          ],
+          [
+            865,
+            505
+          ],
+          [
+            865,
+            401
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          506,
+          865,
+          626
+        ],
+        "content": "b. bahwa penataan peraturan perundang-undangan di bidang perpajakan dilakukan dalam lingkup proses bisnis, serta teknologi informasi dan basis data di antaranya melalui penyesuaian pengaturan pendaftaran wajib pajak dan pengukuhan pengusaha kena pajak, pembayaran dan penyetoran pajak, pelaporan pajak, serta layanan administrasi perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            506
+          ],
+          [
+            278,
+            626
+          ],
+          [
+            864,
+            626
+          ],
+          [
+            864,
+            506
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          626,
+          864,
+          747
+        ],
+        "content": "c. berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, serta untuk melaksanakan ketentuan Pasal 9 Peraturan Presiden Nomor 40 Tahun 2018 tentang Pembaruan Sistem Administrasi Perpajakan, perlu menetapkan Peraturan Menteri Keuangan tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            641
+          ],
+          [
+            277,
+            742
+          ],
+          [
+            317,
+            747
+          ],
+          [
+            864,
+            747
+          ],
+          [
+            864,
+            626
+          ],
+          [
+            342,
+            626
+          ],
+          [
+            322,
+            626
+          ],
+          [
+            282,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          254,
+          761,
+          863,
+          790
+        ],
+        "content": ": 1. Pasal 17 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            254,
+            761
+          ],
+          [
+            254,
+            780
+          ],
+          [
+            274,
+            790
+          ],
+          [
+            862,
+            790
+          ],
+          [
+            862,
+            761
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          791,
+          864,
+          913
+        ],
+        "content": "2. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 3262) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            796
+          ],
+          [
+            281,
+            912
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            859,
+            791
+          ],
+          [
+            281,
+            791
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          320,
+          73,
+          864,
+          120
+        ],
+        "content": "Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            320,
+            73
+          ],
+          [
+            320,
+            120
+          ],
+          [
+            863,
+            120
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          120,
+          865,
+          285
+        ],
+        "content": "3. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 50, Tambahan Lembaran Negara Republik Indonesia Nomor 3263) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            120
+          ],
+          [
+            283,
+            285
+          ],
+          [
+            864,
+            285
+          ],
+          [
+            864,
+            120
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          285,
+          864,
+          466
+        ],
+        "content": "4. Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 51, Tambahan Lembaran Negara Republik Indonesia Nomor 3264) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            285
+          ],
+          [
+            276,
+            460
+          ],
+          [
+            291,
+            465
+          ],
+          [
+            864,
+            465
+          ],
+          [
+            864,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          466,
+          864,
+          616
+        ],
+        "content": "5. Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 3312) sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 62, Tambahan Lembaran Negara Republik Indonesia Nomor 3569);",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            466
+          ],
+          [
+            275,
+            616
+          ],
+          [
+            863,
+            616
+          ],
+          [
+            863,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          274,
+          616,
+          863,
+          676
+        ],
+        "content": "6. Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            274,
+            616
+          ],
+          [
+            274,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            621
+          ],
+          [
+            843,
+            616
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          677,
+          862,
+          736
+        ],
+        "content": "7. Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 240, Tambahan Lembaran Negara Republik Indonesia Nomor 6571);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            677
+          ],
+          [
+            275,
+            736
+          ],
+          [
+            862,
+            736
+          ],
+          [
+            862,
+            677
+          ],
+          [
+            847,
+            677
+          ],
+          [
+            475,
+            677
+          ],
+          [
+            459,
+            677
+          ],
+          [
+            395,
+            677
+          ],
+          [
+            390,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          737,
+          863,
+          797
+        ],
+        "content": "8. Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 246, Tambahan Lembaran Negara Republik Indonesia Nomor 6736);",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            737
+          ],
+          [
+            275,
+            796
+          ],
+          [
+            862,
+            796
+          ],
+          [
+            862,
+            742
+          ],
+          [
+            818,
+            737
+          ],
+          [
+            490,
+            737
+          ],
+          [
+            444,
+            737
+          ],
+          [
+            405,
+            737
+          ],
+          [
+            399,
+            737
+          ],
+          [
+            374,
+            737
+          ],
+          [
+            364,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          798,
+          862,
+          871
+        ],
+        "content": "9. Peraturan Pemerintah Nomor 23 Tahun 2015 tentang Pengelolaan Bersama Sumber Daya Alam Minyak dan Gas Bumi di Aceh (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 99, Tambahan Lembaran Negara Republik Indonesia Nomor 5696);",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            798
+          ],
+          [
+            275,
+            871
+          ],
+          [
+            862,
+            871
+          ],
+          [
+            862,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          872,
+          864,
+          918
+        ],
+        "content": "10. Peraturan Pemerintah Nomor 93 Tahun 2021 tentang Perlakuan Pajak Penghasilan atas Pengalihan Partisipasi Interes pada Kegiatan Usaha Hulu Minyak",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            872
+          ],
+          [
+            278,
+            917
+          ],
+          [
+            859,
+            917
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            864,
+            872
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          322,
+          73,
+          864,
+          118
+        ],
+        "content": "dan Gas Bumi (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 201, Tambahan Lembaran Negara Republik Indonesia Nomor 6717);",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            73
+          ],
+          [
+            322,
+            118
+          ],
+          [
+            863,
+            118
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          118,
+          864,
+          193
+        ],
+        "content": "11. Peraturan Pemerintah Nomor 50 Tahun 2022 tentang Tata Cara Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 226, Tambahan Lembaran Negara Republik Indonesia Nomor 6834);",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            118
+          ],
+          [
+            280,
+            188
+          ],
+          [
+            295,
+            192
+          ],
+          [
+            863,
+            192
+          ],
+          [
+            863,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          193,
+          864,
+          238
+        ],
+        "content": "12. Peraturan Presiden Nomor 57 Tahun 2020 tentang Kementerian Keuangan (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 98);",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            193
+          ],
+          [
+            279,
+            233
+          ],
+          [
+            289,
+            238
+          ],
+          [
+            863,
+            238
+          ],
+          [
+            863,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          238,
+          862,
+          343
+        ],
+        "content": "13. Peraturan Menteri Keuangan Nomor 18/PMK.03/2021 tentang Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan (Berita Negara Republik Indonesia Tahun 2021 Nomor 153);",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            238
+          ],
+          [
+            279,
+            338
+          ],
+          [
+            299,
+            342
+          ],
+          [
+            862,
+            342
+          ],
+          [
+            862,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          344,
+          862,
+          494
+        ],
+        "content": "14. Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2021 Nomor 1031) sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Keuangan Nomor 135 Tahun 2023 tentang Perubahan Kedua atas Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2023 Nomor 977);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            344
+          ],
+          [
+            285,
+            493
+          ],
+          [
+            862,
+            493
+          ],
+          [
+            862,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          494,
+          863,
+          676
+        ],
+        "content": "15. Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2022 Nomor 660) sebagaimana telah diubah dengan Peraturan Menteri Keuangan Nomor 136 Tahun 2023 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2023 Nomor 983);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            494
+          ],
+          [
+            279,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          408,
+          690,
+          567,
+          705
+        ],
+        "content": "## MEMUTUSKAN:",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            408,
+            690
+          ],
+          [
+            408,
+            705
+          ],
+          [
+            567,
+            705
+          ],
+          [
+            567,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          253,
+          720,
+          861,
+          766
+        ],
+        "content": "## : PERATURAN MENTERI KEUANGAN TENTANG KETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN SISTEM INTI ADMINISTRASI PERPAJAKAN.",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            253,
+            720
+          ],
+          [
+            253,
+            766
+          ],
+          [
+            861,
+            766
+          ],
+          [
+            861,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          468,
+          781,
+          671,
+          811
+        ],
+        "content": "## BAB I KETENTUAN UMUM",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            468,
+            781
+          ],
+          [
+            468,
+            810
+          ],
+          [
+            671,
+            810
+          ],
+          [
+            671,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          826,
+          604,
+          841
+        ],
+        "content": "## Pasal 1",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            826
+          ],
+          [
+            531,
+            840
+          ],
+          [
+            604,
+            840
+          ],
+          [
+            604,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          841,
+          800,
+          856
+        ],
+        "content": "Dalam Peraturan Menteri ini, yang dimaksud dengan:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            841
+          ],
+          [
+            275,
+            856
+          ],
+          [
+            799,
+            856
+          ],
+          [
+            799,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          857,
+          862,
+          921
+        ],
+        "content": "1. Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan adalah Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan sebagaimana telah beberapa kali diubah",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            862
+          ],
+          [
+            276,
+            921
+          ],
+          [
+            862,
+            921
+          ],
+          [
+            862,
+            862
+          ],
+          [
+            842,
+            857
+          ],
+          [
+            808,
+            857
+          ],
+          [
+            802,
+            857
+          ],
+          [
+            659,
+            857
+          ],
+          [
+            644,
+            857
+          ],
+          [
+            614,
+            857
+          ],
+          [
+            534,
+            857
+          ],
+          [
+            485,
+            857
+          ],
+          [
+            460,
+            857
+          ],
+          [
+            281,
+            857
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          73,
+          866,
+          138
+        ],
+        "content": "terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            73
+          ],
+          [
+            327,
+            108
+          ],
+          [
+            327,
+            138
+          ],
+          [
+            865,
+            138
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          139,
+          867,
+          251
+        ],
+        "content": "2. Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            139
+          ],
+          [
+            280,
+            251
+          ],
+          [
+            866,
+            251
+          ],
+          [
+            866,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          252,
+          867,
+          381
+        ],
+        "content": "3. Undang-Undang Pajak Pertambahan Nilai adalah Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            252
+          ],
+          [
+            280,
+            381
+          ],
+          [
+            866,
+            381
+          ],
+          [
+            866,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          383,
+          867,
+          478
+        ],
+        "content": "4. Undang-Undang Pajak Bumi dan Bangunan adalah Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            383
+          ],
+          [
+            285,
+            478
+          ],
+          [
+            866,
+            478
+          ],
+          [
+            866,
+            383
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          480,
+          866,
+          511
+        ],
+        "content": "5. Undang-Undang Bea Meterai adalah Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            480
+          ],
+          [
+            281,
+            510
+          ],
+          [
+            865,
+            510
+          ],
+          [
+            865,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          513,
+          865,
+          559
+        ],
+        "content": "6. Pajak Penghasilan adalah pajak penghasilan sebagaimana diatur dalam Undang-Undang Pajak Penghasilan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            513
+          ],
+          [
+            281,
+            559
+          ],
+          [
+            864,
+            559
+          ],
+          [
+            864,
+            513
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          561,
+          866,
+          608
+        ],
+        "content": "7. Pajak Penghasilan Pasal 22 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 22 Undang-Undang Pajak Penghasilan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            561
+          ],
+          [
+            287,
+            608
+          ],
+          [
+            865,
+            608
+          ],
+          [
+            865,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          610,
+          866,
+          657
+        ],
+        "content": "8. Pajak Penghasilan Pasal 29 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 29 Undang-Undang Pajak Penghasilan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            610
+          ],
+          [
+            281,
+            656
+          ],
+          [
+            865,
+            656
+          ],
+          [
+            865,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          659,
+          866,
+          705
+        ],
+        "content": "9. Pajak Pertambahan Nilai adalah pajak pertambahan nilai sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            659
+          ],
+          [
+            286,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          707,
+          866,
+          755
+        ],
+        "content": "10. Pajak Penjualan atas Barang Mewah adalah pajak penjualan atas barang mewah sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            707
+          ],
+          [
+            283,
+            754
+          ],
+          [
+            865,
+            754
+          ],
+          [
+            865,
+            707
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          756,
+          867,
+          820
+        ],
+        "content": "11. Pajak Bumi dan Bangunan adalah pajak bumi dan bangunan sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan selain pajak bumi dan bangunan perdesaan dan perkotaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            756
+          ],
+          [
+            283,
+            819
+          ],
+          [
+            866,
+            819
+          ],
+          [
+            866,
+            756
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          821,
+          865,
+          852
+        ],
+        "content": "12. Bea Meterai adalah pajak atas dokumen sebagaimana diatur dalam Undang-Undang Bea Meterai.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            821
+          ],
+          [
+            283,
+            851
+          ],
+          [
+            865,
+            851
+          ],
+          [
+            865,
+            821
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          854,
+          867,
+          902
+        ],
+        "content": "13. Pajak Karbon adalah pajak yang dikenakan atas emisi karbon yang memberikan dampak negatif bagi lingkungan hidup.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            854
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            862,
+            854
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          400,
+          154,
+          580,
+          181
+        ],
+        "content": "MENTERI KEUANGAN\n\nREPUBLIK INDONESIA",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            400,
+            154
+          ],
+          [
+            400,
+            180
+          ],
+          [
+            579,
+            180
+          ],
+          [
+            579,
+            154
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          445,
+          212,
+          538,
+          225
+        ],
+        "content": "SALINAN",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            445,
+            212
+          ],
+          [
+            445,
+            225
+          ],
+          [
+            538,
+            225
+          ],
+          [
+            538,
+            212
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          195,
+          235,
+          788,
+          311
+        ],
+        "content": "# PERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 81 TAHUN 2024\n\nTENTANG\n\nKETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN\n\nSISTEM INTI ADMINISTRASI PERPAJAKAN",
+        "index": 2,
+        "label": "text",
+        "native_label": "doc_title",
+        "polygon": [
+          [
+            201,
+            235
+          ],
+          [
+            195,
+            311
+          ],
+          [
+            787,
+            311
+          ],
+          [
+            782,
+            235
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          270,
+          325,
+          713,
+          340
+        ],
+        "content": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            270,
+            325
+          ],
+          [
+            270,
+            340
+          ],
+          [
+            712,
+            340
+          ],
+          [
+            712,
+            325
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          262,
+          355,
+          719,
+          370
+        ],
+        "content": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            262,
+            355
+          ],
+          [
+            262,
+            370
+          ],
+          [
+            718,
+            370
+          ],
+          [
+            718,
+            355
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          118,
+          400,
+          237,
+          416
+        ],
+        "content": "## Menimbang",
+        "index": 5,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            118,
+            400
+          ],
+          [
+            118,
+            416
+          ],
+          [
+            237,
+            416
+          ],
+          [
+            237,
+            400
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          264,
+          401,
+          866,
+          506
+        ],
+        "content": "a. bahwa untuk melaksanakan pembaruan sistem administrasi perpajakan yang lebih transparan, efektif, efisien, akuntabel, dan fleksibel, perlu dilakukan penataan peraturan perundang-undangan di bidang perpajakan yang berkeadilan dan berkepastian hukum guna meningkatkan penerimaan pajak dan mendukung perekonomian nasional;",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            264,
+            401
+          ],
+          [
+            264,
+            500
+          ],
+          [
+            275,
+            505
+          ],
+          [
+            865,
+            505
+          ],
+          [
+            865,
+            401
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          506,
+          865,
+          626
+        ],
+        "content": "b. bahwa penataan peraturan perundang-undangan di bidang perpajakan dilakukan dalam lingkup proses bisnis, serta teknologi informasi dan basis data di antaranya melalui penyesuaian pengaturan pendaftaran wajib pajak dan pengukuhan pengusaha kena pajak, pembayaran dan penyetoran pajak, pelaporan pajak, serta layanan administrasi perpajakan;",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            506
+          ],
+          [
+            278,
+            626
+          ],
+          [
+            864,
+            626
+          ],
+          [
+            864,
+            506
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          277,
+          626,
+          864,
+          747
+        ],
+        "content": "c. berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, serta untuk melaksanakan ketentuan Pasal 9 Peraturan Presiden Nomor 40 Tahun 2018 tentang Pembaruan Sistem Administrasi Perpajakan, perlu menetapkan Peraturan Menteri Keuangan tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan;",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            277,
+            641
+          ],
+          [
+            277,
+            742
+          ],
+          [
+            317,
+            747
+          ],
+          [
+            864,
+            747
+          ],
+          [
+            864,
+            626
+          ],
+          [
+            342,
+            626
+          ],
+          [
+            322,
+            626
+          ],
+          [
+            282,
+            631
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          254,
+          761,
+          863,
+          790
+        ],
+        "content": ": 1. Pasal 17 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            254,
+            761
+          ],
+          [
+            254,
+            780
+          ],
+          [
+            274,
+            790
+          ],
+          [
+            862,
+            790
+          ],
+          [
+            862,
+            761
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          791,
+          864,
+          913
+        ],
+        "content": "2. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 3262) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            796
+          ],
+          [
+            281,
+            912
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            859,
+            791
+          ],
+          [
+            281,
+            791
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          320,
+          73,
+          864,
+          120
+        ],
+        "content": "Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            320,
+            73
+          ],
+          [
+            320,
+            120
+          ],
+          [
+            863,
+            120
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          120,
+          865,
+          285
+        ],
+        "content": "3. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 50, Tambahan Lembaran Negara Republik Indonesia Nomor 3263) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            120
+          ],
+          [
+            283,
+            285
+          ],
+          [
+            864,
+            285
+          ],
+          [
+            864,
+            120
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          285,
+          864,
+          466
+        ],
+        "content": "4. Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 51, Tambahan Lembaran Negara Republik Indonesia Nomor 3264) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            285
+          ],
+          [
+            276,
+            460
+          ],
+          [
+            291,
+            465
+          ],
+          [
+            864,
+            465
+          ],
+          [
+            864,
+            285
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          466,
+          864,
+          616
+        ],
+        "content": "5. Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 3312) sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 62, Tambahan Lembaran Negara Republik Indonesia Nomor 3569);",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            466
+          ],
+          [
+            275,
+            616
+          ],
+          [
+            863,
+            616
+          ],
+          [
+            863,
+            466
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          274,
+          616,
+          863,
+          676
+        ],
+        "content": "6. Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            274,
+            616
+          ],
+          [
+            274,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            621
+          ],
+          [
+            843,
+            616
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          677,
+          862,
+          736
+        ],
+        "content": "7. Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 240, Tambahan Lembaran Negara Republik Indonesia Nomor 6571);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            677
+          ],
+          [
+            275,
+            736
+          ],
+          [
+            862,
+            736
+          ],
+          [
+            862,
+            677
+          ],
+          [
+            847,
+            677
+          ],
+          [
+            475,
+            677
+          ],
+          [
+            459,
+            677
+          ],
+          [
+            395,
+            677
+          ],
+          [
+            390,
+            677
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          737,
+          863,
+          797
+        ],
+        "content": "8. Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 246, Tambahan Lembaran Negara Republik Indonesia Nomor 6736);",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            737
+          ],
+          [
+            275,
+            796
+          ],
+          [
+            862,
+            796
+          ],
+          [
+            862,
+            742
+          ],
+          [
+            818,
+            737
+          ],
+          [
+            490,
+            737
+          ],
+          [
+            444,
+            737
+          ],
+          [
+            405,
+            737
+          ],
+          [
+            399,
+            737
+          ],
+          [
+            374,
+            737
+          ],
+          [
+            364,
+            737
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          798,
+          862,
+          871
+        ],
+        "content": "9. Peraturan Pemerintah Nomor 23 Tahun 2015 tentang Pengelolaan Bersama Sumber Daya Alam Minyak dan Gas Bumi di Aceh (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 99, Tambahan Lembaran Negara Republik Indonesia Nomor 5696);",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            798
+          ],
+          [
+            275,
+            871
+          ],
+          [
+            862,
+            871
+          ],
+          [
+            862,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          872,
+          864,
+          918
+        ],
+        "content": "10. Peraturan Pemerintah Nomor 93 Tahun 2021 tentang Perlakuan Pajak Penghasilan atas Pengalihan Partisipasi Interes pada Kegiatan Usaha Hulu Minyak",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            872
+          ],
+          [
+            278,
+            917
+          ],
+          [
+            859,
+            917
+          ],
+          [
+            864,
+            912
+          ],
+          [
+            864,
+            872
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          322,
+          73,
+          864,
+          118
+        ],
+        "content": "dan Gas Bumi (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 201, Tambahan Lembaran Negara Republik Indonesia Nomor 6717);",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            322,
+            73
+          ],
+          [
+            322,
+            118
+          ],
+          [
+            863,
+            118
+          ],
+          [
+            863,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          118,
+          864,
+          193
+        ],
+        "content": "11. Peraturan Pemerintah Nomor 50 Tahun 2022 tentang Tata Cara Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 226, Tambahan Lembaran Negara Republik Indonesia Nomor 6834);",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            118
+          ],
+          [
+            280,
+            188
+          ],
+          [
+            295,
+            192
+          ],
+          [
+            863,
+            192
+          ],
+          [
+            863,
+            118
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          193,
+          864,
+          238
+        ],
+        "content": "12. Peraturan Presiden Nomor 57 Tahun 2020 tentang Kementerian Keuangan (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 98);",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            193
+          ],
+          [
+            279,
+            233
+          ],
+          [
+            289,
+            238
+          ],
+          [
+            863,
+            238
+          ],
+          [
+            863,
+            193
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          238,
+          862,
+          343
+        ],
+        "content": "13. Peraturan Menteri Keuangan Nomor 18/PMK.03/2021 tentang Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan (Berita Negara Republik Indonesia Tahun 2021 Nomor 153);",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            238
+          ],
+          [
+            279,
+            338
+          ],
+          [
+            299,
+            342
+          ],
+          [
+            862,
+            342
+          ],
+          [
+            862,
+            238
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          344,
+          862,
+          494
+        ],
+        "content": "14. Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2021 Nomor 1031) sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Keuangan Nomor 135 Tahun 2023 tentang Perubahan Kedua atas Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2023 Nomor 977);",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            344
+          ],
+          [
+            285,
+            493
+          ],
+          [
+            862,
+            493
+          ],
+          [
+            862,
+            344
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          494,
+          863,
+          676
+        ],
+        "content": "15. Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2022 Nomor 660) sebagaimana telah diubah dengan Peraturan Menteri Keuangan Nomor 136 Tahun 2023 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2023 Nomor 983);",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            494
+          ],
+          [
+            279,
+            676
+          ],
+          [
+            862,
+            676
+          ],
+          [
+            862,
+            494
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          408,
+          690,
+          567,
+          705
+        ],
+        "content": "## MEMUTUSKAN:",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            408,
+            690
+          ],
+          [
+            408,
+            705
+          ],
+          [
+            567,
+            705
+          ],
+          [
+            567,
+            690
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          253,
+          720,
+          861,
+          766
+        ],
+        "content": "## : PERATURAN MENTERI KEUANGAN TENTANG KETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN SISTEM INTI ADMINISTRASI PERPAJAKAN.",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            253,
+            720
+          ],
+          [
+            253,
+            766
+          ],
+          [
+            861,
+            766
+          ],
+          [
+            861,
+            720
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          468,
+          781,
+          671,
+          811
+        ],
+        "content": "## BAB I KETENTUAN UMUM",
+        "index": 8,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            468,
+            781
+          ],
+          [
+            468,
+            810
+          ],
+          [
+            671,
+            810
+          ],
+          [
+            671,
+            781
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          531,
+          826,
+          604,
+          841
+        ],
+        "content": "## Pasal 1",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            531,
+            826
+          ],
+          [
+            531,
+            840
+          ],
+          [
+            604,
+            840
+          ],
+          [
+            604,
+            826
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          275,
+          841,
+          800,
+          856
+        ],
+        "content": "Dalam Peraturan Menteri ini, yang dimaksud dengan:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            275,
+            841
+          ],
+          [
+            275,
+            856
+          ],
+          [
+            799,
+            856
+          ],
+          [
+            799,
+            841
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          276,
+          857,
+          862,
+          921
+        ],
+        "content": "1. Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan adalah Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan sebagaimana telah beberapa kali diubah",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            276,
+            862
+          ],
+          [
+            276,
+            921
+          ],
+          [
+            862,
+            921
+          ],
+          [
+            862,
+            862
+          ],
+          [
+            842,
+            857
+          ],
+          [
+            808,
+            857
+          ],
+          [
+            802,
+            857
+          ],
+          [
+            659,
+            857
+          ],
+          [
+            644,
+            857
+          ],
+          [
+            614,
+            857
+          ],
+          [
+            534,
+            857
+          ],
+          [
+            485,
+            857
+          ],
+          [
+            460,
+            857
+          ],
+          [
+            281,
+            857
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          327,
+          73,
+          866,
+          138
+        ],
+        "content": "terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            73
+          ],
+          [
+            327,
+            108
+          ],
+          [
+            327,
+            138
+          ],
+          [
+            865,
+            138
+          ],
+          [
+            865,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          139,
+          867,
+          251
+        ],
+        "content": "2. Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            139
+          ],
+          [
+            280,
+            251
+          ],
+          [
+            866,
+            251
+          ],
+          [
+            866,
+            139
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          252,
+          867,
+          381
+        ],
+        "content": "3. Undang-Undang Pajak Pertambahan Nilai adalah Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            252
+          ],
+          [
+            280,
+            381
+          ],
+          [
+            866,
+            381
+          ],
+          [
+            866,
+            252
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          383,
+          867,
+          478
+        ],
+        "content": "4. Undang-Undang Pajak Bumi dan Bangunan adalah Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            383
+          ],
+          [
+            285,
+            478
+          ],
+          [
+            866,
+            478
+          ],
+          [
+            866,
+            383
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          480,
+          866,
+          511
+        ],
+        "content": "5. Undang-Undang Bea Meterai adalah Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            480
+          ],
+          [
+            281,
+            510
+          ],
+          [
+            865,
+            510
+          ],
+          [
+            865,
+            480
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          513,
+          865,
+          559
+        ],
+        "content": "6. Pajak Penghasilan adalah pajak penghasilan sebagaimana diatur dalam Undang-Undang Pajak Penghasilan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            513
+          ],
+          [
+            281,
+            559
+          ],
+          [
+            864,
+            559
+          ],
+          [
+            864,
+            513
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          561,
+          866,
+          608
+        ],
+        "content": "7. Pajak Penghasilan Pasal 22 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 22 Undang-Undang Pajak Penghasilan.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            561
+          ],
+          [
+            287,
+            608
+          ],
+          [
+            865,
+            608
+          ],
+          [
+            865,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          610,
+          866,
+          657
+        ],
+        "content": "8. Pajak Penghasilan Pasal 29 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 29 Undang-Undang Pajak Penghasilan.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            610
+          ],
+          [
+            281,
+            656
+          ],
+          [
+            865,
+            656
+          ],
+          [
+            865,
+            610
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          659,
+          866,
+          705
+        ],
+        "content": "9. Pajak Pertambahan Nilai adalah pajak pertambahan nilai sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            659
+          ],
+          [
+            286,
+            705
+          ],
+          [
+            865,
+            705
+          ],
+          [
+            865,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          707,
+          866,
+          755
+        ],
+        "content": "10. Pajak Penjualan atas Barang Mewah adalah pajak penjualan atas barang mewah sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            707
+          ],
+          [
+            283,
+            754
+          ],
+          [
+            865,
+            754
+          ],
+          [
+            865,
+            707
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          756,
+          867,
+          820
+        ],
+        "content": "11. Pajak Bumi dan Bangunan adalah pajak bumi dan bangunan sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan selain pajak bumi dan bangunan perdesaan dan perkotaan.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            756
+          ],
+          [
+            283,
+            819
+          ],
+          [
+            866,
+            819
+          ],
+          [
+            866,
+            756
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          821,
+          865,
+          852
+        ],
+        "content": "12. Bea Meterai adalah pajak atas dokumen sebagaimana diatur dalam Undang-Undang Bea Meterai.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            821
+          ],
+          [
+            283,
+            851
+          ],
+          [
+            865,
+            851
+          ],
+          [
+            865,
+            821
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          854,
+          867,
+          902
+        ],
+        "content": "13. Pajak Karbon adalah pajak yang dikenakan atas emisi karbon yang memberikan dampak negatif bagi lingkungan hidup.",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            854
+          ],
+          [
+            283,
+            901
+          ],
+          [
+            867,
+            901
+          ],
+          [
+            862,
+            854
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "MENTERI KEUANGAN\n\nREPUBLIK INDONESIA\n\nSALINAN\n\n# PERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 81 TAHUN 2024\n\nTENTANG\n\nKETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN\n\nSISTEM INTI ADMINISTRASI PERPAJAKAN\n\nDENGAN RAHMAT TUHAN YANG MAHA ESA\n\nMENTERI KEUANGAN REPUBLIK INDONESIA,\n\n## Menimbang\n\na. bahwa untuk melaksanakan pembaruan sistem administrasi perpajakan yang lebih transparan, efektif, efisien, akuntabel, dan fleksibel, perlu dilakukan penataan peraturan perundang-undangan di bidang perpajakan yang berkeadilan dan berkepastian hukum guna meningkatkan penerimaan pajak dan mendukung perekonomian nasional;\n\nb. bahwa penataan peraturan perundang-undangan di bidang perpajakan dilakukan dalam lingkup proses bisnis, serta teknologi informasi dan basis data di antaranya melalui penyesuaian pengaturan pendaftaran wajib pajak dan pengukuhan pengusaha kena pajak, pembayaran dan penyetoran pajak, pelaporan pajak, serta layanan administrasi perpajakan;\n\nc. berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, serta untuk melaksanakan ketentuan Pasal 9 Peraturan Presiden Nomor 40 Tahun 2018 tentang Pembaruan Sistem Administrasi Perpajakan, perlu menetapkan Peraturan Menteri Keuangan tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan;\n\n: 1. Pasal 17 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;\n\n2. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 3262) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja\n\nMenjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n3. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 50, Tambahan Lembaran Negara Republik Indonesia Nomor 3263) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n4. Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 51, Tambahan Lembaran Negara Republik Indonesia Nomor 3264) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n5. Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 3312) sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 62, Tambahan Lembaran Negara Republik Indonesia Nomor 3569);\n\n6. Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916);\n\n7. Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 240, Tambahan Lembaran Negara Republik Indonesia Nomor 6571);\n\n8. Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 246, Tambahan Lembaran Negara Republik Indonesia Nomor 6736);\n\n9. Peraturan Pemerintah Nomor 23 Tahun 2015 tentang Pengelolaan Bersama Sumber Daya Alam Minyak dan Gas Bumi di Aceh (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 99, Tambahan Lembaran Negara Republik Indonesia Nomor 5696);\n\n10. Peraturan Pemerintah Nomor 93 Tahun 2021 tentang Perlakuan Pajak Penghasilan atas Pengalihan Partisipasi Interes pada Kegiatan Usaha Hulu Minyak\n\ndan Gas Bumi (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 201, Tambahan Lembaran Negara Republik Indonesia Nomor 6717);\n\n11. Peraturan Pemerintah Nomor 50 Tahun 2022 tentang Tata Cara Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 226, Tambahan Lembaran Negara Republik Indonesia Nomor 6834);\n\n12. Peraturan Presiden Nomor 57 Tahun 2020 tentang Kementerian Keuangan (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 98);\n\n13. Peraturan Menteri Keuangan Nomor 18/PMK.03/2021 tentang Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan (Berita Negara Republik Indonesia Tahun 2021 Nomor 153);\n\n14. Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2021 Nomor 1031) sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Keuangan Nomor 135 Tahun 2023 tentang Perubahan Kedua atas Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2023 Nomor 977);\n\n15. Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2022 Nomor 660) sebagaimana telah diubah dengan Peraturan Menteri Keuangan Nomor 136 Tahun 2023 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2023 Nomor 983);\n\n## MEMUTUSKAN:\n\n## : PERATURAN MENTERI KEUANGAN TENTANG KETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN SISTEM INTI ADMINISTRASI PERPAJAKAN.\n\n## BAB I KETENTUAN UMUM\n\n## Pasal 1\n\nDalam Peraturan Menteri ini, yang dimaksud dengan:\n\n1. Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan adalah Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan sebagaimana telah beberapa kali diubah\n\nterakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n2. Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n3. Undang-Undang Pajak Pertambahan Nilai adalah Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n4. Undang-Undang Pajak Bumi dan Bangunan adalah Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan.\n\n5. Undang-Undang Bea Meterai adalah Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai.\n\n6. Pajak Penghasilan adalah pajak penghasilan sebagaimana diatur dalam Undang-Undang Pajak Penghasilan.\n\n7. Pajak Penghasilan Pasal 22 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 22 Undang-Undang Pajak Penghasilan.\n\n8. Pajak Penghasilan Pasal 29 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 29 Undang-Undang Pajak Penghasilan.\n\n9. Pajak Pertambahan Nilai adalah pajak pertambahan nilai sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.\n\n10. Pajak Penjualan atas Barang Mewah adalah pajak penjualan atas barang mewah sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.\n\n11. Pajak Bumi dan Bangunan adalah pajak bumi dan bangunan sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan selain pajak bumi dan bangunan perdesaan dan perkotaan.\n\n12. Bea Meterai adalah pajak atas dokumen sebagaimana diatur dalam Undang-Undang Bea Meterai.\n\n13. Pajak Karbon adalah pajak yang dikenakan atas emisi karbon yang memberikan dampak negatif bagi lingkungan hidup.",
+  "md_results": "MENTERI KEUANGAN\n\nREPUBLIK INDONESIA\n\nSALINAN\n\n# PERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 81 TAHUN 2024\n\nTENTANG\n\nKETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN\n\nSISTEM INTI ADMINISTRASI PERPAJAKAN\n\nDENGAN RAHMAT TUHAN YANG MAHA ESA\n\nMENTERI KEUANGAN REPUBLIK INDONESIA,\n\n## Menimbang\n\na. bahwa untuk melaksanakan pembaruan sistem administrasi perpajakan yang lebih transparan, efektif, efisien, akuntabel, dan fleksibel, perlu dilakukan penataan peraturan perundang-undangan di bidang perpajakan yang berkeadilan dan berkepastian hukum guna meningkatkan penerimaan pajak dan mendukung perekonomian nasional;\n\nb. bahwa penataan peraturan perundang-undangan di bidang perpajakan dilakukan dalam lingkup proses bisnis, serta teknologi informasi dan basis data di antaranya melalui penyesuaian pengaturan pendaftaran wajib pajak dan pengukuhan pengusaha kena pajak, pembayaran dan penyetoran pajak, pelaporan pajak, serta layanan administrasi perpajakan;\n\nc. berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, serta untuk melaksanakan ketentuan Pasal 9 Peraturan Presiden Nomor 40 Tahun 2018 tentang Pembaruan Sistem Administrasi Perpajakan, perlu menetapkan Peraturan Menteri Keuangan tentang Ketentuan Perpajakan dalam Rangka Pelaksanaan Sistem Inti Administrasi Perpajakan;\n\n: 1. Pasal 17 ayat (3) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;\n\n2. Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 49, Tambahan Lembaran Negara Republik Indonesia Nomor 3262) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja\n\nMenjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n3. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 50, Tambahan Lembaran Negara Republik Indonesia Nomor 3263) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n4. Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah (Lembaran Negara Republik Indonesia Tahun 1983 Nomor 51, Tambahan Lembaran Negara Republik Indonesia Nomor 3264) sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja Menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);\n\n5. Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1985 Nomor 68, Tambahan Lembaran Negara Republik Indonesia Nomor 3312) sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan (Lembaran Negara Republik Indonesia Tahun 1994 Nomor 62, Tambahan Lembaran Negara Republik Indonesia Nomor 3569);\n\n6. Undang-Undang Nomor 39 Tahun 2008 tentang Kementerian Negara (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 166, Tambahan Lembaran Negara Republik Indonesia Nomor 4916);\n\n7. Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 240, Tambahan Lembaran Negara Republik Indonesia Nomor 6571);\n\n8. Undang-Undang Nomor 7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 246, Tambahan Lembaran Negara Republik Indonesia Nomor 6736);\n\n9. Peraturan Pemerintah Nomor 23 Tahun 2015 tentang Pengelolaan Bersama Sumber Daya Alam Minyak dan Gas Bumi di Aceh (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 99, Tambahan Lembaran Negara Republik Indonesia Nomor 5696);\n\n10. Peraturan Pemerintah Nomor 93 Tahun 2021 tentang Perlakuan Pajak Penghasilan atas Pengalihan Partisipasi Interes pada Kegiatan Usaha Hulu Minyak\n\ndan Gas Bumi (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 201, Tambahan Lembaran Negara Republik Indonesia Nomor 6717);\n\n11. Peraturan Pemerintah Nomor 50 Tahun 2022 tentang Tata Cara Pelaksanaan Hak dan Pemenuhan Kewajiban Perpajakan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 226, Tambahan Lembaran Negara Republik Indonesia Nomor 6834);\n\n12. Peraturan Presiden Nomor 57 Tahun 2020 tentang Kementerian Keuangan (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 98);\n\n13. Peraturan Menteri Keuangan Nomor 18/PMK.03/2021 tentang Pelaksanaan Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja di Bidang Pajak Penghasilan, Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, serta Ketentuan Umum dan Tata Cara Perpajakan (Berita Negara Republik Indonesia Tahun 2021 Nomor 153);\n\n14. Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2021 Nomor 1031) sebagaimana telah beberapa kali diubah terakhir dengan Peraturan Menteri Keuangan Nomor 135 Tahun 2023 tentang Perubahan Kedua atas Peraturan Menteri Keuangan Nomor 118/PMK.01/2021 tentang Organisasi dan Tata Kerja Kementerian Keuangan (Berita Negara Republik Indonesia Tahun 2023 Nomor 977);\n\n15. Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2022 Nomor 660) sebagaimana telah diubah dengan Peraturan Menteri Keuangan Nomor 136 Tahun 2023 tentang Perubahan atas Peraturan Menteri Keuangan Nomor 112/PMK.03/2022 tentang Nomor Pokok Wajib Pajak bagi Wajib Pajak Orang Pribadi, Wajib Pajak Badan, dan Wajib Pajak Instansi Pemerintah (Berita Negara Republik Indonesia Tahun 2023 Nomor 983);\n\n## MEMUTUSKAN:\n\n## : PERATURAN MENTERI KEUANGAN TENTANG KETENTUAN PERPAJAKAN DALAM RANGKA PELAKSANAAN SISTEM INTI ADMINISTRASI PERPAJAKAN.\n\n## BAB I KETENTUAN UMUM\n\n## Pasal 1\n\nDalam Peraturan Menteri ini, yang dimaksud dengan:\n\n1. Undang-Undang Ketentuan Umum dan Tata Cara Perpajakan adalah Undang-Undang Nomor 6 Tahun 1983 tentang Ketentuan Umum dan Tata Cara Perpajakan sebagaimana telah beberapa kali diubah\n\nterakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n2. Undang-Undang Pajak Penghasilan adalah Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n3. Undang-Undang Pajak Pertambahan Nilai adalah Undang-Undang Nomor 8 Tahun 1983 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan atas Barang Mewah sebagaimana telah beberapa kali diubah terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang.\n\n4. Undang-Undang Pajak Bumi dan Bangunan adalah Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan sebagaimana telah diubah dengan Undang-Undang Nomor 12 Tahun 1994 tentang Perubahan atas Undang-Undang Nomor 12 Tahun 1985 tentang Pajak Bumi dan Bangunan.\n\n5. Undang-Undang Bea Meterai adalah Undang-Undang Nomor 10 Tahun 2020 tentang Bea Meterai.\n\n6. Pajak Penghasilan adalah pajak penghasilan sebagaimana diatur dalam Undang-Undang Pajak Penghasilan.\n\n7. Pajak Penghasilan Pasal 22 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 22 Undang-Undang Pajak Penghasilan.\n\n8. Pajak Penghasilan Pasal 29 adalah Pajak Penghasilan sebagaimana diatur dalam Pasal 29 Undang-Undang Pajak Penghasilan.\n\n9. Pajak Pertambahan Nilai adalah pajak pertambahan nilai sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.\n\n10. Pajak Penjualan atas Barang Mewah adalah pajak penjualan atas barang mewah sebagaimana diatur dalam Undang-Undang Pajak Pertambahan Nilai.\n\n11. Pajak Bumi dan Bangunan adalah pajak bumi dan bangunan sebagaimana diatur dalam Undang-Undang Pajak Bumi dan Bangunan selain pajak bumi dan bangunan perdesaan dan perkotaan.\n\n12. Bea Meterai adalah pajak atas dokumen sebagaimana diatur dalam Undang-Undang Bea Meterai.\n\n13. Pajak Karbon adalah pajak yang dikenakan atas emisi karbon yang memberikan dampak negatif bagi lingkungan hidup.",
+  "model": "glm-ocr",
+  "usage": {}
+}

@@ -1,0 +1,3047 @@
+{
+  "created": 1779015209,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-4aa7a99915e647afb872143723c98",
+  "json_result": [
+    [
+      {
+        "bbox_2d": [
+          285,
+          73,
+          871,
+          202
+        ],
+        "content": "49. Surat Keputusan Keberatan adalah surat keputusan atas keberatan terhadap Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, pemotongan pajak oleh pihak ketiga, atau pemungutan pajak oleh pihak ketiga.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            73
+          ],
+          [
+            285,
+            197
+          ],
+          [
+            306,
+            202
+          ],
+          [
+            870,
+            202
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          203,
+          870,
+          251
+        ],
+        "content": "50. Surat Keputusan Pengurangan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            203
+          ],
+          [
+            285,
+            250
+          ],
+          [
+            870,
+            250
+          ],
+          [
+            870,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          253,
+          870,
+          315
+        ],
+        "content": "a. pengurangan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            253
+          ],
+          [
+            330,
+            315
+          ],
+          [
+            870,
+            315
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          317,
+          869,
+          348
+        ],
+        "content": "b. penolakan atas permohonan pengurangan sanksi administratif yang diajukan oleh Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            317
+          ],
+          [
+            330,
+            348
+          ],
+          [
+            868,
+            348
+          ],
+          [
+            868,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          349,
+          870,
+          396
+        ],
+        "content": "51. Surat Keputusan Penghapusan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            349
+          ],
+          [
+            284,
+            396
+          ],
+          [
+            869,
+            396
+          ],
+          [
+            869,
+            349
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          398,
+          870,
+          461
+        ],
+        "content": "a. penghapusan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            398
+          ],
+          [
+            329,
+            461
+          ],
+          [
+            869,
+            461
+          ],
+          [
+            869,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          463,
+          868,
+          494
+        ],
+        "content": "b. penolakan atas permohonan penghapusan sanksi administratif yang diajukan oleh Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            463
+          ],
+          [
+            330,
+            494
+          ],
+          [
+            868,
+            494
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          496,
+          870,
+          559
+        ],
+        "content": "52. Surat Keputusan Pengurangan Denda Administrasi Pajak Bumi dan Bangunan adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            496
+          ],
+          [
+            283,
+            559
+          ],
+          [
+            869,
+            559
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          561,
+          868,
+          640
+        ],
+        "content": "a. pengurangan denda administratif Pajak Bumi dan Bangunan sebagaimana tercantum dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            566
+          ],
+          [
+            328,
+            640
+          ],
+          [
+            868,
+            640
+          ],
+          [
+            868,
+            561
+          ],
+          [
+            378,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          642,
+          869,
+          689
+        ],
+        "content": "b. penolakan atas permohonan pengurangan denda administratif Pajak Bumi dan Bangunan yang diajukan oleh Wajib Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            642
+          ],
+          [
+            328,
+            689
+          ],
+          [
+            868,
+            689
+          ],
+          [
+            868,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          691,
+          868,
+          738
+        ],
+        "content": "53. Surat Keputusan Pengurangan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            691
+          ],
+          [
+            283,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          740,
+          868,
+          819
+        ],
+        "content": "a. pengurangan atas materi penetapan yang tidak benar dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, atau Surat Tagihan Pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            740
+          ],
+          [
+            328,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          821,
+          867,
+          852
+        ],
+        "content": "b. pengurangan atas jumlah pajak yang tidak benar dalam surat pemberitahuan pajak terutang;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            821
+          ],
+          [
+            328,
+            851
+          ],
+          [
+            867,
+            851
+          ],
+          [
+            867,
+            821
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          853,
+          869,
+          917
+        ],
+        "content": "c. pengurangan jumlah pokok pajak, jumlah selisih pokok pajak, dan/atau denda administratif yang tidak benar dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            853
+          ],
+          [
+            327,
+            880
+          ],
+          [
+            332,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            853
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          871,
+          104
+        ],
+        "content": "d. penolakan atas permohonan pengurangan yang diajukan oleh Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            103
+          ],
+          [
+            870,
+            103
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          105,
+          871,
+          169
+        ],
+        "content": "54. Surat Pemberitahuan Pajak Terutang adalah surat yang digunakan oleh Direktorat Jenderal Pajak untuk memberitahukan besarnya Pajak Bumi dan Bangunan yang terutang kepada Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            105
+          ],
+          [
+            285,
+            169
+          ],
+          [
+            871,
+            169
+          ],
+          [
+            871,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          170,
+          871,
+          218
+        ],
+        "content": "55. Surat Keputusan Pembatalan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            170
+          ],
+          [
+            290,
+            217
+          ],
+          [
+            315,
+            217
+          ],
+          [
+            870,
+            217
+          ],
+          [
+            870,
+            170
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          219,
+          871,
+          347
+        ],
+        "content": "a. pembatalan atas Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, Surat Tagihan Pajak, Surat Pemberitahuan Pajak Terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            219
+          ],
+          [
+            325,
+            346
+          ],
+          [
+            871,
+            346
+          ],
+          [
+            871,
+            219
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          349,
+          870,
+          380
+        ],
+        "content": "b. penolakan atas permohonan pembatalan yang diajukan oleh Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            349
+          ],
+          [
+            329,
+            380
+          ],
+          [
+            869,
+            380
+          ],
+          [
+            869,
+            349
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          381,
+          870,
+          445
+        ],
+        "content": "56. Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak adalah surat keputusan yang menentukan jumlah pengembalian pendahuluan kelebihan pajak untuk Wajib Pajak tertentu.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            381
+          ],
+          [
+            284,
+            445
+          ],
+          [
+            869,
+            445
+          ],
+          [
+            869,
+            381
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          446,
+          868,
+          494
+        ],
+        "content": "57. Surat Keputusan Pemberian Imbalan Bunga adalah surat keputusan yang menentukan besarnya imbalan bunga yang diberikan kepada Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            446
+          ],
+          [
+            284,
+            494
+          ],
+          [
+            868,
+            494
+          ],
+          [
+            868,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          495,
+          870,
+          559
+        ],
+        "content": "58. Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak adalah surat keputusan yang digunakan sebagai dasar untuk menerbitkan surat perintah membayar kelebihan pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            495
+          ],
+          [
+            289,
+            558
+          ],
+          [
+            870,
+            558
+          ],
+          [
+            870,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          560,
+          870,
+          656
+        ],
+        "content": "59. Segel Elektronik adalah data elektronik yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik dan/atau Dokumen Elektronik untuk menjamin asal, integritas, dan keutuhan dari Informasi Elektronik dan/atau Dokumen Elektronik yang digunakan oleh badan usaha atau instansi.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            560
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            869,
+            656
+          ],
+          [
+            869,
+            560
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          658,
+          869,
+          738
+        ],
+        "content": "60. Nomor Pokok Wajib Pajak adalah nomor yang diberikan kepada Wajib Pajak sebagai sarana dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakannya.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            658
+          ],
+          [
+            283,
+            732
+          ],
+          [
+            298,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          739,
+          869,
+          819
+        ],
+        "content": "61. Warga Negara Indonesia adalah orang bangsa Indonesia asli atau orang bangsa lain yang telah disahkan sebagai warga negara Indonesia berdasarkan ketentuan peraturan perundang-undangan yang mengatur tentang kewarganegaraan Republik Indonesia.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            739
+          ],
+          [
+            282,
+            818
+          ],
+          [
+            868,
+            818
+          ],
+          [
+            868,
+            739
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          820,
+          870,
+          851
+        ],
+        "content": "62. Penduduk adalah Warga Negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            820
+          ],
+          [
+            282,
+            851
+          ],
+          [
+            869,
+            851
+          ],
+          [
+            869,
+            820
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          852,
+          870,
+          917
+        ],
+        "content": "63. Wajib Pajak Orang Pribadi Pengusaha Tertentu adalah Wajib Pajak orang pribadi yang melakukan kegiatan usaha perdagangan atau jasa, tidak termasuk jasa sehubungan dengan pekerjaan bebas, pada 1 (satu)",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            852
+          ],
+          [
+            283,
+            916
+          ],
+          [
+            869,
+            916
+          ],
+          [
+            869,
+            852
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          325,
+          75,
+          866,
+          122
+        ],
+        "content": "atau lebih tempat kegiatan usaha yang berbeda dengan tempat tinggal Wajib Pajak sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            75
+          ],
+          [
+            325,
+            122
+          ],
+          [
+            380,
+            122
+          ],
+          [
+            406,
+            122
+          ],
+          [
+            865,
+            122
+          ],
+          [
+            865,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          123,
+          865,
+          186
+        ],
+        "content": "64. Nomor Identitas Tempat Kegiatan Usaha adalah nomor identitas yang diberikan untuk setiap tempat kegiatan usaha Wajib Pajak, termasuk tempat tinggal atau tempat kedudukan Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            123
+          ],
+          [
+            281,
+            186
+          ],
+          [
+            865,
+            186
+          ],
+          [
+            865,
+            123
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          188,
+          866,
+          251
+        ],
+        "content": "65. Nomor Induk Kependudukan adalah nomor identitas Penduduk yang bersifat unik atau khas, tunggal, dan melekat pada seseorang yang terdaftar sebagai Penduduk Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            188
+          ],
+          [
+            280,
+            251
+          ],
+          [
+            865,
+            251
+          ],
+          [
+            865,
+            188
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          253,
+          866,
+          333
+        ],
+        "content": "66. Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender kecuali untuk Pajak Penghasilan dapat menggunakan tahun buku dalam hal Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            253
+          ],
+          [
+            280,
+            328
+          ],
+          [
+            301,
+            332
+          ],
+          [
+            865,
+            332
+          ],
+          [
+            865,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          335,
+          865,
+          463
+        ],
+        "content": "67. Pemeriksaan adalah serangkaian kegiatan menghimpun dan mengolah data, keterangan, dan/atau bukti yang dilaksanakan secara objektif dan profesional berdasarkan suatu standar pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan dan/atau untuk tujuan lain dalam rangka melaksanakan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            335
+          ],
+          [
+            280,
+            458
+          ],
+          [
+            295,
+            462
+          ],
+          [
+            865,
+            462
+          ],
+          [
+            865,
+            335
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          465,
+          866,
+          527
+        ],
+        "content": "68. Wajib Pajak Nonaktif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum dilakukan penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            465
+          ],
+          [
+            280,
+            522
+          ],
+          [
+            310,
+            527
+          ],
+          [
+            845,
+            527
+          ],
+          [
+            865,
+            527
+          ],
+          [
+            865,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          530,
+          865,
+          641
+        ],
+        "content": "69. Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Direktur Jenderal Pajak yang menerangkan bahwa Warga Negara Indonesia memenuhi persyaratan menjadi subjek pajak luar negeri.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            530
+          ],
+          [
+            279,
+            641
+          ],
+          [
+            864,
+            641
+          ],
+          [
+            864,
+            530
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          643,
+          864,
+          690
+        ],
+        "content": "70. Penghapusan Nomor Pokok Wajib Pajak adalah tindakan menghapuskan Nomor Pokok Wajib Pajak dari administrasi Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            643
+          ],
+          [
+            279,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          692,
+          864,
+          772
+        ],
+        "content": "71. Utang Pajak adalah pajak yang masih harus dibayar termasuk sanksi administratif berupa bunga, denda, atau kenaikan yang tercantum dalam surat ketetapan pajak atau surat sejenisnya berdasarkan ketentuan peraturan perundang-undangan perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            692
+          ],
+          [
+            279,
+            771
+          ],
+          [
+            864,
+            771
+          ],
+          [
+            864,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          773,
+          865,
+          853
+        ],
+        "content": "72. Prosedur Persetujuan Bersama (Mutual Agreement Procedure) adalah prosedur administratif yang diatur dalam persetujuan penghindaran pajak berganda untuk menyelesaikan permasalahan yang timbul dalam penerapan persetujuan penghindaran pajak berganda.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            773
+          ],
+          [
+            279,
+            852
+          ],
+          [
+            864,
+            852
+          ],
+          [
+            864,
+            773
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          865,
+          902
+        ],
+        "content": "73. Anggaran Pendapatan dan Belanja Negara adalah rencana keuangan tahunan pemerintahan negara yang disetujui oleh Dewan Perwakilan Rakyat.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            901
+          ],
+          [
+            865,
+            901
+          ],
+          [
+            865,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          74,
+          871,
+          203
+        ],
+        "content": "74. Pengusaha adalah orang pribadi atau Badan dalam bentuk apapun yang dalam kegiatan usaha atau pekerjaannya menghasilkan barang, mengimpor barang, mengekspor barang melakukan usaha perdagangan, memanfaatkan barang tidak berwujud dari luar daerah pabean, melakukan usaha jasa termasuk mengekspor jasa, atau memanfaatkan jasa dari luar daerah pabean.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            74
+          ],
+          [
+            287,
+            198
+          ],
+          [
+            302,
+            202
+          ],
+          [
+            871,
+            202
+          ],
+          [
+            871,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          204,
+          872,
+          397
+        ],
+        "content": "75. Kantor Virtual (virtual office) atau Kantor Bersama (coworking space), yang selanjutnya disebut Kantor Virtual, adalah suatu kantor yang memiliki ruangan fisik dan dilengkapi dengan layanan pendukung kantor yang disediakan oleh Pengusaha jasa kantor virtual untuk dapat digunakan sebagai tempat kedudukan, tempat kegiatan usaha, atau korespondensi secara bersama-sama oleh 2 (dua) atau lebih Pengusaha yang atas pemanfaatan kantor dimaksud terdapat pembayaran dalam bentuk apapun, tidak termasuk jasa persewaan gedung dan jasa persewaan kantor (serviced office).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            204
+          ],
+          [
+            286,
+            392
+          ],
+          [
+            297,
+            397
+          ],
+          [
+            871,
+            397
+          ],
+          [
+            871,
+            204
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          400,
+          868,
+          430
+        ],
+        "content": "76. Warga Negara Asing adalah setiap orang yang bukan Warga Negara Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            400
+          ],
+          [
+            284,
+            430
+          ],
+          [
+            868,
+            430
+          ],
+          [
+            868,
+            400
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          432,
+          870,
+          495
+        ],
+        "content": "77. Faktur Pajak adalah bukti pungutan pajak yang dibuat oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak atau penyerahan jasa kena pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            432
+          ],
+          [
+            284,
+            494
+          ],
+          [
+            869,
+            494
+          ],
+          [
+            869,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          496,
+          870,
+          544
+        ],
+        "content": "78. Pencabutan Pengukuhan Pengusaha Kena Pajak adalah tindakan mencabut pengukuhan Pengusaha Kena Pajak dari administrasi Direktorat Jenderal Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            496
+          ],
+          [
+            284,
+            544
+          ],
+          [
+            869,
+            544
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          546,
+          870,
+          625
+        ],
+        "content": "79. Masa Pajak adalah jangka waktu yang menjadi dasar bagi Wajib Pajak untuk menghitung, menyetor, dan melaporkan pajak yang terutang dalam suatu jangka waktu tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            546
+          ],
+          [
+            284,
+            625
+          ],
+          [
+            869,
+            625
+          ],
+          [
+            869,
+            546
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          627,
+          867,
+          658
+        ],
+        "content": "80. Bagian Tahun Pajak adalah bagian dari jangka waktu 1 (satu) Tahun Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            627
+          ],
+          [
+            284,
+            657
+          ],
+          [
+            866,
+            657
+          ],
+          [
+            866,
+            627
+          ],
+          [
+            671,
+            627
+          ],
+          [
+            655,
+            627
+          ],
+          [
+            460,
+            627
+          ],
+          [
+            454,
+            627
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          659,
+          869,
+          738
+        ],
+        "content": "81. Kontrak Kerja Sama adalah kontrak bagi hasil atau bentuk kontrak kerja sama lain dalam kegiatan eksplorasi dan eksploitasi yang lebih menguntungkan negara dan hasilnya dipergunakan sebesar-besarnya untuk kemakmuran rakyat.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            659
+          ],
+          [
+            284,
+            738
+          ],
+          [
+            868,
+            738
+          ],
+          [
+            868,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          741,
+          870,
+          820
+        ],
+        "content": "82. Surat Keterangan Terdaftar Objek Pajak adalah surat keterangan yang diterbitkan oleh Kepala Kantor Pelayanan Pajak sebagai pemberitahuan bahwa objek pajak dan Wajib Pajak telah terdaftar dalam sistem administrasi perpajakan Direktorat Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            741
+          ],
+          [
+            284,
+            820
+          ],
+          [
+            869,
+            820
+          ],
+          [
+            869,
+            741
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          821,
+          870,
+          903
+        ],
+        "content": "83. Kontraktor adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan satuan kerja khusus pelaksana kegiatan usaha hulu minyak dan gas bumi",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            821
+          ],
+          [
+            284,
+            903
+          ],
+          [
+            870,
+            903
+          ],
+          [
+            870,
+            821
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [
+      {
+        "bbox_2d": [
+          285,
+          73,
+          871,
+          202
+        ],
+        "content": "49. Surat Keputusan Keberatan adalah surat keputusan atas keberatan terhadap Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, pemotongan pajak oleh pihak ketiga, atau pemungutan pajak oleh pihak ketiga.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            73
+          ],
+          [
+            285,
+            197
+          ],
+          [
+            306,
+            202
+          ],
+          [
+            870,
+            202
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          203,
+          870,
+          251
+        ],
+        "content": "50. Surat Keputusan Pengurangan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            203
+          ],
+          [
+            285,
+            250
+          ],
+          [
+            870,
+            250
+          ],
+          [
+            870,
+            203
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          253,
+          870,
+          315
+        ],
+        "content": "a. pengurangan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            253
+          ],
+          [
+            330,
+            315
+          ],
+          [
+            870,
+            315
+          ],
+          [
+            870,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          317,
+          869,
+          348
+        ],
+        "content": "b. penolakan atas permohonan pengurangan sanksi administratif yang diajukan oleh Wajib Pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            317
+          ],
+          [
+            330,
+            348
+          ],
+          [
+            868,
+            348
+          ],
+          [
+            868,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          349,
+          870,
+          396
+        ],
+        "content": "51. Surat Keputusan Penghapusan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            349
+          ],
+          [
+            284,
+            396
+          ],
+          [
+            869,
+            396
+          ],
+          [
+            869,
+            349
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          398,
+          870,
+          461
+        ],
+        "content": "a. penghapusan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            398
+          ],
+          [
+            329,
+            461
+          ],
+          [
+            869,
+            461
+          ],
+          [
+            869,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          463,
+          868,
+          494
+        ],
+        "content": "b. penolakan atas permohonan penghapusan sanksi administratif yang diajukan oleh Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            463
+          ],
+          [
+            330,
+            494
+          ],
+          [
+            868,
+            494
+          ],
+          [
+            868,
+            463
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          496,
+          870,
+          559
+        ],
+        "content": "52. Surat Keputusan Pengurangan Denda Administrasi Pajak Bumi dan Bangunan adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            496
+          ],
+          [
+            283,
+            559
+          ],
+          [
+            869,
+            559
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          561,
+          868,
+          640
+        ],
+        "content": "a. pengurangan denda administratif Pajak Bumi dan Bangunan sebagaimana tercantum dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            566
+          ],
+          [
+            328,
+            640
+          ],
+          [
+            868,
+            640
+          ],
+          [
+            868,
+            561
+          ],
+          [
+            378,
+            561
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          642,
+          869,
+          689
+        ],
+        "content": "b. penolakan atas permohonan pengurangan denda administratif Pajak Bumi dan Bangunan yang diajukan oleh Wajib Pajak.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            642
+          ],
+          [
+            328,
+            689
+          ],
+          [
+            868,
+            689
+          ],
+          [
+            868,
+            642
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          691,
+          868,
+          738
+        ],
+        "content": "53. Surat Keputusan Pengurangan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            691
+          ],
+          [
+            283,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          740,
+          868,
+          819
+        ],
+        "content": "a. pengurangan atas materi penetapan yang tidak benar dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, atau Surat Tagihan Pajak;",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            740
+          ],
+          [
+            328,
+            818
+          ],
+          [
+            867,
+            818
+          ],
+          [
+            867,
+            740
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          821,
+          867,
+          852
+        ],
+        "content": "b. pengurangan atas jumlah pajak yang tidak benar dalam surat pemberitahuan pajak terutang;",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            821
+          ],
+          [
+            328,
+            851
+          ],
+          [
+            867,
+            851
+          ],
+          [
+            867,
+            821
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          853,
+          869,
+          917
+        ],
+        "content": "c. pengurangan jumlah pokok pajak, jumlah selisih pokok pajak, dan/atau denda administratif yang tidak benar dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            853
+          ],
+          [
+            327,
+            880
+          ],
+          [
+            332,
+            916
+          ],
+          [
+            868,
+            916
+          ],
+          [
+            868,
+            853
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          330,
+          73,
+          871,
+          104
+        ],
+        "content": "d. penolakan atas permohonan pengurangan yang diajukan oleh Wajib Pajak.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            73
+          ],
+          [
+            330,
+            103
+          ],
+          [
+            870,
+            103
+          ],
+          [
+            870,
+            73
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          285,
+          105,
+          871,
+          169
+        ],
+        "content": "54. Surat Pemberitahuan Pajak Terutang adalah surat yang digunakan oleh Direktorat Jenderal Pajak untuk memberitahukan besarnya Pajak Bumi dan Bangunan yang terutang kepada Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            285,
+            105
+          ],
+          [
+            285,
+            169
+          ],
+          [
+            871,
+            169
+          ],
+          [
+            871,
+            105
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          170,
+          871,
+          218
+        ],
+        "content": "55. Surat Keputusan Pembatalan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            170
+          ],
+          [
+            290,
+            217
+          ],
+          [
+            315,
+            217
+          ],
+          [
+            870,
+            217
+          ],
+          [
+            870,
+            170
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          219,
+          871,
+          347
+        ],
+        "content": "a. pembatalan atas Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, Surat Tagihan Pajak, Surat Pemberitahuan Pajak Terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            219
+          ],
+          [
+            325,
+            346
+          ],
+          [
+            871,
+            346
+          ],
+          [
+            871,
+            219
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          349,
+          870,
+          380
+        ],
+        "content": "b. penolakan atas permohonan pembatalan yang diajukan oleh Wajib Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            349
+          ],
+          [
+            329,
+            380
+          ],
+          [
+            869,
+            380
+          ],
+          [
+            869,
+            349
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          381,
+          870,
+          445
+        ],
+        "content": "56. Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak adalah surat keputusan yang menentukan jumlah pengembalian pendahuluan kelebihan pajak untuk Wajib Pajak tertentu.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            381
+          ],
+          [
+            284,
+            445
+          ],
+          [
+            869,
+            445
+          ],
+          [
+            869,
+            381
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          446,
+          868,
+          494
+        ],
+        "content": "57. Surat Keputusan Pemberian Imbalan Bunga adalah surat keputusan yang menentukan besarnya imbalan bunga yang diberikan kepada Wajib Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            446
+          ],
+          [
+            284,
+            494
+          ],
+          [
+            868,
+            494
+          ],
+          [
+            868,
+            446
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          495,
+          870,
+          559
+        ],
+        "content": "58. Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak adalah surat keputusan yang digunakan sebagai dasar untuk menerbitkan surat perintah membayar kelebihan pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            495
+          ],
+          [
+            289,
+            558
+          ],
+          [
+            870,
+            558
+          ],
+          [
+            870,
+            495
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          560,
+          870,
+          656
+        ],
+        "content": "59. Segel Elektronik adalah data elektronik yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik dan/atau Dokumen Elektronik untuk menjamin asal, integritas, dan keutuhan dari Informasi Elektronik dan/atau Dokumen Elektronik yang digunakan oleh badan usaha atau instansi.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            560
+          ],
+          [
+            284,
+            656
+          ],
+          [
+            869,
+            656
+          ],
+          [
+            869,
+            560
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          658,
+          869,
+          738
+        ],
+        "content": "60. Nomor Pokok Wajib Pajak adalah nomor yang diberikan kepada Wajib Pajak sebagai sarana dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakannya.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            658
+          ],
+          [
+            283,
+            732
+          ],
+          [
+            298,
+            737
+          ],
+          [
+            868,
+            737
+          ],
+          [
+            868,
+            658
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          739,
+          869,
+          819
+        ],
+        "content": "61. Warga Negara Indonesia adalah orang bangsa Indonesia asli atau orang bangsa lain yang telah disahkan sebagai warga negara Indonesia berdasarkan ketentuan peraturan perundang-undangan yang mengatur tentang kewarganegaraan Republik Indonesia.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            739
+          ],
+          [
+            282,
+            818
+          ],
+          [
+            868,
+            818
+          ],
+          [
+            868,
+            739
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          282,
+          820,
+          870,
+          851
+        ],
+        "content": "62. Penduduk adalah Warga Negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            282,
+            820
+          ],
+          [
+            282,
+            851
+          ],
+          [
+            869,
+            851
+          ],
+          [
+            869,
+            820
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          283,
+          852,
+          870,
+          917
+        ],
+        "content": "63. Wajib Pajak Orang Pribadi Pengusaha Tertentu adalah Wajib Pajak orang pribadi yang melakukan kegiatan usaha perdagangan atau jasa, tidak termasuk jasa sehubungan dengan pekerjaan bebas, pada 1 (satu)",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            283,
+            852
+          ],
+          [
+            283,
+            916
+          ],
+          [
+            869,
+            916
+          ],
+          [
+            869,
+            852
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          325,
+          75,
+          866,
+          122
+        ],
+        "content": "atau lebih tempat kegiatan usaha yang berbeda dengan tempat tinggal Wajib Pajak sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            75
+          ],
+          [
+            325,
+            122
+          ],
+          [
+            380,
+            122
+          ],
+          [
+            406,
+            122
+          ],
+          [
+            865,
+            122
+          ],
+          [
+            865,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          123,
+          865,
+          186
+        ],
+        "content": "64. Nomor Identitas Tempat Kegiatan Usaha adalah nomor identitas yang diberikan untuk setiap tempat kegiatan usaha Wajib Pajak, termasuk tempat tinggal atau tempat kedudukan Wajib Pajak.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            123
+          ],
+          [
+            281,
+            186
+          ],
+          [
+            865,
+            186
+          ],
+          [
+            865,
+            123
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          188,
+          866,
+          251
+        ],
+        "content": "65. Nomor Induk Kependudukan adalah nomor identitas Penduduk yang bersifat unik atau khas, tunggal, dan melekat pada seseorang yang terdaftar sebagai Penduduk Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            188
+          ],
+          [
+            280,
+            251
+          ],
+          [
+            865,
+            251
+          ],
+          [
+            865,
+            188
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          253,
+          866,
+          333
+        ],
+        "content": "66. Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender kecuali untuk Pajak Penghasilan dapat menggunakan tahun buku dalam hal Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            253
+          ],
+          [
+            280,
+            328
+          ],
+          [
+            301,
+            332
+          ],
+          [
+            865,
+            332
+          ],
+          [
+            865,
+            253
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          335,
+          865,
+          463
+        ],
+        "content": "67. Pemeriksaan adalah serangkaian kegiatan menghimpun dan mengolah data, keterangan, dan/atau bukti yang dilaksanakan secara objektif dan profesional berdasarkan suatu standar pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan dan/atau untuk tujuan lain dalam rangka melaksanakan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            335
+          ],
+          [
+            280,
+            458
+          ],
+          [
+            295,
+            462
+          ],
+          [
+            865,
+            462
+          ],
+          [
+            865,
+            335
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          465,
+          866,
+          527
+        ],
+        "content": "68. Wajib Pajak Nonaktif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum dilakukan penghapusan Nomor Pokok Wajib Pajak.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            465
+          ],
+          [
+            280,
+            522
+          ],
+          [
+            310,
+            527
+          ],
+          [
+            845,
+            527
+          ],
+          [
+            865,
+            527
+          ],
+          [
+            865,
+            465
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          530,
+          865,
+          641
+        ],
+        "content": "69. Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Direktur Jenderal Pajak yang menerangkan bahwa Warga Negara Indonesia memenuhi persyaratan menjadi subjek pajak luar negeri.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            530
+          ],
+          [
+            279,
+            641
+          ],
+          [
+            864,
+            641
+          ],
+          [
+            864,
+            530
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          643,
+          864,
+          690
+        ],
+        "content": "70. Penghapusan Nomor Pokok Wajib Pajak adalah tindakan menghapuskan Nomor Pokok Wajib Pajak dari administrasi Direktorat Jenderal Pajak.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            643
+          ],
+          [
+            279,
+            690
+          ],
+          [
+            864,
+            690
+          ],
+          [
+            864,
+            643
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          692,
+          864,
+          772
+        ],
+        "content": "71. Utang Pajak adalah pajak yang masih harus dibayar termasuk sanksi administratif berupa bunga, denda, atau kenaikan yang tercantum dalam surat ketetapan pajak atau surat sejenisnya berdasarkan ketentuan peraturan perundang-undangan perpajakan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            692
+          ],
+          [
+            279,
+            771
+          ],
+          [
+            864,
+            771
+          ],
+          [
+            864,
+            692
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          773,
+          865,
+          853
+        ],
+        "content": "72. Prosedur Persetujuan Bersama (Mutual Agreement Procedure) adalah prosedur administratif yang diatur dalam persetujuan penghindaran pajak berganda untuk menyelesaikan permasalahan yang timbul dalam penerapan persetujuan penghindaran pajak berganda.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            773
+          ],
+          [
+            279,
+            852
+          ],
+          [
+            864,
+            852
+          ],
+          [
+            864,
+            773
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          278,
+          855,
+          865,
+          902
+        ],
+        "content": "73. Anggaran Pendapatan dan Belanja Negara adalah rencana keuangan tahunan pemerintahan negara yang disetujui oleh Dewan Perwakilan Rakyat.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            278,
+            855
+          ],
+          [
+            278,
+            901
+          ],
+          [
+            865,
+            901
+          ],
+          [
+            865,
+            855
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          287,
+          74,
+          871,
+          203
+        ],
+        "content": "74. Pengusaha adalah orang pribadi atau Badan dalam bentuk apapun yang dalam kegiatan usaha atau pekerjaannya menghasilkan barang, mengimpor barang, mengekspor barang melakukan usaha perdagangan, memanfaatkan barang tidak berwujud dari luar daerah pabean, melakukan usaha jasa termasuk mengekspor jasa, atau memanfaatkan jasa dari luar daerah pabean.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            287,
+            74
+          ],
+          [
+            287,
+            198
+          ],
+          [
+            302,
+            202
+          ],
+          [
+            871,
+            202
+          ],
+          [
+            871,
+            74
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          286,
+          204,
+          872,
+          397
+        ],
+        "content": "75. Kantor Virtual (virtual office) atau Kantor Bersama (coworking space), yang selanjutnya disebut Kantor Virtual, adalah suatu kantor yang memiliki ruangan fisik dan dilengkapi dengan layanan pendukung kantor yang disediakan oleh Pengusaha jasa kantor virtual untuk dapat digunakan sebagai tempat kedudukan, tempat kegiatan usaha, atau korespondensi secara bersama-sama oleh 2 (dua) atau lebih Pengusaha yang atas pemanfaatan kantor dimaksud terdapat pembayaran dalam bentuk apapun, tidak termasuk jasa persewaan gedung dan jasa persewaan kantor (serviced office).",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            286,
+            204
+          ],
+          [
+            286,
+            392
+          ],
+          [
+            297,
+            397
+          ],
+          [
+            871,
+            397
+          ],
+          [
+            871,
+            204
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          400,
+          868,
+          430
+        ],
+        "content": "76. Warga Negara Asing adalah setiap orang yang bukan Warga Negara Indonesia.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            400
+          ],
+          [
+            284,
+            430
+          ],
+          [
+            868,
+            430
+          ],
+          [
+            868,
+            400
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          432,
+          870,
+          495
+        ],
+        "content": "77. Faktur Pajak adalah bukti pungutan pajak yang dibuat oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak atau penyerahan jasa kena pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            432
+          ],
+          [
+            284,
+            494
+          ],
+          [
+            869,
+            494
+          ],
+          [
+            869,
+            432
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          496,
+          870,
+          544
+        ],
+        "content": "78. Pencabutan Pengukuhan Pengusaha Kena Pajak adalah tindakan mencabut pengukuhan Pengusaha Kena Pajak dari administrasi Direktorat Jenderal Pajak.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            496
+          ],
+          [
+            284,
+            544
+          ],
+          [
+            869,
+            544
+          ],
+          [
+            869,
+            496
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          546,
+          870,
+          625
+        ],
+        "content": "79. Masa Pajak adalah jangka waktu yang menjadi dasar bagi Wajib Pajak untuk menghitung, menyetor, dan melaporkan pajak yang terutang dalam suatu jangka waktu tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            546
+          ],
+          [
+            284,
+            625
+          ],
+          [
+            869,
+            625
+          ],
+          [
+            869,
+            546
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          627,
+          867,
+          658
+        ],
+        "content": "80. Bagian Tahun Pajak adalah bagian dari jangka waktu 1 (satu) Tahun Pajak.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            627
+          ],
+          [
+            284,
+            657
+          ],
+          [
+            866,
+            657
+          ],
+          [
+            866,
+            627
+          ],
+          [
+            671,
+            627
+          ],
+          [
+            655,
+            627
+          ],
+          [
+            460,
+            627
+          ],
+          [
+            454,
+            627
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          659,
+          869,
+          738
+        ],
+        "content": "81. Kontrak Kerja Sama adalah kontrak bagi hasil atau bentuk kontrak kerja sama lain dalam kegiatan eksplorasi dan eksploitasi yang lebih menguntungkan negara dan hasilnya dipergunakan sebesar-besarnya untuk kemakmuran rakyat.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            659
+          ],
+          [
+            284,
+            738
+          ],
+          [
+            868,
+            738
+          ],
+          [
+            868,
+            659
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          741,
+          870,
+          820
+        ],
+        "content": "82. Surat Keterangan Terdaftar Objek Pajak adalah surat keterangan yang diterbitkan oleh Kepala Kantor Pelayanan Pajak sebagai pemberitahuan bahwa objek pajak dan Wajib Pajak telah terdaftar dalam sistem administrasi perpajakan Direktorat Jenderal Pajak.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            741
+          ],
+          [
+            284,
+            820
+          ],
+          [
+            869,
+            820
+          ],
+          [
+            869,
+            741
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          284,
+          821,
+          870,
+          903
+        ],
+        "content": "83. Kontraktor adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan satuan kerja khusus pelaksana kegiatan usaha hulu minyak dan gas bumi",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            284,
+            821
+          ],
+          [
+            284,
+            903
+          ],
+          [
+            870,
+            903
+          ],
+          [
+            870,
+            821
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "49. Surat Keputusan Keberatan adalah surat keputusan atas keberatan terhadap Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, pemotongan pajak oleh pihak ketiga, atau pemungutan pajak oleh pihak ketiga.\n\n50. Surat Keputusan Pengurangan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau\n\nb. penolakan atas permohonan pengurangan sanksi administratif yang diajukan oleh Wajib Pajak.\n\n51. Surat Keputusan Penghapusan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. penghapusan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau\n\nb. penolakan atas permohonan penghapusan sanksi administratif yang diajukan oleh Wajib Pajak.\n\n52. Surat Keputusan Pengurangan Denda Administrasi Pajak Bumi dan Bangunan adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan denda administratif Pajak Bumi dan Bangunan sebagaimana tercantum dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau\n\nb. penolakan atas permohonan pengurangan denda administratif Pajak Bumi dan Bangunan yang diajukan oleh Wajib Pajak.\n\n53. Surat Keputusan Pengurangan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan atas materi penetapan yang tidak benar dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, atau Surat Tagihan Pajak;\n\nb. pengurangan atas jumlah pajak yang tidak benar dalam surat pemberitahuan pajak terutang;\n\nc. pengurangan jumlah pokok pajak, jumlah selisih pokok pajak, dan/atau denda administratif yang tidak benar dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan; atau\n\nd. penolakan atas permohonan pengurangan yang diajukan oleh Wajib Pajak.\n\n54. Surat Pemberitahuan Pajak Terutang adalah surat yang digunakan oleh Direktorat Jenderal Pajak untuk memberitahukan besarnya Pajak Bumi dan Bangunan yang terutang kepada Wajib Pajak.\n\n55. Surat Keputusan Pembatalan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pembatalan atas Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, Surat Tagihan Pajak, Surat Pemberitahuan Pajak Terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau\n\nb. penolakan atas permohonan pembatalan yang diajukan oleh Wajib Pajak.\n\n56. Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak adalah surat keputusan yang menentukan jumlah pengembalian pendahuluan kelebihan pajak untuk Wajib Pajak tertentu.\n\n57. Surat Keputusan Pemberian Imbalan Bunga adalah surat keputusan yang menentukan besarnya imbalan bunga yang diberikan kepada Wajib Pajak.\n\n58. Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak adalah surat keputusan yang digunakan sebagai dasar untuk menerbitkan surat perintah membayar kelebihan pajak.\n\n59. Segel Elektronik adalah data elektronik yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik dan/atau Dokumen Elektronik untuk menjamin asal, integritas, dan keutuhan dari Informasi Elektronik dan/atau Dokumen Elektronik yang digunakan oleh badan usaha atau instansi.\n\n60. Nomor Pokok Wajib Pajak adalah nomor yang diberikan kepada Wajib Pajak sebagai sarana dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakannya.\n\n61. Warga Negara Indonesia adalah orang bangsa Indonesia asli atau orang bangsa lain yang telah disahkan sebagai warga negara Indonesia berdasarkan ketentuan peraturan perundang-undangan yang mengatur tentang kewarganegaraan Republik Indonesia.\n\n62. Penduduk adalah Warga Negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.\n\n63. Wajib Pajak Orang Pribadi Pengusaha Tertentu adalah Wajib Pajak orang pribadi yang melakukan kegiatan usaha perdagangan atau jasa, tidak termasuk jasa sehubungan dengan pekerjaan bebas, pada 1 (satu)\n\natau lebih tempat kegiatan usaha yang berbeda dengan tempat tinggal Wajib Pajak sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.\n\n64. Nomor Identitas Tempat Kegiatan Usaha adalah nomor identitas yang diberikan untuk setiap tempat kegiatan usaha Wajib Pajak, termasuk tempat tinggal atau tempat kedudukan Wajib Pajak.\n\n65. Nomor Induk Kependudukan adalah nomor identitas Penduduk yang bersifat unik atau khas, tunggal, dan melekat pada seseorang yang terdaftar sebagai Penduduk Indonesia.\n\n66. Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender kecuali untuk Pajak Penghasilan dapat menggunakan tahun buku dalam hal Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.\n\n67. Pemeriksaan adalah serangkaian kegiatan menghimpun dan mengolah data, keterangan, dan/atau bukti yang dilaksanakan secara objektif dan profesional berdasarkan suatu standar pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan dan/atau untuk tujuan lain dalam rangka melaksanakan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n68. Wajib Pajak Nonaktif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum dilakukan penghapusan Nomor Pokok Wajib Pajak.\n\n69. Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Direktur Jenderal Pajak yang menerangkan bahwa Warga Negara Indonesia memenuhi persyaratan menjadi subjek pajak luar negeri.\n\n70. Penghapusan Nomor Pokok Wajib Pajak adalah tindakan menghapuskan Nomor Pokok Wajib Pajak dari administrasi Direktorat Jenderal Pajak.\n\n71. Utang Pajak adalah pajak yang masih harus dibayar termasuk sanksi administratif berupa bunga, denda, atau kenaikan yang tercantum dalam surat ketetapan pajak atau surat sejenisnya berdasarkan ketentuan peraturan perundang-undangan perpajakan.\n\n72. Prosedur Persetujuan Bersama (Mutual Agreement Procedure) adalah prosedur administratif yang diatur dalam persetujuan penghindaran pajak berganda untuk menyelesaikan permasalahan yang timbul dalam penerapan persetujuan penghindaran pajak berganda.\n\n73. Anggaran Pendapatan dan Belanja Negara adalah rencana keuangan tahunan pemerintahan negara yang disetujui oleh Dewan Perwakilan Rakyat.\n\n74. Pengusaha adalah orang pribadi atau Badan dalam bentuk apapun yang dalam kegiatan usaha atau pekerjaannya menghasilkan barang, mengimpor barang, mengekspor barang melakukan usaha perdagangan, memanfaatkan barang tidak berwujud dari luar daerah pabean, melakukan usaha jasa termasuk mengekspor jasa, atau memanfaatkan jasa dari luar daerah pabean.\n\n75. Kantor Virtual (virtual office) atau Kantor Bersama (coworking space), yang selanjutnya disebut Kantor Virtual, adalah suatu kantor yang memiliki ruangan fisik dan dilengkapi dengan layanan pendukung kantor yang disediakan oleh Pengusaha jasa kantor virtual untuk dapat digunakan sebagai tempat kedudukan, tempat kegiatan usaha, atau korespondensi secara bersama-sama oleh 2 (dua) atau lebih Pengusaha yang atas pemanfaatan kantor dimaksud terdapat pembayaran dalam bentuk apapun, tidak termasuk jasa persewaan gedung dan jasa persewaan kantor (serviced office).\n\n76. Warga Negara Asing adalah setiap orang yang bukan Warga Negara Indonesia.\n\n77. Faktur Pajak adalah bukti pungutan pajak yang dibuat oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak atau penyerahan jasa kena pajak.\n\n78. Pencabutan Pengukuhan Pengusaha Kena Pajak adalah tindakan mencabut pengukuhan Pengusaha Kena Pajak dari administrasi Direktorat Jenderal Pajak.\n\n79. Masa Pajak adalah jangka waktu yang menjadi dasar bagi Wajib Pajak untuk menghitung, menyetor, dan melaporkan pajak yang terutang dalam suatu jangka waktu tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n80. Bagian Tahun Pajak adalah bagian dari jangka waktu 1 (satu) Tahun Pajak.\n\n81. Kontrak Kerja Sama adalah kontrak bagi hasil atau bentuk kontrak kerja sama lain dalam kegiatan eksplorasi dan eksploitasi yang lebih menguntungkan negara dan hasilnya dipergunakan sebesar-besarnya untuk kemakmuran rakyat.\n\n82. Surat Keterangan Terdaftar Objek Pajak adalah surat keterangan yang diterbitkan oleh Kepala Kantor Pelayanan Pajak sebagai pemberitahuan bahwa objek pajak dan Wajib Pajak telah terdaftar dalam sistem administrasi perpajakan Direktorat Jenderal Pajak.\n\n83. Kontraktor adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan satuan kerja khusus pelaksana kegiatan usaha hulu minyak dan gas bumi",
+  "md_results": "49. Surat Keputusan Keberatan adalah surat keputusan atas keberatan terhadap Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, surat pemberitahuan pajak terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, pemotongan pajak oleh pihak ketiga, atau pemungutan pajak oleh pihak ketiga.\n\n50. Surat Keputusan Pengurangan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau\n\nb. penolakan atas permohonan pengurangan sanksi administratif yang diajukan oleh Wajib Pajak.\n\n51. Surat Keputusan Penghapusan Sanksi Administrasi adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. penghapusan sanksi administratif sebagaimana tercantum dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, atau Surat Tagihan Pajak; atau\n\nb. penolakan atas permohonan penghapusan sanksi administratif yang diajukan oleh Wajib Pajak.\n\n52. Surat Keputusan Pengurangan Denda Administrasi Pajak Bumi dan Bangunan adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan denda administratif Pajak Bumi dan Bangunan sebagaimana tercantum dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau\n\nb. penolakan atas permohonan pengurangan denda administratif Pajak Bumi dan Bangunan yang diajukan oleh Wajib Pajak.\n\n53. Surat Keputusan Pengurangan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pengurangan atas materi penetapan yang tidak benar dalam Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, atau Surat Tagihan Pajak;\n\nb. pengurangan atas jumlah pajak yang tidak benar dalam surat pemberitahuan pajak terutang;\n\nc. pengurangan jumlah pokok pajak, jumlah selisih pokok pajak, dan/atau denda administratif yang tidak benar dalam Surat Ketetapan Pajak Pajak Bumi dan Bangunan; atau\n\nd. penolakan atas permohonan pengurangan yang diajukan oleh Wajib Pajak.\n\n54. Surat Pemberitahuan Pajak Terutang adalah surat yang digunakan oleh Direktorat Jenderal Pajak untuk memberitahukan besarnya Pajak Bumi dan Bangunan yang terutang kepada Wajib Pajak.\n\n55. Surat Keputusan Pembatalan Ketetapan Pajak adalah surat keputusan yang diterbitkan oleh Direktur Jenderal Pajak yang berisi mengenai:\n\na. pembatalan atas Surat Ketetapan Pajak Kurang Bayar, Surat Ketetapan Pajak Kurang Bayar Tambahan, Surat Ketetapan Pajak Nihil, Surat Ketetapan Pajak Lebih Bayar, Surat Tagihan Pajak, Surat Pemberitahuan Pajak Terutang, Surat Ketetapan Pajak Pajak Bumi dan Bangunan, atau Surat Tagihan Pajak Pajak Bumi dan Bangunan; atau\n\nb. penolakan atas permohonan pembatalan yang diajukan oleh Wajib Pajak.\n\n56. Surat Keputusan Pengembalian Pendahuluan Kelebihan Pajak adalah surat keputusan yang menentukan jumlah pengembalian pendahuluan kelebihan pajak untuk Wajib Pajak tertentu.\n\n57. Surat Keputusan Pemberian Imbalan Bunga adalah surat keputusan yang menentukan besarnya imbalan bunga yang diberikan kepada Wajib Pajak.\n\n58. Surat Keputusan Pengembalian Kelebihan Pembayaran Pajak adalah surat keputusan yang digunakan sebagai dasar untuk menerbitkan surat perintah membayar kelebihan pajak.\n\n59. Segel Elektronik adalah data elektronik yang dilekatkan, terasosiasi, atau terkait dengan Informasi Elektronik dan/atau Dokumen Elektronik untuk menjamin asal, integritas, dan keutuhan dari Informasi Elektronik dan/atau Dokumen Elektronik yang digunakan oleh badan usaha atau instansi.\n\n60. Nomor Pokok Wajib Pajak adalah nomor yang diberikan kepada Wajib Pajak sebagai sarana dalam administrasi perpajakan yang dipergunakan sebagai tanda pengenal diri atau identitas Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakannya.\n\n61. Warga Negara Indonesia adalah orang bangsa Indonesia asli atau orang bangsa lain yang telah disahkan sebagai warga negara Indonesia berdasarkan ketentuan peraturan perundang-undangan yang mengatur tentang kewarganegaraan Republik Indonesia.\n\n62. Penduduk adalah Warga Negara Indonesia dan orang asing yang bertempat tinggal di Indonesia.\n\n63. Wajib Pajak Orang Pribadi Pengusaha Tertentu adalah Wajib Pajak orang pribadi yang melakukan kegiatan usaha perdagangan atau jasa, tidak termasuk jasa sehubungan dengan pekerjaan bebas, pada 1 (satu)\n\natau lebih tempat kegiatan usaha yang berbeda dengan tempat tinggal Wajib Pajak sebagaimana diatur dalam peraturan perundang-undangan di bidang perpajakan.\n\n64. Nomor Identitas Tempat Kegiatan Usaha adalah nomor identitas yang diberikan untuk setiap tempat kegiatan usaha Wajib Pajak, termasuk tempat tinggal atau tempat kedudukan Wajib Pajak.\n\n65. Nomor Induk Kependudukan adalah nomor identitas Penduduk yang bersifat unik atau khas, tunggal, dan melekat pada seseorang yang terdaftar sebagai Penduduk Indonesia.\n\n66. Tahun Pajak adalah jangka waktu 1 (satu) tahun kalender kecuali untuk Pajak Penghasilan dapat menggunakan tahun buku dalam hal Wajib Pajak menggunakan tahun buku yang tidak sama dengan tahun kalender.\n\n67. Pemeriksaan adalah serangkaian kegiatan menghimpun dan mengolah data, keterangan, dan/atau bukti yang dilaksanakan secara objektif dan profesional berdasarkan suatu standar pemeriksaan untuk menguji kepatuhan pemenuhan kewajiban perpajakan dan/atau untuk tujuan lain dalam rangka melaksanakan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n68. Wajib Pajak Nonaktif adalah Wajib Pajak yang tidak memenuhi persyaratan subjektif dan/atau objektif namun belum dilakukan penghapusan Nomor Pokok Wajib Pajak.\n\n69. Surat Keterangan Warga Negara Indonesia Memenuhi Persyaratan Menjadi Subjek Pajak Luar Negeri adalah surat yang diterbitkan oleh Kepala Kantor Pelayanan Pajak atas nama Direktur Jenderal Pajak yang menerangkan bahwa Warga Negara Indonesia memenuhi persyaratan menjadi subjek pajak luar negeri.\n\n70. Penghapusan Nomor Pokok Wajib Pajak adalah tindakan menghapuskan Nomor Pokok Wajib Pajak dari administrasi Direktorat Jenderal Pajak.\n\n71. Utang Pajak adalah pajak yang masih harus dibayar termasuk sanksi administratif berupa bunga, denda, atau kenaikan yang tercantum dalam surat ketetapan pajak atau surat sejenisnya berdasarkan ketentuan peraturan perundang-undangan perpajakan.\n\n72. Prosedur Persetujuan Bersama (Mutual Agreement Procedure) adalah prosedur administratif yang diatur dalam persetujuan penghindaran pajak berganda untuk menyelesaikan permasalahan yang timbul dalam penerapan persetujuan penghindaran pajak berganda.\n\n73. Anggaran Pendapatan dan Belanja Negara adalah rencana keuangan tahunan pemerintahan negara yang disetujui oleh Dewan Perwakilan Rakyat.\n\n74. Pengusaha adalah orang pribadi atau Badan dalam bentuk apapun yang dalam kegiatan usaha atau pekerjaannya menghasilkan barang, mengimpor barang, mengekspor barang melakukan usaha perdagangan, memanfaatkan barang tidak berwujud dari luar daerah pabean, melakukan usaha jasa termasuk mengekspor jasa, atau memanfaatkan jasa dari luar daerah pabean.\n\n75. Kantor Virtual (virtual office) atau Kantor Bersama (coworking space), yang selanjutnya disebut Kantor Virtual, adalah suatu kantor yang memiliki ruangan fisik dan dilengkapi dengan layanan pendukung kantor yang disediakan oleh Pengusaha jasa kantor virtual untuk dapat digunakan sebagai tempat kedudukan, tempat kegiatan usaha, atau korespondensi secara bersama-sama oleh 2 (dua) atau lebih Pengusaha yang atas pemanfaatan kantor dimaksud terdapat pembayaran dalam bentuk apapun, tidak termasuk jasa persewaan gedung dan jasa persewaan kantor (serviced office).\n\n76. Warga Negara Asing adalah setiap orang yang bukan Warga Negara Indonesia.\n\n77. Faktur Pajak adalah bukti pungutan pajak yang dibuat oleh Pengusaha Kena Pajak yang melakukan penyerahan barang kena pajak atau penyerahan jasa kena pajak.\n\n78. Pencabutan Pengukuhan Pengusaha Kena Pajak adalah tindakan mencabut pengukuhan Pengusaha Kena Pajak dari administrasi Direktorat Jenderal Pajak.\n\n79. Masa Pajak adalah jangka waktu yang menjadi dasar bagi Wajib Pajak untuk menghitung, menyetor, dan melaporkan pajak yang terutang dalam suatu jangka waktu tertentu sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan.\n\n80. Bagian Tahun Pajak adalah bagian dari jangka waktu 1 (satu) Tahun Pajak.\n\n81. Kontrak Kerja Sama adalah kontrak bagi hasil atau bentuk kontrak kerja sama lain dalam kegiatan eksplorasi dan eksploitasi yang lebih menguntungkan negara dan hasilnya dipergunakan sebesar-besarnya untuk kemakmuran rakyat.\n\n82. Surat Keterangan Terdaftar Objek Pajak adalah surat keterangan yang diterbitkan oleh Kepala Kantor Pelayanan Pajak sebagai pemberitahuan bahwa objek pajak dan Wajib Pajak telah terdaftar dalam sistem administrasi perpajakan Direktorat Jenderal Pajak.\n\n83. Kontraktor adalah badan usaha atau bentuk usaha tetap yang ditetapkan untuk melakukan eksplorasi dan eksploitasi pada suatu wilayah kerja berdasarkan Kontrak Kerja Sama dengan satuan kerja khusus pelaksana kegiatan usaha hulu minyak dan gas bumi",
+  "model": "glm-ocr",
+  "usage": {}
+}
