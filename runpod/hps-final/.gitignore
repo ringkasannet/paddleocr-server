@@ -1,0 +1,13 @@
+# Model weights — never commit these
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# Test output
+tests/results/
+tests/kemenkeu/
+
+# Cached PDFs
+*.pdf
