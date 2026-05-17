@@ -186,6 +186,7 @@ redirect_stderr=true
 CONF
 
 # ── Register with supervisor (already running in base image) ──────────────────
+deactivate
 supervisorctl reread
 supervisorctl update
 
