@@ -185,8 +185,12 @@ stdout_logfile_maxbytes=0
 redirect_stderr=true
 CONF
 
-# ── Register with supervisor (already running in base image) ──────────────────
+# ── Register with supervisor ──────────────────────────────────────────────────
 deactivate
+if ! pgrep -x supervisord > /dev/null; then
+    supervisord -c /etc/supervisor/supervisord.conf
+    sleep 2
+fi
 supervisorctl reread
 supervisorctl update
 
