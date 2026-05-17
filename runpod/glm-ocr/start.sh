@@ -23,7 +23,7 @@ set -euo pipefail
 INSTANCES="${INSTANCES:-1}"
 VLLM_PORT="${VLLM_PORT:-8000}"
 GLMOCR_PORT="${GLMOCR_PORT:-5002}"
-MODEL="THUDM/GLM-OCR"
+MODEL="zai-org/GLM-OCR"
 MAX_MODEL_LEN=4096
 MTP_JSON='{"method":"mtp","num_speculative_tokens":3}'
 VENV=". /venv/main/bin/activate"
