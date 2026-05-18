@@ -1,0 +1,989 @@
+{
+  "delayTime": 16373,
+  "executionTime": 2185,
+  "id": "172d3fb1-d686-4fc4-97c2-96e71baffa2a-e2",
+  "output": {
+    "dpi": 150,
+    "pages": [
+      {
+        "height_px": 1632,
+        "page_num": 0,
+        "regions": [
+          {
+            "bbox": [
+              920,
+              31,
+              1118,
+              87
+            ],
+            "order": 0,
+            "score": 0.8524,
+            "text": "",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              71,
+              127,
+              961,
+              177
+            ],
+            "order": 1,
+            "score": 0.3227,
+            "text": "Received 20 November 2024, accepted 22 January 2025, date of publication 29 January 2025, date of current version 18 February 2025.\r\nDigital Object Identifier 10.1109/ACCESS.2025.3536095",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              71,
+              127,
+              961,
+              177
+            ],
+            "order": 2,
+            "score": 0.4105,
+            "text": "Received 20 November 2024, accepted 22 January 2025, date of publication 29 January 2025, date of current version 18 February 2025.\r\nDigital Object Identifier 10.1109/ACCESS.2025.3536095",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              0,
+              214,
+              220,
+              270
+            ],
+            "order": 3,
+            "score": 0.3492,
+            "text": "",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              0,
+              214,
+              220,
+              270
+            ],
+            "order": 4,
+            "score": 0.381,
+            "text": "",
+            "type": "image"
+          },
+          {
+            "bbox": [
+              61,
+              221,
+              221,
+              266
+            ],
+            "order": 5,
+            "score": 0.3128,
+            "text": "",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              288,
+              801,
+              389
+            ],
+            "order": 6,
+            "score": 0.9407,
+            "text": "A Multifaceted Vision of the Human-AI\r\nCollaboration: A Comprehensive Review",
+            "type": "doc_title"
+          },
+          {
+            "bbox": [
+              69,
+              426,
+              949,
+              506
+            ],
+            "order": 7,
+            "score": 0.7701,
+            "text": "MAITE PUERTA-BELDARRAIN 1\r\n, OIHANE GÓMEZ-CARMONA 1,\r\nRUBÉN SÁNCHEZ-CORCUERA 2, DIEGO CASADO-MANSILLA 2, DIEGO LÓPEZ-DE-IPIÑA 2,\r\nAND LIMING CHEN3, (Senior Member, IEEE)\r\n1",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              71,
+              510,
+              646,
+              565
+            ],
+            "order": 8,
+            "score": 0.3707,
+            "text": "1Deustotech, University of Deusto, 48007 Bilbao, Spain\r\n2Faculty of Engineering, University of Deusto, 48007 Bilbao, Spain\r\n3School of Computer Science and Technology, Dalian University of Technology, Dalian 116024, China\r\nCdihMiPBldi(004@d)",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              70,
+              560,
+              548,
+              580
+            ],
+            "order": 9,
+            "score": 0.5055,
+            "text": "Corresponding author: Maite Puerta-Beldarrain (mpuerta004@deusto.es)",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              70,
+              590,
+              967,
+              688
+            ],
+            "order": 10,
+            "score": 0.7579,
+            "text": "This work has been supported by grant IT1582-22 from the Basque Government, which recognizes Human-centric Computing for Smart\r\nSustainable Communities and Environments (DEUSTEK5) as an excellent research group under the Basque university system. Besides, we\r\nacknowledge the Ministerio de Ciencia e Innovación for Internet of People (IoP), under Grant No.: PID2020-119682RB-I00. Finally, this\r\nwork has been partially supported by the European Commission through the Wearables and drones for City Socio-Environmental\r\nObservations and Behavioral Change (SOCIO-BEE) project Under Grant No. 101037648.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              74,
+              743,
+              983,
+              1122
+            ],
+            "order": 11,
+            "score": 0.9576,
+            "text": "ABSTRACT Human-AI collaboration has evolved into a complex, multidimensional paradigm shaped\r\nby research in various domains. Key areas such as human-in-the-loop systems, Interactive Machine\r\nLearning (IML), Hybrid Intelligence, and Human-Agent Interaction have significantly contributed to this\r\ndevelopment. However, these fields often lack cohesion, underscoring the need for a cohesive perspective\r\nto advance. This work addresses this gap by integrating insights from diverse aspects of collaboration to\r\npresent a holistic approach to fostering effective and adaptive interactions between humans and artificial\r\nagents. It emphasizes empowering end-users with greater control and involvement in decision-making\r\nprocesses, thereby enhancing both the levels of interactivity and adaptability within intelligent systems.\r\nMoving beyond a focus on AI training techniques, this paper presents a broader perspective on incorporating\r\nhuman input into AI decision-making and learning processes, highlighting the importance of flexibility in\r\nsystems and user engagement. The manuscript proposes a framework encompassing five levels of human\r\nintegration and examines their relationship with core collaboration aspects, including the system purpose,\r\nparticipant expertise, and system proactivity. By synthesizing current knowledge on human-AI collaboration\r\nand outlining essential design principles, this work aims to advance the field and foster interdisciplinary\r\ncollaboration among researchers, practitioners, and designers.",
+            "type": "abstract"
+          },
+          {
+            "bbox": [
+              70,
+              1156,
+              982,
+              1232
+            ],
+            "order": 12,
+            "score": 0.9198,
+            "text": "INDEX TERMS Hybrid intelligence, human-AI collaboration, human–robot collaboration, human–machine\r\ncollaboration, human-in-the-loop, interactive machine learning, human–machine symbiosis, human-centred\r\nAI.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              71,
+              1251,
+              239,
+              1274
+            ],
+            "order": 13,
+            "score": 0.8008,
+            "text": "I. INTRODUCTION",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              610,
+              1251,
+              1126,
+              1529
+            ],
+            "order": 14,
+            "score": 0.9636,
+            "text": "Understanding this technological evolution requires a\r\nthorough examination of how technological systems have\r\nadapted to facilitate human involvement in decision-making\r\nprocesses. This transformation likely began with the develop\u0002ment of the Ubiquitous Computing paradigm, which ignited\r\nthe desire for greater technological adaptability and connec\u0002tivity [4]. As these technologies became more widespread,\r\nthe concept of Smart Environments emerged, designed to\r\nenhance our surroundings without demanding active human\r\nengagement [5], [6]. Building on this foundation, Ambient\r\nIntelligence (AmI) and Intelligent Environments (IE) further",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              1277,
+              581,
+              1454
+            ],
+            "order": 15,
+            "score": 0.9484,
+            "text": "Technology has rapidly evolved to become an integral\r\ncomponent of contemporary life, progressively incorporating\r\nhumans into its decision-making processes and actively\r\nintegrating them within the technological framework [1], [2],\r\n[3]. The rising emphasis on human-centered technology has\r\nbeen a significant driver behind the advancements in AI’s\r\nlearning and reasoning capabilities.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              69,
+              1480,
+              581,
+              1530
+            ],
+            "order": 16,
+            "score": 0.8906,
+            "text": "The associate editor coordinating the review of this manuscript and\r\napproving it for publication was Zijian Zhang .",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              333,
+              1548,
+              862,
+              1581
+            ],
+            "order": 17,
+            "score": 0.7935,
+            "text": "2025 The Authors. This work is licensed under a Creative Commons Attribution 4.0 License.\r\nFor more information, see https://creativecommons.org/licenses/by/4.0/",
+            "type": "footer"
+          },
+          {
+            "bbox": [
+              71,
+              1562,
+              180,
+              1581
+            ],
+            "order": 18,
+            "score": 0.8186,
+            "text": "VOLUME 13, 2025",
+            "type": "footer"
+          },
+          {
+            "bbox": [
+              1076,
+              1562,
+              1123,
+              1581
+            ],
+            "order": 19,
+            "score": 0.6805,
+            "text": "",
+            "type": "number"
+          }
+        ],
+        "width_px": 1200
+      },
+      {
+        "height_px": 1632,
+        "page_num": 1,
+        "regions": [
+          {
+            "bbox": [
+              70,
+              33,
+              236,
+              67
+            ],
+            "order": 0,
+            "score": 0.7702,
+            "text": "",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              441,
+              49,
+              1125,
+              71
+            ],
+            "order": 1,
+            "score": 0.8583,
+            "text": "M. Puerta-Beldarrain et al.: Multifaceted Vision of the Human-AI Collaboration: A Comprehensive Review",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              68,
+              133,
+              582,
+              407
+            ],
+            "order": 2,
+            "score": 0.9664,
+            "text": "advanced the principle of user-centric technology, prioritizing\r\ninteractive and responsive environments [7], [8]. In more\r\nrecent developments, the concept of the Internet of People\r\n(IoP) has shifted its focus towards recognizing users as\r\nactive contributors within technological ecosystems, rather\r\nthan passive recipients of data-driven services [2], [9]. These\r\nevolving fields collectively illustrate that technology has been\r\ncontinuously advancing to meet users’ increasing demand\r\nfor a more immersive and integrated relationship with\r\ntechnology, positioning them in a central and participatory\r\nrole.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              610,
+              134,
+              1125,
+              309
+            ],
+            "order": 3,
+            "score": 0.961,
+            "text": "the five clusters obtained based on the main characteristics\r\nof collaboration. Section VI describes the essential design\r\nprinciples users need for a long-lasting collaboration. Sec\u0002tions VII discuss the necessity to integrate human beings’\r\nopinions and knowledge in the design phase of future\r\nintelligent systems. Finally, in Section VIII the conclusions\r\nof this work are presented.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              612,
+              329,
+              975,
+              377
+            ],
+            "order": 4,
+            "score": 0.8933,
+            "text": "II. A MULTIFACETED OVERVIEW OF THE\r\nCOLLABORATION",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              611,
+              382,
+              1125,
+              678
+            ],
+            "order": 5,
+            "score": 0.9702,
+            "text": "Generally, collaboration is understood as two or more\r\nentities working together, sharing responsibility for solving\r\nproblems, and actively interacting to achieve a common\r\ngoal [16]. The primary purpose of collaboration is to leverage\r\nthe strengths of each entity to compensate for the limitations\r\nof others, enabling achievements beyond what each could\r\naccomplish independently [12], [14], [17], [18]. However,\r\nthis definition can vary significantly depending on the\r\nspecific research domain. This section explores the benefits\r\nand challenges of collaboration and examines the different\r\nperspectives that this concept encompasses across various\r\nfields.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              409,
+              582,
+              783
+            ],
+            "order": 6,
+            "score": 0.9715,
+            "text": "The progression of technology has significantly influenced\r\nthe concept of collaboration across multiple disciplines\r\nover the years [10], [11]. In this context, collaboration is\r\ndefined as joint interactions between technology and its\r\nusers aimed at achieving a specific outcome. This notion of\r\ncollaboration has evolved, taking on various terminologies\r\nand attributes depending on the particular field of study.\r\nThis variation has led to a fragmentation of the concept\r\nacross different domains, with each area focusing on unique\r\ndimensions of collaborative processes [12], [13], [14], [15].\r\nSuch fragmentation has contributed to a lack of coherence\r\nin the literature, creating obstacles to developing a unified\r\nunderstanding of the different types of collaboration, their\r\nrequirements, and the nuances in integrating users into the\r\ndecision-making process.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              611,
+              679,
+              1125,
+              904
+            ],
+            "order": 7,
+            "score": 0.9675,
+            "text": "Artificial Intelligence (AI) has demonstrated remarkable\r\ncomputational capabilities, excelling in tasks that involve\r\nrecognizing patterns, handling unforeseen scenarios, and\r\nadapting to diverse conditions using advanced techniques like\r\nzero-shot learning and pre-training models [19], [20], [21].\r\nThese capabilities enable AI to identify complex patterns\r\nin large datasets and process information at speeds that far\r\nexceed human abilities, all while remaining unaffected by\r\nfactors such as stress, motivation, or fatigue [22].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              783,
+              581,
+              982
+            ],
+            "order": 8,
+            "score": 0.959,
+            "text": "This paper aims to bridge these diverse viewpoints by pre\u0002senting a unified framework that facilitates the development\r\nof human-AI collaborative technologies based on a holistic\r\nunderstanding of the types and requirements of collaboration.\r\nIt strives to synthesize insights from various research areas\r\nto establish a balanced, productive, and sustainable model of\r\ncollaboration between humans and artificial intelligence (AI).\r\nThe core contributions of this paper include:",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              610,
+              905,
+              1126,
+              1179
+            ],
+            "order": 9,
+            "score": 0.9698,
+            "text": "However, despite its strengths, AI’s performance is heavily\r\ndependent on the quality of its training data. Inaccuracies or\r\nbiases in this data can lead to flawed outcomes, particularly in\r\nsensitive areas such as race, gender, ethics, and politics [20],\r\n[23]. Furthermore, AI often lacks a deep understanding\r\nof language and context, which can result in misinterpre\u0002tations that undermine the accuracy of decision-making\r\nprocesses [20]. In contrast, humans inherently possess\r\ncontextual awareness and ethical reasoning, allowing them to\r\nnavigate ambiguities and make more nuanced decisions than\r\nthe machines [24].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              91,
+              982,
+              580,
+              1056
+            ],
+            "order": 10,
+            "score": 0.9316,
+            "text": "• A comprehensive overview of AI techniques and\r\nsubfields that are instrumental in creating interactive\r\ntechnologies.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              89,
+              1057,
+              581,
+              1230
+            ],
+            "order": 11,
+            "score": 0.9536,
+            "text": "• A refined classification system categorizing five groups\r\nof human-AI collaboration, providing a structured guide\r\nto understanding the different types of collaboration\r\nand their distinctive features. This system is organized\r\naround key aspects of collaboration, such as the\r\ndegree of human involvement, level of interaction, and\r\ncollaboration type.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              610,
+              1180,
+              1125,
+              1531
+            ],
+            "order": 12,
+            "score": 0.9719,
+            "text": "While the potential for collaboration between humans\r\nand AI is substantial due to their complementary strengths,\r\nseveral significant challenges must be addressed to ensure\r\nits success. For effective collaboration, both AI systems\r\nand human participants need to understand each other’s\r\nroles, integrate each other’s capabilities into their strategies,\r\nand communicate clearly to avoid misunderstandings [25].\r\nTechnical barriers also emerge from the fundamentally\r\ndifferent ways humans and AI process information, which\r\ncan create obstacles to seamless communication [25],\r\n[26]. Additionally, the complexity and opacity of many\r\nAI models—often referred to as black-box systems—pose\r\nchallenges in terms of transparency, trust, and acceptance\r\nwithin collaborative environments [27], [28]. Nevertheless,",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              90,
+              1231,
+              582,
+              1354
+            ],
+            "order": 13,
+            "score": 0.9513,
+            "text": "• Design principles for developing future human-centered\r\ncollaborative technologies. These principles aim to\r\nexpand the narrow focus of existing research by foster\u0002ing a broader approach that enhances the comprehension\r\nof human needs within collaborative systems.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              1355,
+              582,
+              1530
+            ],
+            "order": 14,
+            "score": 0.9562,
+            "text": "The remainder of this paper is organized as follows.\r\nSection II highlights several research areas related to human\u0002AI collaboration to illustrate the necessity of developing a\r\nshared perspective on this concept. Section III describes the\r\nMethodology employed for the literature review. Section IV\r\nexplains the techniques to develop an interactive approach\r\nbetween users and intelligent systems. Section V presents",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              72,
+              1552,
+              120,
+              1570
+            ],
+            "order": 15,
+            "score": 0.6181,
+            "text": "",
+            "type": "number"
+          },
+          {
+            "bbox": [
+              72,
+              1552,
+              120,
+              1570
+            ],
+            "order": 16,
+            "score": 0.3039,
+            "text": "29376",
+            "type": "footer"
+          },
+          {
+            "bbox": [
+              1015,
+              1552,
+              1124,
+              1571
+            ],
+            "order": 17,
+            "score": 0.8068,
+            "text": "VOLUME 13, 2025",
+            "type": "footer"
+          }
+        ],
+        "width_px": 1200
+      },
+      {
+        "height_px": 1632,
+        "page_num": 2,
+        "regions": [
+          {
+            "bbox": [
+              956,
+              33,
+              1122,
+              68
+            ],
+            "order": 0,
+            "score": 0.8314,
+            "text": "",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              70,
+              49,
+              754,
+              71
+            ],
+            "order": 1,
+            "score": 0.8707,
+            "text": "M. Puerta-Beldarrain et al.: Multifaceted Vision of the Human-AI Collaboration: A Comprehensive Review",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              611,
+              133,
+              1126,
+              260
+            ],
+            "order": 2,
+            "score": 0.9535,
+            "text": "interaction. To develop a comprehensive understanding of\r\nthe various forms of collaboration, this paper will analyze\r\nthe degrees of human involvement within these collaborative\r\napproaches and identify the key design principles necessary\r\nfor enabling effective human participation.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              69,
+              134,
+              580,
+              207
+            ],
+            "order": 3,
+            "score": 0.935,
+            "text": "fostering collaboration between humans and AI remains one\r\nof the most promising pathways for enhancing the capabilities\r\nof both entities.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              69,
+              209,
+              581,
+              382
+            ],
+            "order": 4,
+            "score": 0.9614,
+            "text": "This approach, despite its inherent challenges, offers\r\nconsiderable advantages by leveraging the unique capabilities\r\nof both humans and AI technologies. A major issue, however,\r\nlies in achieving a unified understanding of the diverse\r\nresearch fields that apply the concept of collaboration, espe\u0002cially in pinpointing the specific attributes that characterize\r\ncollaboration within each field:",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              634,
+              290,
+              1107,
+              1119
+            ],
+            "order": 5,
+            "score": 0.944,
+            "text": "",
+            "type": "image"
+          },
+          {
+            "bbox": [
+              92,
+              382,
+              581,
+              480
+            ],
+            "order": 6,
+            "score": 0.9476,
+            "text": "• Human-in-the-loop (HiTL): Focuses on a human\u0002centered approach to collaboration by directly involv\u0002ing individuals in AI systems’ decision-making pro\u0002cesses [29], [30], [31].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              90,
+              482,
+              581,
+              605
+            ],
+            "order": 7,
+            "score": 0.955,
+            "text": "• Interactive Machine Learning (IML): Highlights the\r\nimportance of creating interactive communication chan\u0002nels between users and AI models, emphasizing user\r\nengagement throughout various stages of AI develop\u0002ment [32].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              91,
+              606,
+              580,
+              682
+            ],
+            "order": 8,
+            "score": 0.9433,
+            "text": "• Human-Robot Collaboration: Centers on developing\r\nrobots designed to work collaboratively with humans in\r\nphysical spaces to achieve common objectives [33].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              683,
+              581,
+              780
+            ],
+            "order": 9,
+            "score": 0.9489,
+            "text": "• Collaborative Interactive Learning (CIL): Aims to\r\ncreate intelligent systems that seamlessly assist humans\r\nin everyday tasks through continuous interaction and\r\nlearning [13], [34].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              782,
+              580,
+              881
+            ],
+            "order": 10,
+            "score": 0.9455,
+            "text": "• Human-Agent Symbiosis: Inspired by biological sym\u0002biosis, this concept emphasizes the mutual benefits\r\narising from the dynamic interaction between humans\r\nand AI systems [35], [36].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              91,
+              882,
+              580,
+              956
+            ],
+            "order": 11,
+            "score": 0.9332,
+            "text": "• Human-Computer Interaction: Seeks to optimize the\r\ndesign of intuitive and efficient interaction methods\r\nbetween users and autonomous systems [37], [38].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              957,
+              580,
+              1056
+            ],
+            "order": 12,
+            "score": 0.9403,
+            "text": "• Collective Hybrid Intelligence: Advocates the notion\r\nthat true intelligence emerges from the sustained col\u0002laboration and co-learning between human and machine\r\ncounterparts [39].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              1057,
+              580,
+              1156
+            ],
+            "order": 13,
+            "score": 0.9427,
+            "text": "• Cyber-Physical-Human Systems (CPHSs): Focuses on\r\nthe seamless integration of digital, physical, and human\r\ncomponents to facilitate efficient information exchange\r\nand task execution [40].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              613,
+              1138,
+              1084,
+              1176
+            ],
+            "order": 14,
+            "score": 0.8806,
+            "text": "",
+            "type": "figure_title"
+          },
+          {
+            "bbox": [
+              91,
+              1157,
+              581,
+              1256
+            ],
+            "order": 15,
+            "score": 0.9447,
+            "text": "• Hybrid Intelligence Systems: Examines socio-technical\r\nframeworks that synergize human and AI capabilities\r\nto address complex problems through collaborative\r\nefforts [39], [41], [42].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              614,
+              1205,
+              799,
+              1227
+            ],
+            "order": 16,
+            "score": 0.7953,
+            "text": "III. METHODOLOGY",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              611,
+              1230,
+              1125,
+              1404
+            ],
+            "order": 17,
+            "score": 0.9577,
+            "text": "The methodology employed in this academic paper involved\r\na comprehensive exploration of the current landscape of\r\nhuman-AI collaboration and its related fields, as illustrated\r\nin Figure 1. This study followed a systematic review\r\napproach, drawing information from primary scholarly\r\nresearch databases, including Google Scholar, Scopus, and\r\nIEEE Xplore.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              1257,
+              580,
+              1380
+            ],
+            "order": 18,
+            "score": 0.9444,
+            "text": "• Artificial Intelligence Generative Content (AIGC):\r\nInvolves AI systems that generate creative outputs like\r\ntext, images, or music in a process that promotes\r\ncollaborative learning and user involvement [19], [20],\r\n[43], [44].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              92,
+              1382,
+              580,
+              1480
+            ],
+            "order": 19,
+            "score": 0.9366,
+            "text": "• Human-AI team: Suggests that humans and AI function\r\nnot as separate entities but as integrated parts of a\r\ncohesive team, working symbiotically towards shared\r\ngoals [45], [46].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              611,
+              1405,
+              1125,
+              1531
+            ],
+            "order": 20,
+            "score": 0.9559,
+            "text": "To gather relevant literature, the databases were queried\r\nusing a combination of targeted keywords, such as Inter\u0002active Machine Learning (IML), Human-Agent Collabo\u0002ration, Human-Robot Collaboration, Human-Agent Inter\u0002action, Human-Robot Interaction, Computer-in-the-Loop,",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              69,
+              1480,
+              581,
+              1531
+            ],
+            "order": 21,
+            "score": 0.9285,
+            "text": "Each of these research fields embodies unique character\u0002istics and focuses on specific facets of human-technology",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              71,
+              1552,
+              179,
+              1571
+            ],
+            "order": 22,
+            "score": 0.8233,
+            "text": "VOLUME 13, 2025",
+            "type": "footer"
+          },
+          {
+            "bbox": [
+              1076,
+              1552,
+              1123,
+              1570
+            ],
+            "order": 23,
+            "score": 0.5983,
+            "text": "",
+            "type": "number"
+          }
+        ],
+        "width_px": 1200
+      },
+      {
+        "height_px": 1632,
+        "page_num": 3,
+        "regions": [
+          {
+            "bbox": [
+              70,
+              34,
+              236,
+              67
+            ],
+            "order": 0,
+            "score": 0.7916,
+            "text": "",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              441,
+              50,
+              1125,
+              71
+            ],
+            "order": 1,
+            "score": 0.8548,
+            "text": "M. Puerta-Beldarrain et al.: Multifaceted Vision of the Human-AI Collaboration: A Comprehensive Review",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              610,
+              131,
+              1126,
+              859
+            ],
+            "order": 2,
+            "score": 0.9773,
+            "text": "interactive solutions that collaborate with people to build\r\ndynamic places and solutions in cooperation. To achieve\r\nthis collaboration, the end-users role must be empowered\r\nby giving them an active role and increased control (power\r\ndecision) over intelligent systems, creating more interactive\r\nspaces and services [47]. Nevertheless, traditional systems\r\nbased on AI and ML techniques (also called automatic\r\nML systems or aML) are not conceived with this vision\r\nin mind. They are designed to automatically learn from\r\ndata and produce outcomes, resolving problems without\r\nhuman intervention. In such scenarios, the initial strategy\r\nfor building some collaboration was relegated to allowing\r\nhumans to alter a predefined parameter of an aML algorithm\r\nto improve its performance [48]. As aML techniques are still\r\nextensively employed, they relegate human interaction to be\r\nextremely limited and concrete, preventing the integration\r\nof humans into the systems and long-lasting interaction and\r\ncollaboration. For this reason, the concept of Interactive\r\nMachine Learning (IML) emerges as an alternative to this\r\nclassical approach and, in particular, in evolving scenarios\r\nwhere users can actively collaborate, providing its capacity\r\nfor flexible and rapid adaptation to new circumstances in\r\nnew emerging smart solutions. That is to say, IML models\r\nare designed to integrate human input into the ML solutions\r\ninteractively, steering the supervised Learning process of\r\nthe model in different stages [49]. Thus, through these\r\ntechniques, the system can incorporate human expertise into\r\naccount and exploit their strengths, together with ethical,\r\nlegal, and societal human considerations [14].",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              134,
+              581,
+              258
+            ],
+            "order": 3,
+            "score": 0.9448,
+            "text": "Human-in-the-Loop (HiTL), Collective Intelligence, Human\u0002AI Coordination, Human-Agent Team, Human-AI Team,\r\nHybrid Intelligence, and AI-generated Content. Articles\r\ncontaining these keywords in the title, abstract, or keywords\r\nwere initially selected.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              259,
+              582,
+              458
+            ],
+            "order": 4,
+            "score": 0.9617,
+            "text": "Following the initial selection, a rigorous screening process\r\nwas conducted. The abstracts of relevant articles were\r\nmeticulously evaluated to identify works closely aligned with\r\nour research objectives. This approach ensured that only\r\nstudies involving user participation as active component were\r\nconsidered. Additionally, the most important references from\r\nkey papers were reviewed using the Snowballing method,\r\napplying the same exclusion criteria as described.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              458,
+              582,
+              706
+            ],
+            "order": 5,
+            "score": 0.9655,
+            "text": "The selected works provided two key insights: the classi\u0002fication of Human-AI Collaboration and the formulation of\r\nCollaborative Design Principles. For the Human-AI Collabo\u0002ration classification, we specifically focused on studies where\r\ncollaboration involved humans as active participants, rather\r\nthan merely passive data collectors. To capture the full range\r\nof collaborative possibilities, we selected various types of\r\ncollaboration that illustrate the diverse nature of this concept\r\nand its applicability across different contexts, aiming to create\r\na comprehensive cluster of collaboration models.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              707,
+              581,
+              931
+            ],
+            "order": 6,
+            "score": 0.9622,
+            "text": "For the development of collaborative design principles,\r\nan extensive investigation was conducted using additional\r\nkeywords such as trust, engagement, communication, feed\u0002back, and explicability. This phase involved synthesizing\r\ninsights from various sources to formulate design guidelines\r\nthat facilitate effective human-AI interaction. By combining\r\nthese findings with the outcomes of the screening process,\r\nwe were able to build a robust framework for designing\r\nhuman-AI collaboration systems.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              610,
+              859,
+              1125,
+              1256
+            ],
+            "order": 7,
+            "score": 0.9738,
+            "text": "To better understand IML’s role play, it is important to\r\nknow its evolution and the aspects that have led it to its\r\ncurrent perception. To begin with, the idea of IML was\r\ninitially approached by Ware et al. [50]. In their work,\r\nthey presented a graphical concept to ML with explicit\r\nrepresentations of data in which experts could participate\r\nin defining decision boundaries to improve the construction\r\nof ML classifiers by incorporating human input. In the\r\nsame line, later, Fails and Olsen introduced a more mature\r\nrepresentation of the concept of IML and its comparison\r\nagainst classical ML approaches [51]. They explored the\r\nconvenience of interactive approaches to guide the training\r\nof a classifier until the desired results are met, leveraging the\r\ncapabilities of a domain expert during the learning process.\r\nIn this line, Smith et al., [52] studied this collaboration from\r\na two-fold perspective.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              68,
+              933,
+              582,
+              1081
+            ],
+            "order": 8,
+            "score": 0.9509,
+            "text": "This methodology encompasses a comprehensive classifi\u0002cation of collaboration levels informed by the selected works\r\nand a set of collaborative design principles. This study aims\r\nto provide a thorough understanding of the current state of\r\nhuman-AI collaboration, laying the foundation for future\r\nadvancements in this dynamic field.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              70,
+              1100,
+              548,
+              1122
+            ],
+            "order": 9,
+            "score": 0.8398,
+            "text": "IV. INTERACTIVE TECHNIQUES FOR COLLABORATION",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              68,
+              1125,
+              582,
+              1375
+            ],
+            "order": 10,
+            "score": 0.9634,
+            "text": "This section provides a concise introduction to collaborative\r\nand interactive techniques, acknowledging the current gap\r\nin a comprehensive and systematic review of interactive\r\ncollaboration methods and AI training techniques. To address\r\nthis gap, the section explores Interactive Machine Learning\r\nand its subfields, including Active Learning and Rein\u0002forcement Learning. Additionally, the discussion extends\r\nto the domain of Artificial Intelligence-Generated Content,\r\nreflecting the growing significance and popularity of this\r\nemerging approach.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              609,
+              1259,
+              1126,
+              1533
+            ],
+            "order": 11,
+            "score": 0.9687,
+            "text": "On the one hand, it addresses how systems can learn inter\u0002actively from non-ML experts and, on the other hand, how\r\nappropriate tools can also enrich non-experts’ experience to\r\nguide them in the process. This involves those approaches\r\nthat take advantage of human agents (i.e., domain experts)\r\nto create improved models and solutions that can optimize\r\ntheir learning behaviour based on human knowledge and\r\nexperience [53], [54], [55]. Indeed, taking this ML model\u0002building procedure repeatedly with end-user input, other\r\nauthors settled on more participatory approaches and started\r\ntaking advantage of human knowledge and, more specifically,",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              69,
+              1402,
+              409,
+              1425
+            ],
+            "order": 12,
+            "score": 0.8326,
+            "text": "A. INTERACTIVE MACHINE LEARNING",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              67,
+              1430,
+              582,
+              1530
+            ],
+            "order": 13,
+            "score": 0.9404,
+            "text": "As has been introduced, the evolution of future smart\r\nenvironments and systems is accelerated by technological\r\nbreakthroughs, resulting in an eventual tighter interaction\r\nwith users. The next step of this process is to create",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              72,
+              1552,
+              120,
+              1570
+            ],
+            "order": 14,
+            "score": 0.3078,
+            "text": "29378",
+            "type": "footer"
+          },
+          {
+            "bbox": [
+              72,
+              1552,
+              120,
+              1570
+            ],
+            "order": 15,
+            "score": 0.6122,
+            "text": "",
+            "type": "number"
+          },
+          {
+            "bbox": [
+              1015,
+              1552,
+              1124,
+              1571
+            ],
+            "order": 16,
+            "score": 0.8122,
+            "text": "VOLUME 13, 2025",
+            "type": "footer"
+          }
+        ],
+        "width_px": 1200
+      }
+    ],
+    "searchable": true
+  },
+  "status": "COMPLETED",
+  "workerId": "opkhyic7af3uyz"
+}

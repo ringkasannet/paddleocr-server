@@ -140,7 +140,7 @@ def _start_vllm():
         "--tensor-parallel-size", "1",
         "--trust-remote-code",
         "--max-num-seqs", "32",
-        "--disable-log-requests",
+        "--no-enable-log-requests",
         "--speculative-config", MTP_JSON,
     ]
     _vllm_proc = subprocess.Popen(cmd, env=env)

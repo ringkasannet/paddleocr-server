@@ -48,6 +48,11 @@ UVICORN_WORKERS=${UVICORN_WORKERS:-4}
 INIT_TIMEOUT=${INIT_TIMEOUT:-600}
 
 # ── Stop existing services ────────────────────────────────────
+# Empty string hides all GPUs from CUDA; unset lets CUDA see all available devices
+if [[ -z "${CUDA_VISIBLE_DEVICES:-}" ]]; then
+    unset CUDA_VISIBLE_DEVICES
+fi
+
 echo "[start] Stopping existing services..."
 pkill -f "tritonserver|uvicorn|genai_server" 2>/dev/null || true
 for i in $(seq 1 35); do
@@ -102,8 +107,9 @@ T_TOTAL=$SECONDS
 # ── 1. vLLM ───────────────────────────────────────────────────
 echo "[start] Starting vLLM (port $VLLM_PORT)..."
 T_VLLM=$SECONDS
-cat > /tmp/vllm_backend.yaml << 'EOF'
-gpu-memory-utilization: 0.50
+GPU_MEM_UTIL=${GPU_MEMORY_UTILIZATION:-0.50}
+cat > /tmp/vllm_backend.yaml << EOF
+gpu-memory-utilization: ${GPU_MEM_UTIL}
 EOF
 $PADDLE_PY -m paddleocr genai_server \
     --model_name "$MODEL_NAME" \

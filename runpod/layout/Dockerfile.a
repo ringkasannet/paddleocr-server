@@ -1,0 +1,28 @@
+FROM runpod/pytorch:1.0.3-cu1281-torch260-ubuntu2204
+
+# Option A: weights baked into the image layer.
+# from_pretrained() reads from the container's own filesystem — no network I/O at cold start.
+# HF_HUB_OFFLINE is set AFTER the download so the build-time download can reach HuggingFace.
+ENV HF_HOME=/app/hf_cache \
+    PYTHONUNBUFFERED=1
+
+RUN apt-get update -qq && \
+    apt-get install -y --no-install-recommends poppler-utils && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir \
+    "transformers>=5.3.0" \
+    "pdf2image==1.17.0" \
+    "Pillow" \
+    "opencv-python-headless" \
+    "runpod"
+
+# Separate layer so pip cache is not invalidated when model weights change.
+RUN hf download PaddlePaddle/PP-DocLayoutV3_safetensors
+
+# Block runtime downloads only after build-time download is complete.
+ENV HF_HUB_OFFLINE=1
+
+WORKDIR /app
+COPY handler.py .
+CMD ["python", "-u", "handler.py"]

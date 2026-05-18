@@ -1,0 +1,22 @@
+# Local development requirements for handler.py (RTX 3070, CUDA 12.x)
+#
+# Create and activate env first:
+#   python -m venv .venv
+#   .venv\Scripts\activate
+#
+# Then install:
+#   pip install -r requirements-local.txt
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+torch>=2.6.0
+torchvision
+transformers>=5.3.0
+pypdfium2
+Pillow>=10.0.0
+numpy
+opencv-python-headless
+runpod
+
+# test_local.py only
+pypdf

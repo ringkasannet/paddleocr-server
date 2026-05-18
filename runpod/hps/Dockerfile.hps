@@ -86,11 +86,12 @@ RUN /paddlex/py310/bin/python3 -c "import paddleocr; print('paddleocr OK')" && \
     test -f /opt/hps/server/pipeline_config.yaml && echo "HPS SDK OK" && \
     test -f /opt/.venv_gateway/bin/uvicorn && echo "gateway venv OK"
 
-# Keep container alive so you can SSH in and run the start script manually.
-# On pod boot, exec:  bash /opt/start_hps.sh
-CMD ["sleep", "infinity"]
+# Start all services automatically on pod boot.
+# SSH access is provided by RunPod/Vast.ai infrastructure — unaffected by CMD.
+CMD ["bash", "/opt/start_hps.sh"]
 
 # NVIDIA Container Toolkit: mount compute + utility libraries so CUDA works at runtime
 # Placed at the bottom so edits here don't invalidate any build layers above.
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=compute,utility
+ENV NVIDIA_REQUIRE_CUDA="cuda>=11.8"

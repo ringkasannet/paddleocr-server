@@ -218,3 +218,9 @@ curl -s http://localhost:8080/health/ready && echo "Gateway: READY"
 | Gateway venv | `/workspace/.venv_gateway/bin/` |
 | Gateway app | `/workspace/gateway/app.py` |
 | Models cache | `/workspace/models/hf_cache/` |
+
+ssh root@213.144.200.242 -p 13595 -i ~/.ssh/id_ed25519
+
+scp -i ~/.ssh/id_ed25519 -P 13595 \
+  /mnt/d/paddleocr/PaddleOCR-main/runpod/hps/TASK.md \
+  root@213.144.200.242:/workspace/TASK.md

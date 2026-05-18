@@ -1,0 +1,514 @@
+{
+  "delayTime": 15925,
+  "executionTime": 1744,
+  "id": "1b304de7-5cb1-45d9-93d0-ce4dfa25bbbd-e1",
+  "output": {
+    "dpi": 150,
+    "pages": [
+      {
+        "height_px": 1651,
+        "page_num": 0,
+        "regions": [
+          {
+            "bbox": [
+              145,
+              156,
+              581,
+              215
+            ],
+            "order": 0,
+            "score": 0.8317,
+            "text": "BERITA NEGARA REPUBLIK INDONESIA\r\nNo. 999, 2025 KEMENKEU. Pajak. UMKM.",
+            "type": "header"
+          },
+          {
+            "bbox": [
+              144,
+              248,
+              773,
+              305
+            ],
+            "order": 1,
+            "score": 0.7847,
+            "text": "PERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\r\nNOMOR 999/PMK.03/2025",
+            "type": "doc_title"
+          },
+          {
+            "bbox": [
+              145,
+              340,
+              259,
+              365
+            ],
+            "order": 2,
+            "score": 0.8174,
+            "text": "TENTANG",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              143,
+              399,
+              1014,
+              458
+            ],
+            "order": 3,
+            "score": 0.6219,
+            "text": "PAJAK PENGHASILAN ATAS PENGHASILAN DARI USAHA YANG DITERIMA ATAU \r\nDIPEROLEH WAJIB PAJAK YANG MEMILIKI PEREDARAN BRUTO TERTENTU",
+            "type": "doc_title"
+          },
+          {
+            "bbox": [
+              143,
+              399,
+              1014,
+              458
+            ],
+            "order": 4,
+            "score": 0.4391,
+            "text": "PAJAK PENGHASILAN ATAS PENGHASILAN DARI USAHA YANG DITERIMA ATAU \r\nDIPEROLEH WAJIB PAJAK YANG MEMILIKI PEREDARAN BRUTO TERTENTU",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              144,
+              492,
+              625,
+              518
+            ],
+            "order": 5,
+            "score": 0.8328,
+            "text": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              145,
+              551,
+              635,
+              579
+            ],
+            "order": 6,
+            "score": 0.7644,
+            "text": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              145,
+              612,
+              281,
+              640
+            ],
+            "order": 7,
+            "score": 0.8524,
+            "text": "Menimbang:",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              144,
+              645,
+              1119,
+              732
+            ],
+            "order": 8,
+            "score": 0.9258,
+            "text": "a. bahwa untuk mendorong peran serta masyarakat dalam kegiatan ekonomi formal dan \r\nmemberikan kemudahan dalam pelaksanaan kewajiban perpajakan bagi pelaku Usaha Mikro, Kecil, \r\ndan Menengah;",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              144,
+              737,
+              1128,
+              830
+            ],
+            "order": 9,
+            "score": 0.9286,
+            "text": "b. bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, perlu menetapkan \r\nPeraturan Menteri Keuangan tentang Pajak Penghasilan atas Penghasilan dari Usaha yang Diterima \r\natau Diperoleh Wajib Pajak yang Memiliki Peredaran Bruto Tertentu;",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              861,
+              268,
+              891
+            ],
+            "order": 10,
+            "score": 0.8445,
+            "text": "Mengingat:",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              183,
+              920,
+              1058,
+              1011
+            ],
+            "order": 11,
+            "score": 0.937,
+            "text": "1. Undang-Undang Nomor 7 Tahun 1983 tentang Pajak Penghasilan sebagaimana telah \r\nbeberapa kali diubah terakhir dengan Undang-Undang Nomor 7 Tahun 2021 tentang \r\nHarmonisasi Peraturan Perpajakan;",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              180,
+              1018,
+              1096,
+              1078
+            ],
+            "order": 12,
+            "score": 0.9118,
+            "text": "2. Peraturan Pemerintah Nomor 55 Tahun 2022 tentang Penyesuaian Pengaturan di Bidang \r\nPajak Penghasilan;",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              146,
+              1109,
+              318,
+              1137
+            ],
+            "order": 13,
+            "score": 0.8359,
+            "text": "MEMUTUSKAN:",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              145,
+              1171,
+              286,
+              1198
+            ],
+            "order": 14,
+            "score": 0.8289,
+            "text": "Menetapkan:",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              142,
+              1201,
+              1125,
+              1292
+            ],
+            "order": 15,
+            "score": 0.9419,
+            "text": "PERATURAN MENTERI KEUANGAN TENTANG PAJAK PENGHASILAN ATAS PENGHASILAN \r\nDARI USAHA YANG DITERIMA ATAU DIPEROLEH WAJIB PAJAK YANG MEMILIKI PEREDARAN \r\nBRUTO TERTENTU.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1325,
+              228,
+              1351
+            ],
+            "order": 16,
+            "score": 0.8147,
+            "text": "Pasal 1",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              143,
+              1385,
+              1089,
+              1478
+            ],
+            "order": 17,
+            "score": 0.9283,
+            "text": "Wajib Pajak dalam negeri yang memiliki peredaran bruto (omzet) dari usaha tidak melebihi \r\nRp4.800.000.000,00 (empat miliar delapan ratus juta rupiah) dalam 1 (satu) Tahun Pajak dikenai \r\nPajak Penghasilan yang bersifat final dalam jangka waktu tertentu.",
+            "type": "text"
+          }
+        ],
+        "width_px": 1275
+      },
+      {
+        "height_px": 1651,
+        "page_num": 1,
+        "regions": [
+          {
+            "bbox": [
+              145,
+              156,
+              230,
+              183
+            ],
+            "order": 0,
+            "score": 0.8051,
+            "text": "Pasal 2",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              143,
+              215,
+              1067,
+              308
+            ],
+            "order": 1,
+            "score": 0.9234,
+            "text": "Tarif Pajak Penghasilan yang bersifat final sebagaimana dimaksud dalam Pasal 1 ditetapkan \r\nsebesar 0,5% (nol koma lima persen) dikalikan dengan dasar pengenaan pajak berupa jumlah \r\nperedaran bruto setiap bulan.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              339,
+              230,
+              366
+            ],
+            "order": 2,
+            "score": 0.7921,
+            "text": "Pasal 3",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              145,
+              399,
+              1118,
+              525
+            ],
+            "order": 3,
+            "score": 0.9353,
+            "text": "(1) Atas bagian peredaran bruto dari usaha sampai dengan Rp500.000.000,00 (lima ratus juta \r\nrupiah) dalam 1 (satu) Tahun Pajak bagi Wajib Pajak orang pribadi tidak dikenai Pajak Penghasilan.\r\n(2) Penghitungan Pajak Penghasilan sebagaimana dimaksud dalam Pasal 2 dilakukan secara \r\nkumulatif setelah peredaran bruto melebihi jumlah sebagaimana dimaksud pada ayat (1).",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              554,
+              229,
+              581
+            ],
+            "order": 4,
+            "score": 0.7889,
+            "text": "Pasal 4",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              141,
+              613,
+              1115,
+              672
+            ],
+            "order": 5,
+            "score": 0.3076,
+            "text": "(1) Wajib Pajak menyetor Pajak Penghasilan terutang ke kas negara paling lambat tanggal 15 (lima \r\nbelas) bulan berikutnya setelah Masa Pajak berakhir.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              613,
+              1111,
+              739
+            ],
+            "order": 6,
+            "score": 0.7063,
+            "text": "(1) Wajib Pajak menyetor Pajak Penghasilan terutang ke kas negara paling lambat tanggal 15 (lima \r\nbelas) bulan berikutnya setelah Masa Pajak berakhir.\r\n(2) Wajib Pajak yang telah melakukan penyetoran sebagaimana dimaksud pada ayat (1) dianggap \r\ntelah menyampaikan Surat Pemberitahuan Masa Pajak Penghasilan.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              768,
+              230,
+              795
+            ],
+            "order": 7,
+            "score": 0.7972,
+            "text": "Pasal 5",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              144,
+              830,
+              761,
+              858
+            ],
+            "order": 8,
+            "score": 0.8261,
+            "text": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              143,
+              891,
+              1085,
+              950
+            ],
+            "order": 9,
+            "score": 0.9043,
+            "text": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan \r\npenempatannya dalam Berita Negara Republik Indonesia.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              981,
+              461,
+              1042
+            ],
+            "order": 10,
+            "score": 0.7952,
+            "text": "Ditetapkan di Jakarta\r\npada tanggal 8 Desember 2025",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1072,
+              626,
+              1100
+            ],
+            "order": 11,
+            "score": 0.7686,
+            "text": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              146,
+              1134,
+              183,
+              1161
+            ],
+            "order": 12,
+            "score": 0.5761,
+            "text": "ttd.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              146,
+              1193,
+              338,
+              1222
+            ],
+            "order": 13,
+            "score": 0.7985,
+            "text": "[NAMA MENTERI]",
+            "type": "paragraph_title"
+          },
+          {
+            "bbox": [
+              144,
+              1253,
+              461,
+              1315
+            ],
+            "order": 14,
+            "score": 0.7278,
+            "text": "Diundangkan di Jakarta\r\npada tanggal 8 Desember 2025",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1345,
+              387,
+              1371
+            ],
+            "order": 15,
+            "score": 0.3707,
+            "text": "DIREKTUR JENDERAL",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              142,
+              1347,
+              679,
+              1466
+            ],
+            "order": 16,
+            "score": 0.4353,
+            "text": "DIREKTUR JENDERAL\r\nPERATURAN PERUNDANG-UNDANGAN\r\nKEMENTERIAN HUKUM DAN HAK ASASI MANUSIA\r\nREPUBLIK INDONESIA,",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1376,
+              568,
+              1402
+            ],
+            "order": 17,
+            "score": 0.3496,
+            "text": "PERATURAN PERUNDANG-UNDANGAN",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1408,
+              678,
+              1435
+            ],
+            "order": 18,
+            "score": 0.3536,
+            "text": "KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              145,
+              1440,
+              395,
+              1466
+            ],
+            "order": 19,
+            "score": 0.3595,
+            "text": "REPUBLIK INDONESIA,",
+            "type": "text"
+          }
+        ],
+        "width_px": 1275
+      },
+      {
+        "height_px": 1651,
+        "page_num": 2,
+        "regions": [
+          {
+            "bbox": [
+              147,
+              158,
+              183,
+              182
+            ],
+            "order": 0,
+            "score": 0.6209,
+            "text": "ttd.",
+            "type": "text"
+          },
+          {
+            "bbox": [
+              146,
+              216,
+              319,
+              243
+            ],
+            "order": 1,
+            "score": 0.6542,
+            "text": "[NAMA DIRJEN]",
+            "type": "text"
+          }
+        ],
+        "width_px": 1275
+      }
+    ],
+    "searchable": true
+  },
+  "status": "COMPLETED",
+  "workerId": "sibl9y6hx7enxv"
+}
