@@ -107,8 +107,8 @@ def _extract_text_at_bbox(pdf: pdfium.PdfDocument, page_num: int,
     textpage.close()
     page.close()
     text = (text or "").strip()
-    text = re.sub(r"([a-z])([A-Z])", r"\1-\2", text)
-    text = text.replace("", "").replace("­", "")
+    text = re.sub(r"([a-z])([A-Z])", r"\1-\2", text)
+    text = text.replace("", "").replace("­", "")
     return text
 
 
@@ -372,4 +372,5 @@ def handler(job):
     return {"pages": result_pages, "dpi": dpi, "searchable": bool(searchable_set)}
 
 
-runpod.serverless.start({"handler": handler})
+if __name__ == "__main__":
+    runpod.serverless.start({"handler": handler})

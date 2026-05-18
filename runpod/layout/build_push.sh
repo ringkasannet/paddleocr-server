@@ -36,6 +36,15 @@ DOCKER_BUILDKIT=1 docker build \
 docker push "$IMAGE:$TAG-cached"
 
 echo ""
+echo "=== Pod: HTTP server (port 8080) ==="
+DOCKER_BUILDKIT=1 docker build \
+    -f Dockerfile.pod \
+    -t "$IMAGE:$TAG-pod" \
+    --progress=plain \
+    .
+docker push "$IMAGE:$TAG-pod"
+
+echo ""
 echo "Done."
 echo ""
 echo "  $IMAGE:$TAG-baked"
@@ -43,3 +52,6 @@ echo "    → RunPod endpoint: no Cached model setting needed"
 echo ""
 echo "  $IMAGE:$TAG-cached"
 echo "    → RunPod endpoint: Cached model = PaddlePaddle/PP-DocLayoutV3_safetensors"
+echo ""
+echo "  $IMAGE:$TAG-pod"
+echo "    → RunPod Pod: exposes HTTP on port 8080, POST / with same JSON input"

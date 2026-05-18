@@ -1,0 +1,18 @@
+FROM runpod/pytorch:1.0.3-cu1281-torch260-ubuntu2204
+
+# Model weights from RunPod model caching — set Cached model on the Pod template:
+#   PaddlePaddle/PP-DocLayoutV3_safetensors
+ENV HF_HOME=/runpod-volume/huggingface-cache \
+    PYTHONUNBUFFERED=1
+
+RUN pip install --no-cache-dir \
+    "transformers>=5.3.0" \
+    "pypdfium2" \
+    "Pillow" \
+    "fastapi" \
+    "uvicorn[standard]"
+
+WORKDIR /app
+COPY handler.py app.py ./
+EXPOSE 8080
+CMD ["python", "-u", "app.py"]
