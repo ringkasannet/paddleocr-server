@@ -1,0 +1,390 @@
+"""Test script for the deployed Modal layout worker.
+
+Usage:
+    python modal/test_layout.py document.pdf
+    python modal/test_layout.py document.pdf --repeat 3
+    python modal/test_layout.py document.pdf --concurrent 30
+    python modal/test_layout.py document.pdf --repeat 2 --concurrent 10
+    python modal/test_layout.py document.pdf --no-regions
+    python modal/test_layout.py document.pdf --timeline     # show ASCII bars
+    python modal/test_layout.py document.pdf --save
+    python modal/test_layout.py image.jpg --image
+    python modal/test_layout.py document.pdf --endpoint https://your-endpoint.modal.run
+"""
+
+import argparse
+import base64
+import json
+import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import datetime
+from pathlib import Path
+
+import requests
+
+IDR_RATE        = 17500
+COLD_THRESHOLD  = 5.0   # queued_s above this → cold start
+ENDPOINT        = "https://ringkasan-net--layout-worker-process.modal.run"
+
+
+def _fmt(v, unit="s", decimals=3) -> str:
+    if not isinstance(v, (int, float)):
+        return "  ?"
+    return f"{v:.{decimals}f}{unit}"
+
+def _container_label(queued_s) -> str:
+    if queued_s is None:
+        return "?"
+    if queued_s > COLD_THRESHOLD:
+        return f"COLD  {queued_s:.1f}s restore"
+    return f"warm  {queued_s:.2f}s dispatch"
+
+
+# ── network call ──────────────────────────────────────────────────────────────
+
+def send(endpoint: str, file_bytes: bytes, file_type: int, dpi: int,
+         label: str, round_t0: float | None = None) -> tuple[str, float, dict]:
+    t0 = time.time()
+    t_sent_offset = round(t0 - round_t0, 3) if round_t0 is not None else 0.0
+    t_enc = time.time()
+    b64 = base64.b64encode(file_bytes).decode()
+    encode_s = round(time.time() - t_enc, 3)
+    try:
+        # stream=True: t_first_byte is when server finishes processing and starts sending
+        with requests.post(
+            endpoint, timeout=600,
+            json={"file": b64, "fileType": file_type, "dpi": dpi},
+            stream=True,
+        ) as resp:
+            resp.raise_for_status()
+            t_first_byte = time.time()           # server is done, response headers received
+            raw = resp.content                   # now download the body
+            t_last_byte  = time.time()
+            resp_bytes   = len(raw)
+
+        data = json.loads(raw)
+        wall = round(time.time() - t0, 3)
+        t_done_offset  = round(time.time() - round_t0, 3) if round_t0 is not None else wall
+        upload_s       = round(t_first_byte - t0 - encode_s, 3)   # encode already subtracted
+        download_s     = round(t_last_byte - t_first_byte, 3)
+        data["_client"] = {
+            "encode_s":      encode_s,
+            "upload_s":      upload_s,      # time from send to first response byte (upload + server)
+            "download_s":    download_s,    # time to receive full response body
+            "resp_bytes":    resp_bytes,    # response size in bytes
+            "wall_s":        wall,
+            "t_sent_offset": t_sent_offset,
+            "t_done_offset": t_done_offset,
+        }
+        return label, wall, data
+    except requests.HTTPError as e:
+        wall = round(time.time() - t0, 3)
+        t_done_offset = round(time.time() - round_t0, 3) if round_t0 is not None else wall
+        return label, wall, {
+            "error": f"HTTP {e.response.status_code}: {e.response.text[:200]}",
+            "_client": {"wall_s": wall, "t_sent_offset": t_sent_offset, "t_done_offset": t_done_offset},
+        }
+    except Exception as e:
+        wall = round(time.time() - t0, 3)
+        t_done_offset = round(time.time() - round_t0, 3) if round_t0 is not None else wall
+        return label, wall, {
+            "error": str(e),
+            "_client": {"wall_s": wall, "t_sent_offset": t_sent_offset, "t_done_offset": t_done_offset},
+        }
+
+
+# ── per-request detail ────────────────────────────────────────────────────────
+
+def print_result(label: str, wall: float, data: dict, show_regions: bool = True):
+    print(f"\n{'─' * 54}")
+    print(f"  {label}")
+    print(f"{'─' * 54}")
+
+    if "error" in data:
+        print(f"  ERROR: {data['error']}")
+        return
+
+    pages  = data.get("pages", [])
+    meta   = data.get("meta", {})
+    t      = meta.get("timing", {})
+    cost   = meta.get("cost", {})
+    client = data.get("_client", {})
+
+    print(f"  Pages         : {len(pages)}")
+    print(f"  Searchable    : {data.get('searchable')}")
+    print(f"  Total regions : {meta.get('total_regions', '?')}")
+
+    if show_regions:
+        for page in pages:
+            regions = page["regions"]
+            print(f"\n  Page {page['page_num']}  ({page['width_px']}×{page['height_px']}px)"
+                  f"  — {len(regions)} regions")
+            for r in regions[:8]:
+                x0, y0, x1, y1 = r["bbox"]
+                text_preview = (r["text"][:40].replace("\n", " / ") + "…") if r["text"] else ""
+                print(f"    [{r['order']:3d}] {r['type']:<22s}  score={r['score']:.3f}"
+                      f"  bbox=({x0},{y0})-({x1},{y1})  {text_preview}")
+            if len(regions) > 8:
+                print(f"    … and {len(regions) - 8} more")
+
+    render_s = t.get("render_s")
+    queued_s = t.get("queued_s")
+    detect_s = t.get("detect_s")
+    text_s   = t.get("text_s")
+    wall_s   = t.get("wall_s")
+
+    upload_s   = client.get("upload_s")
+    download_s = client.get("download_s")
+    resp_bytes = client.get("resp_bytes")
+
+    print(f"\n  ── timing ───────────────────────────────────")
+    print(f"  encode   (client) : {_fmt(client.get('encode_s'))}")
+    print(f"  upload   (client) : {_fmt(upload_s)}   ← upload + wait for server to start responding")
+    print(f"  render   (server) : {_fmt(render_s)}")
+    print(f"  dispatch (server) : {_fmt(queued_s)}   {_container_label(queued_s)}")
+    print(f"  detect   (server) : {_fmt(detect_s)}")
+    print(f"  text     (server) : {_fmt(text_s)}")
+    print(f"  download (client) : {_fmt(download_s)}   ← response body {resp_bytes:,} bytes" if resp_bytes else f"  download (client) : {_fmt(download_s)}")
+    print(f"  ─")
+    print(f"  server wall       : {_fmt(wall_s)}")
+    print(f"  client wall       : {_fmt(wall)}")
+
+    if cost:
+        usd_q  = cost.get("estimated_usd_queued") or cost.get("estimated_usd_lower")
+        ppu_q  = cost.get("per_page_usd_queued")  or cost.get("per_page_usd_lower")
+        usd_w  = cost.get("estimated_usd_wall")
+        ppu_w  = cost.get("per_page_usd_wall")
+        gpu    = cost.get("gpu", "?")
+        rate   = cost.get("rate_per_s", "?")
+        print(f"\n  ── cost ({gpu} @ ${rate}/s) ──────────────")
+        if usd_q is not None:
+            print(f"  queued est : ${usd_q:.6f}   Rp{usd_q * IDR_RATE:.2f}  ({_fmt(ppu_q * IDR_RATE, 'Rp', 2) if ppu_q else '?'}/page)")
+        print(f"  wall   est : ${usd_w:.6f}   Rp{usd_w * IDR_RATE:.2f}  ({_fmt(ppu_w * IDR_RATE, 'Rp', 2) if ppu_w else '?'}/page)")
+
+
+# ── concurrent timing table ───────────────────────────────────────────────────
+
+def print_timing_table(results: list[tuple[str, float, dict]]):
+    """One row per request: render / dispatch / detect / text / walls."""
+    print(f"\n  ── per-request timing ──────────────────────────────────────────────────────────────────────────────")
+    print(f"  {'req':<10}  {'render':>7}  {'queue':>7}  {'detect':>7}  {'text':>6}  {'srv_wall':>8}  {'upload':>7}  {'download':>8}  {'resp_kb':>7}")
+    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*7}")
+
+    render_vals, queue_vals, detect_vals, text_vals = [], [], [], []
+    srv_vals, upload_vals, download_vals, size_vals  = [], [], [], []
+
+    for label, wall, data in results:
+        short = label.split("#")[-1].strip() if "#" in label else label
+        if "error" in data:
+            print(f"  {short:<10}  {'ERROR':>7}")
+            continue
+        t          = data.get("meta", {}).get("timing", {})
+        client     = data.get("_client", {})
+        render_s   = t.get("render_s")
+        queued_s   = t.get("queued_s")
+        detect_s   = t.get("detect_s")
+        text_s     = t.get("text_s")
+        wall_s     = t.get("wall_s")
+        upload_s   = client.get("upload_s")
+        download_s = client.get("download_s")
+        resp_kb    = round(client.get("resp_bytes", 0) / 1024, 1) if client.get("resp_bytes") else None
+
+        def _c(v, w=7): return f"{v:>{w}.2f}s" if isinstance(v, (int, float)) else f"{'?':>{w}}"
+        def _kb(v):     return f"{v:>6.1f}k"   if isinstance(v, (int, float)) else f"{'?':>7}"
+
+        print(f"  {short:<10}  {_c(render_s)}  {_c(queued_s)}  {_c(detect_s)}  {_c(text_s,6)}  {_c(wall_s,8)}  {_c(upload_s)}  {_c(download_s,8)}  {_kb(resp_kb)}")
+
+        for lst, v in [(render_vals, render_s), (queue_vals, queued_s), (detect_vals, detect_s),
+                       (text_vals, text_s), (srv_vals, wall_s), (upload_vals, upload_s),
+                       (download_vals, download_s), (size_vals, resp_kb)]:
+            if isinstance(v, (int, float)):
+                lst.append(v)
+
+    def _stat(lst, w=7):
+        if not lst:
+            return f"{'?':>{w}}", f"{'?':>{w}}"
+        return f"{sum(lst)/len(lst):>{w}.2f}s", f"{max(lst):>{w}.2f}s"
+
+    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*7}")
+    rows = [("avg", [_stat(l,w)[0] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,upload_vals,download_vals],[7,7,7,6,8,7,8])]),
+            ("max", [_stat(l,w)[1] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,upload_vals,download_vals],[7,7,7,6,8,7,8])])]
+    for name, vals in rows:
+        print(f"  {name:<10}  {'  '.join(vals)}")
+
+
+# ── ASCII timeline (opt-in) ───────────────────────────────────────────────────
+
+def print_ascii_timeline(results: list[tuple[str, float, dict]], round_wall: float):
+    WIDTH = 48
+    scale = WIDTH / max(round_wall, 1.0)
+    unit  = round_wall / WIDTH
+    print(f"\n  ── timeline  (1 char ≈ {unit:.1f}s) ─────────────────────────────────────")
+    for label, wall, data in results:
+        client   = data.get("_client", {})
+        t_sent   = client.get("t_sent_offset", 0.0)
+        t_done   = client.get("t_done_offset", wall)
+        t        = data.get("meta", {}).get("timing", {}) if "error" not in data else {}
+        queued_s = t.get("queued_s")
+        gap  = int(t_sent * scale)
+        bar  = max(int((t_done - t_sent) * scale), 1)
+        cold = queued_s is not None and queued_s > COLD_THRESHOLD
+        ch   = "░" if cold else "█"
+        flag = " ← COLD" if cold else ""
+        short = label.split("#")[-1].strip() if "#" in label else label
+        print(f"  #{short:<3}  {' '*gap}{ch*bar}  {t_done:.1f}s{flag}")
+    step = max(1, int(round_wall / 8))
+    axis = ""
+    for tv in range(0, int(round_wall) + step, step):
+        pos = int(tv * scale)
+        axis = axis.ljust(pos + 6) + f"{tv}s"
+    print(f"        {axis}")
+
+
+# ── summary table ─────────────────────────────────────────────────────────────
+
+def print_summary(results: list[tuple[str, float, dict]], round_elapsed: float | None = None):
+    print(f"\n{'═' * 72}")
+    print("  SUMMARY")
+    if round_elapsed is not None:
+        n_ok = sum(1 for _, _, d in results if "error" not in d)
+        print(f"  {n_ok} requests  |  round elapsed: {round_elapsed:.2f}s  |  avg throughput: {n_ok/round_elapsed:.2f} req/s")
+    print(f"{'═' * 72}")
+    print(f"  {'Label':<20}  {'srv_wall':>8}  {'upload':>7}  {'download':>8}  {'render':>6}  {'queue':>6}  {'detect':>7}  {'text':>5}  {'pages':>5}  {'cost(q)':>10}")
+    print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
+
+    total_srv = total_upload = total_download = 0.0
+    total_queue = total_detect = total_render = total_text = 0.0
+    total_pages = total_cost = 0.0
+    errors = 0
+
+    for label, wall, data in results:
+        if "error" in data:
+            print(f"  {label:<20}  ERROR")
+            errors += 1
+            continue
+        t          = data.get("meta", {}).get("timing", {})
+        cost       = data.get("meta", {}).get("cost", {})
+        client     = data.get("_client", {})
+        pages      = data.get("meta", {}).get("page_count", 0)
+        render_s   = t.get("render_s")  or 0
+        queued_s   = t.get("queued_s")  or 0
+        detect_s   = t.get("detect_s")  or 0
+        text_s     = t.get("text_s")    or 0
+        srv_wall   = t.get("wall_s")    or 0
+        upload_s   = client.get("upload_s",   0) or 0
+        download_s = client.get("download_s", 0) or 0
+        usd_q      = cost.get("estimated_usd_queued") or cost.get("estimated_usd_lower", 0) or 0
+
+        total_srv      += srv_wall
+        total_upload   += upload_s
+        total_download += download_s
+        total_render   += render_s
+        total_queue    += queued_s
+        total_detect   += detect_s
+        total_text     += text_s
+        total_pages    += pages if isinstance(pages, int) else 0
+        total_cost     += usd_q if isinstance(usd_q, (int, float)) else 0
+
+        def _s(v, w=6): return f"{v:>{w}.2f}s"
+        print(f"  {label:<20}  {_s(srv_wall,8)}  {_s(upload_s,7)}  {_s(download_s,8)}  {_s(render_s)}  {_s(queued_s)}   {_s(detect_s)}  {_s(text_s,5)}  {str(pages):>5}  ${usd_q:>9.6f}")
+
+    n = len(results) - errors
+    if n > 1:
+        ppu_avg = total_cost / total_pages if total_pages else 0
+        print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
+        def _s(v, w=6): return f"{v:>{w}.2f}s"
+        print(f"  {'avg':<20}  {_s(total_srv/n,8)}  {_s(total_upload/n,7)}  {_s(total_download/n,8)}  {_s(total_render/n)}  {_s(total_queue/n)}   {_s(total_detect/n)}  {_s(total_text/n,5)}"
+              f"       ${total_cost/n:>9.6f}")
+        print(f"  {'TOTAL':<20}  {_s(total_srv,8)}  {_s(total_upload,7)}  {_s(total_download,8)}  {_s(total_render)}  {_s(total_queue)}   {_s(total_detect)}  {_s(total_text,5)}"
+              f"  {int(total_pages):>5}  ${total_cost:>9.6f}  Rp{ppu_avg * IDR_RATE:.2f}/pg")
+    print(f"\n  upload = time from sending request until server starts responding (upload_net + srv_wall)")
+
+
+# ── run logic ─────────────────────────────────────────────────────────────────
+
+def run_round(label_prefix: str, n: int, endpoint: str,
+              file_bytes: bytes, file_type: int, dpi: int,
+              show_timeline: bool = False) -> tuple[list[tuple[str, float, dict]], float | None]:
+    if n == 1:
+        label = label_prefix
+        print(f"\nSending {label} …")
+        return [send(endpoint, file_bytes, file_type, dpi, label)], None
+
+    print(f"\nSending {n} requests concurrently …")
+    round_t0 = time.time()
+    futures_map = {}
+    with ThreadPoolExecutor(max_workers=n) as pool:
+        for i in range(n):
+            lbl = f"{label_prefix} #{i+1}"
+            futures_map[pool.submit(send, endpoint, file_bytes, file_type, dpi, lbl, round_t0)] = lbl
+
+    results = [fut.result() for fut in as_completed(futures_map)]
+    results.sort(key=lambda r: r[0])
+
+    round_elapsed = time.time() - round_t0
+    print(f"  Round finished in {round_elapsed:.2f}s")
+    print_timing_table(results)
+    if show_timeline:
+        print_ascii_timeline(results, round_elapsed)
+    return results, round_elapsed
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("file")
+    ap.add_argument("--dpi",        type=int, default=150)
+    ap.add_argument("--image",      action="store_true")
+    ap.add_argument("--endpoint",   default=ENDPOINT)
+    ap.add_argument("--repeat",     type=int, default=1)
+    ap.add_argument("--concurrent", type=int, default=1)
+    ap.add_argument("--detail",     action="store_true", help="Print full per-request detail block")
+    ap.add_argument("--no-regions", action="store_true")
+    ap.add_argument("--timeline",   action="store_true", help="Print ASCII bar timeline")
+    ap.add_argument("--save",       action="store_true")
+    args = ap.parse_args()
+
+    file_type  = 1 if args.image else 0
+    file_bytes = open(args.file, "rb").read()
+    stem       = Path(args.file).stem
+
+    print(f"Endpoint   : {args.endpoint}")
+    print(f"File       : {args.file}  ({len(file_bytes):,} bytes)")
+    print(f"Type       : {'image' if args.image else 'PDF'}  DPI={args.dpi}")
+    print(f"Rounds     : {args.repeat}  ×  {args.concurrent} concurrent")
+
+    all_results: list[tuple[str, float, dict]] = []
+    last_round_elapsed: float | None = None
+
+    for r in range(args.repeat):
+        prefix  = f"round {r+1}" if args.repeat > 1 else "request"
+        results, round_elapsed = run_round(prefix, args.concurrent, args.endpoint,
+                                           file_bytes, file_type, args.dpi,
+                                           show_timeline=args.timeline)
+        last_round_elapsed = round_elapsed
+        for label, wall, data in results:
+            if args.detail:
+                print_result(label, wall, data, show_regions=not args.no_regions)
+            if args.save:
+                ts       = datetime.now().strftime("%Y%m%d_%H%M%S")
+                safe     = label.replace(" ", "_").replace("#", "")
+                out_path = f"{stem}_{safe}_{ts}.json"
+                with open(out_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, indent=2, ensure_ascii=False)
+                print(f"  Saved: {out_path}")
+        all_results.extend(results)
+
+    if len(all_results) > 1:
+        elapsed = last_round_elapsed if args.repeat == 1 else None
+        print_summary(all_results, round_elapsed=elapsed)
+
+    if len(all_results) == 1 and not args.save:
+        _, _, data = all_results[0]
+        ts       = datetime.now().strftime("%Y%m%d_%H%M%S")
+        out_path = f"{stem}_{ts}.json"
+        with open(out_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+        print(f"\nSaved: {out_path}")
+
+
+if __name__ == "__main__":
+    main()
