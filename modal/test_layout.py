@@ -27,6 +27,7 @@ COLD_THRESHOLD       = 5.0    # queued_s above this → cold start
 ENDPOINT             = "https://ringkasan-net--layout-worker-processor-process.modal.run"
 DETECT_MAX_INPUTS    = 4      # @modal.concurrent max_inputs on LayoutDetector
 GPU_SCALEDOWN_S      = 60     # scaledown_window on LayoutDetector (idle billed per container)
+GPU_RATES            = {"T4": 0.000164, "L4": 0.000222}
 
 
 def _fmt(v, unit="s", decimals=3) -> str:
