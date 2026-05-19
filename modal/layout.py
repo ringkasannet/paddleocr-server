@@ -43,6 +43,15 @@ layout_image = (
     .env({"HF_HUB_ENABLE_HF_TRANSFER": "1"})
 )
 
+cpu_image = (
+    modal.Image.debian_slim(python_version="3.11")
+    .run_commands(
+        "pip install --no-cache-dir uv",
+        "uv pip install --system --no-cache "
+        "pypdfium2 Pillow numpy 'fastapi[standard]'",
+    )
+)
+
 TEXT_REGION_TYPES = {
     "text", "title", "paragraph_title", "abstract",
     "content", "reference", "footnote", "doc_title",
@@ -337,144 +346,161 @@ class _Request(BaseModel):
     dpi: int = 150
 
 GPU_RATE_PER_S = GPU_RATES.get(GPU, GPU_RATES["T4"])
-IDLE_WINDOW_S  = 5  # scaledown_window on LayoutDetector
+IDLE_WINDOW_S  = 5  # GPU scaledown_window (used for cost estimation)
 
 
-@app.function(image=layout_image, timeout=300, scaledown_window=1000, max_containers=50)
-@modal.fastapi_endpoint(method="POST")
-def process(req: _Request) -> dict:
-    import io
-    import time
-    import pypdfium2 as pdfium
-    from PIL import Image
+@app.cls(
+    image=cpu_image,
+    timeout=300,
+    scaledown_window=100,
+    max_containers=50,
+    enable_memory_snapshot=True,
+    min_containers=1,
+)
+@modal.concurrent(max_inputs=20, target_inputs=10)
+class Processor:
+    @modal.enter(snap=True)
+    def load(self):
+        import pypdfium2
+        from PIL import Image
+        import numpy as np
+        _ = (pypdfium2, Image, np)  # pre-import: C extensions captured in memory snapshot
+        print("[processor/init] ready")
 
-    t0 = time.time()
-    print(f"[process] received  ts={t0:.3f}")
+    @modal.fastapi_endpoint(method="POST")
+    async def process(self, req: _Request) -> dict:
+        import io
+        import time
+        import pypdfium2 as pdfium
+        from PIL import Image
 
-    # ── Parse JSON+base64 ────────────────────────────────────────────────────
-    raw_b64 = req.file
-    if "," in raw_b64:
-        raw_b64 = raw_b64.split(",", 1)[1]
-    try:
-        file_bytes = base64.b64decode(raw_b64)
-    except Exception as e:
-        return {"error": f"Bad request: {e}"}
-    file_type = req.fileType
-    dpi       = req.dpi
+        t0 = time.time()
+        print(f"[process] received  ts={t0:.3f}")
 
-    # ── CPU: render PDF → PIL pages ──────────────────────────────────────────
-    try:
-        if file_type == 1:
-            pil_pages = [Image.open(io.BytesIO(file_bytes)).convert("RGB")]
-            pdf = None
-            searchable_set: set[int] = set()
-        else:
-            pdf = pdfium.PdfDocument(file_bytes)
-            scale = dpi / 72
-            pil_pages = []
-            for i in range(len(pdf)):
-                pg = pdf[i]
-                pil_pages.append(pg.render(scale=scale).to_pil())
-                pg.close()
-            searchable_set = _searchable_pages(pdf)
-    except Exception as e:
-        return {"error": f"Render failed: {e}"}
-    t_render = time.time()
+        # ── Parse JSON+base64 ────────────────────────────────────────────────
+        raw_b64 = req.file
+        if "," in raw_b64:
+            raw_b64 = raw_b64.split(",", 1)[1]
+        try:
+            file_bytes = base64.b64decode(raw_b64)
+        except Exception as e:
+            return {"error": f"Bad request: {e}"}
+        file_type = req.fileType
+        dpi       = req.dpi
 
-    # Serialize pages as JPEG for transfer to GPU container
-    page_jpegs = []
-    for img in pil_pages:
-        buf = io.BytesIO()
-        img.save(buf, format="JPEG", quality=90)
-        page_jpegs.append(buf.getvalue())
+        # ── CPU: render PDF → PIL pages ──────────────────────────────────────
+        try:
+            if file_type == 1:
+                pil_pages = [Image.open(io.BytesIO(file_bytes)).convert("RGB")]
+                pdf = None
+                searchable_set: set[int] = set()
+            else:
+                pdf = pdfium.PdfDocument(file_bytes)
+                scale = dpi / 72
+                pil_pages = []
+                for i in range(len(pdf)):
+                    pg = pdf[i]
+                    pil_pages.append(pg.render(scale=scale).to_pil())
+                    pg.close()
+                searchable_set = _searchable_pages(pdf)
+        except Exception as e:
+            return {"error": f"Render failed: {e}"}
+        t_render = time.time()
 
-    # ── GPU: model inference only ────────────────────────────────────────────
-    t_call = time.time()
-    print(f"[process] calling detect.remote()  pages={len(page_jpegs)}")
-    gpu_result = LayoutDetector().detect.remote(page_jpegs)
-    t_gpu_done = time.time()
-    print(f"[process] detect.remote() returned  ts={t_gpu_done:.3f}")
+        # Serialize pages as JPEG for transfer to GPU container
+        page_jpegs = []
+        for img in pil_pages:
+            buf = io.BytesIO()
+            img.save(buf, format="JPEG", quality=90)
+            page_jpegs.append(buf.getvalue())
 
-    if "error" in gpu_result:
-        return gpu_result
+        # ── GPU: model inference only (async — yields event loop while waiting) ──
+        t_call = time.time()
+        print(f"[process] calling detect.remote()  pages={len(page_jpegs)}")
+        gpu_result = await LayoutDetector().detect.remote.aio(page_jpegs)
+        t_gpu_done = time.time()
+        print(f"[process] detect.remote() returned  ts={t_gpu_done:.3f}")
 
-    detect_start_ts = gpu_result.pop("_detect_start_ts", None)
-    detect_s        = gpu_result.pop("detect_s", 0)
-    queued_s        = round(detect_start_ts - t_call, 3) if detect_start_ts else None
-    raw_pages       = gpu_result["pages"]
+        if "error" in gpu_result:
+            return gpu_result
 
-    # ── CPU: NMS + reading order ─────────────────────────────────────────────
-    result_pages = []
-    for page_num, (page_data, _) in enumerate(zip(raw_pages, pil_pages)):
-        regions = page_data["detections"]
-        regions = _nms_regions(regions)
-        regions = _reading_order(regions, page_data["width_px"])
-        for i, r in enumerate(regions):
-            r["order"] = i
-        result_pages.append({
-            "page_num":  page_num,
-            "width_px":  page_data["width_px"],
-            "height_px": page_data["height_px"],
-            "regions":   regions,
-        })
+        detect_start_ts = gpu_result.pop("_detect_start_ts", None)
+        detect_s        = gpu_result.pop("detect_s", 0)
+        queued_s        = round(detect_start_ts - t_call, 3) if detect_start_ts else None
+        raw_pages       = gpu_result["pages"]
 
-    # ── CPU: text extraction ─────────────────────────────────────────────────
-    if pdf is not None:
-        for page in result_pages:
-            if page["page_num"] in searchable_set:
-                for region in page["regions"]:
-                    if region["type"] in TEXT_REGION_TYPES:
-                        region["text"] = _extract_text(
-                            pdf, page["page_num"], region["bbox"], dpi
-                        )
-        pdf.close()
-    t_text = time.time()
+        # ── CPU: NMS + reading order ──────────────────────────────────────────
+        result_pages = []
+        for page_num, (page_data, _) in enumerate(zip(raw_pages, pil_pages)):
+            regions = page_data["detections"]
+            regions = _nms_regions(regions)
+            regions = _reading_order(regions, page_data["width_px"])
+            for i, r in enumerate(regions):
+                r["order"] = i
+            result_pages.append({
+                "page_num":  page_num,
+                "width_px":  page_data["width_px"],
+                "height_px": page_data["height_px"],
+                "regions":   regions,
+            })
 
-    page_count  = len(result_pages)
-    render_s    = round(t_render - t0, 3)
-    text_s      = round(t_text - t_gpu_done, 3)   # NMS + reading order + text extract
-    wall_s      = round(t_text - t0, 3)
+        # ── CPU: text extraction ──────────────────────────────────────────────
+        if pdf is not None:
+            for page in result_pages:
+                if page["page_num"] in searchable_set:
+                    for region in page["regions"]:
+                        if region["type"] in TEXT_REGION_TYPES:
+                            region["text"] = _extract_text(
+                                pdf, page["page_num"], region["bbox"], dpi
+                            )
+            pdf.close()
+        t_text = time.time()
 
-    # ── Cost (GPU-only billed time) ──────────────────────────────────────────
-    execution_s     = detect_s
-    billed_s_lower  = execution_s + IDLE_WINDOW_S
-    billed_s_queued = round(queued_s + execution_s + IDLE_WINDOW_S, 3) if queued_s is not None else None
-    billed_s_wall   = round(wall_s + IDLE_WINDOW_S, 3)
+        page_count  = len(result_pages)
+        render_s    = round(t_render - t0, 3)
+        text_s      = round(t_text - t_gpu_done, 3)
+        wall_s      = round(t_text - t0, 3)
 
-    return {
-        "pages":      result_pages,
-        "dpi":        dpi,
-        "searchable": bool(searchable_set),
-        "meta": {
-            "page_count":    page_count,
-            "total_regions": sum(len(p["regions"]) for p in result_pages),
-            "timing": {
-                "queued_s":    queued_s,
-                "render_s":    render_s,
-                "detect_s":    detect_s,
-                "text_s":      text_s,
-                "execution_s": execution_s,
-                "wall_s":      wall_s,
+        # ── Cost (GPU-only billed time) ───────────────────────────────────────
+        execution_s     = detect_s
+        billed_s_lower  = execution_s + IDLE_WINDOW_S
+        billed_s_queued = round(queued_s + execution_s + IDLE_WINDOW_S, 3) if queued_s is not None else None
+        billed_s_wall   = round(wall_s + IDLE_WINDOW_S, 3)
+
+        return {
+            "pages":      result_pages,
+            "dpi":        dpi,
+            "searchable": bool(searchable_set),
+            "meta": {
+                "page_count":    page_count,
+                "total_regions": sum(len(p["regions"]) for p in result_pages),
+                "timing": {
+                    "queued_s":    queued_s,
+                    "render_s":    render_s,
+                    "detect_s":    detect_s,
+                    "text_s":      text_s,
+                    "execution_s": execution_s,
+                    "wall_s":      wall_s,
+                },
+                "cost": {
+                    "gpu":                   GPU,
+                    "rate_per_s":            GPU_RATE_PER_S,
+                    "execution_s":           execution_s,
+                    "queued_s":              queued_s,
+                    "idle_s":                IDLE_WINDOW_S,
+                    "billed_s_lower":        round(billed_s_lower, 3),
+                    "billed_s_queued":       billed_s_queued,
+                    "billed_s_wall":         billed_s_wall,
+                    "note":                  "queued estimate is most accurate; excludes only the first cold start after deploy",
+                    "estimated_usd_lower":   round(billed_s_lower * GPU_RATE_PER_S, 6),
+                    "per_page_usd_lower":    round(billed_s_lower * GPU_RATE_PER_S / page_count, 6) if page_count else None,
+                    "estimated_usd_queued":  round(billed_s_queued * GPU_RATE_PER_S, 6) if billed_s_queued else None,
+                    "per_page_usd_queued":   round(billed_s_queued * GPU_RATE_PER_S / page_count, 6) if billed_s_queued and page_count else None,
+                    "estimated_usd_wall":    round(billed_s_wall * GPU_RATE_PER_S, 6),
+                    "per_page_usd_wall":     round(billed_s_wall * GPU_RATE_PER_S / page_count, 6) if page_count else None,
+                },
             },
-            "cost": {
-                "gpu":                   GPU,
-                "rate_per_s":            GPU_RATE_PER_S,
-                "execution_s":           execution_s,
-                "queued_s":              queued_s,
-                "idle_s":                IDLE_WINDOW_S,
-                "billed_s_lower":        round(billed_s_lower, 3),
-                "billed_s_queued":       billed_s_queued,
-                "billed_s_wall":         billed_s_wall,
-                "note":                  "queued estimate is most accurate; excludes only the first cold start after deploy",
-                "estimated_usd_lower":   round(billed_s_lower * GPU_RATE_PER_S, 6),
-                "per_page_usd_lower":    round(billed_s_lower * GPU_RATE_PER_S / page_count, 6) if page_count else None,
-                "estimated_usd_queued":  round(billed_s_queued * GPU_RATE_PER_S, 6) if billed_s_queued else None,
-                "per_page_usd_queued":   round(billed_s_queued * GPU_RATE_PER_S / page_count, 6) if billed_s_queued and page_count else None,
-                "estimated_usd_wall":    round(billed_s_wall * GPU_RATE_PER_S, 6),
-                "per_page_usd_wall":     round(billed_s_wall * GPU_RATE_PER_S / page_count, 6) if page_count else None,
-            },
-        },
-    }
+        }
 
 
 # ── CLI entrypoint ────────────────────────────────────────────────────────────

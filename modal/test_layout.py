@@ -24,7 +24,7 @@ import requests
 
 IDR_RATE        = 17500
 COLD_THRESHOLD  = 5.0   # queued_s above this → cold start
-ENDPOINT        = "https://ringkasan-net--layout-worker-process.modal.run"
+ENDPOINT        = "https://ringkasan-net--layout-worker-processor-process.modal.run"
 
 
 def _fmt(v, unit="s", decimals=3) -> str:
@@ -138,8 +138,10 @@ def print_result(label: str, wall: float, data: dict, show_regions: bool = True)
     resp_bytes = client.get("resp_bytes")
 
     print(f"\n  ── timing ───────────────────────────────────")
+    net_s = round(upload_s - wall_s, 3) if isinstance(upload_s, (int, float)) and isinstance(wall_s, (int, float)) else None
     print(f"  encode   (client) : {_fmt(client.get('encode_s'))}")
-    print(f"  upload   (client) : {_fmt(upload_s)}   ← upload + wait for server to start responding")
+    print(f"  ttfb     (client) : {_fmt(upload_s)}   ← upload_net + srv_wall (time to first byte)")
+    print(f"  net_s    (client) : {_fmt(net_s)}   ← pure upload network time (ttfb − srv_wall)")
     print(f"  render   (server) : {_fmt(render_s)}")
     print(f"  dispatch (server) : {_fmt(queued_s)}   {_container_label(queued_s)}")
     print(f"  detect   (server) : {_fmt(detect_s)}")
@@ -166,12 +168,12 @@ def print_result(label: str, wall: float, data: dict, show_regions: bool = True)
 
 def print_timing_table(results: list[tuple[str, float, dict]]):
     """One row per request: render / dispatch / detect / text / walls."""
-    print(f"\n  ── per-request timing ──────────────────────────────────────────────────────────────────────────────")
-    print(f"  {'req':<10}  {'render':>7}  {'queue':>7}  {'detect':>7}  {'text':>6}  {'srv_wall':>8}  {'upload':>7}  {'download':>8}  {'resp_kb':>7}")
-    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*7}")
+    print(f"\n  ── per-request timing ──────────────────────────────────────────────────────────────────────────────────────")
+    print(f"  {'req':<10}  {'render':>7}  {'queue':>7}  {'detect':>7}  {'text':>6}  {'srv_wall':>8}  {'ttfb':>7}  {'net_s':>6}  {'download':>8}  {'resp_kb':>7}")
+    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}")
 
     render_vals, queue_vals, detect_vals, text_vals = [], [], [], []
-    srv_vals, upload_vals, download_vals, size_vals  = [], [], [], []
+    srv_vals, ttfb_vals, net_vals, download_vals, size_vals = [], [], [], [], []
 
     for label, wall, data in results:
         short = label.split("#")[-1].strip() if "#" in label else label
@@ -185,18 +187,19 @@ def print_timing_table(results: list[tuple[str, float, dict]]):
         detect_s   = t.get("detect_s")
         text_s     = t.get("text_s")
         wall_s     = t.get("wall_s")
-        upload_s   = client.get("upload_s")
+        ttfb_s     = client.get("upload_s")
         download_s = client.get("download_s")
         resp_kb    = round(client.get("resp_bytes", 0) / 1024, 1) if client.get("resp_bytes") else None
+        net_s      = round(ttfb_s - wall_s, 3) if isinstance(ttfb_s, (int, float)) and isinstance(wall_s, (int, float)) else None
 
         def _c(v, w=7): return f"{v:>{w}.2f}s" if isinstance(v, (int, float)) else f"{'?':>{w}}"
         def _kb(v):     return f"{v:>6.1f}k"   if isinstance(v, (int, float)) else f"{'?':>7}"
 
-        print(f"  {short:<10}  {_c(render_s)}  {_c(queued_s)}  {_c(detect_s)}  {_c(text_s,6)}  {_c(wall_s,8)}  {_c(upload_s)}  {_c(download_s,8)}  {_kb(resp_kb)}")
+        print(f"  {short:<10}  {_c(render_s)}  {_c(queued_s)}  {_c(detect_s)}  {_c(text_s,6)}  {_c(wall_s,8)}  {_c(ttfb_s)}  {_c(net_s,6)}  {_c(download_s,8)}  {_kb(resp_kb)}")
 
         for lst, v in [(render_vals, render_s), (queue_vals, queued_s), (detect_vals, detect_s),
-                       (text_vals, text_s), (srv_vals, wall_s), (upload_vals, upload_s),
-                       (download_vals, download_s), (size_vals, resp_kb)]:
+                       (text_vals, text_s), (srv_vals, wall_s), (ttfb_vals, ttfb_s),
+                       (net_vals, net_s), (download_vals, download_s), (size_vals, resp_kb)]:
             if isinstance(v, (int, float)):
                 lst.append(v)
 
@@ -205,9 +208,9 @@ def print_timing_table(results: list[tuple[str, float, dict]]):
             return f"{'?':>{w}}", f"{'?':>{w}}"
         return f"{sum(lst)/len(lst):>{w}.2f}s", f"{max(lst):>{w}.2f}s"
 
-    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*7}")
-    rows = [("avg", [_stat(l,w)[0] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,upload_vals,download_vals],[7,7,7,6,8,7,8])]),
-            ("max", [_stat(l,w)[1] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,upload_vals,download_vals],[7,7,7,6,8,7,8])])]
+    print(f"  {'─'*10}  {'─'*7}  {'─'*7}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*7}")
+    rows = [("avg", [_stat(l,w)[0] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,ttfb_vals,net_vals,download_vals],[7,7,7,6,8,7,6,8])]),
+            ("max", [_stat(l,w)[1] for l,w in zip([render_vals,queue_vals,detect_vals,text_vals,srv_vals,ttfb_vals,net_vals,download_vals],[7,7,7,6,8,7,6,8])])]
     for name, vals in rows:
         print(f"  {name:<10}  {'  '.join(vals)}")
 
@@ -249,10 +252,10 @@ def print_summary(results: list[tuple[str, float, dict]], round_elapsed: float |
         n_ok = sum(1 for _, _, d in results if "error" not in d)
         print(f"  {n_ok} requests  |  round elapsed: {round_elapsed:.2f}s  |  avg throughput: {n_ok/round_elapsed:.2f} req/s")
     print(f"{'═' * 72}")
-    print(f"  {'Label':<20}  {'srv_wall':>8}  {'upload':>7}  {'download':>8}  {'render':>6}  {'queue':>6}  {'detect':>7}  {'text':>5}  {'pages':>5}  {'cost(q)':>10}")
-    print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
+    print(f"  {'Label':<20}  {'srv_wall':>8}  {'ttfb':>7}  {'net_s':>6}  {'download':>8}  {'render':>6}  {'queue':>6}  {'detect':>7}  {'text':>5}  {'pages':>5}  {'cost(q)':>10}")
+    print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
 
-    total_srv = total_upload = total_download = 0.0
+    total_srv = total_ttfb = total_net = total_download = 0.0
     total_queue = total_detect = total_render = total_text = 0.0
     total_pages = total_cost = 0.0
     errors = 0
@@ -271,12 +274,14 @@ def print_summary(results: list[tuple[str, float, dict]], round_elapsed: float |
         detect_s   = t.get("detect_s")  or 0
         text_s     = t.get("text_s")    or 0
         srv_wall   = t.get("wall_s")    or 0
-        upload_s   = client.get("upload_s",   0) or 0
+        ttfb_s     = client.get("upload_s",   0) or 0
         download_s = client.get("download_s", 0) or 0
+        net_s      = round(ttfb_s - srv_wall, 3) if srv_wall else 0
         usd_q      = cost.get("estimated_usd_queued") or cost.get("estimated_usd_lower", 0) or 0
 
         total_srv      += srv_wall
-        total_upload   += upload_s
+        total_ttfb     += ttfb_s
+        total_net      += net_s
         total_download += download_s
         total_render   += render_s
         total_queue    += queued_s
@@ -286,18 +291,18 @@ def print_summary(results: list[tuple[str, float, dict]], round_elapsed: float |
         total_cost     += usd_q if isinstance(usd_q, (int, float)) else 0
 
         def _s(v, w=6): return f"{v:>{w}.2f}s"
-        print(f"  {label:<20}  {_s(srv_wall,8)}  {_s(upload_s,7)}  {_s(download_s,8)}  {_s(render_s)}  {_s(queued_s)}   {_s(detect_s)}  {_s(text_s,5)}  {str(pages):>5}  ${usd_q:>9.6f}")
+        print(f"  {label:<20}  {_s(srv_wall,8)}  {_s(ttfb_s,7)}  {_s(net_s,6)}  {_s(download_s,8)}  {_s(render_s)}  {_s(queued_s)}   {_s(detect_s)}  {_s(text_s,5)}  {str(pages):>5}  ${usd_q:>9.6f}")
 
     n = len(results) - errors
     if n > 1:
         ppu_avg = total_cost / total_pages if total_pages else 0
-        print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
+        print(f"  {'─'*20}  {'─'*8}  {'─'*7}  {'─'*6}  {'─'*8}  {'─'*6}  {'─'*6}  {'─'*7}  {'─'*5}  {'─'*5}  {'─'*10}")
         def _s(v, w=6): return f"{v:>{w}.2f}s"
-        print(f"  {'avg':<20}  {_s(total_srv/n,8)}  {_s(total_upload/n,7)}  {_s(total_download/n,8)}  {_s(total_render/n)}  {_s(total_queue/n)}   {_s(total_detect/n)}  {_s(total_text/n,5)}"
+        print(f"  {'avg':<20}  {_s(total_srv/n,8)}  {_s(total_ttfb/n,7)}  {_s(total_net/n,6)}  {_s(total_download/n,8)}  {_s(total_render/n)}  {_s(total_queue/n)}   {_s(total_detect/n)}  {_s(total_text/n,5)}"
               f"       ${total_cost/n:>9.6f}")
-        print(f"  {'TOTAL':<20}  {_s(total_srv,8)}  {_s(total_upload,7)}  {_s(total_download,8)}  {_s(total_render)}  {_s(total_queue)}   {_s(total_detect)}  {_s(total_text,5)}"
+        print(f"  {'TOTAL':<20}  {_s(total_srv,8)}  {_s(total_ttfb,7)}  {_s(total_net,6)}  {_s(total_download,8)}  {_s(total_render)}  {_s(total_queue)}   {_s(total_detect)}  {_s(total_text,5)}"
               f"  {int(total_pages):>5}  ${total_cost:>9.6f}  Rp{ppu_avg * IDR_RATE:.2f}/pg")
-    print(f"\n  upload = time from sending request until server starts responding (upload_net + srv_wall)")
+    print(f"\n  ttfb = upload_net + srv_wall (time to first byte);  net_s = ttfb − srv_wall (pure upload network time)")
 
 
 # ── run logic ─────────────────────────────────────────────────────────────────
