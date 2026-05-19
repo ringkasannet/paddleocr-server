@@ -210,15 +210,28 @@ def _extract_text(pdf, page_num: int, bbox_px: list[int], dpi: int) -> str:
 
 
 import re as _re
-_ID_REGULATION  = _re.compile(r'\b(BAB\s+[IVXLC]+|Pasal\s+\d+)\b')
-_ID_BULLET      = _re.compile(r'^[a-z0-9]{1,3}[.)]\s')
+_ID_DOC_TITLE  = _re.compile(r'\b(PERATURAN|UNDANG-UNDANG|KEPUTUSAN|INSTRUKSI|PERDA)\b')
+_ID_PASAL      = _re.compile(r'^Pasal\s+\d+$')
+_ID_BULLET     = _re.compile(r'^[a-z0-9]{1,3}[.)]\s')
+_FIGURE_TYPES  = {"image", "chart", "figure", "table", "footer_image", "header_image"}
+_CAPTION_TYPES = {"figure_title", "table_title", "chart_title"}
 
 
-def _is_indonesian_regulation(regions: list) -> bool:
+def _is_indonesian_regulation(result_pages: list) -> bool:
+    """Detect Indonesian regulation by:
+    1. doc_title containing regulation keywords (primary)
+    2. at least one standalone 'Pasal N' paragraph_title (confirmation)
+    BAB is not required — short regulations (Keputusan etc.) may have none.
+    """
+    has_title = any(
+        r.get("type") == "doc_title" and _ID_DOC_TITLE.search(r.get("text", ""))
+        for p in result_pages for r in p["regions"]
+    )
+    if not has_title:
+        return False
     return any(
-        r.get("type") == "paragraph_title"
-        and _ID_REGULATION.fullmatch(r.get("text", "").strip())
-        for r in regions
+        r.get("type") == "paragraph_title" and _ID_PASAL.fullmatch(r.get("text", "").strip())
+        for p in result_pages for r in p["regions"]
     )
 
 
@@ -235,19 +248,32 @@ def _demote_bullet_items(regions: list) -> list:
     return result
 
 
+def _demote_orphan_caption_types(regions: list) -> list:
+    """Demote figure_title/table_title/chart_title → paragraph_title when neither
+    the preceding nor the following region is a figure/table/chart/image.
+    Captions appear directly before or after their figure; if no adjacent
+    figure-like region exists the model has misclassified a heading."""
+    if not regions:
+        return regions
+    result = []
+    for i, r in enumerate(regions):
+        if r["type"] in _CAPTION_TYPES:
+            prev_type = regions[i - 1]["type"] if i > 0 else None
+            next_type = regions[i + 1]["type"] if i + 1 < len(regions) else None
+            if prev_type not in _FIGURE_TYPES and next_type not in _FIGURE_TYPES:
+                r = dict(r)
+                r["type"] = "paragraph_title"
+        result.append(r)
+    return result
+
+
 def _reclassify_centered_headings(regions: list, page_height: int,
                                   center_tol: float = 0.08,
                                   width_ratio: float = 0.25,
                                   bottom_margin: float = 0.92) -> list:
-    """Reclassify mistyped regions as 'paragraph_title' when they are centered,
-    narrow, and not near the page bottom.
-
-    Two cases handled:
-    - type='text': model under-confident on headings like 'Pasal 10'
-    - type='figure_title'/'table_title'/'chart_title' NOT followed by their
-      expected content type: a stray 'figure_title' with no figure after it
-      is a misclassified heading, not a real figure caption
-    """
+    """Reclassify text regions as 'paragraph_title' when centered, narrow, and not
+    near the page bottom. Catches headings the model under-confidently labels as text
+    (e.g. 'Pasal 10' scored below the heading threshold)."""
     if not regions:
         return regions
     content_x0 = min(r["bbox"][0] for r in regions)
@@ -256,23 +282,10 @@ def _reclassify_centered_headings(regions: list, page_height: int,
     content_width  = max(content_x1 - content_x0, 1)
     bottom_limit   = page_height * bottom_margin
 
-    # Map each label-title type to the content type that should follow it
-    _expected_next = {
-        "figure_title": "figure",
-        "table_title":  "table",
-        "chart_title":  "figure",
-    }
-
     result = []
-    for i, r in enumerate(regions):
+    for r in regions:
         rtype = r["type"]
-        should_check = rtype == "text"
-        if not should_check and rtype in _expected_next:
-            expected = _expected_next[rtype]
-            next_type = regions[i + 1]["type"] if i + 1 < len(regions) else None
-            should_check = next_type != expected  # no matching content follows → likely misclassified
-
-        if should_check:
+        if rtype == "text":
             x0, _, x1, y1 = r["bbox"]
             w = x1 - x0
             centered   = abs((x0 + x1) / 2 - content_center) / content_width < center_tol
@@ -556,22 +569,12 @@ class Processor:
         queued_s        = round(detect_start_ts - t_call, 3) if detect_start_ts else None
         raw_pages       = gpu_result["pages"]
 
-        # ── CPU: NMS + reading order ──────────────────────────────────────────
-        # Detect regulation at document level — mid-article pages have no BAB/Pasal heading
-        is_id_reg = any(
-            _is_indonesian_regulation(p["detections"]) for p in raw_pages
-        )
+        # ── CPU: NMS + reading order (pass 1) ────────────────────────────────
         result_pages = []
         for page_num, (page_data, _) in enumerate(zip(raw_pages, pil_pages)):
             regions = page_data["detections"]
             regions = _nms_regions(regions)
             regions = _reading_order(regions, page_data["width_px"])
-            if is_id_reg:
-                regions = _demote_bullet_items(regions)
-            regions = _reclassify_centered_headings(regions, page_data["height_px"])
-            regions = _merge_centered_titles(regions)
-            for i, r in enumerate(regions):
-                r["order"] = i
             result_pages.append({
                 "page_num":  page_num,
                 "width_px":  page_data["width_px"],
@@ -590,6 +593,20 @@ class Processor:
                             )
             pdf.close()
         t_text = time.time()
+
+        # ── CPU: regulation-aware post-processing (pass 2) ───────────────────
+        # Regulation detection needs populated text — must run after extraction.
+        is_id_reg = _is_indonesian_regulation(result_pages)
+        for page in result_pages:
+            regions = page["regions"]
+            if is_id_reg:
+                regions = _demote_bullet_items(regions)
+            regions = _demote_orphan_caption_types(regions)
+            regions = _reclassify_centered_headings(regions, page["height_px"])
+            regions = _merge_centered_titles(regions)
+            for i, r in enumerate(regions):
+                r["order"] = i
+            page["regions"] = regions
 
         page_count  = len(result_pages)
         render_s    = round(t_render - t0, 3)

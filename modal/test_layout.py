@@ -445,7 +445,7 @@ def run_round(label_prefix: str, n: int, endpoint: str,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("file")
-    ap.add_argument("--dpi",        type=int, default=150)
+    ap.add_argument("--dpi",        type=int, default=200)
     ap.add_argument("--image",      action="store_true")
     ap.add_argument("--endpoint",   default=ENDPOINT)
     ap.add_argument("--repeat",     type=int, default=1)
