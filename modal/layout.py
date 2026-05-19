@@ -123,8 +123,10 @@ class LayoutDetector:
         import torch
         from PIL import Image
 
-        THRESHOLD  = float(os.environ.get("DETECT_THRESHOLD",  "0.3"))
-        BATCH_SIZE = int(os.environ.get("DETECT_BATCH_SIZE", "8"))
+        THRESHOLD         = float(os.environ.get("DETECT_THRESHOLD",  "0.3"))
+        HEADING_THRESHOLD = float(os.environ.get("HEADING_THRESHOLD", "0.2"))
+        BATCH_SIZE        = int(os.environ.get("DETECT_BATCH_SIZE", "8"))
+        HEADING_LABELS    = {"paragraph_title", "doc_title"}
         t0 = time.time()
         print(f"[detect] started  ts={t0:.3f}  pages={len(page_jpegs)}  batch_size={BATCH_SIZE}")
 
@@ -144,7 +146,7 @@ class LayoutDetector:
                 with torch.no_grad():
                     outputs = self._model(**gpu_inputs)
                 batch_detections = self._processor.post_process_object_detection(
-                    outputs, threshold=THRESHOLD,
+                    outputs, threshold=min(THRESHOLD, HEADING_THRESHOLD),
                     target_sizes=[img.size[::-1] for img in chunk],
                 )
                 for pil_img, detections in zip(chunk, batch_detections):
@@ -152,9 +154,13 @@ class LayoutDetector:
                     for score, label_id, box in zip(
                         detections["scores"], detections["labels"], detections["boxes"]
                     ):
+                        label  = self._model.config.id2label[label_id.item()]
+                        cutoff = HEADING_THRESHOLD if label in HEADING_LABELS else THRESHOLD
+                        if score.item() < cutoff:
+                            continue
                         x0, y0, x1, y1 = box.tolist()
                         page_detections.append({
-                            "type":  self._model.config.id2label[label_id.item()],
+                            "type":  label,
                             "bbox":  [int(x0), int(y0), int(x1), int(y1)],
                             "score": round(score.item(), 4),
                             "text":  "",
@@ -198,8 +204,129 @@ def _extract_text(pdf, page_num: int, bbox_px: list[int], dpi: int) -> str:
     textpage.close()
     page.close()
     text = (text or "").strip()
+    text = text.replace('\x02', '-')  # pypdfium2 encodes line-break hyphens as STX
     text = re.sub(r"([a-z])([A-Z])", r"\1-\2", text)
     return text
+
+
+import re as _re
+_ID_REGULATION  = _re.compile(r'\b(BAB\s+[IVXLC]+|Pasal\s+\d+)\b')
+_ID_BULLET      = _re.compile(r'^[a-z0-9]{1,3}[.)]\s')
+
+
+def _is_indonesian_regulation(regions: list) -> bool:
+    return any(
+        r.get("type") == "paragraph_title"
+        and _ID_REGULATION.fullmatch(r.get("text", "").strip())
+        for r in regions
+    )
+
+
+def _demote_bullet_items(regions: list) -> list:
+    """Demote paragraph_title → text for left-aligned bullet items in Indonesian regulations.
+    Bullets: a. b. 1. 2. etc. at the start of the text (lowercase or digit, max 3 chars).
+    """
+    result = []
+    for r in regions:
+        if r["type"] == "paragraph_title" and _ID_BULLET.match(r.get("text", "")):
+            r = dict(r)
+            r["type"] = "text"
+        result.append(r)
+    return result
+
+
+def _reclassify_centered_headings(regions: list, page_height: int,
+                                  center_tol: float = 0.08,
+                                  width_ratio: float = 0.25,
+                                  bottom_margin: float = 0.92) -> list:
+    """Reclassify mistyped regions as 'paragraph_title' when they are centered,
+    narrow, and not near the page bottom.
+
+    Two cases handled:
+    - type='text': model under-confident on headings like 'Pasal 10'
+    - type='figure_title'/'table_title'/'chart_title' NOT followed by their
+      expected content type: a stray 'figure_title' with no figure after it
+      is a misclassified heading, not a real figure caption
+    """
+    if not regions:
+        return regions
+    content_x0 = min(r["bbox"][0] for r in regions)
+    content_x1 = max(r["bbox"][2] for r in regions)
+    content_center = (content_x0 + content_x1) / 2
+    content_width  = max(content_x1 - content_x0, 1)
+    bottom_limit   = page_height * bottom_margin
+
+    # Map each label-title type to the content type that should follow it
+    _expected_next = {
+        "figure_title": "figure",
+        "table_title":  "table",
+        "chart_title":  "figure",
+    }
+
+    result = []
+    for i, r in enumerate(regions):
+        rtype = r["type"]
+        should_check = rtype == "text"
+        if not should_check and rtype in _expected_next:
+            expected = _expected_next[rtype]
+            next_type = regions[i + 1]["type"] if i + 1 < len(regions) else None
+            should_check = next_type != expected  # no matching content follows → likely misclassified
+
+        if should_check:
+            x0, _, x1, y1 = r["bbox"]
+            w = x1 - x0
+            centered   = abs((x0 + x1) / 2 - content_center) / content_width < center_tol
+            narrow     = w / content_width < width_ratio
+            not_footer = y1 < bottom_limit
+            if centered and narrow and not_footer:
+                r = dict(r)
+                r["type"] = "paragraph_title"
+        result.append(r)
+    return result
+
+
+def _merge_centered_titles(regions: list,
+                           gap_px: int = 30, center_tol: float = 0.08) -> list:
+    """Merge consecutive paragraph_title regions that are both centered with a small gap.
+
+    Handles model splitting a chapter label from its subtitle, e.g.:
+        BAB II                              ← narrow, centered
+        NILAI LAIN SEBAGAI DASAR PENGENAAN  ← wide or narrow, centered
+    Left-aligned list items (A., I.) are excluded because they fail the centering check.
+    Chains of 3+ stacked titles are handled iteratively.
+    """
+    if len(regions) <= 1:
+        return regions
+    # Use content bounding box as reference — titles may not be centered on the
+    # full page if the document has asymmetric margins.
+    content_x0 = min(r["bbox"][0] for r in regions)
+    content_x1 = max(r["bbox"][2] for r in regions)
+    content_center = (content_x0 + content_x1) / 2
+    content_width  = max(content_x1 - content_x0, 1)
+
+    def _centered(bbox):
+        return abs((bbox[0] + bbox[2]) / 2 - content_center) / content_width < center_tol
+
+    result = [dict(regions[0])]
+    for r in regions[1:]:
+        prev = result[-1]
+        if (prev["type"] == "paragraph_title"
+                and r["type"] == "paragraph_title"
+                and _centered(prev["bbox"])
+                and _centered(r["bbox"])
+                and r["bbox"][1] - prev["bbox"][3] < gap_px):
+            result[-1] = {
+                "type":  "paragraph_title",
+                "bbox":  [min(prev["bbox"][0], r["bbox"][0]),
+                          prev["bbox"][1],
+                          max(prev["bbox"][2], r["bbox"][2]),
+                          r["bbox"][3]],
+                "score": max(prev["score"], r["score"]),
+                "text":  "\r\n".join(t for t in [prev["text"], r["text"]] if t),
+            }
+        else:
+            result.append(dict(r))
+    return result
 
 
 def _nms_regions(regions: list) -> list:
@@ -343,7 +470,7 @@ from pydantic import BaseModel
 class _Request(BaseModel):
     file: str       # base64-encoded PDF or image bytes
     fileType: int = 0  # 0 = PDF, 1 = image
-    dpi: int = 150
+    dpi: int = 200
 
 GPU_RATE_PER_S = GPU_RATES.get(GPU, GPU_RATES["T4"])
 IDLE_WINDOW_S  = 5  # GPU scaledown_window (used for cost estimation)
@@ -430,11 +557,19 @@ class Processor:
         raw_pages       = gpu_result["pages"]
 
         # ── CPU: NMS + reading order ──────────────────────────────────────────
+        # Detect regulation at document level — mid-article pages have no BAB/Pasal heading
+        is_id_reg = any(
+            _is_indonesian_regulation(p["detections"]) for p in raw_pages
+        )
         result_pages = []
         for page_num, (page_data, _) in enumerate(zip(raw_pages, pil_pages)):
             regions = page_data["detections"]
             regions = _nms_regions(regions)
             regions = _reading_order(regions, page_data["width_px"])
+            if is_id_reg:
+                regions = _demote_bullet_items(regions)
+            regions = _reclassify_centered_headings(regions, page_data["height_px"])
+            regions = _merge_centered_titles(regions)
             for i, r in enumerate(regions):
                 r["order"] = i
             result_pages.append({

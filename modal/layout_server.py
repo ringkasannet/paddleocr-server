@@ -1,8 +1,8 @@
 """Local FastAPI server — PP-DocLayoutV3 layout detection (transformers backend).
 
 Same interface as the Modal worker:
-  POST /  {"file": "<base64>", "fileType": 0|1, "dpi": 150}
-  → {"pages": [...], "dpi": 150, "searchable": bool}
+  POST /  {"file": "<base64>", "fileType": 0|1, "dpi": 200}
+  → {"pages": [...], "dpi": 200, "searchable": bool}
 
 Dependencies:
   pip install transformers torch torchvision opencv-python-headless pypdfium2 Pillow fastapi uvicorn
@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import base64
 import io
+import logging
 import os
 import re
 import threading
@@ -37,11 +38,17 @@ from PIL import Image
 from pydantic import BaseModel
 from transformers import AutoImageProcessor, AutoModelForObjectDetection
 
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+log = logging.getLogger(__name__)
+
 MODEL_ID   = "PaddlePaddle/PP-DocLayoutV3_safetensors"
 MODEL_DIR  = os.environ.get("MODEL_DIR", "weights/PP-DocLayoutV3")
 
 DETECT_THRESHOLD  = float(os.environ.get("DETECT_THRESHOLD", "0.3"))
+HEADING_THRESHOLD = float(os.environ.get("HEADING_THRESHOLD", "0.2"))
 DETECT_BATCH_SIZE = int(os.environ.get("DETECT_BATCH_SIZE", "8"))
+
+_HEADING_LABELS = {"paragraph_title", "doc_title"}
 
 TEXT_REGION_TYPES = {
     "text", "title", "paragraph_title", "abstract",
@@ -51,6 +58,7 @@ TEXT_REGION_TYPES = {
     "number", "vision_footnote",
 }
 
+_pdf_lock  = threading.Lock()  # pypdfium2 global C state is not thread-safe
 _gpu_lock  = threading.Lock()
 _processor = None
 _model     = None
@@ -60,17 +68,30 @@ _device    = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global _processor, _model, _device
+    import pypdfium2 as pdfium
+
     model_src = MODEL_DIR if os.path.exists(os.path.join(MODEL_DIR, "config.json")) else MODEL_ID
-    print(f"[init] Loading model from {model_src} ...")
-    _device    = "cuda" if torch.cuda.is_available() else "cpu"
+    log.info(f"[init] device={'cuda' if torch.cuda.is_available() else 'cpu'}  model={model_src}")
+
+    log.info("[init] loading processor ...")
     _processor = AutoImageProcessor.from_pretrained(model_src)
-    _model     = AutoModelForObjectDetection.from_pretrained(model_src).to(_device).eval()
+
+    log.info("[init] loading model weights ...")
+    _device = "cuda" if torch.cuda.is_available() else "cpu"
+    _model  = AutoModelForObjectDetection.from_pretrained(model_src).to(_device).eval()
+
+    log.info(f"[init] warming up model on {_device} ...")
     dummy  = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
     inputs = _processor(images=[dummy], return_tensors="pt")
     inputs = {k: v.to(_device) for k, v in inputs.items()}
     with torch.no_grad():
         _model(**inputs)
-    print(f"[init] Model ready on {_device}")
+
+    log.info("[init] pre-initializing pypdfium2 ...")
+    _dummy = pdfium.PdfDocument.new()
+    del _dummy
+
+    log.info("[init] ready")
     yield
 
 
@@ -80,7 +101,7 @@ app = FastAPI(lifespan=lifespan)
 class _Request(BaseModel):
     file: str
     fileType: int = 0
-    dpi: int = 150
+    dpi: int = 200
 
 
 # ── helpers ───────────────────────────────────────────────────────────────────
@@ -110,6 +131,7 @@ def _extract_text(pdf, page_num: int, bbox_px: list[int], dpi: int) -> str:
     textpage.close()
     page.close()
     text = (text or "").strip()
+    text = text.replace('\x02', '-')  # pypdfium2 encodes line-break hyphens as STX
     return re.sub(r"([a-z])([A-Z])", r"\1-\2", text)
 
 
@@ -141,6 +163,103 @@ def _nms_regions(regions: list) -> list:
         if not dominated:
             kept.append(cand)
     return kept
+
+
+import re as _re
+_ID_REGULATION  = _re.compile(r'\b(BAB\s+[IVXLC]+|Pasal\s+\d+)\b')
+_ID_BULLET      = _re.compile(r'^[a-z0-9]{1,3}[.)]\s')
+
+
+def _is_indonesian_regulation(regions: list) -> bool:
+    return any(
+        r.get("type") == "paragraph_title"
+        and _ID_REGULATION.fullmatch(r.get("text", "").strip())
+        for r in regions
+    )
+
+
+def _demote_bullet_items(regions: list) -> list:
+    result = []
+    for r in regions:
+        if r["type"] == "paragraph_title" and _ID_BULLET.match(r.get("text", "")):
+            r = dict(r)
+            r["type"] = "text"
+        result.append(r)
+    return result
+
+
+def _reclassify_centered_headings(regions: list, page_height: int,
+                                  center_tol: float = 0.08,
+                                  width_ratio: float = 0.25,
+                                  bottom_margin: float = 0.92) -> list:
+    if not regions:
+        return regions
+    content_x0 = min(r["bbox"][0] for r in regions)
+    content_x1 = max(r["bbox"][2] for r in regions)
+    content_center = (content_x0 + content_x1) / 2
+    content_width  = max(content_x1 - content_x0, 1)
+    bottom_limit   = page_height * bottom_margin
+
+    _expected_next = {
+        "figure_title": "figure",
+        "table_title":  "table",
+        "chart_title":  "figure",
+    }
+
+    result = []
+    for i, r in enumerate(regions):
+        rtype = r["type"]
+        should_check = rtype == "text"
+        if not should_check and rtype in _expected_next:
+            expected = _expected_next[rtype]
+            next_type = regions[i + 1]["type"] if i + 1 < len(regions) else None
+            should_check = next_type != expected
+
+        if should_check:
+            x0, _, x1, y1 = r["bbox"]
+            w = x1 - x0
+            centered   = abs((x0 + x1) / 2 - content_center) / content_width < center_tol
+            narrow     = w / content_width < width_ratio
+            not_footer = y1 < bottom_limit
+            if centered and narrow and not_footer:
+                r = dict(r)
+                r["type"] = "paragraph_title"
+        result.append(r)
+    return result
+
+
+def _merge_centered_titles(regions: list,
+                           gap_px: int = 30, center_tol: float = 0.08) -> list:
+    if len(regions) <= 1:
+        return regions
+    content_x0 = min(r["bbox"][0] for r in regions)
+    content_x1 = max(r["bbox"][2] for r in regions)
+    content_center = (content_x0 + content_x1) / 2
+    content_width  = max(content_x1 - content_x0, 1)
+
+    def _centered(bbox):
+        return abs((bbox[0] + bbox[2]) / 2 - content_center) / content_width < center_tol
+
+    result = [dict(regions[0])]
+    for r in regions[1:]:
+        prev = result[-1]
+        if (prev["type"] == "paragraph_title"
+                and r["type"] == "paragraph_title"
+                and _centered(prev["bbox"])
+                and _centered(r["bbox"])
+                and r["bbox"][1] - prev["bbox"][3] < gap_px):
+            result[-1] = {
+                "type":  "paragraph_title",
+                "bbox":  [min(prev["bbox"][0], r["bbox"][0]),
+                          prev["bbox"][1],
+                          max(prev["bbox"][2], r["bbox"][2]),
+                          r["bbox"][3]],
+                "score": max(prev["score"], r["score"]),
+                "text":  "\r\n".join(t for t in [prev["text"], r["text"]] if t),
+            }
+        else:
+            result.append(dict(r))
+    return result
 
 
 def _reading_order(regions: list, page_width: int) -> list:
@@ -245,21 +364,25 @@ def _segments(arr, min_gap: int = 1):
 
 def _detect(page_jpegs: list[bytes]) -> dict:
     t0 = time.time()
+    log.info(f"[detect] started  pages={len(page_jpegs)}  batch_size={DETECT_BATCH_SIZE}")
+
     pil_images = [Image.open(io.BytesIO(j)).convert("RGB") for j in page_jpegs]
-    cpu_chunks = []
-    for chunk_start in range(0, len(pil_images), DETECT_BATCH_SIZE):
-        chunk      = pil_images[chunk_start : chunk_start + DETECT_BATCH_SIZE]
-        cpu_inputs = _processor(images=chunk, return_tensors="pt")
-        cpu_chunks.append((chunk, cpu_inputs))
 
     raw_pages = []
+    # Lock covers preprocessing too — _processor uses PyTorch ops and is not thread-safe
     with _gpu_lock:
+        cpu_chunks = []
+        for chunk_start in range(0, len(pil_images), DETECT_BATCH_SIZE):
+            chunk      = pil_images[chunk_start : chunk_start + DETECT_BATCH_SIZE]
+            cpu_inputs = _processor(images=chunk, return_tensors="pt")
+            cpu_chunks.append((chunk, cpu_inputs))
+
         for chunk, cpu_inputs in cpu_chunks:
             gpu_inputs = {k: v.to(_device) for k, v in cpu_inputs.items()}
             with torch.no_grad():
                 outputs = _model(**gpu_inputs)
             batch_detections = _processor.post_process_object_detection(
-                outputs, threshold=DETECT_THRESHOLD,
+                outputs, threshold=min(DETECT_THRESHOLD, HEADING_THRESHOLD),
                 target_sizes=[img.size[::-1] for img in chunk],
             )
             for pil_img, detections in zip(chunk, batch_detections):
@@ -267,9 +390,13 @@ def _detect(page_jpegs: list[bytes]) -> dict:
                 for score, label_id, box in zip(
                     detections["scores"], detections["labels"], detections["boxes"]
                 ):
+                    label  = _model.config.id2label[label_id.item()]
+                    cutoff = HEADING_THRESHOLD if label in _HEADING_LABELS else DETECT_THRESHOLD
+                    if score.item() < cutoff:
+                        continue
                     x0, y0, x1, y1 = box.tolist()
                     page_detections.append({
-                        "type":  _model.config.id2label[label_id.item()],
+                        "type":  label,
                         "bbox":  [int(x0), int(y0), int(x1), int(y1)],
                         "score": round(score.item(), 4),
                         "text":  "",
@@ -280,7 +407,9 @@ def _detect(page_jpegs: list[bytes]) -> dict:
                     "detections": page_detections,
                 })
 
-    return {"pages": raw_pages, "detect_s": round(time.time() - t0, 3)}
+    detect_s = round(time.time() - t0, 3)
+    log.info(f"[detect] done  detect_s={detect_s}s  pages={len(raw_pages)}")
+    return {"pages": raw_pages, "detect_s": detect_s}
 
 
 # ── endpoint ──────────────────────────────────────────────────────────────────
@@ -290,6 +419,7 @@ def process(req: _Request) -> dict:
     import pypdfium2 as pdfium
 
     t0 = time.time()
+    log.info(f"[process] received  fileType={req.fileType}  dpi={req.dpi}")
 
     raw_b64 = req.file
     if "," in raw_b64:
@@ -308,14 +438,15 @@ def process(req: _Request) -> dict:
             pdf = None
             searchable_set: set[int] = set()
         else:
-            pdf   = pdfium.PdfDocument(file_bytes)
-            scale = dpi / 72
-            pil_pages = []
-            for i in range(len(pdf)):
-                pg = pdf[i]
-                pil_pages.append(pg.render(scale=scale).to_pil())
-                pg.close()
-            searchable_set = _searchable_pages(pdf)
+            with _pdf_lock:
+                pdf   = pdfium.PdfDocument(file_bytes)
+                scale = dpi / 72
+                pil_pages = []
+                for i in range(len(pdf)):
+                    pg = pdf[i]
+                    pil_pages.append(pg.render(scale=scale).to_pil())
+                    pg.close()
+                searchable_set = _searchable_pages(pdf)
     except Exception as e:
         return {"error": f"Render failed: {e}"}
     t_render = time.time()
@@ -326,6 +457,7 @@ def process(req: _Request) -> dict:
         img.save(buf, format="JPEG", quality=90)
         page_jpegs.append(buf.getvalue())
 
+    log.info(f"[process] calling detect  pages={len(page_jpegs)}")
     gpu_result = _detect(page_jpegs)
     t_gpu_done = time.time()
 
@@ -335,11 +467,16 @@ def process(req: _Request) -> dict:
     detect_s  = gpu_result.pop("detect_s", 0)
     raw_pages = gpu_result["pages"]
 
+    is_id_reg = any(_is_indonesian_regulation(p["detections"]) for p in raw_pages)
     result_pages = []
     for page_num, (page_data, _) in enumerate(zip(raw_pages, pil_pages)):
         regions = page_data["detections"]
         regions = _nms_regions(regions)
         regions = _reading_order(regions, page_data["width_px"])
+        if is_id_reg:
+            regions = _demote_bullet_items(regions)
+        regions = _reclassify_centered_headings(regions, page_data["height_px"])
+        regions = _merge_centered_titles(regions)
         for i, r in enumerate(regions):
             r["order"] = i
         result_pages.append({
@@ -350,20 +487,22 @@ def process(req: _Request) -> dict:
         })
 
     if pdf is not None:
-        for page in result_pages:
-            if page["page_num"] in searchable_set:
-                for region in page["regions"]:
-                    if region["type"] in TEXT_REGION_TYPES:
-                        region["text"] = _extract_text(
-                            pdf, page["page_num"], region["bbox"], dpi
-                        )
-        pdf.close()
+        with _pdf_lock:
+            for page in result_pages:
+                if page["page_num"] in searchable_set:
+                    for region in page["regions"]:
+                        if region["type"] in TEXT_REGION_TYPES:
+                            region["text"] = _extract_text(
+                                pdf, page["page_num"], region["bbox"], dpi
+                            )
+            pdf.close()
     t_text = time.time()
 
     page_count = len(result_pages)
     render_s   = round(t_render - t0, 3)
     text_s     = round(t_text - t_gpu_done, 3)
     wall_s     = round(t_text - t0, 3)
+    log.info(f"[process] done  pages={page_count}  render_s={render_s}  detect_s={detect_s}  text_s={text_s}  wall_s={wall_s}")
 
     return {
         "pages":      result_pages,
