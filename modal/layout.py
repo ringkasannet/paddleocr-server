@@ -91,7 +91,7 @@ _gpu_lock = threading.Lock()  # serializes CUDA ops across concurrent threads in
     experimental_options={"enable_gpu_snapshot": True},
     scaledown_window=60,    # keep GPU containers warm for 60s between requests
     timeout=120,
-    max_containers=10,      # hard cap at hobby plan's 10 GPU slots
+    max_containers=8,
 )
 @modal.concurrent(max_inputs=4, target_inputs=3)
 class LayoutDetector:
