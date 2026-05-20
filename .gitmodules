@@ -4,3 +4,6 @@
 [submodule "PaddleX"]
 	path = PaddleX
 	url = https://github.com/PaddlePaddle/PaddleX
+[submodule "GLM-OCR"]
+	path = GLM-OCR
+	url = https://github.com/zai-org/GLM-OCR
