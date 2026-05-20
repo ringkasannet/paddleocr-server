@@ -33,7 +33,7 @@ app = modal.App("glm-ocr")
 
 MODEL_ID    = "zai-org/GLM-OCR"
 SERVED_NAME = "glm-ocr"          # --served-model-name used in API calls
-GPU         = "L4"             # 24 GB VRAM — GLM-OCR 9B in bfloat16 ≈ 18 GB
+GPU         = "T4"             # 24 GB VRAM — GLM-OCR 9B in bfloat16 ≈ 18 GB
 VLLM_PORT   = 8000
 
 hf_vol   = modal.Volume.from_name("glm-ocr-hf-cache",   create_if_missing=True)

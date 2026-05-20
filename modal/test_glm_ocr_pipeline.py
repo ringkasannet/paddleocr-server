@@ -22,10 +22,49 @@ import requests
 
 ENDPOINT = "https://ringkasan-net--glm-ocr-pipeline-pipelinefrontend-process.modal.run"
 COLD_THRESHOLD = 3.0
+GPU_RATE  = 0.000222   # L4 $/s (Modal on-demand)
+IDR_RATE  = 17_500     # IDR per USD
 
 
 def _fmt(v, w=8) -> str:
     return f"{v:>{w}.2f}s" if isinstance(v, (int, float)) else f"{'?':>{w}}"
+
+
+def _price(seconds: float) -> str:
+    c = seconds * GPU_RATE
+    if c >= 1:
+        return f"${c:.4f}"
+    if c >= 0.01:
+        return f"${c:.5f}"
+    return f"${c:.6f}"
+
+
+def _idr(seconds: float) -> str:
+    rp = seconds * GPU_RATE * IDR_RATE
+    if rp >= 1000:
+        return f"Rp{rp:,.0f}"
+    if rp >= 1:
+        return f"Rp{rp:.2f}"
+    return f"Rp{rp:.4f}"
+
+
+def _pc(seconds: float) -> str:
+    return f"{_price(seconds)}  ({_idr(seconds)})"
+
+
+def _pricing_block(total_s: float | None, wall_s: float,
+                   n_pages: int | None = None) -> None:
+    print(f"\n  ── pricing  (L4 ${GPU_RATE}/s · Rp{IDR_RATE:,}/USD, 1 req, no concurrency) ──")
+    if total_s is not None:
+        print(f"  lower bound  (server total_s)  : {_pc(total_s)}")
+        print(f"  upper bound  (client wall_s)   : {_pc(wall_s)}")
+        print(f"  per 1 000 req (lower)          : {_pc(total_s * 1000)}")
+        print(f"  per 1 000 req (upper)          : {_pc(wall_s  * 1000)}")
+        if n_pages and n_pages > 0:
+            print(f"  per page  ({n_pages:>3} pages) lower  : {_pc(total_s / n_pages)}")
+            print(f"  per page  ({n_pages:>3} pages) upper  : {_pc(wall_s  / n_pages)}")
+    else:
+        print(f"  upper bound  (client wall_s)   : {_pc(wall_s)}")
 
 
 # ── network call ───────────────────────────────────────────────────────────────
@@ -136,17 +175,19 @@ def print_result(label: str, wall: float, data: dict):
         print(f"\n  ── cold start ─────────────────────────────────────────")
         print(f"  wakeup_s          : {_fmt(cs.get('wakeup_s'))}   ← vLLM weight restore")
         print(f"  health_s          : {_fmt(cs.get('health_s'))}   ← ready check")
-        print(f"  layout_load_s     : {_fmt(cs.get('layout_load_s'))}   ← layout model + cuda")
+        layout_key = "layout_gpu_s" if "layout_gpu_s" in cs else "layout_load_s"
+        print(f"  {layout_key:<17} : {_fmt(cs.get(layout_key))}   ← layout .to(cuda) + warmup")
         print(f"  total_wake_s      : {_fmt(cs.get('total_s'))}   ← total wake() time")
         ld = cs.get("layout_detail")
         if ld:
-            print(f"\n  ── layout load detail ─────────────────────────────────")
-            print(f"  torch_import_s        : {_fmt(ld.get('torch_import_s'))}")
-            print(f"  transformers_import_s : {_fmt(ld.get('transformers_import_s'))}")
-            print(f"  processor_s           : {_fmt(ld.get('processor_s'))}")
-            print(f"  model_load_s          : {_fmt(ld.get('model_load_s'))}")
-            print(f"  model_cuda_s          : {_fmt(ld.get('model_cuda_s'))}")
-            print(f"  warmup_s              : {_fmt(ld.get('warmup_s'))}")
+            print(f"\n  ── layout activation detail ───────────────────────────")
+            for k in ("torch_import_s", "transformers_import_s", "processor_s",
+                      "model_load_s", "model_cuda_s", "warmup_s"):
+                if k in ld:
+                    print(f"  {k:<24}: {_fmt(ld.get(k))}")
+
+    n_pages = len(meta.get("pages") or [])
+    _pricing_block(timing.get("total_s"), wall, n_pages if n_pages > 0 else None)
 
     print(f"\n  ── blocks ({len(blocks)}) ──────────────────────────────────────")
     for b in blocks[:10]:
@@ -272,6 +313,15 @@ def print_summary(results: list, round_elapsed: float | None = None):
     _row("ocr_avg_exec_s",   cols["avg_exec"])
     _row("total_s",          cols["total"])
     _row("wall (e2e)",        cols["wall"])
+
+    if cols["total"] and cols["wall"]:
+        avg_total = sum(cols["total"]) / len(cols["total"])
+        avg_wall  = sum(cols["wall"])  / len(cols["wall"])
+        print(f"\n  ── pricing  (L4 ${GPU_RATE}/s · Rp{IDR_RATE:,}/USD, avg, no concurrency) ──")
+        print(f"  avg lower (server total_s) : {_pc(avg_total)}")
+        print(f"  avg upper (client wall_s)  : {_pc(avg_wall)}")
+        print(f"  per 1 000 req (lower)      : {_pc(avg_total * 1000)}")
+        print(f"  per 1 000 req (upper)      : {_pc(avg_wall  * 1000)}")
 
 
 # ── run logic ──────────────────────────────────────────────────────────────────

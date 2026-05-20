@@ -239,11 +239,17 @@ class DocumentOCRWorker:
     def start(self) -> None:
         import requests
         from PIL import Image
-        # Pre-import transformers so sys.modules is populated in the snapshot.
-        # This eliminates the ~9s first-import cost in wake() on cold start.
-        from transformers import AutoImageProcessor, AutoModelForObjectDetection  # noqa: F401
+        from transformers import AutoImageProcessor, AutoModelForObjectDetection
 
-        # ── 1. Start vLLM on GPU ─────────────────────────────────────────────
+        # ── 1. Pre-load layout model weights on CPU ───────────────────────────
+        # CPU tensors go into the CPU snapshot. wake() only pays for .to("cuda").
+        print("[single] pre-loading PP-DocLayoutV3 weights on CPU ...")
+        t_lstart = time.time()
+        self._layout_processor = AutoImageProcessor.from_pretrained(LAYOUT_MODEL_ID)
+        self._layout_model = AutoModelForObjectDetection.from_pretrained(LAYOUT_MODEL_ID).eval()
+        print(f"[single] layout weights ready on CPU in {time.time()-t_lstart:.2f}s")
+
+        # ── 2. Start vLLM on GPU ─────────────────────────────────────────────
         cmd = [
             "vllm", "serve", GLM_MODEL_ID,
             "--host", "0.0.0.0",
@@ -251,22 +257,38 @@ class DocumentOCRWorker:
             "--enable-sleep-mode",
             "--gpu-memory-utilization", "0.6",
             "--max-model-len",          "8192",
-            "--max-num-seqs",           "16",
+            "--max-num-seqs",            "16",
+            "--max-num-batched-tokens", "8192",
             "--dtype",                  "bfloat16",
             "--served-model-name",      SERVED_NAME,
+            "--speculative-config",     '{"method": "mtp", "num_speculative_tokens": 3}',
         ]
         self._proc = subprocess.Popen(cmd)
         print("[single] waiting for vLLM ...")
         _wait_ready(VLLM_PORT)
 
-        # ── 2. Warm up vLLM (compile Triton kernels for all task types) ───────
+        # ── 3. Exhaustive vLLM warmup ─────────────────────────────────────────
+        # Covers the full range of visual token counts produced by real document
+        # crops so rotary_kernel and other Triton ops are compiled before snapshot.
+        # Image pixel count → visual tokens (CogViT 14×14 patches, 196 px/token):
+        #   112 896 px →  576 tok  |  302 400 px → 1543 tok  |  512 000 px → 2612 tok
+        #   750 000 px → 3826 tok  |  1 003 520 px → 5120 tok
         print("[single] warming up vLLM ...")
         session = requests.Session()
         warmup_cases = [
-            ((336, 336), 112_896,   512_000, 128, "Text Recognition:"),
-            ((672, 672), 112_896, 1_003_520, 128, "Table Recognition:"),
-            ((336, 168), 112_896,   512_000, 128, "Formula Recognition:"),
+            # text (max_pixels=512 000) — 576, ~1530, ~2612 visual tokens
+            ((336,  336),  112_896,   512_000, 128, "Text Recognition:"),
+            ((1500, 200),  112_896,   512_000, 128, "Text Recognition:"),
+            ((640,  800),  112_896,   512_000, 128, "Text Recognition:"),
+            # table (max_pixels=1 003 520) — ~1543, ~3826, ~5120 visual tokens
+            ((672,  450),  112_896, 1_003_520, 128, "Table Recognition:"),
+            ((1500, 500),  112_896, 1_003_520, 128, "Table Recognition:"),
+            ((1000, 1000), 112_896, 1_003_520, 128, "Table Recognition:"),
+            # formula — ~576, ~2612 visual tokens
+            ((336,  168),  112_896,   512_000, 128, "Formula Recognition:"),
+            ((640,  800),  112_896,   512_000, 128, "Formula Recognition:"),
         ]
+        n = len(warmup_cases)
         for i, (size, min_px, max_px, max_tok, prompt) in enumerate(warmup_cases):
             dummy_img = Image.new("RGB", size)
             buf = io.BytesIO()
@@ -285,28 +307,21 @@ class DocumentOCRWorker:
                     "max_tokens": max_tok,
                     "temperature": 0.0,
                 },
-                timeout=120,
+                timeout=300,
             )
-            print(f"[warmup {i+1}/3] {prompt}  status={r.status_code}")
+            print(f"[warmup {i+1}/{n}] {size} {prompt}  status={r.status_code}")
 
-        # ── 3. Sleep for snapshot ─────────────────────────────────────────────
+        # ── 4. Sleep for snapshot ─────────────────────────────────────────────
         print("[single] sleeping for snapshot ...")
         requests.post(f"http://localhost:{VLLM_PORT}/sleep", timeout=120)
         print("[single] snapshot will be taken now")
 
-    def _load_layout_model(self) -> None:
-        t0 = time.time()
+    def _activate_layout_gpu(self) -> None:
+        """Move layout model (CPU weights from snapshot) to GPU and run warmup inference."""
         import torch
         from PIL import Image
-        t_torch = time.time()
-        from transformers import AutoImageProcessor, AutoModelForObjectDetection
-        t_transformers = time.time()
-
-        print("[single] loading PP-DocLayoutV3 on GPU ...")
-        self._layout_processor = AutoImageProcessor.from_pretrained(LAYOUT_MODEL_ID)
-        t_processor = time.time()
-        self._layout_model = AutoModelForObjectDetection.from_pretrained(LAYOUT_MODEL_ID)
-        t_model_load = time.time()
+        t0 = time.time()
+        print("[single] activating layout model on GPU ...")
         self._layout_model = self._layout_model.to("cuda").eval()
         t_cuda = time.time()
         dummy = Image.new("RGB", (224, 224))
@@ -314,23 +329,12 @@ class DocumentOCRWorker:
         with torch.no_grad():
             self._layout_model(**inputs)
         t_warmup = time.time()
-
         self._layout_load_detail = {
-            "torch_import_s":        round(t_torch       - t0,           3),
-            "transformers_import_s": round(t_transformers - t_torch,      3),
-            "processor_s":           round(t_processor   - t_transformers, 3),
-            "model_load_s":          round(t_model_load  - t_processor,   3),
-            "model_cuda_s":          round(t_cuda        - t_model_load,  3),
-            "warmup_s":              round(t_warmup      - t_cuda,        3),
-            "total_s":               round(t_warmup      - t0,            3),
+            "model_cuda_s": round(t_cuda   - t0,     3),
+            "warmup_s":     round(t_warmup - t_cuda, 3),
+            "total_s":      round(t_warmup - t0,     3),
         }
-        print(
-            f"[single] layout model ready  "
-            f"torch={t_torch-t0:.2f}s transformers={t_transformers-t_torch:.2f}s "
-            f"processor={t_processor-t_transformers:.2f}s model_load={t_model_load-t_processor:.2f}s "
-            f"cuda={t_cuda-t_model_load:.2f}s warmup={t_warmup-t_cuda:.2f}s "
-            f"total={t_warmup-t0:.2f}s"
-        )
+        print(f"[single] layout GPU ready  cuda={t_cuda-t0:.2f}s warmup={t_warmup-t_cuda:.2f}s")
 
     @modal.enter(snap=False)
     def wake(self) -> None:
@@ -344,16 +348,16 @@ class DocumentOCRWorker:
         self._session = requests.Session()
         adapter = requests.adapters.HTTPAdapter(pool_connections=1, pool_maxsize=32)
         self._session.mount("http://", adapter)
-        self._load_layout_model()
+        self._activate_layout_gpu()
         t_done = time.time()
         self._cold_start_timing = {
             "wakeup_s":      round(t_wakeup - t0,       3),
             "health_s":      round(t_ready  - t_wakeup, 3),
-            "layout_load_s": round(t_done   - t_ready,  3),
+            "layout_gpu_s":  round(t_done   - t_ready,  3),
             "layout_detail": getattr(self, "_layout_load_detail", None),
             "total_s":       round(t_done   - t0,       3),
         }
-        print(f"[single] ready  wakeup={t_wakeup-t0:.2f}s  health={t_ready-t_wakeup:.2f}s  layout_load={t_done-t_ready:.2f}s  total={t_done-t0:.2f}s")
+        print(f"[single] ready  wakeup={t_wakeup-t0:.2f}s  health={t_ready-t_wakeup:.2f}s  layout_gpu={t_done-t_ready:.2f}s  total={t_done-t0:.2f}s")
 
     @modal.exit()
     def stop(self) -> None:
