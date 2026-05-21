@@ -336,6 +336,60 @@ class DocumentOCRWorker:
         }
         print(f"[single] layout GPU ready  cuda={t_cuda-t0:.2f}s warmup={t_warmup-t_cuda:.2f}s")
 
+    def _batch_warmup(self, n: int = 16) -> float:
+        """Send n concurrent requests to vLLM to pre-compile batch-N Triton kernels.
+
+        snap=True warmup sends requests sequentially (batch=1). Real inference
+        submits up to 16 simultaneous requests (batch=16). Triton JIT compiles
+        separate kernels per batch size, so the first real request pays ~4s for
+        batch-16 compilation. Sending n concurrent warmup requests here forces
+        that compilation during wake() before any user request arrives.
+        """
+        from PIL import Image
+
+        warmup_cases = [
+            ((336,  336),  112_896,   512_000, "Text Recognition:"),
+            ((1500, 200),  112_896,   512_000, "Text Recognition:"),
+            ((640,  800),  112_896,   512_000, "Text Recognition:"),
+            ((672,  450),  112_896, 1_003_520, "Table Recognition:"),
+            ((1500, 500),  112_896, 1_003_520, "Table Recognition:"),
+            ((1000, 1000), 112_896, 1_003_520, "Table Recognition:"),
+            ((336,  168),  112_896,   512_000, "Formula Recognition:"),
+            ((640,  800),  112_896,   512_000, "Formula Recognition:"),
+        ]
+
+        def _send_one(idx: int) -> int:
+            size, min_px, max_px, prompt = warmup_cases[idx % len(warmup_cases)]
+            dummy = Image.new("RGB", size)
+            buf   = io.BytesIO()
+            dummy.save(buf, format="JPEG")
+            data_url = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+            resp = self._session.post(
+                f"http://localhost:{VLLM_PORT}/v1/chat/completions",
+                json={
+                    "model": SERVED_NAME,
+                    "messages": [{"role": "user", "content": [
+                        {"type": "image_url", "image_url": {
+                            "url": data_url, "min_pixels": min_px, "max_pixels": max_px,
+                        }},
+                        {"type": "text", "text": prompt},
+                    ]}],
+                    "max_tokens": 32,
+                    "temperature": 0.0,
+                },
+                timeout=120,
+            )
+            return resp.status_code
+
+        print(f"[single] batch warmup ({n} concurrent) — pre-compiling batch-{n} Triton kernels ...")
+        t0 = time.time()
+        with ThreadPoolExecutor(max_workers=n) as pool:
+            statuses = list(pool.map(_send_one, range(n)))
+        elapsed = round(time.time() - t0, 3)
+        ok = sum(1 for s in statuses if s == 200)
+        print(f"[single] batch warmup done  {ok}/{n} ok  {elapsed:.2f}s")
+        return elapsed
+
     @modal.enter(snap=False)
     def wake(self) -> None:
         import requests
@@ -349,15 +403,22 @@ class DocumentOCRWorker:
         adapter = requests.adapters.HTTPAdapter(pool_connections=1, pool_maxsize=32)
         self._session.mount("http://", adapter)
         self._activate_layout_gpu()
+        t_layout = time.time()
+        batch_warmup_s = self._batch_warmup(n=16)
         t_done = time.time()
         self._cold_start_timing = {
-            "wakeup_s":      round(t_wakeup - t0,       3),
-            "health_s":      round(t_ready  - t_wakeup, 3),
-            "layout_gpu_s":  round(t_done   - t_ready,  3),
-            "layout_detail": getattr(self, "_layout_load_detail", None),
-            "total_s":       round(t_done   - t0,       3),
+            "wakeup_s":       round(t_wakeup - t0,        3),
+            "health_s":       round(t_ready  - t_wakeup,  3),
+            "layout_gpu_s":   round(t_layout - t_ready,   3),
+            "layout_detail":  getattr(self, "_layout_load_detail", None),
+            "batch_warmup_s": batch_warmup_s,
+            "total_s":        round(t_done   - t0,        3),
         }
-        print(f"[single] ready  wakeup={t_wakeup-t0:.2f}s  health={t_ready-t_wakeup:.2f}s  layout_gpu={t_done-t_ready:.2f}s  total={t_done-t0:.2f}s")
+        print(
+            f"[single] ready  wakeup={t_wakeup-t0:.2f}s  health={t_ready-t_wakeup:.2f}s  "
+            f"layout_gpu={t_layout-t_ready:.2f}s  batch_warmup={batch_warmup_s:.2f}s  "
+            f"total={t_done-t0:.2f}s"
+        )
 
     @modal.exit()
     def stop(self) -> None:

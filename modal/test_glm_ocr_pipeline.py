@@ -177,6 +177,8 @@ def print_result(label: str, wall: float, data: dict):
         print(f"  health_s          : {_fmt(cs.get('health_s'))}   ← ready check")
         layout_key = "layout_gpu_s" if "layout_gpu_s" in cs else "layout_load_s"
         print(f"  {layout_key:<17} : {_fmt(cs.get(layout_key))}   ← layout .to(cuda) + warmup")
+        if "batch_warmup_s" in cs:
+            print(f"  batch_warmup_s    : {_fmt(cs.get('batch_warmup_s'))}   ← 16-concurrent Triton JIT pre-compile")
         print(f"  total_wake_s      : {_fmt(cs.get('total_s'))}   ← total wake() time")
         ld = cs.get("layout_detail")
         if ld:
