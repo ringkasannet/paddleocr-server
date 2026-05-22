@@ -41,6 +41,7 @@ SERVED_NAME   = "glm-ocr"
 GPU           = "L4"
 VLLM_PORT     = 8000
 
+
 hf_vol   = modal.Volume.from_name("glm-ocr-hf-cache",   create_if_missing=True)
 vllm_vol = modal.Volume.from_name("glm-ocr-vllm-cache",  create_if_missing=True)
 
@@ -71,6 +72,7 @@ image = (
         "TORCH_CPP_LOG_LEVEL":           "ERROR",
         "TORCH_NCCL_ENABLE_MONITORING":  "0",
     })
+    .add_local_file("warmup_doc.jpg", "/root/warmup_doc.jpg")
 )
 
 
@@ -358,11 +360,13 @@ class DocumentOCRWorker:
             ((640,  800),  112_896,   512_000, "Formula Recognition:"),
         ]
 
+        source = Image.open("/root/warmup_doc.jpg").convert("RGB")
+
         def _send_one(idx: int) -> int:
             size, min_px, max_px, prompt = warmup_cases[idx % len(warmup_cases)]
-            dummy = Image.new("RGB", size)
-            buf   = io.BytesIO()
-            dummy.save(buf, format="JPEG")
+            img = source.resize(size, Image.LANCZOS)
+            buf = io.BytesIO()
+            img.save(buf, format="JPEG", quality=85)
             data_url = "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
             resp = self._session.post(
                 f"http://localhost:{VLLM_PORT}/v1/chat/completions",

@@ -96,6 +96,75 @@ def send(endpoint: str, file_bytes: bytes, file_type: int, dpi: int,
         }
 
 
+# ── event timeline ────────────────────────────────────────────────────────────
+
+def _print_timeline(t: dict, client: dict, wall: float):
+    """Absolute elapsed-time timeline anchored to t=0 (client start)."""
+
+    enc_s    = client.get("encode_s")    or 0.0
+    upload_s = client.get("upload_s")    or 0.0   # = net + srv_wall
+    dl_s     = client.get("download_s")  or 0.0
+    wall_s   = t.get("wall_s")           or 0.0
+    net_s    = max(round(upload_s - wall_s, 3), 0.0)
+
+    render_s  = t.get("render_s")     or 0.0
+    jpeg_s    = t.get("jpeg_encode_s") or 0.0
+    jpeg_kb   = t.get("jpeg_kb")
+    queued_s  = t.get("queued_s")
+    detect_s  = t.get("detect_s")     or 0.0
+    text_s    = t.get("text_s")       or 0.0
+    post_s    = t.get("post_s")       or 0.0
+
+    # All timestamps are elapsed seconds from t=0 (start of send())
+    t_sent        = enc_s
+    t_proc        = enc_s + net_s                               # Processor receives
+    t_render      = t_proc + render_s                           # render done
+    t_jpeg        = t_render + jpeg_s                           # JPEG encode done
+    t_rpc         = t_jpeg                                      # detect.remote() called
+    t_gpu_start   = t_rpc + queued_s if queued_s is not None else None
+    t_gpu_done    = t_gpu_start + detect_s if t_gpu_start is not None else None
+    t_text        = (t_gpu_done or t_rpc) + text_s
+    t_post        = t_text + post_s
+    t_srv_done    = t_proc + wall_s                             # processor sends response
+    t_first_byte  = enc_s + upload_s                           # client receives first byte
+    t_complete    = t_first_byte + dl_s                         # client receives last byte
+
+    cold = queued_s is not None and queued_s > COLD_THRESHOLD
+
+    def _ts(v):
+        return f"t={v:>7.3f}s" if v is not None else "t=      ?s"
+
+    def _bar(duration, char="─"):
+        n = max(1, int(duration * 2))
+        return char * min(n, 32)
+
+    print(f"\n  ── event timeline ──────────────────────────────────────")
+    print(f"  {_ts(0.0)}  [client]     encode start")
+    print(f"  {_ts(t_sent)}  [client]     request sent  (+{enc_s:.3f}s encode)")
+    print(f"             ╎  {_bar(net_s, '·')} network {net_s:.3f}s")
+    print(f"  {_ts(t_proc)}  [processor]  received · render starts")
+    print(f"  {_ts(t_render)}  [processor]  render done  (+{render_s:.3f}s)")
+    if jpeg_s > 0:
+        kb_note = f"  {jpeg_kb} KB" if jpeg_kb else ""
+        print(f"  {_ts(t_jpeg)}  [processor]  JPEG encoded{kb_note}  (+{jpeg_s:.3f}s)")
+    print(f"  {_ts(t_rpc)}  [processor]  detect.remote() called")
+    if queued_s is not None:
+        label = f"COLD {queued_s:.2f}s" if cold else f"warm {queued_s:.3f}s"
+        print(f"             ╎  {_bar(queued_s, '░' if cold else '·')} dispatch {label}")
+    if t_gpu_start is not None:
+        print(f"  {_ts(t_gpu_start)}  [gpu]        detect() started")
+    if t_gpu_done is not None:
+        print(f"  {_ts(t_gpu_done)}  [gpu]        detect() done  (+{detect_s:.3f}s)")
+        print(f"  {_ts(t_gpu_done)}  [processor]  result received · text+nms starts")
+    print(f"  {_ts(t_text)}  [processor]  text+nms done  (+{text_s:.3f}s)")
+    if post_s > 0.001:
+        print(f"  {_ts(t_post)}  [processor]  post done  (+{post_s:.3f}s)")
+    print(f"  {_ts(t_srv_done)}  [processor]  response sent  (wall {wall_s:.3f}s)")
+    print(f"             ╎  {_bar(dl_s, '·')} download {dl_s:.3f}s")
+    print(f"  {_ts(t_first_byte)}  [client]     first byte  (ttfb {upload_s:.3f}s)")
+    print(f"  {_ts(t_complete)}  [client]     complete  (wall {wall:.3f}s)")
+
+
 # ── per-request detail ────────────────────────────────────────────────────────
 
 def print_result(label: str, wall: float, data: dict, show_regions: bool = True):
@@ -134,25 +203,46 @@ def print_result(label: str, wall: float, data: dict, show_regions: bool = True)
     queued_s = t.get("queued_s")
     detect_s = t.get("detect_s")
     text_s   = t.get("text_s")
+    post_s   = t.get("post_s")
     wall_s   = t.get("wall_s")
 
+    encode_s   = client.get("encode_s")
     upload_s   = client.get("upload_s")
     download_s = client.get("download_s")
     resp_bytes = client.get("resp_bytes")
+    net_s      = round(upload_s - wall_s, 3) if isinstance(upload_s, (int, float)) and isinstance(wall_s, (int, float)) else None
 
-    print(f"\n  ── timing ───────────────────────────────────")
-    net_s = round(upload_s - wall_s, 3) if isinstance(upload_s, (int, float)) and isinstance(wall_s, (int, float)) else None
-    print(f"  encode   (client) : {_fmt(client.get('encode_s'))}")
-    print(f"  ttfb     (client) : {_fmt(upload_s)}   ← upload_net + srv_wall (time to first byte)")
-    print(f"  net_s    (client) : {_fmt(net_s)}   ← pure upload network time (ttfb − srv_wall)")
-    print(f"  render   (server) : {_fmt(render_s)}")
-    print(f"  dispatch (server) : {_fmt(queued_s)}   {_container_label(queued_s)}")
-    print(f"  detect   (server) : {_fmt(detect_s)}")
-    print(f"  text     (server) : {_fmt(text_s)}")
-    print(f"  download (client) : {_fmt(download_s)}   ← response body {resp_bytes:,} bytes" if resp_bytes else f"  download (client) : {_fmt(download_s)}")
-    print(f"  ─")
-    print(f"  server wall       : {_fmt(wall_s)}")
-    print(f"  client wall       : {_fmt(wall)}")
+    W = 8
+    def _f(v, note=""): return f"{_fmt(v):>{W}}   {note}" if note else f"{_fmt(v):>{W}}"
+
+    jpeg_encode_s = t.get("jpeg_encode_s")
+    jpeg_kb       = t.get("jpeg_kb")
+    rpc_wall_s    = t.get("rpc_wall_s")
+
+    print(f"\n  ── timing ──────────────────────────────────────────────")
+    print(f"  [client]")
+    print(f"  encode          : {_f(encode_s)}")
+    print(f"  upload_net      : {_f(net_s,  '← pure network (ttfb − srv_wall)')}")
+    print(f"  download        : {_f(download_s, f'← {resp_bytes:,} bytes' if resp_bytes else '')}")
+    print(f"")
+    print(f"  [server — cpu]")
+    print(f"  render          : {_f(render_s,      '← PDF → PIL pages')}")
+    print(f"  jpeg_encode     : {_f(jpeg_encode_s, f'← {jpeg_kb} KB JPEG payload' if jpeg_kb else '← JPEG encode')}")
+    print(f"  text + nms      : {_f(text_s,        '← NMS + reading order + text extract')}")
+    print(f"  post            : {_f(post_s,        '← regulation rules + reclassify + merge')}")
+    print(f"")
+    print(f"  [server — rpc  cpu→gpu]")
+    rpc_note = f"← {jpeg_kb} KB sent  ({_fmt(queued_s)} dispatch + {_fmt(detect_s)} detect)" if jpeg_kb else ""
+    print(f"  rpc_wall        : {_f(rpc_wall_s, rpc_note)}")
+    print(f"  dispatch        : {_f(queued_s)}   {_container_label(queued_s)}")
+    print(f"  detect          : {_f(detect_s, '← DETR inference')}")
+    print(f"  ─────────────────────────────────────────────────────────")
+    print(f"  server wall     : {_f(wall_s)}")
+    print(f"  ttfb            : {_f(upload_s, '← upload_net + srv_wall')}")
+    print(f"  client wall     : {_f(wall)}")
+
+    # ── event timeline ────────────────────────────────────────────────────
+    _print_timeline(t, client, wall)
 
     if cost:
         usd_q  = cost.get("estimated_usd_queued") or cost.get("estimated_usd_lower")
@@ -484,7 +574,7 @@ def main():
                                            gap=args.gap, gap_max=args.gap_max)
         last_round_elapsed = round_elapsed
         for label, wall, data in results:
-            if args.detail:
+            if args.detail or len(results) == 1:
                 print_result(label, wall, data, show_regions=not args.no_regions)
             if args.save:
                 ts       = datetime.now().strftime("%Y%m%d_%H%M%S")

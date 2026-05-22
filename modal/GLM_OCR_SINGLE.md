@@ -80,11 +80,62 @@ Added `_batch_warmup(n=16)` called after `_activate_layout_gpu()` in `wake()`. S
 
 **Why:** `snap=True` warmup sends requests sequentially (effective batch size = 1 inside vLLM). Real inference submits 16 concurrent requests (batch = 16). Triton JIT-compiles separate kernels per batch size. Without this, the first cold-start request pays ~4s for batch-16 compilation.
 
+## CPU-Only Snapshot Strategy (layout-worker / LayoutDetector)
+
+For apps where `snap=True` does **not** need GPU (e.g. pure PyTorch model loading to CPU RAM), skip `enable_gpu_snapshot` entirely and use a CPU-only snapshot with a `snap=False` activator.
+
+**Why this works for LayoutDetector but not for glm-ocr-single:**
+- `glm-ocr-single` snap=True starts vLLM (a subprocess that reads `CUDA_VISIBLE_DEVICES`). Without `enable_gpu_snapshot`, Modal sets `CUDA_VISIBLE_DEVICES=none` → vLLM crashes on startup. GPU snapshot is mandatory.
+- `LayoutDetector` snap=True only calls `AutoModelForObjectDetection.from_pretrained()` which loads to CPU RAM by default and never touches CUDA. No GPU needed → CPU snapshot works.
+
+**Pattern:**
+```python
+@modal.enter(snap=True)
+def load(self):
+    # CPU-only: weights land in RAM, captured in snapshot
+    self._model = AutoModelForObjectDetection.from_pretrained(model_src).eval()
+    # NO .to("cuda") here
+
+@modal.enter(snap=False)
+def activate(self):
+    # Runs on every serving container after snapshot restore
+    self._device = "cuda"
+    self._model = self._model.to("cuda").eval()
+    # GPU warmup to compile CUDA kernels
+    with torch.no_grad():
+        self._model(**dummy_inputs_on_cuda)
+```
+
+**Cold start breakdown:**
+- CPU snapshot restore: ~5s (400 MB model weights from Modal storage)
+- Container initialization: ~1.75s
+- `activate()` PCIe transfer + warmup: ~3.5s (NOT included in Modal's "startup" metric)
+- Cross-container routing overhead: ~0.5s
+- Total `dispatch` (queued_s): ~10.5s
+
+Modal's dashboard "startup" timer stops when the container process starts, **before** `snap=False` runs. The gap between dashboard startup and `queued_s` is `activate()` time.
+
+**Why this eliminates SIGSEGV permanently:**
+GPU snapshot SIGSEGV is caused by CUDA graph device pointers becoming stale when a container restores on different GPU hardware. With CPU-only snapshot, nothing GPU-related is captured → nothing to go stale → no SIGSEGV, ever, regardless of Modal worker rotation.
+
+**Fallback guard in `detect()`:**
+`snap=False` only runs on snapshot-restored containers. Fresh containers (e.g. during initial snapshot creation) run `snap=True` only. Add a lazy activation guard at the top of the inference method:
+```python
+if not hasattr(self, "_device"):
+    self._device = "cuda" if torch.cuda.is_available() else "cpu"
+    self._model = self._model.to(self._device).eval()
+    # warmup
+```
+This ensures the model is always on GPU regardless of which entry path the container took.
+
 ## Lessons Learned
 
 1. `enable_gpu_snapshot` is required (not optional) when `snap=True` needs GPU.
-2. Removing GPU snapshot breaks snap=True — Modal runs it CPU-only without the flag.
+2. Removing GPU snapshot breaks snap=True for vLLM — Modal runs it CPU-only without the flag.
 3. `--enforce-eager` + MTP is catastrophically slow — do not combine.
 4. SIGSEGV on restore is fixed by comprehensive warmup coverage, not by removing MTP or adding `--enforce-eager`.
 5. `max_tokens` per request has no effect on snapshot stability.
 6. Reducing `--max-num-seqs` to reduce CUDA graph count hurts throughput proportionally — not worth it.
+7. Modal's "startup" metric ends before `snap=False` runs — the real cold start cost includes `activate()` time on top of what the dashboard shows.
+8. GPU snapshot SIGSEGV is a Modal platform lifecycle issue: once a snapshot becomes stale (GPU worker rotation), Modal never auto-rebuilds it. A redeploy is the only reset.
+9. For PyTorch-only classes (no vLLM subprocess), CPU snapshot + `snap=False` activator is always preferable: no SIGSEGV risk, simpler, stable across worker rotation.

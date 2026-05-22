@@ -40,7 +40,10 @@ layout_image = (
         "'transformers>=5.3.0' torch torchvision opencv-python-headless pypdfium2 Pillow "
         "'huggingface_hub[hf_transfer]' 'fastapi[standard]'",
     )
-    .env({"HF_HUB_ENABLE_HF_TRANSFER": "1"})
+    .env({
+        "HF_HUB_ENABLE_HF_TRANSFER":        "1",
+        "TRANSFORMERS_NO_ADVISORY_WARNINGS": "1",
+    })
 )
 
 cpu_image = (
@@ -89,7 +92,7 @@ _gpu_lock = threading.Lock()  # serializes CUDA ops across concurrent threads in
     volumes={WEIGHTS_PATH: vol},
     enable_memory_snapshot=True,
     experimental_options={"enable_gpu_snapshot": True},
-    scaledown_window=60,    # keep GPU containers warm for 60s between requests
+    scaledown_window=60,
     timeout=120,
     max_containers=8,
 )
@@ -97,23 +100,40 @@ _gpu_lock = threading.Lock()  # serializes CUDA ops across concurrent threads in
 class LayoutDetector:
     @modal.enter(snap=True)
     def load(self):
+        # Load model directly to GPU — captured in GPU snapshot.
+        # Restored containers get model already on GPU with CUDA context initialized:
+        # no PCIe transfer, no CUDA first-init in activate() → ~4-5s dispatch vs ~10.5s.
         import torch
         import numpy as np
         from PIL import Image
         from transformers import AutoImageProcessor, AutoModelForObjectDetection
         model_dir = os.path.join(WEIGHTS_PATH, "PP-DocLayoutV3")
         model_src = model_dir if os.path.exists(os.path.join(model_dir, "config.json")) else MODEL_ID
-        self._device = "cuda" if torch.cuda.is_available() else "cpu"
         self._processor = AutoImageProcessor.from_pretrained(model_src)
-        self._model = AutoModelForObjectDetection.from_pretrained(model_src)
-        self._model = self._model.to(self._device).eval()
-        # Warm-up: trigger CUDA kernel compilation so it's captured in the snapshot.
-        dummy = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
+        self._model     = AutoModelForObjectDetection.from_pretrained(model_src).to("cuda").eval()
+        dummy  = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
         inputs = self._processor(images=[dummy], return_tensors="pt")
-        inputs = {k: v.to(self._device) for k, v in inputs.items()}
+        inputs = {k: v.to("cuda") for k, v in inputs.items()}
         with torch.no_grad():
             self._model(**inputs)
-        print(f"[init] Model ready on {self._device} (kernels warm)")
+        self._device = "cuda"
+        print("[init] Model ready on GPU, snapshot will capture GPU state")
+
+    @modal.enter(snap=False)
+    def activate(self):
+        import torch
+        import numpy as np
+        from PIL import Image
+        self._device = "cuda"
+        # Run a warmup inference to trigger CUDA driver reconnect during Modal's startup
+        # cycle rather than lazily on the first user request. Moves ~2-3s of CUDA
+        # re-attachment overhead out of dispatch and into the (invisible) startup phase.
+        dummy  = Image.fromarray(np.zeros((224, 224, 3), dtype=np.uint8))
+        inputs = self._processor(images=[dummy], return_tensors="pt")
+        inputs = {k: v.to("cuda") for k, v in inputs.items()}
+        with torch.no_grad():
+            self._model(**inputs)
+        print("[init] GPU warmup complete")
 
     @modal.method()
     def detect(self, page_jpegs: list[bytes]) -> dict:
@@ -122,6 +142,12 @@ class LayoutDetector:
         import time
         import torch
         from PIL import Image
+
+        if not hasattr(self, "_device"):
+            # Fallback: snap=False didn't set _device (e.g. first container after deploy).
+            # Model is already on GPU from snap=True — just set the attribute.
+            self._device = "cuda" if torch.cuda.is_available() else "cpu"
+            print(f"[detect] lazy _device set to {self._device}")
 
         THRESHOLD         = float(os.environ.get("DETECT_THRESHOLD",  "0.3"))
         HEADING_THRESHOLD = float(os.environ.get("HEADING_THRESHOLD", "0.2"))
@@ -553,13 +579,19 @@ class Processor:
             buf = io.BytesIO()
             img.save(buf, format="JPEG", quality=90)
             page_jpegs.append(buf.getvalue())
+        jpeg_bytes = sum(len(j) for j in page_jpegs)
+        t_jpeg = time.time()
 
         # ── GPU: model inference only (async — yields event loop while waiting) ──
         t_call = time.time()
-        print(f"[process] calling detect.remote()  pages={len(page_jpegs)}")
+        print(
+            f"[process] calling detect.remote()  pages={len(page_jpegs)}"
+            f"  jpeg_kb={jpeg_bytes // 1024}  encode_s={t_jpeg - t_render:.3f}"
+        )
         gpu_result = await LayoutDetector().detect.remote.aio(page_jpegs)
         t_gpu_done = time.time()
-        print(f"[process] detect.remote() returned  ts={t_gpu_done:.3f}")
+        rpc_wall_s = round(t_gpu_done - t_call, 3)
+        print(f"[process] detect.remote() returned  rpc_wall={rpc_wall_s:.3f}s")
 
         if "error" in gpu_result:
             return gpu_result
@@ -608,10 +640,14 @@ class Processor:
                 r["order"] = i
             page["regions"] = regions
 
-        page_count  = len(result_pages)
-        render_s    = round(t_render - t0, 3)
-        text_s      = round(t_text - t_gpu_done, 3)
-        wall_s      = round(t_text - t0, 3)
+        t_post = time.time()
+
+        page_count    = len(result_pages)
+        render_s      = round(t_render    - t0,        3)
+        jpeg_encode_s = round(t_jpeg      - t_render,  3)
+        text_s        = round(t_text      - t_gpu_done, 3)
+        post_s        = round(t_post      - t_text,    3)
+        wall_s        = round(t_post      - t0,        3)
 
         # ── Cost (GPU-only billed time) ───────────────────────────────────────
         execution_s     = detect_s
@@ -627,10 +663,14 @@ class Processor:
                 "page_count":    page_count,
                 "total_regions": sum(len(p["regions"]) for p in result_pages),
                 "timing": {
-                    "queued_s":    queued_s,
-                    "render_s":    render_s,
-                    "detect_s":    detect_s,
-                    "text_s":      text_s,
+                    "render_s":      render_s,
+                    "jpeg_encode_s": jpeg_encode_s,
+                    "jpeg_kb":       round(jpeg_bytes / 1024, 1),
+                    "rpc_wall_s":    rpc_wall_s,
+                    "queued_s":      queued_s,
+                    "detect_s":      detect_s,
+                    "text_s":        text_s,
+                    "post_s":        post_s,
                     "execution_s": execution_s,
                     "wall_s":      wall_s,
                 },
