@@ -135,6 +135,7 @@ class _Request(_BaseModel):
     image=image,
     volumes=VOLUMES,
     enable_memory_snapshot=True,
+    experimental_options={"enable_gpu_snapshot": True},
     scaledown_window=60,
     timeout=600,
     max_containers=2,
@@ -217,7 +218,20 @@ class DocumentOCRWorker:
         # ── 4. Batch warmup (compile batch-N Triton kernels) ──────────────────
         self._run_batch_warmup(session, n=16)
 
-        # ── 5. Sleep for snapshot ──────────────────────────────────────────────
+        # ── 5. Move layout model to GPU before snapshot ────────────────────────
+        # GPU snapshot captures PyTorch tensors left on GPU after vLLM sleep.
+        # vLLM sleep frees its ~14 GB; the layout model's ~100 MB stays on GPU.
+        # wake() then only needs a forward pass (~0.1s) instead of a CPU→GPU
+        # transfer (~0.5s). Tradeoff: snapshot is ~100 MB larger to load.
+        print("[single] moving layout model to GPU for snapshot ...")
+        t_gpu = time.time()
+        self._layout_detector._model  = self._layout_detector._model.to("cuda")
+        self._layout_detector._device = "cuda"
+        dummy_layout = Image.new("RGB", (224, 224))
+        self._layout_detector.process([dummy_layout])
+        print(f"[single] layout on GPU in {time.time()-t_gpu:.2f}s")
+
+        # ── 6. Sleep for snapshot ──────────────────────────────────────────────
         print("[single] sleeping for snapshot ...")
         requests.post(f"http://localhost:{VLLM_PORT}/sleep", timeout=120)
         print("[single] snapshot ready")
@@ -336,9 +350,7 @@ class DocumentOCRWorker:
         _wait_ready(VLLM_PORT)
         t_ready = time.time()    # /health 200 (server accepting requests)
 
-        # ── 2. Move layout model from CPU snapshot to GPU ─────────────────────
-        self._layout_detector._model  = self._layout_detector._model.to("cuda")
-        self._layout_detector._device = "cuda"
+        # ── 2. Warm up layout model (already on GPU from snapshot) ───────────────
         dummy = Image.new("RGB", (224, 224))
         self._layout_detector.process([dummy])
         t_layout = time.time()

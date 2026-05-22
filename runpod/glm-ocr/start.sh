@@ -32,7 +32,7 @@ CONFIG=/etc/glmocr_config.yaml
 # ── Install deps into the base-image venv ─────────────────────────────────────
 echo "[glmocr] Installing vllm + glmocr..."
 . /venv/main/bin/activate
-uv pip install "vllm>=0.19.0" "transformers>=5.3.0" "glmocr[selfhosted,server]"
+uv pip install "vllm==0.20.2" "transformers>=5.3.0" "glmocr[selfhosted,server]"
 
 # ── Patch page_loader to accept data:application/pdf;base64,... URIs ──────────
 # glmocr only recognises PDFs via file paths or raw bytes; data URIs with the
@@ -145,12 +145,12 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --model "${MODEL}" \\
     --served-model-name glm-ocr \\
     --port ${VLLM_PORT} \\
-    --gpu-memory-utilization $([ "$INSTANCES" == "2" ] && echo "0.45" || echo "0.80") \\
+    --gpu-memory-utilization $([ "$INSTANCES" == "2" ] && echo "0.45" || echo "0.60") \\
     --max-model-len ${MAX_MODEL_LEN} \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
     --max-num-seqs 32 \\
-    --disable-log-requests \\
+    --no-enable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT
 chmod +x /opt/supervisor-scripts/vllm-0.sh
@@ -169,7 +169,7 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
     --max-num-seqs 32 \\
-    --disable-log-requests \\
+    --no-enable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT
     chmod +x /opt/supervisor-scripts/vllm-1.sh

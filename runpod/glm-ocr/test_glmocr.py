@@ -181,7 +181,8 @@ def query(chunk_bytes: bytes, endpoint: str, timeout: int, t0: float) -> tuple:
 def count_regions(result: dict) -> int:
     jr = result.get("json_result", {})
     if isinstance(jr, list):
-        return len(jr)
+        # json_result is a list-of-pages, each page is a list of regions
+        return sum(len(page) for page in jr if isinstance(page, list))
     if isinstance(jr, dict):
         pages = jr.get("pages", [])
         if pages:
