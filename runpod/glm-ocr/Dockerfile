@@ -13,7 +13,6 @@ FROM runpod/pytorch:2.4.0-py3.11-cuda12.4.1-devel-ubuntu22.04
 ENV HF_HOME=/app/hf_cache \
     HUGGINGFACE_HUB_CACHE=/app/hf_cache/hub \
     TRANSFORMERS_CACHE=/app/hf_cache/hub \
-    HF_HUB_OFFLINE=1 \
     PYTHONUNBUFFERED=1
 
 # Install uv for fast package installs, then vLLM + glmocr
@@ -26,10 +25,15 @@ RUN pip install --no-cache-dir uv && \
 
 # Bake in model weights — separate layer so pip cache is not invalidated
 # when the token or model revision changes.
+# Explicitly clear offline flag in case a cached layer inherited it.
+ENV HF_HUB_OFFLINE=0
 ARG HF_TOKEN=""
 RUN hf download zai-org/GLM-OCR \
         ${HF_TOKEN:+--token "${HF_TOKEN}"} && \
     hf download PaddlePaddle/PP-DocLayoutV3_safetensors
+
+# Now that weights are baked in, go offline to prevent accidental re-downloads at runtime
+ENV HF_HUB_OFFLINE=1
 
 WORKDIR /app
 

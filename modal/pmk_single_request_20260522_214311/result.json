@@ -1,0 +1,256 @@
+{
+  "markdown": "![Image 0-0](imgs/cropped_page0_idx0.jpg)\n\n![Image 0-1](imgs/cropped_page0_idx1.jpg)\n\n![Image 0-2](imgs/cropped_page0_idx2.jpg)",
+  "meta": {
+    "pages": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "pages_info": [
+      {
+        "page": 0,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 1,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 2,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 3,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 4,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 5,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 6,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 7,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 8,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 9,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 10,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 11,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 12,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 13,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 14,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 15,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 16,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 17,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 18,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 19,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 20,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 21,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 22,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 23,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 24,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 25,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 26,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 27,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 28,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 29,
+        "width_px": 1654,
+        "height_px": 2599
+      },
+      {
+        "page": 30,
+        "width_px": 1654,
+        "height_px": 2599
+      }
+    ],
+    "total_regions": 3,
+    "timing": {
+      "render_s": 1.618,
+      "pipeline_s": 5.086,
+      "assemble_s": 0.001,
+      "total_s": 6.704,
+      "cold_start": {
+        "vllm_s": 0.465,
+        "layout_gpu_s": 3.35,
+        "mm_prime_s": 0.075,
+        "pipeline_init_s": 0.0,
+        "total_s": 3.894
+      }
+    }
+  },
+  "_client": {
+    "status": 200,
+    "resp_bytes": 47748,
+    "wall_s": 231.954,
+    "ttfb_s": 231.541,
+    "download_s": 0.412,
+    "t_sent_offset": 0.0,
+    "t_done_offset": 231.954
+  },
+  "blocks": [
+    {
+      "page": 28,
+      "order": 0,
+      "label": "image",
+      "text": null,
+      "bbox": [
+        129,
+        158,
+        230,
+        222
+      ]
+    },
+    {
+      "page": 28,
+      "order": 1,
+      "label": "image",
+      "text": null,
+      "bbox": [
+        618,
+        214,
+        710,
+        270
+      ]
+    },
+    {
+      "page": 28,
+      "order": 2,
+      "label": "image",
+      "text": null,
+      "bbox": [
+        122,
+        399,
+        227,
+        430
+      ]
+    }
+  ]
+}
