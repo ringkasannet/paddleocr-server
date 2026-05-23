@@ -283,6 +283,7 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
     --max-num-seqs 32 \\
+    --max-num-batched-tokens 32768 \\
     --no-enable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT
@@ -302,6 +303,7 @@ exec python -m vllm.entrypoints.openai.api_server \\
     --tensor-parallel-size 1 \\
     --trust-remote-code \\
     --max-num-seqs 32 \\
+    --max-num-batched-tokens 32768 \\
     --no-enable-log-requests \\
     --speculative-config '${MTP_JSON}'
 SCRIPT

@@ -21,7 +21,7 @@ MODEL          = os.environ.get("MODEL", "zai-org/GLM-OCR")
 VLLM_PORT      = int(os.environ.get("VLLM_PORT", "8000"))
 GLMOCR_PORT    = int(os.environ.get("GLMOCR_PORT", "5002"))
 GPU_UTIL       = os.environ.get("GPU_MEM_UTIL", "0.80")
-MAX_MODEL_LEN  = int(os.environ.get("MAX_MODEL_LEN", "4096"))
+MAX_MODEL_LEN  = int(os.environ.get("MAX_MODEL_LEN", "8192"))
 MAX_TOKENS     = int(os.environ.get("MAX_TOKENS", "2048"))
 HF_TOKEN       = os.environ.get("HF_TOKEN", "")
 VLLM_SEMAPHORE = os.environ.get("VLLM_SEMAPHORE", "1") == "1"
@@ -256,6 +256,7 @@ def _start_vllm():
         "--tensor-parallel-size", "1",
         "--trust-remote-code",
         "--max-num-seqs", "32",
+        "--max-num-batched-tokens", "32768",
         "--no-enable-log-requests",
         "--speculative-config", MTP_JSON,
     ]

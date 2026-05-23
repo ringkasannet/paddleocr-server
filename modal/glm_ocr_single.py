@@ -138,7 +138,7 @@ class _Request(_BaseModel):
     experimental_options={"enable_gpu_snapshot": True},
     scaledown_window=60,
     timeout=600,
-    max_containers=2,
+    max_containers=10,
 )
 @modal.concurrent(max_inputs=2, target_inputs=1)
 class DocumentOCRWorker:
