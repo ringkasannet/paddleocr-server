@@ -7,3 +7,6 @@
 [submodule "GLM-OCR"]
 	path = GLM-OCR
 	url = https://github.com/zai-org/GLM-OCR
+[submodule "worker-vllm"]
+	path = worker-vllm
+	url = https://github.com/runpod-workers/worker-vllm
