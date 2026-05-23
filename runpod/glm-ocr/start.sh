@@ -36,7 +36,7 @@ CONFIG=/etc/glmocr_config.yaml
 # ── Install deps into the base-image venv ─────────────────────────────────────
 echo "[glmocr] Installing vllm + glmocr..."
 . /venv/main/bin/activate
-uv pip install "vllm==0.20.2" "transformers>=5.3.0" "glmocr[selfhosted,server]"
+uv pip install "vllm==0.20.2" "transformers>=5.3.0" "glmocr[selfhosted,server]" gunicorn
 
 # ── Patch page_loader to accept data:application/pdf;base64,... URIs ──────────
 # glmocr only recognises PDFs via file paths or raw bytes; data URIs with the
@@ -245,6 +245,28 @@ sed -i 's/# device: null/device: "cuda:0"/'            "$CONFIG"
 sed -i "s/batch_size: 1/batch_size: 2/"              "$CONFIG"
 sed -i "s/max_tokens: 8192/max_tokens: 2048/"        "$CONFIG"
 
+# ── Write Gunicorn WSGI shim ──────────────────────────────────────────────────
+mkdir -p /opt/glmocr
+cat > /opt/glmocr/wsgi.py <<'PYEOF'
+"""Gunicorn WSGI entry-point for glmocr server.
+
+Config path is read from the GLMOCR_CONFIG environment variable
+(default: /etc/glmocr_config.yaml).
+"""
+import os
+import multiprocessing
+
+from glmocr.config import load_config
+from glmocr.server import create_app
+
+multiprocessing.set_start_method("spawn", force=True)
+
+_config_path = os.environ.get("GLMOCR_CONFIG", "/etc/glmocr_config.yaml")
+config = load_config(_config_path)
+app = create_app(config)
+app.config["pipeline"].start()
+PYEOF
+
 # ── Write supervisor wrapper scripts ──────────────────────────────────────────
 mkdir -p /opt/supervisor-scripts
 
@@ -309,7 +331,11 @@ cat > /opt/supervisor-scripts/glmocr.sh <<SCRIPT
 echo "[glmocr] Waiting for vLLM on port ${OCR_PORT}..."
 until curl -sf "http://127.0.0.1:${OCR_PORT}/health" > /dev/null 2>&1; do sleep 3; done
 echo "[glmocr] vLLM ready, starting glmocr server..."
-exec python -m glmocr.server --config ${CONFIG}
+exec gunicorn wsgi:app \
+    --bind 0.0.0.0:${GLMOCR_PORT} \
+    --workers 1 \
+    --timeout 300 \
+    --chdir /opt/glmocr
 SCRIPT
 chmod +x /opt/supervisor-scripts/glmocr.sh
 
@@ -357,7 +383,7 @@ fi
 
 cat > /etc/supervisor/conf.d/glmocr.conf <<CONF
 [program:glmocr]
-environment=PROC_NAME="%(program_name)s",PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
+environment=PROC_NAME="%(program_name)s",PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True",GLMOCR_CONFIG="${CONFIG}"
 command=/opt/supervisor-scripts/glmocr.sh
 autostart=true
 autorestart=true

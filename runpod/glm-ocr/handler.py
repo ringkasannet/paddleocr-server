@@ -279,8 +279,15 @@ def _start_glmocr():
     global _glmocr_proc
     env = os.environ.copy()
     env["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+    env["GLMOCR_CONFIG"] = CONFIG_PATH
     _glmocr_proc = subprocess.Popen(
-        ["python", "-m", "glmocr.server", "--config", CONFIG_PATH],
+        [
+            "gunicorn", "wsgi:app",
+            "--bind", f"0.0.0.0:{GLMOCR_PORT}",
+            "--workers", "1",
+            "--timeout", "300",
+            "--chdir", "/app",
+        ],
         env=env,
     )
     print(f"[init] glmocr started (pid {_glmocr_proc.pid}), waiting for port {GLMOCR_PORT}...")

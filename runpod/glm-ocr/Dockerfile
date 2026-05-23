@@ -21,6 +21,7 @@ RUN pip install --no-cache-dir uv && \
         "vllm>=0.19.0" \
         "transformers>=5.3.0" \
         "glmocr[selfhosted,server]" \
+        gunicorn \
         runpod
 
 # Bake in model weights — separate layer so pip cache is not invalidated
@@ -39,6 +40,7 @@ WORKDIR /app
 
 # Copy handler last — changes here don't invalidate the layers above
 COPY glmocr_config.yaml /app/glmocr_config.yaml
+COPY wsgi.py /app/wsgi.py
 COPY handler.py /app/handler.py
 
 CMD ["python", "-u", "handler.py"]
