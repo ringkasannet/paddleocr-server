@@ -171,7 +171,6 @@ _LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)'''
     patched = patched.replace(OLD_PROCESS, NEW_PROCESS, 1)
     pkg.write_text(patched)
     print("[patch] _workers.py: layout GPU semaphore(1) applied")
-PYEOF
 
 # ── Patch _workers.py to serialise vLLM submissions (pipeline mode) ──────────
 # When enabled, only one request's recognition_worker submits to vLLM at a time.
@@ -265,6 +264,12 @@ _config_path = os.environ.get("GLMOCR_CONFIG", "/etc/glmocr_config.yaml")
 config = load_config(_config_path)
 app = create_app(config)
 app.config["pipeline"].start()
+
+import logging as _logging
+_gunicorn_logger = _logging.getLogger("gunicorn.error")
+_glmocr_logger   = _logging.getLogger("glmocr")
+_glmocr_logger.handlers  = _gunicorn_logger.handlers
+_glmocr_logger.setLevel(_gunicorn_logger.level or _logging.INFO)
 PYEOF
 
 # ── Write supervisor wrapper scripts ──────────────────────────────────────────
@@ -336,8 +341,13 @@ echo "[glmocr] vLLM ready, starting glmocr server..."
 exec gunicorn wsgi:app \
     --bind 0.0.0.0:${GLMOCR_PORT} \
     --workers 1 \
+    --worker-class gthread \
+    --threads 2 \
     --timeout 300 \
-    --chdir /opt/glmocr
+    --chdir /opt/glmocr \
+    --access-logfile - \
+    --error-logfile - \
+    --capture-output
 SCRIPT
 chmod +x /opt/supervisor-scripts/glmocr.sh
 

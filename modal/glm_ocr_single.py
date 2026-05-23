@@ -94,6 +94,93 @@ def _wait_ready(port: int, timeout: int = 300) -> None:
     raise TimeoutError(f"vLLM not ready after {timeout}s")
 
 
+def _patch_workers():
+    """Patch glmocr _workers.py for concurrent-request safety.
+
+    With max_inputs=2, two requests share one layout detector and one vLLM
+    process.  Without locks:
+      - Concurrent layout_detector.process() calls → CUDA OOM
+      - Both recognition_workers flood vLLM simultaneously → all requests
+        finish at the same time instead of pipelining
+
+    _LAYOUT_GPU_SEMAPHORE: serialises layout GPU forward passes.
+    _VLLM_SEMAPHORE: serialises vLLM submission so req 2's layout runs during
+                     req 1's OCR phase, then req 2 enters vLLM after req 1 done.
+    """
+    import glmocr, os, pathlib
+
+    pkg = pathlib.Path(os.path.dirname(glmocr.__file__)) / "pipeline" / "_workers.py"
+    src = pkg.read_text()
+
+    if "_VLLM_SEMAPHORE" in src:
+        print("[patch] _workers.py: semaphores already present, skipping")
+        return
+
+    OLD_IMPORT = '''import queue
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed'''
+
+    NEW_IMPORT = '''import queue
+import threading
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# One GPU layout forward pass at a time across all concurrent requests.
+_LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)
+
+# One vLLM submission batch at a time across all concurrent requests.
+_VLLM_SEMAPHORE = threading.Semaphore(1)'''
+
+    OLD_PROCESS = '''    try:
+        layout_results, vis_images = layout_detector.process(
+            batch_images,
+            save_visualization=save_visualization,
+            global_start_idx=global_start_idx,
+            use_polygon=use_polygon,
+        )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    NEW_PROCESS = '''    try:
+        with _LAYOUT_GPU_SEMAPHORE:
+            layout_results, vis_images = layout_detector.process(
+                batch_images,
+                save_visualization=save_visualization,
+                global_start_idx=global_start_idx,
+                use_polygon=use_polygon,
+            )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    OLD_RECOG_START = '''    """Consume regions, run parallel OCR, store results."""
+    executor = None
+    try:'''
+
+    NEW_RECOG_START = '''    """Consume regions, run parallel OCR, store results."""
+    _VLLM_SEMAPHORE.acquire()
+    executor = None
+    try:'''
+
+    OLD_RECOG_FINALLY = '''    finally:
+        state.drain_queue(state.region_queue)'''
+
+    NEW_RECOG_FINALLY = '''    finally:
+        _VLLM_SEMAPHORE.release()
+        state.drain_queue(state.region_queue)'''
+
+    assert OLD_IMPORT in src, "patch target (imports) not found — glmocr version mismatch"
+    assert OLD_PROCESS in src, "patch target (_flush_layout_batch) not found — glmocr version mismatch"
+    assert OLD_RECOG_START in src, "patch target (recognition_worker start) not found — glmocr version mismatch"
+    assert OLD_RECOG_FINALLY in src, "patch target (recognition_worker finally) not found — glmocr version mismatch"
+
+    patched = src.replace(OLD_IMPORT, NEW_IMPORT, 1)
+    patched = patched.replace(OLD_PROCESS, NEW_PROCESS, 1)
+    patched = patched.replace(OLD_RECOG_START, NEW_RECOG_START, 1)
+    patched = patched.replace(OLD_RECOG_FINALLY, NEW_RECOG_FINALLY, 1)
+    pkg.write_text(patched)
+    print("[patch] _workers.py: layout + vLLM semaphores applied")
+
+
 def _build_pipeline_cfg():
     """Build glmocr PipelineConfig for self-hosted mode pointing at local vLLM."""
     from glmocr.config import load_config
@@ -107,11 +194,11 @@ def _build_pipeline_cfg():
     cfg.pipeline.ocr_api.model              = SERVED_NAME
     cfg.pipeline.ocr_api.connection_pool_size = 128
     cfg.pipeline.ocr_api.request_timeout    = 120
-    cfg.pipeline.max_workers                = 16
+    cfg.pipeline.max_workers                = 32
     # max_tokens must be < max_model_len (8192) to leave room for input tokens.
     # glmocr's default is 8192, which leaves 0 tokens for the prompt and image.
-    # 4096 output tokens covers all OCR cases; remaining 4096 carry image+text.
-    cfg.pipeline.page_loader.max_tokens     = 4096
+    # 2048 output tokens covers all OCR cases; remaining 6144 carry image+text.
+    cfg.pipeline.page_loader.max_tokens     = 2048
     # Cap visual tokens to the encoder cache budget (= max_model_len = 8192).
     # Official image_expect_length=6144 tokens @ 196 px/token → 1,204,224 px.
     # 8192 tokens @ 196 px/token = 1,605,632 px — we cap slightly below that.
@@ -151,6 +238,9 @@ class DocumentOCRWorker:
         if PPDocLayoutDetector is None:
             _raise_layout_import_error()  # surfaces the real ImportError
 
+        # ── 0. Patch glmocr workers for concurrent-request safety ────────────
+        _patch_workers()
+
         # ── 1. Load layout model weights on CPU ───────────────────────────────
         # CPU tensors go into the CPU snapshot; wake() only pays for .to("cuda").
         print("[single] loading PP-DocLayoutV3 on CPU ...")
@@ -172,7 +262,7 @@ class DocumentOCRWorker:
             "--host", "0.0.0.0",
             "--port", str(VLLM_PORT),
             "--enable-sleep-mode",
-            "--gpu-memory-utilization", "0.6",
+            "--gpu-memory-utilization", "0.8",
             "--max-model-len",          "8192",
             "--max-num-seqs",            "32",
             "--max-num-batched-tokens", "32768",

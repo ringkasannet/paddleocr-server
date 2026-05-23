@@ -237,6 +237,21 @@ def print_summary(results: list, round_elapsed: float | None = None):
 
 # ── run logic ──────────────────────────────────────────────────────────────────
 
+def _print_immediate(label: str, wall: float, data: dict, round_t0: float) -> None:
+    """Print a one-liner as soon as a response arrives."""
+    elapsed = round(time.time() - round_t0, 2)
+    short   = label.split("#")[-1].strip() if "#" in label else label
+    cl      = data.get("_client", {})
+    status  = cl.get("status", "T/O")
+    if "error" in data:
+        print(f"  [+{elapsed:>6.2f}s]  req {short:<4}  {status}  ERROR: {data['error'][:50]}")
+    else:
+        pages   = _count_pages(data)
+        regions = _count_regions(data)
+        kb      = cl.get("resp_bytes", 0) / 1024
+        print(f"  [+{elapsed:>6.2f}s]  req {short:<4}  {status}  {pages}p  {regions}r  {kb:.1f}KB  wall={wall:.2f}s")
+
+
 def run_round(label_prefix: str, n: int, endpoint: str, pdf_bytes: bytes,
               timeline: bool = False) -> tuple[list, float | None]:
     if n == 1:
@@ -247,12 +262,17 @@ def run_round(label_prefix: str, n: int, endpoint: str, pdf_bytes: bytes,
     print(f"\nSending {n} requests concurrently …")
     round_t0    = time.time()
     futures_map = {}
+    results     = []
     with ThreadPoolExecutor(max_workers=n) as pool:
         for i in range(n):
             lbl = f"{label_prefix} #{i+1}"
             futures_map[pool.submit(send, endpoint, pdf_bytes, lbl, round_t0)] = lbl
 
-    results = [fut.result() for fut in as_completed(futures_map)]
+        for fut in as_completed(futures_map):
+            label, wall, data = fut.result()
+            results.append((label, wall, data))
+            _print_immediate(label, wall, data, round_t0)
+
     results.sort(key=lambda r: r[0])
 
     round_elapsed = time.time() - round_t0

@@ -286,8 +286,13 @@ def _start_glmocr():
             "gunicorn", "wsgi:app",
             "--bind", f"0.0.0.0:{GLMOCR_PORT}",
             "--workers", "1",
+            "--worker-class", "gthread",
+            "--threads", "2",
             "--timeout", "300",
             "--chdir", "/app",
+            "--access-logfile", "-",
+            "--error-logfile", "-",
+            "--capture-output",
         ],
         env=env,
     )
