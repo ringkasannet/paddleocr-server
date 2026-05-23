@@ -133,6 +133,66 @@ def _patch_page_loader():
     print("[init] page_loader patched for data:application/pdf URIs")
 
 
+# ── _workers.py patch — layout GPU semaphore ─────────────────────────────────
+
+def _patch_layout_semaphore():
+    """Patch _workers.py to serialise concurrent layout GPU calls with Semaphore(1).
+
+    Multiple concurrent HTTP requests each spawn a layout_worker thread that
+    calls layout_detector.process() on the shared GPU model.  Without a lock
+    they can run simultaneously, causing CUDA OOM.  The semaphore ensures only
+    one GPU forward pass runs at a time; page loading and vLLM OCR stay concurrent.
+    """
+    import glmocr
+    pkg_path = os.path.join(
+        os.path.dirname(glmocr.__file__), "pipeline", "_workers.py"
+    )
+    src = open(pkg_path).read()
+    if "_LAYOUT_GPU_SEMAPHORE" in src:
+        print("[init] _workers.py: layout semaphore already present, skipping")
+        return
+
+    OLD_IMPORT = '''import queue
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed'''
+
+    NEW_IMPORT = '''import queue
+import threading
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# One GPU layout forward pass at a time across all concurrent requests.
+_LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)'''
+
+    OLD_PROCESS = '''    try:
+        layout_results, vis_images = layout_detector.process(
+            batch_images,
+            save_visualization=save_visualization,
+            global_start_idx=global_start_idx,
+            use_polygon=use_polygon,
+        )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    NEW_PROCESS = '''    try:
+        with _LAYOUT_GPU_SEMAPHORE:
+            layout_results, vis_images = layout_detector.process(
+                batch_images,
+                save_visualization=save_visualization,
+                global_start_idx=global_start_idx,
+                use_polygon=use_polygon,
+            )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    assert OLD_IMPORT in src, "patch target (imports) not found in _workers.py — glmocr version mismatch"
+    assert OLD_PROCESS in src, "patch target (_flush_layout_batch) not found in _workers.py — glmocr version mismatch"
+    patched = src.replace(OLD_IMPORT, NEW_IMPORT, 1)
+    patched = patched.replace(OLD_PROCESS, NEW_PROCESS, 1)
+    open(pkg_path, "w").write(patched)
+    print("[init] _workers.py: layout GPU semaphore(1) applied")
+
+
 # ── vLLM ──────────────────────────────────────────────────────────────────────
 
 def _start_vllm():
@@ -202,6 +262,7 @@ def _start_glmocr():
 # ── Worker init (once per container) ─────────────────────────────────────────
 _write_config()
 _patch_page_loader()
+_patch_layout_semaphore()
 _start_vllm()
 _start_glmocr()
 print("[init] Worker ready")

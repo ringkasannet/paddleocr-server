@@ -24,6 +24,7 @@ GPU_UTIL       = os.environ.get("GPU_MEM_UTIL", "0.80")
 MAX_MODEL_LEN  = int(os.environ.get("MAX_MODEL_LEN", "4096"))
 MAX_TOKENS     = int(os.environ.get("MAX_TOKENS", "2048"))
 HF_TOKEN       = os.environ.get("HF_TOKEN", "")
+VLLM_SEMAPHORE = os.environ.get("VLLM_SEMAPHORE", "1") == "1"
 CONFIG_PATH    = "/tmp/glmocr_config.yaml"
 
 MTP_JSON = '{"method":"mtp","num_speculative_tokens":3}'
@@ -125,6 +126,121 @@ def _patch_page_loader():
     print("[init] page_loader.py patched for data:application/pdf support")
 
 
+def _patch_layout_semaphore():
+    """Patch _workers.py to serialise concurrent layout GPU calls with Semaphore(1).
+
+    Multiple concurrent HTTP requests each spawn a layout_worker thread that
+    calls layout_detector.process() on the shared GPU model.  Without a lock
+    they can run simultaneously, causing CUDA OOM.  The semaphore ensures only
+    one GPU forward pass runs at a time; page loading and vLLM OCR stay concurrent.
+    """
+    import glmocr
+    pkg_path = os.path.join(
+        os.path.dirname(glmocr.__file__), "pipeline", "_workers.py"
+    )
+    src = open(pkg_path).read()
+    if "_LAYOUT_GPU_SEMAPHORE" in src:
+        print("[init] _workers.py: layout semaphore already present, skipping")
+        return
+
+    OLD_IMPORT = '''import queue
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed'''
+
+    NEW_IMPORT = '''import queue
+import threading
+from typing import TYPE_CHECKING, Any, Dict, List, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+# One GPU layout forward pass at a time across all concurrent requests.
+_LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)'''
+
+    OLD_PROCESS = '''    try:
+        layout_results, vis_images = layout_detector.process(
+            batch_images,
+            save_visualization=save_visualization,
+            global_start_idx=global_start_idx,
+            use_polygon=use_polygon,
+        )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    NEW_PROCESS = '''    try:
+        with _LAYOUT_GPU_SEMAPHORE:
+            layout_results, vis_images = layout_detector.process(
+                batch_images,
+                save_visualization=save_visualization,
+                global_start_idx=global_start_idx,
+                use_polygon=use_polygon,
+            )
+        if vis_images:
+            state.layout_vis_images.update(vis_images)'''
+
+    assert OLD_IMPORT in src, "patch target (imports) not found in _workers.py — glmocr version mismatch"
+    assert OLD_PROCESS in src, "patch target (_flush_layout_batch) not found in _workers.py — glmocr version mismatch"
+    patched = src.replace(OLD_IMPORT, NEW_IMPORT, 1)
+    patched = patched.replace(OLD_PROCESS, NEW_PROCESS, 1)
+    open(pkg_path, "w").write(patched)
+    print("[init] _workers.py: layout GPU semaphore(1) applied")
+
+
+def _patch_vllm_semaphore():
+    """Patch _workers.py to serialise concurrent vLLM submissions with Semaphore(1).
+
+    With _LAYOUT_GPU_SEMAPHORE already serialising layout, the next bottleneck
+    is all requests flooding vLLM simultaneously.  This semaphore ensures only
+    one request's recognition_worker submits to vLLM at a time, while layout
+    for queued requests continues to run and buffer into region_queue (capacity
+    2000, large enough to hold a full document).  The result is a pipeline:
+
+        Req 1: [layout]──[vLLM ~100s]──done
+        Req 2:    [layout during Req 1 vLLM]──[wait]──[vLLM ~100s]──done
+        Req 3:          [layout during Req 2 vLLM]──────────────────[vLLM]──done
+    """
+    import glmocr
+    pkg_path = os.path.join(
+        os.path.dirname(glmocr.__file__), "pipeline", "_workers.py"
+    )
+    src = open(pkg_path).read()
+    if "_VLLM_SEMAPHORE" in src:
+        print("[init] _workers.py: vLLM semaphore already present, skipping")
+        return
+
+    OLD_SEM = '''# One GPU layout forward pass at a time across all concurrent requests.
+_LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)'''
+
+    NEW_SEM = '''# One GPU layout forward pass at a time across all concurrent requests.
+_LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)
+
+# One vLLM submission batch at a time across all concurrent requests.
+_VLLM_SEMAPHORE = threading.Semaphore(1)'''
+
+    OLD_RECOG_START = '''    """Consume regions, run parallel OCR, store results."""
+    executor = None
+    try:'''
+
+    NEW_RECOG_START = '''    """Consume regions, run parallel OCR, store results."""
+    _VLLM_SEMAPHORE.acquire()
+    executor = None
+    try:'''
+
+    OLD_RECOG_FINALLY = '''    finally:
+        state.drain_queue(state.region_queue)'''
+
+    NEW_RECOG_FINALLY = '''    finally:
+        _VLLM_SEMAPHORE.release()
+        state.drain_queue(state.region_queue)'''
+
+    assert OLD_SEM in src, "patch target (_LAYOUT_GPU_SEMAPHORE) not found in _workers.py — glmocr version mismatch"
+    assert OLD_RECOG_START in src, "patch target (recognition_worker start) not found in _workers.py — glmocr version mismatch"
+    assert OLD_RECOG_FINALLY in src, "patch target (recognition_worker finally) not found in _workers.py — glmocr version mismatch"
+    patched = src.replace(OLD_SEM, NEW_SEM, 1)
+    patched = patched.replace(OLD_RECOG_START, NEW_RECOG_START, 1)
+    patched = patched.replace(OLD_RECOG_FINALLY, NEW_RECOG_FINALLY, 1)
+    open(pkg_path, "w").write(patched)
+    print("[init] _workers.py: vLLM semaphore(1) applied")
+
+
 def _start_vllm():
     global _vllm_proc
     env = os.environ.copy()
@@ -185,6 +301,11 @@ def _start_glmocr():
 # ── Worker initialisation (runs once per container) ───────────────────────────
 _write_config()
 _patch_page_loader()
+_patch_layout_semaphore()
+if VLLM_SEMAPHORE:
+    _patch_vllm_semaphore()
+else:
+    print("[init] vLLM semaphore disabled (VLLM_SEMAPHORE=0)")
 _start_vllm()
 _start_glmocr()
 print("[init] Worker ready")

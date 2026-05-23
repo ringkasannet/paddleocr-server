@@ -1,0 +1,6358 @@
+{
+  "created": 1779529674,
+  "data_info": {
+    "pages": []
+  },
+  "id": "chatcmpl-03b0f13095ae4734a7f1922bd5e8b",
+  "json_result": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          279,
+          75,
+          883,
+          106
+        ],
+        "content": "2. Ketentuan ayat (2) Pasal 324 diubah sehingga berbunyi sebagai berikut:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            75
+          ],
+          [
+            279,
+            106
+          ],
+          [
+            882,
+            106
+          ],
+          [
+            882,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          555,
+          121,
+          657,
+          135
+        ],
+        "content": "## Pasal 324",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            555,
+            121
+          ],
+          [
+            555,
+            135
+          ],
+          [
+            657,
+            135
+          ],
+          [
+            657,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          135,
+          883,
+          210
+        ],
+        "content": "(1) Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 323 ayat (1) dihitung, dipungut, dan disetor oleh orang pribadi atau Badan yang melakukan kegiatan membangun sendiri dengan besaran tertentu.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            135
+          ],
+          [
+            329,
+            210
+          ],
+          [
+            882,
+            210
+          ],
+          [
+            882,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          211,
+          884,
+          316
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) merupakan hasil perkalian 20% (dua puluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan dasar pengenaan pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            211
+          ],
+          [
+            329,
+            316
+          ],
+          [
+            883,
+            316
+          ],
+          [
+            883,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          316,
+          883,
+          408
+        ],
+        "content": "(3) Dasar pengenaan pajak sebagaimana dimaksud pada ayat (2) berupa nilai tertentu sebesar jumlah biaya yang dikeluarkan dan/atau yang dibayarkan untuk membangun bangunan untuk setiap Masa Pajak sampai dengan bangunan selesai, tidak termasuk biaya perolehan tanah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            316
+          ],
+          [
+            328,
+            407
+          ],
+          [
+            882,
+            407
+          ],
+          [
+            882,
+            316
+          ],
+          [
+            568,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          421,
+          882,
+          452
+        ],
+        "content": "3. Ketentuan ayat (2) Pasal 343 diubah sehingga berbunyi sebagai berikut:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            421
+          ],
+          [
+            279,
+            452
+          ],
+          [
+            508,
+            452
+          ],
+          [
+            548,
+            452
+          ],
+          [
+            617,
+            452
+          ],
+          [
+            623,
+            452
+          ],
+          [
+            648,
+            452
+          ],
+          [
+            673,
+            452
+          ],
+          [
+            693,
+            452
+          ],
+          [
+            882,
+            452
+          ],
+          [
+            882,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          555,
+          467,
+          657,
+          481
+        ],
+        "content": "## Pasal 343",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            555,
+            467
+          ],
+          [
+            555,
+            481
+          ],
+          [
+            657,
+            481
+          ],
+          [
+            657,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          482,
+          883,
+          527
+        ],
+        "content": "(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 340 huruf a dipungut dan disetor dengan besaran tertentu.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            482
+          ],
+          [
+            329,
+            522
+          ],
+          [
+            344,
+            527
+          ],
+          [
+            882,
+            527
+          ],
+          [
+            882,
+            482
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          527,
+          883,
+          558
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            527
+          ],
+          [
+            328,
+            557
+          ],
+          [
+            363,
+            557
+          ],
+          [
+            374,
+            557
+          ],
+          [
+            882,
+            557
+          ],
+          [
+            882,
+            527
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          558,
+          883,
+          678
+        ],
+        "content": "a. 1% (satu persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik merupakan Pedagang Fisik Aset Kripto; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            558
+          ],
+          [
+            380,
+            677
+          ],
+          [
+            882,
+            677
+          ],
+          [
+            882,
+            558
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          678,
+          883,
+          797
+        ],
+        "content": "b. 2% (dua persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik bukan merupakan Pedagang Fisik Aset Kripto.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            678
+          ],
+          [
+            375,
+            797
+          ],
+          [
+            882,
+            797
+          ],
+          [
+            882,
+            678
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          798,
+          883,
+          829
+        ],
+        "content": "(3) Nilai transaksi sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            798
+          ],
+          [
+            329,
+            829
+          ],
+          [
+            882,
+            829
+          ],
+          [
+            882,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          829,
+          884,
+          905
+        ],
+        "content": "a. nilai uang yang dibayarkan oleh Pembeli Aset Kripto, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan jual beli Aset Kripto",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            829
+          ],
+          [
+            375,
+            905
+          ],
+          [
+            883,
+            905
+          ],
+          [
+            883,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          422,
+          76,
+          881,
+          106
+        ],
+        "content": "menggunakan mata uang fiat sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf a;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            101
+          ],
+          [
+            422,
+            105
+          ],
+          [
+            880,
+            105
+          ],
+          [
+            880,
+            76
+          ],
+          [
+            427,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          106,
+          883,
+          241
+        ],
+        "content": "b. nilai masing-masing Aset Kripto yang diserahkan oleh para pihak yang bertransaksi, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf b; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            106
+          ],
+          [
+            375,
+            241
+          ],
+          [
+            882,
+            241
+          ],
+          [
+            882,
+            106
+          ],
+          [
+            863,
+            106
+          ],
+          [
+            844,
+            106
+          ],
+          [
+            837,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          242,
+          882,
+          331
+        ],
+        "content": "c. nilai Aset Kripto yang dipindahkan (transfer) ke akun pihak lain, dalam hal transaksi merupakan tukar-menukar Aset Kripto dengan barang selain Aset Kripto dan/atau jasa sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf c.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            247
+          ],
+          [
+            375,
+            330
+          ],
+          [
+            882,
+            330
+          ],
+          [
+            882,
+            242
+          ],
+          [
+            435,
+            242
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          332,
+          883,
+          467
+        ],
+        "content": "(4) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka jual beli Aset Kripto sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf a dengan menggunakan selain mata uang rupiah, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri yang berlaku pada saat pemungutan Pajak Pertambahan Nilai.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            332
+          ],
+          [
+            329,
+            466
+          ],
+          [
+            882,
+            466
+          ],
+          [
+            882,
+            332
+          ],
+          [
+            519,
+            332
+          ],
+          [
+            513,
+            332
+          ],
+          [
+            498,
+            332
+          ],
+          [
+            489,
+            332
+          ],
+          [
+            469,
+            332
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          467,
+          883,
+          602
+        ],
+        "content": "(5) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf b atau pemindahan (transfer) Aset Kripto ke akun pihak lain sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf c, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi Aset Kripto ke dalam mata uang rupiah berdasarkan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            467
+          ],
+          [
+            328,
+            592
+          ],
+          [
+            338,
+            602
+          ],
+          [
+            368,
+            602
+          ],
+          [
+            373,
+            602
+          ],
+          [
+            883,
+            602
+          ],
+          [
+            883,
+            472
+          ],
+          [
+            868,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          603,
+          883,
+          647
+        ],
+        "content": "a. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            603
+          ],
+          [
+            375,
+            642
+          ],
+          [
+            380,
+            647
+          ],
+          [
+            882,
+            647
+          ],
+          [
+            882,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          648,
+          883,
+          693
+        ],
+        "content": "b. nilai dalam sistem yang dimiliki oleh Penyelenggara Perdagangan Melalui Sistem Elektronik,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            648
+          ],
+          [
+            375,
+            692
+          ],
+          [
+            882,
+            692
+          ],
+          [
+            882,
+            648
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          694,
+          722,
+          709
+        ],
+        "content": "yang diterapkan secara konsisten.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            694
+          ],
+          [
+            375,
+            709
+          ],
+          [
+            721,
+            709
+          ],
+          [
+            721,
+            694
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          722,
+          883,
+          754
+        ],
+        "content": "4. Ketentuan ayat (2) Pasal 354 diubah sehingga berbunyi sebagai berikut:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            722
+          ],
+          [
+            279,
+            753
+          ],
+          [
+            877,
+            753
+          ],
+          [
+            882,
+            748
+          ],
+          [
+            882,
+            722
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          554,
+          767,
+          657,
+          782
+        ],
+        "content": "## Pasal 354",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            554,
+            767
+          ],
+          [
+            554,
+            781
+          ],
+          [
+            657,
+            781
+          ],
+          [
+            657,
+            767
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          784,
+          882,
+          829
+        ],
+        "content": "(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 353 ayat (1) dipungut dan disetor dengan besaran tertentu.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            784
+          ],
+          [
+            329,
+            828
+          ],
+          [
+            881,
+            828
+          ],
+          [
+            881,
+            784
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          829,
+          885,
+          920
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar 10% (sepuluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai berupa",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            829
+          ],
+          [
+            328,
+            920
+          ],
+          [
+            884,
+            920
+          ],
+          [
+            884,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          76,
+          883,
+          121
+        ],
+        "content": "uang atas Aset Kripto yang diterima oleh Penambang Aset Kripto, termasuk Aset Kripto yang diterima dari sistem Aset Kripto (block reward).",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            76
+          ],
+          [
+            375,
+            121
+          ],
+          [
+            883,
+            121
+          ],
+          [
+            883,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          351,
+          121,
+          883,
+          211
+        ],
+        "content": ") Dalam hal imbalan yang diterima oleh Penambang Aset Kripto atas penyerahan Aset Kripto sehubungan jasa verifikasi transaksi dan/atau jasa manajemen kelompok Penambang Aset Kripto (mining pool) sebagaimana dimaksud pada ayat (2) berupa:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            366,
+            126
+          ],
+          [
+            366,
+            151
+          ],
+          [
+            376,
+            210
+          ],
+          [
+            883,
+            210
+          ],
+          [
+            883,
+            126
+          ],
+          [
+            863,
+            121
+          ],
+          [
+            376,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          212,
+          883,
+          271
+        ],
+        "content": "a. mata uang fiat selain mata uang rupiah, mata uang fiat tersebut dikonversikan ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            212
+          ],
+          [
+            376,
+            270
+          ],
+          [
+            883,
+            270
+          ],
+          [
+            883,
+            212
+          ],
+          [
+            451,
+            212
+          ],
+          [
+            435,
+            212
+          ],
+          [
+            421,
+            212
+          ],
+          [
+            411,
+            212
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          272,
+          883,
+          315
+        ],
+        "content": "b. Aset Kripto, Aset Kripto tersebut dikonversikan ke dalam mata uang rupiah berdasarkan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            272
+          ],
+          [
+            376,
+            315
+          ],
+          [
+            883,
+            315
+          ],
+          [
+            883,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          425,
+          317,
+          882,
+          362
+        ],
+        "content": "1. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            425,
+            317
+          ],
+          [
+            425,
+            361
+          ],
+          [
+            881,
+            361
+          ],
+          [
+            881,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          422,
+          362,
+          882,
+          392
+        ],
+        "content": "2. nilai dalam sistem yang dimiliki oleh Penambang Aset Kripto,",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            382
+          ],
+          [
+            422,
+            391
+          ],
+          [
+            881,
+            391
+          ],
+          [
+            881,
+            362
+          ],
+          [
+            732,
+            362
+          ],
+          [
+            726,
+            362
+          ],
+          [
+            717,
+            362
+          ],
+          [
+            707,
+            362
+          ],
+          [
+            696,
+            362
+          ],
+          [
+            687,
+            362
+          ],
+          [
+            631,
+            362
+          ],
+          [
+            561,
+            362
+          ],
+          [
+            547,
+            362
+          ],
+          [
+            531,
+            362
+          ],
+          [
+            477,
+            362
+          ],
+          [
+            466,
+            362
+          ],
+          [
+            427,
+            362
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          422,
+          393,
+          767,
+          408
+        ],
+        "content": "yang diterapkan secara konsisten.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            393
+          ],
+          [
+            422,
+            408
+          ],
+          [
+            766,
+            408
+          ],
+          [
+            766,
+            393
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          422,
+          622,
+          435
+        ],
+        "content": "## Pasal 21",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            422
+          ],
+          [
+            536,
+            435
+          ],
+          [
+            622,
+            435
+          ],
+          [
+            622,
+            422
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          437,
+          884,
+          543
+        ],
+        "content": "Contoh penghitungan Pajak Pertambahan Nilai dengan menggunakan besaran tertentu untuk Peraturan Menteri Keuangan sebagaimana dimaksud dalam Pasal 13 yang telah disesuaikan dengan ketentuan dalam Peraturan Menteri ini tercantum dalam Lampiran huruf B yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            437
+          ],
+          [
+            279,
+            543
+          ],
+          [
+            883,
+            543
+          ],
+          [
+            883,
+            442
+          ],
+          [
+            784,
+            437
+          ],
+          [
+            729,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          452,
+          558,
+          712,
+          588
+        ],
+        "content": "## BAB IV KETENTUAN PERALIHAN",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            452,
+            558
+          ],
+          [
+            452,
+            587
+          ],
+          [
+            711,
+            587
+          ],
+          [
+            711,
+            558
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          603,
+          625,
+          617
+        ],
+        "content": "## Pasal 22",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            603
+          ],
+          [
+            536,
+            616
+          ],
+          [
+            625,
+            616
+          ],
+          [
+            625,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          618,
+          754,
+          632
+        ],
+        "content": "Pada saat Peraturan Menteri ini mulai berlaku:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            618
+          ],
+          [
+            281,
+            632
+          ],
+          [
+            753,
+            632
+          ],
+          [
+            753,
+            618
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          634,
+          767,
+          648
+        ],
+        "content": "a. pemungutan Pajak Pertambahan Nilai atas:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            634
+          ],
+          [
+            281,
+            647
+          ],
+          [
+            766,
+            647
+          ],
+          [
+            766,
+            634
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          649,
+          885,
+          888
+        ],
+        "content": "1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai, selain nilai lain sebagaimana diatur dalam Pasal 3 Peraturan Menteri Keuangan Nomor 131 Tahun 2024 tentang Perlakuan Pajak Pertambahan Nilai atas Impor Barang Kena Pajak, Penyerahan Barang Kena Pajak, Penyerahan Jasa Kena Pajak, Pemanfaatan Barang Kena Pajak Tidak Berwujud dari Luar Daerah Pabean di Dalam Daerah Pabean, dan Pemanfaatan Jasa Kena Pajak dari Luar Daerah Pabean di Dalam Daerah Pabean; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            649
+          ],
+          [
+            327,
+            888
+          ],
+          [
+            884,
+            888
+          ],
+          [
+            884,
+            649
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          889,
+          883,
+          921
+        ],
+        "content": "2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            889
+          ],
+          [
+            328,
+            920
+          ],
+          [
+            883,
+            920
+          ],
+          [
+            883,
+            889
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          376,
+          76,
+          882,
+          121
+        ],
+        "content": "besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            76
+          ],
+          [
+            376,
+            120
+          ],
+          [
+            882,
+            120
+          ],
+          [
+            882,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          120,
+          882,
+          181
+        ],
+        "content": "yang dilakukan sejak tanggal 1 Januari 2025 sampai dengan sebelum berlakunya Peraturan Menteri ini, berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri ini; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            120
+          ],
+          [
+            327,
+            181
+          ],
+          [
+            882,
+            181
+          ],
+          [
+            882,
+            120
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          181,
+          767,
+          196
+        ],
+        "content": "## b. pemungutan Pajak Pertambahan Nilai atas:",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            181
+          ],
+          [
+            280,
+            196
+          ],
+          [
+            767,
+            196
+          ],
+          [
+            767,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          196,
+          884,
+          301
+        ],
+        "content": "1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            202
+          ],
+          [
+            330,
+            301
+          ],
+          [
+            883,
+            301
+          ],
+          [
+            883,
+            196
+          ],
+          [
+            769,
+            196
+          ],
+          [
+            764,
+            196
+          ],
+          [
+            754,
+            196
+          ],
+          [
+            435,
+            196
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          302,
+          883,
+          376
+        ],
+        "content": "2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            302
+          ],
+          [
+            327,
+            376
+          ],
+          [
+            883,
+            376
+          ],
+          [
+            883,
+            307
+          ],
+          [
+            868,
+            302
+          ],
+          [
+            670,
+            302
+          ],
+          [
+            665,
+            302
+          ],
+          [
+            372,
+            302
+          ],
+          [
+            366,
+            302
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          377,
+          883,
+          438
+        ],
+        "content": "yang dilakukan sebelum tanggal 1 Januari 2025 berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri sebagaimana dimaksud dalam Pasal 3 dan Pasal 13.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            382
+          ],
+          [
+            331,
+            437
+          ],
+          [
+            883,
+            437
+          ],
+          [
+            883,
+            377
+          ],
+          [
+            356,
+            377
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          461,
+          452,
+          701,
+          483
+        ],
+        "content": "## BAB V KETENTUAN PENUTUP",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            461,
+            457
+          ],
+          [
+            461,
+            483
+          ],
+          [
+            701,
+            483
+          ],
+          [
+            701,
+            452
+          ],
+          [
+            466,
+            452
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          497,
+          625,
+          512
+        ],
+        "content": "## Pasal 23",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            497
+          ],
+          [
+            535,
+            511
+          ],
+          [
+            625,
+            511
+          ],
+          [
+            625,
+            497
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          512,
+          883,
+          544
+        ],
+        "content": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            512
+          ],
+          [
+            280,
+            544
+          ],
+          [
+            882,
+            544
+          ],
+          [
+            882,
+            512
+          ],
+          [
+            844,
+            512
+          ],
+          [
+            808,
+            512
+          ],
+          [
+            778,
+            512
+          ],
+          [
+            773,
+            512
+          ],
+          [
+            764,
+            512
+          ],
+          [
+            748,
+            512
+          ],
+          [
+            733,
+            512
+          ],
+          [
+            673,
+            512
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          76,
+          883,
+          122
+        ],
+        "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            76
+          ],
+          [
+            281,
+            122
+          ],
+          [
+            882,
+            122
+          ],
+          [
+            882,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          130,
+          158,
+          230,
+          222
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx0.jpg",
+        "index": 1,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            130,
+            158
+          ],
+          [
+            130,
+            221
+          ],
+          [
+            229,
+            221
+          ],
+          [
+            229,
+            158
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          412,
+          151,
+          712,
+          182
+        ],
+        "content": "Ditetapkan di Jakarta pada tanggal 4 Februari 2025",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            412,
+            151
+          ],
+          [
+            412,
+            182
+          ],
+          [
+            627,
+            182
+          ],
+          [
+            683,
+            182
+          ],
+          [
+            692,
+            182
+          ],
+          [
+            712,
+            182
+          ],
+          [
+            712,
+            151
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          414,
+          196,
+          880,
+          211
+        ],
+        "content": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            414,
+            196
+          ],
+          [
+            414,
+            210
+          ],
+          [
+            880,
+            210
+          ],
+          [
+            880,
+            196
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          618,
+          214,
+          710,
+          270
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx1.jpg",
+        "index": 4,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            618,
+            214
+          ],
+          [
+            618,
+            270
+          ],
+          [
+            709,
+            270
+          ],
+          [
+            709,
+            214
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          516,
+          272,
+          780,
+          285
+        ],
+        "content": "SRI MULYANI INDRAWATI",
+        "index": 5,
+        "label": "text",
+        "native_label": "vision_footnote",
+        "polygon": [
+          [
+            516,
+            272
+          ],
+          [
+            516,
+            285
+          ],
+          [
+            779,
+            285
+          ],
+          [
+            779,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          302,
+          363,
+          316
+        ],
+        "content": "Diundangkan di Jakarta",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            302
+          ],
+          [
+            116,
+            315
+          ],
+          [
+            363,
+            315
+          ],
+          [
+            363,
+            302
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          117,
+          319,
+          402,
+          333
+        ],
+        "content": "pada tanggal 4 Februari 2025",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            117,
+            319
+          ],
+          [
+            117,
+            333
+          ],
+          [
+            401,
+            333
+          ],
+          [
+            401,
+            319
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          347,
+          349,
+          360
+        ],
+        "content": "DIREKTUR JENDERAL",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            347
+          ],
+          [
+            116,
+            360
+          ],
+          [
+            348,
+            360
+          ],
+          [
+            348,
+            347
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          362,
+          515,
+          376
+        ],
+        "content": "PERATURAN PERUNDANG-UNDANGAN",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            367
+          ],
+          [
+            116,
+            376
+          ],
+          [
+            515,
+            376
+          ],
+          [
+            515,
+            362
+          ],
+          [
+            451,
+            362
+          ],
+          [
+            420,
+            362
+          ],
+          [
+            401,
+            362
+          ],
+          [
+            395,
+            362
+          ],
+          [
+            266,
+            362
+          ],
+          [
+            255,
+            362
+          ],
+          [
+            231,
+            362
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          377,
+          601,
+          391
+        ],
+        "content": "KEMENTERIAN HUKUM REPUBLIK INDONESIA,",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            377
+          ],
+          [
+            116,
+            391
+          ],
+          [
+            600,
+            391
+          ],
+          [
+            600,
+            377
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          122,
+          399,
+          227,
+          430
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx2.jpg",
+        "index": 11,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            122,
+            399
+          ],
+          [
+            122,
+            429
+          ],
+          [
+            227,
+            429
+          ],
+          [
+            227,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          117,
+          437,
+          301,
+          450
+        ],
+        "content": "DHAHANA PUTRA",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            117,
+            437
+          ],
+          [
+            117,
+            450
+          ],
+          [
+            300,
+            450
+          ],
+          [
+            300,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          482,
+          750,
+          496
+        ],
+        "content": "BERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            482
+          ],
+          [
+            116,
+            495
+          ],
+          [
+            750,
+            495
+          ],
+          [
+            750,
+            482
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          76,
+          882,
+          182
+        ],
+        "content": "## LAMPIRAN\n\nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 11 TAHUN 2025\n\nTENTANG\n\nKETENTUAN NILAI LAIN SEBAGAI DASAR PENGENAAN\n\nPAJAK DAN BESARAN TERTENTU PAJAK PERTAMBAHAN\n\nNILAI",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            76
+          ],
+          [
+            280,
+            181
+          ],
+          [
+            881,
+            181
+          ],
+          [
+            881,
+            137
+          ],
+          [
+            881,
+            131
+          ],
+          [
+            881,
+            86
+          ],
+          [
+            731,
+            81
+          ],
+          [
+            640,
+            76
+          ],
+          [
+            581,
+            76
+          ],
+          [
+            541,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          140,
+          211,
+          859,
+          257
+        ],
+        "content": "## CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN DAN BESARAN TERTENTU",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            140,
+            211
+          ],
+          [
+            140,
+            257
+          ],
+          [
+            614,
+            257
+          ],
+          [
+            858,
+            257
+          ],
+          [
+            858,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          113,
+          271,
+          882,
+          302
+        ],
+        "content": "## A. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            113,
+            271
+          ],
+          [
+            113,
+            301
+          ],
+          [
+            881,
+            301
+          ],
+          [
+            881,
+            271
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          165,
+          307,
+          883,
+          404
+        ],
+        "content": "1. Pada tanggal 5 Februari 2025, PT ABC yang merupakan pengusaha kena pajak melakukan pemberian cuma-cuma Barang Kena Pajak berupa tetikus (mouse) komputer kepada PT DEF. Diketahui bahwa atas tetikus komputer tersebut memiliki harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah) termasuk laba kotor sebesar Rp50.000,00 (lima puluh ribu rupiah).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            165,
+            307
+          ],
+          [
+            165,
+            404
+          ],
+          [
+            883,
+            398
+          ],
+          [
+            883,
+            307
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          207,
+          398,
+          883,
+          429
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            207,
+            414
+          ],
+          [
+            212,
+            429
+          ],
+          [
+            882,
+            429
+          ],
+          [
+            882,
+            398
+          ],
+          [
+            212,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          429,
+          833,
+          444
+        ],
+        "content": "a. Harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah).",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            429
+          ],
+          [
+            209,
+            444
+          ],
+          [
+            833,
+            444
+          ],
+          [
+            833,
+            429
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          444,
+          882,
+          487
+        ],
+        "content": "b. Dasar Pengenaan Pajak sebesar Rp137.500,00 (seratus tiga puluh tujuh ribu lima ratus rupiah)\n\n([11/12] x [Rp200.000,00 - Rp50.000,00]).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            444
+          ],
+          [
+            209,
+            487
+          ],
+          [
+            480,
+            487
+          ],
+          [
+            525,
+            478
+          ],
+          [
+            531,
+            478
+          ],
+          [
+            881,
+            478
+          ],
+          [
+            881,
+            444
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          489,
+          881,
+          534
+        ],
+        "content": "c. Pajak Pertambahan Nilai sebesar Rp16.500,00 (enam belas ribu lima ratus rupiah)\n\n(12% x Rp137.500,00).",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            489
+          ],
+          [
+            209,
+            534
+          ],
+          [
+            585,
+            534
+          ],
+          [
+            670,
+            529
+          ],
+          [
+            880,
+            524
+          ],
+          [
+            880,
+            489
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          160,
+          540,
+          883,
+          688
+        ],
+        "content": "2. Pada tanggal 11 Maret 2025, PT GHI yang merupakan pengusaha kena pajak produsen hasil tembakau melakukan pemesanan pita cukai hasil tembakau atas hasil produksinya berupa Sigaret Kretek Mesin golongan II dengan merek Sigaret JKL sebanyak 1.000.000 (satu juta) bungkus. Setiap bungkus Sigaret JKL berisi 16 (enam belas) batang Sigaret Kretek Mesin golongan II. Harga jual eceran Sigaret Kretek Mesin golongan II ditetapkan sebesar Rp1.485,00 (seribu empat ratus delapan puluh lima rupiah) per batang. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang vaitu sebagai berikut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            160,
+            540
+          ],
+          [
+            160,
+            673
+          ],
+          [
+            171,
+            688
+          ],
+          [
+            883,
+            688
+          ],
+          [
+            883,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          691,
+          881,
+          736
+        ],
+        "content": "a. Total harga jual eceran sebesar Rp23.760.000.000,00 (dua puluh tiga miliar tujuh ratus enam puluh juta rupiah)\n\n(1.000.000 x 16 x Rp1.485,00).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            691
+          ],
+          [
+            209,
+            735
+          ],
+          [
+            810,
+            735
+          ],
+          [
+            866,
+            731
+          ],
+          [
+            880,
+            726
+          ],
+          [
+            880,
+            691
+          ],
+          [
+            224,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          736,
+          883,
+          781
+        ],
+        "content": "b. Pajak Pertambahan Nilai sebesar Rp2.352.240.000,00 (dua miliar tiga ratus lima puluh dua juta dua ratus empat puluh ribu rupiah)",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            736
+          ],
+          [
+            209,
+            781
+          ],
+          [
+            882,
+            781
+          ],
+          [
+            882,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          259,
+          781,
+          569,
+          797
+        ],
+        "content": "(9,9% x Rp23.760.000.000,00).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            259,
+            781
+          ],
+          [
+            259,
+            797
+          ],
+          [
+            568,
+            797
+          ],
+          [
+            568,
+            781
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          114,
+          75,
+          882,
+          105
+        ],
+        "content": "## B. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN BESARAN TERTENTU",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            114,
+            75
+          ],
+          [
+            120,
+            105
+          ],
+          [
+            882,
+            105
+          ],
+          [
+            882,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          163,
+          112,
+          884,
+          234
+        ],
+        "content": "1. Pada tanggal 20 Februari 2025, PT PQR yang merupakan pengusaha kena pajak penyalur (agen) Liquefied Petroleum Gas (LPG) tertentu melakukan penyerahan 5.000 (lima ribu) tabung LPG tertentu kepada CV STU yang telah ditunjuk oleh PT PQR sebagai subpenyalur (pangkalan) LPG tertentu. Harga jual agen sebesar Rp14.000,00 (empat belas ribu rupiah) per tabung. Harga jual eceran yang berlaku sebesar Rp12.750,00 (dua belas ribu tujuh ratus lima puluh rupiah) per tabung.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            163,
+            112
+          ],
+          [
+            163,
+            200
+          ],
+          [
+            174,
+            234
+          ],
+          [
+            883,
+            234
+          ],
+          [
+            883,
+            117
+          ],
+          [
+            854,
+            112
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          207,
+          233,
+          882,
+          263
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            207,
+            233
+          ],
+          [
+            207,
+            262
+          ],
+          [
+            877,
+            262
+          ],
+          [
+            882,
+            233
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          263,
+          881,
+          307
+        ],
+        "content": "a. Total harga jual eceran sebesar Rp63.750.000,00 (enam puluh tiga juta tujuh ratus lima puluh ribu rupiah) (5.000 x Rp12.750,00).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            263
+          ],
+          [
+            209,
+            302
+          ],
+          [
+            224,
+            307
+          ],
+          [
+            730,
+            307
+          ],
+          [
+            755,
+            302
+          ],
+          [
+            880,
+            297
+          ],
+          [
+            880,
+            263
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          308,
+          881,
+          353
+        ],
+        "content": "b. Total harga jual agen sebesar Rp70.000.000,00 (tujuh puluh juta rupiah)\n\n(5.000 x Rp14.000,00).",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            308
+          ],
+          [
+            209,
+            352
+          ],
+          [
+            495,
+            352
+          ],
+          [
+            500,
+            347
+          ],
+          [
+            515,
+            347
+          ],
+          [
+            880,
+            342
+          ],
+          [
+            880,
+            308
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          353,
+          882,
+          398
+        ],
+        "content": "c. Dasar Pengenaan Pajak berupa nilai tertentu sebesar Rp6.250.000,00 (enam juta dua ratus lima puluh ribu rupiah) (Rp70.000.000,00-Rp63.750.000,00).",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            353
+          ],
+          [
+            208,
+            398
+          ],
+          [
+            882,
+            398
+          ],
+          [
+            882,
+            353
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          398,
+          880,
+          444
+        ],
+        "content": "d. Pajak Pertambahan Nilai sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah)\n\n([1,1/101,1] x Rp6.250.000,00).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            398
+          ],
+          [
+            209,
+            444
+          ],
+          [
+            579,
+            444
+          ],
+          [
+            630,
+            434
+          ],
+          [
+            880,
+            434
+          ],
+          [
+            880,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          445,
+          882,
+          492
+        ],
+        "content": "Pajak Pertambahan Nilai yang terutang sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah) sudah termasuk dalam selisih lebih antara harga jual agen dan harga jual eceran.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            445
+          ],
+          [
+            214,
+            492
+          ],
+          [
+            647,
+            492
+          ],
+          [
+            678,
+            492
+          ],
+          [
+            882,
+            492
+          ],
+          [
+            882,
+            445
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          159,
+          497,
+          884,
+          612
+        ],
+        "content": "2. Pada tanggal 17 Maret 2025, PT VWX yang merupakan pengusaha kena pajak pedagang emas perhiasan melakukan penyerahan Barang Kena Pajak berupa emas perhiasan kepada konsumen akhir dengan total harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah) yang atas perolehannya memiliki faktur pajak yang memenuhi ketentuan sebagaimana diatur dalam Pasal 13 ayat (5) Undang-Undang Pajak Pertambahan Nilai. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            159,
+            497
+          ],
+          [
+            159,
+            612
+          ],
+          [
+            449,
+            612
+          ],
+          [
+            883,
+            602
+          ],
+          [
+            883,
+            502
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          206,
+          604,
+          882,
+          634
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            206,
+            619
+          ],
+          [
+            212,
+            633
+          ],
+          [
+            877,
+            633
+          ],
+          [
+            882,
+            604
+          ],
+          [
+            237,
+            604
+          ],
+          [
+            212,
+            609
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          634,
+          882,
+          663
+        ],
+        "content": "a. Harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            634
+          ],
+          [
+            209,
+            662
+          ],
+          [
+            473,
+            662
+          ],
+          [
+            493,
+            662
+          ],
+          [
+            882,
+            662
+          ],
+          [
+            882,
+            634
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          663,
+          882,
+          693
+        ],
+        "content": "b. Dasar Pengenaan Pajak sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            663
+          ],
+          [
+            209,
+            692
+          ],
+          [
+            881,
+            692
+          ],
+          [
+            881,
+            663
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          694,
+          882,
+          739
+        ],
+        "content": "c. Pajak Pertambahan Nilai sebesar Rp7.700.000,00 (tujuh juta tujuh ratus ribu rupiah)\n\n(10% x [11/12] x 12% x Rp700.000.000,00).",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            694
+          ],
+          [
+            208,
+            739
+          ],
+          [
+            727,
+            739
+          ],
+          [
+            802,
+            734
+          ],
+          [
+            882,
+            729
+          ],
+          [
+            882,
+            694
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          449,
+          768,
+          918,
+          816
+        ],
+        "content": "## MENTERI KEUANGAN REPUBLIK INDONESIA ttd.",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            449,
+            768
+          ],
+          [
+            449,
+            815
+          ],
+          [
+            918,
+            815
+          ],
+          [
+            918,
+            768
+          ]
+        ]
+      }
+    ]
+  ],
+  "layout_details": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      {
+        "bbox_2d": [
+          279,
+          75,
+          883,
+          106
+        ],
+        "content": "2. Ketentuan ayat (2) Pasal 324 diubah sehingga berbunyi sebagai berikut:",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            75
+          ],
+          [
+            279,
+            106
+          ],
+          [
+            882,
+            106
+          ],
+          [
+            882,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          555,
+          121,
+          657,
+          135
+        ],
+        "content": "## Pasal 324",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            555,
+            121
+          ],
+          [
+            555,
+            135
+          ],
+          [
+            657,
+            135
+          ],
+          [
+            657,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          135,
+          883,
+          210
+        ],
+        "content": "(1) Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 323 ayat (1) dihitung, dipungut, dan disetor oleh orang pribadi atau Badan yang melakukan kegiatan membangun sendiri dengan besaran tertentu.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            135
+          ],
+          [
+            329,
+            210
+          ],
+          [
+            882,
+            210
+          ],
+          [
+            882,
+            135
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          211,
+          884,
+          316
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) merupakan hasil perkalian 20% (dua puluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan dasar pengenaan pajak.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            211
+          ],
+          [
+            329,
+            316
+          ],
+          [
+            883,
+            316
+          ],
+          [
+            883,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          316,
+          883,
+          408
+        ],
+        "content": "(3) Dasar pengenaan pajak sebagaimana dimaksud pada ayat (2) berupa nilai tertentu sebesar jumlah biaya yang dikeluarkan dan/atau yang dibayarkan untuk membangun bangunan untuk setiap Masa Pajak sampai dengan bangunan selesai, tidak termasuk biaya perolehan tanah.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            316
+          ],
+          [
+            328,
+            407
+          ],
+          [
+            882,
+            407
+          ],
+          [
+            882,
+            316
+          ],
+          [
+            568,
+            316
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          421,
+          882,
+          452
+        ],
+        "content": "3. Ketentuan ayat (2) Pasal 343 diubah sehingga berbunyi sebagai berikut:",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            421
+          ],
+          [
+            279,
+            452
+          ],
+          [
+            508,
+            452
+          ],
+          [
+            548,
+            452
+          ],
+          [
+            617,
+            452
+          ],
+          [
+            623,
+            452
+          ],
+          [
+            648,
+            452
+          ],
+          [
+            673,
+            452
+          ],
+          [
+            693,
+            452
+          ],
+          [
+            882,
+            452
+          ],
+          [
+            882,
+            421
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          555,
+          467,
+          657,
+          481
+        ],
+        "content": "## Pasal 343",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            555,
+            467
+          ],
+          [
+            555,
+            481
+          ],
+          [
+            657,
+            481
+          ],
+          [
+            657,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          482,
+          883,
+          527
+        ],
+        "content": "(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 340 huruf a dipungut dan disetor dengan besaran tertentu.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            482
+          ],
+          [
+            329,
+            522
+          ],
+          [
+            344,
+            527
+          ],
+          [
+            882,
+            527
+          ],
+          [
+            882,
+            482
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          527,
+          883,
+          558
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            527
+          ],
+          [
+            328,
+            557
+          ],
+          [
+            363,
+            557
+          ],
+          [
+            374,
+            557
+          ],
+          [
+            882,
+            557
+          ],
+          [
+            882,
+            527
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          558,
+          883,
+          678
+        ],
+        "content": "a. 1% (satu persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik merupakan Pedagang Fisik Aset Kripto; atau",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            558
+          ],
+          [
+            380,
+            677
+          ],
+          [
+            882,
+            677
+          ],
+          [
+            882,
+            558
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          678,
+          883,
+          797
+        ],
+        "content": "b. 2% (dua persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik bukan merupakan Pedagang Fisik Aset Kripto.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            678
+          ],
+          [
+            375,
+            797
+          ],
+          [
+            882,
+            797
+          ],
+          [
+            882,
+            678
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          798,
+          883,
+          829
+        ],
+        "content": "(3) Nilai transaksi sebagaimana dimaksud pada ayat (2) yaitu:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            798
+          ],
+          [
+            329,
+            829
+          ],
+          [
+            882,
+            829
+          ],
+          [
+            882,
+            798
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          829,
+          884,
+          905
+        ],
+        "content": "a. nilai uang yang dibayarkan oleh Pembeli Aset Kripto, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan jual beli Aset Kripto",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            829
+          ],
+          [
+            375,
+            905
+          ],
+          [
+            883,
+            905
+          ],
+          [
+            883,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          422,
+          76,
+          881,
+          106
+        ],
+        "content": "menggunakan mata uang fiat sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf a;",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            101
+          ],
+          [
+            422,
+            105
+          ],
+          [
+            880,
+            105
+          ],
+          [
+            880,
+            76
+          ],
+          [
+            427,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          106,
+          883,
+          241
+        ],
+        "content": "b. nilai masing-masing Aset Kripto yang diserahkan oleh para pihak yang bertransaksi, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf b; atau",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            106
+          ],
+          [
+            375,
+            241
+          ],
+          [
+            882,
+            241
+          ],
+          [
+            882,
+            106
+          ],
+          [
+            863,
+            106
+          ],
+          [
+            844,
+            106
+          ],
+          [
+            837,
+            106
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          242,
+          882,
+          331
+        ],
+        "content": "c. nilai Aset Kripto yang dipindahkan (transfer) ke akun pihak lain, dalam hal transaksi merupakan tukar-menukar Aset Kripto dengan barang selain Aset Kripto dan/atau jasa sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf c.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            247
+          ],
+          [
+            375,
+            330
+          ],
+          [
+            882,
+            330
+          ],
+          [
+            882,
+            242
+          ],
+          [
+            435,
+            242
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          332,
+          883,
+          467
+        ],
+        "content": "(4) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka jual beli Aset Kripto sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf a dengan menggunakan selain mata uang rupiah, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri yang berlaku pada saat pemungutan Pajak Pertambahan Nilai.",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            332
+          ],
+          [
+            329,
+            466
+          ],
+          [
+            882,
+            466
+          ],
+          [
+            882,
+            332
+          ],
+          [
+            519,
+            332
+          ],
+          [
+            513,
+            332
+          ],
+          [
+            498,
+            332
+          ],
+          [
+            489,
+            332
+          ],
+          [
+            469,
+            332
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          467,
+          883,
+          602
+        ],
+        "content": "(5) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf b atau pemindahan (transfer) Aset Kripto ke akun pihak lain sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf c, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi Aset Kripto ke dalam mata uang rupiah berdasarkan:",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            467
+          ],
+          [
+            328,
+            592
+          ],
+          [
+            338,
+            602
+          ],
+          [
+            368,
+            602
+          ],
+          [
+            373,
+            602
+          ],
+          [
+            883,
+            602
+          ],
+          [
+            883,
+            472
+          ],
+          [
+            868,
+            467
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          603,
+          883,
+          647
+        ],
+        "content": "a. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            603
+          ],
+          [
+            375,
+            642
+          ],
+          [
+            380,
+            647
+          ],
+          [
+            882,
+            647
+          ],
+          [
+            882,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          648,
+          883,
+          693
+        ],
+        "content": "b. nilai dalam sistem yang dimiliki oleh Penyelenggara Perdagangan Melalui Sistem Elektronik,",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            648
+          ],
+          [
+            375,
+            692
+          ],
+          [
+            882,
+            692
+          ],
+          [
+            882,
+            648
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          375,
+          694,
+          722,
+          709
+        ],
+        "content": "yang diterapkan secara konsisten.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            694
+          ],
+          [
+            375,
+            709
+          ],
+          [
+            721,
+            709
+          ],
+          [
+            721,
+            694
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          722,
+          883,
+          754
+        ],
+        "content": "4. Ketentuan ayat (2) Pasal 354 diubah sehingga berbunyi sebagai berikut:",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            722
+          ],
+          [
+            279,
+            753
+          ],
+          [
+            877,
+            753
+          ],
+          [
+            882,
+            748
+          ],
+          [
+            882,
+            722
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          554,
+          767,
+          657,
+          782
+        ],
+        "content": "## Pasal 354",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            554,
+            767
+          ],
+          [
+            554,
+            781
+          ],
+          [
+            657,
+            781
+          ],
+          [
+            657,
+            767
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          329,
+          784,
+          882,
+          829
+        ],
+        "content": "(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 353 ayat (1) dipungut dan disetor dengan besaran tertentu.",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            329,
+            784
+          ],
+          [
+            329,
+            828
+          ],
+          [
+            881,
+            828
+          ],
+          [
+            881,
+            784
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          829,
+          885,
+          920
+        ],
+        "content": "(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar 10% (sepuluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai berupa",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            829
+          ],
+          [
+            328,
+            920
+          ],
+          [
+            884,
+            920
+          ],
+          [
+            884,
+            829
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          375,
+          76,
+          883,
+          121
+        ],
+        "content": "uang atas Aset Kripto yang diterima oleh Penambang Aset Kripto, termasuk Aset Kripto yang diterima dari sistem Aset Kripto (block reward).",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            375,
+            76
+          ],
+          [
+            375,
+            121
+          ],
+          [
+            883,
+            121
+          ],
+          [
+            883,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          351,
+          121,
+          883,
+          211
+        ],
+        "content": ") Dalam hal imbalan yang diterima oleh Penambang Aset Kripto atas penyerahan Aset Kripto sehubungan jasa verifikasi transaksi dan/atau jasa manajemen kelompok Penambang Aset Kripto (mining pool) sebagaimana dimaksud pada ayat (2) berupa:",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            366,
+            126
+          ],
+          [
+            366,
+            151
+          ],
+          [
+            376,
+            210
+          ],
+          [
+            883,
+            210
+          ],
+          [
+            883,
+            126
+          ],
+          [
+            863,
+            121
+          ],
+          [
+            376,
+            121
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          212,
+          883,
+          271
+        ],
+        "content": "a. mata uang fiat selain mata uang rupiah, mata uang fiat tersebut dikonversikan ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri; atau",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            212
+          ],
+          [
+            376,
+            270
+          ],
+          [
+            883,
+            270
+          ],
+          [
+            883,
+            212
+          ],
+          [
+            451,
+            212
+          ],
+          [
+            435,
+            212
+          ],
+          [
+            421,
+            212
+          ],
+          [
+            411,
+            212
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          376,
+          272,
+          883,
+          315
+        ],
+        "content": "b. Aset Kripto, Aset Kripto tersebut dikonversikan ke dalam mata uang rupiah berdasarkan:",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            272
+          ],
+          [
+            376,
+            315
+          ],
+          [
+            883,
+            315
+          ],
+          [
+            883,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          425,
+          317,
+          882,
+          362
+        ],
+        "content": "1. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            425,
+            317
+          ],
+          [
+            425,
+            361
+          ],
+          [
+            881,
+            361
+          ],
+          [
+            881,
+            317
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          422,
+          362,
+          882,
+          392
+        ],
+        "content": "2. nilai dalam sistem yang dimiliki oleh Penambang Aset Kripto,",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            382
+          ],
+          [
+            422,
+            391
+          ],
+          [
+            881,
+            391
+          ],
+          [
+            881,
+            362
+          ],
+          [
+            732,
+            362
+          ],
+          [
+            726,
+            362
+          ],
+          [
+            717,
+            362
+          ],
+          [
+            707,
+            362
+          ],
+          [
+            696,
+            362
+          ],
+          [
+            687,
+            362
+          ],
+          [
+            631,
+            362
+          ],
+          [
+            561,
+            362
+          ],
+          [
+            547,
+            362
+          ],
+          [
+            531,
+            362
+          ],
+          [
+            477,
+            362
+          ],
+          [
+            466,
+            362
+          ],
+          [
+            427,
+            362
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          422,
+          393,
+          767,
+          408
+        ],
+        "content": "yang diterapkan secara konsisten.",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            422,
+            393
+          ],
+          [
+            422,
+            408
+          ],
+          [
+            766,
+            408
+          ],
+          [
+            766,
+            393
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          422,
+          622,
+          435
+        ],
+        "content": "## Pasal 21",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            422
+          ],
+          [
+            536,
+            435
+          ],
+          [
+            622,
+            435
+          ],
+          [
+            622,
+            422
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          279,
+          437,
+          884,
+          543
+        ],
+        "content": "Contoh penghitungan Pajak Pertambahan Nilai dengan menggunakan besaran tertentu untuk Peraturan Menteri Keuangan sebagaimana dimaksud dalam Pasal 13 yang telah disesuaikan dengan ketentuan dalam Peraturan Menteri ini tercantum dalam Lampiran huruf B yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            279,
+            437
+          ],
+          [
+            279,
+            543
+          ],
+          [
+            883,
+            543
+          ],
+          [
+            883,
+            442
+          ],
+          [
+            784,
+            437
+          ],
+          [
+            729,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          452,
+          558,
+          712,
+          588
+        ],
+        "content": "## BAB IV KETENTUAN PERALIHAN",
+        "index": 9,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            452,
+            558
+          ],
+          [
+            452,
+            587
+          ],
+          [
+            711,
+            587
+          ],
+          [
+            711,
+            558
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          536,
+          603,
+          625,
+          617
+        ],
+        "content": "## Pasal 22",
+        "index": 10,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            536,
+            603
+          ],
+          [
+            536,
+            616
+          ],
+          [
+            625,
+            616
+          ],
+          [
+            625,
+            603
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          618,
+          754,
+          632
+        ],
+        "content": "Pada saat Peraturan Menteri ini mulai berlaku:",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            618
+          ],
+          [
+            281,
+            632
+          ],
+          [
+            753,
+            632
+          ],
+          [
+            753,
+            618
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          281,
+          634,
+          767,
+          648
+        ],
+        "content": "a. pemungutan Pajak Pertambahan Nilai atas:",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            634
+          ],
+          [
+            281,
+            647
+          ],
+          [
+            766,
+            647
+          ],
+          [
+            766,
+            634
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          649,
+          885,
+          888
+        ],
+        "content": "1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai, selain nilai lain sebagaimana diatur dalam Pasal 3 Peraturan Menteri Keuangan Nomor 131 Tahun 2024 tentang Perlakuan Pajak Pertambahan Nilai atas Impor Barang Kena Pajak, Penyerahan Barang Kena Pajak, Penyerahan Jasa Kena Pajak, Pemanfaatan Barang Kena Pajak Tidak Berwujud dari Luar Daerah Pabean di Dalam Daerah Pabean, dan Pemanfaatan Jasa Kena Pajak dari Luar Daerah Pabean di Dalam Daerah Pabean; atau",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            327,
+            649
+          ],
+          [
+            327,
+            888
+          ],
+          [
+            884,
+            888
+          ],
+          [
+            884,
+            649
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          328,
+          889,
+          883,
+          921
+        ],
+        "content": "2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan",
+        "index": 14,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            328,
+            889
+          ],
+          [
+            328,
+            920
+          ],
+          [
+            883,
+            920
+          ],
+          [
+            883,
+            889
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          376,
+          76,
+          882,
+          121
+        ],
+        "content": "besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            376,
+            76
+          ],
+          [
+            376,
+            120
+          ],
+          [
+            882,
+            120
+          ],
+          [
+            882,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          120,
+          882,
+          181
+        ],
+        "content": "yang dilakukan sejak tanggal 1 Januari 2025 sampai dengan sebelum berlakunya Peraturan Menteri ini, berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri ini; dan",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            120
+          ],
+          [
+            327,
+            181
+          ],
+          [
+            882,
+            181
+          ],
+          [
+            882,
+            120
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          181,
+          767,
+          196
+        ],
+        "content": "## b. pemungutan Pajak Pertambahan Nilai atas:",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            181
+          ],
+          [
+            280,
+            196
+          ],
+          [
+            767,
+            196
+          ],
+          [
+            767,
+            181
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          330,
+          196,
+          884,
+          301
+        ],
+        "content": "1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai; atau",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            330,
+            202
+          ],
+          [
+            330,
+            301
+          ],
+          [
+            883,
+            301
+          ],
+          [
+            883,
+            196
+          ],
+          [
+            769,
+            196
+          ],
+          [
+            764,
+            196
+          ],
+          [
+            754,
+            196
+          ],
+          [
+            435,
+            196
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          327,
+          302,
+          883,
+          376
+        ],
+        "content": "2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            332,
+            302
+          ],
+          [
+            327,
+            376
+          ],
+          [
+            883,
+            376
+          ],
+          [
+            883,
+            307
+          ],
+          [
+            868,
+            302
+          ],
+          [
+            670,
+            302
+          ],
+          [
+            665,
+            302
+          ],
+          [
+            372,
+            302
+          ],
+          [
+            366,
+            302
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          325,
+          377,
+          883,
+          438
+        ],
+        "content": "yang dilakukan sebelum tanggal 1 Januari 2025 berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri sebagaimana dimaksud dalam Pasal 3 dan Pasal 13.",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            325,
+            382
+          ],
+          [
+            331,
+            437
+          ],
+          [
+            883,
+            437
+          ],
+          [
+            883,
+            377
+          ],
+          [
+            356,
+            377
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          461,
+          452,
+          701,
+          483
+        ],
+        "content": "## BAB V KETENTUAN PENUTUP",
+        "index": 6,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            461,
+            457
+          ],
+          [
+            461,
+            483
+          ],
+          [
+            701,
+            483
+          ],
+          [
+            701,
+            452
+          ],
+          [
+            466,
+            452
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          535,
+          497,
+          625,
+          512
+        ],
+        "content": "## Pasal 23",
+        "index": 7,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            535,
+            497
+          ],
+          [
+            535,
+            511
+          ],
+          [
+            625,
+            511
+          ],
+          [
+            625,
+            497
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          280,
+          512,
+          883,
+          544
+        ],
+        "content": "Peraturan Menteri ini mulai berlaku pada tanggal diundangkan.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            280,
+            512
+          ],
+          [
+            280,
+            544
+          ],
+          [
+            882,
+            544
+          ],
+          [
+            882,
+            512
+          ],
+          [
+            844,
+            512
+          ],
+          [
+            808,
+            512
+          ],
+          [
+            778,
+            512
+          ],
+          [
+            773,
+            512
+          ],
+          [
+            764,
+            512
+          ],
+          [
+            748,
+            512
+          ],
+          [
+            733,
+            512
+          ],
+          [
+            673,
+            512
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          281,
+          76,
+          883,
+          122
+        ],
+        "content": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.",
+        "index": 0,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            281,
+            76
+          ],
+          [
+            281,
+            122
+          ],
+          [
+            882,
+            122
+          ],
+          [
+            882,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          130,
+          158,
+          230,
+          222
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx0.jpg",
+        "index": 1,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            130,
+            158
+          ],
+          [
+            130,
+            221
+          ],
+          [
+            229,
+            221
+          ],
+          [
+            229,
+            158
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          412,
+          151,
+          712,
+          182
+        ],
+        "content": "Ditetapkan di Jakarta pada tanggal 4 Februari 2025",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            412,
+            151
+          ],
+          [
+            412,
+            182
+          ],
+          [
+            627,
+            182
+          ],
+          [
+            683,
+            182
+          ],
+          [
+            692,
+            182
+          ],
+          [
+            712,
+            182
+          ],
+          [
+            712,
+            151
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          414,
+          196,
+          880,
+          211
+        ],
+        "content": "MENTERI KEUANGAN REPUBLIK INDONESIA,",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            414,
+            196
+          ],
+          [
+            414,
+            210
+          ],
+          [
+            880,
+            210
+          ],
+          [
+            880,
+            196
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          618,
+          214,
+          710,
+          270
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx1.jpg",
+        "index": 4,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            618,
+            214
+          ],
+          [
+            618,
+            270
+          ],
+          [
+            709,
+            270
+          ],
+          [
+            709,
+            214
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          516,
+          272,
+          780,
+          285
+        ],
+        "content": "SRI MULYANI INDRAWATI",
+        "index": 5,
+        "label": "text",
+        "native_label": "vision_footnote",
+        "polygon": [
+          [
+            516,
+            272
+          ],
+          [
+            516,
+            285
+          ],
+          [
+            779,
+            285
+          ],
+          [
+            779,
+            272
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          302,
+          363,
+          316
+        ],
+        "content": "Diundangkan di Jakarta",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            302
+          ],
+          [
+            116,
+            315
+          ],
+          [
+            363,
+            315
+          ],
+          [
+            363,
+            302
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          117,
+          319,
+          402,
+          333
+        ],
+        "content": "pada tanggal 4 Februari 2025",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            117,
+            319
+          ],
+          [
+            117,
+            333
+          ],
+          [
+            401,
+            333
+          ],
+          [
+            401,
+            319
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          347,
+          349,
+          360
+        ],
+        "content": "DIREKTUR JENDERAL",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            347
+          ],
+          [
+            116,
+            360
+          ],
+          [
+            348,
+            360
+          ],
+          [
+            348,
+            347
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          362,
+          515,
+          376
+        ],
+        "content": "PERATURAN PERUNDANG-UNDANGAN",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            367
+          ],
+          [
+            116,
+            376
+          ],
+          [
+            515,
+            376
+          ],
+          [
+            515,
+            362
+          ],
+          [
+            451,
+            362
+          ],
+          [
+            420,
+            362
+          ],
+          [
+            401,
+            362
+          ],
+          [
+            395,
+            362
+          ],
+          [
+            266,
+            362
+          ],
+          [
+            255,
+            362
+          ],
+          [
+            231,
+            362
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          377,
+          601,
+          391
+        ],
+        "content": "KEMENTERIAN HUKUM REPUBLIK INDONESIA,",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            377
+          ],
+          [
+            116,
+            391
+          ],
+          [
+            600,
+            391
+          ],
+          [
+            600,
+            377
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          122,
+          399,
+          227,
+          430
+        ],
+        "content": null,
+        "image_path": "imgs/cropped_page28_idx2.jpg",
+        "index": 11,
+        "label": "image",
+        "native_label": "image",
+        "polygon": [
+          [
+            122,
+            399
+          ],
+          [
+            122,
+            429
+          ],
+          [
+            227,
+            429
+          ],
+          [
+            227,
+            399
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          117,
+          437,
+          301,
+          450
+        ],
+        "content": "DHAHANA PUTRA",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            117,
+            437
+          ],
+          [
+            117,
+            450
+          ],
+          [
+            300,
+            450
+          ],
+          [
+            300,
+            437
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          116,
+          482,
+          750,
+          496
+        ],
+        "content": "BERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR",
+        "index": 13,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            116,
+            482
+          ],
+          [
+            116,
+            495
+          ],
+          [
+            750,
+            495
+          ],
+          [
+            750,
+            482
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          280,
+          76,
+          882,
+          182
+        ],
+        "content": "## LAMPIRAN\n\nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 11 TAHUN 2025\n\nTENTANG\n\nKETENTUAN NILAI LAIN SEBAGAI DASAR PENGENAAN\n\nPAJAK DAN BESARAN TERTENTU PAJAK PERTAMBAHAN\n\nNILAI",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            280,
+            76
+          ],
+          [
+            280,
+            181
+          ],
+          [
+            881,
+            181
+          ],
+          [
+            881,
+            137
+          ],
+          [
+            881,
+            131
+          ],
+          [
+            881,
+            86
+          ],
+          [
+            731,
+            81
+          ],
+          [
+            640,
+            76
+          ],
+          [
+            581,
+            76
+          ],
+          [
+            541,
+            76
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          140,
+          211,
+          859,
+          257
+        ],
+        "content": "## CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN DAN BESARAN TERTENTU",
+        "index": 1,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            140,
+            211
+          ],
+          [
+            140,
+            257
+          ],
+          [
+            614,
+            257
+          ],
+          [
+            858,
+            257
+          ],
+          [
+            858,
+            211
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          113,
+          271,
+          882,
+          302
+        ],
+        "content": "## A. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN",
+        "index": 2,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            113,
+            271
+          ],
+          [
+            113,
+            301
+          ],
+          [
+            881,
+            301
+          ],
+          [
+            881,
+            271
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          165,
+          307,
+          883,
+          404
+        ],
+        "content": "1. Pada tanggal 5 Februari 2025, PT ABC yang merupakan pengusaha kena pajak melakukan pemberian cuma-cuma Barang Kena Pajak berupa tetikus (mouse) komputer kepada PT DEF. Diketahui bahwa atas tetikus komputer tersebut memiliki harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah) termasuk laba kotor sebesar Rp50.000,00 (lima puluh ribu rupiah).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            165,
+            307
+          ],
+          [
+            165,
+            404
+          ],
+          [
+            883,
+            398
+          ],
+          [
+            883,
+            307
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          207,
+          398,
+          883,
+          429
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            207,
+            414
+          ],
+          [
+            212,
+            429
+          ],
+          [
+            882,
+            429
+          ],
+          [
+            882,
+            398
+          ],
+          [
+            212,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          429,
+          833,
+          444
+        ],
+        "content": "a. Harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah).",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            429
+          ],
+          [
+            209,
+            444
+          ],
+          [
+            833,
+            444
+          ],
+          [
+            833,
+            429
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          444,
+          882,
+          487
+        ],
+        "content": "b. Dasar Pengenaan Pajak sebesar Rp137.500,00 (seratus tiga puluh tujuh ribu lima ratus rupiah)\n\n([11/12] x [Rp200.000,00 - Rp50.000,00]).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            444
+          ],
+          [
+            209,
+            487
+          ],
+          [
+            480,
+            487
+          ],
+          [
+            525,
+            478
+          ],
+          [
+            531,
+            478
+          ],
+          [
+            881,
+            478
+          ],
+          [
+            881,
+            444
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          489,
+          881,
+          534
+        ],
+        "content": "c. Pajak Pertambahan Nilai sebesar Rp16.500,00 (enam belas ribu lima ratus rupiah)\n\n(12% x Rp137.500,00).",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            489
+          ],
+          [
+            209,
+            534
+          ],
+          [
+            585,
+            534
+          ],
+          [
+            670,
+            529
+          ],
+          [
+            880,
+            524
+          ],
+          [
+            880,
+            489
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          160,
+          540,
+          883,
+          688
+        ],
+        "content": "2. Pada tanggal 11 Maret 2025, PT GHI yang merupakan pengusaha kena pajak produsen hasil tembakau melakukan pemesanan pita cukai hasil tembakau atas hasil produksinya berupa Sigaret Kretek Mesin golongan II dengan merek Sigaret JKL sebanyak 1.000.000 (satu juta) bungkus. Setiap bungkus Sigaret JKL berisi 16 (enam belas) batang Sigaret Kretek Mesin golongan II. Harga jual eceran Sigaret Kretek Mesin golongan II ditetapkan sebesar Rp1.485,00 (seribu empat ratus delapan puluh lima rupiah) per batang. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang vaitu sebagai berikut.",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            160,
+            540
+          ],
+          [
+            160,
+            673
+          ],
+          [
+            171,
+            688
+          ],
+          [
+            883,
+            688
+          ],
+          [
+            883,
+            540
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          691,
+          881,
+          736
+        ],
+        "content": "a. Total harga jual eceran sebesar Rp23.760.000.000,00 (dua puluh tiga miliar tujuh ratus enam puluh juta rupiah)\n\n(1.000.000 x 16 x Rp1.485,00).",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            691
+          ],
+          [
+            209,
+            735
+          ],
+          [
+            810,
+            735
+          ],
+          [
+            866,
+            731
+          ],
+          [
+            880,
+            726
+          ],
+          [
+            880,
+            691
+          ],
+          [
+            224,
+            691
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          736,
+          883,
+          781
+        ],
+        "content": "b. Pajak Pertambahan Nilai sebesar Rp2.352.240.000,00 (dua miliar tiga ratus lima puluh dua juta dua ratus empat puluh ribu rupiah)",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            736
+          ],
+          [
+            209,
+            781
+          ],
+          [
+            882,
+            781
+          ],
+          [
+            882,
+            736
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          259,
+          781,
+          569,
+          797
+        ],
+        "content": "(9,9% x Rp23.760.000.000,00).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            259,
+            781
+          ],
+          [
+            259,
+            797
+          ],
+          [
+            568,
+            797
+          ],
+          [
+            568,
+            781
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "bbox_2d": [
+          114,
+          75,
+          882,
+          105
+        ],
+        "content": "## B. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN BESARAN TERTENTU",
+        "index": 0,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            114,
+            75
+          ],
+          [
+            120,
+            105
+          ],
+          [
+            882,
+            105
+          ],
+          [
+            882,
+            75
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          163,
+          112,
+          884,
+          234
+        ],
+        "content": "1. Pada tanggal 20 Februari 2025, PT PQR yang merupakan pengusaha kena pajak penyalur (agen) Liquefied Petroleum Gas (LPG) tertentu melakukan penyerahan 5.000 (lima ribu) tabung LPG tertentu kepada CV STU yang telah ditunjuk oleh PT PQR sebagai subpenyalur (pangkalan) LPG tertentu. Harga jual agen sebesar Rp14.000,00 (empat belas ribu rupiah) per tabung. Harga jual eceran yang berlaku sebesar Rp12.750,00 (dua belas ribu tujuh ratus lima puluh rupiah) per tabung.",
+        "index": 1,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            163,
+            112
+          ],
+          [
+            163,
+            200
+          ],
+          [
+            174,
+            234
+          ],
+          [
+            883,
+            234
+          ],
+          [
+            883,
+            117
+          ],
+          [
+            854,
+            112
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          207,
+          233,
+          882,
+          263
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 2,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            207,
+            233
+          ],
+          [
+            207,
+            262
+          ],
+          [
+            877,
+            262
+          ],
+          [
+            882,
+            233
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          263,
+          881,
+          307
+        ],
+        "content": "a. Total harga jual eceran sebesar Rp63.750.000,00 (enam puluh tiga juta tujuh ratus lima puluh ribu rupiah) (5.000 x Rp12.750,00).",
+        "index": 3,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            263
+          ],
+          [
+            209,
+            302
+          ],
+          [
+            224,
+            307
+          ],
+          [
+            730,
+            307
+          ],
+          [
+            755,
+            302
+          ],
+          [
+            880,
+            297
+          ],
+          [
+            880,
+            263
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          308,
+          881,
+          353
+        ],
+        "content": "b. Total harga jual agen sebesar Rp70.000.000,00 (tujuh puluh juta rupiah)\n\n(5.000 x Rp14.000,00).",
+        "index": 4,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            308
+          ],
+          [
+            209,
+            352
+          ],
+          [
+            495,
+            352
+          ],
+          [
+            500,
+            347
+          ],
+          [
+            515,
+            347
+          ],
+          [
+            880,
+            342
+          ],
+          [
+            880,
+            308
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          353,
+          882,
+          398
+        ],
+        "content": "c. Dasar Pengenaan Pajak berupa nilai tertentu sebesar Rp6.250.000,00 (enam juta dua ratus lima puluh ribu rupiah) (Rp70.000.000,00-Rp63.750.000,00).",
+        "index": 5,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            353
+          ],
+          [
+            208,
+            398
+          ],
+          [
+            882,
+            398
+          ],
+          [
+            882,
+            353
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          398,
+          880,
+          444
+        ],
+        "content": "d. Pajak Pertambahan Nilai sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah)\n\n([1,1/101,1] x Rp6.250.000,00).",
+        "index": 6,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            398
+          ],
+          [
+            209,
+            444
+          ],
+          [
+            579,
+            444
+          ],
+          [
+            630,
+            434
+          ],
+          [
+            880,
+            434
+          ],
+          [
+            880,
+            398
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          445,
+          882,
+          492
+        ],
+        "content": "Pajak Pertambahan Nilai yang terutang sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah) sudah termasuk dalam selisih lebih antara harga jual agen dan harga jual eceran.",
+        "index": 7,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            445
+          ],
+          [
+            214,
+            492
+          ],
+          [
+            647,
+            492
+          ],
+          [
+            678,
+            492
+          ],
+          [
+            882,
+            492
+          ],
+          [
+            882,
+            445
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          159,
+          497,
+          884,
+          612
+        ],
+        "content": "2. Pada tanggal 17 Maret 2025, PT VWX yang merupakan pengusaha kena pajak pedagang emas perhiasan melakukan penyerahan Barang Kena Pajak berupa emas perhiasan kepada konsumen akhir dengan total harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah) yang atas perolehannya memiliki faktur pajak yang memenuhi ketentuan sebagaimana diatur dalam Pasal 13 ayat (5) Undang-Undang Pajak Pertambahan Nilai. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai",
+        "index": 8,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            159,
+            497
+          ],
+          [
+            159,
+            612
+          ],
+          [
+            449,
+            612
+          ],
+          [
+            883,
+            602
+          ],
+          [
+            883,
+            502
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          206,
+          604,
+          882,
+          634
+        ],
+        "content": "Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.",
+        "index": 9,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            206,
+            619
+          ],
+          [
+            212,
+            633
+          ],
+          [
+            877,
+            633
+          ],
+          [
+            882,
+            604
+          ],
+          [
+            237,
+            604
+          ],
+          [
+            212,
+            609
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          634,
+          882,
+          663
+        ],
+        "content": "a. Harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).",
+        "index": 10,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            634
+          ],
+          [
+            209,
+            662
+          ],
+          [
+            473,
+            662
+          ],
+          [
+            493,
+            662
+          ],
+          [
+            882,
+            662
+          ],
+          [
+            882,
+            634
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          209,
+          663,
+          882,
+          693
+        ],
+        "content": "b. Dasar Pengenaan Pajak sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).",
+        "index": 11,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            209,
+            663
+          ],
+          [
+            209,
+            692
+          ],
+          [
+            881,
+            692
+          ],
+          [
+            881,
+            663
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          208,
+          694,
+          882,
+          739
+        ],
+        "content": "c. Pajak Pertambahan Nilai sebesar Rp7.700.000,00 (tujuh juta tujuh ratus ribu rupiah)\n\n(10% x [11/12] x 12% x Rp700.000.000,00).",
+        "index": 12,
+        "label": "text",
+        "native_label": "text",
+        "polygon": [
+          [
+            208,
+            694
+          ],
+          [
+            208,
+            739
+          ],
+          [
+            727,
+            739
+          ],
+          [
+            802,
+            734
+          ],
+          [
+            882,
+            729
+          ],
+          [
+            882,
+            694
+          ]
+        ]
+      },
+      {
+        "bbox_2d": [
+          449,
+          768,
+          918,
+          816
+        ],
+        "content": "## MENTERI KEUANGAN REPUBLIK INDONESIA ttd.",
+        "index": 13,
+        "label": "text",
+        "native_label": "paragraph_title",
+        "polygon": [
+          [
+            449,
+            768
+          ],
+          [
+            449,
+            815
+          ],
+          [
+            918,
+            815
+          ],
+          [
+            918,
+            768
+          ]
+        ]
+      }
+    ]
+  ],
+  "markdown_result": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2. Ketentuan ayat (2) Pasal 324 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 324\n\n(1) Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 323 ayat (1) dihitung, dipungut, dan disetor oleh orang pribadi atau Badan yang melakukan kegiatan membangun sendiri dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) merupakan hasil perkalian 20% (dua puluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan dasar pengenaan pajak.\n\n(3) Dasar pengenaan pajak sebagaimana dimaksud pada ayat (2) berupa nilai tertentu sebesar jumlah biaya yang dikeluarkan dan/atau yang dibayarkan untuk membangun bangunan untuk setiap Masa Pajak sampai dengan bangunan selesai, tidak termasuk biaya perolehan tanah.\n\n3. Ketentuan ayat (2) Pasal 343 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 343\n\n(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 340 huruf a dipungut dan disetor dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar:\n\na. 1% (satu persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik merupakan Pedagang Fisik Aset Kripto; atau\n\nb. 2% (dua persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik bukan merupakan Pedagang Fisik Aset Kripto.\n\n(3) Nilai transaksi sebagaimana dimaksud pada ayat (2) yaitu:\n\na. nilai uang yang dibayarkan oleh Pembeli Aset Kripto, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan jual beli Aset Kripto\n\nmenggunakan mata uang fiat sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf a;\n\nb. nilai masing-masing Aset Kripto yang diserahkan oleh para pihak yang bertransaksi, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf b; atau\n\nc. nilai Aset Kripto yang dipindahkan (transfer) ke akun pihak lain, dalam hal transaksi merupakan tukar-menukar Aset Kripto dengan barang selain Aset Kripto dan/atau jasa sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf c.\n\n(4) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka jual beli Aset Kripto sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf a dengan menggunakan selain mata uang rupiah, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri yang berlaku pada saat pemungutan Pajak Pertambahan Nilai.\n\n(5) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf b atau pemindahan (transfer) Aset Kripto ke akun pihak lain sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf c, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi Aset Kripto ke dalam mata uang rupiah berdasarkan:\n\na. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau\n\nb. nilai dalam sistem yang dimiliki oleh Penyelenggara Perdagangan Melalui Sistem Elektronik,\n\nyang diterapkan secara konsisten.\n\n4. Ketentuan ayat (2) Pasal 354 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 354\n\n(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 353 ayat (1) dipungut dan disetor dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar 10% (sepuluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai berupa\n\nuang atas Aset Kripto yang diterima oleh Penambang Aset Kripto, termasuk Aset Kripto yang diterima dari sistem Aset Kripto (block reward).\n\n) Dalam hal imbalan yang diterima oleh Penambang Aset Kripto atas penyerahan Aset Kripto sehubungan jasa verifikasi transaksi dan/atau jasa manajemen kelompok Penambang Aset Kripto (mining pool) sebagaimana dimaksud pada ayat (2) berupa:\n\na. mata uang fiat selain mata uang rupiah, mata uang fiat tersebut dikonversikan ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri; atau\n\nb. Aset Kripto, Aset Kripto tersebut dikonversikan ke dalam mata uang rupiah berdasarkan:\n\n1. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau\n\n2. nilai dalam sistem yang dimiliki oleh Penambang Aset Kripto,\n\nyang diterapkan secara konsisten.\n\n## Pasal 21\n\nContoh penghitungan Pajak Pertambahan Nilai dengan menggunakan besaran tertentu untuk Peraturan Menteri Keuangan sebagaimana dimaksud dalam Pasal 13 yang telah disesuaikan dengan ketentuan dalam Peraturan Menteri ini tercantum dalam Lampiran huruf B yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.\n\n## BAB IV KETENTUAN PERALIHAN\n\n## Pasal 22\n\nPada saat Peraturan Menteri ini mulai berlaku:\n\na. pemungutan Pajak Pertambahan Nilai atas:\n\n1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai, selain nilai lain sebagaimana diatur dalam Pasal 3 Peraturan Menteri Keuangan Nomor 131 Tahun 2024 tentang Perlakuan Pajak Pertambahan Nilai atas Impor Barang Kena Pajak, Penyerahan Barang Kena Pajak, Penyerahan Jasa Kena Pajak, Pemanfaatan Barang Kena Pajak Tidak Berwujud dari Luar Daerah Pabean di Dalam Daerah Pabean, dan Pemanfaatan Jasa Kena Pajak dari Luar Daerah Pabean di Dalam Daerah Pabean; atau\n\n2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan\n\nbesaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,\n\nyang dilakukan sejak tanggal 1 Januari 2025 sampai dengan sebelum berlakunya Peraturan Menteri ini, berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri ini; dan\n\n## b. pemungutan Pajak Pertambahan Nilai atas:\n\n1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai; atau\n\n2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,\n\nyang dilakukan sebelum tanggal 1 Januari 2025 berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri sebagaimana dimaksud dalam Pasal 3 dan Pasal 13.\n\n## BAB V KETENTUAN PENUTUP\n\n## Pasal 23\n\nPeraturan Menteri ini mulai berlaku pada tanggal diundangkan.\n\nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.\n\n![Image 28-0](imgs/cropped_page28_idx0.jpg)\n\nDitetapkan di Jakarta pada tanggal 4 Februari 2025\n\nMENTERI KEUANGAN REPUBLIK INDONESIA,\n\n![Image 28-1](imgs/cropped_page28_idx1.jpg)\n\nSRI MULYANI INDRAWATI\n\nDiundangkan di Jakarta\n\npada tanggal 4 Februari 2025\n\nDIREKTUR JENDERAL\n\nPERATURAN PERUNDANG-UNDANGAN\n\nKEMENTERIAN HUKUM REPUBLIK INDONESIA,\n\n![Image 28-2](imgs/cropped_page28_idx2.jpg)\n\nDHAHANA PUTRA\n\nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR\n\n## LAMPIRAN\n\nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 11 TAHUN 2025\n\nTENTANG\n\nKETENTUAN NILAI LAIN SEBAGAI DASAR PENGENAAN\n\nPAJAK DAN BESARAN TERTENTU PAJAK PERTAMBAHAN\n\nNILAI\n\n## CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN DAN BESARAN TERTENTU\n\n## A. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN\n\n1. Pada tanggal 5 Februari 2025, PT ABC yang merupakan pengusaha kena pajak melakukan pemberian cuma-cuma Barang Kena Pajak berupa tetikus (mouse) komputer kepada PT DEF. Diketahui bahwa atas tetikus komputer tersebut memiliki harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah) termasuk laba kotor sebesar Rp50.000,00 (lima puluh ribu rupiah).\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah).\n\nb. Dasar Pengenaan Pajak sebesar Rp137.500,00 (seratus tiga puluh tujuh ribu lima ratus rupiah)\n\n([11/12] x [Rp200.000,00 - Rp50.000,00]).\n\nc. Pajak Pertambahan Nilai sebesar Rp16.500,00 (enam belas ribu lima ratus rupiah)\n\n(12% x Rp137.500,00).\n\n2. Pada tanggal 11 Maret 2025, PT GHI yang merupakan pengusaha kena pajak produsen hasil tembakau melakukan pemesanan pita cukai hasil tembakau atas hasil produksinya berupa Sigaret Kretek Mesin golongan II dengan merek Sigaret JKL sebanyak 1.000.000 (satu juta) bungkus. Setiap bungkus Sigaret JKL berisi 16 (enam belas) batang Sigaret Kretek Mesin golongan II. Harga jual eceran Sigaret Kretek Mesin golongan II ditetapkan sebesar Rp1.485,00 (seribu empat ratus delapan puluh lima rupiah) per batang. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang vaitu sebagai berikut.\n\na. Total harga jual eceran sebesar Rp23.760.000.000,00 (dua puluh tiga miliar tujuh ratus enam puluh juta rupiah)\n\n(1.000.000 x 16 x Rp1.485,00).\n\nb. Pajak Pertambahan Nilai sebesar Rp2.352.240.000,00 (dua miliar tiga ratus lima puluh dua juta dua ratus empat puluh ribu rupiah)\n\n(9,9% x Rp23.760.000.000,00).\n\n## B. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN BESARAN TERTENTU\n\n1. Pada tanggal 20 Februari 2025, PT PQR yang merupakan pengusaha kena pajak penyalur (agen) Liquefied Petroleum Gas (LPG) tertentu melakukan penyerahan 5.000 (lima ribu) tabung LPG tertentu kepada CV STU yang telah ditunjuk oleh PT PQR sebagai subpenyalur (pangkalan) LPG tertentu. Harga jual agen sebesar Rp14.000,00 (empat belas ribu rupiah) per tabung. Harga jual eceran yang berlaku sebesar Rp12.750,00 (dua belas ribu tujuh ratus lima puluh rupiah) per tabung.\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Total harga jual eceran sebesar Rp63.750.000,00 (enam puluh tiga juta tujuh ratus lima puluh ribu rupiah) (5.000 x Rp12.750,00).\n\nb. Total harga jual agen sebesar Rp70.000.000,00 (tujuh puluh juta rupiah)\n\n(5.000 x Rp14.000,00).\n\nc. Dasar Pengenaan Pajak berupa nilai tertentu sebesar Rp6.250.000,00 (enam juta dua ratus lima puluh ribu rupiah) (Rp70.000.000,00-Rp63.750.000,00).\n\nd. Pajak Pertambahan Nilai sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah)\n\n([1,1/101,1] x Rp6.250.000,00).\n\nPajak Pertambahan Nilai yang terutang sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah) sudah termasuk dalam selisih lebih antara harga jual agen dan harga jual eceran.\n\n2. Pada tanggal 17 Maret 2025, PT VWX yang merupakan pengusaha kena pajak pedagang emas perhiasan melakukan penyerahan Barang Kena Pajak berupa emas perhiasan kepada konsumen akhir dengan total harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah) yang atas perolehannya memiliki faktur pajak yang memenuhi ketentuan sebagaimana diatur dalam Pasal 13 ayat (5) Undang-Undang Pajak Pertambahan Nilai. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).\n\nb. Dasar Pengenaan Pajak sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).\n\nc. Pajak Pertambahan Nilai sebesar Rp7.700.000,00 (tujuh juta tujuh ratus ribu rupiah)\n\n(10% x [11/12] x 12% x Rp700.000.000,00).\n\n## MENTERI KEUANGAN REPUBLIK INDONESIA ttd.",
+  "md_results": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2. Ketentuan ayat (2) Pasal 324 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 324\n\n(1) Pajak Pertambahan Nilai sebagaimana dimaksud dalam Pasal 323 ayat (1) dihitung, dipungut, dan disetor oleh orang pribadi atau Badan yang melakukan kegiatan membangun sendiri dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) merupakan hasil perkalian 20% (dua puluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan dasar pengenaan pajak.\n\n(3) Dasar pengenaan pajak sebagaimana dimaksud pada ayat (2) berupa nilai tertentu sebesar jumlah biaya yang dikeluarkan dan/atau yang dibayarkan untuk membangun bangunan untuk setiap Masa Pajak sampai dengan bangunan selesai, tidak termasuk biaya perolehan tanah.\n\n3. Ketentuan ayat (2) Pasal 343 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 343\n\n(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 340 huruf a dipungut dan disetor dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar:\n\na. 1% (satu persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik merupakan Pedagang Fisik Aset Kripto; atau\n\nb. 2% (dua persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai transaksi Aset Kripto, dalam hal Penyelenggara Perdagangan Melalui Sistem Elektronik bukan merupakan Pedagang Fisik Aset Kripto.\n\n(3) Nilai transaksi sebagaimana dimaksud pada ayat (2) yaitu:\n\na. nilai uang yang dibayarkan oleh Pembeli Aset Kripto, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan jual beli Aset Kripto\n\nmenggunakan mata uang fiat sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf a;\n\nb. nilai masing-masing Aset Kripto yang diserahkan oleh para pihak yang bertransaksi, tidak termasuk Pajak Pertambahan Nilai dan Pajak Penjualan atas Barang Mewah, dalam hal transaksi Aset Kripto merupakan tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf b; atau\n\nc. nilai Aset Kripto yang dipindahkan (transfer) ke akun pihak lain, dalam hal transaksi merupakan tukar-menukar Aset Kripto dengan barang selain Aset Kripto dan/atau jasa sebagaimana dimaksud dalam Pasal 341 ayat (2) huruf c.\n\n(4) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka jual beli Aset Kripto sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf a dengan menggunakan selain mata uang rupiah, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri yang berlaku pada saat pemungutan Pajak Pertambahan Nilai.\n\n(5) Dalam hal penyerahan Aset Kripto dilakukan dalam rangka tukar-menukar Aset Kripto dengan Aset Kripto lainnya (swap) sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf b atau pemindahan (transfer) Aset Kripto ke akun pihak lain sebagaimana dimaksud dalam Pasal 342 ayat (2) huruf c, nilai transaksi sebagaimana dimaksud pada ayat (2) sebesar nilai konversi Aset Kripto ke dalam mata uang rupiah berdasarkan:\n\na. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau\n\nb. nilai dalam sistem yang dimiliki oleh Penyelenggara Perdagangan Melalui Sistem Elektronik,\n\nyang diterapkan secara konsisten.\n\n4. Ketentuan ayat (2) Pasal 354 diubah sehingga berbunyi sebagai berikut:\n\n## Pasal 354\n\n(1) Pajak Pertambahan Nilai yang terutang sebagaimana dimaksud dalam Pasal 353 ayat (1) dipungut dan disetor dengan besaran tertentu.\n\n(2) Besaran tertentu sebagaimana dimaksud pada ayat (1) ditetapkan sebesar 10% (sepuluh persen) dikali 11/12 (sebelas per dua belas) dari tarif Pajak Pertambahan Nilai sebagaimana diatur dalam Pasal 7 ayat (1) huruf b Undang-Undang Pajak Pertambahan Nilai dikalikan dengan nilai berupa\n\nuang atas Aset Kripto yang diterima oleh Penambang Aset Kripto, termasuk Aset Kripto yang diterima dari sistem Aset Kripto (block reward).\n\n) Dalam hal imbalan yang diterima oleh Penambang Aset Kripto atas penyerahan Aset Kripto sehubungan jasa verifikasi transaksi dan/atau jasa manajemen kelompok Penambang Aset Kripto (mining pool) sebagaimana dimaksud pada ayat (2) berupa:\n\na. mata uang fiat selain mata uang rupiah, mata uang fiat tersebut dikonversikan ke dalam mata uang rupiah berdasarkan kurs yang ditetapkan oleh Menteri; atau\n\nb. Aset Kripto, Aset Kripto tersebut dikonversikan ke dalam mata uang rupiah berdasarkan:\n\n1. nilai yang ditetapkan oleh bursa berjangka yang menyelenggarakan perdagangan Aset Kripto; atau\n\n2. nilai dalam sistem yang dimiliki oleh Penambang Aset Kripto,\n\nyang diterapkan secara konsisten.\n\n## Pasal 21\n\nContoh penghitungan Pajak Pertambahan Nilai dengan menggunakan besaran tertentu untuk Peraturan Menteri Keuangan sebagaimana dimaksud dalam Pasal 13 yang telah disesuaikan dengan ketentuan dalam Peraturan Menteri ini tercantum dalam Lampiran huruf B yang merupakan bagian tidak terpisahkan dari Peraturan Menteri ini.\n\n## BAB IV KETENTUAN PERALIHAN\n\n## Pasal 22\n\nPada saat Peraturan Menteri ini mulai berlaku:\n\na. pemungutan Pajak Pertambahan Nilai atas:\n\n1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai, selain nilai lain sebagaimana diatur dalam Pasal 3 Peraturan Menteri Keuangan Nomor 131 Tahun 2024 tentang Perlakuan Pajak Pertambahan Nilai atas Impor Barang Kena Pajak, Penyerahan Barang Kena Pajak, Penyerahan Jasa Kena Pajak, Pemanfaatan Barang Kena Pajak Tidak Berwujud dari Luar Daerah Pabean di Dalam Daerah Pabean, dan Pemanfaatan Jasa Kena Pajak dari Luar Daerah Pabean di Dalam Daerah Pabean; atau\n\n2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan\n\nbesaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,\n\nyang dilakukan sejak tanggal 1 Januari 2025 sampai dengan sebelum berlakunya Peraturan Menteri ini, berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri ini; dan\n\n## b. pemungutan Pajak Pertambahan Nilai atas:\n\n1. penyerahan Barang Kena Pajak, penyerahan Jasa Kena Pajak, dan/atau pemanfaatan Barang Kena Pajak tidak berwujud dari luar daerah pabean di dalam daerah pabean yang menggunakan Dasar Pengenaan Pajak berupa nilai lain sebagaimana diatur dalam Pasal 8A ayat (1) Undang-Undang Pajak Pertambahan Nilai; atau\n\n2. penyerahan Barang Kena Pajak dan/atau penyerahan Jasa Kena Pajak yang menggunakan besaran tertentu sebagaimana diatur dalam Pasal 9A ayat (1) Undang-Undang Pajak Pertambahan Nilai,\n\nyang dilakukan sebelum tanggal 1 Januari 2025 berlaku ketentuan sebagaimana diatur dalam Peraturan Menteri sebagaimana dimaksud dalam Pasal 3 dan Pasal 13.\n\n## BAB V KETENTUAN PENUTUP\n\n## Pasal 23\n\nPeraturan Menteri ini mulai berlaku pada tanggal diundangkan.\n\nAgar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Menteri ini dengan penempatannya dalam Berita Negara Republik Indonesia.\n\n![Image 28-0](imgs/cropped_page28_idx0.jpg)\n\nDitetapkan di Jakarta pada tanggal 4 Februari 2025\n\nMENTERI KEUANGAN REPUBLIK INDONESIA,\n\n![Image 28-1](imgs/cropped_page28_idx1.jpg)\n\nSRI MULYANI INDRAWATI\n\nDiundangkan di Jakarta\n\npada tanggal 4 Februari 2025\n\nDIREKTUR JENDERAL\n\nPERATURAN PERUNDANG-UNDANGAN\n\nKEMENTERIAN HUKUM REPUBLIK INDONESIA,\n\n![Image 28-2](imgs/cropped_page28_idx2.jpg)\n\nDHAHANA PUTRA\n\nBERITA NEGARA REPUBLIK INDONESIA TAHUN 2025 NOMOR\n\n## LAMPIRAN\n\nPERATURAN MENTERI KEUANGAN REPUBLIK INDONESIA\n\nNOMOR 11 TAHUN 2025\n\nTENTANG\n\nKETENTUAN NILAI LAIN SEBAGAI DASAR PENGENAAN\n\nPAJAK DAN BESARAN TERTENTU PAJAK PERTAMBAHAN\n\nNILAI\n\n## CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN DAN BESARAN TERTENTU\n\n## A. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN DASAR PENGENAAN PAJAK BERUPA NILAI LAIN\n\n1. Pada tanggal 5 Februari 2025, PT ABC yang merupakan pengusaha kena pajak melakukan pemberian cuma-cuma Barang Kena Pajak berupa tetikus (mouse) komputer kepada PT DEF. Diketahui bahwa atas tetikus komputer tersebut memiliki harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah) termasuk laba kotor sebesar Rp50.000,00 (lima puluh ribu rupiah).\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Harga jual sebesar Rp200.000,00 (dua ratus ribu rupiah).\n\nb. Dasar Pengenaan Pajak sebesar Rp137.500,00 (seratus tiga puluh tujuh ribu lima ratus rupiah)\n\n([11/12] x [Rp200.000,00 - Rp50.000,00]).\n\nc. Pajak Pertambahan Nilai sebesar Rp16.500,00 (enam belas ribu lima ratus rupiah)\n\n(12% x Rp137.500,00).\n\n2. Pada tanggal 11 Maret 2025, PT GHI yang merupakan pengusaha kena pajak produsen hasil tembakau melakukan pemesanan pita cukai hasil tembakau atas hasil produksinya berupa Sigaret Kretek Mesin golongan II dengan merek Sigaret JKL sebanyak 1.000.000 (satu juta) bungkus. Setiap bungkus Sigaret JKL berisi 16 (enam belas) batang Sigaret Kretek Mesin golongan II. Harga jual eceran Sigaret Kretek Mesin golongan II ditetapkan sebesar Rp1.485,00 (seribu empat ratus delapan puluh lima rupiah) per batang. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang vaitu sebagai berikut.\n\na. Total harga jual eceran sebesar Rp23.760.000.000,00 (dua puluh tiga miliar tujuh ratus enam puluh juta rupiah)\n\n(1.000.000 x 16 x Rp1.485,00).\n\nb. Pajak Pertambahan Nilai sebesar Rp2.352.240.000,00 (dua miliar tiga ratus lima puluh dua juta dua ratus empat puluh ribu rupiah)\n\n(9,9% x Rp23.760.000.000,00).\n\n## B. CONTOH PENGHITUNGAN PAJAK PERTAMBAHAN NILAI DENGAN MENGGUNAKAN BESARAN TERTENTU\n\n1. Pada tanggal 20 Februari 2025, PT PQR yang merupakan pengusaha kena pajak penyalur (agen) Liquefied Petroleum Gas (LPG) tertentu melakukan penyerahan 5.000 (lima ribu) tabung LPG tertentu kepada CV STU yang telah ditunjuk oleh PT PQR sebagai subpenyalur (pangkalan) LPG tertentu. Harga jual agen sebesar Rp14.000,00 (empat belas ribu rupiah) per tabung. Harga jual eceran yang berlaku sebesar Rp12.750,00 (dua belas ribu tujuh ratus lima puluh rupiah) per tabung.\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Total harga jual eceran sebesar Rp63.750.000,00 (enam puluh tiga juta tujuh ratus lima puluh ribu rupiah) (5.000 x Rp12.750,00).\n\nb. Total harga jual agen sebesar Rp70.000.000,00 (tujuh puluh juta rupiah)\n\n(5.000 x Rp14.000,00).\n\nc. Dasar Pengenaan Pajak berupa nilai tertentu sebesar Rp6.250.000,00 (enam juta dua ratus lima puluh ribu rupiah) (Rp70.000.000,00-Rp63.750.000,00).\n\nd. Pajak Pertambahan Nilai sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah)\n\n([1,1/101,1] x Rp6.250.000,00).\n\nPajak Pertambahan Nilai yang terutang sebesar Rp68.002,00 (enam puluh delapan ribu dua rupiah) sudah termasuk dalam selisih lebih antara harga jual agen dan harga jual eceran.\n\n2. Pada tanggal 17 Maret 2025, PT VWX yang merupakan pengusaha kena pajak pedagang emas perhiasan melakukan penyerahan Barang Kena Pajak berupa emas perhiasan kepada konsumen akhir dengan total harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah) yang atas perolehannya memiliki faktur pajak yang memenuhi ketentuan sebagaimana diatur dalam Pasal 13 ayat (5) Undang-Undang Pajak Pertambahan Nilai. Berdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai\n\nBerdasarkan data tersebut, penghitungan Pajak Pertambahan Nilai yang terutang yaitu sebagai berikut.\n\na. Harga jual sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).\n\nb. Dasar Pengenaan Pajak sebesar Rp700.000.000,00 (tujuh ratus juta rupiah).\n\nc. Pajak Pertambahan Nilai sebesar Rp7.700.000,00 (tujuh juta tujuh ratus ribu rupiah)\n\n(10% x [11/12] x 12% x Rp700.000.000,00).\n\n## MENTERI KEUANGAN REPUBLIK INDONESIA ttd.",
+  "model": "glm-ocr",
+  "usage": {},
+  "_client": {
+    "status": 200,
+    "resp_bytes": 78021,
+    "wall_s": 4.868,
+    "ttfb_s": 4.867,
+    "download_s": 0.0,
+    "t_sent_offset": 0.0,
+    "t_done_offset": 4.868
+  }
+}
