@@ -130,7 +130,7 @@ cp /venv/main/lib/python3.11/site-packages/glmocr/config.yaml "$CONFIG"
 sed -i "s/port: 5002/port: ${GLMOCR_PORT}/"         "$CONFIG"
 sed -i 's/enabled: true/enabled: false/'             "$CONFIG"
 sed -i "s/api_port: 8080/api_port: ${OCR_PORT}/"     "$CONFIG"
-sed -i 's/# device: null/device: "cuda:0"/'            "$CONFIG"
+sed -i 's/# device: null/device: "cpu"/'               "$CONFIG"
 sed -i "s/batch_size: 1/batch_size: 2/"              "$CONFIG"
 sed -i "s/max_tokens: 8192/max_tokens: 2048/"        "$CONFIG"
 

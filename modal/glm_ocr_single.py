@@ -161,6 +161,12 @@ class DocumentOCRWorker:
         print(f"[single] layout weights on CPU in {time.time()-t0:.2f}s")
 
         # ── 2. Start vLLM ─────────────────────────────────────────────────────
+        import torch
+        # bfloat16 requires compute capability >= 8.0 (Ampere+).
+        # T4 is 7.5 → must use float16. L4/A100/H100 are 8.x → bfloat16.
+        cc = torch.cuda.get_device_capability()
+        dtype = "bfloat16" if cc[0] >= 8 else "half"
+        print(f"[single] GPU compute capability {cc[0]}.{cc[1]} → dtype={dtype}")
         cmd = [
             "vllm", "serve", GLM_MODEL_ID,
             "--host", "0.0.0.0",
@@ -170,7 +176,7 @@ class DocumentOCRWorker:
             "--max-model-len",          "8192",
             "--max-num-seqs",            "16",
             "--max-num-batched-tokens", "8192",
-            "--dtype",                  "bfloat16",
+            "--dtype",                  dtype,
             "--served-model-name",      SERVED_NAME,
             "--speculative-config",     '{"method": "mtp", "num_speculative_tokens": 3}',
         ]
