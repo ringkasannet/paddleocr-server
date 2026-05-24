@@ -227,7 +227,7 @@ class _Request(_BaseModel):
     timeout=600,
     max_containers=10,
 )
-@modal.concurrent(max_inputs=2, target_inputs=1)
+@modal.concurrent(max_inputs=2, target_inputs=2)
 class DocumentOCRWorker:
 
     @modal.enter(snap=True)
