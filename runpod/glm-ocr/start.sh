@@ -27,6 +27,7 @@ INSTANCES="${INSTANCES:-1}"
 VLLM_PORT="${VLLM_PORT:-8000}"
 GLMOCR_PORT="${GLMOCR_PORT:-5002}"
 VLLM_SEMAPHORE="${VLLM_SEMAPHORE:-0}"
+TRITON_ATTN="${TRITON_ATTN:-0}"
 MODEL="zai-org/GLM-OCR"
 MAX_MODEL_LEN=4096
 MTP_JSON='{"method":"mtp","num_speculative_tokens":3}'
@@ -280,6 +281,7 @@ mkdir -p /opt/supervisor-scripts
 cat > /opt/supervisor-scripts/vllm-0.sh <<SCRIPT
 #!/bin/bash
 . /venv/main/bin/activate
+$([ "$TRITON_ATTN" == "1" ] && echo 'export VLLM_ATTENTION_BACKEND=TRITON_ATTN')
 exec python -m vllm.entrypoints.openai.api_server \\
     --model "${MODEL}" \\
     --served-model-name glm-ocr \\
