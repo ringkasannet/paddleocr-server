@@ -36,7 +36,7 @@ CONFIG=/etc/glmocr_config.yaml
 # ── Install deps into the base-image venv ─────────────────────────────────────
 echo "[glmocr] Installing vllm + glmocr..."
 . /venv/main/bin/activate
-uv pip install "vllm==0.20.2" "transformers>=5.3.0" "glmocr[selfhosted,server]" gunicorn
+uv pip install "vllm[flashinfer]==0.20.2" "transformers>=5.3.0" "glmocr[selfhosted,server]" gunicorn
 
 # ── Patch page_loader to accept data:application/pdf;base64,... URIs ──────────
 # glmocr only recognises PDFs via file paths or raw bytes; data URIs with the
