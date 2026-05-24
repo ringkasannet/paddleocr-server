@@ -171,6 +171,7 @@ _LAYOUT_GPU_SEMAPHORE = threading.Semaphore(1)'''
     patched = patched.replace(OLD_PROCESS, NEW_PROCESS, 1)
     pkg.write_text(patched)
     print("[patch] _workers.py: layout GPU semaphore(1) applied")
+PYEOF
 
 # ── Patch _workers.py to serialise vLLM submissions (pipeline mode) ──────────
 # When enabled, only one request's recognition_worker submits to vLLM at a time.
