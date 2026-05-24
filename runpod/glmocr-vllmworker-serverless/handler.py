@@ -35,13 +35,16 @@ import runpod
 from glmocr.config import load_config
 from glmocr.pipeline import Pipeline
 
-MODEL         = os.environ.get("MODEL", "zai-org/GLM-OCR")
-VLLM_PORT     = int(os.environ.get("VLLM_PORT", "8000"))
-GPU_UTIL      = os.environ.get("GPU_MEM_UTIL", "0.80")
-MAX_MODEL_LEN = int(os.environ.get("MAX_MODEL_LEN", "8192"))
-MAX_TOKENS    = int(os.environ.get("MAX_TOKENS", "2048"))
-HF_TOKEN      = os.environ.get("HF_TOKEN", "")
-CONFIG_PATH   = "/tmp/glmocr_config.yaml"
+MODEL             = os.environ.get("MODEL", "zai-org/GLM-OCR")
+VLLM_PORT         = int(os.environ.get("VLLM_PORT", "8000"))
+GPU_UTIL          = os.environ.get("GPU_MEM_UTIL", "0.90")
+MAX_MODEL_LEN     = int(os.environ.get("MAX_MODEL_LEN", "8192"))
+MAX_TOKENS        = int(os.environ.get("MAX_TOKENS", "2048"))
+MAX_NUM_SEQS      = int(os.environ.get("MAX_NUM_SEQS", "8"))
+MAX_BATCHED_TOK   = int(os.environ.get("MAX_BATCHED_TOKENS", "16384"))
+HF_TOKEN          = os.environ.get("HF_TOKEN", "")
+ENABLE_MTP        = os.environ.get("ENABLE_MTP", "1") == "1"
+CONFIG_PATH       = "/tmp/glmocr_config.yaml"
 
 MTP_JSON = '{"method":"mtp","num_speculative_tokens":3}'
 
@@ -224,10 +227,10 @@ def _start_vllm():
         "--max-model-len", str(MAX_MODEL_LEN),
         "--tensor-parallel-size", "1",
         "--trust-remote-code",
-        "--max-num-seqs", "32",
-        "--max-num-batched-tokens", "32768",
+        "--max-num-seqs", str(MAX_NUM_SEQS),
+        "--max-num-batched-tokens", str(MAX_BATCHED_TOK),
         "--no-enable-log-requests",
-        "--speculative-config", MTP_JSON,
+        *( ["--speculative-config", MTP_JSON] if ENABLE_MTP else [] ),
     ]
     _vllm_proc = subprocess.Popen(cmd, env=env)
     print(f"[init] vLLM started (pid {_vllm_proc.pid}), waiting for /health ...")
