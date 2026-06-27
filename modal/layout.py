@@ -64,6 +64,7 @@ TEXT_REGION_TYPES = {
 }
 
 
+
 # ── Weight downloader (run once) ──────────────────────────────────────────────
 
 @app.function(image=layout_image, volumes={WEIGHTS_PATH: vol}, timeout=1800)
@@ -136,7 +137,10 @@ class LayoutDetector:
         print("[init] GPU warmup complete")
 
     @modal.method()
-    def detect(self, page_jpegs: list[bytes]) -> dict:
+    def detect(self, page_jpegs: list[bytes],
+               threshold: float | None = None,
+               heading_threshold: float | None = None,
+               input_size: int | None = None) -> dict:
         """GPU-only: batch preprocess → inference → raw detections. No file I/O or text work."""
         import io
         import time
@@ -149,32 +153,40 @@ class LayoutDetector:
             self._device = "cuda" if torch.cuda.is_available() else "cpu"
             print(f"[detect] lazy _device set to {self._device}")
 
-        THRESHOLD         = float(os.environ.get("DETECT_THRESHOLD",  "0.3"))
-        HEADING_THRESHOLD = float(os.environ.get("HEADING_THRESHOLD", "0.2"))
+        THRESHOLD         = threshold         if threshold         is not None else float(os.environ.get("DETECT_THRESHOLD",  "0.3"))
+        HEADING_THRESHOLD = heading_threshold if heading_threshold is not None else float(os.environ.get("HEADING_THRESHOLD", "0.2"))
         BATCH_SIZE        = int(os.environ.get("DETECT_BATCH_SIZE", "8"))
         HEADING_LABELS    = {"paragraph_title", "doc_title"}
         t0 = time.time()
-        print(f"[detect] started  ts={t0:.3f}  pages={len(page_jpegs)}  batch_size={BATCH_SIZE}")
+        print(f"[detect] started  ts={t0:.3f}  pages={len(page_jpegs)}  batch_size={BATCH_SIZE}  input_size={input_size}")
 
-        # CPU: decode all pages and preprocess into chunks — runs concurrently across threads
-        pil_images   = [Image.open(io.BytesIO(j)).convert("RGB") for j in page_jpegs]
-        cpu_chunks   = []
-        for chunk_start in range(0, len(pil_images), BATCH_SIZE):
-            chunk = pil_images[chunk_start : chunk_start + BATCH_SIZE]
-            cpu_inputs = self._processor(images=chunk, return_tensors="pt")
-            cpu_chunks.append((chunk, cpu_inputs))
+        # Temporarily override processor input size if requested.
+        # post_process_object_detection uses self._processor.size for polygon scale;
+        # box coords use target_sizes (original dims) so they always map correctly.
+        _orig_size = self._processor.size
+        if input_size is not None:
+            self._processor.size = {"height": input_size, "width": input_size}
 
-        # GPU: serialized via lock — prevents concurrent threads racing on CUDA allocator
-        raw_pages = []
-        with _gpu_lock:
-            for chunk, cpu_inputs in cpu_chunks:
-                gpu_inputs = {k: v.to(self._device) for k, v in cpu_inputs.items()}
-                with torch.no_grad():
-                    outputs = self._model(**gpu_inputs)
-                batch_detections = self._processor.post_process_object_detection(
-                    outputs, threshold=min(THRESHOLD, HEADING_THRESHOLD),
-                    target_sizes=[img.size[::-1] for img in chunk],
-                )
+        try:
+            # CPU: decode all pages and preprocess into chunks — runs concurrently across threads
+            pil_images   = [Image.open(io.BytesIO(j)).convert("RGB") for j in page_jpegs]
+            cpu_chunks   = []
+            for chunk_start in range(0, len(pil_images), BATCH_SIZE):
+                chunk = pil_images[chunk_start : chunk_start + BATCH_SIZE]
+                cpu_inputs = self._processor(images=chunk, return_tensors="pt")
+                cpu_chunks.append((chunk, cpu_inputs))
+
+            # GPU: serialized via lock — prevents concurrent threads racing on CUDA allocator
+            raw_pages = []
+            with _gpu_lock:
+                for chunk, cpu_inputs in cpu_chunks:
+                    gpu_inputs = {k: v.to(self._device) for k, v in cpu_inputs.items()}
+                    with torch.no_grad():
+                        outputs = self._model(**gpu_inputs)
+                    batch_detections = self._processor.post_process_object_detection(
+                        outputs, threshold=min(THRESHOLD, HEADING_THRESHOLD),
+                        target_sizes=[img.size[::-1] for img in chunk],
+                    )
                 for pil_img, detections in zip(chunk, batch_detections):
                     page_detections = []
                     for score, label_id, box in zip(
@@ -196,6 +208,9 @@ class LayoutDetector:
                         "height_px": pil_img.height,
                         "detections": page_detections,
                     })
+
+        finally:
+            self._processor.size = _orig_size
 
         detect_s = round(time.time() - t0, 3)
         print(f"[detect] returning  detect_s={detect_s}s  pages={len(raw_pages)}")
@@ -507,9 +522,12 @@ def _segments(arr, min_gap: int = 1):
 from pydantic import BaseModel
 
 class _Request(BaseModel):
-    file: str       # base64-encoded PDF or image bytes
-    fileType: int = 0  # 0 = PDF, 1 = image
+    file: str                          # base64-encoded PDF or image bytes
+    fileType: int = 0                  # 0 = PDF, 1 = image
     dpi: int = 200
+    detect_threshold: float | None = None    # override DETECT_THRESHOLD env var
+    heading_threshold: float | None = None   # override HEADING_THRESHOLD env var
+    input_size: int | None = None            # override model input resolution (default 800)
 
 GPU_RATE_PER_S = GPU_RATES.get(GPU, GPU_RATES["T4"])
 IDLE_WINDOW_S  = 5  # GPU scaledown_window (used for cost estimation)
@@ -588,7 +606,12 @@ class Processor:
             f"[process] calling detect.remote()  pages={len(page_jpegs)}"
             f"  jpeg_kb={jpeg_bytes // 1024}  encode_s={t_jpeg - t_render:.3f}"
         )
-        gpu_result = await LayoutDetector().detect.remote.aio(page_jpegs)
+        gpu_result = await LayoutDetector().detect.remote.aio(
+            page_jpegs,
+            threshold=req.detect_threshold,
+            heading_threshold=req.heading_threshold,
+            input_size=req.input_size,
+        )
         t_gpu_done = time.time()
         rpc_wall_s = round(t_gpu_done - t_call, 3)
         print(f"[process] detect.remote() returned  rpc_wall={rpc_wall_s:.3f}s")
@@ -671,8 +694,8 @@ class Processor:
                     "detect_s":      detect_s,
                     "text_s":        text_s,
                     "post_s":        post_s,
-                    "execution_s": execution_s,
-                    "wall_s":      wall_s,
+                    "execution_s":   execution_s,
+                    "wall_s":        wall_s,
                 },
                 "cost": {
                     "gpu":                   GPU,

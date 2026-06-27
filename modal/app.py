@@ -104,6 +104,10 @@ _TEXT_LABELS = frozenset({
     "vision_footnote", "seal", "formula_number",
 })
 
+import re as _re
+_PASAL_GAP_RE = _re.compile(r'^Pasal\s+\d+[A-Za-z]?$', _re.IGNORECASE)
+_GAP_MIN_PX   = 30
+
 
 # ── Layout detector ───────────────────────────────────────────────────────────────
 
@@ -231,6 +235,43 @@ class LayoutDetector:
                     if text and text.strip():
                         region["text"] = text.strip()
                         text_extracted += 1
+
+                # Gap injection: scan vertical gaps between detected regions for
+                # missed Pasal headings that PP-DocLayoutV3 doesn't propose at any threshold.
+                sorted_rs = sorted(page_data["regions"], key=lambda r: r["bbox_px"][1])
+                for i in range(len(sorted_rs) - 1):
+                    gap_top_px = sorted_rs[i]["bbox_px"][3]
+                    gap_bot_px = sorted_rs[i + 1]["bbox_px"][1]
+                    if gap_bot_px - gap_top_px < _GAP_MIN_PX:
+                        continue
+                    gap_text = textpage.get_text_bounded(
+                        left=0.0,
+                        bottom=page_h_pt - gap_bot_px * scale_pt,
+                        right=page_data["width_px"] * scale_pt,
+                        top=page_h_pt - gap_top_px * scale_pt,
+                    )
+                    if not gap_text:
+                        continue
+                    gap_text = _re.sub(r'(?i)(Pasal)\s*(\d+)', r'\1 \2', gap_text.strip())
+                    if not _PASAL_GAP_RE.match(gap_text):
+                        continue
+                    mid_y = (gap_top_px + gap_bot_px) // 2
+                    half  = max(10, (gap_bot_px - gap_top_px) // 2 - 2)
+                    page_data["regions"].append({
+                        "region_id":    f"p{page_idx}_gap{i}",
+                        "bbox_px":      [0, mid_y - half, page_data["width_px"], mid_y + half],
+                        "bbox_pt":      [
+                            0.0, round((mid_y - half) * scale_pt, 2),
+                            round(page_data["width_px"] * scale_pt, 2), round((mid_y + half) * scale_pt, 2),
+                        ],
+                        "label":        "paragraph_title",
+                        "native_label": "paragraph_title",
+                        "score":        1.0,
+                        "order":        -1,
+                        "text":         gap_text,
+                    })
+                    text_extracted += 1
+                    print(f"[layout] gap-inject '{gap_text}' page {page_idx + 1} gap={gap_bot_px - gap_top_px}px")
             _pdfium_ok = True
         except Exception as e:
             print(f"[layout] pypdfium2 text failed ({e}), falling back to pdfplumber")

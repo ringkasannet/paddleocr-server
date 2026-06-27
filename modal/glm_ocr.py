@@ -22,10 +22,12 @@ Test (CLI):
 """
 from __future__ import annotations
 
+import asyncio
 import base64
 import io
 import subprocess
 import time
+from typing import Optional
 
 import modal
 
@@ -33,7 +35,7 @@ app = modal.App("glm-ocr")
 
 MODEL_ID    = "zai-org/GLM-OCR"
 SERVED_NAME = "glm-ocr"          # --served-model-name used in API calls
-GPU         = "T4"             # 24 GB VRAM — GLM-OCR 9B in bfloat16 ≈ 18 GB
+GPU         = "L4"             # 24 GB VRAM — GLM-OCR 9B in bfloat16 ≈ 18 GB, ~6 GB for KV cache
 VLLM_PORT   = 8000
 
 hf_vol   = modal.Volume.from_name("glm-ocr-hf-cache",   create_if_missing=True)
@@ -114,13 +116,17 @@ def _warmup(port: int) -> None:
     import numpy as np
 
     warmup_cases = [
-        # (image_size,    min_pixels, max_pixels, max_tokens, prompt)
-        # text crop — small image, tight pixel budget
-        ((336, 336),  112_896,  512_000,  10, "Text Recognition:"),
-        # table crop — larger image, full pixel budget, high max_tokens for OTSL→HTML
-        ((672, 672),  112_896, 1_003_520, 10, "Table Recognition:"),
-        # formula crop — small image
-        ((336, 168),  112_896,  512_000,  10, "Formula Recognition:"),
+        # (image_size, min_pixels, max_pixels, max_tokens, prompt)
+        # Covers the CUDA graph + Triton kernel shapes seen in real full-page inference.
+        # max_tokens=128 forces decode steps so batch-N graphs are captured in the snapshot.
+        ((336,  336),  112_896,   512_000, 128, "Text Recognition:"),
+        ((1500, 200),  112_896,   512_000, 128, "Text Recognition:"),
+        ((640,  800),  112_896,   512_000, 128, "Text Recognition:"),
+        ((672,  450),  112_896, 1_003_520, 128, "Table Recognition:"),
+        ((1500, 500),  112_896, 1_003_520, 128, "Table Recognition:"),
+        ((1000, 1000), 112_896, 1_003_520, 128, "Table Recognition:"),
+        ((336,  168),  112_896,   512_000, 128, "Formula Recognition:"),
+        ((640,  800),  112_896,   512_000, 128, "Formula Recognition:"),
     ]
 
     for i, (size, min_px, max_px, max_tok, prompt) in enumerate(warmup_cases):
@@ -162,16 +168,22 @@ class GLMOCRWorker:
     @modal.enter(snap=True)
     def start(self) -> None:
         import requests
+        import torch
+
+        cc = torch.cuda.get_device_capability()
+        dtype = "bfloat16" if cc[0] >= 8 else "half"
+        print(f"[glm-ocr] GPU compute capability {cc[0]}.{cc[1]} → dtype={dtype}")
 
         cmd = [
             "vllm", "serve", MODEL_ID,
             "--host", "0.0.0.0",
             "--port", str(VLLM_PORT),
             "--enable-sleep-mode",
-            "--gpu-memory-utilization", "0.5",
-            "--max-model-len", "8192",
-            "--max-num-seqs", "4",
-            "--dtype", "bfloat16",
+            "--gpu-memory-utilization", "0.6",
+            "--max-model-len",          "8192",
+            "--max-num-seqs",           "16",
+            "--max-num-batched-tokens", "8192",
+            "--dtype", dtype,
             "--served-model-name", "glm-ocr",
             "--speculative-config", '{"method": "mtp", "num_speculative_tokens": 3}',
         ]
@@ -236,21 +248,21 @@ class GLMOCRWorker:
         return {"text": text, "_start_ts": t0, "exec_s": exec_s}
 
 
-# ── CPU frontend — PDF → first page → OCR ────────────────────────────────────
+# ── CPU frontend — PDF → pages → OCR ─────────────────────────────────────────
 
 from pydantic import BaseModel as _BaseModel
 
 
 class _OCRRequest(_BaseModel):
-    file: str      # base64-encoded PDF
-    page: int = 0  # 0-indexed page (default: first)
-    dpi:  int = 200
+    file:  str                        # base64-encoded PDF
+    pages: Optional[list[int]] = None # page indices to process (None = all pages)
+    dpi:   int = 200
 
 
 @app.cls(
     image=cpu_image,
-    timeout=300,
-    scaledown_window=5,
+    timeout=600,
+    scaledown_window=60,
     max_containers=4,   # 4 × 8 = 32 total slots — matches GLMOCRWorker (2 × 16 = 32)
     enable_memory_snapshot=True,
     min_containers=1,
@@ -270,9 +282,9 @@ class OCRFrontend:
         from PIL import Image
         buf = io.BytesIO()
         Image.new("RGB", (64, 64), color=0).save(buf, format="JPEG")
-        t_call  = time.time()
-        result  = await GLMOCRWorker().recognize.remote.aio(buf.getvalue())
-        wall_s  = round(time.time() - t_call, 3)
+        t_call   = time.time()
+        result   = await GLMOCRWorker().recognize.remote.aio(buf.getvalue())
+        wall_s   = round(time.time() - t_call, 3)
         queued_s = round(result["_start_ts"] - t_call, 3)
         return {"status": "ready", "wall_s": wall_s, "queued_s": queued_s,
                 "exec_s": result["exec_s"], "chars": len(result["text"])}
@@ -292,48 +304,77 @@ class OCRFrontend:
             return {"error": f"Bad base64: {e}"}
 
         try:
-            pdf = pdfium.PdfDocument(pdf_bytes)
-            n = len(pdf)
-            if req.page >= n:
-                return {"error": f"Page {req.page} out of range — document has {n} pages"}
-            pg    = pdf[req.page]
-            scale = req.dpi / 72
-            pil   = pg.render(scale=scale).to_pil().convert("RGB")
-            pg.close()
+            pdf          = pdfium.PdfDocument(pdf_bytes)
+            n_pages      = len(pdf)
+            page_indices = req.pages if req.pages is not None else list(range(n_pages))
+            page_indices = [i for i in page_indices if 0 <= i < n_pages]
+            if not page_indices:
+                pdf.close()
+                return {"error": f"No valid pages — document has {n_pages} pages"}
+
+            scale        = req.dpi / 72
+            page_images: dict[int, tuple] = {}
+            for pi in page_indices:
+                pg  = pdf[pi]
+                pil = pg.render(scale=scale).to_pil().convert("RGB")
+                pg.close()
+                buf = io.BytesIO()
+                pil.save(buf, format="JPEG", quality=92)
+                page_images[pi] = (pil, buf.getvalue())
             pdf.close()
         except Exception as e:
             return {"error": f"PDF render failed: {e}"}
 
         t_render = time.time()
 
-        buf = io.BytesIO()
-        pil.save(buf, format="JPEG", quality=92)
-        image_bytes = buf.getvalue()
-
-        t_call = time.time()
-        try:
-            result = await GLMOCRWorker().recognize.remote.aio(image_bytes)
-        except Exception as e:
-            return {"error": f"OCR worker failed: {e}"}
-        t_done = time.time()
-
-        queued_s = round(result["_start_ts"] - t_call, 3)
-        exec_s   = result["exec_s"]
-        ocr_wall = round(t_done - t_call, 3)
-
-        return {
-            "text": result["text"],
-            "meta": {
-                "page":      req.page,
+        async def _ocr_one(pi: int) -> dict:
+            pil, image_bytes = page_images[pi]
+            t_call = time.time()
+            try:
+                result = await GLMOCRWorker().recognize.remote.aio(image_bytes)
+            except Exception as e:
+                return {
+                    "page": pi, "text": None, "error": str(e),
+                    "width_px": pil.width, "height_px": pil.height,
+                    "timing": {"ocr_queued_s": None, "ocr_exec_s": None,
+                               "ocr_wall_s": round(time.time() - t_call, 3)},
+                }
+            t_done = time.time()
+            return {
+                "page":      pi,
+                "text":      result["text"],
                 "width_px":  pil.width,
                 "height_px": pil.height,
-                "dpi":       req.dpi,
                 "timing": {
-                    "render_s":      round(t_render - t0, 3),
-                    "ocr_queued_s":  queued_s,
-                    "ocr_exec_s":    exec_s,
-                    "ocr_wall_s":    ocr_wall,
-                    "total_s":       round(t_done - t0, 3),
+                    "ocr_queued_s": round(result["_start_ts"] - t_call, 3),
+                    "ocr_exec_s":   result["exec_s"],
+                    "ocr_wall_s":   round(t_done - t_call, 3),
+                },
+            }
+
+        page_results = await asyncio.gather(*[_ocr_one(pi) for pi in page_indices])
+        page_results = sorted(page_results, key=lambda r: r["page"])
+
+        t_done = time.time()
+
+        valid      = [r for r in page_results if r.get("text") is not None]
+        avg_queued = round(sum(r["timing"]["ocr_queued_s"] for r in valid) / len(valid), 3) if valid else None
+        avg_exec   = round(sum(r["timing"]["ocr_exec_s"]   for r in valid) / len(valid), 3) if valid else None
+        max_wall   = round(max((r["timing"]["ocr_wall_s"]  for r in page_results), default=0), 3)
+
+        return {
+            "text":  "\n\n".join(r["text"] for r in valid),
+            "pages": page_results,
+            "meta": {
+                "n_pages":      len(page_indices),
+                "page_indices": page_indices,
+                "dpi":          req.dpi,
+                "timing": {
+                    "render_s":         round(t_render - t0, 3),
+                    "ocr_avg_queued_s": avg_queued,
+                    "ocr_avg_exec_s":   avg_exec,
+                    "ocr_max_wall_s":   max_wall,
+                    "total_s":          round(t_done - t0, 3),
                 },
             },
         }
@@ -342,9 +383,10 @@ class OCRFrontend:
 # ── CLI test ──────────────────────────────────────────────────────────────────
 
 @app.local_entrypoint()
-def main(pdf_path: str = ""):
+def main(pdf_path: str = "", page: int = -1):
+    """OCR a PDF.  --page N processes a single page; omit for all pages."""
     if not pdf_path:
-        print("Usage: modal run modal/glm_ocr.py --pdf-path /path/to/doc.pdf")
+        print("Usage: modal run modal/glm_ocr.py --pdf-path /path/to/doc.pdf [--page N]")
         return
 
     import pypdfium2 as pdfium
@@ -352,17 +394,21 @@ def main(pdf_path: str = ""):
     with open(pdf_path, "rb") as f:
         raw = f.read()
 
-    pdf = pdfium.PdfDocument(raw)
-    pg  = pdf[0]
-    pil = pg.render(scale=200 / 72).to_pil().convert("RGB")
-    pg.close()
+    pdf          = pdfium.PdfDocument(raw)
+    n_pages      = len(pdf)
+    page_indices = [page] if page >= 0 else list(range(n_pages))
+    print(f"PDF: {n_pages} pages — processing {page_indices}")
+
+    for pi in page_indices:
+        pg  = pdf[pi]
+        pil = pg.render(scale=200 / 72).to_pil().convert("RGB")
+        pg.close()
+        buf = io.BytesIO()
+        pil.save(buf, format="JPEG", quality=92)
+        image_bytes = buf.getvalue()
+        print(f"\nPage {pi}: {pil.width}×{pil.height}px  JPEG: {len(image_bytes) / 1024:.1f} KB")
+        result = GLMOCRWorker().recognize.remote(image_bytes)
+        print(f"=== Page {pi} OCR ({result['exec_s']}s) ===")
+        print(result["text"])
+
     pdf.close()
-
-    buf = io.BytesIO()
-    pil.save(buf, format="JPEG", quality=92)
-    image_bytes = buf.getvalue()
-
-    print(f"Page 0: {pil.width}×{pil.height}px  JPEG: {len(image_bytes) / 1024:.1f} KB")
-    text = GLMOCRWorker().recognize.remote(image_bytes)
-    print("=== OCR Result ===")
-    print(text)

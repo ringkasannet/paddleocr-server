@@ -1,0 +1,323 @@
+{
+  "markdown": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.\n\n(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:\n\na. pengurus, bagi Wajib Pajak Badan;\n\nb. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;\n\nc. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;\n\nd. likuidator, bagi Wajib Pajak Badan dalam likuidasi;\n\ne. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;\n\nf. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;\n\ng. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau\n\nh. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.\n\n(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.\n\n(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.\n\n(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.\n\n(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:\n\na. Surat Tagihan Pajak;\n\nb. Surat Ketetapan Pajak Kurang Bayar;\n\nc. Surat Ketetapan Pajak Kurang Bayar Tambahan;\n\nd. Surat Ketetapan Pajak Nihil;\n\ne. Surat Ketetapan Pajak Lebih Bayar;\n\nf. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;\n\ng. Surat Tagihan Pajak Pajak Bumi dan Bangunan;\n\nh. Surat Keputusan Pembetulan;\n\ni. Surat Keputusan Persetujuan Bersama;\n\nj. Surat Keputusan Keberatan;",
+  "meta": {
+    "pages": [
+      0
+    ],
+    "pages_info": [
+      {
+        "page": 0,
+        "width_px": 1653,
+        "height_px": 2339
+      }
+    ],
+    "total_regions": 24,
+    "ocr_regions": 24,
+    "skip_regions": 0,
+    "timing": {
+      "render_s": 0.07,
+      "ocr_wall_s": 0.786,
+      "assemble_s": 0.0,
+      "total_s": 0.855
+    }
+  },
+  "_client": {
+    "status": 200,
+    "resp_bytes": 6492,
+    "wall_s": 2.691,
+    "ttfb_s": 2.689,
+    "download_s": 0.003,
+    "t_sent_offset": 0.0,
+    "t_done_offset": 2.691
+  },
+  "blocks": [
+    {
+      "page": 0,
+      "order": 0,
+      "label": "text",
+      "text": "b. orang pribadi selain wakil Wajib Pajak yang ditunjuk oleh wakil Wajib Pajak sesuai dengan ketentuan peraturan perundang-undangan untuk menandatangani Dokumen Elektronik.",
+      "bbox": [
+        352,
+        115,
+        804,
+        170
+      ]
+    },
+    {
+      "page": 0,
+      "order": 1,
+      "label": "text",
+      "text": "(3) Wakil Wajib Pajak sebagaimana dimaksud pada ayat (2) yaitu:",
+      "bbox": [
+        315,
+        170,
+        803,
+        198
+      ]
+    },
+    {
+      "page": 0,
+      "order": 2,
+      "label": "text",
+      "text": "a. pengurus, bagi Wajib Pajak Badan;",
+      "bbox": [
+        353,
+        197,
+        682,
+        212
+      ]
+    },
+    {
+      "page": 0,
+      "order": 3,
+      "label": "text",
+      "text": "b. kurator, bagi Wajib Pajak Badan yang dinyatakan pailit;",
+      "bbox": [
+        353,
+        211,
+        803,
+        238
+      ]
+    },
+    {
+      "page": 0,
+      "order": 4,
+      "label": "text",
+      "text": "c. orang atau orang pribadi yang mewakili Badan yang ditugasi untuk melakukan pemberesan, bagi Wajib Pajak Badan dalam pembubaran;",
+      "bbox": [
+        353,
+        238,
+        804,
+        279
+      ]
+    },
+    {
+      "page": 0,
+      "order": 5,
+      "label": "text",
+      "text": "d. likuidator, bagi Wajib Pajak Badan dalam likuidasi;",
+      "bbox": [
+        353,
+        279,
+        803,
+        294
+      ]
+    },
+    {
+      "page": 0,
+      "order": 6,
+      "label": "text",
+      "text": "e. salah seorang ahli waris, pelaksana wasiat, atau pihak yang mengurus harta peninggalan, bagi Wajib Pajak Warisan Belum Terbagi;",
+      "bbox": [
+        352,
+        293,
+        803,
+        333
+      ]
+    },
+    {
+      "page": 0,
+      "order": 7,
+      "label": "text",
+      "text": "f. kepala Instansi Pemerintah Pusat, kuasa pengguna anggaran, kepala badan layanan umum atau pejabat yang melaksanakan fungsi tata usaha keuangan pada Instansi Pemerintah Pusat, untuk Instansi Pemerintah Pusat;",
+      "bbox": [
+        352,
+        334,
+        805,
+        401
+      ]
+    },
+    {
+      "page": 0,
+      "order": 8,
+      "label": "text",
+      "text": "g. kepala Instansi Pemerintah Daerah pengguna anggaran, kepala badan layanan umum daerah atau pejabat yang melaksanakan fungsi tata usaha keuangan pada satuan kerja perangkat daerah, untuk Instansi Pemerintah Daerah; atau",
+      "bbox": [
+        351,
+        402,
+        804,
+        469
+      ]
+    },
+    {
+      "page": 0,
+      "order": 9,
+      "label": "text",
+      "text": "h. kepala desa atau perangkat desa yang melaksanakan pengelolaan keuangan desa berdasarkan keputusan kepala desa, untuk Instansi Pemerintah Desa.",
+      "bbox": [
+        351,
+        470,
+        804,
+        523
+      ]
+    },
+    {
+      "page": 0,
+      "order": 10,
+      "label": "text",
+      "text": "(4) Dalam hal Wajib Pajak menunjuk seorang kuasa, kuasa Wajib Pajak menandatangani Dokumen Elektronik dengan menggunakan Sertifikat Elektronik atau Kode Otorisasi yang dimiliki oleh kuasa Wajib Pajak tersebut.",
+      "bbox": [
+        314,
+        523,
+        804,
+        578
+      ]
+    },
+    {
+      "page": 0,
+      "order": 11,
+      "label": "text",
+      "text": "(5) Dokumen Elektronik memiliki kekuatan hukum yang sama dengan dokumen kertas.",
+      "bbox": [
+        314,
+        578,
+        804,
+        607
+      ]
+    },
+    {
+      "page": 0,
+      "order": 12,
+      "label": "text",
+      "text": "(1) Menteri, Direktur Jenderal Pajak, dan pejabat tertentu di lingkungan Direktorat Jenderal Pajak yang diberi kewenangan berdasarkan peraturan perundang-undangan di bidang perpajakan dapat menerbitkan keputusan dalam bentuk elektronik dan Dokumen Elektronik.",
+      "bbox": [
+        315,
+        633,
+        803,
+        713
+      ]
+    },
+    {
+      "page": 0,
+      "order": 13,
+      "label": "text",
+      "text": "(2) Keputusan dalam bentuk elektronik sebagaimana dimaksud pada ayat (1) dapat berupa:",
+      "bbox": [
+        315,
+        714,
+        803,
+        741
+      ]
+    },
+    {
+      "page": 0,
+      "order": 14,
+      "label": "text",
+      "text": "a. Surat Tagihan Pajak;",
+      "bbox": [
+        353,
+        743,
+        569,
+        755
+      ]
+    },
+    {
+      "page": 0,
+      "order": 15,
+      "label": "text",
+      "text": "b. Surat Ketetapan Pajak Kurang Bayar;",
+      "bbox": [
+        353,
+        755,
+        702,
+        769
+      ]
+    },
+    {
+      "page": 0,
+      "order": 16,
+      "label": "text",
+      "text": "c. Surat Ketetapan Pajak Kurang Bayar Tambahan;",
+      "bbox": [
+        353,
+        769,
+        791,
+        782
+      ]
+    },
+    {
+      "page": 0,
+      "order": 17,
+      "label": "text",
+      "text": "d. Surat Ketetapan Pajak Nihil;",
+      "bbox": [
+        353,
+        781,
+        628,
+        796
+      ]
+    },
+    {
+      "page": 0,
+      "order": 18,
+      "label": "text",
+      "text": "e. Surat Ketetapan Pajak Lebih Bayar;",
+      "bbox": [
+        353,
+        796,
+        687,
+        810
+      ]
+    },
+    {
+      "page": 0,
+      "order": 19,
+      "label": "text",
+      "text": "f. Surat Ketetapan Pajak Pajak Bumi dan Bangunan;",
+      "bbox": [
+        353,
+        809,
+        803,
+        823
+      ]
+    },
+    {
+      "page": 0,
+      "order": 20,
+      "label": "text",
+      "text": "g. Surat Tagihan Pajak Pajak Bumi dan Bangunan;",
+      "bbox": [
+        353,
+        823,
+        791,
+        837
+      ]
+    },
+    {
+      "page": 0,
+      "order": 21,
+      "label": "text",
+      "text": "h. Surat Keputusan Pembetulan;",
+      "bbox": [
+        353,
+        836,
+        643,
+        850
+      ]
+    },
+    {
+      "page": 0,
+      "order": 22,
+      "label": "text",
+      "text": "i. Surat Keputusan Persetujuan Bersama;",
+      "bbox": [
+        353,
+        851,
+        719,
+        864
+      ]
+    },
+    {
+      "page": 0,
+      "order": 23,
+      "label": "text",
+      "text": "j. Surat Keputusan Keberatan;",
+      "bbox": [
+        352,
+        864,
+        630,
+        878
+      ]
+    }
+  ]
+}

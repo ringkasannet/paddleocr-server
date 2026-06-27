@@ -1,8 +1,8 @@
 """Test script for the deployed GLM-OCR whole-page endpoint.
 
 Usage:
-    python modal/test_glm_ocr.py document.pdf
-    python modal/test_glm_ocr.py document.pdf --page 2
+    python modal/test_glm_ocr.py document.pdf               # all pages
+    python modal/test_glm_ocr.py document.pdf --pages 0 2   # specific pages
     python modal/test_glm_ocr.py document.pdf --repeat 3
     python modal/test_glm_ocr.py document.pdf --concurrent 4
     python modal/test_glm_ocr.py document.pdf --repeat 2 --concurrent 4
@@ -41,15 +41,18 @@ def _container_label(queued_s) -> str:
 
 # ── network call ───────────────────────────────────────────────────────────────
 
-def send(endpoint: str, pdf_bytes: bytes, page: int, dpi: int,
+def send(endpoint: str, pdf_bytes: bytes, pages: list[int] | None, dpi: int,
          label: str, round_t0: float | None = None) -> tuple[str, float, dict]:
     t0 = time.time()
     t_sent_offset = round(t0 - round_t0, 3) if round_t0 is not None else 0.0
     b64 = base64.b64encode(pdf_bytes).decode()
     try:
+        payload = {"file": b64, "dpi": dpi}
+        if pages is not None:
+            payload["pages"] = pages
         with requests.post(
             endpoint,
-            json={"file": b64, "page": page, "dpi": dpi},
+            json=payload,
             timeout=600,
             stream=True,
         ) as resp:
@@ -112,22 +115,28 @@ def print_result(label: str, wall: float, data: dict):
         print(f"  ERROR: {data['error']}")
         return
 
-    meta   = data.get("meta", {})
-    timing = meta.get("timing", {})
-    text   = data.get("text", "")
-    queued_s = timing.get("ocr_queued_s")
+    meta       = data.get("meta", {})
+    timing     = meta.get("timing", {})
+    text       = data.get("text", "")
+    page_list  = data.get("pages", [])
+    n_pages    = meta.get("n_pages", len(page_list))
+    queued_s   = timing.get("ocr_avg_queued_s") or timing.get("ocr_queued_s")
 
     print(f"  {status_s}  {resp_kb} KB")
-    print(f"  Page     : {meta.get('page')}  ({meta.get('width_px')}×{meta.get('height_px')}px @ {meta.get('dpi')} dpi)")
-    print(f"  Chars    : {len(text)}")
+    print(f"  Pages    : {n_pages}  ({meta.get('dpi')} dpi)")
+    for pg in page_list:
+        pg_err = f"  ERROR: {pg['error']}" if pg.get("error") else ""
+        print(f"    p{pg['page']}  {pg.get('width_px')}×{pg.get('height_px')}px  "
+              f"{len(pg.get('text') or '')} chars{pg_err}")
+    print(f"  Total chars: {len(text)}")
     print(f"\n  ── timing ───────────────────────────────────────────")
-    print(f"  render_s      : {_fmt(timing.get('render_s'))}")
-    print(f"  ocr_queued_s  : {_fmt(queued_s)}   {_container_label(queued_s)}")
-    print(f"  ocr_exec_s    : {_fmt(timing.get('ocr_exec_s'))}   ← vLLM inference")
-    print(f"  ocr_wall_s    : {_fmt(timing.get('ocr_wall_s'))}")
-    print(f"  total_s       : {_fmt(timing.get('total_s'))}   (server)")
-    print(f"  ttfb_s        : {_fmt(client.get('ttfb_s'))}   (client)")
-    print(f"  wall_s        : {_fmt(wall)}   (client round-trip)")
+    print(f"  render_s          : {_fmt(timing.get('render_s'))}")
+    print(f"  ocr_avg_queued_s  : {_fmt(queued_s)}   {_container_label(queued_s)}")
+    print(f"  ocr_avg_exec_s    : {_fmt(timing.get('ocr_avg_exec_s') or timing.get('ocr_exec_s'))}   ← vLLM inference")
+    print(f"  ocr_max_wall_s    : {_fmt(timing.get('ocr_max_wall_s') or timing.get('ocr_wall_s'))}")
+    print(f"  total_s           : {_fmt(timing.get('total_s'))}   (server)")
+    print(f"  ttfb_s            : {_fmt(client.get('ttfb_s'))}   (client)")
+    print(f"  wall_s            : {_fmt(wall)}   (client round-trip)")
     print(f"\n  ── text (first 400 chars) ───────────────────────────")
     print(f"  {text[:400].replace(chr(10), chr(10) + '  ')}")
     if len(text) > 400:
@@ -156,8 +165,8 @@ def print_timing_table(results: list):
         t  = data.get("meta", {}).get("timing", {})
         vs = {
             "render": t.get("render_s"),
-            "queued": t.get("ocr_queued_s"),
-            "exec":   t.get("ocr_exec_s"),
+            "queued": t.get("ocr_avg_queued_s") or t.get("ocr_queued_s"),
+            "exec":   t.get("ocr_avg_exec_s")   or t.get("ocr_exec_s"),
             "total":  t.get("total_s"),
             "ttfb":   cl.get("ttfb_s"),
             "wall":   wall,
@@ -222,8 +231,9 @@ def print_summary(results: list, round_elapsed: float | None = None):
         if "error" in data:
             continue
         t = data.get("meta", {}).get("timing", {})
-        for k, src in [("queued", t.get("ocr_queued_s")), ("exec", t.get("ocr_exec_s")),
-                       ("total", t.get("total_s")), ("wall", wall)]:
+        for k, src in [("queued", t.get("ocr_avg_queued_s") or t.get("ocr_queued_s")),
+                       ("exec",   t.get("ocr_avg_exec_s")   or t.get("ocr_exec_s")),
+                       ("total",  t.get("total_s")), ("wall", wall)]:
             if isinstance(src, (int, float)):
                 cols[k].append(src)
 
@@ -246,11 +256,11 @@ def print_summary(results: list, round_elapsed: float | None = None):
 # ── run logic ──────────────────────────────────────────────────────────────────
 
 def run_round(label_prefix: str, n: int, endpoint: str, pdf_bytes: bytes,
-              page: int, dpi: int, timeline: bool = False) -> tuple[list, float | None]:
+              pages: list[int] | None, dpi: int, timeline: bool = False) -> tuple[list, float | None]:
     if n == 1:
         label = label_prefix
         print(f"\nSending {label} …")
-        return [send(endpoint, pdf_bytes, page, dpi, label)], None
+        return [send(endpoint, pdf_bytes, pages, dpi, label)], None
 
     print(f"\nSending {n} requests concurrently …")
     round_t0     = time.time()
@@ -258,7 +268,7 @@ def run_round(label_prefix: str, n: int, endpoint: str, pdf_bytes: bytes,
     with ThreadPoolExecutor(max_workers=n) as pool:
         for i in range(n):
             lbl = f"{label_prefix} #{i+1}"
-            futures_map[pool.submit(send, endpoint, pdf_bytes, page, dpi, lbl, round_t0)] = lbl
+            futures_map[pool.submit(send, endpoint, pdf_bytes, pages, dpi, lbl, round_t0)] = lbl
 
     results = [fut.result() for fut in as_completed(futures_map)]
     results.sort(key=lambda r: r[0])
@@ -274,7 +284,8 @@ def run_round(label_prefix: str, n: int, endpoint: str, pdf_bytes: bytes,
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("file")
-    ap.add_argument("--page",       type=int,   default=0)
+    ap.add_argument("--pages",      type=int,   nargs="*", default=None,
+                    metavar="N", help="Page indices to process (default: all)")
     ap.add_argument("--dpi",        type=int,   default=200)
     ap.add_argument("--repeat",     type=int,   default=1)
     ap.add_argument("--concurrent", type=int,   default=1)
@@ -284,12 +295,13 @@ def main():
     ap.add_argument("--save",       action="store_true")
     args = ap.parse_args()
 
-    pdf_bytes = Path(args.file).read_bytes()
-    stem      = Path(args.file).stem
+    pdf_bytes  = Path(args.file).read_bytes()
+    stem       = Path(args.file).stem
+    pages_desc = "all" if args.pages is None else str(args.pages)
 
     print(f"Endpoint   : {args.endpoint}")
     print(f"File       : {args.file}  ({len(pdf_bytes):,} bytes)")
-    print(f"Page       : {args.page}  DPI={args.dpi}")
+    print(f"Pages      : {pages_desc}  DPI={args.dpi}")
     print(f"Rounds     : {args.repeat}  ×  {args.concurrent} concurrent")
 
     all_results = []
@@ -302,7 +314,7 @@ def main():
 
         prefix  = f"round {r+1}" if args.repeat > 1 else "request"
         results, elapsed = run_round(prefix, args.concurrent, args.endpoint,
-                                     pdf_bytes, args.page, args.dpi, args.timeline)
+                                     pdf_bytes, args.pages, args.dpi, args.timeline)
         last_elapsed = elapsed
 
         single = args.repeat == 1 and args.concurrent == 1
@@ -311,8 +323,9 @@ def main():
             if args.concurrent == 1:
                 print_result(label, wall, data)
             if (args.save or single) and "error" not in data:
-                ts   = datetime.now().strftime("%Y%m%d_%H%M%S")
-                path = f"{stem}_p{args.page}_{label.replace(' ','_')}_{ts}.json"
+                ts    = datetime.now().strftime("%Y%m%d_%H%M%S")
+                pages_tag = "all" if args.pages is None else "_".join(str(p) for p in args.pages)
+                path  = f"{stem}_p{pages_tag}_{label.replace(' ','_')}_{ts}.json"
                 Path(path).write_text(json.dumps(data, indent=2, ensure_ascii=False))
                 print(f"  Saved: {path}")
 

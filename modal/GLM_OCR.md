@@ -29,14 +29,15 @@ glm-ocr-pipeline
 
 ### GLMOCRWorker (glm_ocr.py)
 - GPU: L4 (24 GB VRAM)
-- Model: `zai-org/GLM-OCR` (2.37 GB, bfloat16)
-- vLLM: `--gpu-memory-utilization 0.5` → ~9.6 GB KV cache
+- Model: `zai-org/GLM-OCR` (9B, bfloat16 on L4 cc=8.9)
+- vLLM flags: `--gpu-memory-utilization 0.6`, `--max-model-len 8192`, `--max-num-seqs 16`, `--max-num-batched-tokens 8192`
 - Speculative decoding: MTP `num_speculative_tokens=3`
-- `max_containers=2`, `@modal.concurrent(max_inputs=4, target_inputs=2)`
-- Effective capacity: 2 × 4 = 8 concurrent recognize calls
-- vLLM batches up to 4 seqs per container internally
-- Memory snapshot: sleep/wake pattern — cold start ~5-7s after first deploy
-- First deploy cold start: ~5 min (model load + CUDA compile + warmup + snapshot)
+- `max_containers=2`, `@modal.concurrent(max_inputs=16, target_inputs=8)`
+- Effective capacity: 2 × 16 = 32 concurrent recognize slots
+- Memory snapshot: `enable_memory_snapshot=True` + `experimental_options={"enable_gpu_snapshot": True}`; sleep/wake pattern
+- Cold start after snapshot: fast (~5-7s); first deploy (model load + CUDA compile + 8-case warmup + snapshot): ~5-10 min
+- Snapshot stability: works with the current config (0.6 util, seqs=16). Rebuilding snapshot (`/prime`) is required after any vLLM config change.
+- Multi-page: `_OCRRequest.pages: Optional[list[int]]` — None = all pages; pages dispatched concurrently via `asyncio.gather`
 
 ### LayoutDetector (layout.py)
 - GPU: T4 (default) or L4
@@ -97,13 +98,18 @@ python modal/prime_glm_ocr.py
 
 ## Pending
 
-- [ ] Add timing instrumentation to GLMOCRWorker.recognize (queue time + execution time)
-- [ ] Add timing instrumentation to PipelineFrontend (per-region OCR timing)
 - [ ] Implement vanilla/complementary/comprehensive modes in glm_ocr_pipeline.py
 - [ ] Add `min_text_chars` fallback for complementary mode (PDF text → VLM if empty)
-- [ ] Add asyncio.Semaphore to PipelineFrontend to cap concurrent recognize calls (match 2×4=8 capacity)
-- [ ] Re-enable + test MTP speculative decoding stability after warmup fix (max_tokens=10)
-- [ ] Redeploy glm-ocr after warmup fix to rebuild snapshot (rejection_greedy_sample_kernel)
+- [ ] Add asyncio.Semaphore to PipelineFrontend to cap concurrent recognize calls (match 2×16=32 capacity)
+- [ ] Add timing instrumentation to PipelineFrontend (per-region OCR timing)
+
+## Done
+
+- [x] Timing instrumentation in GLMOCRWorker.recognize (`_start_ts`, `exec_s` → `ocr_avg_queued_s`, `ocr_avg_exec_s`, `ocr_max_wall_s` in response)
+- [x] GPU snapshot working: `enable_memory_snapshot=True` + `enable_gpu_snapshot: True`; stable with current config
+- [x] MTP speculative decoding enabled (`num_speculative_tokens=3`); 8-case warmup covers all task/shape combos
+- [x] Multi-page support: `pages: Optional[list[int]]`, concurrent dispatch via `asyncio.gather`
+- [x] L4 GPU (was T4); dynamic dtype (bfloat16 on cc≥8)
 
 ---
 
