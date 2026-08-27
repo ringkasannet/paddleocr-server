@@ -4,189 +4,174 @@
 
 | App name | File | Purpose |
 |---|---|---|
+| `glm-ocr-single` | `glm_ocr_single.py` | **Primary** — official glmocr SDK, PP-DocLayoutV3 + vLLM in one container |
 | `layout-worker` | `layout.py` | PP-DocLayoutV3 layout detection + PDF text extraction |
-| `glm-ocr` | `glm_ocr.py` | GLM-OCR 9B via vLLM — whole-page OCR |
-| `glm-ocr-pipeline` | `glm_ocr_pipeline.py` | Full pipeline: layout → crop → parallel OCR |
+| `glm-ocr` | `glm_ocr.py` | GLM-OCR 9B via vLLM — whole-page OCR (no layout) |
+| `glm-ocr-pipeline` | `glm_ocr_pipeline.py` | Hand-rolled 3-app pipeline: layout-worker → glm-ocr |
 
-## Architecture
-
-```
-layout-worker
-  LayoutDetector   GPU (T4/L4)  detect(page_jpegs) → raw detections
-  Processor        CPU          HTTP endpoint: PDF → layout + text extraction
-
-glm-ocr
-  GLMOCRWorker     GPU (L4)     recognize(image_bytes, prompt) → str
-  OCRFrontend      CPU          HTTP endpoint: PDF → whole-page OCR
-
-glm-ocr-pipeline
-  PipelineFrontend CPU          HTTP endpoint: PDF → layout → crop → parallel OCR → Markdown
-    calls LayoutDetector.detect  (cross-app Modal RPC)
-    calls GLMOCRWorker.recognize (cross-app Modal RPC)
-```
-
-## Key Config
-
-### GLMOCRWorker (glm_ocr.py)
-- GPU: L4 (24 GB VRAM)
-- Model: `zai-org/GLM-OCR` (9B, bfloat16 on L4 cc=8.9)
-- vLLM flags: `--gpu-memory-utilization 0.6`, `--max-model-len 8192`, `--max-num-seqs 16`, `--max-num-batched-tokens 8192`
-- Speculative decoding: MTP `num_speculative_tokens=3`
-- `max_containers=2`, `@modal.concurrent(max_inputs=16, target_inputs=8)`
-- Effective capacity: 2 × 16 = 32 concurrent recognize slots
-- Memory snapshot: `enable_memory_snapshot=True` + `experimental_options={"enable_gpu_snapshot": True}`; sleep/wake pattern
-- Cold start after snapshot: fast (~5-7s); first deploy (model load + CUDA compile + 8-case warmup + snapshot): ~5-10 min
-- Snapshot stability: works with the current config (0.6 util, seqs=16). Rebuilding snapshot (`/prime`) is required after any vLLM config change.
-- Multi-page: `_OCRRequest.pages: Optional[list[int]]` — None = all pages; pages dispatched concurrently via `asyncio.gather`
-
-### LayoutDetector (layout.py)
-- GPU: T4 (default) or L4
-- Model: PP-DocLayoutV3 (~100 MB)
-- `max_containers=8`, `@modal.concurrent(max_inputs=4, target_inputs=3)`
-- `_gpu_lock` serializes CUDA forward pass; CPU preprocessing runs concurrently
-
-## Prompts (GLM-OCR)
-
-| Region label | Task | Prompt |
-|---|---|---|
-| text, paragraph_title, content, doc_title, abstract, etc. | text | `Text Recognition:` |
-| table | table | `Table Recognition:` |
-| display_formula, inline_formula | formula | `Formula Recognition:` |
-| image, figure, chart, figure_title, table_title, chart_title | skip | — (no OCR) |
-| header, footer, number, footnote, aside_text, reference, footer_image, header_image | abandon | — (discarded) |
-
-## Pipeline Modes (TODO — to be implemented in glm_ocr_pipeline.py)
-
-Three modes via per-category flags on the request:
-
-```python
-use_vlm_for_text:     bool = True   # False → vanilla (PDF text layer only)
-use_vlm_for_tables:   bool = True
-use_vlm_for_formulas: bool = True
-use_vlm_for_images:   bool = False
-min_text_chars:       int  = 10     # complementary fallback threshold
-```
-
-| Mode | use_vlm_for_text | use_vlm_for_tables | use_vlm_for_formulas | note |
-|---|---|---|---|---|
-| **Vanilla** | False | False | False | PDF text layer only, no GPU |
-| **Complementary** | False | True | True | PDF text + VLM fallback if empty + VLM for structure |
-| **Comprehensive** | True | True | True | All regions → VLM |
-
-Modelled after PaddleOCR's `use_ocr_for_image_block`, `use_chart_recognition`, `use_seal_recognition` flags.
-
-## Timing Model (TODO — to be added to glm_ocr.py and glm_ocr_pipeline.py)
-
-See section below.
-
-## Endpoints
-
-| Endpoint | URL pattern |
-|---|---|
-| Layout detection | `https://ringkasan-net--layout-worker-processor-process.modal.run` |
-| GLM-OCR whole-page | `https://ringkasan-net--glm-ocr-ocrfrontend-process.modal.run` |
-| GLM-OCR prime | `https://ringkasan-net--glm-ocr-ocrfrontend-prime.modal.run` |
-| Pipeline | `https://ringkasan-net--glm-ocr-pipeline-pipelinefrontend-process.modal.run` |
-
-## Test scripts
-
-```bash
-python modal/test_glm_ocr.py modal/pmk.pdf --repeat 3
-python modal/test_glm_ocr_pipeline.py modal/pmk.pdf --save
-python modal/prime_glm_ocr.py
-```
-
-## Pending
-
-- [ ] Implement vanilla/complementary/comprehensive modes in glm_ocr_pipeline.py
-- [ ] Add `min_text_chars` fallback for complementary mode (PDF text → VLM if empty)
-- [ ] Add asyncio.Semaphore to PipelineFrontend to cap concurrent recognize calls (match 2×16=32 capacity)
-- [ ] Add timing instrumentation to PipelineFrontend (per-region OCR timing)
-
-## Done
-
-- [x] Timing instrumentation in GLMOCRWorker.recognize (`_start_ts`, `exec_s` → `ocr_avg_queued_s`, `ocr_avg_exec_s`, `ocr_max_wall_s` in response)
-- [x] GPU snapshot working: `enable_memory_snapshot=True` + `enable_gpu_snapshot: True`; stable with current config
-- [x] MTP speculative decoding enabled (`num_speculative_tokens=3`); 8-case warmup covers all task/shape combos
-- [x] Multi-page support: `pages: Optional[list[int]]`, concurrent dispatch via `asyncio.gather`
-- [x] L4 GPU (was T4); dynamic dtype (bfloat16 on cc≥8)
+`glm-ocr-single` is the production app. The others remain for comparison / fallback.
 
 ---
 
-## Timing Instrumentation
+## glm-ocr-single (primary)
 
-### Problem
+### Architecture
 
-The Modal dashboard shows three timing fields per function call:
-- **Enqueued**: when the caller invoked `.remote()` — Modal received the request
-- **Started**: when the container actually began executing the function
-- **Execution**: time spent inside the function body
-
-`Started − Enqueued = queue time` (time waiting for an available container slot).
-
-The dashboard gives these per-call, but we need them **in our own response** so clients see queue time without opening the Modal dashboard.
-
-### How layout.py does it
-
-The GPU function records its own start timestamp and returns it:
-
-```python
-# Inside LayoutDetector.detect (GPU container):
-t0 = time.time()
-...
-return {"pages": raw_pages, "_detect_start_ts": t0, "detect_s": detect_s}
-
-# Inside Processor.process (CPU caller):
-t_call = time.time()                                    # ← when remote() was called
-gpu_result = await LayoutDetector().detect.remote.aio(page_jpegs)
-t_gpu_done = time.time()                                # ← when remote() returned
-
-detect_start_ts = gpu_result.pop("_detect_start_ts")   # ← when GPU fn started
-detect_s        = gpu_result.pop("detect_s")            # ← GPU execution time
-
-queued_s  = detect_start_ts - t_call    # time in Modal queue
+```
+DocumentOCRWorker   GPU (L4)
+  start()  [snap=True]   load PP-DocLayoutV3 (CPU) → start vLLM → warmup → move layout to GPU → sleep → snapshot
+  wake()   [snap=False]  wake vLLM → warmup layout → prime MM cache → build Pipeline
+  process()              render PDF @ 300 DPI → glmocr pipeline → blocks + markdown
+  fullpage()             render PDF @ 300 DPI → full-page vLLM (no layout) — benchmark only
 ```
 
-This works because both `t_call` (CPU container clock) and `_detect_start_ts` (GPU container clock) are Unix timestamps. Modal containers are NTP-synced so the clocks are aligned within ~1ms.
+### Key Config
 
-### Plan for GLMOCRWorker.recognize
+- GPU: L4 (24 GB VRAM)
+- Model: `zai-org/GLM-OCR` (9B, bfloat16 on L4 cc=8.9)
+- vLLM flags: `--gpu-memory-utilization 0.8`, `--max-model-len 8192`, `--max-num-seqs 32`, `--max-num-batched-tokens 32768`
+- Speculative decoding: MTP `num_speculative_tokens=3`
+- `max_containers=10`, `@modal.concurrent(max_inputs=2, target_inputs=2)`
+- GPU snapshot: `enable_memory_snapshot=True` + `enable_gpu_snapshot: True`
+- Cold start from snapshot: ~0.9s; first deploy (full warmup + snapshot): ~10–15 min
+- Default DPI: **300** (see DPI section below)
 
-`recognize` currently returns `str`. Change it to return a dict, or add a parallel timing method. The cleanest: return a `(text, start_ts)` tuple, unpack in the caller.
+### Endpoints
 
-```python
-# In GLMOCRWorker.recognize:
-@modal.method()
-def recognize(self, image_bytes: bytes, prompt: str = "Text Recognition:") -> dict:
-    t0 = time.time()
-    ...
-    return {
-        "text":       text,
-        "_start_ts":  t0,
-        "exec_s":     round(time.time() - t0, 3),
-    }
+| Endpoint | URL |
+|---|---|
+| process (layout + OCR) | `https://ringkasan-net--glm-ocr-single-documentocrworker-process.modal.run` |
+| fullpage (whole-page OCR) | `https://ringkasan-net--glm-ocr-single-documentocrworker-fullpage.modal.run` |
 
-# In OCRFrontend / PipelineFrontend caller:
-t_call   = time.time()
-result   = await GLMOCRWorker().recognize.remote.aio(image_bytes, prompt)
-t_done   = time.time()
-
-queued_s = result["_start_ts"] - t_call   # queue wait
-exec_s   = result["exec_s"]               # GPU execution
-wall_s   = t_done - t_call                # total round-trip
-```
-
-### Fields to surface in pipeline response
+### Request schema
 
 ```json
-"timing": {
-  "render_s":   0.4,    // PDF → JPEG
-  "layout_s":   0.3,    // LayoutDetector.detect (includes queue)
-  "layout_queued_s": 0.05,  // time waiting for layout GPU slot
-  "layout_exec_s":   0.25,  // actual GPU inference
-  "crop_s":     0.02,   // region cropping
-  "ocr_s":      8.5,    // asyncio.gather across all recognize calls (wall time)
-  "ocr_queued_s": 1.2,  // avg queue time per recognize call
-  "ocr_exec_s":   7.3,  // avg execution time per recognize call
-  "total_s":    9.2
+{ "file": "<base64 PDF>", "pages": [0, 1, 2], "dpi": 300 }
+```
+
+`pages` and `dpi` are optional. `pages` defaults to all pages; `dpi` defaults to 300.
+
+### Response schema
+
+```json
+{
+  "markdown": "...",
+  "blocks": [
+    { "page": 0, "order": 0, "label": "paragraph_title", "text": "## Pasal 11", "bbox": [x0,y0,x1,y1] }
+  ],
+  "meta": {
+    "pages": [0],
+    "pages_info": [{ "page": 0, "width_px": 2480, "height_px": 3509 }],
+    "total_regions": 25,
+    "ocr_regions": 25,
+    "skip_regions": 0,
+    "timing": {
+      "render_s": 0.15, "ocr_wall_s": 2.1, "assemble_s": 0.0, "total_s": 2.3,
+      "cold_start": { "wakeup_s": 0.51, "health_s": 0.0, "layout_gpu_s": 0.28,
+                      "batch_warmup_s": 0.06, "total_s": 0.86 }
+    }
+  }
 }
 ```
+
+---
+
+## DPI and PP-DocLayoutV3 Detection Threshold
+
+### Finding
+
+PP-DocLayoutV3 has a minimum pixel-height threshold below which small headings (e.g. "Pasal 11") are not detected, regardless of score threshold or input_size tuning.
+
+| DPI | Page size (A4) | "Pasal 11" height | Detected? |
+|---|---|---|---|
+| 200 | 1653 × 2339 px | ~8–9 px | ✗ |
+| 250 | 2067 × 2924 px | ~10–11 px | ✗ |
+| 280 | 2315 × 3275 px | ~12–13 px | ✓ |
+| 300 | 2480 × 3509 px | ~13 px | ✓ |
+
+**Detection threshold**: heading must be ≥ ~12 px tall in the rendered image. The breakpoint is between 250 DPI (fails) and 280 DPI (works). We use **300 DPI** for a comfortable safety margin.
+
+### Why raising score threshold doesn't help
+
+PP-DocLayoutV3 outputs score=0.0 for "Pasal 11" at 200 DPI — not a low-confidence detection but a zero, meaning the detector never fired. No threshold adjustment fixes a detector that simply did not fire. The fix is resolution.
+
+### ZAI API internal rendering
+
+The ZAI hosted API (`api.z.ai/api/paas/v4/layout_parsing`) renders PDFs internally at approximately 240 DPI, which is below the detection threshold. Sending a raw PDF to ZAI will also miss small headings.
+
+---
+
+## Benchmark: Modal vs ZAI (page32.pdf, 3 concurrent requests)
+
+Tested 2026-06-27 on a 1-page Indonesian tax regulation PDF containing "Pasal 11" as a small centered heading.
+
+| Approach | Detects | Wall avg | Wall min–max | Notes |
+|---|---|---|---|---|
+| Modal 200 DPI raw PDF | ✗ 0/3 | 17.6s | 16.7–18.6s | Cold start dominated |
+| **Modal 300 DPI raw PDF** | **✓ 3/3** | **16.3s** | **16.0–16.8s** | Cold start; server_s ≈ 2s warm |
+| ZAI raw PDF | ✗ 0/3 | 9.4s | 4.4–19.2s | Highly variable; ZAI renders at ~240 DPI |
+| ZAI 300 DPI JPEG | ✓ 3/3 | 6.3s | 5.4–7.3s | 1.2s local convert + 5.1s ZAI API |
+
+**Warm Modal 300 DPI**: single request wall time ≈ 3.8s (server_s ≈ 1.6–2s). The 16s in the table reflects 12 simultaneous requests competing for container slots.
+
+**Conclusion**: Modal 300 DPI is the recommended approach. ZAI 300 DPI JPEG is a valid alternative when using the ZAI hosted API — convert locally with PyMuPDF at 300 DPI before sending.
+
+---
+
+## Test Scripts
+
+```bash
+# Primary endpoint
+python modal/test_glm_ocr_single.py document.pdf
+python modal/test_glm_ocr_single.py document.pdf --dpi 300 --save
+python modal/test_glm_ocr_single.py document.pdf --app single-fullpage   # whole-page benchmark
+
+# DPI + ZAI benchmark
+python modal/test_dpi_benchmark.py page32.pdf
+python modal/test_dpi_benchmark.py page32.pdf --concurrent 3
+python modal/test_dpi_benchmark.py page32.pdf --concurrent 3 --repeat 2
+
+# Legacy apps
+python modal/test_glm_ocr.py modal/pmk.pdf --repeat 3
+python modal/test_glm_ocr_pipeline.py modal/pmk.pdf --save
+```
+
+---
+
+## Older Apps (glm-ocr, glm-ocr-pipeline, layout-worker)
+
+### GLMOCRWorker (glm_ocr.py)
+- GPU: L4, util=0.6, seqs=16, batched-tokens=8192, MTP num_speculative_tokens=3
+- `max_containers=2`, `@modal.concurrent(max_inputs=16, target_inputs=8)`
+- Snapshot working; rebuild required after any vLLM config change (`/prime`)
+
+### LayoutDetector (layout.py)
+- GPU: T4 (default) or L4, PP-DocLayoutV3 (~100 MB)
+- `max_containers=8`, `@modal.concurrent(max_inputs=4, target_inputs=3)`
+- `_gpu_lock` serializes CUDA forward passes
+
+### Older endpoints
+
+| Endpoint | URL |
+|---|---|
+| Layout detection | `https://ringkasan-net--layout-worker-processor-process.modal.run` |
+| GLM-OCR whole-page | `https://ringkasan-net--glm-ocr-ocrfrontend-process.modal.run` |
+| Pipeline | `https://ringkasan-net--glm-ocr-pipeline-pipelinefrontend-process.modal.run` |
+
+---
+
+## Done
+
+- [x] `glm-ocr-single`: single-container pipeline (PP-DocLayoutV3 + vLLM) — replaces hand-rolled 3-app pipeline
+- [x] GPU snapshot working with current config; layout model on GPU in snapshot
+- [x] MTP speculative decoding; 8-case sequential + 16-concurrent batch warmup
+- [x] Default DPI raised 200 → 300 to fix PP-DocLayoutV3 missing small headings
+- [x] DPI benchmark: `test_dpi_benchmark.py` comparing Modal vs ZAI at 200/300 DPI
+- [x] `fullpage` endpoint for whole-page OCR benchmark (no layout detection)
+- [x] Concurrent-request safety patch for glmocr `_workers.py` (layout + vLLM semaphores)
+- [x] Cold-start timing surfaced in response (`cold_start` in `timing`)
+
+## Pending
+
+- [ ] Implement vanilla/complementary/comprehensive pipeline modes in glm_ocr_single.py
+- [ ] Investigate ZAI `layout_parsing` API as drop-in replacement for non-critical paths

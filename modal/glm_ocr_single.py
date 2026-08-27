@@ -75,7 +75,7 @@ image = (
         "TORCH_CPP_LOG_LEVEL":           "ERROR",
         "TORCH_NCCL_ENABLE_MONITORING":  "0",
     })
-    .add_local_file("warmup_doc.jpg", "/root/warmup_doc.jpg")
+    .add_local_file("modal/warmup_doc.jpg", "/root/warmup_doc.jpg")
 )
 
 
@@ -212,7 +212,7 @@ class _Request(_BaseModel):
     file:      str
     pages:     Optional[list[int]] = None
     num_pages: Optional[int]       = None
-    dpi:       int                 = 200
+    dpi:       int                 = 300
 
 
 # ── Single-container worker ────────────────────────────────────────────────────
@@ -491,6 +491,119 @@ class DocumentOCRWorker:
             self._proc.terminate()
 
     @modal.fastapi_endpoint(method="POST")
+    def fullpage(self, req: _Request) -> dict:
+        """Full-page OCR — no layout detection, sends entire page to vLLM.
+
+        Benchmark counterpart to process(). Same vLLM, same GPU, same snapshot.
+        Only difference: skip PP-DocLayoutV3, feed the whole page as one image.
+        """
+        import fitz
+        import requests as _req
+
+        t0 = time.time()
+
+        raw_b64 = req.file
+        if "," in raw_b64:
+            raw_b64 = raw_b64.split(",", 1)[1]
+        try:
+            pdf_bytes = base64.b64decode(raw_b64)
+            doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+        except Exception as e:
+            return {"error": f"PDF decode failed: {e}"}
+
+        n_pages      = doc.page_count
+        page_indices = req.pages or (
+            list(range(min(req.num_pages, n_pages))) if req.num_pages else list(range(n_pages))
+        )
+        page_indices = [i for i in page_indices if 0 <= i < n_pages]
+        if not page_indices:
+            doc.close()
+            return {"error": "No valid pages"}
+
+        scale = req.dpi / 72.0
+        page_images: dict[int, tuple] = {}
+        pages_info: list[dict] = []
+        from PIL import Image as _PIL
+        for pi in page_indices:
+            page = doc.load_page(pi)
+            pix  = page.get_pixmap(matrix=fitz.Matrix(scale, scale), alpha=False)
+            pil  = _PIL.frombytes("RGB", (pix.width, pix.height), pix.samples)
+            buf  = io.BytesIO()
+            pil.save(buf, format="JPEG", quality=92)
+            page_images[pi] = (pil, buf.getvalue())
+            pages_info.append({"page": pi, "width_px": pil.width, "height_px": pil.height})
+        doc.close()
+        t_render = time.time()
+
+        session = _req.Session()
+
+        def _ocr_page(pi: int) -> dict:
+            pil, image_bytes = page_images[pi]
+            data_url = "data:image/jpeg;base64," + base64.b64encode(image_bytes).decode()
+            t_call = time.time()
+            try:
+                resp = session.post(
+                    f"http://localhost:{VLLM_PORT}/v1/chat/completions",
+                    json={
+                        "model": SERVED_NAME,
+                        "messages": [{"role": "user", "content": [
+                            {"type": "image_url", "image_url": {
+                                "url":        data_url,
+                                "min_pixels": 112_896,
+                                "max_pixels": 1_500_000,
+                            }},
+                            {"type": "text", "text": "Text Recognition:"},
+                        ]}],
+                        "max_tokens": 2048,
+                        "temperature": 0.0,
+                    },
+                    timeout=300,
+                )
+                resp.raise_for_status()
+                text = resp.json()["choices"][0]["message"]["content"]
+            except Exception as e:
+                text = None
+                print(f"[single/fullpage] page {pi} error: {e}")
+            exec_s = round(time.time() - t_call, 3)
+            return {"page": pi, "text": text, "exec_s": exec_s,
+                    "width_px": pil.width, "height_px": pil.height}
+
+        t_ocr = time.time()
+        with ThreadPoolExecutor(max_workers=len(page_indices)) as pool:
+            page_results = list(pool.map(_ocr_page, page_indices))
+        t_done = time.time()
+
+        page_results.sort(key=lambda r: r["page"])
+        valid     = [r for r in page_results if r.get("text")]
+        avg_exec  = round(sum(r["exec_s"] for r in valid) / len(valid), 3) if valid else None
+        max_exec  = round(max((r["exec_s"] for r in page_results), default=0), 3)
+
+        timing = {
+            "render_s":       round(t_render - t0,    3),
+            "ocr_wall_s":     round(t_done   - t_ocr, 3),
+            "ocr_avg_exec_s": avg_exec,
+            "ocr_max_exec_s": max_exec,
+            "total_s":        round(t_done   - t0,    3),
+        }
+        print(
+            f"[single/fullpage] pages={len(page_indices)} "
+            f"render={timing['render_s']:.2f}s "
+            f"ocr_wall={timing['ocr_wall_s']:.2f}s "
+            f"avg_exec={avg_exec}s max_exec={max_exec}s "
+            f"total={timing['total_s']:.2f}s"
+        )
+        return {
+            "text":  "\n\n".join(r["text"] for r in valid if r["text"]),
+            "pages": page_results,
+            "meta":  {
+                "n_pages":     len(page_indices),
+                "pages":       page_indices,
+                "pages_info":  pages_info,
+                "timing":      timing,
+            },
+        }
+
+    @modal.fastapi_endpoint(method="POST")
     def process(self, req: _Request) -> dict:
         import fitz  # PyMuPDF — installed via glmocr base dep
 
@@ -580,12 +693,10 @@ class DocumentOCRWorker:
         skip_regions = sum(1 for b in all_blocks if     b.get("image_b64"))
 
         timing = {
-            "render_s":   round(t_render   - t0,          3),
-            # glmocr pipeline covers layout + OCR + post-process in one call;
-            # individual stage times are not exposed by the integrated pipeline.
-            "ocr_wall_s": round(t_pipeline - t_render,    3),
-            "assemble_s": round(t_assemble - t_pipeline,  3),
-            "total_s":    round(t_assemble - t0,          3),
+            "render_s":   round(t_render   - t0,         3),
+            "ocr_wall_s": round(t_pipeline - t_render,   3),
+            "assemble_s": round(t_assemble - t_pipeline, 3),
+            "total_s":    round(t_assemble - t0,         3),
         }
         if hasattr(self, "_cold_start_timing"):
             timing["cold_start"] = self._cold_start_timing
@@ -600,7 +711,7 @@ class DocumentOCRWorker:
         )
 
         return {
-            "markdown": "\n\n".join(p for p in markdown_parts if p),
+            "markdown": "\n\n".join(markdown_parts),
             "blocks":   all_blocks,
             "meta": {
                 "pages":         page_indices,

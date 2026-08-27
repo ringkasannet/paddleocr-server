@@ -21,6 +21,11 @@ from pathlib import Path
 import requests
 
 ENDPOINT = "https://ringkasan-net--glm-ocr-single-documentocrworker-process.modal.run"
+
+KNOWN_APPS = {
+    "single":          ENDPOINT,
+    "single-fullpage": "https://ringkasan-net--glm-ocr-single-documentocrworker-fullpage.modal.run",
+}
 COLD_THRESHOLD = 3.0
 GPU_RATE  = 0.000222   # L4 $/s (Modal on-demand)
 IDR_RATE  = 17_500     # IDR per USD
@@ -364,9 +369,15 @@ def main():
     ap.add_argument("--concurrent", type=int, default=1)
     ap.add_argument("--delay",      type=float, default=0)
     ap.add_argument("--timeline",   action="store_true")
-    ap.add_argument("--endpoint",   default=ENDPOINT)
+    ap.add_argument("--endpoint",   default=None,
+                    help="full endpoint URL (overrides --app)")
+    ap.add_argument("--app",        default=None,
+                    choices=list(KNOWN_APPS), metavar="|".join(KNOWN_APPS),
+                    help="shortcut: single | single-fullpage")
     ap.add_argument("--save",       action="store_true")
     args = ap.parse_args()
+
+    endpoint = args.endpoint or KNOWN_APPS.get(args.app, ENDPOINT)
 
     pdf_bytes = Path(args.file).read_bytes()
     stem      = Path(args.file).stem
@@ -375,7 +386,7 @@ def main():
     if pages is None and args.num_pages is not None:
         pages = list(range(args.num_pages))
 
-    print(f"Endpoint   : {args.endpoint}")
+    print(f"Endpoint   : {endpoint}")
     print(f"File       : {args.file}  ({len(pdf_bytes):,} bytes)")
     print(f"Pages      : {pages if pages is not None else 'all'}  DPI={args.dpi}")
     print(f"Rounds     : {args.repeat}  ×  {args.concurrent} concurrent")
@@ -389,7 +400,7 @@ def main():
             time.sleep(args.delay)
 
         prefix  = f"round {r+1}" if args.repeat > 1 else "request"
-        results, elapsed = run_round(prefix, args.concurrent, args.endpoint,
+        results, elapsed = run_round(prefix, args.concurrent, endpoint,
                                      pdf_bytes, pages, args.dpi, args.timeline)
         last_elapsed = elapsed
 

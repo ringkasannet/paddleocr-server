@@ -46,17 +46,24 @@ def _container_label(queued_s) -> str:
 # ── network call ──────────────────────────────────────────────────────────────
 
 def send(endpoint: str, file_bytes: bytes, file_type: int, dpi: int,
-         label: str, round_t0: float | None = None) -> tuple[str, float, dict]:
+         label: str, round_t0: float | None = None,
+         threshold: float | None = None,
+         heading_threshold: float | None = None,
+         input_size: int | None = None) -> tuple[str, float, dict]:
     t0 = time.time()
     t_sent_offset = round(t0 - round_t0, 3) if round_t0 is not None else 0.0
     t_enc = time.time()
     b64 = base64.b64encode(file_bytes).decode()
     encode_s = round(time.time() - t_enc, 3)
+    payload: dict = {"file": b64, "fileType": file_type, "dpi": dpi}
+    if threshold         is not None: payload["detect_threshold"]  = threshold
+    if heading_threshold is not None: payload["heading_threshold"] = heading_threshold
+    if input_size        is not None: payload["input_size"]        = input_size
     try:
         # stream=True: t_first_byte is when server finishes processing and starts sending
         with requests.post(
             endpoint, timeout=600,
-            json={"file": b64, "fileType": file_type, "dpi": dpi},
+            json=payload,
             stream=True,
         ) as resp:
             resp.raise_for_status()
@@ -496,13 +503,18 @@ def run_round(label_prefix: str, n: int, endpoint: str,
               file_bytes: bytes, file_type: int, dpi: int,
               show_timeline: bool = False,
               gap: float = 0.0, gap_max: float | None = None,
+              threshold: float | None = None,
+              heading_threshold: float | None = None,
+              input_size: int | None = None,
               ) -> tuple[list[tuple[str, float, dict]], float | None]:
     import random
 
     if n == 1:
         label = label_prefix
         print(f"\nSending {label} …")
-        return [send(endpoint, file_bytes, file_type, dpi, label)], None
+        return [send(endpoint, file_bytes, file_type, dpi, label,
+                     threshold=threshold, heading_threshold=heading_threshold,
+                     input_size=input_size)], None
 
     if gap > 0 or gap_max is not None:
         lo, hi = gap, (gap_max if gap_max is not None else gap)
@@ -516,7 +528,8 @@ def run_round(label_prefix: str, n: int, endpoint: str,
     with ThreadPoolExecutor(max_workers=n) as pool:
         for i in range(n):
             lbl = f"{label_prefix} #{i+1}"
-            futures_map[pool.submit(send, endpoint, file_bytes, file_type, dpi, lbl, round_t0)] = lbl
+            futures_map[pool.submit(send, endpoint, file_bytes, file_type, dpi, lbl, round_t0,
+                                    threshold, heading_threshold, input_size)] = lbl
             if i < n - 1 and (gap > 0 or gap_max is not None):
                 lo, hi = gap, (gap_max if gap_max is not None else gap)
                 time.sleep(random.uniform(lo, hi) if hi > lo else lo)
@@ -542,10 +555,13 @@ def main():
     ap.add_argument("--concurrent", type=int, default=1)
     ap.add_argument("--gap",        type=float, default=0.0,  metavar="S", help="Fixed delay between request dispatches (seconds)")
     ap.add_argument("--gap-max",    type=float, default=None, metavar="S", help="If set, gap is random uniform between --gap and --gap-max")
-    ap.add_argument("--detail",     action="store_true", help="Print full per-request detail block")
-    ap.add_argument("--no-regions", action="store_true")
-    ap.add_argument("--timeline",   action="store_true", help="Print ASCII bar timeline")
-    ap.add_argument("--save",       action="store_true")
+    ap.add_argument("--detail",            action="store_true", help="Print full per-request detail block")
+    ap.add_argument("--no-regions",        action="store_true")
+    ap.add_argument("--timeline",          action="store_true", help="Print ASCII bar timeline")
+    ap.add_argument("--save",              action="store_true")
+    ap.add_argument("--threshold",         type=float, default=None, help="Detection confidence threshold (default 0.3)")
+    ap.add_argument("--heading-threshold", type=float, default=None, help="Heading confidence threshold (default 0.2)")
+    ap.add_argument("--input-size",        type=int,   default=None, help="Model input resolution override (default 800)")
     args = ap.parse_args()
 
     file_type  = 1 if args.image else 0
@@ -555,6 +571,9 @@ def main():
     print(f"Endpoint   : {args.endpoint}")
     print(f"File       : {args.file}  ({len(file_bytes):,} bytes)")
     print(f"Type       : {'image' if args.image else 'PDF'}  DPI={args.dpi}")
+    if args.threshold         is not None: print(f"Threshold  : {args.threshold}  (default 0.3)")
+    if args.heading_threshold is not None: print(f"Heading thr: {args.heading_threshold}  (default 0.2)")
+    if args.input_size        is not None: print(f"Input size : {args.input_size}px  (default 800)")
     if args.gap_max is not None:
         gap_desc = f"random {args.gap:.2f}–{args.gap_max:.2f}s gap"
     elif args.gap > 0:
@@ -571,7 +590,10 @@ def main():
         results, round_elapsed = run_round(prefix, args.concurrent, args.endpoint,
                                            file_bytes, file_type, args.dpi,
                                            show_timeline=args.timeline,
-                                           gap=args.gap, gap_max=args.gap_max)
+                                           gap=args.gap, gap_max=args.gap_max,
+                                           threshold=args.threshold,
+                                           heading_threshold=args.heading_threshold,
+                                           input_size=args.input_size)
         last_round_elapsed = round_elapsed
         for label, wall, data in results:
             if args.detail or len(results) == 1:
